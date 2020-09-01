@@ -1,0 +1,14 @@
+[2020-08-31 07:51:20.864] [sharedprocess] [info] main {"machineId":"852c42cac900b23f73c5795405eaf36257f35cf0fdac3347e9a5029d9d7573f1","windowId":2}
+[2020-08-31 07:52:00.875] [sharedprocess] [info] Starting to clean up unused language packs.
+[2020-08-31 07:54:34.949] [sharedprocess] [info] Installing extension: arcticicestudio.nord-visual-studio-code
+[2020-08-31 07:54:35.226] [sharedprocess] [info] Downloaded extension: arcticicestudio.nord-visual-studio-code /home/jeff/.config/Code - OSS/CachedExtensionVSIXs/arcticicestudio.nord-visual-studio-code-0.14.0
+[2020-08-31 07:54:35.267] [sharedprocess] [info] Extracted extension to /home/jeff/.vscode-oss/extensions/.arcticicestudio.nord-visual-studio-code-0.14.0: arcticicestudio.nord-visual-studio-code
+[2020-08-31 07:54:35.267] [sharedprocess] [info] Renamed to /home/jeff/.vscode-oss/extensions/arcticicestudio.nord-visual-studio-code-0.14.0
+[2020-08-31 07:54:35.268] [sharedprocess] [info] Installation completed. arcticicestudio.nord-visual-studio-code
+[2020-08-31 07:54:35.301] [sharedprocess] [info] Extensions installed successfully: arcticicestudio.nord-visual-studio-code
+[2020-08-31 08:05:01.772] [sharedprocess] [info] Installing extension: kamikillerto.vscode-colorize
+[2020-08-31 08:05:02.689] [sharedprocess] [info] Downloaded extension: kamikillerto.vscode-colorize /home/jeff/.config/Code - OSS/CachedExtensionVSIXs/kamikillerto.vscode-colorize-0.8.17
+[2020-08-31 08:05:02.937] [sharedprocess] [info] Extracted extension to /home/jeff/.vscode-oss/extensions/.kamikillerto.vscode-colorize-0.8.17: kamikillerto.vscode-colorize
+[2020-08-31 08:05:02.937] [sharedprocess] [info] Renamed to /home/jeff/.vscode-oss/extensions/kamikillerto.vscode-colorize-0.8.17
+[2020-08-31 08:05:02.938] [sharedprocess] [info] Installation completed. kamikillerto.vscode-colorize
+[2020-08-31 08:05:02.965] [sharedprocess] [info] Extensions installed successfully: kamikillerto.vscode-colorize

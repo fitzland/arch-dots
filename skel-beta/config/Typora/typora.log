@@ -1,0 +1,151 @@
+INFO 8/28/2020, 2:42:21 PM  luanchFromDiffVersion, pre version is undefined
+INFO 8/28/2020, 2:42:21 PM  overwriteThemeFolder
+INFO 8/28/2020, 2:42:21 PM  ------------------start------------------
+INFO 8/28/2020, 2:42:21 PM  typora version: 0.9.94
+DEBUG 8/28/2020, 2:42:21 PM  [ '/usr/share/typora/Typora' ]
+INFO 8/28/2020, 2:42:21 PM  [Raven] instanceKey = a9455e85-8376-4eba-a018-18eb752c903d
+DEBUG 8/28/2020, 2:42:21 PM  app.openFile
+INFO 8/28/2020, 2:42:21 PM  [focus] 1
+INFO 8/28/2020, 2:42:21 PM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
+DEBUG 8/28/2020, 2:42:47 PM  app.openFile
+INFO 8/28/2020, 2:42:47 PM  switchDocument
+INFO 8/28/2020, 2:42:47 PM  addRecentDocument
+INFO 8/28/2020, 2:43:01 PM  ----------------before-quit-----------------
+INFO 8/28/2020, 2:43:01 PM  ------------------will-quit------------------
+INFO 8/28/2020, 3:00:56 PM  ------------------start------------------
+INFO 8/28/2020, 3:00:56 PM  typora version: 0.9.94
+DEBUG 8/28/2020, 3:00:56 PM  [ '/usr/share/typora/Typora' ]
+INFO 8/28/2020, 3:00:56 PM  [Raven] instanceKey = 5ad65774-91cc-4331-bbe6-9b99ce59c7aa
+DEBUG 8/28/2020, 3:00:56 PM  app.openFile
+INFO 8/28/2020, 3:00:57 PM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
+INFO 8/28/2020, 3:00:57 PM  [focus] 1
+INFO 8/28/2020, 3:02:26 PM  [blur] 1
+INFO 8/28/2020, 3:02:47 PM  [focus] 1
+INFO 8/28/2020, 3:02:47 PM  [blur] 1
+INFO 8/28/2020, 3:02:47 PM  [focus] 1
+INFO 8/28/2020, 3:02:47 PM  [blur] 1
+INFO 8/28/2020, 3:02:47 PM  [focus] 1
+INFO 8/28/2020, 3:02:47 PM  addRecentDocument
+INFO 8/28/2020, 3:02:51 PM  ----------------before-quit-----------------
+INFO 8/28/2020, 3:02:51 PM  ------------------will-quit------------------
+INFO 8/30/2020, 2:51:51 PM  luanchFromDiffVersion, pre version is 0.9.94
+INFO 8/30/2020, 2:51:51 PM  overwriteThemeFolder
+INFO 8/30/2020, 2:51:51 PM  ------------------start------------------
+INFO 8/30/2020, 2:51:51 PM  typora version: 0.9.95
+DEBUG 8/30/2020, 2:51:51 PM  [ '/usr/share/typora/Typora' ]
+INFO 8/30/2020, 2:51:51 PM  [Raven] instanceKey = 58fb46da-58ea-4685-bed0-05b1edad3234
+INFO 8/30/2020, 2:51:52 PM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
+DEBUG 8/30/2020, 2:51:52 PM  app.openFile
+INFO 8/30/2020, 2:53:00 PM  [focus] 1
+INFO 8/30/2020, 2:53:13 PM  [blur] 1
+INFO 8/30/2020, 2:57:32 PM  [focus] 1
+INFO 8/30/2020, 2:57:33 PM  [blur] 1
+INFO 8/30/2020, 2:58:21 PM  [focus] 1
+INFO 8/30/2020, 2:58:23 PM  [blur] 1
+INFO 8/30/2020, 2:58:24 PM  [focus] 1
+INFO 8/30/2020, 2:58:48 PM  [blur] 1
+INFO 8/30/2020, 2:58:48 PM  [focus] 1
+INFO 8/30/2020, 2:58:48 PM  [blur] 1
+INFO 8/30/2020, 2:58:48 PM  [focus] 1
+INFO 8/30/2020, 2:58:48 PM  [blur] 1
+INFO 8/30/2020, 2:58:48 PM  [focus] 1
+INFO 8/30/2020, 2:58:51 PM  [blur] 1
+INFO 8/30/2020, 2:58:53 PM  [focus] 1
+INFO 8/30/2020, 2:59:56 PM  [blur] 1
+INFO 8/30/2020, 2:59:56 PM  [focus] 1
+INFO 8/30/2020, 2:59:56 PM  [blur] 1
+INFO 8/30/2020, 2:59:56 PM  [focus] 1
+INFO 8/30/2020, 2:59:56 PM  [blur] 1
+INFO 8/30/2020, 2:59:56 PM  [focus] 1
+INFO 8/30/2020, 2:59:57 PM  [blur] 1
+INFO 8/30/2020, 2:59:57 PM  [focus] 1
+INFO 8/30/2020, 3:00:02 PM  [blur] 1
+INFO 8/30/2020, 3:02:53 PM  [focus] 1
+INFO 8/30/2020, 3:02:57 PM  ----------------before-quit-----------------
+INFO 8/30/2020, 3:02:57 PM  ------------------will-quit------------------
+INFO 8/30/2020, 3:03:01 PM  ------------------start------------------
+INFO 8/30/2020, 3:03:01 PM  typora version: 0.9.95
+DEBUG 8/30/2020, 3:03:01 PM  [ '/usr/share/typora/Typora' ]
+INFO 8/30/2020, 3:03:01 PM  [Raven] instanceKey = 094f2039-9c7f-4da3-a830-b334ccc2a03e
+DEBUG 8/30/2020, 3:03:01 PM  app.openFile
+INFO 8/30/2020, 3:03:01 PM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
+INFO 8/30/2020, 3:03:01 PM  [focus] 1
+INFO 8/30/2020, 3:03:20 PM  updateTheme
+INFO 8/30/2020, 3:03:34 PM  [blur] 1
+INFO 8/30/2020, 3:03:35 PM  [focus] 1
+INFO 8/30/2020, 3:03:36 PM  [blur] 1
+INFO 8/30/2020, 3:04:01 PM  [focus] 1
+INFO 8/30/2020, 3:04:38 PM  [blur] 1
+INFO 8/30/2020, 3:04:38 PM  [focus] 1
+INFO 8/30/2020, 3:04:38 PM  [blur] 1
+INFO 8/30/2020, 3:04:38 PM  [focus] 1
+INFO 8/30/2020, 3:04:38 PM  [blur] 1
+INFO 8/30/2020, 3:04:38 PM  [focus] 1
+INFO 8/30/2020, 3:04:38 PM  [blur] 1
+INFO 8/30/2020, 3:04:48 PM  [focus] 1
+INFO 8/30/2020, 3:04:52 PM  ----------------before-quit-----------------
+INFO 8/30/2020, 3:04:52 PM  ------------------will-quit------------------
+INFO 8/30/2020, 3:04:55 PM  ------------------start------------------
+INFO 8/30/2020, 3:04:55 PM  typora version: 0.9.95
+DEBUG 8/30/2020, 3:04:55 PM  [ '/usr/share/typora/Typora' ]
+INFO 8/30/2020, 3:04:55 PM  [Raven] instanceKey = f2833349-fadf-432b-8bc6-2f6a0c9cf449
+DEBUG 8/30/2020, 3:04:55 PM  app.openFile
+INFO 8/30/2020, 3:04:55 PM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
+INFO 8/30/2020, 3:04:55 PM  [focus] 1
+INFO 8/30/2020, 3:05:07 PM  updateTheme
+INFO 8/30/2020, 3:05:12 PM  ----------------before-quit-----------------
+INFO 8/30/2020, 3:05:12 PM  ------------------will-quit------------------
+INFO 8/30/2020, 3:05:15 PM  ------------------start------------------
+INFO 8/30/2020, 3:05:15 PM  typora version: 0.9.95
+DEBUG 8/30/2020, 3:05:15 PM  [ '/usr/share/typora/Typora' ]
+INFO 8/30/2020, 3:05:15 PM  [Raven] instanceKey = 99314240-635c-4a03-b2b5-13508fc43468
+DEBUG 8/30/2020, 3:05:15 PM  app.openFile
+INFO 8/30/2020, 3:05:15 PM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
+INFO 8/30/2020, 3:05:15 PM  [focus] 1
+INFO 8/30/2020, 3:05:29 PM  [blur] 1
+INFO 8/30/2020, 3:05:40 PM  [focus] 1
+INFO 8/30/2020, 3:05:40 PM  [blur] 1
+INFO 8/30/2020, 3:05:40 PM  [focus] 1
+INFO 8/30/2020, 3:05:40 PM  [blur] 1
+INFO 8/30/2020, 3:05:40 PM  [focus] 1
+DEBUG 8/30/2020, 3:05:40 PM  false
+INFO 8/30/2020, 3:05:40 PM  addRecentDocument
+INFO 8/30/2020, 3:05:58 PM  switchDocument
+INFO 8/30/2020, 3:05:58 PM  addRecentDocument
+INFO 8/30/2020, 3:05:59 PM  switchDocument
+INFO 8/30/2020, 3:05:59 PM  addRecentDocument
+INFO 8/30/2020, 3:06:07 PM  switchDocument
+INFO 8/30/2020, 3:06:07 PM  addRecentDocument
+INFO 8/30/2020, 3:06:09 PM  switchDocument
+INFO 8/30/2020, 3:06:09 PM  addRecentDocument
+INFO 8/30/2020, 3:06:12 PM  switchDocument
+INFO 8/30/2020, 3:06:12 PM  addRecentDocument
+INFO 8/30/2020, 3:06:13 PM  switchDocument
+INFO 8/30/2020, 3:06:13 PM  addRecentDocument
+DEBUG 8/30/2020, 3:06:13 PM  lastSync null, timestamp 1598817969095, mtime 1516164966000
+INFO 8/30/2020, 3:06:19 PM  switchDocument
+INFO 8/30/2020, 3:06:19 PM  addRecentDocument
+DEBUG 8/30/2020, 3:06:20 PM  lastSync null, timestamp 1598817972377, mtime 1519222099000
+INFO 8/30/2020, 3:06:23 PM  switchDocument
+INFO 8/30/2020, 3:06:23 PM  addRecentDocument
+INFO 8/30/2020, 3:07:12 PM  switchDocument
+INFO 8/30/2020, 3:07:12 PM  addRecentDocument
+INFO 8/30/2020, 3:07:14 PM  switchDocument
+INFO 8/30/2020, 3:07:14 PM  addRecentDocument
+INFO 8/30/2020, 3:07:19 PM  switchDocument
+INFO 8/30/2020, 3:07:19 PM  addRecentDocument
+INFO 8/30/2020, 3:07:26 PM  switchDocument
+INFO 8/30/2020, 3:07:26 PM  addRecentDocument
+INFO 8/30/2020, 3:08:41 PM  ----------------before-quit-----------------
+INFO 8/30/2020, 3:08:41 PM  ------------------will-quit------------------
+INFO 8/30/2020, 10:00:39 PM  luanchFromDiffVersion, pre version is 0.9.95
+INFO 8/30/2020, 10:00:39 PM  overwriteThemeFolder
+INFO 8/30/2020, 10:00:39 PM  ------------------start------------------
+INFO 8/30/2020, 10:00:39 PM  typora version: 0.9.94
+DEBUG 8/30/2020, 10:00:39 PM  [ '/usr/share/typora/Typora' ]
+INFO 8/30/2020, 10:00:39 PM  [Raven] instanceKey = 1b14fd6d-1042-4afc-af71-983997973d04
+INFO 8/30/2020, 10:00:39 PM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
+DEBUG 8/30/2020, 10:00:39 PM  app.openFile
+INFO 8/30/2020, 10:00:39 PM  [focus] 1
+INFO 8/30/2020, 10:00:52 PM  ----------------before-quit-----------------
+INFO 8/30/2020, 10:00:52 PM  ------------------will-quit------------------

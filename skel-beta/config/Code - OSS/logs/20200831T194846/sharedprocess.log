@@ -1,0 +1,10 @@
+[2020-08-31 19:48:50.128] [sharedprocess] [info] main {"machineId":"852c42cac900b23f73c5795405eaf36257f35cf0fdac3347e9a5029d9d7573f1","windowId":2}
+[2020-08-31 19:49:30.141] [sharedprocess] [info] Starting to clean up unused language packs.
+[2020-08-31 19:56:35.353] [sharedprocess] [info] Uninstalling extension: kamikillerto.vscode-colorize
+[2020-08-31 19:56:35.377] [sharedprocess] [info] Successfully uninstalled extension: kamikillerto.vscode-colorize
+[2020-08-31 19:56:55.131] [sharedprocess] [info] Installing extension: naumovs.color-highlight
+[2020-08-31 19:56:55.586] [sharedprocess] [info] Downloaded extension: naumovs.color-highlight /home/jeff/.config/Code - OSS/CachedExtensionVSIXs/naumovs.color-highlight-2.3.0
+[2020-08-31 19:56:55.804] [sharedprocess] [info] Extracted extension to /home/jeff/.vscode-oss/extensions/.naumovs.color-highlight-2.3.0: naumovs.color-highlight
+[2020-08-31 19:56:55.804] [sharedprocess] [info] Renamed to /home/jeff/.vscode-oss/extensions/naumovs.color-highlight-2.3.0
+[2020-08-31 19:56:55.805] [sharedprocess] [info] Installation completed. naumovs.color-highlight
+[2020-08-31 19:56:55.839] [sharedprocess] [info] Extensions installed successfully: naumovs.color-highlight
