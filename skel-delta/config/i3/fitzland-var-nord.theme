@@ -7,43 +7,31 @@
     # Nord theme colors
     # https://www.nordtheme.com/docs/colors-and-palettes
 
-    set $barc00 #2E3440
-    set $barc01 #3B4252
-    set $barc02 #434C5E
-    set $barc03 #4C566A
-    set $barc04 #5E81AC
-    set $barc05 #81A1C1
-    set $barc06 #D8DEE9
-    set $barc07 #ECEFF4
-    set $barc08 #88C0D0
-    set $barc09 #E5E9F0
-    set $barc0A #8FBCBB
-    set $barc0B #A3BE8C
-    set $barc0C #EBCB8B
-    set $barc0D #B48EAD
-    set $barc0E #D08770
-    set $barc0F #BF616A
+    # i3 colors
 
-    ##STOP THEMING BAR
+set $foc-bdr-color       #5E81AC
+set $foc-bgr-color       #5E81AC
+set $foc-txt-color       #ECEFF4
+set $foc-ind-color       #5E81AC
+set $unf-bdr-color       #3B4252
+set $unf-bgr-color       #3B4252
+set $unf-txt-color       #D8DEE9
+set $unf-ind-color       #3B4252
+set $nac-bdr-color       #4C566A
+set $nac-bgr-color       #4C566A
+set $nac-txt-color       #D8DEE9
+set $nac-ind-color       #4C566A
+set $hld-bdr-color       #434C5E
+set $hld-bgr-color       #434C5E
+set $hld-txt-color       #81A1C1
+set $hld-ind-color       #434C5E
+set $urg-bdr-color       #BF616A
+set $urg-bgr-color       #BF616A
+set $urg-txt-color       #ECEFF4
+set $urg-ind-color       #BF616A
 
-    ##START THEMING WM
-    #Theme name : f1tzl4nd Var Nord
+set $bg-color            #2E3440
+set $statline-color      #81A1C1
+set $sep-color           #4C566A
 
-    set $winc00 #2E3440
-    set $winc01 #3B4252
-    set $winc02 #434C5E
-    set $winc03 #4C566A
-    set $winc04 #5E81AC
-    set $winc05 #81A1C1
-    set $winc06 #D8DEE9
-    set $winc07 #ECEFF4
-    set $winc08 #88C0D0
-    set $winc09 #E5E9F0
-    set $winc0A #8FBCBB
-    set $winc0B #A3BE8C
-    set $winc0C #EBCB8B
-    set $winc0D #B48EAD
-    set $winc0E #D08770
-    set $winc0F #BF616A
-
-    ##STOP THEMING WM
+##STOP THEMING
