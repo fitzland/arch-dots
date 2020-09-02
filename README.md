@@ -1,1 +1,1 @@
-# home-dots
+# arch-dots
