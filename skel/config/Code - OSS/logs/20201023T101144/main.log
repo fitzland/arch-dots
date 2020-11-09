@@ -1,0 +1,13 @@
+[2020-10-23 10:11:44.266] [main] [info] update#ctor - updates are disabled as there is no update URL
+[2020-10-23 10:11:47.573] [main] [error] [uncaught exception in main]: Error: connect ECONNRESET /run/user/1000/vscode-1b65c4ec-1.50.1-shared.sock
+[2020-10-23 10:11:47.573] [main] [error] Error: connect ECONNRESET /run/user/1000/vscode-1b65c4ec-1.50.1-shared.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (net.js:1134:16)
+[2020-10-23 10:11:47.573] [main] [error] [uncaught exception in main]: Error: connect ECONNRESET /run/user/1000/vscode-1b65c4ec-1.50.1-shared.sock
+[2020-10-23 10:11:47.573] [main] [error] Error: connect ECONNRESET /run/user/1000/vscode-1b65c4ec-1.50.1-shared.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (net.js:1134:16)
+[2020-10-23 10:11:47.574] [main] [error] [uncaught exception in main]: Error: connect ECONNRESET /run/user/1000/vscode-1b65c4ec-1.50.1-shared.sock
+[2020-10-23 10:11:47.574] [main] [error] Error: connect ECONNRESET /run/user/1000/vscode-1b65c4ec-1.50.1-shared.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (net.js:1134:16)
+[2020-10-23 10:11:47.574] [main] [error] [uncaught exception in main]: Error: connect ECONNRESET /run/user/1000/vscode-1b65c4ec-1.50.1-shared.sock
+[2020-10-23 10:11:47.574] [main] [error] Error: connect ECONNRESET /run/user/1000/vscode-1b65c4ec-1.50.1-shared.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (net.js:1134:16)

@@ -352,8 +352,8 @@ exec --no-startup-id nitrogen --restore
 
 # transparency 
 #if you want transparency on non-focused windows, ...
-#exec_always --no-startup-id picom --config ~/.config/i3/picom.conf
-exec_always --no-startup-id compton --config ~/.config/i3/compton.conf
+exec_always --no-startup-id picom --config ~/.config/i3/picom.conf
+#exec_always --no-startup-id compton --config ~/.config/i3/compton.conf
 
 
 # TRAY APPLICATIONS
@@ -365,7 +365,8 @@ exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 exec --no-startup-id nm-applet
 
 # bluetooth
-exec --no-startup-id blueman-applet
+#exec --no-startup-id blueman-applet
+exec --no-startup-id blueberry-tray
 
 # volume
 exec --no-startup-id volumeicon

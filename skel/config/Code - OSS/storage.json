@@ -3,10 +3,19 @@
     "openedPathsList": {
         "workspaces3": [],
         "files2": [
-            "file:///home/jeff/.config/i3/fitzland-var-adapta.theme",
-            "file:///home/jeff/.config/i3/fitzland-var-nord.theme",
+            "file:///home/jeff/Dropbox/templates/Email/email-template-dark-myclass.htm",
+            "file:///home/jeff/Dropbox/templates/Email/email-template-dark-welcome.htm",
+            "file:///home/jeff/Dropbox/templates/Email/email-template-dark.htm",
+            "file:///home/jeff/Dropbox/templates/Email/email-template-fbccana-jeff.htm",
+            "file:///home/jeff/Dropbox/church/discipleship/reunion/reunion-03-biblestudy-devotion-kindle.html",
+            "file:///home/jeff/Dropbox/church/discipleship/reunion/reunion-biblestudy-devotion-kindle.html",
+            "file:///home/jeff/Dropbox/church/discipleship/reunion/reunion-01-biblestudy-truth.rtf",
             "file:///home/jeff/.config/i3/config",
             "file:///home/jeff/git/fitzland/deb-dots/skel/config/i3/config",
+            "file:///home/jeff/Dropbox/church/discipleship/reunion/baptist-beliefs-jesus-lord.txt",
+            "file:///home/jeff/Dropbox/church/media/web/wordpress/firstbaptistcorsicana.wordpress.2020-09-02.xml",
+            "file:///home/jeff/.config/i3/fitzland-var-adapta.theme",
+            "file:///home/jeff/.config/i3/fitzland-var-nord.theme",
             "file:///home/jeff/.config/i3/scripts/bandwidth2",
             "file:///home/jeff/.config/i3/scripts/openweather.conf",
             "file:///home/jeff/.config/i3/scripts/memory",
@@ -22,37 +31,16 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/jeff/.config/Code - OSS/Backups/1598969637972",
+            "backupPath": "/home/jeff/.config/Code - OSS/Backups/1603466949533",
             "uiState": {
                 "mode": 1,
-                "x": 1440,
+                "x": 0,
                 "y": 22,
                 "width": 1440,
                 "height": 854
             }
         },
-        "openedWindows": [
-            {
-                "backupPath": "/home/jeff/.config/Code - OSS/Backups/1598969607225",
-                "uiState": {
-                    "mode": 1,
-                    "x": 0,
-                    "y": 22,
-                    "width": 1440,
-                    "height": 854
-                }
-            },
-            {
-                "backupPath": "/home/jeff/.config/Code - OSS/Backups/1598969637972",
-                "uiState": {
-                    "mode": 1,
-                    "x": 1440,
-                    "y": 22,
-                    "width": 1440,
-                    "height": 854
-                }
-            }
-        ]
+        "openedWindows": []
     },
     "lastKnownMenubarData": {
         "menus": {
@@ -88,7 +76,8 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -97,23 +86,78 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/jeff/.config/i3/fitzland-var-adapta.theme",
-                                        "path": "/home/jeff/.config/i3/fitzland-var-adapta.theme",
+                                        "external": "file:///home/jeff/Dropbox/templates/Email/email-template-dark-myclass.htm",
+                                        "path": "/home/jeff/Dropbox/templates/Email/email-template-dark-myclass.htm",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/.config/i3/fitzland-var-adapta.theme"
+                                    "label": "~/Dropbox/templates/Email/email-template-dark-myclass.htm"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/jeff/.config/i3/fitzland-var-nord.theme",
-                                        "path": "/home/jeff/.config/i3/fitzland-var-nord.theme",
+                                        "external": "file:///home/jeff/Dropbox/templates/Email/email-template-dark-welcome.htm",
+                                        "path": "/home/jeff/Dropbox/templates/Email/email-template-dark-welcome.htm",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/.config/i3/fitzland-var-nord.theme"
+                                    "label": "~/Dropbox/templates/Email/email-template-dark-welcome.htm"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/jeff/Dropbox/templates/Email/email-template-dark.htm",
+                                        "path": "/home/jeff/Dropbox/templates/Email/email-template-dark.htm",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Dropbox/templates/Email/email-template-dark.htm"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/jeff/Dropbox/templates/Email/email-template-fbccana-jeff.htm",
+                                        "path": "/home/jeff/Dropbox/templates/Email/email-template-fbccana-jeff.htm",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Dropbox/templates/Email/email-template-fbccana-jeff.htm"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/jeff/Dropbox/church/discipleship/reunion/reunion-03-biblestudy-devotion-kindle.html",
+                                        "path": "/home/jeff/Dropbox/church/discipleship/reunion/reunion-03-biblestudy-devotion-kindle.html",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Dropbox/church/discipleship/reunion/reunion-03-biblestudy-devotion-kindle.html"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/jeff/Dropbox/church/discipleship/reunion/reunion-biblestudy-devotion-kindle.html",
+                                        "path": "/home/jeff/Dropbox/church/discipleship/reunion/reunion-biblestudy-devotion-kindle.html",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Dropbox/church/discipleship/reunion/reunion-biblestudy-devotion-kindle.html"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/jeff/Dropbox/church/discipleship/reunion/reunion-01-biblestudy-truth.rtf",
+                                        "path": "/home/jeff/Dropbox/church/discipleship/reunion/reunion-01-biblestudy-truth.rtf",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Dropbox/church/discipleship/reunion/reunion-01-biblestudy-truth.rtf"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -141,67 +185,12 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/jeff/.config/i3/scripts/bandwidth2",
-                                        "path": "/home/jeff/.config/i3/scripts/bandwidth2",
+                                        "external": "file:///home/jeff/Dropbox/church/discipleship/reunion/baptist-beliefs-jesus-lord.txt",
+                                        "path": "/home/jeff/Dropbox/church/discipleship/reunion/baptist-beliefs-jesus-lord.txt",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/.config/i3/scripts/bandwidth2"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/jeff/.config/i3/scripts/openweather.conf",
-                                        "path": "/home/jeff/.config/i3/scripts/openweather.conf",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/.config/i3/scripts/openweather.conf"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/jeff/.config/i3/scripts/memory",
-                                        "path": "/home/jeff/.config/i3/scripts/memory",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/.config/i3/scripts/memory"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/jeff/.config/i3/keybindings",
-                                        "path": "/home/jeff/.config/i3/keybindings",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/.config/i3/keybindings"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/jeff/.config/i3/i3blocks.conf",
-                                        "path": "/home/jeff/.config/i3/i3blocks.conf",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/.config/i3/i3blocks.conf"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/jeff/.bashrc-personal",
-                                        "path": "/home/jeff/.bashrc-personal",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/.bashrc-personal"
+                                    "label": "~/Dropbox/church/discipleship/reunion/baptist-beliefs-jesus-lord.txt"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -720,7 +709,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
