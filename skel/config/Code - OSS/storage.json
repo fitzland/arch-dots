@@ -3,44 +3,21 @@
     "openedPathsList": {
         "workspaces3": [],
         "files2": [
-            "file:///home/jeff/Dropbox/templates/Email/email-template-dark-myclass.htm",
-            "file:///home/jeff/Dropbox/templates/Email/email-template-dark-welcome.htm",
-            "file:///home/jeff/Dropbox/templates/Email/email-template-dark.htm",
-            "file:///home/jeff/Dropbox/templates/Email/email-template-fbccana-jeff.htm",
-            "file:///home/jeff/Dropbox/church/discipleship/reunion/reunion-03-biblestudy-devotion-kindle.html",
-            "file:///home/jeff/Dropbox/church/discipleship/reunion/reunion-biblestudy-devotion-kindle.html",
-            "file:///home/jeff/Dropbox/church/discipleship/reunion/reunion-01-biblestudy-truth.rtf",
+            "file:///home/jeff/.config/Typora/themes/law.user.css",
+            "file:///home/jeff/.config/Typora/themes/nord.css",
+            "file:///home/jeff/.config/Typora/themes/night.css",
+            "file:///home/jeff/.config/Typora/themes/newsprint.user.css",
+            "file:///home/jeff/.config/Typora/themes/paper.user.css",
+            "file:///home/jeff/.config/Typora/themes/paper-0.0.3/paper.css",
+            "file:///home/jeff/.config/Typora/themes/github.user.css",
+            "file:///home/jeff/.config/Typora/themes/github.css",
+            "file:///home/jeff/.config/Typora/themes/academic.css",
+            "file:///home/jeff/.config/Typora/themes/base.user.css",
+            "file:///home/jeff/.config/Typora/themes/newsprint.css",
+            "file:///home/jeff/Dropbox/journal/bible/newt/romans/romans03a-moo.md",
             "file:///home/jeff/.config/i3/config",
-            "file:///home/jeff/git/fitzland/deb-dots/skel/config/i3/config",
-            "file:///home/jeff/Dropbox/church/discipleship/reunion/baptist-beliefs-jesus-lord.txt",
-            "file:///home/jeff/Dropbox/church/media/web/wordpress/firstbaptistcorsicana.wordpress.2020-09-02.xml",
-            "file:///home/jeff/.config/i3/fitzland-var-adapta.theme",
-            "file:///home/jeff/.config/i3/fitzland-var-nord.theme",
-            "file:///home/jeff/.config/i3/scripts/bandwidth2",
-            "file:///home/jeff/.config/i3/scripts/openweather.conf",
-            "file:///home/jeff/.config/i3/scripts/memory",
-            "file:///home/jeff/.config/i3/keybindings",
-            "file:///home/jeff/.config/i3/i3blocks.conf",
-            "file:///home/jeff/.bashrc-personal",
-            "file:///home/jeff/.bashrc",
-            "file:///home/jeff/git/fitzland/home-dots/skel/.bashrc-personal",
-            "file:///home/jeff/git/fitzland/home-dots/skel/.bashrc-arch",
-            "file:///home/jeff/.config/i3status/config",
-            "file:///home/jeff/.config/i3/endeavouros-default-config"
+            "file:///home/jeff/.config/user-dirs.dirs"
         ]
-    },
-    "windowsState": {
-        "lastActiveWindow": {
-            "backupPath": "/home/jeff/.config/Code - OSS/Backups/1603466949533",
-            "uiState": {
-                "mode": 1,
-                "x": 0,
-                "y": 22,
-                "width": 1440,
-                "height": 854
-            }
-        },
-        "openedWindows": []
     },
     "lastKnownMenubarData": {
         "menus": {
@@ -76,8 +53,7 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor",
-                                    "enabled": false
+                                    "label": "&&Reopen Closed Editor"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -86,111 +62,111 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/jeff/Dropbox/templates/Email/email-template-dark-myclass.htm",
-                                        "path": "/home/jeff/Dropbox/templates/Email/email-template-dark-myclass.htm",
+                                        "external": "file:///home/jeff/.config/Typora/themes/newsprint.user.css",
+                                        "path": "/home/jeff/.config/Typora/themes/newsprint.user.css",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Dropbox/templates/Email/email-template-dark-myclass.htm"
+                                    "label": "~/.config/Typora/themes/newsprint.user.css"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/jeff/Dropbox/templates/Email/email-template-dark-welcome.htm",
-                                        "path": "/home/jeff/Dropbox/templates/Email/email-template-dark-welcome.htm",
+                                        "external": "file:///home/jeff/.config/Typora/themes/law.user.css",
+                                        "path": "/home/jeff/.config/Typora/themes/law.user.css",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Dropbox/templates/Email/email-template-dark-welcome.htm"
+                                    "label": "~/.config/Typora/themes/law.user.css"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/jeff/Dropbox/templates/Email/email-template-dark.htm",
-                                        "path": "/home/jeff/Dropbox/templates/Email/email-template-dark.htm",
+                                        "external": "file:///home/jeff/.config/Typora/themes/nord.css",
+                                        "path": "/home/jeff/.config/Typora/themes/nord.css",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Dropbox/templates/Email/email-template-dark.htm"
+                                    "label": "~/.config/Typora/themes/nord.css"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/jeff/Dropbox/templates/Email/email-template-fbccana-jeff.htm",
-                                        "path": "/home/jeff/Dropbox/templates/Email/email-template-fbccana-jeff.htm",
+                                        "external": "file:///home/jeff/.config/Typora/themes/night.css",
+                                        "path": "/home/jeff/.config/Typora/themes/night.css",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Dropbox/templates/Email/email-template-fbccana-jeff.htm"
+                                    "label": "~/.config/Typora/themes/night.css"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/jeff/Dropbox/church/discipleship/reunion/reunion-03-biblestudy-devotion-kindle.html",
-                                        "path": "/home/jeff/Dropbox/church/discipleship/reunion/reunion-03-biblestudy-devotion-kindle.html",
+                                        "external": "file:///home/jeff/.config/Typora/themes/paper.user.css",
+                                        "path": "/home/jeff/.config/Typora/themes/paper.user.css",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Dropbox/church/discipleship/reunion/reunion-03-biblestudy-devotion-kindle.html"
+                                    "label": "~/.config/Typora/themes/paper.user.css"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/jeff/Dropbox/church/discipleship/reunion/reunion-biblestudy-devotion-kindle.html",
-                                        "path": "/home/jeff/Dropbox/church/discipleship/reunion/reunion-biblestudy-devotion-kindle.html",
+                                        "external": "file:///home/jeff/.config/Typora/themes/paper-0.0.3/paper.css",
+                                        "path": "/home/jeff/.config/Typora/themes/paper-0.0.3/paper.css",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Dropbox/church/discipleship/reunion/reunion-biblestudy-devotion-kindle.html"
+                                    "label": "~/.config/Typora/themes/paper-0.0.3/paper.css"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/jeff/Dropbox/church/discipleship/reunion/reunion-01-biblestudy-truth.rtf",
-                                        "path": "/home/jeff/Dropbox/church/discipleship/reunion/reunion-01-biblestudy-truth.rtf",
+                                        "external": "file:///home/jeff/.config/Typora/themes/github.user.css",
+                                        "path": "/home/jeff/.config/Typora/themes/github.user.css",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Dropbox/church/discipleship/reunion/reunion-01-biblestudy-truth.rtf"
+                                    "label": "~/.config/Typora/themes/github.user.css"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/jeff/.config/i3/config",
-                                        "path": "/home/jeff/.config/i3/config",
+                                        "external": "file:///home/jeff/.config/Typora/themes/github.css",
+                                        "path": "/home/jeff/.config/Typora/themes/github.css",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/.config/i3/config"
+                                    "label": "~/.config/Typora/themes/github.css"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/jeff/git/fitzland/deb-dots/skel/config/i3/config",
-                                        "path": "/home/jeff/git/fitzland/deb-dots/skel/config/i3/config",
+                                        "external": "file:///home/jeff/.config/Typora/themes/academic.css",
+                                        "path": "/home/jeff/.config/Typora/themes/academic.css",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/git/fitzland/deb-dots/skel/config/i3/config"
+                                    "label": "~/.config/Typora/themes/academic.css"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/jeff/Dropbox/church/discipleship/reunion/baptist-beliefs-jesus-lord.txt",
-                                        "path": "/home/jeff/Dropbox/church/discipleship/reunion/baptist-beliefs-jesus-lord.txt",
+                                        "external": "file:///home/jeff/.config/Typora/themes/base.user.css",
+                                        "path": "/home/jeff/.config/Typora/themes/base.user.css",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Dropbox/church/discipleship/reunion/baptist-beliefs-jesus-lord.txt"
+                                    "label": "~/.config/Typora/themes/base.user.css"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -677,8 +653,7 @@
                     },
                     {
                         "id": "editor.action.toggleMinimap",
-                        "label": "Show &&Minimap",
-                        "checked": true
+                        "label": "Show &&Minimap"
                     },
                     {
                         "id": "breadcrumbs.toggle",
@@ -709,8 +684,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -851,23 +825,28 @@
                     },
                     {
                         "id": "editor.action.revealDefinition",
-                        "label": "Go to &&Definition"
+                        "label": "Go to &&Definition",
+                        "enabled": false
                     },
                     {
                         "id": "editor.action.revealDeclaration",
-                        "label": "Go to &&Declaration"
+                        "label": "Go to &&Declaration",
+                        "enabled": false
                     },
                     {
                         "id": "editor.action.goToTypeDefinition",
-                        "label": "Go to &&Type Definition"
+                        "label": "Go to &&Type Definition",
+                        "enabled": false
                     },
                     {
                         "id": "editor.action.goToImplementation",
-                        "label": "Go to &&Implementations"
+                        "label": "Go to &&Implementations",
+                        "enabled": false
                     },
                     {
                         "id": "editor.action.goToReferences",
-                        "label": "Go to &&References"
+                        "label": "Go to &&References",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1571,5 +1550,17 @@
     },
     "theme": "vs-dark",
     "themeBackground": "#2e3440",
-    "pickerWorkingDir": "/home/jeff/git/fitzland/deb-dots/skel/config/i3"
+    "windowsState": {
+        "lastActiveWindow": {
+            "backupPath": "/home/jeff/.config/Code - OSS/Backups/1605622725042",
+            "uiState": {
+                "mode": 1,
+                "x": 0,
+                "y": 22,
+                "width": 1440,
+                "height": 854
+            }
+        },
+        "openedWindows": []
+    }
 }

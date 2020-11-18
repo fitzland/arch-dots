@@ -36,7 +36,7 @@ alias ssn="sudo shutdown now"
 alias sr="sudo reboot"
 
 
-alias dots='cd $HOME/git/fitzland/home-dots'
+alias dots='cd $HOME/git/fitzland/arch-dots'
 
 alias jrnl='cd $HOME/Dropbox/journal'
 
@@ -52,4 +52,4 @@ alias chface='cp $HOME/.face-bak .face'alias config='/usr/bin/git --git-dir=/hom
 
 alias mcserver='ssh jeff@192.168.1.131'
 
-screenfetch
+screenfetch -A 'Arch Linux'

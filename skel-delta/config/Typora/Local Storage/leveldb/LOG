@@ -1,3 +1,3 @@
-2020/08/30-22:00:39.310 d273 Reusing MANIFEST /home/jeff/.config/Typora/Local Storage/leveldb/MANIFEST-000001
-2020/08/30-22:00:39.310 d273 Recovering log #3
-2020/08/30-22:00:39.341 d273 Reusing old log /home/jeff/.config/Typora/Local Storage/leveldb/000003.log 
+2020/10/30-18:30:31.309 3b25f Reusing MANIFEST /home/jeff/.config/Typora/Local Storage/leveldb/MANIFEST-000001
+2020/10/30-18:30:31.309 3b25f Recovering log #3
+2020/10/30-18:30:31.310 3b25f Reusing old log /home/jeff/.config/Typora/Local Storage/leveldb/000003.log 

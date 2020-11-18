@@ -1,6 +1,6 @@
 [Configuration]
 LastActiveMode=THUNAR_RENAMER_MODE_NAME
-LastActiveRenamer=ThunarSbrReplaceRenamer
+LastActiveRenamer=ThunarSbrInsertRenamer
 
 [ThunarSbrNumberRenamer]
 TextMode=THUNAR_SBR_TEXT_MODE_TN
@@ -8,15 +8,21 @@ Mode=THUNAR_SBR_NUMBER_MODE_010203
 Start=1
 Text=slide-christ-center-
 
-[ThunarSbrInsertRenamer]
-Offset=0
-Mode=THUNAR_SBR_INSERT_MODE_INSERT
-OffsetMode=THUNAR_SBR_OFFSET_MODE_LEFT
-Text=welcome-
+[ThunarSbrRemoveRenamer]
+StartOffset=5
+EndOffset=0
+EndOffsetMode=THUNAR_SBR_OFFSET_MODE_RIGHT
+StartOffsetMode=THUNAR_SBR_OFFSET_MODE_RIGHT
 
 [ThunarSbrReplaceRenamer]
-Regexp=FALSE
-Replacement=-
 CaseSensitive=FALSE
-Pattern=Motion Graphic
+Replacement=-
+Pattern=-tg-
+Regexp=FALSE
+
+[ThunarSbrInsertRenamer]
+Offset=0
+Text=-tg
+Mode=THUNAR_SBR_INSERT_MODE_INSERT
+OffsetMode=THUNAR_SBR_OFFSET_MODE_RIGHT
 

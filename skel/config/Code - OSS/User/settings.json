@@ -1,4 +1,5 @@
 {
     "workbench.colorTheme": "Nord",
-    "workbench.startupEditor": "newUntitledFile"
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": true
 }

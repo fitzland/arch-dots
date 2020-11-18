@@ -1,2206 +1,1175 @@
-INFO 8/28/2020, 2:42:21 PM  luanchFromDiffVersion, pre version is undefined
-INFO 8/28/2020, 2:42:21 PM  overwriteThemeFolder
-INFO 8/28/2020, 2:42:21 PM  ------------------start------------------
-INFO 8/28/2020, 2:42:21 PM  typora version: 0.9.94
-DEBUG 8/28/2020, 2:42:21 PM  [ '/usr/share/typora/Typora' ]
-INFO 8/28/2020, 2:42:21 PM  [Raven] instanceKey = a9455e85-8376-4eba-a018-18eb752c903d
-DEBUG 8/28/2020, 2:42:21 PM  app.openFile
-INFO 8/28/2020, 2:42:21 PM  [focus] 1
-INFO 8/28/2020, 2:42:21 PM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-DEBUG 8/28/2020, 2:42:47 PM  app.openFile
-INFO 8/28/2020, 2:42:47 PM  switchDocument
-INFO 8/28/2020, 2:42:47 PM  addRecentDocument
-INFO 8/28/2020, 2:43:01 PM  ----------------before-quit-----------------
-INFO 8/28/2020, 2:43:01 PM  ------------------will-quit------------------
-INFO 8/28/2020, 3:00:56 PM  ------------------start------------------
-INFO 8/28/2020, 3:00:56 PM  typora version: 0.9.94
-DEBUG 8/28/2020, 3:00:56 PM  [ '/usr/share/typora/Typora' ]
-INFO 8/28/2020, 3:00:56 PM  [Raven] instanceKey = 5ad65774-91cc-4331-bbe6-9b99ce59c7aa
-DEBUG 8/28/2020, 3:00:56 PM  app.openFile
-INFO 8/28/2020, 3:00:57 PM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-INFO 8/28/2020, 3:00:57 PM  [focus] 1
-INFO 8/28/2020, 3:02:26 PM  [blur] 1
-INFO 8/28/2020, 3:02:47 PM  [focus] 1
-INFO 8/28/2020, 3:02:47 PM  [blur] 1
-INFO 8/28/2020, 3:02:47 PM  [focus] 1
-INFO 8/28/2020, 3:02:47 PM  [blur] 1
-INFO 8/28/2020, 3:02:47 PM  [focus] 1
-INFO 8/28/2020, 3:02:47 PM  addRecentDocument
-INFO 8/28/2020, 3:02:51 PM  ----------------before-quit-----------------
-INFO 8/28/2020, 3:02:51 PM  ------------------will-quit------------------
-INFO 8/30/2020, 2:51:51 PM  luanchFromDiffVersion, pre version is 0.9.94
-INFO 8/30/2020, 2:51:51 PM  overwriteThemeFolder
-INFO 8/30/2020, 2:51:51 PM  ------------------start------------------
-INFO 8/30/2020, 2:51:51 PM  typora version: 0.9.95
-DEBUG 8/30/2020, 2:51:51 PM  [ '/usr/share/typora/Typora' ]
-INFO 8/30/2020, 2:51:51 PM  [Raven] instanceKey = 58fb46da-58ea-4685-bed0-05b1edad3234
-INFO 8/30/2020, 2:51:52 PM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-DEBUG 8/30/2020, 2:51:52 PM  app.openFile
-INFO 8/30/2020, 2:53:00 PM  [focus] 1
-INFO 8/30/2020, 2:53:13 PM  [blur] 1
-INFO 8/30/2020, 2:57:32 PM  [focus] 1
-INFO 8/30/2020, 2:57:33 PM  [blur] 1
-INFO 8/30/2020, 2:58:21 PM  [focus] 1
-INFO 8/30/2020, 2:58:23 PM  [blur] 1
-INFO 8/30/2020, 2:58:24 PM  [focus] 1
-INFO 8/30/2020, 2:58:48 PM  [blur] 1
-INFO 8/30/2020, 2:58:48 PM  [focus] 1
-INFO 8/30/2020, 2:58:48 PM  [blur] 1
-INFO 8/30/2020, 2:58:48 PM  [focus] 1
-INFO 8/30/2020, 2:58:48 PM  [blur] 1
-INFO 8/30/2020, 2:58:48 PM  [focus] 1
-INFO 8/30/2020, 2:58:51 PM  [blur] 1
-INFO 8/30/2020, 2:58:53 PM  [focus] 1
-INFO 8/30/2020, 2:59:56 PM  [blur] 1
-INFO 8/30/2020, 2:59:56 PM  [focus] 1
-INFO 8/30/2020, 2:59:56 PM  [blur] 1
-INFO 8/30/2020, 2:59:56 PM  [focus] 1
-INFO 8/30/2020, 2:59:56 PM  [blur] 1
-INFO 8/30/2020, 2:59:56 PM  [focus] 1
-INFO 8/30/2020, 2:59:57 PM  [blur] 1
-INFO 8/30/2020, 2:59:57 PM  [focus] 1
-INFO 8/30/2020, 3:00:02 PM  [blur] 1
-INFO 8/30/2020, 3:02:53 PM  [focus] 1
-INFO 8/30/2020, 3:02:57 PM  ----------------before-quit-----------------
-INFO 8/30/2020, 3:02:57 PM  ------------------will-quit------------------
-INFO 8/30/2020, 3:03:01 PM  ------------------start------------------
-INFO 8/30/2020, 3:03:01 PM  typora version: 0.9.95
-DEBUG 8/30/2020, 3:03:01 PM  [ '/usr/share/typora/Typora' ]
-INFO 8/30/2020, 3:03:01 PM  [Raven] instanceKey = 094f2039-9c7f-4da3-a830-b334ccc2a03e
-DEBUG 8/30/2020, 3:03:01 PM  app.openFile
-INFO 8/30/2020, 3:03:01 PM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-INFO 8/30/2020, 3:03:01 PM  [focus] 1
-INFO 8/30/2020, 3:03:20 PM  updateTheme
-INFO 8/30/2020, 3:03:34 PM  [blur] 1
-INFO 8/30/2020, 3:03:35 PM  [focus] 1
-INFO 8/30/2020, 3:03:36 PM  [blur] 1
-INFO 8/30/2020, 3:04:01 PM  [focus] 1
-INFO 8/30/2020, 3:04:38 PM  [blur] 1
-INFO 8/30/2020, 3:04:38 PM  [focus] 1
-INFO 8/30/2020, 3:04:38 PM  [blur] 1
-INFO 8/30/2020, 3:04:38 PM  [focus] 1
-INFO 8/30/2020, 3:04:38 PM  [blur] 1
-INFO 8/30/2020, 3:04:38 PM  [focus] 1
-INFO 8/30/2020, 3:04:38 PM  [blur] 1
-INFO 8/30/2020, 3:04:48 PM  [focus] 1
-INFO 8/30/2020, 3:04:52 PM  ----------------before-quit-----------------
-INFO 8/30/2020, 3:04:52 PM  ------------------will-quit------------------
-INFO 8/30/2020, 3:04:55 PM  ------------------start------------------
-INFO 8/30/2020, 3:04:55 PM  typora version: 0.9.95
-DEBUG 8/30/2020, 3:04:55 PM  [ '/usr/share/typora/Typora' ]
-INFO 8/30/2020, 3:04:55 PM  [Raven] instanceKey = f2833349-fadf-432b-8bc6-2f6a0c9cf449
-DEBUG 8/30/2020, 3:04:55 PM  app.openFile
-INFO 8/30/2020, 3:04:55 PM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-INFO 8/30/2020, 3:04:55 PM  [focus] 1
-INFO 8/30/2020, 3:05:07 PM  updateTheme
-INFO 8/30/2020, 3:05:12 PM  ----------------before-quit-----------------
-INFO 8/30/2020, 3:05:12 PM  ------------------will-quit------------------
-INFO 8/30/2020, 3:05:15 PM  ------------------start------------------
-INFO 8/30/2020, 3:05:15 PM  typora version: 0.9.95
-DEBUG 8/30/2020, 3:05:15 PM  [ '/usr/share/typora/Typora' ]
-INFO 8/30/2020, 3:05:15 PM  [Raven] instanceKey = 99314240-635c-4a03-b2b5-13508fc43468
-DEBUG 8/30/2020, 3:05:15 PM  app.openFile
-INFO 8/30/2020, 3:05:15 PM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-INFO 8/30/2020, 3:05:15 PM  [focus] 1
-INFO 8/30/2020, 3:05:29 PM  [blur] 1
-INFO 8/30/2020, 3:05:40 PM  [focus] 1
-INFO 8/30/2020, 3:05:40 PM  [blur] 1
-INFO 8/30/2020, 3:05:40 PM  [focus] 1
-INFO 8/30/2020, 3:05:40 PM  [blur] 1
-INFO 8/30/2020, 3:05:40 PM  [focus] 1
-DEBUG 8/30/2020, 3:05:40 PM  false
-INFO 8/30/2020, 3:05:40 PM  addRecentDocument
-INFO 8/30/2020, 3:05:58 PM  switchDocument
-INFO 8/30/2020, 3:05:58 PM  addRecentDocument
-INFO 8/30/2020, 3:05:59 PM  switchDocument
-INFO 8/30/2020, 3:05:59 PM  addRecentDocument
-INFO 8/30/2020, 3:06:07 PM  switchDocument
-INFO 8/30/2020, 3:06:07 PM  addRecentDocument
-INFO 8/30/2020, 3:06:09 PM  switchDocument
-INFO 8/30/2020, 3:06:09 PM  addRecentDocument
-INFO 8/30/2020, 3:06:12 PM  switchDocument
-INFO 8/30/2020, 3:06:12 PM  addRecentDocument
-INFO 8/30/2020, 3:06:13 PM  switchDocument
-INFO 8/30/2020, 3:06:13 PM  addRecentDocument
-DEBUG 8/30/2020, 3:06:13 PM  lastSync null, timestamp 1598817969095, mtime 1516164966000
-INFO 8/30/2020, 3:06:19 PM  switchDocument
-INFO 8/30/2020, 3:06:19 PM  addRecentDocument
-DEBUG 8/30/2020, 3:06:20 PM  lastSync null, timestamp 1598817972377, mtime 1519222099000
-INFO 8/30/2020, 3:06:23 PM  switchDocument
-INFO 8/30/2020, 3:06:23 PM  addRecentDocument
-INFO 8/30/2020, 3:07:12 PM  switchDocument
-INFO 8/30/2020, 3:07:12 PM  addRecentDocument
-INFO 8/30/2020, 3:07:14 PM  switchDocument
-INFO 8/30/2020, 3:07:14 PM  addRecentDocument
-INFO 8/30/2020, 3:07:19 PM  switchDocument
-INFO 8/30/2020, 3:07:19 PM  addRecentDocument
-INFO 8/30/2020, 3:07:26 PM  switchDocument
-INFO 8/30/2020, 3:07:26 PM  addRecentDocument
-INFO 8/30/2020, 3:08:41 PM  ----------------before-quit-----------------
-INFO 8/30/2020, 3:08:41 PM  ------------------will-quit------------------
-INFO 8/30/2020, 10:00:39 PM  luanchFromDiffVersion, pre version is 0.9.95
-INFO 8/30/2020, 10:00:39 PM  overwriteThemeFolder
-INFO 8/30/2020, 10:00:39 PM  ------------------start------------------
-INFO 8/30/2020, 10:00:39 PM  typora version: 0.9.94
-DEBUG 8/30/2020, 10:00:39 PM  [ '/usr/share/typora/Typora' ]
-INFO 8/30/2020, 10:00:39 PM  [Raven] instanceKey = 1b14fd6d-1042-4afc-af71-983997973d04
-INFO 8/30/2020, 10:00:39 PM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-DEBUG 8/30/2020, 10:00:39 PM  app.openFile
-INFO 8/30/2020, 10:00:39 PM  [focus] 1
-INFO 8/30/2020, 10:00:52 PM  ----------------before-quit-----------------
-INFO 8/30/2020, 10:00:52 PM  ------------------will-quit------------------
-INFO 9/3/2020, 6:51:27 PM  luanchFromDiffVersion, pre version is 0.9.94
-INFO 9/3/2020, 6:51:27 PM  overwriteThemeFolder
-INFO 9/3/2020, 6:51:27 PM  ------------------start------------------
-INFO 9/3/2020, 6:51:27 PM  typora version: 0.9.95
-DEBUG 9/3/2020, 6:51:27 PM  [ '/usr/share/typora/Typora' ]
-INFO 9/3/2020, 6:51:27 PM  [Raven] instanceKey = b2708a48-cf5b-42cd-9398-98bb26ed0803
-INFO 9/3/2020, 6:51:27 PM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-DEBUG 9/3/2020, 6:51:27 PM  app.openFile
-INFO 9/3/2020, 6:51:27 PM  [focus] 1
-INFO 9/3/2020, 6:51:37 PM  ----------------before-quit-----------------
-INFO 9/3/2020, 6:51:37 PM  ------------------will-quit------------------
-INFO 9/4/2020, 4:50:55 PM  ------------------start------------------
-INFO 9/4/2020, 4:50:55 PM  typora version: 0.9.95
-DEBUG 9/4/2020, 4:50:55 PM  [
+INFO 11/13/2020, 8:54:01 PM  luanchFromDiffVersion, pre version is undefined
+INFO 11/13/2020, 8:54:01 PM  overwriteThemeFolder
+INFO 11/13/2020, 8:54:01 PM  ------------------start------------------
+INFO 11/13/2020, 8:54:01 PM  typora version: 0.9.96
+DEBUG 11/13/2020, 8:54:01 PM  [ '/usr/share/typora/Typora' ]
+INFO 11/13/2020, 8:54:01 PM  [Raven] instanceKey = 2e9716ee-6d6c-450f-9b15-0974bef71df8
+DEBUG 11/13/2020, 8:54:01 PM  app.openFile
+INFO 11/13/2020, 8:54:01 PM  [Raven] userId = 1608746f-a0df-4b8f-99bb-31fa17894f66
+INFO 11/13/2020, 8:54:01 PM  [focus] 1
+INFO 11/13/2020, 8:54:12 PM  [blur] 1
+INFO 11/13/2020, 8:54:30 PM  [focus] 1
+INFO 11/13/2020, 8:54:30 PM  [blur] 1
+INFO 11/13/2020, 8:54:30 PM  [focus] 1
+INFO 11/13/2020, 8:54:30 PM  [blur] 1
+INFO 11/13/2020, 8:54:30 PM  [focus] 1
+DEBUG 11/13/2020, 8:54:30 PM  true
+INFO 11/13/2020, 8:54:30 PM  addRecentFolder
+INFO 11/13/2020, 8:54:35 PM  switchDocument
+INFO 11/13/2020, 8:54:35 PM  addRecentDocument
+INFO 11/13/2020, 8:56:12 PM  [blur] 1
+INFO 11/13/2020, 8:56:53 PM  [focus] 1
+INFO 11/13/2020, 8:56:54 PM  [blur] 1
+INFO 11/13/2020, 8:56:59 PM  [focus] 1
+INFO 11/13/2020, 8:59:59 PM  [blur] 1
+INFO 11/13/2020, 9:00:05 PM  [focus] 1
+INFO 11/13/2020, 9:00:05 PM  [blur] 1
+INFO 11/13/2020, 9:00:05 PM  [focus] 1
+INFO 11/13/2020, 9:00:05 PM  [blur] 1
+INFO 11/13/2020, 9:00:05 PM  [focus] 1
+INFO 11/13/2020, 9:00:05 PM  addRecentDocument
+INFO 11/13/2020, 9:00:24 PM  ----------------before-quit-----------------
+INFO 11/13/2020, 9:00:24 PM  ------------------will-quit------------------
+INFO 11/13/2020, 9:00:25 PM  ------------------start------------------
+INFO 11/13/2020, 9:00:25 PM  typora version: 0.9.96
+DEBUG 11/13/2020, 9:00:25 PM  [
   '/usr/share/typora/Typora',
-  '/home/jeff/Dropbox/church/discipleship/reunion/reunion-biblestudy-truth.rtf'
+  '/home/jeff/Dropbox/journal/bible/newt/romans/romans02b-keller.md'
 ]
-DEBUG 9/4/2020, 4:50:55 PM  app.openFile
-INFO 9/4/2020, 4:50:55 PM  addRecentDocument
-INFO 9/4/2020, 4:50:55 PM  [Raven] instanceKey = 06356ac3-d6e1-48d2-a1f7-66a892df5c7c
-INFO 9/4/2020, 4:50:55 PM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-INFO 9/4/2020, 4:50:56 PM  [focus] 1
-INFO 9/4/2020, 4:51:03 PM  ----------------before-quit-----------------
-INFO 9/4/2020, 4:51:03 PM  ------------------will-quit------------------
-INFO 9/4/2020, 6:32:51 PM  ------------------start------------------
-INFO 9/4/2020, 6:32:51 PM  typora version: 0.9.95
-DEBUG 9/4/2020, 6:32:51 PM  [ '/usr/share/typora/Typora' ]
-INFO 9/4/2020, 6:32:51 PM  [Raven] instanceKey = 66effa43-4864-4cd0-906b-f655ad8c292f
-DEBUG 9/4/2020, 6:32:51 PM  app.openFile
-INFO 9/4/2020, 6:32:51 PM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-INFO 9/4/2020, 6:32:51 PM  [focus] 1
-INFO 9/4/2020, 6:33:06 PM  [blur] 1
-INFO 9/4/2020, 8:37:08 PM  [focus] 1
-INFO 9/4/2020, 8:37:08 PM  [blur] 1
-INFO 9/4/2020, 8:37:10 PM  [focus] 1
-INFO 9/4/2020, 8:37:11 PM  [blur] 1
-INFO 9/4/2020, 8:54:14 PM  [focus] 1
-INFO 9/4/2020, 8:54:15 PM  [blur] 1
-INFO 9/4/2020, 8:56:43 PM  [focus] 1
-INFO 9/4/2020, 8:56:43 PM  [blur] 1
-INFO 9/4/2020, 8:59:09 PM  [focus] 1
-INFO 9/4/2020, 8:59:14 PM  [blur] 1
-INFO 9/4/2020, 9:02:25 PM  [focus] 1
-INFO 9/4/2020, 9:02:26 PM  [blur] 1
-INFO 9/4/2020, 9:02:44 PM  [focus] 1
-INFO 9/4/2020, 9:20:04 PM  [blur] 1
-INFO 9/4/2020, 9:30:07 PM  [focus] 1
-INFO 9/4/2020, 9:30:11 PM  [blur] 1
-INFO 9/4/2020, 9:30:33 PM  [focus] 1
-INFO 9/4/2020, 9:30:33 PM  [blur] 1
-INFO 9/4/2020, 9:30:33 PM  [focus] 1
-INFO 9/4/2020, 9:30:33 PM  [blur] 1
-INFO 9/4/2020, 9:30:33 PM  [focus] 1
-INFO 9/4/2020, 9:30:33 PM  addRecentDocument
-INFO 9/4/2020, 9:31:11 PM  [blur] 1
-INFO 9/4/2020, 9:34:06 PM  [focus] 1
-INFO 9/4/2020, 9:34:08 PM  ----------------before-quit-----------------
-INFO 9/4/2020, 9:34:08 PM  ------------------will-quit------------------
-INFO 9/4/2020, 10:09:55 PM  ------------------start------------------
-INFO 9/4/2020, 10:09:55 PM  typora version: 0.9.95
-DEBUG 9/4/2020, 10:09:55 PM  [ '/usr/share/typora/Typora' ]
-INFO 9/4/2020, 10:09:55 PM  [Raven] instanceKey = c0859069-5a0a-456c-bf2e-25a3fa31aa3a
-DEBUG 9/4/2020, 10:09:55 PM  app.openFile
-INFO 9/4/2020, 10:09:55 PM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-INFO 9/4/2020, 10:09:55 PM  [focus] 1
-INFO 9/4/2020, 10:09:56 PM  [blur] 1
-INFO 9/4/2020, 10:10:00 PM  [focus] 1
-INFO 9/4/2020, 10:10:02 PM  [blur] 1
-INFO 9/4/2020, 10:10:11 PM  [focus] 1
-INFO 9/4/2020, 10:10:11 PM  [blur] 1
-INFO 9/4/2020, 10:10:25 PM  [focus] 1
-INFO 9/4/2020, 10:10:25 PM  [blur] 1
-INFO 9/4/2020, 10:10:46 PM  [focus] 1
-INFO 9/4/2020, 10:10:46 PM  [blur] 1
-INFO 9/4/2020, 10:10:46 PM  [focus] 1
-INFO 9/4/2020, 10:10:46 PM  [blur] 1
-INFO 9/4/2020, 10:10:46 PM  [focus] 1
-INFO 9/4/2020, 10:10:46 PM  addRecentDocument
-INFO 9/4/2020, 10:10:48 PM  [blur] 1
-INFO 9/4/2020, 10:10:53 PM  [focus] 1
-INFO 9/4/2020, 10:11:35 PM  [blur] 1
-INFO 9/4/2020, 10:11:39 PM  [focus] 1
-INFO 9/4/2020, 10:11:41 PM  [blur] 1
-INFO 9/4/2020, 10:11:45 PM  [focus] 1
-INFO 9/4/2020, 10:11:54 PM  [blur] 1
-INFO 9/4/2020, 10:12:01 PM  [focus] 1
-INFO 9/4/2020, 10:14:07 PM  [blur] 1
-INFO 9/4/2020, 10:14:17 PM  [focus] 1
-INFO 9/4/2020, 10:14:27 PM  [blur] 1
-INFO 9/4/2020, 10:14:33 PM  [focus] 1
-INFO 9/4/2020, 10:16:05 PM  [blur] 1
-INFO 9/4/2020, 10:16:09 PM  [focus] 1
-INFO 9/4/2020, 10:16:23 PM  [blur] 1
-INFO 9/4/2020, 10:16:58 PM  [focus] 1
-INFO 9/4/2020, 10:17:28 PM  [blur] 1
-INFO 9/4/2020, 10:17:40 PM  [focus] 1
-INFO 9/4/2020, 10:18:10 PM  [blur] 1
-INFO 9/4/2020, 10:18:33 PM  [focus] 1
-INFO 9/4/2020, 10:18:44 PM  [blur] 1
-INFO 9/4/2020, 10:18:46 PM  [focus] 1
-INFO 9/4/2020, 10:19:40 PM  [blur] 1
-INFO 9/4/2020, 10:20:02 PM  [focus] 1
-INFO 9/4/2020, 10:20:10 PM  [blur] 1
-INFO 9/4/2020, 10:20:14 PM  [focus] 1
-INFO 9/4/2020, 10:20:38 PM  [blur] 1
-INFO 9/4/2020, 10:20:50 PM  [focus] 1
-INFO 9/4/2020, 10:21:04 PM  [blur] 1
-INFO 9/4/2020, 10:21:08 PM  [focus] 1
-INFO 9/4/2020, 10:23:27 PM  [blur] 1
-INFO 9/4/2020, 10:23:35 PM  [focus] 1
-INFO 9/4/2020, 10:24:43 PM  [blur] 1
-INFO 9/4/2020, 10:24:49 PM  [focus] 1
-INFO 9/4/2020, 10:25:15 PM  [blur] 1
-INFO 9/4/2020, 10:25:22 PM  [focus] 1
-INFO 9/4/2020, 10:25:26 PM  [blur] 1
-INFO 9/4/2020, 10:25:34 PM  [focus] 1
-INFO 9/4/2020, 10:25:57 PM  [blur] 1
-INFO 9/4/2020, 10:25:58 PM  [focus] 1
-INFO 9/4/2020, 10:27:43 PM  [blur] 1
-INFO 9/4/2020, 10:27:51 PM  [focus] 1
-INFO 9/4/2020, 10:30:59 PM  [blur] 1
-INFO 9/4/2020, 10:31:18 PM  [focus] 1
-INFO 9/4/2020, 10:32:12 PM  [blur] 1
-INFO 9/4/2020, 10:32:12 PM  [focus] 1
-INFO 9/4/2020, 10:32:35 PM  [blur] 1
-INFO 9/4/2020, 10:32:40 PM  [focus] 1
-INFO 9/4/2020, 10:33:19 PM  [blur] 1
-INFO 9/4/2020, 10:33:38 PM  [focus] 1
-INFO 9/4/2020, 10:35:13 PM  [blur] 1
-INFO 9/4/2020, 10:35:25 PM  [focus] 1
-INFO 9/4/2020, 10:36:02 PM  [blur] 1
-INFO 9/4/2020, 10:36:08 PM  [focus] 1
-INFO 9/4/2020, 10:36:30 PM  [blur] 1
-INFO 9/4/2020, 10:37:02 PM  [focus] 1
-INFO 9/4/2020, 10:37:50 PM  [blur] 1
-INFO 9/4/2020, 10:38:01 PM  [focus] 1
-INFO 9/4/2020, 10:38:26 PM  [blur] 1
-INFO 9/4/2020, 10:39:07 PM  [focus] 1
-INFO 9/4/2020, 10:41:06 PM  [blur] 1
-INFO 9/4/2020, 10:41:11 PM  [focus] 1
-INFO 9/4/2020, 10:41:38 PM  [blur] 1
-INFO 9/4/2020, 10:41:41 PM  [focus] 1
-INFO 9/4/2020, 10:42:22 PM  [blur] 1
-INFO 9/4/2020, 10:42:22 PM  [focus] 1
-INFO 9/4/2020, 10:42:23 PM  [blur] 1
-INFO 9/4/2020, 10:42:29 PM  [focus] 1
-INFO 9/4/2020, 10:42:47 PM  [blur] 1
-INFO 9/4/2020, 10:43:21 PM  [focus] 1
-INFO 9/4/2020, 10:44:15 PM  [blur] 1
-INFO 9/4/2020, 10:44:17 PM  [focus] 1
-INFO 9/4/2020, 10:44:19 PM  ----------------before-quit-----------------
-INFO 9/4/2020, 10:44:19 PM  ------------------will-quit------------------
-INFO 9/5/2020, 7:11:41 AM  ------------------start------------------
-INFO 9/5/2020, 7:11:41 AM  typora version: 0.9.95
-DEBUG 9/5/2020, 7:11:41 AM  [ '/usr/share/typora/Typora' ]
-INFO 9/5/2020, 7:11:41 AM  [Raven] instanceKey = 2a858802-3264-4f5a-8e3a-552fcf82a8b2
-DEBUG 9/5/2020, 7:11:41 AM  app.openFile
-INFO 9/5/2020, 7:11:41 AM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-INFO 9/5/2020, 7:11:41 AM  [focus] 1
-DEBUG 9/5/2020, 7:11:46 AM  app.openFile
-INFO 9/5/2020, 7:11:46 AM  switchDocument
-INFO 9/5/2020, 7:11:46 AM  addRecentDocument
-INFO 9/5/2020, 7:11:53 AM  [blur] 1
-INFO 9/5/2020, 7:12:24 AM  [focus] 1
-INFO 9/5/2020, 7:13:23 AM  [blur] 1
-INFO 9/5/2020, 7:13:34 AM  [focus] 1
-INFO 9/5/2020, 7:13:50 AM  [blur] 1
-INFO 9/5/2020, 7:16:26 AM  [focus] 1
-INFO 9/5/2020, 7:16:38 AM  [blur] 1
-INFO 9/5/2020, 7:16:42 AM  [focus] 1
-INFO 9/5/2020, 7:19:13 AM  [blur] 1
-INFO 9/5/2020, 7:19:20 AM  [focus] 1
-INFO 9/5/2020, 7:20:43 AM  [blur] 1
-INFO 9/5/2020, 7:20:57 AM  [focus] 1
-INFO 9/5/2020, 7:21:50 AM  [blur] 1
-INFO 9/5/2020, 7:22:11 AM  [focus] 1
-INFO 9/5/2020, 7:25:04 AM  [blur] 1
-INFO 9/5/2020, 7:25:23 AM  [focus] 1
-INFO 9/5/2020, 7:26:03 AM  [blur] 1
-INFO 9/5/2020, 7:26:39 AM  [focus] 1
-INFO 9/5/2020, 7:26:53 AM  [blur] 1
-INFO 9/5/2020, 7:26:58 AM  [focus] 1
-INFO 9/5/2020, 7:27:09 AM  [blur] 1
-INFO 9/5/2020, 7:28:06 AM  [focus] 1
-INFO 9/5/2020, 7:28:12 AM  [blur] 1
-INFO 9/5/2020, 7:28:20 AM  [focus] 1
-INFO 9/5/2020, 7:30:10 AM  [blur] 1
-INFO 9/5/2020, 7:30:17 AM  [focus] 1
-INFO 9/5/2020, 7:30:21 AM  [blur] 1
-INFO 9/5/2020, 7:30:27 AM  [focus] 1
-INFO 9/5/2020, 7:30:42 AM  [blur] 1
-INFO 9/5/2020, 7:30:45 AM  [focus] 1
-INFO 9/5/2020, 7:31:07 AM  [blur] 1
-INFO 9/5/2020, 7:31:07 AM  [focus] 1
-INFO 9/5/2020, 7:31:51 AM  [blur] 1
-INFO 9/5/2020, 7:31:53 AM  [focus] 1
-INFO 9/5/2020, 7:31:53 AM  [blur] 1
-INFO 9/5/2020, 7:32:02 AM  [focus] 1
-INFO 9/5/2020, 7:32:02 AM  [blur] 1
-INFO 9/5/2020, 7:32:03 AM  [focus] 1
-INFO 9/5/2020, 7:32:03 AM  [blur] 1
-INFO 9/5/2020, 7:32:03 AM  [focus] 1
-INFO 9/5/2020, 7:32:03 AM  [blur] 1
-INFO 9/5/2020, 7:32:03 AM  [focus] 1
-INFO 9/5/2020, 7:32:05 AM  [blur] 1
-INFO 9/5/2020, 7:32:12 AM  [focus] 1
-INFO 9/5/2020, 7:32:20 AM  [blur] 1
-INFO 9/5/2020, 7:32:26 AM  [focus] 1
-INFO 9/5/2020, 7:32:30 AM  [blur] 1
-INFO 9/5/2020, 7:32:57 AM  [focus] 1
-INFO 9/5/2020, 7:34:22 AM  [blur] 1
-INFO 9/5/2020, 7:34:30 AM  [focus] 1
-INFO 9/5/2020, 7:34:43 AM  [blur] 1
-INFO 9/5/2020, 7:34:47 AM  [focus] 1
-INFO 9/5/2020, 7:34:50 AM  [blur] 1
-INFO 9/5/2020, 7:34:59 AM  [focus] 1
-INFO 9/5/2020, 7:35:07 AM  [blur] 1
-INFO 9/5/2020, 7:36:19 AM  [focus] 1
-INFO 9/5/2020, 7:38:34 AM  [blur] 1
-INFO 9/5/2020, 7:38:43 AM  [focus] 1
-INFO 9/5/2020, 7:38:46 AM  [blur] 1
-INFO 9/5/2020, 7:39:00 AM  [focus] 1
-INFO 9/5/2020, 7:39:09 AM  [blur] 1
-INFO 9/5/2020, 7:41:08 AM  [focus] 1
-INFO 9/5/2020, 7:41:58 AM  [blur] 1
-INFO 9/5/2020, 7:43:05 AM  [focus] 1
-INFO 9/5/2020, 7:43:16 AM  [blur] 1
-INFO 9/5/2020, 7:43:57 AM  [focus] 1
-INFO 9/5/2020, 7:44:10 AM  [blur] 1
-INFO 9/5/2020, 7:44:18 AM  [focus] 1
-INFO 9/5/2020, 7:44:27 AM  [blur] 1
-INFO 9/5/2020, 7:45:25 AM  [focus] 1
-INFO 9/5/2020, 7:46:26 AM  [blur] 1
-INFO 9/5/2020, 7:46:33 AM  [focus] 1
-INFO 9/5/2020, 7:46:42 AM  [blur] 1
-INFO 9/5/2020, 7:48:50 AM  [focus] 1
-INFO 9/5/2020, 7:49:21 AM  [blur] 1
-INFO 9/5/2020, 7:49:42 AM  [focus] 1
-INFO 9/5/2020, 7:49:48 AM  [blur] 1
-INFO 9/5/2020, 7:50:43 AM  [focus] 1
-INFO 9/5/2020, 7:54:27 AM  [blur] 1
-INFO 9/5/2020, 7:54:34 AM  [focus] 1
-INFO 9/5/2020, 7:55:12 AM  [blur] 1
-INFO 9/5/2020, 7:55:19 AM  [focus] 1
-INFO 9/5/2020, 7:55:30 AM  [blur] 1
-INFO 9/5/2020, 7:55:30 AM  [focus] 1
-INFO 9/5/2020, 7:55:33 AM  [blur] 1
-INFO 9/5/2020, 7:56:09 AM  [focus] 1
-INFO 9/5/2020, 7:56:59 AM  [blur] 1
-INFO 9/5/2020, 7:57:01 AM  [focus] 1
-INFO 9/5/2020, 7:57:18 AM  [blur] 1
-INFO 9/5/2020, 7:58:22 AM  [focus] 1
-INFO 9/5/2020, 8:02:49 AM  [blur] 1
-INFO 9/5/2020, 8:02:50 AM  [focus] 1
-INFO 9/5/2020, 8:03:14 AM  [blur] 1
-INFO 9/5/2020, 8:03:24 AM  [focus] 1
-INFO 9/5/2020, 8:06:45 AM  [blur] 1
-INFO 9/5/2020, 8:06:47 AM  [focus] 1
-INFO 9/5/2020, 8:07:11 AM  [blur] 1
-INFO 9/5/2020, 8:07:18 AM  [focus] 1
-INFO 9/5/2020, 8:07:35 AM  [blur] 1
-INFO 9/5/2020, 8:07:45 AM  [focus] 1
-INFO 9/5/2020, 8:10:41 AM  [blur] 1
-INFO 9/5/2020, 8:10:42 AM  [focus] 1
-INFO 9/5/2020, 8:11:46 AM  [blur] 1
-INFO 9/5/2020, 8:12:10 AM  [focus] 1
-INFO 9/5/2020, 8:12:25 AM  [blur] 1
-INFO 9/5/2020, 8:12:26 AM  [focus] 1
-INFO 9/5/2020, 8:12:29 AM  ----------------before-quit-----------------
-INFO 9/5/2020, 8:12:29 AM  ------------------will-quit------------------
-INFO 9/5/2020, 10:53:55 AM  ------------------start------------------
-INFO 9/5/2020, 10:53:55 AM  typora version: 0.9.95
-DEBUG 9/5/2020, 10:53:55 AM  [ '/usr/share/typora/Typora' ]
-INFO 9/5/2020, 10:53:55 AM  [Raven] instanceKey = 0e7ba9af-131d-447a-a124-ccea1b8ac0de
-DEBUG 9/5/2020, 10:53:55 AM  app.openFile
-INFO 9/5/2020, 10:53:55 AM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-INFO 9/5/2020, 10:53:55 AM  [focus] 1
-INFO 9/5/2020, 10:53:56 AM  [blur] 1
-INFO 9/5/2020, 10:53:56 AM  [focus] 1
-INFO 9/5/2020, 10:54:18 AM  [blur] 1
-INFO 9/5/2020, 10:54:31 AM  [focus] 1
-INFO 9/5/2020, 10:54:33 AM  [blur] 1
-INFO 9/5/2020, 10:54:52 AM  [focus] 1
-INFO 9/5/2020, 10:54:52 AM  [blur] 1
-INFO 9/5/2020, 11:57:38 AM  [focus] 1
-INFO 9/5/2020, 11:57:39 AM  [blur] 1
-INFO 9/5/2020, 11:57:48 AM  [focus] 1
-INFO 9/5/2020, 11:57:48 AM  [blur] 1
-INFO 9/5/2020, 11:57:48 AM  [focus] 1
-INFO 9/5/2020, 11:57:48 AM  [blur] 1
-INFO 9/5/2020, 11:57:48 AM  [focus] 1
-INFO 9/5/2020, 11:57:49 AM  [blur] 1
-INFO 9/5/2020, 11:57:53 AM  [focus] 1
-INFO 9/5/2020, 11:57:55 AM  ----------------before-quit-----------------
-INFO 9/5/2020, 11:57:55 AM  ------------------will-quit------------------
-INFO 9/5/2020, 8:28:36 PM  ------------------start------------------
-INFO 9/5/2020, 8:28:36 PM  typora version: 0.9.95
-DEBUG 9/5/2020, 8:28:36 PM  [ '/usr/share/typora/Typora' ]
-INFO 9/5/2020, 8:28:36 PM  [Raven] instanceKey = 5fd01431-cb70-4d9e-b8eb-5cc7992abdb2
-INFO 9/5/2020, 8:28:36 PM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-DEBUG 9/5/2020, 8:28:36 PM  app.openFile
-INFO 9/5/2020, 8:28:36 PM  [focus] 1
-INFO 9/5/2020, 8:28:39 PM  ----------------before-quit-----------------
-INFO 9/5/2020, 8:28:39 PM  ------------------will-quit------------------
-INFO 9/11/2020, 2:16:23 PM  ------------------start------------------
-INFO 9/11/2020, 2:16:24 PM  typora version: 0.9.95
-DEBUG 9/11/2020, 2:16:24 PM  [ '/usr/share/typora/Typora' ]
-INFO 9/11/2020, 2:16:24 PM  [Raven] instanceKey = f90effeb-e966-4b8c-9e07-dea91ed11a7e
-DEBUG 9/11/2020, 2:16:24 PM  app.openFile
-INFO 9/11/2020, 2:16:24 PM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-INFO 9/11/2020, 2:16:24 PM  [focus] 1
-INFO 9/11/2020, 2:16:24 PM  [blur] 1
-INFO 9/11/2020, 2:16:24 PM  [focus] 1
-INFO 9/11/2020, 2:16:25 PM  [blur] 1
-INFO 9/11/2020, 2:16:25 PM  [focus] 1
-INFO 9/11/2020, 2:16:25 PM  [blur] 1
-INFO 9/11/2020, 2:16:27 PM  [focus] 1
-INFO 9/11/2020, 2:16:29 PM  [blur] 1
-INFO 9/11/2020, 2:17:04 PM  [focus] 1
-INFO 9/11/2020, 2:17:04 PM  [blur] 1
-INFO 9/11/2020, 2:17:05 PM  [focus] 1
-INFO 9/11/2020, 2:17:06 PM  [blur] 1
-INFO 9/11/2020, 2:17:15 PM  [focus] 1
-INFO 9/11/2020, 2:17:15 PM  [blur] 1
-INFO 9/11/2020, 2:17:47 PM  [focus] 1
-INFO 9/11/2020, 2:17:52 PM  [blur] 1
-INFO 9/11/2020, 2:46:25 PM  [focus] 1
-INFO 9/11/2020, 2:46:27 PM  [blur] 1
-INFO 9/11/2020, 2:46:27 PM  [focus] 1
-INFO 9/11/2020, 2:46:28 PM  [blur] 1
-INFO 9/11/2020, 2:46:28 PM  [focus] 1
-INFO 9/11/2020, 2:46:28 PM  [blur] 1
-INFO 9/11/2020, 2:46:29 PM  [focus] 1
-INFO 9/11/2020, 2:46:30 PM  [blur] 1
-INFO 9/11/2020, 2:46:59 PM  [focus] 1
-INFO 9/11/2020, 2:47:03 PM  [blur] 1
-INFO 9/11/2020, 5:31:03 PM  [focus] 1
-INFO 9/11/2020, 5:31:04 PM  [blur] 1
-INFO 9/11/2020, 5:31:04 PM  [focus] 1
-INFO 9/11/2020, 5:31:06 PM  ----------------before-quit-----------------
-INFO 9/11/2020, 5:31:06 PM  ------------------will-quit------------------
-INFO 9/12/2020, 2:19:02 PM  ------------------start------------------
-INFO 9/12/2020, 2:19:02 PM  typora version: 0.9.95
-DEBUG 9/12/2020, 2:19:02 PM  [
+DEBUG 11/13/2020, 9:00:25 PM  app.openFile
+INFO 11/13/2020, 9:00:25 PM  addRecentDocument
+INFO 11/13/2020, 9:00:26 PM  [Raven] instanceKey = 46efe97d-7dc1-4b5f-8709-065c814a021c
+INFO 11/13/2020, 9:00:26 PM  [Raven] userId = 1608746f-a0df-4b8f-99bb-31fa17894f66
+INFO 11/13/2020, 9:00:26 PM  [focus] 1
+INFO 11/13/2020, 9:21:18 PM  [blur] 1
+INFO 11/13/2020, 9:21:40 PM  [focus] 1
+INFO 11/13/2020, 9:21:57 PM  [blur] 1
+INFO 11/13/2020, 9:22:10 PM  [focus] 1
+INFO 11/13/2020, 9:22:11 PM  [blur] 1
+INFO 11/13/2020, 9:22:45 PM  [focus] 1
+INFO 11/13/2020, 9:22:52 PM  [blur] 1
+INFO 11/13/2020, 9:23:36 PM  [focus] 1
+INFO 11/13/2020, 9:23:41 PM  [blur] 1
+INFO 11/13/2020, 9:23:46 PM  [focus] 1
+INFO 11/13/2020, 9:24:23 PM  [blur] 1
+INFO 11/13/2020, 9:24:28 PM  [focus] 1
+INFO 11/13/2020, 9:25:07 PM  [blur] 1
+INFO 11/13/2020, 9:25:33 PM  [focus] 1
+INFO 11/13/2020, 9:25:44 PM  [blur] 1
+INFO 11/13/2020, 9:25:45 PM  [focus] 1
+INFO 11/13/2020, 9:25:47 PM  [blur] 1
+INFO 11/13/2020, 9:25:58 PM  [focus] 1
+INFO 11/13/2020, 9:26:03 PM  [blur] 1
+INFO 11/13/2020, 9:26:11 PM  [focus] 1
+INFO 11/13/2020, 9:26:45 PM  [blur] 1
+INFO 11/13/2020, 9:26:45 PM  [focus] 1
+INFO 11/13/2020, 9:26:45 PM  [blur] 1
+INFO 11/13/2020, 9:26:54 PM  [focus] 1
+INFO 11/13/2020, 9:27:34 PM  [blur] 1
+INFO 11/13/2020, 9:27:37 PM  [focus] 1
+INFO 11/13/2020, 9:27:42 PM  [blur] 1
+INFO 11/13/2020, 9:27:47 PM  [focus] 1
+INFO 11/13/2020, 9:27:54 PM  [blur] 1
+INFO 11/13/2020, 9:28:06 PM  [focus] 1
+INFO 11/13/2020, 9:28:12 PM  [blur] 1
+INFO 11/13/2020, 9:28:13 PM  [focus] 1
+INFO 11/13/2020, 9:29:34 PM  [blur] 1
+INFO 11/13/2020, 9:29:43 PM  [focus] 1
+INFO 11/13/2020, 9:29:43 PM  [blur] 1
+INFO 11/13/2020, 9:29:43 PM  [focus] 1
+INFO 11/13/2020, 9:29:43 PM  [blur] 1
+INFO 11/13/2020, 9:29:43 PM  [focus] 1
+INFO 11/13/2020, 9:29:43 PM  load file [/tmp/1605324583126-0.9574073423324778.html] for PDF export
+INFO 11/13/2020, 9:29:43 PM  [blur] 1
+INFO 11/13/2020, 9:29:43 PM  generate print window with id 2
+INFO 11/13/2020, 9:29:47 PM  [focus] 1
+INFO 11/13/2020, 9:29:47 PM  [blur] 1
+INFO 11/13/2020, 9:29:47 PM  [focus] 1
+INFO 11/13/2020, 9:29:47 PM  [blur] 1
+INFO 11/13/2020, 9:29:47 PM  [focus] 1
+INFO 11/13/2020, 9:29:47 PM  [RenderProcess 1][Log] export PDF to /home/jeff/Dropbox/journal/bible/newt/romans/romans02b-keller.pdf
+INFO 11/13/2020, 9:29:48 PM  [blur] 1
+INFO 11/13/2020, 9:29:57 PM  [focus] 1
+INFO 11/13/2020, 9:29:58 PM  [blur] 1
+INFO 11/13/2020, 9:33:13 PM  [focus] 1
+INFO 11/13/2020, 9:53:50 PM  [blur] 1
+INFO 11/13/2020, 9:54:14 PM  [focus] 1
+INFO 11/13/2020, 9:54:32 PM  [blur] 1
+INFO 11/13/2020, 9:54:34 PM  [focus] 1
+INFO 11/13/2020, 10:09:12 PM  [blur] 1
+INFO 11/13/2020, 10:09:19 PM  [focus] 1
+INFO 11/13/2020, 10:11:49 PM  [blur] 1
+INFO 11/13/2020, 10:12:38 PM  [focus] 1
+INFO 11/13/2020, 10:20:08 PM  ----------------before-quit-----------------
+INFO 11/13/2020, 10:20:08 PM  ------------------will-quit------------------
+INFO 11/13/2020, 10:20:36 PM  ------------------start------------------
+INFO 11/13/2020, 10:20:36 PM  typora version: 0.9.96
+DEBUG 11/13/2020, 10:20:36 PM  [ '/usr/share/typora/Typora' ]
+INFO 11/13/2020, 10:20:36 PM  [Raven] instanceKey = d5ab4942-5d9c-4266-94cf-ce4ab9b8116f
+DEBUG 11/13/2020, 10:20:36 PM  app.openFile
+INFO 11/13/2020, 10:20:36 PM  [Raven] userId = 1608746f-a0df-4b8f-99bb-31fa17894f66
+INFO 11/13/2020, 10:20:36 PM  [focus] 1
+INFO 11/13/2020, 10:20:40 PM  addRecentFolder
+INFO 11/13/2020, 10:20:42 PM  switchDocument
+INFO 11/13/2020, 10:20:42 PM  addRecentDocument
+INFO 11/13/2020, 10:20:44 PM  [blur] 1
+INFO 11/13/2020, 10:20:49 PM  [focus] 1
+INFO 11/13/2020, 10:20:49 PM  [blur] 1
+INFO 11/13/2020, 10:20:49 PM  [focus] 1
+INFO 11/13/2020, 10:20:49 PM  [blur] 1
+INFO 11/13/2020, 10:20:49 PM  [focus] 1
+INFO 11/13/2020, 10:20:49 PM  addRecentDocument
+INFO 11/13/2020, 10:21:20 PM  [blur] 1
+INFO 11/13/2020, 10:21:21 PM  [focus] 1
+INFO 11/13/2020, 10:21:22 PM  [blur] 1
+INFO 11/13/2020, 10:21:33 PM  [focus] 1
+INFO 11/13/2020, 10:23:12 PM  [blur] 1
+INFO 11/13/2020, 10:23:16 PM  [focus] 1
+INFO 11/13/2020, 10:23:16 PM  [blur] 1
+INFO 11/13/2020, 10:23:16 PM  [focus] 1
+INFO 11/13/2020, 10:23:16 PM  [blur] 1
+INFO 11/13/2020, 10:23:16 PM  [focus] 1
+INFO 11/13/2020, 10:23:16 PM  addRecentDocument
+INFO 11/13/2020, 10:23:18 PM  [blur] 1
+INFO 11/13/2020, 10:23:22 PM  [focus] 1
+INFO 11/13/2020, 10:23:23 PM  [blur] 1
+INFO 11/13/2020, 10:23:38 PM  [focus] 1
+INFO 11/13/2020, 10:26:03 PM  ----------------before-quit-----------------
+INFO 11/13/2020, 10:26:03 PM  ------------------will-quit------------------
+INFO 11/13/2020, 10:26:13 PM  ------------------start------------------
+INFO 11/13/2020, 10:26:13 PM  typora version: 0.9.96
+DEBUG 11/13/2020, 10:26:13 PM  [
   '/usr/share/typora/Typora',
-  '/home/jeff/Dropbox/church/discipleship/reunion/reunion-01-biblestudy-truth.rtf'
+  '/home/jeff/Dropbox/journal/bible/newt/romans/romans02b-jews.md'
 ]
-DEBUG 9/12/2020, 2:19:02 PM  app.openFile
-INFO 9/12/2020, 2:19:02 PM  addRecentDocument
-INFO 9/12/2020, 2:19:03 PM  [Raven] instanceKey = 7a5d3125-72f2-4a4b-acb6-fe4dca9488c4
-INFO 9/12/2020, 2:19:03 PM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-INFO 9/12/2020, 2:19:03 PM  [focus] 1
-INFO 9/12/2020, 2:19:07 PM  ----------------before-quit-----------------
-INFO 9/12/2020, 2:19:07 PM  ------------------will-quit------------------
-INFO 9/15/2020, 9:12:48 AM  ------------------start------------------
-INFO 9/15/2020, 9:12:48 AM  typora version: 0.9.95
-DEBUG 9/15/2020, 9:12:48 AM  [ '/usr/share/typora/Typora' ]
-INFO 9/15/2020, 9:12:48 AM  [Raven] instanceKey = 5f387fde-a4c8-4eab-b52c-ebccfd855161
-DEBUG 9/15/2020, 9:12:49 AM  app.openFile
-INFO 9/15/2020, 9:12:49 AM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-INFO 9/15/2020, 9:12:49 AM  [focus] 1
-INFO 9/15/2020, 9:12:52 AM  ----------------before-quit-----------------
-INFO 9/15/2020, 9:12:52 AM  ------------------will-quit------------------
-INFO 9/15/2020, 7:28:34 PM  ------------------start------------------
-INFO 9/15/2020, 7:28:34 PM  typora version: 0.9.95
-DEBUG 9/15/2020, 7:28:34 PM  [ '/usr/share/typora/Typora' ]
-INFO 9/15/2020, 7:28:34 PM  [Raven] instanceKey = 30f4d0f5-d2eb-41b4-838a-7d5c57d6152a
-DEBUG 9/15/2020, 7:28:34 PM  app.openFile
-INFO 9/15/2020, 7:28:34 PM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-INFO 9/15/2020, 7:28:34 PM  [focus] 1
-INFO 9/15/2020, 7:28:35 PM  [blur] 1
-INFO 9/15/2020, 7:28:43 PM  [focus] 1
-INFO 9/15/2020, 7:28:44 PM  [blur] 1
-INFO 9/15/2020, 7:28:51 PM  [focus] 1
-INFO 9/15/2020, 7:29:30 PM  [blur] 1
-INFO 9/15/2020, 7:29:57 PM  [focus] 1
-INFO 9/15/2020, 7:29:57 PM  [blur] 1
-INFO 9/15/2020, 7:29:57 PM  [focus] 1
-INFO 9/15/2020, 7:29:57 PM  [blur] 1
-INFO 9/15/2020, 7:29:57 PM  [focus] 1
-INFO 9/15/2020, 7:29:57 PM  addRecentDocument
-INFO 9/15/2020, 7:29:59 PM  [blur] 1
-INFO 9/15/2020, 7:29:59 PM  [focus] 1
-INFO 9/15/2020, 7:30:02 PM  [blur] 1
-INFO 9/15/2020, 7:30:12 PM  [focus] 1
-INFO 9/15/2020, 7:30:14 PM  [blur] 1
-INFO 9/15/2020, 7:43:38 PM  [focus] 1
-DEBUG 9/15/2020, 7:43:44 PM  app.openFile
-INFO 9/15/2020, 7:43:44 PM  [blur] 1
-INFO 9/15/2020, 7:43:44 PM  [focus] 2
-INFO 9/15/2020, 7:43:47 PM  [blur] 2
-INFO 9/15/2020, 7:45:45 PM  [focus] 2
-INFO 9/15/2020, 7:50:53 PM  [blur] 2
-INFO 9/15/2020, 7:51:09 PM  [focus] 2
-INFO 9/15/2020, 7:51:09 PM  [blur] 2
-INFO 9/15/2020, 7:51:09 PM  [focus] 2
-INFO 9/15/2020, 7:51:09 PM  [blur] 2
-INFO 9/15/2020, 7:51:09 PM  [focus] 2
-INFO 9/15/2020, 7:51:09 PM  addRecentDocument
-INFO 9/15/2020, 7:51:12 PM  [blur] 2
-INFO 9/15/2020, 7:51:17 PM  [focus] 2
-INFO 9/15/2020, 7:51:23 PM  [blur] 2
-INFO 9/15/2020, 7:52:12 PM  [focus] 2
-DEBUG 9/15/2020, 7:52:13 PM  app.openFile
-INFO 9/15/2020, 7:52:13 PM  [blur] 2
-INFO 9/15/2020, 7:52:13 PM  [focus] 3
-INFO 9/15/2020, 7:53:19 PM  [blur] 3
-INFO 9/15/2020, 7:53:28 PM  [focus] 3
-INFO 9/15/2020, 7:53:28 PM  [blur] 3
-INFO 9/15/2020, 7:53:28 PM  [focus] 3
-INFO 9/15/2020, 7:53:28 PM  [blur] 3
-INFO 9/15/2020, 7:53:28 PM  [focus] 3
-INFO 9/15/2020, 7:53:28 PM  addRecentDocument
-INFO 9/15/2020, 7:53:30 PM  [blur] 3
-INFO 9/15/2020, 7:53:39 PM  [focus] 3
-INFO 9/15/2020, 7:53:42 PM  [focus] 2
-INFO 9/15/2020, 7:53:42 PM  [blur] 2
-INFO 9/15/2020, 7:53:42 PM  [focus] 2
-INFO 9/15/2020, 7:53:42 PM  [blur] 2
-INFO 9/15/2020, 7:53:42 PM  [focus] 2
-INFO 9/15/2020, 7:53:43 PM  [focus] 1
-INFO 9/15/2020, 7:53:43 PM  [blur] 1
-INFO 9/15/2020, 7:53:43 PM  [focus] 1
-INFO 9/15/2020, 7:53:43 PM  [blur] 1
-INFO 9/15/2020, 7:53:43 PM  [focus] 1
-INFO 9/15/2020, 7:53:45 PM  ----------------before-quit-----------------
-INFO 9/15/2020, 7:53:45 PM  ------------------will-quit------------------
-INFO 9/15/2020, 8:45:45 PM  ------------------start------------------
-INFO 9/15/2020, 8:45:45 PM  typora version: 0.9.95
-DEBUG 9/15/2020, 8:45:45 PM  [
+DEBUG 11/13/2020, 10:26:13 PM  app.openFile
+INFO 11/13/2020, 10:26:13 PM  addRecentDocument
+INFO 11/13/2020, 10:26:13 PM  [Raven] instanceKey = c8790f3d-2ef8-43e5-a0d5-ee1c77428a19
+INFO 11/13/2020, 10:26:13 PM  [Raven] userId = 1608746f-a0df-4b8f-99bb-31fa17894f66
+INFO 11/13/2020, 10:26:13 PM  [focus] 1
+INFO 11/13/2020, 10:26:29 PM  [blur] 1
+INFO 11/13/2020, 10:26:33 PM  [focus] 1
+INFO 11/13/2020, 10:26:33 PM  [blur] 1
+INFO 11/13/2020, 10:26:33 PM  [focus] 1
+INFO 11/13/2020, 10:26:33 PM  [blur] 1
+INFO 11/13/2020, 10:26:33 PM  [focus] 1
+INFO 11/13/2020, 10:26:33 PM  addRecentDocument
+INFO 11/13/2020, 10:26:35 PM  [blur] 1
+INFO 11/13/2020, 10:26:37 PM  [focus] 1
+INFO 11/13/2020, 10:26:38 PM  [blur] 1
+INFO 11/13/2020, 10:26:52 PM  [focus] 1
+INFO 11/13/2020, 10:27:17 PM  ----------------before-quit-----------------
+INFO 11/13/2020, 10:27:17 PM  ------------------will-quit------------------
+INFO 11/13/2020, 10:27:42 PM  ------------------start------------------
+INFO 11/13/2020, 10:27:42 PM  typora version: 0.9.96
+DEBUG 11/13/2020, 10:27:42 PM  [
   '/usr/share/typora/Typora',
-  '/home/jeff/Dropbox/church/discipleship/reunion/reunion-minister-to-others-role.md'
+  '/home/jeff/Dropbox/journal/bible/newt/romans/romans02b-jews.md'
 ]
-DEBUG 9/15/2020, 8:45:45 PM  app.openFile
-INFO 9/15/2020, 8:45:45 PM  addRecentDocument
-INFO 9/15/2020, 8:45:45 PM  [Raven] instanceKey = 7d2fd2ac-309e-4373-aaf2-5a03189e2569
-INFO 9/15/2020, 8:45:45 PM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-INFO 9/15/2020, 8:45:46 PM  [focus] 1
-INFO 9/15/2020, 8:56:58 PM  ----------------before-quit-----------------
-INFO 9/15/2020, 8:56:58 PM  ------------------will-quit------------------
-INFO 9/15/2020, 8:57:01 PM  ------------------start------------------
-INFO 9/15/2020, 8:57:01 PM  typora version: 0.9.95
-DEBUG 9/15/2020, 8:57:01 PM  [ '/usr/share/typora/Typora' ]
-INFO 9/15/2020, 8:57:01 PM  [Raven] instanceKey = c36b4f8d-9eac-4dbd-ae1b-73c19033fa60
-DEBUG 9/15/2020, 8:57:01 PM  app.openFile
-INFO 9/15/2020, 8:57:01 PM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-INFO 9/15/2020, 8:57:01 PM  [focus] 1
-INFO 9/15/2020, 8:57:09 PM  [blur] 1
-INFO 9/15/2020, 8:57:24 PM  [focus] 1
-INFO 9/15/2020, 8:57:24 PM  [blur] 1
-INFO 9/15/2020, 8:57:24 PM  [focus] 1
-INFO 9/15/2020, 8:57:24 PM  [blur] 1
-INFO 9/15/2020, 8:57:24 PM  [focus] 1
-INFO 9/15/2020, 8:57:24 PM  addRecentFolder
-INFO 9/15/2020, 8:57:47 PM  [blur] 1
-INFO 9/15/2020, 8:58:21 PM  [focus] 1
-INFO 9/15/2020, 8:58:33 PM  [blur] 1
-INFO 9/15/2020, 8:58:45 PM  [focus] 1
-INFO 9/15/2020, 8:59:12 PM  [blur] 1
-INFO 9/15/2020, 8:59:13 PM  [focus] 1
-INFO 9/15/2020, 8:59:52 PM  [blur] 1
-INFO 9/15/2020, 8:59:59 PM  [focus] 1
-INFO 9/15/2020, 9:01:03 PM  [blur] 1
-INFO 9/15/2020, 9:01:04 PM  [focus] 1
-INFO 9/15/2020, 9:02:10 PM  [blur] 1
-INFO 9/15/2020, 9:02:12 PM  [focus] 1
-INFO 9/15/2020, 9:02:40 PM  [blur] 1
-INFO 9/15/2020, 9:02:42 PM  [focus] 1
-INFO 9/15/2020, 9:03:34 PM  [blur] 1
-INFO 9/15/2020, 9:03:36 PM  [focus] 1
-INFO 9/15/2020, 9:04:06 PM  [blur] 1
-INFO 9/15/2020, 9:04:19 PM  [focus] 1
-INFO 9/15/2020, 9:04:19 PM  [blur] 1
-INFO 9/15/2020, 9:04:19 PM  [focus] 1
-INFO 9/15/2020, 9:04:19 PM  [blur] 1
-INFO 9/15/2020, 9:04:19 PM  [focus] 1
-INFO 9/15/2020, 9:04:19 PM  addRecentDocument
-INFO 9/15/2020, 9:04:38 PM  [blur] 1
-INFO 9/15/2020, 9:04:45 PM  [focus] 1
-INFO 9/15/2020, 9:04:59 PM  [blur] 1
-INFO 9/15/2020, 9:05:01 PM  [focus] 1
-INFO 9/15/2020, 9:06:23 PM  [blur] 1
-INFO 9/15/2020, 9:06:28 PM  [focus] 1
-INFO 9/15/2020, 9:07:11 PM  [blur] 1
-INFO 9/15/2020, 9:07:22 PM  [focus] 1
-INFO 9/15/2020, 9:07:49 PM  [blur] 1
-INFO 9/15/2020, 9:07:51 PM  [focus] 1
-INFO 9/15/2020, 9:08:15 PM  [blur] 1
-INFO 9/15/2020, 9:08:25 PM  [focus] 1
-INFO 9/15/2020, 9:09:41 PM  [blur] 1
-INFO 9/15/2020, 9:09:49 PM  [focus] 1
-INFO 9/15/2020, 9:10:24 PM  [blur] 1
-INFO 9/15/2020, 9:10:26 PM  [focus] 1
-INFO 9/15/2020, 9:10:59 PM  [blur] 1
-INFO 9/15/2020, 9:11:01 PM  [focus] 1
-INFO 9/15/2020, 9:11:36 PM  [blur] 1
-INFO 9/15/2020, 9:11:41 PM  [focus] 1
-INFO 9/15/2020, 9:14:05 PM  [blur] 1
-INFO 9/15/2020, 9:14:08 PM  [focus] 1
-INFO 9/15/2020, 9:14:16 PM  [blur] 1
-INFO 9/15/2020, 9:14:22 PM  [focus] 1
-INFO 9/15/2020, 9:15:19 PM  [blur] 1
-INFO 9/15/2020, 9:15:23 PM  [focus] 1
-INFO 9/15/2020, 9:16:00 PM  [blur] 1
-INFO 9/15/2020, 9:16:02 PM  [focus] 1
-INFO 9/15/2020, 9:16:21 PM  ----------------before-quit-----------------
-INFO 9/15/2020, 9:16:21 PM  ------------------will-quit------------------
-INFO 9/16/2020, 1:25:06 PM  ------------------start------------------
-INFO 9/16/2020, 1:25:06 PM  typora version: 0.9.95
-DEBUG 9/16/2020, 1:25:06 PM  [
+DEBUG 11/13/2020, 10:27:42 PM  app.openFile
+INFO 11/13/2020, 10:27:42 PM  addRecentDocument
+INFO 11/13/2020, 10:27:43 PM  [Raven] instanceKey = 93323fdb-64a0-46aa-ae1c-892da4e14bd6
+INFO 11/13/2020, 10:27:43 PM  [Raven] userId = 1608746f-a0df-4b8f-99bb-31fa17894f66
+INFO 11/13/2020, 10:27:43 PM  [focus] 1
+INFO 11/13/2020, 10:27:50 PM  [blur] 1
+INFO 11/13/2020, 10:27:53 PM  [focus] 1
+INFO 11/13/2020, 10:27:54 PM  [blur] 1
+INFO 11/13/2020, 10:28:02 PM  [focus] 1
+INFO 11/13/2020, 10:28:16 PM  [blur] 1
+INFO 11/13/2020, 10:28:18 PM  [focus] 1
+INFO 11/13/2020, 10:28:19 PM  [blur] 1
+INFO 11/13/2020, 10:28:27 PM  [focus] 1
+INFO 11/13/2020, 10:29:03 PM  ----------------before-quit-----------------
+INFO 11/13/2020, 10:29:03 PM  ------------------will-quit------------------
+INFO 11/14/2020, 8:16:55 PM  ------------------start------------------
+INFO 11/14/2020, 8:16:55 PM  typora version: 0.9.96
+DEBUG 11/14/2020, 8:16:55 PM  [
   '/usr/share/typora/Typora',
-  '/home/jeff/Dropbox/church/discipleship/reunion/reunion-intro-to-SHAPE.md'
+  '/home/jeff/Dropbox/journal/bible/newt/romans/romans02b-moo.md'
 ]
-DEBUG 9/16/2020, 1:25:06 PM  app.openFile
-INFO 9/16/2020, 1:25:06 PM  addRecentDocument
-INFO 9/16/2020, 1:25:06 PM  [Raven] instanceKey = 9bca1d94-31e6-4e5b-adbe-ac036b990160
-INFO 9/16/2020, 1:25:06 PM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-INFO 9/16/2020, 1:25:07 PM  [focus] 1
-INFO 9/16/2020, 1:27:15 PM  [blur] 1
-INFO 9/16/2020, 1:27:16 PM  [focus] 1
-INFO 9/16/2020, 1:27:16 PM  [blur] 1
-INFO 9/16/2020, 1:27:16 PM  [focus] 1
-INFO 9/16/2020, 1:27:35 PM  switchDocument
-INFO 9/16/2020, 1:27:35 PM  addRecentDocument
-INFO 9/16/2020, 1:27:51 PM  switchDocument
-INFO 9/16/2020, 1:27:51 PM  addRecentDocument
-INFO 9/16/2020, 1:28:15 PM  [blur] 1
-INFO 9/16/2020, 1:28:46 PM  [focus] 1
-DEBUG 9/16/2020, 1:28:49 PM  app.openFile
-INFO 9/16/2020, 1:28:49 PM  [blur] 1
-INFO 9/16/2020, 1:28:49 PM  [focus] 2
-INFO 9/16/2020, 1:28:50 PM  [blur] 2
-INFO 9/16/2020, 1:29:02 PM  [focus] 2
-INFO 9/16/2020, 1:29:21 PM  [blur] 2
-INFO 9/16/2020, 1:29:24 PM  [focus] 2
-INFO 9/16/2020, 1:29:25 PM  [blur] 2
-INFO 9/16/2020, 1:30:01 PM  [focus] 2
-INFO 9/16/2020, 1:30:02 PM  [blur] 2
-INFO 9/16/2020, 1:30:09 PM  [focus] 2
-INFO 9/16/2020, 1:30:11 PM  [blur] 2
-INFO 9/16/2020, 1:30:28 PM  [focus] 2
-INFO 9/16/2020, 1:30:51 PM  [focus] 1
-INFO 9/16/2020, 1:30:52 PM  [blur] 1
-INFO 9/16/2020, 1:30:52 PM  [focus] 1
-INFO 9/16/2020, 1:30:52 PM  [blur] 1
-INFO 9/16/2020, 1:30:52 PM  [focus] 1
-INFO 9/16/2020, 1:30:56 PM  [blur] 1
-INFO 9/16/2020, 1:31:00 PM  [focus] 1
-INFO 9/16/2020, 1:31:02 PM  switchDocument
-INFO 9/16/2020, 1:31:02 PM  addRecentDocument
-INFO 9/16/2020, 1:31:18 PM  [blur] 1
-INFO 9/16/2020, 1:31:31 PM  [focus] 1
-INFO 9/16/2020, 1:34:19 PM  ----------------before-quit-----------------
-INFO 9/16/2020, 1:34:19 PM  ------------------will-quit------------------
-INFO 9/16/2020, 1:35:47 PM  ------------------start------------------
-INFO 9/16/2020, 1:35:47 PM  typora version: 0.9.95
-DEBUG 9/16/2020, 1:35:47 PM  [
+DEBUG 11/14/2020, 8:16:55 PM  app.openFile
+INFO 11/14/2020, 8:16:55 PM  addRecentDocument
+INFO 11/14/2020, 8:16:55 PM  [Raven] instanceKey = 933f38a7-8f3f-4aef-aa3f-e95503d1b60f
+INFO 11/14/2020, 8:16:55 PM  [Raven] userId = 1608746f-a0df-4b8f-99bb-31fa17894f66
+INFO 11/14/2020, 8:16:56 PM  [focus] 1
+INFO 11/14/2020, 8:17:17 PM  [blur] 1
+INFO 11/14/2020, 8:17:23 PM  [focus] 1
+INFO 11/14/2020, 8:17:23 PM  [blur] 1
+INFO 11/14/2020, 8:17:23 PM  [focus] 1
+INFO 11/14/2020, 8:17:23 PM  [blur] 1
+INFO 11/14/2020, 8:17:23 PM  [focus] 1
+INFO 11/14/2020, 8:17:23 PM  addRecentDocument
+INFO 11/14/2020, 8:17:24 PM  [blur] 1
+INFO 11/14/2020, 8:17:34 PM  [focus] 1
+INFO 11/14/2020, 8:17:35 PM  [blur] 1
+INFO 11/14/2020, 8:17:45 PM  [focus] 1
+INFO 11/14/2020, 8:18:18 PM  [blur] 1
+INFO 11/14/2020, 8:18:25 PM  [focus] 1
+INFO 11/14/2020, 8:18:26 PM  [blur] 1
+INFO 11/14/2020, 8:18:37 PM  [focus] 1
+INFO 11/14/2020, 8:18:46 PM  [blur] 1
+INFO 11/14/2020, 8:18:52 PM  [focus] 1
+INFO 11/14/2020, 8:18:52 PM  [blur] 1
+INFO 11/14/2020, 8:18:52 PM  [focus] 1
+INFO 11/14/2020, 8:18:52 PM  [blur] 1
+INFO 11/14/2020, 8:18:52 PM  [focus] 1
+INFO 11/14/2020, 8:18:52 PM  addRecentDocument
+INFO 11/14/2020, 8:18:58 PM  [blur] 1
+INFO 11/14/2020, 8:19:05 PM  [focus] 1
+INFO 11/14/2020, 8:19:05 PM  [blur] 1
+INFO 11/14/2020, 8:19:05 PM  [focus] 1
+INFO 11/14/2020, 8:19:05 PM  [blur] 1
+INFO 11/14/2020, 8:19:05 PM  [focus] 1
+INFO 11/14/2020, 8:19:05 PM  addRecentDocument
+INFO 11/14/2020, 8:19:10 PM  [blur] 1
+INFO 11/14/2020, 8:19:17 PM  [focus] 1
+INFO 11/14/2020, 8:19:17 PM  [blur] 1
+INFO 11/14/2020, 8:19:19 PM  [focus] 1
+INFO 11/14/2020, 8:19:19 PM  [blur] 1
+INFO 11/14/2020, 8:20:07 PM  [focus] 1
+INFO 11/14/2020, 8:20:29 PM  [blur] 1
+INFO 11/14/2020, 8:20:44 PM  [focus] 1
+INFO 11/14/2020, 8:20:45 PM  [blur] 1
+INFO 11/14/2020, 8:21:53 PM  [focus] 1
+INFO 11/14/2020, 8:21:53 PM  [blur] 1
+INFO 11/14/2020, 8:21:54 PM  [focus] 1
+INFO 11/14/2020, 8:21:55 PM  [blur] 1
+INFO 11/14/2020, 8:26:48 PM  [focus] 1
+INFO 11/14/2020, 8:26:48 PM  [blur] 1
+INFO 11/14/2020, 8:33:03 PM  [focus] 1
+INFO 11/14/2020, 8:33:03 PM  [blur] 1
+INFO 11/14/2020, 8:33:03 PM  [focus] 1
+INFO 11/14/2020, 8:33:03 PM  [blur] 1
+INFO 11/14/2020, 8:33:03 PM  [focus] 1
+INFO 11/14/2020, 8:33:12 PM  switchDocument
+INFO 11/14/2020, 8:33:12 PM  addRecentDocument
+INFO 11/14/2020, 8:34:15 PM  [blur] 1
+INFO 11/14/2020, 8:34:37 PM  [focus] 1
+INFO 11/14/2020, 8:37:02 PM  [blur] 1
+INFO 11/14/2020, 8:37:06 PM  [focus] 1
+INFO 11/14/2020, 8:44:41 PM  [blur] 1
+INFO 11/14/2020, 8:45:06 PM  [focus] 1
+INFO 11/14/2020, 8:49:52 PM  [blur] 1
+INFO 11/14/2020, 8:50:52 PM  [focus] 1
+INFO 11/14/2020, 9:05:10 PM  [blur] 1
+INFO 11/14/2020, 9:05:19 PM  [focus] 1
+INFO 11/14/2020, 9:10:20 PM  [blur] 1
+INFO 11/14/2020, 9:10:55 PM  [focus] 1
+INFO 11/14/2020, 9:13:46 PM  [blur] 1
+INFO 11/14/2020, 9:13:55 PM  [focus] 1
+INFO 11/14/2020, 9:18:00 PM  [blur] 1
+INFO 11/14/2020, 9:18:25 PM  [focus] 1
+INFO 11/14/2020, 9:24:17 PM  [blur] 1
+INFO 11/14/2020, 9:25:10 PM  [focus] 1
+INFO 11/14/2020, 9:31:35 PM  [blur] 1
+INFO 11/14/2020, 9:31:48 PM  [focus] 1
+INFO 11/14/2020, 9:33:05 PM  [blur] 1
+INFO 11/14/2020, 9:33:25 PM  [focus] 1
+INFO 11/14/2020, 9:34:56 PM  [blur] 1
+INFO 11/14/2020, 9:35:00 PM  [focus] 1
+INFO 11/14/2020, 9:35:00 PM  [blur] 1
+INFO 11/14/2020, 9:35:00 PM  [focus] 1
+INFO 11/14/2020, 9:35:00 PM  [blur] 1
+INFO 11/14/2020, 9:35:00 PM  [focus] 1
+INFO 11/14/2020, 9:35:00 PM  addRecentDocument
+INFO 11/14/2020, 9:35:26 PM  ----------------before-quit-----------------
+INFO 11/14/2020, 9:35:26 PM  ------------------will-quit------------------
+INFO 11/14/2020, 9:35:43 PM  ------------------start------------------
+INFO 11/14/2020, 9:35:43 PM  typora version: 0.9.96
+DEBUG 11/14/2020, 9:35:43 PM  [
   '/usr/share/typora/Typora',
-  '/home/jeff/Dropbox/church/discipleship/basics/abide-in-christ/growing-disciples-call-to-follow-05.md'
+  '/home/jeff/Dropbox/journal/bible/newt/romans/romans03a-moo.md'
 ]
-DEBUG 9/16/2020, 1:35:47 PM  app.openFile
-INFO 9/16/2020, 1:35:47 PM  addRecentDocument
-INFO 9/16/2020, 1:35:47 PM  [Raven] instanceKey = f0a1c688-7ca1-4249-8fad-fe79a0ecb03a
-INFO 9/16/2020, 1:35:47 PM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-INFO 9/16/2020, 1:35:47 PM  [focus] 1
-INFO 9/16/2020, 1:35:54 PM  switchDocument
-INFO 9/16/2020, 1:35:54 PM  addRecentDocument
-INFO 9/16/2020, 1:35:57 PM  switchDocument
-INFO 9/16/2020, 1:35:57 PM  addRecentDocument
-INFO 9/16/2020, 1:35:59 PM  switchDocument
-INFO 9/16/2020, 1:35:59 PM  addRecentDocument
-INFO 9/16/2020, 1:36:00 PM  switchDocument
-INFO 9/16/2020, 1:36:00 PM  addRecentDocument
-INFO 9/16/2020, 1:36:02 PM  switchDocument
-INFO 9/16/2020, 1:36:02 PM  addRecentDocument
-INFO 9/16/2020, 1:36:06 PM  ----------------before-quit-----------------
-INFO 9/16/2020, 1:36:11 PM  ------------------start------------------
-INFO 9/16/2020, 1:36:11 PM  typora version: 0.9.95
-DEBUG 9/16/2020, 1:36:11 PM  [
+DEBUG 11/14/2020, 9:35:43 PM  app.openFile
+INFO 11/14/2020, 9:35:43 PM  addRecentDocument
+INFO 11/14/2020, 9:35:43 PM  [Raven] instanceKey = 257c092c-6f12-445c-b528-82d563e68137
+INFO 11/14/2020, 9:35:43 PM  [Raven] userId = 1608746f-a0df-4b8f-99bb-31fa17894f66
+INFO 11/14/2020, 9:35:43 PM  [focus] 1
+INFO 11/14/2020, 9:36:00 PM  [blur] 1
+INFO 11/14/2020, 9:36:20 PM  [focus] 1
+INFO 11/14/2020, 9:39:02 PM  [blur] 1
+INFO 11/14/2020, 9:39:49 PM  [focus] 1
+INFO 11/14/2020, 9:42:30 PM  [blur] 1
+INFO 11/14/2020, 9:43:05 PM  [focus] 1
+INFO 11/14/2020, 9:44:11 PM  [blur] 1
+INFO 11/14/2020, 9:47:32 PM  [focus] 1
+INFO 11/14/2020, 9:47:44 PM  [blur] 1
+INFO 11/14/2020, 9:51:27 PM  [focus] 1
+INFO 11/14/2020, 9:51:30 PM  [blur] 1
+INFO 11/14/2020, 9:58:11 PM  [focus] 1
+INFO 11/14/2020, 9:58:11 PM  [blur] 1
+INFO 11/14/2020, 9:59:03 PM  [focus] 1
+INFO 11/14/2020, 9:59:16 PM  switchDocument
+INFO 11/14/2020, 9:59:16 PM  addRecentDocument
+INFO 11/14/2020, 9:59:18 PM  [blur] 1
+INFO 11/14/2020, 9:59:18 PM  [focus] 1
+INFO 11/14/2020, 9:59:27 PM  [blur] 1
+INFO 11/14/2020, 9:59:30 PM  [focus] 1
+INFO 11/14/2020, 9:59:30 PM  [blur] 1
+INFO 11/14/2020, 9:59:30 PM  [focus] 1
+INFO 11/14/2020, 9:59:30 PM  [blur] 1
+INFO 11/14/2020, 9:59:30 PM  [focus] 1
+INFO 11/14/2020, 9:59:31 PM  addRecentDocument
+INFO 11/14/2020, 9:59:54 PM  switchDocument
+INFO 11/14/2020, 9:59:54 PM  addRecentDocument
+INFO 11/14/2020, 10:00:07 PM  [blur] 1
+INFO 11/14/2020, 10:01:10 PM  [focus] 1
+INFO 11/14/2020, 10:04:00 PM  [blur] 1
+INFO 11/14/2020, 10:04:01 PM  [focus] 1
+INFO 11/14/2020, 10:04:03 PM  [blur] 1
+INFO 11/14/2020, 10:04:03 PM  [focus] 1
+INFO 11/14/2020, 10:04:04 PM  [blur] 1
+INFO 11/14/2020, 10:04:04 PM  [focus] 1
+INFO 11/14/2020, 10:07:58 PM  [blur] 1
+INFO 11/14/2020, 10:08:02 PM  [focus] 1
+INFO 11/14/2020, 10:12:26 PM  [blur] 1
+INFO 11/14/2020, 10:12:29 PM  [focus] 1
+INFO 11/14/2020, 10:12:32 PM  switchDocument
+INFO 11/14/2020, 10:12:32 PM  addRecentDocument
+INFO 11/14/2020, 10:12:57 PM  switchDocument
+INFO 11/14/2020, 10:12:57 PM  addRecentDocument
+INFO 11/14/2020, 10:13:06 PM  switchDocument
+INFO 11/14/2020, 10:13:06 PM  addRecentDocument
+INFO 11/14/2020, 10:13:21 PM  [blur] 1
+INFO 11/14/2020, 10:17:02 PM  [focus] 1
+INFO 11/14/2020, 10:17:03 PM  [blur] 1
+INFO 11/14/2020, 10:17:16 PM  [focus] 1
+INFO 11/14/2020, 10:17:39 PM  ----------------before-quit-----------------
+INFO 11/14/2020, 10:17:39 PM  ------------------will-quit------------------
+INFO 11/15/2020, 12:41:03 PM  ------------------start------------------
+INFO 11/15/2020, 12:41:03 PM  typora version: 0.9.96
+DEBUG 11/15/2020, 12:41:03 PM  [
   '/usr/share/typora/Typora',
-  '/home/jeff/Dropbox/church/discipleship/basics/abide-in-christ/growing-disciples-call-to-follow-05.md'
+  '/home/jeff/Dropbox/journal/bible/newt/romans/romans03a-moo.md'
 ]
-DEBUG 9/16/2020, 1:36:11 PM  app.openFile
-INFO 9/16/2020, 1:36:11 PM  addRecentDocument
-INFO 9/16/2020, 1:36:11 PM  [Raven] instanceKey = 6772121d-995c-4ea3-b41c-7e84f336f2eb
-INFO 9/16/2020, 1:36:11 PM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-INFO 9/16/2020, 1:36:11 PM  [focus] 1
-INFO 9/16/2020, 1:36:15 PM  ----------------before-quit-----------------
-INFO 9/16/2020, 1:36:15 PM  ------------------will-quit------------------
-INFO 9/17/2020, 7:42:36 AM  ------------------start------------------
-INFO 9/17/2020, 7:42:36 AM  typora version: 0.9.95
-DEBUG 9/17/2020, 7:42:36 AM  [ '/usr/share/typora/Typora' ]
-INFO 9/17/2020, 7:42:36 AM  [Raven] instanceKey = a7490c35-a752-43cb-9f04-7540754497bf
-DEBUG 9/17/2020, 7:42:36 AM  app.openFile
-INFO 9/17/2020, 7:42:36 AM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-INFO 9/17/2020, 7:42:36 AM  [focus] 1
-INFO 9/17/2020, 7:42:43 AM  addRecentFolder
-INFO 9/17/2020, 7:42:58 AM  switchDocument
-INFO 9/17/2020, 7:42:58 AM  addRecentDocument
-INFO 9/17/2020, 7:43:12 AM  [blur] 1
-INFO 9/17/2020, 7:43:18 AM  [focus] 1
-INFO 9/17/2020, 7:43:22 AM  [blur] 1
-INFO 9/17/2020, 7:43:29 AM  [focus] 1
-DEBUG 9/17/2020, 7:43:32 AM  app.openFile
-INFO 9/17/2020, 7:43:32 AM  [blur] 1
-INFO 9/17/2020, 7:43:32 AM  [focus] 2
-INFO 9/17/2020, 7:43:35 AM  [blur] 2
-INFO 9/17/2020, 7:43:54 AM  [focus] 2
-INFO 9/17/2020, 7:44:13 AM  [blur] 2
-INFO 9/17/2020, 7:44:57 AM  [focus] 2
-DEBUG 9/17/2020, 7:45:05 AM  switching windows from same document
-DEBUG 9/17/2020, 7:45:05 AM  lastSync null, timestamp 1600346705505, mtime 1600281255224.8923
-INFO 9/17/2020, 7:47:51 AM  [blur] 2
-INFO 9/17/2020, 7:47:55 AM  [focus] 2
-INFO 9/17/2020, 7:49:26 AM  [blur] 2
-INFO 9/17/2020, 7:50:23 AM  [focus] 2
-INFO 9/17/2020, 7:51:06 AM  [blur] 2
-INFO 9/17/2020, 7:51:10 AM  [focus] 2
-INFO 9/17/2020, 7:52:09 AM  [blur] 2
-INFO 9/17/2020, 7:52:14 AM  [focus] 2
-INFO 9/17/2020, 7:52:54 AM  [blur] 2
-INFO 9/17/2020, 7:53:34 AM  [focus] 2
-INFO 9/17/2020, 7:54:03 AM  [blur] 2
-INFO 9/17/2020, 7:54:04 AM  [focus] 2
-INFO 9/17/2020, 7:54:06 AM  [blur] 2
-INFO 9/17/2020, 7:54:11 AM  [focus] 2
-INFO 9/17/2020, 7:55:22 AM  [blur] 2
-INFO 9/17/2020, 7:55:27 AM  [focus] 2
-INFO 9/17/2020, 7:55:51 AM  [blur] 2
-INFO 9/17/2020, 7:56:04 AM  [focus] 2
-INFO 9/17/2020, 7:56:48 AM  [blur] 2
-INFO 9/17/2020, 7:56:49 AM  [focus] 2
-INFO 9/17/2020, 7:56:54 AM  [blur] 2
-INFO 9/17/2020, 7:56:56 AM  [focus] 2
-INFO 9/17/2020, 7:56:56 AM  [blur] 2
-INFO 9/17/2020, 7:57:10 AM  [focus] 2
-INFO 9/17/2020, 7:57:16 AM  [blur] 2
-INFO 9/17/2020, 7:57:24 AM  [focus] 2
-INFO 9/17/2020, 7:58:49 AM  [blur] 2
-INFO 9/17/2020, 7:58:51 AM  [focus] 2
-INFO 9/17/2020, 7:58:57 AM  [blur] 2
-INFO 9/17/2020, 7:58:58 AM  [focus] 2
-INFO 9/17/2020, 7:59:37 AM  [blur] 2
-INFO 9/17/2020, 7:59:43 AM  [focus] 2
-INFO 9/17/2020, 7:59:47 AM  [blur] 2
-INFO 9/17/2020, 7:59:49 AM  [focus] 2
-INFO 9/17/2020, 8:00:25 AM  [blur] 2
-INFO 9/17/2020, 8:00:31 AM  [focus] 2
-INFO 9/17/2020, 8:00:43 AM  [blur] 2
-INFO 9/17/2020, 8:01:02 AM  [focus] 2
-INFO 9/17/2020, 8:01:04 AM  [blur] 2
-INFO 9/17/2020, 8:01:21 AM  [focus] 2
-INFO 9/17/2020, 8:01:23 AM  [focus] 1
-INFO 9/17/2020, 8:01:23 AM  [blur] 1
-INFO 9/17/2020, 8:01:23 AM  [focus] 1
-INFO 9/17/2020, 8:01:23 AM  [blur] 1
-INFO 9/17/2020, 8:01:23 AM  [focus] 1
-DEBUG 9/17/2020, 8:01:23 AM  lastSync 1600347682975.89, timestamp 1600347683483, mtime 1600347682975.89
-INFO 9/17/2020, 8:01:24 AM  ----------------before-quit-----------------
-INFO 9/17/2020, 8:01:24 AM  ------------------will-quit------------------
-INFO 9/17/2020, 8:43:40 PM  ------------------start------------------
-INFO 9/17/2020, 8:43:40 PM  typora version: 0.9.95
-DEBUG 9/17/2020, 8:43:40 PM  [ '/usr/share/typora/Typora' ]
-INFO 9/17/2020, 8:43:40 PM  [Raven] instanceKey = ea037090-e8c2-4368-8b46-4c163e05ad10
-DEBUG 9/17/2020, 8:43:40 PM  app.openFile
-INFO 9/17/2020, 8:43:40 PM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-INFO 9/17/2020, 8:43:40 PM  [focus] 1
-INFO 9/17/2020, 8:43:48 PM  addRecentFolder
-INFO 9/17/2020, 8:43:51 PM  switchDocument
-INFO 9/17/2020, 8:43:51 PM  addRecentDocument
-INFO 9/17/2020, 8:44:06 PM  [blur] 1
-INFO 9/17/2020, 8:44:08 PM  [focus] 1
-INFO 9/17/2020, 8:44:35 PM  switchDocument
-INFO 9/17/2020, 8:44:35 PM  addRecentDocument
-INFO 9/17/2020, 8:48:10 PM  switchDocument
-INFO 9/17/2020, 8:48:10 PM  addRecentDocument
-DEBUG 9/17/2020, 8:48:10 PM  lastSync 1600393475103.9497, timestamp 1600393475116, mtime 1600393475103.9497
-INFO 9/17/2020, 8:48:22 PM  switchDocument
-INFO 9/17/2020, 8:48:22 PM  addRecentDocument
-DEBUG 9/17/2020, 8:48:22 PM  lastSync 1600393687897.2932, timestamp 1600393684448, mtime 1600393687897.2932
-INFO 9/17/2020, 8:56:17 PM  switchDocument
-INFO 9/17/2020, 8:56:17 PM  addRecentDocument
-DEBUG 9/17/2020, 8:56:17 PM  lastSync 1600393702160.6255, timestamp 1600393702170, mtime 1600393702160.6255
-INFO 9/17/2020, 8:58:13 PM  switchDocument
-INFO 9/17/2020, 8:58:13 PM  addRecentDocument
-DEBUG 9/17/2020, 8:58:13 PM  lastSync 1600394176567.185, timestamp 1600394166428, mtime 1600394176567.185
-INFO 9/17/2020, 9:03:31 PM  switchDocument
-INFO 9/17/2020, 9:03:31 PM  addRecentDocument
-DEBUG 9/17/2020, 9:03:31 PM  lastSync 1600394293437.1436, timestamp 1600394293458, mtime 1600394293437.1436
-INFO 9/17/2020, 9:05:04 PM  switchDocument
-INFO 9/17/2020, 9:05:04 PM  addRecentDocument
-DEBUG 9/17/2020, 9:05:04 PM  lastSync 1600394590927.0225, timestamp 1600394589517, mtime 1600394590927.0225
-INFO 9/17/2020, 9:06:43 PM  switchDocument
-INFO 9/17/2020, 9:06:43 PM  addRecentDocument
-DEBUG 9/17/2020, 9:06:43 PM  lastSync 1600394701286.9736, timestamp 1600394696653, mtime 1600394701286.9736
-INFO 9/17/2020, 9:06:56 PM  switchDocument
-INFO 9/17/2020, 9:06:56 PM  addRecentDocument
-DEBUG 9/17/2020, 9:06:56 PM  lastSync 1600394590927.0225, timestamp 1600394803093, mtime 1600394590927.0225
-INFO 9/17/2020, 9:09:54 PM  [blur] 1
-INFO 9/17/2020, 9:09:57 PM  [focus] 1
-INFO 9/17/2020, 9:13:24 PM  switchDocument
-INFO 9/17/2020, 9:13:24 PM  addRecentDocument
-DEBUG 9/17/2020, 9:13:24 PM  lastSync 1600394701286.9736, timestamp 1600394816393, mtime 1600394701286.9736
-INFO 9/17/2020, 9:13:38 PM  switchDocument
-INFO 9/17/2020, 9:13:38 PM  addRecentDocument
-DEBUG 9/17/2020, 9:13:38 PM  lastSync 1600395204642.107, timestamp 1600395204663, mtime 1600395204642.107
-INFO 9/17/2020, 9:21:24 PM  switchDocument
-INFO 9/17/2020, 9:21:24 PM  addRecentDocument
-DEBUG 9/17/2020, 9:21:24 PM  lastSync 1600395218842.143, timestamp 1600395218858, mtime 1600395218842.143
-INFO 9/17/2020, 9:21:55 PM  switchDocument
-INFO 9/17/2020, 9:21:55 PM  addRecentDocument
-DEBUG 9/17/2020, 9:21:55 PM  lastSync 1600395684402.9458, timestamp 1600395684434, mtime 1600395684402.9458
-INFO 9/17/2020, 9:24:50 PM  switchDocument
-INFO 9/17/2020, 9:24:50 PM  addRecentDocument
-DEBUG 9/17/2020, 9:24:50 PM  lastSync 1600395715162.98, timestamp 1600395715176, mtime 1600395715162.98
-INFO 9/17/2020, 9:24:52 PM  switchDocument
-INFO 9/17/2020, 9:24:52 PM  addRecentDocument
-DEBUG 9/17/2020, 9:24:52 PM  lastSync 1600395779473.0461, timestamp 1600395890789, mtime 1600395779473.0461
-INFO 9/17/2020, 9:24:57 PM  switchDocument
-INFO 9/17/2020, 9:24:57 PM  addRecentDocument
-DEBUG 9/17/2020, 9:24:57 PM  lastSync 1600395715162.98, timestamp 1600395892515, mtime 1600395715162.98
-INFO 9/17/2020, 9:25:03 PM  switchDocument
-INFO 9/17/2020, 9:25:03 PM  addRecentDocument
-DEBUG 9/17/2020, 9:25:03 PM  lastSync 1600395779473.0461, timestamp 1600395897964, mtime 1600395779473.0461
-INFO 9/17/2020, 9:25:06 PM  switchDocument
-INFO 9/17/2020, 9:25:06 PM  addRecentDocument
-DEBUG 9/17/2020, 9:25:06 PM  lastSync 1600395715162.98, timestamp 1600395903188, mtime 1600395715162.98
-INFO 9/17/2020, 9:25:37 PM  [blur] 1
-INFO 9/17/2020, 9:27:18 PM  [focus] 1
-INFO 9/17/2020, 9:27:22 PM  [blur] 1
-INFO 9/17/2020, 9:28:02 PM  [focus] 1
-INFO 9/17/2020, 9:28:06 PM  switchDocument
-INFO 9/17/2020, 9:28:06 PM  addRecentDocument
-DEBUG 9/17/2020, 9:28:06 PM  lastSync 1600395779473.0461, timestamp 1600395906618, mtime 1600395779473.0461
-INFO 9/17/2020, 9:28:16 PM  [blur] 1
-INFO 9/17/2020, 9:28:41 PM  [focus] 1
-INFO 9/17/2020, 9:28:56 PM  [blur] 1
-INFO 9/17/2020, 9:30:07 PM  [focus] 1
-INFO 9/17/2020, 9:30:14 PM  [blur] 1
-INFO 9/17/2020, 9:30:47 PM  [focus] 1
-INFO 9/17/2020, 9:37:10 PM  [blur] 1
-INFO 9/17/2020, 9:37:24 PM  [focus] 1
-INFO 9/17/2020, 9:37:34 PM  [blur] 1
-INFO 9/17/2020, 9:37:50 PM  [focus] 1
-INFO 9/17/2020, 9:37:52 PM  switchDocument
-INFO 9/17/2020, 9:37:52 PM  addRecentDocument
-DEBUG 9/17/2020, 9:37:52 PM  lastSync 1600395715162.98, timestamp 1600396086111, mtime 1600395715162.98
-INFO 9/17/2020, 9:38:03 PM  switchDocument
-INFO 9/17/2020, 9:38:03 PM  addRecentDocument
-DEBUG 9/17/2020, 9:38:03 PM  lastSync 1600396591903.529, timestamp 1600396672904, mtime 1600396591903.529
-INFO 9/17/2020, 9:38:10 PM  switchDocument
-INFO 9/17/2020, 9:38:10 PM  addRecentDocument
-DEBUG 9/17/2020, 9:38:10 PM  lastSync 1600395715162.98, timestamp 1600396683409, mtime 1600395715162.98
-INFO 9/17/2020, 9:38:32 PM  switchDocument
-INFO 9/17/2020, 9:38:32 PM  addRecentDocument
-DEBUG 9/17/2020, 9:38:32 PM  lastSync 1600396591903.529, timestamp 1600396690287, mtime 1600396591903.529
-INFO 9/17/2020, 9:38:36 PM  switchDocument
-INFO 9/17/2020, 9:38:36 PM  addRecentDocument
-DEBUG 9/17/2020, 9:38:36 PM  lastSync 1600395715162.98, timestamp 1600396712859, mtime 1600395715162.98
-INFO 9/17/2020, 9:39:11 PM  [blur] 1
-INFO 9/17/2020, 9:39:16 PM  [focus] 1
-INFO 9/17/2020, 9:39:48 PM  switchDocument
-INFO 9/17/2020, 9:39:48 PM  addRecentDocument
-DEBUG 9/17/2020, 9:39:48 PM  lastSync 1600396591903.529, timestamp 1600396716556, mtime 1600396591903.529
-INFO 9/17/2020, 9:44:48 PM  [blur] 1
-INFO 9/17/2020, 9:45:27 PM  [focus] 1
-INFO 9/17/2020, 9:46:04 PM  [blur] 1
-INFO 9/17/2020, 9:46:49 PM  [focus] 1
-INFO 9/17/2020, 9:46:55 PM  [blur] 1
-INFO 9/17/2020, 9:47:25 PM  [focus] 1
-INFO 9/17/2020, 9:47:28 PM  switchDocument
-INFO 9/17/2020, 9:47:28 PM  addRecentDocument
-DEBUG 9/17/2020, 9:47:28 PM  lastSync 1600396788770.2625, timestamp 1600396788799, mtime 1600396788770.2625
-INFO 9/17/2020, 9:47:41 PM  [blur] 1
-INFO 9/17/2020, 9:47:47 PM  [focus] 1
-INFO 9/17/2020, 9:48:16 PM  switchDocument
-INFO 9/17/2020, 9:48:16 PM  addRecentDocument
-DEBUG 9/17/2020, 9:48:16 PM  lastSync 1600397248356.0366, timestamp 1600397248378, mtime 1600397248356.0366
-INFO 9/17/2020, 9:49:13 PM  switchDocument
-INFO 9/17/2020, 9:49:13 PM  addRecentDocument
-DEBUG 9/17/2020, 9:49:13 PM  lastSync 1600397296095.974, timestamp 1600397296122, mtime 1600397296095.974
-INFO 9/17/2020, 9:49:45 PM  switchDocument
-INFO 9/17/2020, 9:49:45 PM  addRecentDocument
-DEBUG 9/17/2020, 9:49:45 PM  lastSync 1600397353262.5718, timestamp 1600397353286, mtime 1600397353262.5718
-INFO 9/17/2020, 9:50:11 PM  [blur] 1
-INFO 9/17/2020, 9:50:11 PM  [focus] 1
-INFO 9/17/2020, 9:50:15 PM  switchDocument
-INFO 9/17/2020, 9:50:15 PM  addRecentDocument
-DEBUG 9/17/2020, 9:50:15 PM  lastSync 1600397385015.8691, timestamp 1600397385033, mtime 1600397385015.8691
-INFO 9/17/2020, 9:50:29 PM  [blur] 1
-INFO 9/17/2020, 9:50:32 PM  [focus] 1
-INFO 9/17/2020, 9:50:41 PM  switchDocument
-INFO 9/17/2020, 9:50:41 PM  addRecentDocument
-DEBUG 9/17/2020, 9:50:41 PM  lastSync 1600397415499.1697, timestamp 1600397415518, mtime 1600397415499.1697
-INFO 9/17/2020, 9:51:18 PM  [blur] 1
-INFO 9/17/2020, 9:51:51 PM  [focus] 1
-INFO 9/17/2020, 9:53:31 PM  [blur] 1
-INFO 9/17/2020, 9:53:32 PM  [focus] 1
-INFO 9/17/2020, 9:53:56 PM  switchDocument
-INFO 9/17/2020, 9:53:56 PM  addRecentDocument
-DEBUG 9/17/2020, 9:53:56 PM  lastSync 1600397385015.8691, timestamp 1600397441639, mtime 1600397385015.8691
-INFO 9/17/2020, 9:54:04 PM  switchDocument
-INFO 9/17/2020, 9:54:04 PM  addRecentDocument
-DEBUG 9/17/2020, 9:54:04 PM  lastSync 1600397610675.6558, timestamp 1600397636530, mtime 1600397610675.6558
-INFO 9/17/2020, 9:55:19 PM  [blur] 1
-INFO 9/17/2020, 9:55:46 PM  [focus] 1
-INFO 9/17/2020, 10:01:19 PM  [blur] 1
-INFO 9/17/2020, 10:01:33 PM  [focus] 1
-INFO 9/17/2020, 10:03:22 PM  [blur] 1
-INFO 9/17/2020, 10:03:39 PM  [focus] 1
-INFO 9/17/2020, 10:04:19 PM  [blur] 1
-INFO 9/17/2020, 10:04:21 PM  [focus] 1
-INFO 9/17/2020, 10:04:43 PM  [blur] 1
-INFO 9/17/2020, 10:05:22 PM  [focus] 1
-INFO 9/17/2020, 10:05:25 PM  [blur] 1
-INFO 9/17/2020, 10:05:26 PM  [focus] 1
-INFO 9/17/2020, 10:05:27 PM  [blur] 1
-INFO 9/17/2020, 10:05:54 PM  [focus] 1
-DEBUG 9/17/2020, 10:05:57 PM  app.openFile
-INFO 9/17/2020, 10:05:57 PM  [blur] 1
-INFO 9/17/2020, 10:05:57 PM  [focus] 2
-INFO 9/17/2020, 10:06:04 PM  [blur] 2
-INFO 9/17/2020, 10:06:27 PM  [focus] 2
-INFO 9/17/2020, 10:06:27 PM  [blur] 2
-INFO 9/17/2020, 10:06:27 PM  [focus] 2
-INFO 9/17/2020, 10:06:27 PM  [blur] 2
-INFO 9/17/2020, 10:06:27 PM  [focus] 2
-INFO 9/17/2020, 10:06:27 PM  addRecentDocument
-INFO 9/17/2020, 10:06:29 PM  [focus] 1
-INFO 9/17/2020, 10:06:29 PM  [blur] 1
-INFO 9/17/2020, 10:06:29 PM  [focus] 1
-INFO 9/17/2020, 10:06:29 PM  [blur] 1
-INFO 9/17/2020, 10:06:29 PM  [focus] 1
-INFO 9/17/2020, 10:06:33 PM  [blur] 1
-INFO 9/17/2020, 10:11:56 PM  [focus] 1
-INFO 9/17/2020, 10:12:21 PM  [blur] 1
-INFO 9/18/2020, 7:52:58 AM  [focus] 1
-INFO 9/18/2020, 7:53:23 AM  ----------------before-quit-----------------
-INFO 9/18/2020, 7:53:23 AM  ------------------will-quit------------------
-INFO 9/19/2020, 9:45:04 PM  ------------------start------------------
-INFO 9/19/2020, 9:45:04 PM  typora version: 0.9.95
-DEBUG 9/19/2020, 9:45:04 PM  [
+DEBUG 11/15/2020, 12:41:03 PM  app.openFile
+INFO 11/15/2020, 12:41:03 PM  addRecentDocument
+INFO 11/15/2020, 12:41:03 PM  [Raven] instanceKey = 2e2e7cd8-edf8-4e79-97a5-6ec71794daae
+INFO 11/15/2020, 12:41:03 PM  [Raven] userId = 1608746f-a0df-4b8f-99bb-31fa17894f66
+INFO 11/15/2020, 12:41:03 PM  [focus] 1
+INFO 11/15/2020, 12:41:11 PM  switchDocument
+INFO 11/15/2020, 12:41:11 PM  addRecentDocument
+INFO 11/15/2020, 12:41:22 PM  switchDocument
+INFO 11/15/2020, 12:41:22 PM  addRecentDocument
+INFO 11/15/2020, 12:41:23 PM  switchDocument
+INFO 11/15/2020, 12:41:23 PM  addRecentDocument
+DEBUG 11/15/2020, 12:41:23 PM  lastSync null, timestamp 1605465672017, mtime 1605412784506.5889
+INFO 11/15/2020, 12:41:24 PM  switchDocument
+INFO 11/15/2020, 12:41:24 PM  addRecentDocument
+DEBUG 11/15/2020, 12:41:24 PM  lastSync null, timestamp 1605465682085, mtime 1605411324379.866
+INFO 11/15/2020, 12:41:27 PM  switchDocument
+INFO 11/15/2020, 12:41:27 PM  addRecentDocument
+DEBUG 11/15/2020, 12:41:27 PM  lastSync null, timestamp 1605465684484, mtime 1605412784506.5889
+INFO 11/15/2020, 12:41:38 PM  [blur] 1
+INFO 11/15/2020, 12:41:47 PM  [focus] 1
+INFO 11/15/2020, 12:41:47 PM  [blur] 1
+INFO 11/15/2020, 12:41:47 PM  [focus] 1
+INFO 11/15/2020, 12:41:47 PM  [blur] 1
+INFO 11/15/2020, 12:41:47 PM  [focus] 1
+INFO 11/15/2020, 12:41:47 PM  addRecentDocument
+INFO 11/15/2020, 12:41:57 PM  [blur] 1
+INFO 11/15/2020, 12:42:03 PM  [focus] 1
+INFO 11/15/2020, 12:42:05 PM  [blur] 1
+INFO 11/15/2020, 12:42:20 PM  [focus] 1
+INFO 11/15/2020, 12:42:35 PM  [blur] 1
+INFO 11/15/2020, 12:43:24 PM  [focus] 1
+INFO 11/15/2020, 12:43:24 PM  [blur] 1
+INFO 11/15/2020, 12:44:14 PM  [focus] 1
+INFO 11/15/2020, 12:49:22 PM  [blur] 1
+INFO 11/15/2020, 12:50:06 PM  [focus] 1
+INFO 11/15/2020, 12:54:09 PM  [blur] 1
+INFO 11/15/2020, 12:54:39 PM  [focus] 1
+INFO 11/15/2020, 12:58:57 PM  ----------------before-quit-----------------
+INFO 11/15/2020, 12:58:57 PM  ------------------will-quit------------------
+INFO 11/16/2020, 6:40:17 AM  ------------------start------------------
+INFO 11/16/2020, 6:40:17 AM  typora version: 0.9.96
+DEBUG 11/16/2020, 6:40:17 AM  [ '/usr/share/typora/Typora' ]
+INFO 11/16/2020, 6:40:17 AM  [Raven] instanceKey = 3d0c131b-c0c0-40d8-98d6-74c37618b091
+DEBUG 11/16/2020, 6:40:17 AM  app.openFile
+INFO 11/16/2020, 6:40:18 AM  [Raven] userId = 1608746f-a0df-4b8f-99bb-31fa17894f66
+INFO 11/16/2020, 6:40:18 AM  [focus] 1
+INFO 11/16/2020, 6:40:36 AM  addRecentFolder
+INFO 11/16/2020, 6:40:41 AM  switchDocument
+INFO 11/16/2020, 6:40:41 AM  addRecentDocument
+INFO 11/16/2020, 6:42:23 AM  [blur] 1
+INFO 11/16/2020, 6:42:23 AM  [focus] 1
+INFO 11/16/2020, 6:42:23 AM  [blur] 1
+INFO 11/16/2020, 6:42:23 AM  [focus] 1
+INFO 11/16/2020, 6:42:23 AM  [blur] 1
+INFO 11/16/2020, 6:42:23 AM  [focus] 1
+INFO 11/16/2020, 6:42:28 AM  [blur] 1
+INFO 11/16/2020, 6:43:58 AM  [focus] 1
+INFO 11/16/2020, 6:43:58 AM  [blur] 1
+INFO 11/16/2020, 6:44:55 AM  got argv [typora /home/jeff/.config/Typora/themes/Readme.md] from secondary instance
+DEBUG 11/16/2020, 6:44:55 AM  app.openFile
+INFO 11/16/2020, 6:44:55 AM  addRecentDocument
+INFO 11/16/2020, 6:44:55 AM  [focus] 2
+INFO 11/16/2020, 6:44:55 AM  secondary instance would exit
+INFO 11/16/2020, 6:45:10 AM  [blur] 2
+INFO 11/16/2020, 6:45:46 AM  [focus] 2
+INFO 11/16/2020, 6:45:51 AM  [focus] 1
+INFO 11/16/2020, 6:45:51 AM  [blur] 1
+INFO 11/16/2020, 6:45:51 AM  [focus] 1
+INFO 11/16/2020, 6:45:51 AM  [blur] 1
+INFO 11/16/2020, 6:45:51 AM  [focus] 1
+INFO 11/16/2020, 6:46:08 AM  [blur] 1
+INFO 11/16/2020, 6:46:13 AM  [focus] 1
+INFO 11/16/2020, 6:46:15 AM  [blur] 1
+INFO 11/16/2020, 6:46:18 AM  [focus] 1
+INFO 11/16/2020, 6:46:19 AM  [blur] 1
+INFO 11/16/2020, 6:47:13 AM  [focus] 1
+INFO 11/16/2020, 6:47:14 AM  [blur] 1
+INFO 11/16/2020, 6:47:15 AM  [focus] 1
+INFO 11/16/2020, 6:47:29 AM  [blur] 1
+INFO 11/16/2020, 7:15:08 AM  [focus] 1
+INFO 11/16/2020, 7:15:08 AM  [blur] 1
+INFO 11/16/2020, 7:15:08 AM  [focus] 1
+INFO 11/16/2020, 7:15:08 AM  [blur] 1
+INFO 11/16/2020, 7:15:08 AM  [focus] 1
+INFO 11/16/2020, 7:15:23 AM  [blur] 1
+INFO 11/16/2020, 7:16:17 AM  [focus] 1
+INFO 11/16/2020, 7:16:40 AM  [blur] 1
+INFO 11/16/2020, 7:17:18 AM  [focus] 1
+INFO 11/16/2020, 7:17:24 AM  switchDocument
+INFO 11/16/2020, 7:17:24 AM  addRecentDocument
+INFO 11/16/2020, 7:17:27 AM  switchDocument
+INFO 11/16/2020, 7:17:27 AM  addRecentDocument
+DEBUG 11/16/2020, 7:17:27 AM  lastSync 1605532641644.5369, timestamp 1605532644689, mtime 1605532641644.5369
+INFO 11/16/2020, 7:17:40 AM  [blur] 1
+INFO 11/16/2020, 7:19:23 AM  [focus] 1
+INFO 11/16/2020, 7:20:39 AM  [blur] 1
+INFO 11/16/2020, 7:21:22 AM  [focus] 1
+INFO 11/16/2020, 7:21:27 AM  ----------------before-quit-----------------
+INFO 11/16/2020, 7:21:27 AM  ------------------will-quit------------------
+INFO 11/16/2020, 7:21:30 AM  ------------------start------------------
+INFO 11/16/2020, 7:21:30 AM  typora version: 0.9.96
+DEBUG 11/16/2020, 7:21:30 AM  [ '/usr/share/typora/Typora' ]
+INFO 11/16/2020, 7:21:30 AM  [Raven] instanceKey = 246a0561-3de6-430b-996e-599fa55fdc15
+DEBUG 11/16/2020, 7:21:30 AM  app.openFile
+INFO 11/16/2020, 7:21:30 AM  [Raven] userId = 1608746f-a0df-4b8f-99bb-31fa17894f66
+INFO 11/16/2020, 7:21:30 AM  [focus] 1
+INFO 11/16/2020, 7:21:39 AM  addRecentFolder
+INFO 11/16/2020, 7:21:44 AM  switchDocument
+INFO 11/16/2020, 7:21:44 AM  addRecentDocument
+INFO 11/16/2020, 7:22:12 AM  [blur] 1
+INFO 11/16/2020, 7:22:13 AM  [focus] 1
+INFO 11/16/2020, 7:22:14 AM  [blur] 1
+INFO 11/16/2020, 7:22:30 AM  [focus] 1
+INFO 11/16/2020, 7:22:33 AM  ----------------before-quit-----------------
+INFO 11/16/2020, 7:22:33 AM  ------------------will-quit------------------
+INFO 11/16/2020, 7:22:35 AM  ------------------start------------------
+INFO 11/16/2020, 7:22:35 AM  typora version: 0.9.96
+DEBUG 11/16/2020, 7:22:35 AM  [ '/usr/share/typora/Typora' ]
+INFO 11/16/2020, 7:22:35 AM  [Raven] instanceKey = 70c20572-e046-4223-ae2b-8f6e144ebc44
+DEBUG 11/16/2020, 7:22:35 AM  app.openFile
+INFO 11/16/2020, 7:22:35 AM  [Raven] userId = 1608746f-a0df-4b8f-99bb-31fa17894f66
+INFO 11/16/2020, 7:22:35 AM  [focus] 1
+INFO 11/16/2020, 7:22:38 AM  addRecentFolder
+INFO 11/16/2020, 7:22:43 AM  switchDocument
+INFO 11/16/2020, 7:22:43 AM  addRecentDocument
+INFO 11/16/2020, 7:23:30 AM  [blur] 1
+INFO 11/16/2020, 7:23:39 AM  [focus] 1
+INFO 11/16/2020, 7:23:40 AM  [blur] 1
+INFO 11/16/2020, 7:25:38 AM  [focus] 1
+INFO 11/16/2020, 7:25:38 AM  [blur] 1
+INFO 11/16/2020, 7:25:38 AM  [focus] 1
+INFO 11/16/2020, 7:25:38 AM  [blur] 1
+INFO 11/16/2020, 7:25:38 AM  [focus] 1
+INFO 11/16/2020, 7:25:43 AM  [blur] 1
+INFO 11/16/2020, 7:25:44 AM  [focus] 1
+INFO 11/16/2020, 7:25:48 AM  ----------------before-quit-----------------
+INFO 11/16/2020, 7:25:48 AM  ------------------will-quit------------------
+INFO 11/16/2020, 7:25:51 AM  ------------------start------------------
+INFO 11/16/2020, 7:25:51 AM  typora version: 0.9.96
+DEBUG 11/16/2020, 7:25:51 AM  [ '/usr/share/typora/Typora' ]
+INFO 11/16/2020, 7:25:51 AM  [Raven] instanceKey = 924b3ba3-6e1c-4beb-a0bf-98c071c7ecdf
+DEBUG 11/16/2020, 7:25:51 AM  app.openFile
+INFO 11/16/2020, 7:25:51 AM  [Raven] userId = 1608746f-a0df-4b8f-99bb-31fa17894f66
+INFO 11/16/2020, 7:25:51 AM  [focus] 1
+INFO 11/16/2020, 7:25:53 AM  addRecentFolder
+INFO 11/16/2020, 7:26:00 AM  switchDocument
+INFO 11/16/2020, 7:26:00 AM  addRecentDocument
+INFO 11/16/2020, 7:26:01 AM  switchDocument
+INFO 11/16/2020, 7:26:01 AM  addRecentDocument
+INFO 11/16/2020, 7:26:14 AM  switchDocument
+INFO 11/16/2020, 7:26:14 AM  addRecentDocument
+DEBUG 11/16/2020, 7:26:14 AM  lastSync null, timestamp 1605533160781, mtime 1605532641644.5369
+INFO 11/16/2020, 7:26:15 AM  switchDocument
+INFO 11/16/2020, 7:26:15 AM  addRecentDocument
+DEBUG 11/16/2020, 7:26:15 AM  lastSync null, timestamp 1605533161761, mtime 1605413542573.2847
+INFO 11/16/2020, 7:26:17 AM  switchDocument
+INFO 11/16/2020, 7:26:17 AM  addRecentDocument
+DEBUG 11/16/2020, 7:26:17 AM  lastSync null, timestamp 1605533175601, mtime 1605532641644.5369
+INFO 11/16/2020, 7:26:33 AM  switchDocument
+INFO 11/16/2020, 7:26:33 AM  addRecentDocument
+DEBUG 11/16/2020, 7:26:33 AM  lastSync null, timestamp 1605533177793, mtime 1605413542573.2847
+INFO 11/16/2020, 7:26:44 AM  switchDocument
+INFO 11/16/2020, 7:26:44 AM  addRecentDocument
+INFO 11/16/2020, 7:26:46 AM  switchDocument
+INFO 11/16/2020, 7:26:46 AM  addRecentDocument
+INFO 11/16/2020, 7:27:16 AM  [blur] 1
+INFO 11/16/2020, 7:27:35 AM  [focus] 1
+INFO 11/16/2020, 7:29:06 AM  ----------------before-quit-----------------
+INFO 11/16/2020, 7:29:06 AM  ------------------will-quit------------------
+INFO 11/16/2020, 7:36:36 AM  ------------------start------------------
+INFO 11/16/2020, 7:36:36 AM  typora version: 0.9.96
+DEBUG 11/16/2020, 7:36:36 AM  [ '/usr/share/typora/Typora' ]
+INFO 11/16/2020, 7:36:36 AM  [Raven] instanceKey = 0cc81dca-f2c5-41f6-b781-3dd61231a1bf
+DEBUG 11/16/2020, 7:36:36 AM  app.openFile
+INFO 11/16/2020, 7:36:36 AM  [Raven] userId = 1608746f-a0df-4b8f-99bb-31fa17894f66
+INFO 11/16/2020, 7:36:36 AM  [focus] 1
+INFO 11/16/2020, 7:36:40 AM  addRecentFolder
+INFO 11/16/2020, 7:36:46 AM  switchDocument
+INFO 11/16/2020, 7:36:46 AM  addRecentDocument
+INFO 11/16/2020, 7:37:06 AM  [blur] 1
+INFO 11/16/2020, 7:37:14 AM  [focus] 1
+INFO 11/16/2020, 7:37:17 AM  switchDocument
+INFO 11/16/2020, 7:37:17 AM  addRecentDocument
+INFO 11/16/2020, 7:37:18 AM  switchDocument
+INFO 11/16/2020, 7:37:18 AM  addRecentDocument
+DEBUG 11/16/2020, 7:37:18 AM  lastSync 1605533835907.9163, timestamp 1605533837590, mtime 1605533835907.9163
+INFO 11/16/2020, 7:37:20 AM  switchDocument
+INFO 11/16/2020, 7:37:20 AM  addRecentDocument
+DEBUG 11/16/2020, 7:37:20 AM  lastSync null, timestamp 1605533837624, mtime 1603583180269.8955
+INFO 11/16/2020, 7:37:21 AM  switchDocument
+INFO 11/16/2020, 7:37:21 AM  addRecentDocument
+DEBUG 11/16/2020, 7:37:21 AM  lastSync 1605533839804.583, timestamp 1605533840831, mtime 1605533839804.583
+INFO 11/16/2020, 7:37:58 AM  [blur] 1
+INFO 11/16/2020, 7:37:59 AM  [focus] 1
+INFO 11/16/2020, 7:38:13 AM  window.File && (function() {
+					ClientCommand.zoomIn();
+				})();
+INFO 11/16/2020, 7:38:20 AM  window.File && (function() {
+					ClientCommand.resetZoom();
+				})();
+INFO 11/16/2020, 7:38:33 AM  [blur] 1
+INFO 11/16/2020, 7:39:06 AM  [focus] 1
+INFO 11/16/2020, 7:39:15 AM  [blur] 1
+INFO 11/16/2020, 7:40:31 AM  [focus] 1
+INFO 11/16/2020, 7:40:33 AM  [blur] 1
+INFO 11/16/2020, 7:40:46 AM  [focus] 1
+INFO 11/16/2020, 7:40:48 AM  ----------------before-quit-----------------
+INFO 11/16/2020, 7:40:48 AM  ------------------will-quit------------------
+INFO 11/16/2020, 7:40:51 AM  ------------------start------------------
+INFO 11/16/2020, 7:40:51 AM  typora version: 0.9.96
+DEBUG 11/16/2020, 7:40:51 AM  [ '/usr/share/typora/Typora' ]
+INFO 11/16/2020, 7:40:51 AM  [Raven] instanceKey = f71a8b73-68bb-4e0f-8a91-abb902c213a4
+DEBUG 11/16/2020, 7:40:51 AM  app.openFile
+INFO 11/16/2020, 7:40:51 AM  [Raven] userId = 1608746f-a0df-4b8f-99bb-31fa17894f66
+INFO 11/16/2020, 7:40:51 AM  [focus] 1
+INFO 11/16/2020, 7:40:54 AM  addRecentFolder
+INFO 11/16/2020, 7:40:56 AM  switchDocument
+INFO 11/16/2020, 7:40:56 AM  addRecentDocument
+INFO 11/16/2020, 7:41:06 AM  [blur] 1
+INFO 11/16/2020, 7:41:37 AM  [focus] 1
+INFO 11/16/2020, 7:41:43 AM  [blur] 1
+INFO 11/16/2020, 7:42:12 AM  [focus] 1
+INFO 11/16/2020, 7:42:13 AM  ----------------before-quit-----------------
+INFO 11/16/2020, 7:42:13 AM  ------------------will-quit------------------
+INFO 11/16/2020, 7:42:18 AM  ------------------start------------------
+INFO 11/16/2020, 7:42:18 AM  typora version: 0.9.96
+DEBUG 11/16/2020, 7:42:18 AM  [ '/usr/share/typora/Typora' ]
+INFO 11/16/2020, 7:42:18 AM  [Raven] instanceKey = 1c50aa0f-18c6-462b-9e7c-d19147807093
+DEBUG 11/16/2020, 7:42:18 AM  app.openFile
+INFO 11/16/2020, 7:42:18 AM  [Raven] userId = 1608746f-a0df-4b8f-99bb-31fa17894f66
+INFO 11/16/2020, 7:42:18 AM  [focus] 1
+INFO 11/16/2020, 7:42:21 AM  addRecentFolder
+INFO 11/16/2020, 7:42:24 AM  switchDocument
+INFO 11/16/2020, 7:42:24 AM  addRecentDocument
+INFO 11/16/2020, 7:42:48 AM  [blur] 1
+INFO 11/16/2020, 7:42:51 AM  [focus] 1
+INFO 11/16/2020, 7:42:51 AM  [blur] 1
+INFO 11/16/2020, 7:48:35 AM  [focus] 1
+INFO 11/16/2020, 7:48:38 AM  [blur] 1
+INFO 11/16/2020, 7:48:47 AM  [focus] 1
+INFO 11/16/2020, 7:48:51 AM  [blur] 1
+INFO 11/16/2020, 7:49:07 AM  [focus] 1
+INFO 11/16/2020, 7:49:14 AM  [blur] 1
+INFO 11/16/2020, 7:49:32 AM  [focus] 1
+INFO 11/16/2020, 7:49:35 AM  [blur] 1
+INFO 11/16/2020, 7:49:42 AM  [focus] 1
+INFO 11/16/2020, 7:49:46 AM  [blur] 1
+INFO 11/16/2020, 7:50:03 AM  [focus] 1
+INFO 11/16/2020, 7:50:05 AM  [blur] 1
+INFO 11/16/2020, 7:50:22 AM  [focus] 1
+INFO 11/16/2020, 7:50:23 AM  ----------------before-quit-----------------
+INFO 11/16/2020, 7:50:23 AM  ------------------will-quit------------------
+INFO 11/16/2020, 7:50:28 AM  ------------------start------------------
+INFO 11/16/2020, 7:50:28 AM  typora version: 0.9.96
+DEBUG 11/16/2020, 7:50:28 AM  [ '/usr/share/typora/Typora' ]
+INFO 11/16/2020, 7:50:28 AM  [Raven] instanceKey = a647bd57-4e88-4481-994b-24eee01f3305
+DEBUG 11/16/2020, 7:50:28 AM  app.openFile
+INFO 11/16/2020, 7:50:28 AM  [Raven] userId = 1608746f-a0df-4b8f-99bb-31fa17894f66
+INFO 11/16/2020, 7:50:28 AM  [focus] 1
+INFO 11/16/2020, 7:50:31 AM  addRecentFolder
+INFO 11/16/2020, 7:50:41 AM  switchDocument
+INFO 11/16/2020, 7:50:41 AM  addRecentDocument
+INFO 11/16/2020, 7:51:14 AM  [blur] 1
+INFO 11/16/2020, 7:51:38 AM  [focus] 1
+INFO 11/16/2020, 7:51:40 AM  [blur] 1
+INFO 11/16/2020, 7:52:36 AM  [focus] 1
+INFO 11/16/2020, 7:52:38 AM  [blur] 1
+INFO 11/16/2020, 7:53:19 AM  [focus] 1
+INFO 11/16/2020, 7:53:22 AM  [blur] 1
+INFO 11/16/2020, 7:54:11 AM  [focus] 1
+INFO 11/16/2020, 7:54:20 AM  [blur] 1
+INFO 11/16/2020, 7:54:26 AM  [focus] 1
+INFO 11/16/2020, 7:54:29 AM  [blur] 1
+INFO 11/16/2020, 7:55:51 AM  [focus] 1
+INFO 11/16/2020, 7:55:51 AM  [blur] 1
+INFO 11/16/2020, 7:55:51 AM  [focus] 1
+INFO 11/16/2020, 7:55:51 AM  [blur] 1
+INFO 11/16/2020, 7:55:51 AM  [focus] 1
+INFO 11/16/2020, 7:55:54 AM  ----------------before-quit-----------------
+INFO 11/16/2020, 7:55:54 AM  ------------------will-quit------------------
+INFO 11/16/2020, 7:55:58 AM  ------------------start------------------
+INFO 11/16/2020, 7:55:58 AM  typora version: 0.9.96
+DEBUG 11/16/2020, 7:55:58 AM  [ '/usr/share/typora/Typora' ]
+INFO 11/16/2020, 7:55:58 AM  [Raven] instanceKey = 8d6b99a5-fb66-43eb-a08f-bf072322b119
+DEBUG 11/16/2020, 7:55:58 AM  app.openFile
+INFO 11/16/2020, 7:55:59 AM  [Raven] userId = 1608746f-a0df-4b8f-99bb-31fa17894f66
+INFO 11/16/2020, 7:55:59 AM  [focus] 1
+INFO 11/16/2020, 7:56:02 AM  addRecentFolder
+INFO 11/16/2020, 7:56:08 AM  switchDocument
+INFO 11/16/2020, 7:56:08 AM  addRecentDocument
+INFO 11/16/2020, 7:56:16 AM  switchDocument
+INFO 11/16/2020, 7:56:16 AM  addRecentDocument
+INFO 11/16/2020, 7:56:18 AM  switchDocument
+INFO 11/16/2020, 7:56:18 AM  addRecentDocument
+INFO 11/16/2020, 7:56:19 AM  switchDocument
+INFO 11/16/2020, 7:56:19 AM  addRecentDocument
+INFO 11/16/2020, 7:57:03 AM  [blur] 1
+INFO 11/16/2020, 7:57:15 AM  [focus] 1
+INFO 11/16/2020, 7:57:27 AM  [blur] 1
+INFO 11/16/2020, 7:57:34 AM  [focus] 1
+INFO 11/16/2020, 7:57:34 AM  [blur] 1
+INFO 11/16/2020, 7:57:34 AM  [focus] 1
+INFO 11/16/2020, 7:57:34 AM  [blur] 1
+INFO 11/16/2020, 7:57:34 AM  [focus] 1
+INFO 11/16/2020, 7:57:35 AM  [blur] 1
+INFO 11/16/2020, 7:57:43 AM  [focus] 1
+INFO 11/16/2020, 7:57:44 AM  [blur] 1
+INFO 11/16/2020, 8:48:03 AM  [focus] 1
+INFO 11/16/2020, 8:48:11 AM  ----------------before-quit-----------------
+INFO 11/16/2020, 8:48:11 AM  ------------------will-quit------------------
+INFO 11/16/2020, 8:48:17 AM  ------------------start------------------
+INFO 11/16/2020, 8:48:17 AM  typora version: 0.9.96
+DEBUG 11/16/2020, 8:48:17 AM  [ '/usr/share/typora/Typora' ]
+INFO 11/16/2020, 8:48:17 AM  [Raven] instanceKey = 82ea4540-ef2f-45f7-8c9e-cc28dbb046a1
+DEBUG 11/16/2020, 8:48:17 AM  app.openFile
+INFO 11/16/2020, 8:48:17 AM  [Raven] userId = 1608746f-a0df-4b8f-99bb-31fa17894f66
+INFO 11/16/2020, 8:48:17 AM  [focus] 1
+INFO 11/16/2020, 8:48:21 AM  addRecentFolder
+INFO 11/16/2020, 8:48:26 AM  switchDocument
+INFO 11/16/2020, 8:48:26 AM  addRecentDocument
+INFO 11/16/2020, 8:48:48 AM  [blur] 1
+INFO 11/16/2020, 8:49:23 AM  [focus] 1
+INFO 11/16/2020, 8:49:39 AM  ----------------before-quit-----------------
+INFO 11/16/2020, 8:49:39 AM  ------------------will-quit------------------
+INFO 11/16/2020, 8:49:47 AM  ------------------start------------------
+INFO 11/16/2020, 8:49:47 AM  typora version: 0.9.96
+DEBUG 11/16/2020, 8:49:47 AM  [ '/usr/share/typora/Typora' ]
+INFO 11/16/2020, 8:49:47 AM  [Raven] instanceKey = 3dc692fb-d526-439a-a151-87b6bf55fa1c
+DEBUG 11/16/2020, 8:49:47 AM  app.openFile
+INFO 11/16/2020, 8:49:47 AM  [Raven] userId = 1608746f-a0df-4b8f-99bb-31fa17894f66
+INFO 11/16/2020, 8:49:47 AM  [focus] 1
+INFO 11/16/2020, 8:49:50 AM  addRecentFolder
+INFO 11/16/2020, 8:49:54 AM  switchDocument
+INFO 11/16/2020, 8:49:54 AM  addRecentDocument
+INFO 11/16/2020, 8:50:04 AM  load file [/tmp/1605538204449-0.1022171220272663.html] for PDF export
+INFO 11/16/2020, 8:50:04 AM  [blur] 1
+INFO 11/16/2020, 8:50:04 AM  generate print window with id 2
+INFO 11/16/2020, 8:50:07 AM  [focus] 1
+INFO 11/16/2020, 8:50:07 AM  [blur] 1
+INFO 11/16/2020, 8:50:07 AM  [focus] 1
+INFO 11/16/2020, 8:50:07 AM  [blur] 1
+INFO 11/16/2020, 8:50:07 AM  [focus] 1
+INFO 11/16/2020, 8:50:07 AM  [RenderProcess 1][Log] export PDF to /home/jeff/Dropbox/journal/bible/newt/romans/romans03c-keller.pdf
+INFO 11/16/2020, 8:50:08 AM  [blur] 1
+INFO 11/16/2020, 8:50:59 AM  [focus] 1
+INFO 11/16/2020, 8:51:01 AM  [blur] 1
+INFO 11/16/2020, 8:52:03 AM  [focus] 1
+INFO 11/16/2020, 8:53:59 AM  [blur] 1
+INFO 11/16/2020, 8:56:21 AM  [focus] 1
+INFO 11/16/2020, 8:56:28 AM  [blur] 1
+INFO 11/16/2020, 8:56:44 AM  [focus] 1
+INFO 11/16/2020, 8:56:45 AM  [blur] 1
+INFO 11/16/2020, 8:58:16 AM  [focus] 1
+INFO 11/16/2020, 8:58:20 AM  [blur] 1
+INFO 11/16/2020, 9:01:36 AM  [focus] 1
+INFO 11/16/2020, 9:01:38 AM  [blur] 1
+INFO 11/16/2020, 9:01:48 AM  [focus] 1
+INFO 11/16/2020, 9:01:50 AM  [blur] 1
+INFO 11/16/2020, 9:01:53 AM  [focus] 1
+INFO 11/16/2020, 9:01:57 AM  [blur] 1
+INFO 11/16/2020, 9:03:21 AM  [focus] 1
+INFO 11/16/2020, 9:03:25 AM  ----------------before-quit-----------------
+INFO 11/16/2020, 9:03:25 AM  ------------------will-quit------------------
+INFO 11/16/2020, 9:03:30 AM  ------------------start------------------
+INFO 11/16/2020, 9:03:30 AM  typora version: 0.9.96
+DEBUG 11/16/2020, 9:03:30 AM  [ '/usr/share/typora/Typora' ]
+INFO 11/16/2020, 9:03:30 AM  [Raven] instanceKey = 4fc3f37e-e968-46f2-a727-cbe9eb85500b
+DEBUG 11/16/2020, 9:03:30 AM  app.openFile
+INFO 11/16/2020, 9:03:30 AM  [Raven] userId = 1608746f-a0df-4b8f-99bb-31fa17894f66
+INFO 11/16/2020, 9:03:30 AM  [focus] 1
+INFO 11/16/2020, 9:03:36 AM  addRecentFolder
+INFO 11/16/2020, 9:03:40 AM  switchDocument
+INFO 11/16/2020, 9:03:40 AM  addRecentDocument
+INFO 11/16/2020, 9:03:48 AM  [blur] 1
+INFO 11/16/2020, 9:03:59 AM  [focus] 1
+INFO 11/16/2020, 9:04:00 AM  switchDocument
+INFO 11/16/2020, 9:04:00 AM  addRecentDocument
+INFO 11/16/2020, 9:04:01 AM  switchDocument
+INFO 11/16/2020, 9:04:01 AM  addRecentDocument
+INFO 11/16/2020, 9:04:07 AM  switchDocument
+INFO 11/16/2020, 9:04:07 AM  addRecentDocument
+INFO 11/16/2020, 9:04:08 AM  switchDocument
+INFO 11/16/2020, 9:04:08 AM  addRecentDocument
+INFO 11/16/2020, 9:04:21 AM  ----------------before-quit-----------------
+INFO 11/16/2020, 9:04:21 AM  ------------------will-quit------------------
+INFO 11/16/2020, 9:07:08 AM  ------------------start------------------
+INFO 11/16/2020, 9:07:08 AM  typora version: 0.9.96
+DEBUG 11/16/2020, 9:07:08 AM  [ '/usr/share/typora/Typora' ]
+INFO 11/16/2020, 9:07:08 AM  [Raven] instanceKey = 96ba4e6e-35fe-495c-a7f2-7cd5cb2377d2
+DEBUG 11/16/2020, 9:07:08 AM  app.openFile
+INFO 11/16/2020, 9:07:08 AM  [Raven] userId = 1608746f-a0df-4b8f-99bb-31fa17894f66
+INFO 11/16/2020, 9:07:08 AM  [focus] 1
+INFO 11/16/2020, 9:07:11 AM  addRecentFolder
+INFO 11/16/2020, 9:07:14 AM  switchDocument
+INFO 11/16/2020, 9:07:14 AM  addRecentDocument
+INFO 11/16/2020, 9:07:19 AM  switchDocument
+INFO 11/16/2020, 9:07:19 AM  addRecentDocument
+INFO 11/16/2020, 9:07:21 AM  switchDocument
+INFO 11/16/2020, 9:07:21 AM  addRecentDocument
+DEBUG 11/16/2020, 9:07:21 AM  lastSync null, timestamp 1605539234980, mtime 1605533187447.891
+INFO 11/16/2020, 9:07:27 AM  switchDocument
+INFO 11/16/2020, 9:07:27 AM  addRecentDocument
+INFO 11/16/2020, 9:07:30 AM  switchDocument
+INFO 11/16/2020, 9:07:30 AM  addRecentDocument
+INFO 11/16/2020, 9:07:32 AM  switchDocument
+INFO 11/16/2020, 9:07:32 AM  addRecentDocument
+DEBUG 11/16/2020, 9:07:32 AM  lastSync null, timestamp 1605539247415, mtime 1605533839804.583
+INFO 11/16/2020, 9:07:36 AM  ----------------before-quit-----------------
+INFO 11/16/2020, 9:07:36 AM  ------------------will-quit------------------
+INFO 11/16/2020, 9:09:04 AM  ------------------start------------------
+INFO 11/16/2020, 9:09:04 AM  typora version: 0.9.96
+DEBUG 11/16/2020, 9:09:04 AM  [ '/usr/share/typora/Typora' ]
+INFO 11/16/2020, 9:09:04 AM  [Raven] instanceKey = 31054ead-0a3f-4316-a0eb-9b3b31341463
+DEBUG 11/16/2020, 9:09:04 AM  app.openFile
+INFO 11/16/2020, 9:09:04 AM  [Raven] userId = 1608746f-a0df-4b8f-99bb-31fa17894f66
+INFO 11/16/2020, 9:09:04 AM  [focus] 1
+INFO 11/16/2020, 9:09:08 AM  addRecentFolder
+INFO 11/16/2020, 9:09:10 AM  switchDocument
+INFO 11/16/2020, 9:09:10 AM  addRecentDocument
+INFO 11/16/2020, 9:09:13 AM  switchDocument
+INFO 11/16/2020, 9:09:13 AM  addRecentDocument
+INFO 11/16/2020, 9:09:34 AM  load file [/tmp/1605539374158-0.569121283089906.html] for PDF export
+INFO 11/16/2020, 9:09:34 AM  [blur] 1
+INFO 11/16/2020, 9:09:34 AM  generate print window with id 2
+INFO 11/16/2020, 9:09:41 AM  [focus] 1
+INFO 11/16/2020, 9:09:41 AM  [blur] 1
+INFO 11/16/2020, 9:09:41 AM  [focus] 1
+INFO 11/16/2020, 9:09:41 AM  [blur] 1
+INFO 11/16/2020, 9:09:41 AM  [focus] 1
+INFO 11/16/2020, 9:09:41 AM  [RenderProcess 1][Log] export PDF to /home/jeff/Dropbox/journal/bible/newt/romans/romans03c-keller.pdf
+INFO 11/16/2020, 9:09:41 AM  [blur] 1
+INFO 11/16/2020, 9:11:18 AM  [focus] 1
+INFO 11/16/2020, 9:11:23 AM  switchDocument
+INFO 11/16/2020, 9:11:23 AM  addRecentDocument
+INFO 11/16/2020, 9:11:24 AM  switchDocument
+INFO 11/16/2020, 9:11:24 AM  addRecentDocument
+INFO 11/16/2020, 9:11:26 AM  switchDocument
+INFO 11/16/2020, 9:11:26 AM  addRecentDocument
+INFO 11/16/2020, 9:11:36 AM  [blur] 1
+INFO 11/16/2020, 9:24:16 AM  [focus] 1
+INFO 11/16/2020, 9:24:17 AM  ----------------before-quit-----------------
+INFO 11/16/2020, 9:24:17 AM  ------------------will-quit------------------
+INFO 11/16/2020, 9:24:24 AM  ------------------start------------------
+INFO 11/16/2020, 9:24:24 AM  typora version: 0.9.96
+DEBUG 11/16/2020, 9:24:24 AM  [ '/usr/share/typora/Typora' ]
+INFO 11/16/2020, 9:24:24 AM  [Raven] instanceKey = 0b0fbeb9-5de4-4f0b-b7ea-4fe38e600155
+DEBUG 11/16/2020, 9:24:24 AM  app.openFile
+INFO 11/16/2020, 9:24:24 AM  [Raven] userId = 1608746f-a0df-4b8f-99bb-31fa17894f66
+INFO 11/16/2020, 9:24:25 AM  [focus] 1
+INFO 11/16/2020, 9:24:27 AM  addRecentFolder
+INFO 11/16/2020, 9:24:30 AM  switchDocument
+INFO 11/16/2020, 9:24:30 AM  addRecentDocument
+INFO 11/16/2020, 9:24:32 AM  switchDocument
+INFO 11/16/2020, 9:24:32 AM  addRecentDocument
+INFO 11/16/2020, 9:24:54 AM  switchDocument
+INFO 11/16/2020, 9:24:54 AM  addRecentDocument
+INFO 11/16/2020, 9:24:58 AM  switchDocument
+INFO 11/16/2020, 9:24:58 AM  addRecentDocument
+DEBUG 11/16/2020, 9:24:58 AM  lastSync null, timestamp 1605540272117, mtime 1605533187447.891
+INFO 11/16/2020, 9:24:59 AM  switchDocument
+INFO 11/16/2020, 9:24:59 AM  addRecentDocument
+DEBUG 11/16/2020, 9:24:59 AM  lastSync null, timestamp 1605540294436, mtime 1605533200391.225
+INFO 11/16/2020, 9:25:04 AM  switchDocument
+INFO 11/16/2020, 9:25:04 AM  addRecentDocument
+INFO 11/16/2020, 9:25:24 AM  load file [/tmp/1605540324060-0.4386221086416162.html] for PDF export
+INFO 11/16/2020, 9:25:24 AM  [blur] 1
+INFO 11/16/2020, 9:25:24 AM  generate print window with id 2
+INFO 11/16/2020, 9:25:26 AM  [focus] 1
+INFO 11/16/2020, 9:25:26 AM  [blur] 1
+INFO 11/16/2020, 9:25:26 AM  [focus] 1
+INFO 11/16/2020, 9:25:26 AM  [blur] 1
+INFO 11/16/2020, 9:25:26 AM  [focus] 1
+INFO 11/16/2020, 9:25:26 AM  [RenderProcess 1][Log] export PDF to /home/jeff/Dropbox/journal/bible/newt/romans/romans03c-keller.pdf
+INFO 11/16/2020, 9:25:27 AM  [blur] 1
+INFO 11/16/2020, 9:25:45 AM  [focus] 1
+INFO 11/16/2020, 9:25:47 AM  [blur] 1
+INFO 11/16/2020, 9:26:38 AM  [focus] 1
+INFO 11/16/2020, 9:26:44 AM  switchDocument
+INFO 11/16/2020, 9:26:44 AM  addRecentDocument
+INFO 11/16/2020, 9:26:45 AM  switchDocument
+INFO 11/16/2020, 9:26:45 AM  addRecentDocument
+INFO 11/16/2020, 9:26:46 AM  switchDocument
+INFO 11/16/2020, 9:26:46 AM  addRecentDocument
+INFO 11/16/2020, 9:26:51 AM  load file [/tmp/1605540411095-0.7590461537482245.html] for PDF export
+INFO 11/16/2020, 9:26:51 AM  [blur] 1
+INFO 11/16/2020, 9:26:51 AM  generate print window with id 3
+INFO 11/16/2020, 9:26:53 AM  [focus] 1
+INFO 11/16/2020, 9:26:53 AM  [blur] 1
+INFO 11/16/2020, 9:26:53 AM  [focus] 1
+INFO 11/16/2020, 9:26:53 AM  [blur] 1
+INFO 11/16/2020, 9:26:53 AM  [focus] 1
+INFO 11/16/2020, 9:26:53 AM  [RenderProcess 1][Log] export PDF to /home/jeff/Dropbox/journal/bible/newt/romans/romans03a-moo.pdf
+INFO 11/16/2020, 9:26:54 AM  [blur] 1
+INFO 11/16/2020, 9:27:22 AM  [focus] 1
+INFO 11/16/2020, 9:27:36 AM  [blur] 1
+INFO 11/16/2020, 9:33:46 AM  got argv [typora /home/jeff/.config/Typora/themes/Typora-Law-School-master/README.md] from secondary instance
+DEBUG 11/16/2020, 9:33:46 AM  app.openFile
+INFO 11/16/2020, 9:33:46 AM  addRecentDocument
+INFO 11/16/2020, 9:33:46 AM  [focus] 4
+INFO 11/16/2020, 9:33:46 AM  [blur] 4
+INFO 11/16/2020, 9:33:46 AM  [focus] 4
+INFO 11/16/2020, 9:33:48 AM  [blur] 4
+INFO 11/16/2020, 9:33:48 AM  [focus] 4
+INFO 11/16/2020, 9:33:48 AM  [blur] 4
+INFO 11/16/2020, 9:33:48 AM  [focus] 4
+INFO 11/16/2020, 9:33:48 AM  [blur] 4
+INFO 11/16/2020, 9:33:48 AM  [focus] 4
+INFO 11/16/2020, 9:35:29 AM  got argv [typora /home/jeff/.config/Typora/themes/Typora-Law-School-master/How to Use this Theme.md] from secondary instance
+DEBUG 11/16/2020, 9:35:29 AM  app.openFile
+INFO 11/16/2020, 9:35:29 AM  addRecentDocument
+INFO 11/16/2020, 9:35:29 AM  [focus] 5
+INFO 11/16/2020, 9:35:29 AM  secondary instance would exit
+INFO 11/16/2020, 9:38:38 AM  load file [/tmp/1605541118816-0.7007534853714237.html] for PDF export
+INFO 11/16/2020, 9:38:39 AM  [blur] 5
+INFO 11/16/2020, 9:38:39 AM  generate print window with id 6
+INFO 11/16/2020, 9:38:45 AM  [focus] 5
+INFO 11/16/2020, 9:38:45 AM  [blur] 5
+INFO 11/16/2020, 9:38:45 AM  [focus] 5
+INFO 11/16/2020, 9:38:45 AM  [blur] 5
+INFO 11/16/2020, 9:38:45 AM  [focus] 5
+INFO 11/16/2020, 9:38:45 AM  [RenderProcess 5][Log] export PDF to 
+INFO 11/16/2020, 9:38:46 AM  [blur] 5
+INFO 11/16/2020, 9:39:33 AM  got argv [typora /home/jeff/.config/Typora/themes/paper-0.0.3/README.md] from secondary instance
+DEBUG 11/16/2020, 9:39:33 AM  app.openFile
+INFO 11/16/2020, 9:39:33 AM  addRecentDocument
+INFO 11/16/2020, 9:39:33 AM  secondary instance would exit
+INFO 11/16/2020, 9:39:34 AM  [focus] 7
+INFO 11/16/2020, 9:39:44 AM  [focus] 5
+INFO 11/16/2020, 9:39:44 AM  [blur] 5
+INFO 11/16/2020, 9:39:44 AM  [focus] 5
+INFO 11/16/2020, 9:39:44 AM  [blur] 5
+INFO 11/16/2020, 9:39:44 AM  [focus] 5
+INFO 11/16/2020, 9:39:48 AM  [focus] 1
+INFO 11/16/2020, 9:39:49 AM  [blur] 1
+INFO 11/16/2020, 9:42:18 AM  [focus] 1
+INFO 11/16/2020, 9:42:18 AM  [blur] 1
+INFO 11/16/2020, 9:42:18 AM  [focus] 1
+INFO 11/16/2020, 9:42:18 AM  [blur] 1
+INFO 11/16/2020, 9:42:18 AM  [focus] 1
+INFO 11/16/2020, 9:42:26 AM  ----------------before-quit-----------------
+INFO 11/16/2020, 9:42:26 AM  ------------------will-quit------------------
+INFO 11/16/2020, 9:42:29 AM  ------------------start------------------
+INFO 11/16/2020, 9:42:29 AM  typora version: 0.9.96
+DEBUG 11/16/2020, 9:42:29 AM  [ '/usr/share/typora/Typora' ]
+INFO 11/16/2020, 9:42:29 AM  [Raven] instanceKey = 63e90491-4786-4eec-b096-6f63e1b27c57
+DEBUG 11/16/2020, 9:42:29 AM  app.openFile
+INFO 11/16/2020, 9:42:29 AM  [Raven] userId = 1608746f-a0df-4b8f-99bb-31fa17894f66
+INFO 11/16/2020, 9:42:29 AM  [focus] 1
+INFO 11/16/2020, 9:42:32 AM  addRecentFolder
+INFO 11/16/2020, 9:42:36 AM  switchDocument
+INFO 11/16/2020, 9:42:36 AM  addRecentDocument
+INFO 11/16/2020, 9:42:37 AM  switchDocument
+INFO 11/16/2020, 9:42:37 AM  addRecentDocument
+INFO 11/16/2020, 9:42:39 AM  switchDocument
+INFO 11/16/2020, 9:42:39 AM  addRecentDocument
+INFO 11/16/2020, 9:42:40 AM  switchDocument
+INFO 11/16/2020, 9:42:40 AM  addRecentDocument
+INFO 11/16/2020, 9:42:53 AM  ----------------before-quit-----------------
+INFO 11/16/2020, 9:44:38 AM  ------------------start------------------
+INFO 11/16/2020, 9:44:38 AM  typora version: 0.9.96
+DEBUG 11/16/2020, 9:44:38 AM  [ '/usr/share/typora/Typora' ]
+INFO 11/16/2020, 9:44:38 AM  [Raven] instanceKey = fda71bfd-6c76-4ecc-89a2-3391dc5c2191
+DEBUG 11/16/2020, 9:44:38 AM  app.openFile
+INFO 11/16/2020, 9:44:38 AM  [Raven] userId = 1608746f-a0df-4b8f-99bb-31fa17894f66
+INFO 11/16/2020, 9:44:38 AM  [focus] 1
+INFO 11/16/2020, 9:44:51 AM  addRecentFolder
+INFO 11/16/2020, 9:44:54 AM  switchDocument
+INFO 11/16/2020, 9:44:54 AM  addRecentDocument
+INFO 11/16/2020, 9:44:58 AM  switchDocument
+INFO 11/16/2020, 9:44:58 AM  addRecentDocument
+INFO 11/16/2020, 9:45:27 AM  load file [/tmp/1605541527222-0.9560830791333994.html] for PDF export
+INFO 11/16/2020, 9:45:27 AM  [blur] 1
+INFO 11/16/2020, 9:45:27 AM  generate print window with id 2
+INFO 11/16/2020, 9:45:30 AM  [focus] 1
+INFO 11/16/2020, 9:45:30 AM  [blur] 1
+INFO 11/16/2020, 9:45:30 AM  [focus] 1
+INFO 11/16/2020, 9:45:30 AM  [blur] 1
+INFO 11/16/2020, 9:45:30 AM  [focus] 1
+INFO 11/16/2020, 9:45:30 AM  [RenderProcess 1][Log] export PDF to /home/jeff/Dropbox/journal/bible/newt/romans/romans01b-wrath.pdf
+INFO 11/16/2020, 9:45:30 AM  [blur] 1
+INFO 11/16/2020, 9:46:13 AM  [focus] 1
+INFO 11/16/2020, 9:46:39 AM  load file [/tmp/1605541599556-0.7412227818101875.html] for PDF export
+INFO 11/16/2020, 9:46:39 AM  [blur] 1
+INFO 11/16/2020, 9:46:40 AM  generate print window with id 3
+INFO 11/16/2020, 9:46:42 AM  [focus] 1
+INFO 11/16/2020, 9:46:42 AM  [blur] 1
+INFO 11/16/2020, 9:46:42 AM  [focus] 1
+INFO 11/16/2020, 9:46:42 AM  [blur] 1
+INFO 11/16/2020, 9:46:42 AM  [focus] 1
+INFO 11/16/2020, 9:46:42 AM  [RenderProcess 1][Log] export PDF to /home/jeff/Dropbox/journal/bible/newt/romans/romans01b-wrath.pdf
+INFO 11/16/2020, 9:46:43 AM  [blur] 1
+INFO 11/16/2020, 9:47:43 AM  [focus] 1
+INFO 11/16/2020, 9:47:47 AM  ----------------before-quit-----------------
+INFO 11/16/2020, 9:47:47 AM  ------------------will-quit------------------
+INFO 11/16/2020, 10:04:48 AM  ------------------start------------------
+INFO 11/16/2020, 10:04:48 AM  typora version: 0.9.96
+DEBUG 11/16/2020, 10:04:48 AM  [ '/usr/share/typora/Typora' ]
+INFO 11/16/2020, 10:04:48 AM  [Raven] instanceKey = 08e40c37-eb4f-4c69-89a9-2a74afa1e49a
+DEBUG 11/16/2020, 10:04:48 AM  app.openFile
+INFO 11/16/2020, 10:04:49 AM  [Raven] userId = 1608746f-a0df-4b8f-99bb-31fa17894f66
+INFO 11/16/2020, 10:04:49 AM  [focus] 1
+INFO 11/16/2020, 10:04:53 AM  addRecentFolder
+INFO 11/16/2020, 10:04:59 AM  switchDocument
+INFO 11/16/2020, 10:04:59 AM  addRecentDocument
+INFO 11/16/2020, 10:05:24 AM  switchDocument
+INFO 11/16/2020, 10:05:24 AM  addRecentDocument
+INFO 11/16/2020, 10:05:26 AM  switchDocument
+INFO 11/16/2020, 10:05:26 AM  addRecentDocument
+INFO 11/16/2020, 10:05:57 AM  [blur] 1
+INFO 11/16/2020, 10:11:49 AM  [focus] 1
+INFO 11/16/2020, 10:11:49 AM  [blur] 1
+INFO 11/16/2020, 10:11:49 AM  [focus] 1
+INFO 11/16/2020, 10:11:49 AM  [blur] 1
+INFO 11/16/2020, 10:11:49 AM  [focus] 1
+INFO 11/16/2020, 10:11:52 AM  ----------------before-quit-----------------
+INFO 11/16/2020, 10:11:52 AM  ------------------will-quit------------------
+INFO 11/16/2020, 10:12:14 AM  ------------------start------------------
+INFO 11/16/2020, 10:12:14 AM  typora version: 0.9.96
+DEBUG 11/16/2020, 10:12:14 AM  [ '/usr/share/typora/Typora' ]
+INFO 11/16/2020, 10:12:15 AM  [Raven] instanceKey = 36b5eb7f-a4ba-4bfd-a20c-5564e8977fbf
+DEBUG 11/16/2020, 10:12:15 AM  app.openFile
+INFO 11/16/2020, 10:12:15 AM  [Raven] userId = 1608746f-a0df-4b8f-99bb-31fa17894f66
+INFO 11/16/2020, 10:12:15 AM  [focus] 1
+INFO 11/16/2020, 10:12:18 AM  addRecentFolder
+INFO 11/16/2020, 10:12:22 AM  switchDocument
+INFO 11/16/2020, 10:12:22 AM  addRecentDocument
+INFO 11/16/2020, 10:12:26 AM  switchDocument
+INFO 11/16/2020, 10:12:26 AM  addRecentDocument
+INFO 11/16/2020, 10:12:51 AM  load file [/tmp/1605543171463-0.09286087480220528.html] for PDF export
+INFO 11/16/2020, 10:12:51 AM  [blur] 1
+INFO 11/16/2020, 10:12:52 AM  generate print window with id 2
+INFO 11/16/2020, 10:12:52 AM  [focus] 1
+INFO 11/16/2020, 10:12:53 AM  [blur] 1
+INFO 11/16/2020, 10:12:54 AM  [focus] 1
+INFO 11/16/2020, 10:12:54 AM  [blur] 1
+INFO 11/16/2020, 10:12:55 AM  [focus] 1
+INFO 11/16/2020, 10:12:55 AM  [blur] 1
+INFO 11/16/2020, 10:12:55 AM  [focus] 1
+INFO 11/16/2020, 10:12:55 AM  [blur] 1
+INFO 11/16/2020, 10:12:55 AM  [focus] 1
+INFO 11/16/2020, 10:12:55 AM  [RenderProcess 1][Log] export PDF to /home/jeff/Dropbox/journal/bible/newt/romans/romans03a-moo.pdf
+INFO 11/16/2020, 10:12:56 AM  [blur] 1
+INFO 11/16/2020, 10:15:01 AM  [focus] 1
+INFO 11/16/2020, 10:15:05 AM  ----------------before-quit-----------------
+INFO 11/16/2020, 10:15:05 AM  ------------------will-quit------------------
+INFO 11/16/2020, 10:19:35 AM  ------------------start------------------
+INFO 11/16/2020, 10:19:35 AM  typora version: 0.9.96
+DEBUG 11/16/2020, 10:19:35 AM  [ '/usr/share/typora/Typora' ]
+INFO 11/16/2020, 10:19:35 AM  [Raven] instanceKey = 05ffd146-4edb-4ff8-b1fe-2a77638bda24
+DEBUG 11/16/2020, 10:19:35 AM  app.openFile
+INFO 11/16/2020, 10:19:35 AM  [Raven] userId = 1608746f-a0df-4b8f-99bb-31fa17894f66
+INFO 11/16/2020, 10:19:35 AM  [focus] 1
+INFO 11/16/2020, 10:19:39 AM  addRecentFolder
+INFO 11/16/2020, 10:19:46 AM  switchDocument
+INFO 11/16/2020, 10:19:46 AM  addRecentDocument
+INFO 11/16/2020, 10:19:57 AM  load file [/tmp/1605543597546-0.21510789347170567.html] for PDF export
+INFO 11/16/2020, 10:19:57 AM  [blur] 1
+INFO 11/16/2020, 10:19:58 AM  [focus] 1
+INFO 11/16/2020, 10:19:58 AM  generate print window with id 2
+INFO 11/16/2020, 10:19:58 AM  [blur] 1
+INFO 11/16/2020, 10:19:58 AM  [focus] 1
+INFO 11/16/2020, 10:19:58 AM  [blur] 1
+INFO 11/16/2020, 10:20:00 AM  [focus] 1
+INFO 11/16/2020, 10:20:00 AM  [blur] 1
+INFO 11/16/2020, 10:20:00 AM  [focus] 1
+INFO 11/16/2020, 10:20:00 AM  [blur] 1
+INFO 11/16/2020, 10:20:00 AM  [focus] 1
+INFO 11/16/2020, 10:20:00 AM  [RenderProcess 1][Log] export PDF to /home/jeff/Dropbox/journal/bible/newt/romans/romans03a-moo.pdf
+INFO 11/16/2020, 10:20:00 AM  [blur] 1
+INFO 11/16/2020, 10:20:27 AM  [focus] 1
+INFO 11/16/2020, 10:20:35 AM  load file [/tmp/1605543635152-0.07154229143560431.html] for PDF export
+INFO 11/16/2020, 10:20:35 AM  [blur] 1
+INFO 11/16/2020, 10:20:35 AM  generate print window with id 3
+INFO 11/16/2020, 10:20:38 AM  [focus] 1
+INFO 11/16/2020, 10:20:38 AM  [blur] 1
+INFO 11/16/2020, 10:20:38 AM  [focus] 1
+INFO 11/16/2020, 10:20:38 AM  [blur] 1
+INFO 11/16/2020, 10:20:38 AM  [focus] 1
+INFO 11/16/2020, 10:20:38 AM  [RenderProcess 1][Log] export PDF to /home/jeff/Dropbox/journal/bible/newt/romans/romans03a-moo.pdf
+INFO 11/16/2020, 10:20:44 AM  [blur] 1
+INFO 11/16/2020, 10:21:22 AM  [focus] 1
+INFO 11/16/2020, 10:21:48 AM  [blur] 1
+INFO 11/16/2020, 10:22:31 AM  [focus] 1
+INFO 11/16/2020, 10:22:33 AM  ----------------before-quit-----------------
+INFO 11/16/2020, 10:22:35 AM  ------------------start------------------
+INFO 11/16/2020, 10:22:35 AM  typora version: 0.9.96
+DEBUG 11/16/2020, 10:22:35 AM  [ '/usr/share/typora/Typora' ]
+INFO 11/16/2020, 10:22:35 AM  [Raven] instanceKey = 09636a5f-4e57-426e-a982-6be9db9d24e1
+DEBUG 11/16/2020, 10:22:35 AM  app.openFile
+INFO 11/16/2020, 10:22:36 AM  [Raven] userId = 1608746f-a0df-4b8f-99bb-31fa17894f66
+INFO 11/16/2020, 10:22:36 AM  [focus] 1
+INFO 11/16/2020, 10:22:42 AM  addRecentFolder
+INFO 11/16/2020, 10:22:43 AM  switchDocument
+INFO 11/16/2020, 10:22:43 AM  addRecentDocument
+INFO 11/16/2020, 10:22:44 AM  switchDocument
+INFO 11/16/2020, 10:22:44 AM  addRecentDocument
+INFO 11/16/2020, 10:22:57 AM  load file [/tmp/1605543777404-0.1590629416321081.html] for PDF export
+INFO 11/16/2020, 10:22:57 AM  [blur] 1
+INFO 11/16/2020, 10:22:57 AM  generate print window with id 2
+INFO 11/16/2020, 10:23:01 AM  [focus] 1
+INFO 11/16/2020, 10:23:01 AM  [blur] 1
+INFO 11/16/2020, 10:23:01 AM  [focus] 1
+INFO 11/16/2020, 10:23:01 AM  [blur] 1
+INFO 11/16/2020, 10:23:01 AM  [focus] 1
+INFO 11/16/2020, 10:23:01 AM  [RenderProcess 1][Log] export PDF to /home/jeff/Dropbox/journal/bible/newt/romans/romans01b-wrath.pdf
+INFO 11/16/2020, 10:23:01 AM  [blur] 1
+INFO 11/16/2020, 11:33:11 AM  got argv [typora /home/jeff/Dropbox/journal/bible/newt/romans/romans03b-moo.md] from secondary instance
+DEBUG 11/16/2020, 11:33:11 AM  app.openFile
+INFO 11/16/2020, 11:33:11 AM  addRecentDocument
+INFO 11/16/2020, 11:33:11 AM  secondary instance would exit
+INFO 11/16/2020, 11:33:11 AM  [focus] 3
+INFO 11/16/2020, 11:33:20 AM  [focus] 1
+INFO 11/16/2020, 11:33:20 AM  [blur] 1
+INFO 11/16/2020, 11:33:20 AM  [focus] 1
+INFO 11/16/2020, 11:33:20 AM  [blur] 1
+INFO 11/16/2020, 11:33:20 AM  [focus] 1
+INFO 11/16/2020, 11:33:21 AM  ----------------before-quit-----------------
+INFO 11/16/2020, 11:33:21 AM  ------------------will-quit------------------
+INFO 11/16/2020, 11:33:35 AM  ------------------start------------------
+INFO 11/16/2020, 11:33:35 AM  typora version: 0.9.96
+DEBUG 11/16/2020, 11:33:35 AM  [
   '/usr/share/typora/Typora',
-  '/home/jeff/Dropbox/church/discipleship/reunion/reunion-sg-spirit.txt'
+  '/home/jeff/Dropbox/journal/bible/newt/romans/romans03c-keller.md'
 ]
-DEBUG 9/19/2020, 9:45:04 PM  app.openFile
-INFO 9/19/2020, 9:45:04 PM  addRecentDocument
-INFO 9/19/2020, 9:45:04 PM  [Raven] instanceKey = b2893c99-2bbc-437c-bd33-c2ba8ec13df0
-INFO 9/19/2020, 9:45:04 PM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-INFO 9/19/2020, 9:45:05 PM  [focus] 1
-INFO 9/19/2020, 9:45:16 PM  [blur] 1
-INFO 9/19/2020, 9:52:59 PM  [focus] 1
-INFO 9/19/2020, 9:55:18 PM  ----------------before-quit-----------------
-INFO 9/19/2020, 9:55:18 PM  ------------------will-quit------------------
-INFO 9/21/2020, 8:46:47 AM  ------------------start------------------
-INFO 9/21/2020, 8:46:47 AM  typora version: 0.9.95
-DEBUG 9/21/2020, 8:46:47 AM  [ '/usr/share/typora/Typora' ]
-INFO 9/21/2020, 8:46:47 AM  [Raven] instanceKey = fe5992d2-b3fb-4128-b924-da7ac5426c69
-INFO 9/21/2020, 8:46:47 AM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-DEBUG 9/21/2020, 8:46:47 AM  app.openFile
-INFO 9/21/2020, 8:46:47 AM  [focus] 1
-INFO 9/21/2020, 8:46:51 AM  addRecentFolder
-INFO 9/21/2020, 8:46:56 AM  switchDocument
-INFO 9/21/2020, 8:46:56 AM  addRecentDocument
-INFO 9/21/2020, 8:47:30 AM  addRecentDocument
-INFO 9/21/2020, 8:47:34 AM  [blur] 1
-INFO 9/21/2020, 8:48:38 AM  [focus] 1
-INFO 9/21/2020, 8:48:43 AM  switchDocument
-INFO 9/21/2020, 8:48:43 AM  addRecentDocument
-INFO 9/21/2020, 8:48:51 AM  switchDocument
-INFO 9/21/2020, 8:48:51 AM  addRecentDocument
-DEBUG 9/21/2020, 8:48:51 AM  lastSync null, timestamp 1600696123104, mtime 1600696015985.4058
-INFO 9/21/2020, 8:48:54 AM  [blur] 1
-INFO 9/21/2020, 8:49:02 AM  [focus] 1
-INFO 9/21/2020, 8:49:29 AM  [blur] 1
-INFO 9/21/2020, 8:49:32 AM  [focus] 1
-INFO 9/21/2020, 8:49:43 AM  [blur] 1
-INFO 9/21/2020, 8:49:45 AM  [focus] 1
-INFO 9/21/2020, 8:50:05 AM  [blur] 1
-INFO 9/21/2020, 8:50:14 AM  [focus] 1
-INFO 9/21/2020, 8:51:11 AM  [blur] 1
-INFO 9/21/2020, 8:51:18 AM  [focus] 1
-INFO 9/21/2020, 8:51:48 AM  [blur] 1
-INFO 9/21/2020, 8:51:52 AM  [focus] 1
-INFO 9/21/2020, 8:52:11 AM  [blur] 1
-INFO 9/21/2020, 8:52:15 AM  [focus] 1
-INFO 9/21/2020, 8:52:30 AM  [blur] 1
-INFO 9/21/2020, 8:52:54 AM  [focus] 1
-INFO 9/21/2020, 8:53:07 AM  [blur] 1
-INFO 9/21/2020, 8:54:02 AM  [focus] 1
-INFO 9/21/2020, 8:54:07 AM  [blur] 1
-INFO 9/21/2020, 8:54:37 AM  [focus] 1
-INFO 9/21/2020, 8:55:07 AM  [blur] 1
-INFO 9/21/2020, 8:55:13 AM  [focus] 1
-INFO 9/21/2020, 8:55:13 AM  [blur] 1
-INFO 9/21/2020, 8:55:38 AM  [focus] 1
-INFO 9/21/2020, 8:57:30 AM  [blur] 1
-INFO 9/21/2020, 8:57:43 AM  [focus] 1
-INFO 9/21/2020, 8:58:13 AM  [blur] 1
-INFO 9/21/2020, 8:58:18 AM  [focus] 1
-INFO 9/21/2020, 8:59:11 AM  [blur] 1
-INFO 9/21/2020, 8:59:16 AM  [focus] 1
-INFO 9/21/2020, 8:59:27 AM  [blur] 1
-INFO 9/21/2020, 8:59:43 AM  [focus] 1
-INFO 9/21/2020, 9:00:23 AM  [blur] 1
-INFO 9/21/2020, 9:00:28 AM  [focus] 1
-INFO 9/21/2020, 9:01:10 AM  [blur] 1
-INFO 9/21/2020, 9:01:15 AM  [focus] 1
-INFO 9/21/2020, 9:01:33 AM  [blur] 1
-INFO 9/21/2020, 9:01:35 AM  [focus] 1
-INFO 9/21/2020, 9:01:55 AM  [blur] 1
-INFO 9/21/2020, 9:02:16 AM  [focus] 1
-INFO 9/21/2020, 9:02:40 AM  [blur] 1
-INFO 9/21/2020, 9:02:55 AM  [focus] 1
-INFO 9/21/2020, 9:02:59 AM  [blur] 1
-INFO 9/21/2020, 9:03:03 AM  [focus] 1
-INFO 9/21/2020, 9:03:18 AM  [blur] 1
-INFO 9/21/2020, 9:03:27 AM  [focus] 1
-INFO 9/21/2020, 9:03:38 AM  [blur] 1
-INFO 9/21/2020, 9:03:46 AM  [focus] 1
-INFO 9/21/2020, 9:04:29 AM  [blur] 1
-INFO 9/21/2020, 9:04:36 AM  [focus] 1
-INFO 9/21/2020, 9:05:27 AM  [blur] 1
-INFO 9/21/2020, 9:05:39 AM  [focus] 1
-INFO 9/21/2020, 9:06:06 AM  [blur] 1
-INFO 9/21/2020, 9:06:11 AM  [focus] 1
-INFO 9/21/2020, 9:06:35 AM  [blur] 1
-INFO 9/21/2020, 9:06:37 AM  [focus] 1
-INFO 9/21/2020, 9:07:19 AM  [blur] 1
-INFO 9/21/2020, 9:07:34 AM  [focus] 1
-INFO 9/21/2020, 9:07:51 AM  [blur] 1
-INFO 9/21/2020, 9:07:57 AM  [focus] 1
-INFO 9/21/2020, 9:08:22 AM  [blur] 1
-INFO 9/21/2020, 9:08:24 AM  [focus] 1
-INFO 9/21/2020, 9:08:46 AM  [blur] 1
-INFO 9/21/2020, 9:08:52 AM  [focus] 1
-INFO 9/21/2020, 9:09:26 AM  [blur] 1
-INFO 9/21/2020, 9:09:33 AM  [focus] 1
-INFO 9/21/2020, 9:10:02 AM  [blur] 1
-INFO 9/21/2020, 9:10:12 AM  [focus] 1
-INFO 9/21/2020, 9:10:48 AM  [blur] 1
-INFO 9/21/2020, 9:10:58 AM  [focus] 1
-INFO 9/21/2020, 9:11:09 AM  [blur] 1
-INFO 9/21/2020, 9:11:19 AM  [focus] 1
-INFO 9/21/2020, 9:11:21 AM  [blur] 1
-INFO 9/21/2020, 9:11:28 AM  [focus] 1
-INFO 9/21/2020, 9:11:44 AM  [blur] 1
-INFO 9/21/2020, 9:11:52 AM  [focus] 1
-INFO 9/21/2020, 9:11:52 AM  [blur] 1
-INFO 9/21/2020, 9:11:55 AM  [focus] 1
-INFO 9/21/2020, 9:11:56 AM  [blur] 1
-INFO 9/21/2020, 9:12:23 AM  [focus] 1
-INFO 9/21/2020, 9:13:17 AM  [blur] 1
-INFO 9/21/2020, 9:13:17 AM  [focus] 1
-INFO 9/21/2020, 9:13:32 AM  [RenderProcess 1][Warn] Error: spawn pandoc ENOENT
-    at Process.ChildProcess._handle.onexit (internal/child_process.js:264:19)
-    at onErrorNT (internal/child_process.js:456:16)
-    at processTicksAndRejections (internal/process/task_queues.js:81:21)
-DEBUG 9/21/2020, 9:13:37 AM  app.openFile
-INFO 9/21/2020, 9:13:37 AM  addRecentDocument
-INFO 9/21/2020, 9:13:38 AM  [blur] 1
-INFO 9/21/2020, 9:13:38 AM  [focus] 2
-INFO 9/21/2020, 9:13:54 AM  [focus] 1
-INFO 9/21/2020, 9:13:54 AM  [blur] 1
-INFO 9/21/2020, 9:13:54 AM  [focus] 1
-INFO 9/21/2020, 9:13:54 AM  [blur] 1
-INFO 9/21/2020, 9:13:54 AM  [focus] 1
-INFO 9/21/2020, 9:14:04 AM  [blur] 1
-INFO 9/21/2020, 9:14:06 AM  [focus] 1
-INFO 9/21/2020, 9:14:08 AM  [blur] 1
-INFO 9/21/2020, 9:14:29 AM  [focus] 1
-INFO 9/21/2020, 9:14:35 AM  [blur] 1
-INFO 9/21/2020, 9:14:59 AM  [focus] 1
-INFO 9/21/2020, 9:15:42 AM  [blur] 1
-INFO 9/21/2020, 9:15:48 AM  [focus] 1
-INFO 9/21/2020, 9:16:24 AM  [blur] 1
-INFO 9/21/2020, 9:16:27 AM  [focus] 1
-INFO 9/21/2020, 9:17:15 AM  [blur] 1
-INFO 9/21/2020, 9:17:16 AM  [focus] 1
-INFO 9/21/2020, 9:18:03 AM  [blur] 1
-INFO 9/21/2020, 9:18:22 AM  [focus] 1
-INFO 9/21/2020, 9:18:27 AM  [blur] 1
-INFO 9/21/2020, 9:18:52 AM  [focus] 1
-INFO 9/21/2020, 9:18:56 AM  ----------------before-quit-----------------
-INFO 9/21/2020, 9:18:56 AM  ------------------will-quit------------------
-INFO 9/22/2020, 6:51:05 PM  ------------------start------------------
-INFO 9/22/2020, 6:51:05 PM  typora version: 0.9.95
-DEBUG 9/22/2020, 6:51:05 PM  [ '/usr/share/typora/Typora', '/home/jeff/Dropbox/journal/script.txt' ]
-DEBUG 9/22/2020, 6:51:05 PM  app.openFile
-INFO 9/22/2020, 6:51:05 PM  addRecentDocument
-INFO 9/22/2020, 6:51:05 PM  [Raven] instanceKey = 48956a7b-7f89-4462-8643-5b128b0be8b8
-INFO 9/22/2020, 6:51:05 PM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-INFO 9/22/2020, 6:51:06 PM  [focus] 1
-DEBUG 9/22/2020, 6:51:12 PM  app.openFile
-INFO 9/22/2020, 6:51:12 PM  [blur] 1
-INFO 9/22/2020, 6:51:12 PM  [focus] 2
-INFO 9/22/2020, 6:51:18 PM  [blur] 2
-INFO 9/22/2020, 6:51:26 PM  [focus] 2
-INFO 9/22/2020, 6:51:26 PM  [blur] 2
-INFO 9/22/2020, 6:51:26 PM  [focus] 2
-INFO 9/22/2020, 6:51:26 PM  [blur] 2
-INFO 9/22/2020, 6:51:26 PM  [focus] 2
-INFO 9/22/2020, 6:51:26 PM  addRecentDocument
-INFO 9/22/2020, 6:51:29 PM  [focus] 1
-INFO 9/22/2020, 6:51:29 PM  [blur] 1
-INFO 9/22/2020, 6:51:29 PM  [focus] 1
-INFO 9/22/2020, 6:51:29 PM  [blur] 1
-INFO 9/22/2020, 6:51:29 PM  [focus] 1
-INFO 9/22/2020, 6:51:30 PM  ----------------before-quit-----------------
-INFO 9/22/2020, 6:51:30 PM  ------------------will-quit------------------
-INFO 9/25/2020, 9:53:01 AM  ------------------start------------------
-INFO 9/25/2020, 9:53:01 AM  typora version: 0.9.95
-DEBUG 9/25/2020, 9:53:01 AM  [ '/usr/share/typora/Typora' ]
-INFO 9/25/2020, 9:53:01 AM  [Raven] instanceKey = 61197442-15de-404b-8479-3c4aea79dcf2
-DEBUG 9/25/2020, 9:53:01 AM  app.openFile
-INFO 9/25/2020, 9:53:01 AM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-INFO 9/25/2020, 9:53:01 AM  [focus] 1
-INFO 9/25/2020, 9:53:04 AM  ----------------before-quit-----------------
-INFO 9/25/2020, 9:53:04 AM  ------------------will-quit------------------
-INFO 9/25/2020, 2:04:53 PM  ------------------start------------------
-INFO 9/25/2020, 2:04:53 PM  typora version: 0.9.95
-DEBUG 9/25/2020, 2:04:53 PM  [ '/usr/share/typora/Typora' ]
-INFO 9/25/2020, 2:04:53 PM  [Raven] instanceKey = ca9a5420-7bad-4311-95f5-8639e64acf52
-INFO 9/25/2020, 2:04:53 PM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-DEBUG 9/25/2020, 2:04:53 PM  app.openFile
-INFO 9/25/2020, 2:04:53 PM  [focus] 1
-INFO 9/25/2020, 2:04:55 PM  ----------------before-quit-----------------
-INFO 9/25/2020, 2:04:55 PM  ------------------will-quit------------------
-INFO 9/25/2020, 2:44:46 PM  ------------------start------------------
-INFO 9/25/2020, 2:44:46 PM  typora version: 0.9.95
-DEBUG 9/25/2020, 2:44:46 PM  [
-  '/usr/share/typora/Typora',
-  '/home/jeff/Dropbox/reunion-sermon-role.md'
-]
-DEBUG 9/25/2020, 2:44:46 PM  app.openFile
-INFO 9/25/2020, 2:44:46 PM  addRecentDocument
-INFO 9/25/2020, 2:44:46 PM  [Raven] instanceKey = 29a02ccc-01bb-408d-9c0b-9d59257e80d0
-INFO 9/25/2020, 2:44:46 PM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-INFO 9/25/2020, 2:44:47 PM  [focus] 1
-INFO 9/25/2020, 2:45:20 PM  ----------------before-quit-----------------
-INFO 9/25/2020, 2:45:20 PM  ------------------will-quit------------------
-INFO 9/25/2020, 3:31:31 PM  ------------------start------------------
-INFO 9/25/2020, 3:31:31 PM  typora version: 0.9.95
-DEBUG 9/25/2020, 3:31:32 PM  [ '/usr/share/typora/Typora' ]
-INFO 9/25/2020, 3:31:32 PM  [Raven] instanceKey = ddd2fe17-7f90-4a36-8acd-3b42ff07e219
-DEBUG 9/25/2020, 3:31:32 PM  app.openFile
-INFO 9/25/2020, 3:31:32 PM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-INFO 9/25/2020, 3:31:32 PM  [focus] 1
-INFO 9/25/2020, 3:31:41 PM  addRecentFolder
-INFO 9/25/2020, 3:32:14 PM  [blur] 1
-INFO 9/25/2020, 3:32:57 PM  [focus] 1
-INFO 9/25/2020, 3:32:57 PM  [blur] 1
-INFO 9/25/2020, 3:32:57 PM  [focus] 1
-INFO 9/25/2020, 3:32:57 PM  [blur] 1
-INFO 9/25/2020, 3:32:57 PM  [focus] 1
-INFO 9/25/2020, 3:32:57 PM  addRecentDocument
-INFO 9/25/2020, 3:33:00 PM  [blur] 1
-INFO 9/25/2020, 3:33:00 PM  [focus] 1
-INFO 9/25/2020, 3:33:44 PM  [blur] 1
-INFO 9/25/2020, 3:34:07 PM  [focus] 1
-INFO 9/25/2020, 3:34:07 PM  [blur] 1
-INFO 9/25/2020, 3:34:07 PM  [focus] 1
-INFO 9/25/2020, 3:34:07 PM  [blur] 1
-INFO 9/25/2020, 3:34:07 PM  [focus] 1
-INFO 9/25/2020, 3:36:07 PM  [blur] 1
-INFO 9/25/2020, 3:36:19 PM  [focus] 1
-INFO 9/25/2020, 3:36:32 PM  [RenderProcess 1][Warn] Error: spawn pandoc ENOENT
-    at Process.ChildProcess._handle.onexit (internal/child_process.js:264:19)
-    at onErrorNT (internal/child_process.js:456:16)
-    at processTicksAndRejections (internal/process/task_queues.js:81:21)
-INFO 9/25/2020, 3:36:37 PM  [blur] 1
-INFO 9/25/2020, 3:39:15 PM  [focus] 1
-INFO 9/25/2020, 3:39:36 PM  [blur] 1
-INFO 9/25/2020, 3:46:42 PM  [focus] 1
-INFO 9/25/2020, 3:47:09 PM  [blur] 1
-INFO 9/25/2020, 3:48:26 PM  [focus] 1
-INFO 9/25/2020, 4:49:55 PM  [blur] 1
-INFO 9/25/2020, 4:49:59 PM  [focus] 1
-INFO 9/25/2020, 4:50:09 PM  [blur] 1
-INFO 9/25/2020, 4:50:11 PM  [focus] 1
-INFO 9/25/2020, 5:03:06 PM  [blur] 1
-INFO 9/25/2020, 5:03:13 PM  [focus] 1
-INFO 9/25/2020, 5:03:13 PM  [blur] 1
-INFO 9/25/2020, 5:03:13 PM  [focus] 1
-INFO 9/25/2020, 5:03:13 PM  [blur] 1
-INFO 9/25/2020, 5:03:13 PM  [focus] 1
-INFO 9/25/2020, 5:03:16 PM  [blur] 1
-INFO 9/25/2020, 5:03:16 PM  [focus] 1
-INFO 9/25/2020, 5:03:23 PM  [blur] 1
-INFO 9/25/2020, 5:03:25 PM  [focus] 1
-INFO 9/25/2020, 5:03:25 PM  [blur] 1
-INFO 9/25/2020, 5:03:25 PM  [focus] 1
-INFO 9/25/2020, 5:03:25 PM  [blur] 1
-INFO 9/25/2020, 5:03:25 PM  [focus] 1
-INFO 9/25/2020, 5:03:30 PM  ----------------before-quit-----------------
-INFO 9/25/2020, 5:03:30 PM  ------------------will-quit------------------
-INFO 9/25/2020, 8:02:36 PM  ------------------start------------------
-INFO 9/25/2020, 8:02:36 PM  typora version: 0.9.95
-DEBUG 9/25/2020, 8:02:36 PM  [
-  '/usr/share/typora/Typora',
-  '/home/jeff/Dropbox/church/discipleship/reunion/reunion-biblestudy-devotion-kindle.md'
-]
-DEBUG 9/25/2020, 8:02:36 PM  app.openFile
-INFO 9/25/2020, 8:02:36 PM  addRecentDocument
-INFO 9/25/2020, 8:02:37 PM  [Raven] instanceKey = eb4b2e6c-d36a-4639-8f58-6e23cda30a16
-INFO 9/25/2020, 8:02:37 PM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-INFO 9/25/2020, 8:02:38 PM  [focus] 1
-INFO 9/25/2020, 8:02:52 PM  [blur] 1
-INFO 9/25/2020, 8:04:12 PM  [focus] 1
-INFO 9/25/2020, 8:06:50 PM  [blur] 1
-INFO 9/25/2020, 8:07:54 PM  [focus] 1
-INFO 9/25/2020, 8:08:16 PM  [blur] 1
-INFO 9/25/2020, 8:09:33 PM  [focus] 1
-INFO 9/25/2020, 8:10:00 PM  [blur] 1
-INFO 9/25/2020, 8:10:23 PM  [focus] 1
-INFO 9/25/2020, 8:10:42 PM  [blur] 1
-INFO 9/25/2020, 8:12:17 PM  [focus] 1
-INFO 9/25/2020, 8:12:30 PM  [blur] 1
-INFO 9/25/2020, 8:12:33 PM  [focus] 1
-INFO 9/25/2020, 8:12:41 PM  [blur] 1
-INFO 9/25/2020, 8:12:57 PM  [focus] 1
-INFO 9/25/2020, 8:13:10 PM  [blur] 1
-INFO 9/25/2020, 8:13:26 PM  [focus] 1
-INFO 9/25/2020, 8:13:48 PM  [blur] 1
-INFO 9/25/2020, 8:14:05 PM  [focus] 1
-INFO 9/25/2020, 8:14:58 PM  [blur] 1
-INFO 9/25/2020, 8:15:27 PM  [focus] 1
-INFO 9/25/2020, 8:15:39 PM  [blur] 1
-INFO 9/25/2020, 8:15:56 PM  [focus] 1
-INFO 9/25/2020, 8:16:38 PM  [blur] 1
-INFO 9/25/2020, 8:16:48 PM  [focus] 1
-INFO 9/25/2020, 8:16:48 PM  [blur] 1
-INFO 9/25/2020, 8:16:48 PM  [focus] 1
-INFO 9/25/2020, 8:16:48 PM  [blur] 1
-INFO 9/25/2020, 8:16:48 PM  [focus] 1
-INFO 9/25/2020, 8:16:48 PM  load file [/tmp/1601083008881-0.5741124048308681.html] for PDF export
-INFO 9/25/2020, 8:16:49 PM  [blur] 1
-INFO 9/25/2020, 8:16:49 PM  generate print window with id 2
-INFO 9/25/2020, 8:17:04 PM  [focus] 1
-INFO 9/25/2020, 8:17:04 PM  [blur] 1
-INFO 9/25/2020, 8:17:04 PM  [focus] 1
-INFO 9/25/2020, 8:17:04 PM  [blur] 1
-INFO 9/25/2020, 8:17:04 PM  [focus] 1
-INFO 9/25/2020, 8:17:04 PM  [RenderProcess 1][Log] export PDF to /home/jeff/Dropbox/church/discipleship/reunion/reunion-biblestudy-devotion-kindle.pdf
-INFO 9/25/2020, 8:17:07 PM  [blur] 1
-INFO 9/25/2020, 8:23:21 PM  [focus] 1
-INFO 9/25/2020, 8:23:23 PM  [blur] 1
-INFO 9/25/2020, 8:32:11 PM  [focus] 1
-INFO 9/25/2020, 8:32:20 PM  [blur] 1
-INFO 9/25/2020, 8:58:09 PM  [focus] 1
-INFO 9/25/2020, 8:58:11 PM  [blur] 1
-INFO 9/25/2020, 9:00:48 PM  [focus] 1
-INFO 9/25/2020, 9:00:49 PM  [blur] 1
-INFO 9/25/2020, 9:03:23 PM  [focus] 1
-INFO 9/25/2020, 9:09:10 PM  [blur] 1
-INFO 9/25/2020, 9:09:20 PM  [focus] 1
-INFO 9/25/2020, 9:09:22 PM  [blur] 1
-INFO 9/25/2020, 9:21:29 PM  [focus] 1
-INFO 9/25/2020, 9:26:18 PM  [blur] 1
-INFO 9/25/2020, 9:26:23 PM  [focus] 1
-INFO 9/25/2020, 9:26:23 PM  [blur] 1
-INFO 9/25/2020, 9:26:23 PM  [focus] 1
-INFO 9/25/2020, 9:26:23 PM  [blur] 1
-INFO 9/25/2020, 9:26:23 PM  [focus] 1
-INFO 9/25/2020, 9:28:18 PM  [blur] 1
-INFO 9/25/2020, 9:28:35 PM  [focus] 1
-INFO 9/25/2020, 9:28:37 PM  ----------------before-quit-----------------
-INFO 9/25/2020, 9:28:37 PM  ------------------will-quit------------------
-INFO 9/26/2020, 7:57:52 AM  ------------------start------------------
-INFO 9/26/2020, 7:57:52 AM  typora version: 0.9.95
-DEBUG 9/26/2020, 7:57:52 AM  [ '/usr/share/typora/Typora' ]
-INFO 9/26/2020, 7:57:52 AM  [Raven] instanceKey = 2ed7bea0-4181-47c5-bb56-d10fa4ce365a
-DEBUG 9/26/2020, 7:57:52 AM  app.openFile
-INFO 9/26/2020, 7:57:52 AM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-INFO 9/26/2020, 7:57:52 AM  [focus] 1
-INFO 9/26/2020, 7:58:00 AM  addRecentFolder
-INFO 9/26/2020, 7:58:04 AM  switchDocument
-INFO 9/26/2020, 7:58:04 AM  addRecentDocument
-INFO 9/26/2020, 7:58:37 AM  [blur] 1
-INFO 9/26/2020, 7:58:40 AM  [focus] 1
-INFO 9/26/2020, 7:58:40 AM  [blur] 1
-INFO 9/26/2020, 7:58:40 AM  [focus] 1
-INFO 9/26/2020, 7:58:40 AM  [blur] 1
-INFO 9/26/2020, 7:58:40 AM  [focus] 1
-INFO 9/26/2020, 7:58:43 AM  ----------------before-quit-----------------
-INFO 9/26/2020, 7:58:43 AM  ------------------will-quit------------------
-INFO 9/26/2020, 8:00:48 AM  ------------------start------------------
-INFO 9/26/2020, 8:00:48 AM  typora version: 0.9.95
-DEBUG 9/26/2020, 8:00:48 AM  [
-  '/usr/share/typora/Typora',
-  '/home/jeff/Dropbox/church/discipleship/reunion/reunion-biblestudy-devotion-kindle.md'
-]
-DEBUG 9/26/2020, 8:00:48 AM  app.openFile
-INFO 9/26/2020, 8:00:48 AM  addRecentDocument
-INFO 9/26/2020, 8:00:48 AM  [Raven] instanceKey = 5d7cd99b-3470-4aa8-8b28-d9a6383a6f08
-INFO 9/26/2020, 8:00:48 AM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-INFO 9/26/2020, 8:00:48 AM  [focus] 1
-INFO 9/26/2020, 8:00:54 AM  [blur] 1
-INFO 9/26/2020, 8:00:56 AM  [focus] 1
-INFO 9/26/2020, 8:00:56 AM  [blur] 1
-INFO 9/26/2020, 8:00:56 AM  [focus] 1
-INFO 9/26/2020, 8:00:56 AM  [blur] 1
-INFO 9/26/2020, 8:00:56 AM  [focus] 1
-INFO 9/26/2020, 8:01:00 AM  [blur] 1
-INFO 9/26/2020, 8:03:36 AM  [focus] 1
-INFO 9/26/2020, 8:03:36 AM  [blur] 1
-INFO 9/26/2020, 8:03:36 AM  [focus] 1
-INFO 9/26/2020, 8:03:36 AM  [blur] 1
-INFO 9/26/2020, 8:03:36 AM  [focus] 1
-INFO 9/26/2020, 8:03:38 AM  ----------------before-quit-----------------
-INFO 9/26/2020, 8:03:38 AM  ------------------will-quit------------------
-INFO 9/30/2020, 8:12:52 AM  ------------------start------------------
-INFO 9/30/2020, 8:12:52 AM  typora version: 0.9.95
-DEBUG 9/30/2020, 8:12:52 AM  [
-  '/usr/share/typora/Typora',
-  '/home/jeff/Dropbox/journal/messages/warren/150130-steps-defeat-giants.md'
-]
-DEBUG 9/30/2020, 8:12:52 AM  app.openFile
-INFO 9/30/2020, 8:12:52 AM  addRecentDocument
-INFO 9/30/2020, 8:12:52 AM  [Raven] instanceKey = 74c83c5a-dacc-449c-b65a-34d88db9bfaa
-INFO 9/30/2020, 8:12:52 AM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-INFO 9/30/2020, 8:12:53 AM  [focus] 1
-INFO 9/30/2020, 8:13:06 AM  ----------------before-quit-----------------
-INFO 9/30/2020, 8:13:06 AM  ------------------will-quit------------------
-INFO 9/30/2020, 8:13:14 AM  ------------------start------------------
-INFO 9/30/2020, 8:13:14 AM  typora version: 0.9.95
-DEBUG 9/30/2020, 8:13:14 AM  [
-  '/usr/share/typora/Typora',
-  '/home/jeff/Dropbox/journal/messages/warren/180531-accepted-by-god.md'
-]
-DEBUG 9/30/2020, 8:13:14 AM  app.openFile
-INFO 9/30/2020, 8:13:14 AM  addRecentDocument
-INFO 9/30/2020, 8:13:14 AM  [Raven] instanceKey = 21f648ae-944f-4fc1-b5eb-2add04733399
-INFO 9/30/2020, 8:13:14 AM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-INFO 9/30/2020, 8:13:14 AM  [focus] 1
-INFO 9/30/2020, 8:13:19 AM  ----------------before-quit-----------------
-INFO 9/30/2020, 8:13:19 AM  ------------------will-quit------------------
-INFO 9/30/2020, 8:14:17 AM  ------------------start------------------
-INFO 9/30/2020, 8:14:17 AM  typora version: 0.9.95
-DEBUG 9/30/2020, 8:14:17 AM  [ '/usr/share/typora/Typora' ]
-INFO 9/30/2020, 8:14:17 AM  [Raven] instanceKey = 7ac35c7d-a770-4de8-a319-bf79dc873073
-DEBUG 9/30/2020, 8:14:17 AM  app.openFile
-INFO 9/30/2020, 8:14:17 AM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-INFO 9/30/2020, 8:14:17 AM  [focus] 1
-INFO 9/30/2020, 8:14:22 AM  addRecentFolder
-INFO 9/30/2020, 8:14:56 AM  [blur] 1
-INFO 9/30/2020, 8:15:02 AM  [focus] 1
-INFO 9/30/2020, 8:15:13 AM  [blur] 1
-INFO 9/30/2020, 8:15:14 AM  [focus] 1
-INFO 9/30/2020, 8:15:14 AM  [blur] 1
-INFO 9/30/2020, 8:15:14 AM  [focus] 1
-INFO 9/30/2020, 8:15:14 AM  [blur] 1
-INFO 9/30/2020, 8:15:14 AM  [focus] 1
-INFO 9/30/2020, 8:15:17 AM  [blur] 1
-INFO 9/30/2020, 8:15:18 AM  [focus] 1
-INFO 9/30/2020, 8:15:19 AM  [blur] 1
-INFO 9/30/2020, 8:15:43 AM  [focus] 1
-INFO 9/30/2020, 8:15:55 AM  [blur] 1
-INFO 9/30/2020, 8:15:59 AM  [focus] 1
-INFO 9/30/2020, 8:15:59 AM  [blur] 1
-INFO 9/30/2020, 8:15:59 AM  [focus] 1
-INFO 9/30/2020, 8:15:59 AM  [blur] 1
-INFO 9/30/2020, 8:15:59 AM  [focus] 1
-INFO 9/30/2020, 8:15:59 AM  [blur] 1
-INFO 9/30/2020, 8:15:59 AM  [focus] 1
-DEBUG 9/30/2020, 8:15:59 AM  true
-INFO 9/30/2020, 8:15:59 AM  addRecentFolder
-INFO 9/30/2020, 8:16:06 AM  switchDocument
-INFO 9/30/2020, 8:16:06 AM  addRecentDocument
-INFO 9/30/2020, 8:24:18 AM  ----------------before-quit-----------------
-INFO 9/30/2020, 8:24:18 AM  ------------------will-quit------------------
-INFO 10/1/2020, 8:16:26 PM  ------------------start------------------
-INFO 10/1/2020, 8:16:26 PM  typora version: 0.9.95
-DEBUG 10/1/2020, 8:16:26 PM  [ '/usr/share/typora/Typora' ]
-INFO 10/1/2020, 8:16:26 PM  [Raven] instanceKey = 1a89c2fb-f7f9-4934-902b-aa115e3320a1
-DEBUG 10/1/2020, 8:16:26 PM  app.openFile
-INFO 10/1/2020, 8:16:26 PM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-INFO 10/1/2020, 8:16:26 PM  [focus] 1
-INFO 10/1/2020, 8:16:29 PM  ----------------before-quit-----------------
-INFO 10/1/2020, 8:16:29 PM  ------------------will-quit------------------
-INFO 10/1/2020, 8:16:31 PM  ------------------start------------------
-INFO 10/1/2020, 8:16:31 PM  typora version: 0.9.95
-DEBUG 10/1/2020, 8:16:31 PM  [ '/usr/share/typora/Typora' ]
-INFO 10/1/2020, 8:16:31 PM  [Raven] instanceKey = 179c5c62-c38f-4e58-936a-5314300c0f5a
-DEBUG 10/1/2020, 8:16:31 PM  app.openFile
-INFO 10/1/2020, 8:16:32 PM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-INFO 10/1/2020, 8:16:32 PM  [focus] 1
-INFO 10/1/2020, 8:16:34 PM  ----------------before-quit-----------------
-INFO 10/1/2020, 8:16:34 PM  ------------------will-quit------------------
-INFO 10/1/2020, 10:03:14 PM  ------------------start------------------
-INFO 10/1/2020, 10:03:14 PM  typora version: 0.9.95
-DEBUG 10/1/2020, 10:03:14 PM  [ '/usr/share/typora/Typora' ]
-INFO 10/1/2020, 10:03:14 PM  [Raven] instanceKey = 3b8cbb5f-3afd-463b-8194-6d3aba246aa3
-DEBUG 10/1/2020, 10:03:14 PM  app.openFile
-INFO 10/1/2020, 10:03:14 PM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-INFO 10/1/2020, 10:03:14 PM  [focus] 1
-INFO 10/1/2020, 10:03:20 PM  addRecentFolder
-INFO 10/1/2020, 10:03:26 PM  switchDocument
-INFO 10/1/2020, 10:03:26 PM  addRecentDocument
-INFO 10/1/2020, 10:11:58 PM  [blur] 1
-INFO 10/1/2020, 10:12:36 PM  [focus] 1
-INFO 10/1/2020, 10:12:38 PM  [blur] 1
-INFO 10/1/2020, 10:15:12 PM  [focus] 1
-INFO 10/1/2020, 10:17:02 PM  [blur] 1
-INFO 10/1/2020, 10:19:00 PM  [focus] 1
-INFO 10/1/2020, 10:19:38 PM  [blur] 1
-INFO 10/1/2020, 10:25:04 PM  [focus] 1
-INFO 10/1/2020, 10:26:36 PM  [blur] 1
-INFO 10/1/2020, 10:26:44 PM  [focus] 1
-INFO 10/1/2020, 10:26:51 PM  [blur] 1
-INFO 10/1/2020, 10:27:17 PM  [focus] 1
-INFO 10/1/2020, 10:30:38 PM  [blur] 1
-INFO 10/1/2020, 10:30:56 PM  [focus] 1
-INFO 10/1/2020, 10:32:47 PM  [blur] 1
-INFO 10/1/2020, 10:33:05 PM  [focus] 1
-INFO 10/1/2020, 10:33:54 PM  ----------------before-quit-----------------
-INFO 10/1/2020, 10:33:54 PM  ------------------will-quit------------------
-INFO 10/2/2020, 9:42:27 PM  ------------------start------------------
-INFO 10/2/2020, 9:42:27 PM  typora version: 0.9.95
-DEBUG 10/2/2020, 9:42:27 PM  [
-  '/usr/share/typora/Typora',
-  '/home/jeff/Dropbox/church/discipleship/reunion/reunion-sermon-role.md'
-]
-DEBUG 10/2/2020, 9:42:27 PM  app.openFile
-INFO 10/2/2020, 9:42:27 PM  addRecentDocument
-INFO 10/2/2020, 9:42:27 PM  [Raven] instanceKey = 02191384-f536-4654-8d6e-c8f50644ebf5
-INFO 10/2/2020, 9:42:27 PM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-INFO 10/2/2020, 9:42:28 PM  [focus] 1
-INFO 10/2/2020, 9:49:55 PM  ----------------before-quit-----------------
-INFO 10/2/2020, 9:49:55 PM  ------------------will-quit------------------
-INFO 10/3/2020, 12:13:20 PM  ------------------start------------------
-INFO 10/3/2020, 12:13:20 PM  typora version: 0.9.95
-DEBUG 10/3/2020, 12:13:20 PM  [
-  '/usr/share/typora/Typora',
-  '/home/jeff/Dropbox/church/discipleship/reunion/reunion-sermon-role.md'
-]
-DEBUG 10/3/2020, 12:13:20 PM  app.openFile
-INFO 10/3/2020, 12:13:20 PM  addRecentDocument
-INFO 10/3/2020, 12:13:21 PM  [Raven] instanceKey = af048ced-6cbd-4be6-9cc1-6ad2c76d12f6
-INFO 10/3/2020, 12:13:21 PM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-INFO 10/3/2020, 12:13:22 PM  [focus] 1
-INFO 10/3/2020, 12:16:01 PM  [blur] 1
-INFO 10/3/2020, 12:16:03 PM  [focus] 1
-INFO 10/3/2020, 12:36:57 PM  [blur] 1
-INFO 10/3/2020, 12:37:37 PM  [focus] 1
-INFO 10/3/2020, 12:41:22 PM  [blur] 1
-INFO 10/3/2020, 12:45:38 PM  [focus] 1
-INFO 10/3/2020, 12:46:04 PM  [blur] 1
-INFO 10/3/2020, 12:47:22 PM  [focus] 1
-INFO 10/3/2020, 12:48:00 PM  [blur] 1
-INFO 10/3/2020, 12:48:31 PM  [focus] 1
-INFO 10/3/2020, 2:01:07 PM  [blur] 1
-INFO 10/3/2020, 2:01:08 PM  [focus] 1
-INFO 10/3/2020, 2:01:08 PM  [blur] 1
-INFO 10/3/2020, 2:01:26 PM  [focus] 1
-INFO 10/3/2020, 2:20:32 PM  [blur] 1
-INFO 10/3/2020, 2:20:46 PM  [focus] 1
-INFO 10/3/2020, 2:20:47 PM  [blur] 1
-INFO 10/3/2020, 10:28:52 PM  [focus] 1
-INFO 10/3/2020, 10:28:56 PM  ----------------before-quit-----------------
-INFO 10/3/2020, 10:28:56 PM  ------------------will-quit------------------
-INFO 10/3/2020, 10:29:18 PM  ------------------start------------------
-INFO 10/3/2020, 10:29:18 PM  typora version: 0.9.95
-DEBUG 10/3/2020, 10:29:18 PM  [
-  '/usr/share/typora/Typora',
-  '/home/jeff/Dropbox/church/discipleship/reunion/reunion-sermon-role.md'
-]
-DEBUG 10/3/2020, 10:29:18 PM  app.openFile
-INFO 10/3/2020, 10:29:18 PM  addRecentDocument
-INFO 10/3/2020, 10:29:19 PM  [Raven] instanceKey = cfd07fa5-179b-4a6d-8454-e1ec2ae2a779
-INFO 10/3/2020, 10:29:19 PM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-INFO 10/3/2020, 10:29:19 PM  [focus] 1
-INFO 10/3/2020, 10:29:35 PM  [blur] 1
-INFO 10/3/2020, 10:29:41 PM  [focus] 1
-INFO 10/3/2020, 10:29:41 PM  [blur] 1
-INFO 10/3/2020, 10:29:41 PM  [focus] 1
-INFO 10/3/2020, 10:29:41 PM  [blur] 1
-INFO 10/3/2020, 10:29:41 PM  [focus] 1
-INFO 10/3/2020, 10:32:03 PM  [blur] 1
-INFO 10/3/2020, 10:32:04 PM  [focus] 1
-INFO 10/3/2020, 10:32:04 PM  [blur] 1
-INFO 10/3/2020, 10:32:07 PM  [focus] 1
-INFO 10/3/2020, 10:32:07 PM  [blur] 1
-INFO 10/3/2020, 10:32:07 PM  [focus] 1
-INFO 10/3/2020, 10:32:07 PM  [blur] 1
-INFO 10/3/2020, 10:32:07 PM  [focus] 1
-INFO 10/3/2020, 10:32:07 PM  [blur] 1
-INFO 10/3/2020, 10:34:37 PM  [focus] 1
-INFO 10/3/2020, 10:35:25 PM  ----------------before-quit-----------------
-INFO 10/3/2020, 10:35:25 PM  ------------------will-quit------------------
-INFO 10/3/2020, 10:37:45 PM  ------------------start------------------
-INFO 10/3/2020, 10:37:45 PM  typora version: 0.9.95
-DEBUG 10/3/2020, 10:37:45 PM  [
-  '/usr/share/typora/Typora',
-  '/home/jeff/Dropbox/church/discipleship/reunion/reunion-sermon-role.md'
-]
-DEBUG 10/3/2020, 10:37:45 PM  app.openFile
-INFO 10/3/2020, 10:37:45 PM  addRecentDocument
-INFO 10/3/2020, 10:37:45 PM  [Raven] instanceKey = d034db00-b68d-4b98-9723-d914abeeed87
-INFO 10/3/2020, 10:37:45 PM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-INFO 10/3/2020, 10:37:45 PM  [focus] 1
-INFO 10/3/2020, 10:55:37 PM  ----------------before-quit-----------------
-INFO 10/3/2020, 10:55:37 PM  ------------------will-quit------------------
-INFO 10/8/2020, 9:40:56 AM  ------------------start------------------
-INFO 10/8/2020, 9:40:56 AM  typora version: 0.9.95
-DEBUG 10/8/2020, 9:40:57 AM  [ '/usr/share/typora/Typora' ]
-INFO 10/8/2020, 9:40:57 AM  [Raven] instanceKey = 8ee26856-06d0-448a-8c4d-2c56db606b36
-INFO 10/8/2020, 9:40:57 AM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-DEBUG 10/8/2020, 9:40:57 AM  app.openFile
-INFO 10/8/2020, 9:40:57 AM  [focus] 1
-INFO 10/8/2020, 9:40:59 AM  [blur] 1
-INFO 10/8/2020, 9:41:14 AM  [focus] 1
-INFO 10/8/2020, 9:41:23 AM  [blur] 1
-INFO 10/8/2020, 9:41:27 AM  [focus] 1
-INFO 10/8/2020, 9:41:31 AM  [blur] 1
-INFO 10/8/2020, 9:43:35 AM  [focus] 1
-INFO 10/8/2020, 9:43:36 AM  [blur] 1
-INFO 10/8/2020, 9:51:45 AM  [focus] 1
-INFO 10/8/2020, 9:51:47 AM  [blur] 1
-INFO 10/8/2020, 9:51:47 AM  [focus] 1
-INFO 10/8/2020, 9:51:47 AM  [blur] 1
-INFO 10/8/2020, 9:51:48 AM  [focus] 1
-INFO 10/8/2020, 9:51:48 AM  [blur] 1
-INFO 10/8/2020, 9:51:49 AM  [focus] 1
-INFO 10/8/2020, 9:51:49 AM  [blur] 1
-INFO 10/8/2020, 9:51:49 AM  [focus] 1
-INFO 10/8/2020, 9:51:49 AM  [blur] 1
-INFO 10/8/2020, 9:51:49 AM  [focus] 1
-INFO 10/8/2020, 9:52:01 AM  [blur] 1
-INFO 10/8/2020, 9:52:10 AM  [focus] 1
-INFO 10/8/2020, 9:52:10 AM  [blur] 1
-INFO 10/8/2020, 9:52:13 AM  [focus] 1
-INFO 10/8/2020, 9:52:13 AM  [blur] 1
-INFO 10/8/2020, 9:52:26 AM  [focus] 1
-INFO 10/8/2020, 9:52:26 AM  addRecentDocument
-INFO 10/8/2020, 9:52:26 AM  ----------------before-quit-----------------
-INFO 10/8/2020, 9:52:26 AM  ------------------will-quit------------------
-INFO 10/10/2020, 9:15:05 PM  ------------------start------------------
-INFO 10/10/2020, 9:15:05 PM  typora version: 0.9.95
-DEBUG 10/10/2020, 9:15:06 PM  [
-  '/usr/share/typora/Typora',
-  '/home/jeff/Dropbox/church/discipleship/reunion/reunion-biblestudy-witness-call.md'
-]
-DEBUG 10/10/2020, 9:15:06 PM  app.openFile
-INFO 10/10/2020, 9:15:06 PM  addRecentDocument
-INFO 10/10/2020, 9:15:06 PM  [Raven] instanceKey = 660f6543-9ffd-40c8-bf63-4055697045d9
-INFO 10/10/2020, 9:15:06 PM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-INFO 10/10/2020, 9:15:06 PM  [focus] 1
-INFO 10/10/2020, 9:15:29 PM  ----------------before-quit-----------------
-INFO 10/10/2020, 9:15:29 PM  ------------------will-quit------------------
-INFO 10/10/2020, 9:18:42 PM  ------------------start------------------
-INFO 10/10/2020, 9:18:42 PM  typora version: 0.9.95
-DEBUG 10/10/2020, 9:18:42 PM  [
-  '/usr/share/typora/Typora',
-  '/home/jeff/Dropbox/church/discipleship/reunion/reunion-sermon-role.md'
-]
-DEBUG 10/10/2020, 9:18:42 PM  app.openFile
-INFO 10/10/2020, 9:18:42 PM  addRecentDocument
-INFO 10/10/2020, 9:18:43 PM  [Raven] instanceKey = ccae11c0-eb8c-4a51-aa1a-86235685b7c4
-INFO 10/10/2020, 9:18:43 PM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-INFO 10/10/2020, 9:18:44 PM  [focus] 1
-INFO 10/10/2020, 9:19:22 PM  [blur] 1
-INFO 10/10/2020, 9:19:27 PM  [focus] 1
-INFO 10/10/2020, 9:19:27 PM  [blur] 1
-INFO 10/10/2020, 9:19:27 PM  [focus] 1
-INFO 10/10/2020, 9:19:27 PM  [blur] 1
-INFO 10/10/2020, 9:19:27 PM  [focus] 1
-INFO 10/10/2020, 9:19:27 PM  addRecentDocument
-INFO 10/10/2020, 9:28:05 PM  [blur] 1
-INFO 10/10/2020, 9:30:22 PM  [focus] 1
-INFO 10/10/2020, 9:30:26 PM  [blur] 1
-INFO 10/10/2020, 9:30:41 PM  [focus] 1
-INFO 10/10/2020, 9:31:02 PM  [blur] 1
-INFO 10/10/2020, 9:31:06 PM  [focus] 1
-INFO 10/10/2020, 9:31:09 PM  [blur] 1
-INFO 10/10/2020, 9:33:29 PM  [focus] 1
-INFO 10/10/2020, 9:33:46 PM  [blur] 1
-INFO 10/10/2020, 9:33:52 PM  [focus] 1
-INFO 10/10/2020, 9:34:00 PM  [blur] 1
-INFO 10/10/2020, 9:34:18 PM  [focus] 1
-INFO 10/10/2020, 9:35:01 PM  [blur] 1
-INFO 10/10/2020, 9:35:17 PM  [focus] 1
-INFO 10/10/2020, 9:48:11 PM  [blur] 1
-INFO 10/10/2020, 9:48:13 PM  [focus] 1
-INFO 10/10/2020, 9:54:27 PM  [blur] 1
-INFO 10/10/2020, 9:54:31 PM  [focus] 1
-INFO 10/10/2020, 9:54:34 PM  [blur] 1
-INFO 10/10/2020, 9:54:52 PM  [focus] 1
-INFO 10/10/2020, 9:55:21 PM  [blur] 1
-INFO 10/10/2020, 9:55:44 PM  [focus] 1
-INFO 10/10/2020, 9:56:43 PM  [blur] 1
-INFO 10/10/2020, 9:56:44 PM  [focus] 1
-INFO 10/10/2020, 9:56:48 PM  [blur] 1
-INFO 10/10/2020, 9:57:07 PM  [focus] 1
-INFO 10/10/2020, 9:57:14 PM  [blur] 1
-INFO 10/10/2020, 9:57:35 PM  [focus] 1
-INFO 10/10/2020, 9:58:04 PM  [blur] 1
-INFO 10/10/2020, 9:58:23 PM  [focus] 1
-INFO 10/10/2020, 9:58:30 PM  [blur] 1
-INFO 10/10/2020, 9:58:42 PM  [focus] 1
-INFO 10/10/2020, 10:02:14 PM  [blur] 1
-INFO 10/10/2020, 10:02:37 PM  [focus] 1
-INFO 10/10/2020, 10:05:59 PM  [blur] 1
-INFO 10/10/2020, 10:06:02 PM  [focus] 1
-INFO 10/10/2020, 10:08:44 PM  [blur] 1
-INFO 10/10/2020, 10:09:03 PM  [focus] 1
-INFO 10/10/2020, 10:09:18 PM  [blur] 1
-INFO 10/10/2020, 10:09:29 PM  [focus] 1
-INFO 10/10/2020, 10:09:38 PM  [blur] 1
-INFO 10/10/2020, 10:09:45 PM  [focus] 1
-INFO 10/10/2020, 10:09:45 PM  [blur] 1
-INFO 10/10/2020, 10:09:48 PM  [focus] 1
-INFO 10/10/2020, 10:13:54 PM  [blur] 1
-INFO 10/10/2020, 10:14:05 PM  [focus] 1
-INFO 10/10/2020, 10:14:09 PM  [blur] 1
-INFO 10/10/2020, 10:14:19 PM  [focus] 1
-INFO 10/10/2020, 10:14:23 PM  [blur] 1
-INFO 10/10/2020, 10:14:38 PM  [focus] 1
-INFO 10/10/2020, 10:17:11 PM  [blur] 1
-INFO 10/10/2020, 10:17:20 PM  [focus] 1
-INFO 10/10/2020, 10:24:16 PM  [blur] 1
-INFO 10/10/2020, 10:24:22 PM  [focus] 1
-INFO 10/10/2020, 10:26:47 PM  ----------------before-quit-----------------
-INFO 10/10/2020, 10:26:47 PM  ------------------will-quit------------------
-INFO 10/12/2020, 8:22:20 AM  ------------------start------------------
-INFO 10/12/2020, 8:22:20 AM  typora version: 0.9.95
-DEBUG 10/12/2020, 8:22:20 AM  [ '/usr/share/typora/Typora' ]
-INFO 10/12/2020, 8:22:20 AM  [Raven] instanceKey = 4b460d5c-5bcc-4af1-98c4-737c60d1455d
-DEBUG 10/12/2020, 8:22:20 AM  app.openFile
-INFO 10/12/2020, 8:22:20 AM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-INFO 10/12/2020, 8:22:20 AM  [focus] 1
-DEBUG 10/12/2020, 8:22:30 AM  app.openFile
-INFO 10/12/2020, 8:22:30 AM  switchDocument
-INFO 10/12/2020, 8:22:30 AM  addRecentDocument
-INFO 10/12/2020, 8:24:00 AM  [blur] 1
-INFO 10/12/2020, 8:24:01 AM  [focus] 1
-INFO 10/12/2020, 8:24:02 AM  [blur] 1
-INFO 10/12/2020, 8:26:35 AM  [focus] 1
-INFO 10/12/2020, 8:26:54 AM  [blur] 1
-INFO 10/12/2020, 8:26:58 AM  [focus] 1
-INFO 10/12/2020, 8:27:01 AM  [blur] 1
-INFO 10/12/2020, 8:27:05 AM  [focus] 1
-INFO 10/12/2020, 8:27:10 AM  [blur] 1
-INFO 10/12/2020, 8:27:36 AM  [focus] 1
-INFO 10/12/2020, 8:27:43 AM  [blur] 1
-INFO 10/12/2020, 8:27:55 AM  [focus] 1
-INFO 10/12/2020, 8:28:50 AM  [blur] 1
-INFO 10/12/2020, 8:30:14 AM  [focus] 1
-INFO 10/12/2020, 8:31:01 AM  [blur] 1
-INFO 10/12/2020, 8:33:41 AM  [focus] 1
-INFO 10/12/2020, 8:35:11 AM  [blur] 1
-INFO 10/12/2020, 8:35:22 AM  [focus] 1
-INFO 10/12/2020, 8:40:12 AM  [blur] 1
-INFO 10/12/2020, 8:40:14 AM  [focus] 1
-INFO 10/12/2020, 8:46:27 AM  [blur] 1
-INFO 10/12/2020, 8:46:29 AM  [focus] 1
-INFO 10/12/2020, 8:46:30 AM  [blur] 1
-INFO 10/12/2020, 9:18:11 AM  [focus] 1
-INFO 10/12/2020, 9:18:13 AM  ----------------before-quit-----------------
-INFO 10/12/2020, 9:18:13 AM  ------------------will-quit------------------
-INFO 10/12/2020, 1:51:32 PM  ------------------start------------------
-INFO 10/12/2020, 1:51:32 PM  typora version: 0.9.95
-DEBUG 10/12/2020, 1:51:32 PM  [
-  '/usr/share/typora/Typora',
-  '/home/jeff/Dropbox/journal/midland/questions-response-midland.md'
-]
-DEBUG 10/12/2020, 1:51:32 PM  app.openFile
-INFO 10/12/2020, 1:51:32 PM  addRecentDocument
-INFO 10/12/2020, 1:51:32 PM  [Raven] instanceKey = a31cd70c-23e4-47df-9092-0ad73741a7f7
-INFO 10/12/2020, 1:51:32 PM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-INFO 10/12/2020, 1:51:33 PM  [focus] 1
-INFO 10/12/2020, 1:57:08 PM  [blur] 1
-INFO 10/12/2020, 1:57:09 PM  [focus] 1
-INFO 10/12/2020, 2:01:41 PM  ----------------before-quit-----------------
-INFO 10/13/2020, 9:09:41 AM  ------------------start------------------
-INFO 10/13/2020, 9:09:41 AM  typora version: 0.9.95
-DEBUG 10/13/2020, 9:09:41 AM  [ '/usr/share/typora/Typora' ]
-INFO 10/13/2020, 9:09:41 AM  [Raven] instanceKey = e0a5bc99-c30b-4818-b359-143190009ba7
-DEBUG 10/13/2020, 9:09:41 AM  app.openFile
-INFO 10/13/2020, 9:09:41 AM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-INFO 10/13/2020, 9:09:41 AM  [focus] 1
-DEBUG 10/13/2020, 9:09:48 AM  app.openFile
-INFO 10/13/2020, 9:09:48 AM  switchDocument
-INFO 10/13/2020, 9:09:48 AM  addRecentDocument
-INFO 10/13/2020, 9:21:57 AM  ----------------before-quit-----------------
-INFO 10/13/2020, 9:21:57 AM  ------------------will-quit------------------
-INFO 10/13/2020, 9:25:39 PM  ------------------start------------------
-INFO 10/13/2020, 9:25:40 PM  typora version: 0.9.95
-DEBUG 10/13/2020, 9:25:40 PM  [
-  '/usr/share/typora/Typora',
-  '/home/jeff/Dropbox/journal/midland/questions-response-midland.md'
-]
-DEBUG 10/13/2020, 9:25:40 PM  app.openFile
-INFO 10/13/2020, 9:25:40 PM  addRecentDocument
-INFO 10/13/2020, 9:25:40 PM  [Raven] instanceKey = 97b62f26-e00c-41ff-9a31-8573fabf56bd
-INFO 10/13/2020, 9:25:40 PM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-INFO 10/13/2020, 9:25:41 PM  [focus] 1
-INFO 10/13/2020, 9:28:46 PM  ----------------before-quit-----------------
-INFO 10/13/2020, 9:28:46 PM  ------------------will-quit------------------
-INFO 10/16/2020, 8:17:12 AM  ------------------start------------------
-INFO 10/16/2020, 8:17:12 AM  typora version: 0.9.95
-DEBUG 10/16/2020, 8:17:12 AM  [ '/usr/share/typora/Typora' ]
-INFO 10/16/2020, 8:17:12 AM  [Raven] instanceKey = 802f21f0-5f6e-4e33-b873-6671010179cf
-INFO 10/16/2020, 8:17:12 AM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-DEBUG 10/16/2020, 8:17:12 AM  app.openFile
-INFO 10/16/2020, 8:17:12 AM  [focus] 1
-INFO 10/16/2020, 8:17:22 AM  [blur] 1
-INFO 10/16/2020, 8:17:24 AM  [focus] 1
-INFO 10/16/2020, 8:17:24 AM  [blur] 1
-INFO 10/16/2020, 8:17:24 AM  [focus] 1
-INFO 10/16/2020, 8:17:24 AM  [blur] 1
-INFO 10/16/2020, 8:17:24 AM  [focus] 1
-INFO 10/16/2020, 8:18:36 AM  [blur] 1
-INFO 10/16/2020, 8:19:16 AM  [focus] 1
-INFO 10/16/2020, 8:19:16 AM  [blur] 1
-INFO 10/16/2020, 8:19:16 AM  addRecentDocument
-INFO 10/16/2020, 8:19:16 AM  [focus] 1
-INFO 10/16/2020, 8:19:16 AM  [blur] 1
-INFO 10/16/2020, 8:19:16 AM  [focus] 1
-INFO 10/16/2020, 8:19:18 AM  ----------------before-quit-----------------
-INFO 10/16/2020, 8:19:18 AM  ------------------will-quit------------------
-INFO 10/16/2020, 10:27:44 AM  ------------------start------------------
-INFO 10/16/2020, 10:27:44 AM  typora version: 0.9.95
-DEBUG 10/16/2020, 10:27:44 AM  [
-  '/usr/share/typora/Typora',
-  '/home/jeff/Dropbox/journal/zim/Home.txt'
-]
-DEBUG 10/16/2020, 10:27:44 AM  app.openFile
-INFO 10/16/2020, 10:27:44 AM  addRecentDocument
-INFO 10/16/2020, 10:27:44 AM  [Raven] instanceKey = 891baffb-f53b-4f78-84df-ec35f9a44136
-INFO 10/16/2020, 10:27:44 AM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-INFO 10/16/2020, 10:27:44 AM  [focus] 1
-INFO 10/16/2020, 10:27:56 AM  [blur] 1
-INFO 10/16/2020, 10:27:57 AM  [focus] 1
-INFO 10/16/2020, 10:28:02 AM  ----------------before-quit-----------------
-INFO 10/16/2020, 10:28:02 AM  ------------------will-quit------------------
-INFO 10/16/2020, 10:45:40 AM  ------------------start------------------
-INFO 10/16/2020, 10:45:40 AM  typora version: 0.9.95
-DEBUG 10/16/2020, 10:45:40 AM  [
-  '/usr/share/typora/Typora',
-  '/home/jeff/Dropbox/journal/messages/warren/190622-failure-can-be-good.md'
-]
-DEBUG 10/16/2020, 10:45:40 AM  app.openFile
-INFO 10/16/2020, 10:45:40 AM  addRecentDocument
-INFO 10/16/2020, 10:45:40 AM  [Raven] instanceKey = 3c35f8d6-7a8c-4a67-bb19-40ca6b2b80b8
-INFO 10/16/2020, 10:45:40 AM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-INFO 10/16/2020, 10:45:41 AM  [focus] 1
-INFO 10/16/2020, 10:45:52 AM  ----------------before-quit-----------------
-INFO 10/16/2020, 10:45:52 AM  ------------------will-quit------------------
-INFO 10/16/2020, 10:45:54 AM  ------------------start------------------
-INFO 10/16/2020, 10:45:54 AM  typora version: 0.9.95
-DEBUG 10/16/2020, 10:45:54 AM  [ '/usr/share/typora/Typora' ]
-INFO 10/16/2020, 10:45:54 AM  [Raven] instanceKey = ffb6d622-7c49-41c8-80dc-51327aa9300f
-DEBUG 10/16/2020, 10:45:54 AM  app.openFile
-INFO 10/16/2020, 10:45:54 AM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-INFO 10/16/2020, 10:45:54 AM  [focus] 1
-INFO 10/16/2020, 10:46:38 AM  [blur] 1
-INFO 10/16/2020, 10:47:10 AM  [focus] 1
-INFO 10/16/2020, 10:49:26 AM  [blur] 1
-INFO 10/16/2020, 10:49:45 AM  [focus] 1
-INFO 10/16/2020, 10:49:45 AM  [blur] 1
-INFO 10/16/2020, 10:49:51 AM  [focus] 1
-INFO 10/16/2020, 10:49:51 AM  [blur] 1
-INFO 10/16/2020, 10:50:20 AM  [focus] 1
-INFO 10/16/2020, 10:50:20 AM  [blur] 1
-INFO 10/16/2020, 10:50:20 AM  [focus] 1
-INFO 10/16/2020, 10:50:20 AM  addRecentDocument
-INFO 10/16/2020, 10:50:20 AM  [blur] 1
-INFO 10/16/2020, 10:50:20 AM  [focus] 1
-INFO 10/16/2020, 10:50:25 AM  switchDocument
-INFO 10/16/2020, 10:50:25 AM  addRecentDocument
-INFO 10/16/2020, 10:50:31 AM  switchDocument
-INFO 10/16/2020, 10:50:31 AM  addRecentDocument
-DEBUG 10/16/2020, 10:50:31 AM  lastSync 1602863420486.454, timestamp 1602863425741, mtime 1602863420486.454
-INFO 10/16/2020, 10:50:36 AM  [blur] 1
-INFO 10/16/2020, 10:51:25 AM  [focus] 1
-INFO 10/16/2020, 10:51:25 AM  [blur] 1
-INFO 10/16/2020, 10:57:55 AM  [focus] 1
-INFO 10/16/2020, 10:58:00 AM  ----------------before-quit-----------------
-INFO 10/16/2020, 10:58:00 AM  ------------------will-quit------------------
-INFO 10/16/2020, 11:14:12 AM  ------------------start------------------
-INFO 10/16/2020, 11:14:12 AM  typora version: 0.9.95
-DEBUG 10/16/2020, 11:14:12 AM  [
-  '/usr/share/typora/Typora',
-  '/home/jeff/Dropbox/journal/messages/Set These Four Goals to Grow More Like Jesus.eml'
-]
-DEBUG 10/16/2020, 11:14:12 AM  app.openFile
-INFO 10/16/2020, 11:14:12 AM  addRecentDocument
-INFO 10/16/2020, 11:14:12 AM  [Raven] instanceKey = 0e443d24-6409-4055-bf67-3b554dcad135
-INFO 10/16/2020, 11:14:12 AM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-INFO 10/16/2020, 11:14:13 AM  [focus] 1
-INFO 10/16/2020, 11:14:49 AM  ----------------before-quit-----------------
-INFO 10/16/2020, 11:14:49 AM  ------------------will-quit------------------
-INFO 10/19/2020, 6:24:07 AM  ------------------start------------------
-INFO 10/19/2020, 6:24:07 AM  typora version: 0.9.95
-DEBUG 10/19/2020, 6:24:07 AM  [
-  '/usr/share/typora/Typora',
-  '/home/jeff/Dropbox/church/discipleship/assimilation/101-class/CLASS/START_HERE.txt'
-]
-DEBUG 10/19/2020, 6:24:07 AM  app.openFile
-INFO 10/19/2020, 6:24:07 AM  addRecentDocument
-INFO 10/19/2020, 6:24:08 AM  [Raven] instanceKey = 9c7610c9-ebc5-4ea6-a097-66f637ff353e
-INFO 10/19/2020, 6:24:08 AM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-INFO 10/19/2020, 6:24:09 AM  [focus] 1
-INFO 10/19/2020, 6:25:12 AM  ----------------before-quit-----------------
-INFO 10/19/2020, 6:25:12 AM  ------------------will-quit------------------
-INFO 10/19/2020, 8:03:02 AM  ------------------start------------------
-INFO 10/19/2020, 8:03:02 AM  typora version: 0.9.95
-DEBUG 10/19/2020, 8:03:02 AM  [ '/usr/share/typora/Typora' ]
-INFO 10/19/2020, 8:03:02 AM  [Raven] instanceKey = ff3d7346-7d5c-4564-bdd3-19a0d7efd170
-DEBUG 10/19/2020, 8:03:02 AM  app.openFile
-INFO 10/19/2020, 8:03:02 AM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-INFO 10/19/2020, 8:03:02 AM  [focus] 1
-INFO 10/19/2020, 8:03:20 AM  [blur] 1
-INFO 10/19/2020, 8:03:34 AM  [focus] 1
-INFO 10/19/2020, 8:05:44 AM  [blur] 1
-INFO 10/19/2020, 8:05:46 AM  [focus] 1
-INFO 10/19/2020, 8:05:46 AM  [blur] 1
-INFO 10/19/2020, 8:05:46 AM  [focus] 1
-INFO 10/19/2020, 8:05:46 AM  [blur] 1
-INFO 10/19/2020, 8:05:46 AM  [focus] 1
-INFO 10/19/2020, 8:05:50 AM  [blur] 1
-INFO 10/19/2020, 8:06:31 AM  [focus] 1
-INFO 10/19/2020, 8:06:31 AM  [blur] 1
-INFO 10/19/2020, 8:06:31 AM  [focus] 1
-INFO 10/19/2020, 8:06:31 AM  [blur] 1
-INFO 10/19/2020, 8:06:31 AM  [focus] 1
-INFO 10/19/2020, 8:06:31 AM  addRecentDocument
-INFO 10/19/2020, 8:08:16 AM  ----------------before-quit-----------------
-INFO 10/23/2020, 10:32:40 AM  ------------------start------------------
-INFO 10/23/2020, 10:32:40 AM  typora version: 0.9.95
-DEBUG 10/23/2020, 10:32:40 AM  [ '/usr/share/typora/Typora' ]
-INFO 10/23/2020, 10:32:40 AM  [Raven] instanceKey = 91fd3992-ff3f-4fd9-904c-33e2e8c6bc32
-DEBUG 10/23/2020, 10:32:40 AM  app.openFile
-INFO 10/23/2020, 10:32:40 AM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-INFO 10/23/2020, 10:32:40 AM  [focus] 1
-INFO 10/23/2020, 10:32:47 AM  [blur] 1
-INFO 10/23/2020, 10:32:59 AM  [focus] 1
-INFO 10/23/2020, 10:32:59 AM  [blur] 1
-INFO 10/23/2020, 10:32:59 AM  [focus] 1
-INFO 10/23/2020, 10:32:59 AM  [blur] 1
-INFO 10/23/2020, 10:32:59 AM  [focus] 1
-INFO 10/23/2020, 10:32:59 AM  addRecentDocument
-INFO 10/23/2020, 10:33:03 AM  [blur] 1
-INFO 10/23/2020, 10:33:05 AM  [focus] 1
-INFO 10/23/2020, 10:33:05 AM  [blur] 1
-INFO 10/23/2020, 10:33:05 AM  [focus] 1
-INFO 10/23/2020, 10:33:05 AM  [blur] 1
-INFO 10/23/2020, 10:33:05 AM  [focus] 1
-INFO 10/23/2020, 10:34:40 AM  [blur] 1
-INFO 10/23/2020, 10:35:01 AM  [focus] 1
-INFO 10/23/2020, 10:37:16 AM  [blur] 1
-INFO 10/23/2020, 10:37:41 AM  [focus] 1
-INFO 10/23/2020, 10:38:02 AM  [blur] 1
-INFO 10/23/2020, 10:38:23 AM  [focus] 1
-INFO 10/23/2020, 10:54:02 AM  [blur] 1
-INFO 10/23/2020, 10:54:53 AM  [focus] 1
-INFO 10/23/2020, 10:55:02 AM  [blur] 1
-INFO 10/23/2020, 10:55:02 AM  [focus] 1
-INFO 10/23/2020, 10:55:17 AM  [blur] 1
-INFO 10/23/2020, 10:56:00 AM  [focus] 1
-INFO 10/23/2020, 10:57:52 AM  [blur] 1
-INFO 10/23/2020, 10:58:18 AM  [focus] 1
-INFO 10/23/2020, 10:58:49 AM  [blur] 1
-INFO 10/23/2020, 10:59:06 AM  [focus] 1
-INFO 10/23/2020, 10:59:16 AM  [blur] 1
-INFO 10/23/2020, 10:59:29 AM  [focus] 1
-INFO 10/23/2020, 10:59:46 AM  [blur] 1
-INFO 10/23/2020, 11:00:11 AM  [focus] 1
-INFO 10/23/2020, 11:00:47 AM  [blur] 1
-INFO 10/23/2020, 11:00:54 AM  [focus] 1
-INFO 10/23/2020, 11:01:09 AM  [blur] 1
-INFO 10/23/2020, 11:01:37 AM  [focus] 1
-INFO 10/23/2020, 11:01:48 AM  [blur] 1
-INFO 10/23/2020, 11:01:54 AM  [focus] 1
-INFO 10/23/2020, 11:02:06 AM  [blur] 1
-INFO 10/23/2020, 11:02:10 AM  [focus] 1
-INFO 10/23/2020, 11:02:17 AM  [blur] 1
-INFO 10/23/2020, 11:02:21 AM  [focus] 1
-INFO 10/23/2020, 11:03:06 AM  [blur] 1
-INFO 10/23/2020, 11:03:08 AM  [focus] 1
-INFO 10/23/2020, 11:03:09 AM  [blur] 1
-INFO 10/23/2020, 11:03:43 AM  [focus] 1
-INFO 10/23/2020, 11:04:03 AM  [blur] 1
-INFO 10/23/2020, 11:04:15 AM  [focus] 1
-INFO 10/23/2020, 11:04:24 AM  [blur] 1
-INFO 10/23/2020, 11:06:35 AM  [focus] 1
-INFO 10/23/2020, 11:06:54 AM  [blur] 1
-INFO 10/23/2020, 11:07:37 AM  [focus] 1
-INFO 10/23/2020, 11:07:55 AM  [blur] 1
-INFO 10/23/2020, 11:08:48 AM  [focus] 1
-INFO 10/23/2020, 11:09:10 AM  [blur] 1
-INFO 10/23/2020, 11:13:51 AM  [focus] 1
-INFO 10/23/2020, 11:13:51 AM  [blur] 1
-INFO 10/23/2020, 11:15:13 AM  [focus] 1
-INFO 10/23/2020, 11:15:32 AM  [blur] 1
-INFO 10/23/2020, 11:17:51 AM  [focus] 1
-INFO 10/23/2020, 11:17:58 AM  ----------------before-quit-----------------
-INFO 10/23/2020, 11:17:58 AM  ------------------will-quit------------------
-INFO 10/24/2020, 4:50:28 PM  ------------------start------------------
-INFO 10/24/2020, 4:50:28 PM  typora version: 0.9.95
-DEBUG 10/24/2020, 4:50:28 PM  [
-  '/usr/share/typora/Typora',
-  '/home/jeff/Dropbox/journal/bible/newt/romans/romans01a.md'
-]
-DEBUG 10/24/2020, 4:50:28 PM  app.openFile
-INFO 10/24/2020, 4:50:28 PM  addRecentDocument
-INFO 10/24/2020, 4:50:28 PM  [Raven] instanceKey = 8f41b653-8c5e-42d4-acf0-05aa4d10b3ba
-INFO 10/24/2020, 4:50:28 PM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-INFO 10/24/2020, 4:50:28 PM  [focus] 1
-INFO 10/24/2020, 4:50:43 PM  [blur] 1
-INFO 10/24/2020, 4:51:08 PM  [focus] 1
-INFO 10/24/2020, 4:51:10 PM  [blur] 1
-INFO 10/24/2020, 5:37:19 PM  [focus] 1
-INFO 10/24/2020, 5:37:20 PM  [blur] 1
-INFO 10/24/2020, 5:50:25 PM  [focus] 1
-DEBUG 10/24/2020, 5:50:29 PM  app.openFile
-INFO 10/24/2020, 5:50:29 PM  [blur] 1
-INFO 10/24/2020, 5:50:29 PM  [focus] 2
-INFO 10/24/2020, 6:00:56 PM  [blur] 2
-INFO 10/24/2020, 6:01:06 PM  [focus] 2
-INFO 10/24/2020, 6:01:06 PM  [blur] 2
-INFO 10/24/2020, 6:01:06 PM  [focus] 2
-INFO 10/24/2020, 6:01:06 PM  [blur] 2
-INFO 10/24/2020, 6:01:06 PM  [focus] 2
-INFO 10/24/2020, 6:01:06 PM  addRecentDocument
-INFO 10/24/2020, 6:12:52 PM  [blur] 2
-INFO 10/24/2020, 6:12:57 PM  [focus] 2
-INFO 10/24/2020, 6:12:57 PM  [blur] 2
-INFO 10/24/2020, 6:12:57 PM  [focus] 2
-INFO 10/24/2020, 6:12:57 PM  [blur] 2
-INFO 10/24/2020, 6:12:57 PM  [focus] 2
-INFO 10/24/2020, 6:13:05 PM  [blur] 2
-INFO 10/24/2020, 6:13:39 PM  [focus] 2
-INFO 10/24/2020, 6:13:41 PM  [blur] 2
-INFO 10/24/2020, 6:21:34 PM  [focus] 2
-INFO 10/24/2020, 6:21:38 PM  [blur] 2
-INFO 10/24/2020, 6:24:57 PM  [focus] 2
-INFO 10/24/2020, 6:25:04 PM  [blur] 2
-INFO 10/24/2020, 6:25:26 PM  [focus] 2
-INFO 10/24/2020, 6:25:26 PM  [blur] 2
-INFO 10/24/2020, 6:25:26 PM  [focus] 2
-INFO 10/24/2020, 6:25:26 PM  [blur] 2
-INFO 10/24/2020, 6:25:26 PM  [focus] 2
-INFO 10/24/2020, 6:25:27 PM  [blur] 2
-INFO 10/24/2020, 6:32:50 PM  [focus] 2
-INFO 10/24/2020, 6:32:51 PM  [blur] 2
-INFO 10/24/2020, 6:33:00 PM  [focus] 2
-INFO 10/24/2020, 6:33:01 PM  [blur] 2
-INFO 10/24/2020, 6:34:13 PM  [focus] 2
-INFO 10/24/2020, 6:34:17 PM  [focus] 1
-INFO 10/24/2020, 6:34:17 PM  [blur] 1
-INFO 10/24/2020, 6:34:17 PM  [focus] 1
-INFO 10/24/2020, 6:34:17 PM  [blur] 1
-INFO 10/24/2020, 6:34:17 PM  [focus] 1
-INFO 10/24/2020, 6:34:55 PM  ----------------before-quit-----------------
-INFO 10/24/2020, 6:34:55 PM  ------------------will-quit------------------
-INFO 10/24/2020, 6:36:20 PM  ------------------start------------------
-INFO 10/24/2020, 6:36:20 PM  typora version: 0.9.95
-DEBUG 10/24/2020, 6:36:20 PM  [ '/usr/share/typora/Typora' ]
-INFO 10/24/2020, 6:36:20 PM  [Raven] instanceKey = fa8b6b55-1a61-452d-9f11-a1e665ba378e
-DEBUG 10/24/2020, 6:36:20 PM  app.openFile
-INFO 10/24/2020, 6:36:20 PM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-INFO 10/24/2020, 6:36:20 PM  [focus] 1
-INFO 10/24/2020, 6:36:39 PM  [blur] 1
-INFO 10/24/2020, 6:37:04 PM  [focus] 1
-INFO 10/24/2020, 6:37:36 PM  [blur] 1
-INFO 10/24/2020, 6:37:45 PM  [focus] 1
-INFO 10/24/2020, 6:37:51 PM  [blur] 1
-INFO 10/24/2020, 6:38:16 PM  [focus] 1
-INFO 10/24/2020, 6:38:16 PM  [blur] 1
-INFO 10/24/2020, 6:38:16 PM  [focus] 1
-INFO 10/24/2020, 6:38:16 PM  [blur] 1
-INFO 10/24/2020, 6:38:16 PM  [focus] 1
-INFO 10/24/2020, 6:38:16 PM  addRecentDocument
-INFO 10/24/2020, 6:38:48 PM  [blur] 1
-INFO 10/24/2020, 6:38:53 PM  [focus] 1
-INFO 10/24/2020, 6:39:27 PM  [blur] 1
-INFO 10/24/2020, 6:39:30 PM  [focus] 1
-INFO 10/24/2020, 6:40:16 PM  [blur] 1
-INFO 10/24/2020, 6:40:23 PM  [focus] 1
-INFO 10/24/2020, 6:40:50 PM  [blur] 1
-INFO 10/24/2020, 6:41:01 PM  [focus] 1
-INFO 10/24/2020, 6:43:48 PM  [blur] 1
-INFO 10/24/2020, 6:43:59 PM  [focus] 1
-INFO 10/24/2020, 6:44:03 PM  [blur] 1
-INFO 10/24/2020, 6:45:15 PM  [focus] 1
-INFO 10/24/2020, 6:45:19 PM  [blur] 1
-INFO 10/24/2020, 6:45:29 PM  [focus] 1
-INFO 10/24/2020, 6:45:48 PM  [blur] 1
-INFO 10/24/2020, 6:45:50 PM  [focus] 1
-INFO 10/24/2020, 6:46:04 PM  [blur] 1
-INFO 10/24/2020, 6:46:19 PM  [focus] 1
-INFO 10/24/2020, 6:46:23 PM  ----------------before-quit-----------------
-INFO 10/24/2020, 6:46:23 PM  ------------------will-quit------------------
-INFO 10/24/2020, 6:46:26 PM  ------------------start------------------
-INFO 10/24/2020, 6:46:26 PM  typora version: 0.9.95
-DEBUG 10/24/2020, 6:46:26 PM  [ '/usr/share/typora/Typora' ]
-INFO 10/24/2020, 6:46:26 PM  [Raven] instanceKey = 0e97ed24-b36b-4274-9657-bfb51bbc6430
-DEBUG 10/24/2020, 6:46:26 PM  app.openFile
-INFO 10/24/2020, 6:46:26 PM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-INFO 10/24/2020, 6:46:26 PM  [focus] 1
-INFO 10/24/2020, 6:46:27 PM  [blur] 1
-INFO 10/24/2020, 6:47:05 PM  [focus] 1
-INFO 10/24/2020, 6:47:33 PM  [blur] 1
-INFO 10/24/2020, 6:47:45 PM  [focus] 1
-INFO 10/24/2020, 6:50:47 PM  [blur] 1
-INFO 10/24/2020, 6:50:57 PM  [focus] 1
-INFO 10/24/2020, 6:51:34 PM  [blur] 1
-INFO 10/24/2020, 6:51:50 PM  [focus] 1
-INFO 10/24/2020, 6:52:05 PM  [blur] 1
-INFO 10/24/2020, 6:52:20 PM  [focus] 1
-INFO 10/24/2020, 6:52:20 PM  [blur] 1
-INFO 10/24/2020, 6:52:20 PM  [focus] 1
-INFO 10/24/2020, 6:52:20 PM  [blur] 1
-INFO 10/24/2020, 6:52:20 PM  [focus] 1
-INFO 10/24/2020, 6:52:20 PM  addRecentDocument
-INFO 10/24/2020, 6:52:23 PM  [blur] 1
-INFO 10/24/2020, 6:52:47 PM  [focus] 1
-INFO 10/24/2020, 6:52:50 PM  ----------------before-quit-----------------
-INFO 10/24/2020, 6:52:50 PM  ------------------will-quit------------------
-INFO 10/26/2020, 2:04:50 PM  ------------------start------------------
-INFO 10/26/2020, 2:04:50 PM  typora version: 0.9.95
-DEBUG 10/26/2020, 2:04:50 PM  [
-  '/usr/share/typora/Typora',
-  '/home/jeff/Dropbox/journal/class-email.md'
-]
-DEBUG 10/26/2020, 2:04:50 PM  app.openFile
-INFO 10/26/2020, 2:04:50 PM  addRecentDocument
-INFO 10/26/2020, 2:04:51 PM  [Raven] instanceKey = 9eaa5c79-a411-4310-b1f6-29c3373a9375
-INFO 10/26/2020, 2:04:51 PM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-INFO 10/26/2020, 2:04:51 PM  [focus] 1
-INFO 10/26/2020, 2:13:24 PM  ----------------before-quit-----------------
-INFO 10/26/2020, 2:13:24 PM  ------------------will-quit------------------
-INFO 10/26/2020, 10:21:21 PM  ------------------start------------------
-INFO 10/26/2020, 10:21:21 PM  typora version: 0.9.95
-DEBUG 10/26/2020, 10:21:21 PM  [
-  '/usr/share/typora/Typora',
-  '/home/jeff/Dropbox/journal/bible/newt/romans/ford-romans01b.md'
-]
-DEBUG 10/26/2020, 10:21:21 PM  app.openFile
-INFO 10/26/2020, 10:21:21 PM  addRecentDocument
-INFO 10/26/2020, 10:21:22 PM  [Raven] instanceKey = b7153eb0-1468-4fca-9d10-34d67a887df9
-INFO 10/26/2020, 10:21:22 PM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-INFO 10/26/2020, 10:21:23 PM  [focus] 1
-INFO 10/26/2020, 10:21:45 PM  ----------------before-quit-----------------
-INFO 10/27/2020, 9:08:01 PM  ------------------start------------------
-INFO 10/27/2020, 9:08:01 PM  typora version: 0.9.95
-DEBUG 10/27/2020, 9:08:01 PM  [
-  '/usr/share/typora/Typora',
-  '/home/jeff/Dropbox/journal/bible/newt/romans/romans01a.md'
-]
-DEBUG 10/27/2020, 9:08:01 PM  app.openFile
-INFO 10/27/2020, 9:08:01 PM  addRecentDocument
-INFO 10/27/2020, 9:08:01 PM  [Raven] instanceKey = 3d844ac6-ed16-4b1d-b65e-fb47585585d9
-INFO 10/27/2020, 9:08:01 PM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-INFO 10/27/2020, 9:08:02 PM  [focus] 1
-INFO 10/27/2020, 9:09:26 PM  [blur] 1
-INFO 10/27/2020, 9:09:34 PM  [focus] 1
-INFO 10/27/2020, 9:09:40 PM  [blur] 1
-INFO 10/27/2020, 9:10:43 PM  [focus] 1
-INFO 10/27/2020, 9:10:54 PM  [blur] 1
-INFO 10/27/2020, 9:11:01 PM  [focus] 1
-INFO 10/27/2020, 9:11:10 PM  [blur] 1
-INFO 10/27/2020, 9:11:23 PM  [focus] 1
-INFO 10/27/2020, 9:12:13 PM  [blur] 1
-INFO 10/27/2020, 9:12:19 PM  [focus] 1
-INFO 10/27/2020, 9:12:31 PM  [blur] 1
-INFO 10/27/2020, 9:12:37 PM  [focus] 1
-INFO 10/27/2020, 9:12:48 PM  [blur] 1
-INFO 10/27/2020, 9:12:48 PM  [focus] 1
-INFO 10/27/2020, 9:12:55 PM  [blur] 1
-INFO 10/27/2020, 9:13:10 PM  [focus] 1
-INFO 10/27/2020, 9:14:41 PM  [blur] 1
-INFO 10/27/2020, 9:14:54 PM  [focus] 1
-INFO 10/27/2020, 9:15:12 PM  [blur] 1
-INFO 10/27/2020, 9:15:20 PM  [focus] 1
-INFO 10/27/2020, 9:15:36 PM  [blur] 1
-INFO 10/27/2020, 9:15:46 PM  [focus] 1
-INFO 10/27/2020, 9:16:03 PM  [blur] 1
-INFO 10/27/2020, 9:16:09 PM  [focus] 1
-INFO 10/27/2020, 9:16:37 PM  [blur] 1
-INFO 10/27/2020, 9:16:49 PM  [focus] 1
-INFO 10/27/2020, 9:20:09 PM  [blur] 1
-INFO 10/27/2020, 9:20:39 PM  [focus] 1
-INFO 10/27/2020, 9:21:10 PM  [blur] 1
-INFO 10/27/2020, 9:21:26 PM  [focus] 1
-INFO 10/27/2020, 9:21:44 PM  [blur] 1
-INFO 10/27/2020, 9:21:58 PM  [focus] 1
-INFO 10/27/2020, 9:23:24 PM  [blur] 1
-INFO 10/27/2020, 9:23:30 PM  [focus] 1
-INFO 10/27/2020, 9:27:24 PM  window.File && (function() {		File.option.smartDash = true;	})();
-INFO 10/27/2020, 9:27:34 PM  window.File && (function() {		File.option.smartDash = true;	})();
-INFO 10/27/2020, 9:29:22 PM  window.File && (function() {		File.option.convertSmartOnRender = true;	})();
-INFO 10/27/2020, 9:29:42 PM  window.File && (function() {		File.option.convertSmartOnRender = false;	})();
-INFO 10/27/2020, 9:32:11 PM  [blur] 1
-INFO 10/27/2020, 9:32:32 PM  [focus] 1
-INFO 10/27/2020, 9:35:00 PM  [blur] 1
-INFO 10/27/2020, 9:35:55 PM  [focus] 1
-INFO 10/27/2020, 9:39:21 PM  [blur] 1
-INFO 10/27/2020, 9:43:04 PM  [focus] 1
-INFO 10/27/2020, 9:45:06 PM  [blur] 1
-INFO 10/27/2020, 9:45:12 PM  [focus] 1
-INFO 10/27/2020, 9:45:14 PM  ----------------before-quit-----------------
-INFO 10/27/2020, 9:45:14 PM  ------------------will-quit------------------
-INFO 10/27/2020, 9:45:31 PM  ------------------start------------------
-INFO 10/27/2020, 9:45:31 PM  typora version: 0.9.95
-DEBUG 10/27/2020, 9:45:31 PM  [
-  '/usr/share/typora/Typora',
-  '/home/jeff/Dropbox/journal/bible/newt/romans/romans01b-wrath.md'
-]
-DEBUG 10/27/2020, 9:45:31 PM  app.openFile
-INFO 10/27/2020, 9:45:31 PM  addRecentDocument
-INFO 10/27/2020, 9:45:31 PM  [Raven] instanceKey = 7dbe4a2d-521f-49d6-8cbe-08467b33145f
-INFO 10/27/2020, 9:45:31 PM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-INFO 10/27/2020, 9:45:31 PM  [focus] 1
-INFO 10/27/2020, 9:47:34 PM  [blur] 1
-INFO 10/27/2020, 9:48:09 PM  [focus] 1
-INFO 10/27/2020, 9:49:35 PM  ----------------before-quit-----------------
-INFO 10/27/2020, 9:49:35 PM  ------------------will-quit------------------
-INFO 10/27/2020, 9:52:39 PM  ------------------start------------------
-INFO 10/27/2020, 9:52:39 PM  typora version: 0.9.95
-DEBUG 10/27/2020, 9:52:39 PM  [
-  '/usr/share/typora/Typora',
-  '/home/jeff/Dropbox/church/admin/personnel/hiring/fbc-employee-handbook-draft.md'
-]
-DEBUG 10/27/2020, 9:52:39 PM  app.openFile
-INFO 10/27/2020, 9:52:39 PM  addRecentDocument
-INFO 10/27/2020, 9:52:39 PM  [Raven] instanceKey = 8c9b40c3-cea9-476f-b9e1-b79acc2394d3
-INFO 10/27/2020, 9:52:39 PM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-INFO 10/27/2020, 9:52:40 PM  [focus] 1
-INFO 10/27/2020, 9:53:00 PM  ----------------before-quit-----------------
-INFO 10/27/2020, 9:53:00 PM  ------------------will-quit------------------
-INFO 10/30/2020, 7:25:54 AM  ------------------start------------------
-INFO 10/30/2020, 7:25:54 AM  typora version: 0.9.95
-DEBUG 10/30/2020, 7:25:54 AM  [
-  '/usr/share/typora/Typora',
-  '/home/jeff/Dropbox/journal/bible/greek/romans01a-greek.md'
-]
-DEBUG 10/30/2020, 7:25:54 AM  app.openFile
-INFO 10/30/2020, 7:25:54 AM  addRecentDocument
-INFO 10/30/2020, 7:25:54 AM  [Raven] instanceKey = 9fe6508a-99f5-4ab5-a9d0-a463a8cc4734
-INFO 10/30/2020, 7:25:54 AM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-INFO 10/30/2020, 7:25:55 AM  [focus] 1
-INFO 10/30/2020, 7:26:19 AM  ----------------before-quit-----------------
-INFO 10/30/2020, 7:26:19 AM  ------------------will-quit------------------
-INFO 10/30/2020, 6:30:31 PM  ------------------start------------------
-INFO 10/30/2020, 6:30:31 PM  typora version: 0.9.95
-DEBUG 10/30/2020, 6:30:31 PM  [ '/usr/share/typora/Typora' ]
-INFO 10/30/2020, 6:30:31 PM  [Raven] instanceKey = a5dc0bab-cd2f-466d-9b03-f7693546e5a2
-DEBUG 10/30/2020, 6:30:31 PM  app.openFile
-INFO 10/30/2020, 6:30:31 PM  [Raven] userId = 6a9be245-3c09-480e-95cb-09041f26ecca
-INFO 10/30/2020, 6:30:31 PM  [focus] 1
-INFO 10/30/2020, 6:30:34 PM  ----------------before-quit-----------------
-INFO 10/30/2020, 6:30:34 PM  ------------------will-quit------------------
+DEBUG 11/16/2020, 11:33:35 AM  app.openFile
+INFO 11/16/2020, 11:33:35 AM  addRecentDocument
+INFO 11/16/2020, 11:33:35 AM  [Raven] instanceKey = 6ad309a7-9bb9-4301-a9cc-4b472c4a0b7f
+INFO 11/16/2020, 11:33:35 AM  [Raven] userId = 1608746f-a0df-4b8f-99bb-31fa17894f66
+INFO 11/16/2020, 11:33:35 AM  [focus] 1
+INFO 11/16/2020, 11:33:52 AM  [blur] 1
+INFO 11/16/2020, 11:34:27 AM  [focus] 1
+INFO 11/16/2020, 11:34:36 AM  ----------------before-quit-----------------
+INFO 11/16/2020, 11:34:36 AM  ------------------will-quit------------------
+INFO 11/17/2020, 8:32:11 AM  ------------------start------------------
+INFO 11/17/2020, 8:32:11 AM  typora version: 0.9.96
+DEBUG 11/17/2020, 8:32:11 AM  [ '/usr/share/typora/Typora' ]
+INFO 11/17/2020, 8:32:11 AM  [Raven] instanceKey = c1802cd5-b275-4187-afa2-dc842589727b
+DEBUG 11/17/2020, 8:32:11 AM  app.openFile
+INFO 11/17/2020, 8:32:11 AM  [Raven] userId = 1608746f-a0df-4b8f-99bb-31fa17894f66
+INFO 11/17/2020, 8:32:11 AM  [focus] 1
+INFO 11/17/2020, 8:32:20 AM  addRecentFolder
+INFO 11/17/2020, 8:32:32 AM  switchDocument
+INFO 11/17/2020, 8:32:32 AM  addRecentDocument
+INFO 11/17/2020, 8:33:07 AM  [blur] 1
+INFO 11/17/2020, 8:33:41 AM  [focus] 1
+INFO 11/17/2020, 8:37:00 AM  [blur] 1
+INFO 11/17/2020, 8:37:20 AM  [focus] 1
+INFO 11/17/2020, 8:49:46 AM  [blur] 1
+INFO 11/17/2020, 8:49:56 AM  [focus] 1
+INFO 11/17/2020, 8:55:26 AM  [blur] 1
+INFO 11/17/2020, 8:55:31 AM  [focus] 1
+INFO 11/17/2020, 8:57:02 AM  load file [/tmp/1605625022963-0.7249421092792054.html] for PDF export
+INFO 11/17/2020, 8:57:03 AM  [blur] 1
+INFO 11/17/2020, 8:57:03 AM  generate print window with id 2
+INFO 11/17/2020, 8:57:05 AM  [focus] 1
+INFO 11/17/2020, 8:57:05 AM  [blur] 1
+INFO 11/17/2020, 8:57:05 AM  [focus] 1
+INFO 11/17/2020, 8:57:05 AM  [blur] 1
+INFO 11/17/2020, 8:57:05 AM  [focus] 1
+INFO 11/17/2020, 8:57:05 AM  [RenderProcess 1][Log] export PDF to /home/jeff/Dropbox/journal/bible/newt/romans/romans03b-moo.pdf
+INFO 11/17/2020, 8:57:06 AM  [blur] 1
+INFO 11/17/2020, 8:58:30 AM  [focus] 1
+INFO 11/17/2020, 8:58:53 AM  [blur] 1
+INFO 11/17/2020, 8:58:54 AM  [focus] 1
+INFO 11/17/2020, 8:58:59 AM  load file [/tmp/1605625139337-0.7357847506166701.html] for PDF export
+INFO 11/17/2020, 8:58:59 AM  [blur] 1
+INFO 11/17/2020, 8:58:59 AM  generate print window with id 3
+INFO 11/17/2020, 8:59:02 AM  [focus] 1
+INFO 11/17/2020, 8:59:02 AM  [blur] 1
+INFO 11/17/2020, 8:59:02 AM  [focus] 1
+INFO 11/17/2020, 8:59:02 AM  [blur] 1
+INFO 11/17/2020, 8:59:02 AM  [focus] 1
+INFO 11/17/2020, 8:59:02 AM  [RenderProcess 1][Log] export PDF to /home/jeff/Dropbox/journal/bible/newt/romans/romans03b-moo.pdf
+INFO 11/17/2020, 8:59:02 AM  [blur] 1
+INFO 11/17/2020, 8:59:37 AM  [focus] 1
+INFO 11/17/2020, 8:59:42 AM  [blur] 1
+INFO 11/17/2020, 8:59:58 AM  [focus] 1
+INFO 11/17/2020, 9:01:41 AM  [blur] 1
+INFO 11/17/2020, 9:01:48 AM  [focus] 1
+INFO 11/17/2020, 9:01:48 AM  [blur] 1
+INFO 11/17/2020, 9:02:09 AM  [focus] 1
+INFO 11/17/2020, 9:06:06 AM  [blur] 1
+INFO 11/17/2020, 9:06:59 AM  [focus] 1
+INFO 11/17/2020, 9:09:19 AM  [blur] 1
+INFO 11/17/2020, 9:09:33 AM  [focus] 1
+INFO 11/17/2020, 9:10:24 AM  [blur] 1
+INFO 11/17/2020, 9:11:12 AM  [focus] 1
+INFO 11/17/2020, 9:12:21 AM  [blur] 1
+INFO 11/17/2020, 9:12:39 AM  [focus] 1
+INFO 11/17/2020, 9:14:06 AM  load file [/tmp/1605626046759-0.1813358907248941.html] for PDF export
+INFO 11/17/2020, 9:14:07 AM  [blur] 1
+INFO 11/17/2020, 9:14:07 AM  generate print window with id 4
+INFO 11/17/2020, 9:14:09 AM  [focus] 1
+INFO 11/17/2020, 9:14:09 AM  [blur] 1
+INFO 11/17/2020, 9:14:09 AM  [focus] 1
+INFO 11/17/2020, 9:14:09 AM  [blur] 1
+INFO 11/17/2020, 9:14:09 AM  [focus] 1
+INFO 11/17/2020, 9:14:09 AM  [RenderProcess 1][Log] export PDF to /home/jeff/Dropbox/journal/bible/newt/romans/romans03b-moo.pdf
+INFO 11/17/2020, 9:14:11 AM  [blur] 1
+INFO 11/17/2020, 9:14:49 AM  [focus] 1
+INFO 11/17/2020, 9:14:51 AM  [blur] 1
+INFO 11/17/2020, 9:14:52 AM  [focus] 1
+INFO 11/17/2020, 9:14:54 AM  ----------------before-quit-----------------
+INFO 11/17/2020, 9:14:54 AM  ------------------will-quit------------------
+INFO 11/17/2020, 9:18:06 AM  ------------------start------------------
+INFO 11/17/2020, 9:18:06 AM  typora version: 0.9.96
+DEBUG 11/17/2020, 9:18:06 AM  [ '/usr/share/typora/Typora' ]
+INFO 11/17/2020, 9:18:06 AM  [Raven] instanceKey = 1171d015-cf0f-4234-8262-67e97f826733
+DEBUG 11/17/2020, 9:18:06 AM  app.openFile
+INFO 11/17/2020, 9:18:06 AM  [Raven] userId = 1608746f-a0df-4b8f-99bb-31fa17894f66
+INFO 11/17/2020, 9:18:06 AM  [focus] 1
+INFO 11/17/2020, 9:18:09 AM  addRecentFolder
+INFO 11/17/2020, 9:18:14 AM  switchDocument
+INFO 11/17/2020, 9:18:14 AM  addRecentDocument
+INFO 11/17/2020, 9:18:26 AM  load file [/tmp/1605626306481-0.24072898597776637.html] for PDF export
+INFO 11/17/2020, 9:18:26 AM  [blur] 1
+INFO 11/17/2020, 9:18:27 AM  generate print window with id 2
+INFO 11/17/2020, 9:18:30 AM  [focus] 1
+INFO 11/17/2020, 9:18:30 AM  [blur] 1
+INFO 11/17/2020, 9:18:30 AM  [focus] 1
+INFO 11/17/2020, 9:18:30 AM  [blur] 1
+INFO 11/17/2020, 9:18:30 AM  [focus] 1
+INFO 11/17/2020, 9:18:30 AM  [RenderProcess 1][Log] export PDF to /home/jeff/Dropbox/journal/bible/newt/romans/romans03b-moo.pdf
+INFO 11/17/2020, 9:18:30 AM  [blur] 1
+INFO 11/17/2020, 9:18:33 AM  [focus] 1
+INFO 11/17/2020, 9:18:37 AM  [blur] 1
+INFO 11/17/2020, 9:18:42 AM  [focus] 1
+INFO 11/17/2020, 9:18:43 AM  [blur] 1
+INFO 11/17/2020, 9:19:40 AM  [focus] 1
+INFO 11/17/2020, 9:19:46 AM  ----------------before-quit-----------------
+INFO 11/17/2020, 9:19:46 AM  ------------------will-quit------------------
