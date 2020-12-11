@@ -23,7 +23,6 @@ sudo pacman -S cantarell-fonts --noconfirm --needed
 sudo pacman -S ttf-bitstream-vera --noconfirm --needed
 sudo pacman -S ttf-dejavu --noconfirm --needed
 #sudo pacman -S ttf-droid --noconfirm --needed
-sudo pacman -S ttf-font-awesome --noconfirm --needed
 sudo pacman -S ttf-hack --noconfirm --needed
 #sudo pacman -S ttf-inconsolata --noconfirm --needed
 #sudo pacman -S ttf-liberation --noconfirm --needed

@@ -153,7 +153,9 @@ list=(
 dconf-editor
 arc-gtk-theme
 adapta-gtk-theme
+capitaine-cursors
 material-gtk-theme
+papirus-icons-theme
 )
 
 count=0
