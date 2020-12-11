@@ -1,8 +1,9 @@
 show-hidden-files=false
 show-sidebar=false
 close-after-select=false
-window-width=1440
-window-height=814
-window-x=0
+window-width=1920
+window-height=993
+window-x=1920
 window-y=22
 exclude-paths=/dev;~/.cache;~/.gvfs;
+

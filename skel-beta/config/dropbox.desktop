@@ -8,3 +8,4 @@ Icon=dropbox
 Terminal=false
 StartupNotify=false
 Categories=Network;
+Hidden=false

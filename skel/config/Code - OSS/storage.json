@@ -1,8 +1,28 @@
 {
     "telemetry.machineId": "852c42cac900b23f73c5795405eaf36257f35cf0fdac3347e9a5029d9d7573f1",
     "openedPathsList": {
-        "workspaces3": [],
+        "workspaces3": [
+            "file:///home/jeff/git/fitzland/easymag-child",
+            "file:///home/jeff/git/fitzland/onepress-child"
+        ],
         "files2": [
+            "file:///home/jeff/.cache/.fr-Dpd34a/brother-mfc-l2690dw/brother-mfc-l2690dw.install",
+            "file:///home/jeff/.cache/.fr-3a1sw7/brother-mfc-l2690dw/PKGBUILD",
+            "file:///home/jeff/.cache/.fr-y7tU7b/brother-mfc-l2690dw/.SRCINFO",
+            "file:///home/jeff/.cache/.fr-Xs6g37/brother-mfc-l2690dw/PKGBUILD",
+            "file:///home/jeff/.cache/.fr-cNPES9/brother-mfc-l2690dw/PKGBUILD",
+            "file:///home/jeff/downloads/ppd/brother/l2690dw/control",
+            "file:///home/jeff/.cache/.fr-Qo98Y6/debian-binary",
+            "file:///home/jeff/.cache/.fr-mysw4g/md5sums",
+            "file:///home/jeff/git/brother-mfc-l2680w/PKGBUILD",
+            "file:///home/jeff/git/brother-mfc-l2680w/cupswrapper-license.txt",
+            "file:///home/jeff/git/brother-mfc-l2680w/brother-mfc-l2680w.install",
+            "file:///home/jeff/git/fitzland/easymag-child/template-parts/related-posts.php",
+            "file:///home/jeff/git/fitzland/onepress-child/header.php",
+            "file:///home/jeff/.config/i3/config",
+            "file:///home/jeff/Dropbox/church/media/web/wordpress/easymag-child/style-org.css",
+            "file:///home/jeff/Dropbox/church/media/web/wordpress/easymag-child/style.css",
+            "file:///home/jeff/git/fitzland/typora-theme/git-v1.sh",
             "file:///home/jeff/.config/Typora/themes/law.user.css",
             "file:///home/jeff/.config/Typora/themes/nord.css",
             "file:///home/jeff/.config/Typora/themes/night.css",
@@ -15,7 +35,6 @@
             "file:///home/jeff/.config/Typora/themes/base.user.css",
             "file:///home/jeff/.config/Typora/themes/newsprint.css",
             "file:///home/jeff/Dropbox/journal/bible/newt/romans/romans03a-moo.md",
-            "file:///home/jeff/.config/i3/config",
             "file:///home/jeff/.config/user-dirs.dirs"
         ]
     },
@@ -53,7 +72,33 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/jeff/git/fitzland/easymag-child",
+                                        "path": "/home/jeff/git/fitzland/easymag-child",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/git/fitzland/easymag-child"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/jeff/git/fitzland/onepress-child",
+                                        "path": "/home/jeff/git/fitzland/onepress-child",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/git/fitzland/onepress-child"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -62,111 +107,111 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/jeff/.config/Typora/themes/newsprint.user.css",
-                                        "path": "/home/jeff/.config/Typora/themes/newsprint.user.css",
+                                        "external": "file:///home/jeff/.cache/.fr-Dpd34a/brother-mfc-l2690dw/brother-mfc-l2690dw.install",
+                                        "path": "/home/jeff/.cache/.fr-Dpd34a/brother-mfc-l2690dw/brother-mfc-l2690dw.install",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/.config/Typora/themes/newsprint.user.css"
+                                    "label": "~/.cache/.fr-Dpd34a/brother-mfc-l2690dw/brother-mfc-l2690dw.install"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/jeff/.config/Typora/themes/law.user.css",
-                                        "path": "/home/jeff/.config/Typora/themes/law.user.css",
+                                        "external": "file:///home/jeff/.cache/.fr-3a1sw7/brother-mfc-l2690dw/PKGBUILD",
+                                        "path": "/home/jeff/.cache/.fr-3a1sw7/brother-mfc-l2690dw/PKGBUILD",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/.config/Typora/themes/law.user.css"
+                                    "label": "~/.cache/.fr-3a1sw7/brother-mfc-l2690dw/PKGBUILD"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/jeff/.config/Typora/themes/nord.css",
-                                        "path": "/home/jeff/.config/Typora/themes/nord.css",
+                                        "external": "file:///home/jeff/.cache/.fr-y7tU7b/brother-mfc-l2690dw/.SRCINFO",
+                                        "path": "/home/jeff/.cache/.fr-y7tU7b/brother-mfc-l2690dw/.SRCINFO",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/.config/Typora/themes/nord.css"
+                                    "label": "~/.cache/.fr-y7tU7b/brother-mfc-l2690dw/.SRCINFO"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/jeff/.config/Typora/themes/night.css",
-                                        "path": "/home/jeff/.config/Typora/themes/night.css",
+                                        "external": "file:///home/jeff/.cache/.fr-Xs6g37/brother-mfc-l2690dw/PKGBUILD",
+                                        "path": "/home/jeff/.cache/.fr-Xs6g37/brother-mfc-l2690dw/PKGBUILD",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/.config/Typora/themes/night.css"
+                                    "label": "~/.cache/.fr-Xs6g37/brother-mfc-l2690dw/PKGBUILD"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/jeff/.config/Typora/themes/paper.user.css",
-                                        "path": "/home/jeff/.config/Typora/themes/paper.user.css",
+                                        "external": "file:///home/jeff/.cache/.fr-cNPES9/brother-mfc-l2690dw/PKGBUILD",
+                                        "path": "/home/jeff/.cache/.fr-cNPES9/brother-mfc-l2690dw/PKGBUILD",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/.config/Typora/themes/paper.user.css"
+                                    "label": "~/.cache/.fr-cNPES9/brother-mfc-l2690dw/PKGBUILD"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/jeff/.config/Typora/themes/paper-0.0.3/paper.css",
-                                        "path": "/home/jeff/.config/Typora/themes/paper-0.0.3/paper.css",
+                                        "external": "file:///home/jeff/downloads/ppd/brother/l2690dw/control",
+                                        "path": "/home/jeff/downloads/ppd/brother/l2690dw/control",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/.config/Typora/themes/paper-0.0.3/paper.css"
+                                    "label": "~/downloads/ppd/brother/l2690dw/control"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/jeff/.config/Typora/themes/github.user.css",
-                                        "path": "/home/jeff/.config/Typora/themes/github.user.css",
+                                        "external": "file:///home/jeff/.cache/.fr-Qo98Y6/debian-binary",
+                                        "path": "/home/jeff/.cache/.fr-Qo98Y6/debian-binary",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/.config/Typora/themes/github.user.css"
+                                    "label": "~/.cache/.fr-Qo98Y6/debian-binary"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/jeff/.config/Typora/themes/github.css",
-                                        "path": "/home/jeff/.config/Typora/themes/github.css",
+                                        "external": "file:///home/jeff/.cache/.fr-mysw4g/md5sums",
+                                        "path": "/home/jeff/.cache/.fr-mysw4g/md5sums",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/.config/Typora/themes/github.css"
+                                    "label": "~/.cache/.fr-mysw4g/md5sums"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/jeff/.config/Typora/themes/academic.css",
-                                        "path": "/home/jeff/.config/Typora/themes/academic.css",
+                                        "external": "file:///home/jeff/git/brother-mfc-l2680w/PKGBUILD",
+                                        "path": "/home/jeff/git/brother-mfc-l2680w/PKGBUILD",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/.config/Typora/themes/academic.css"
+                                    "label": "~/git/brother-mfc-l2680w/PKGBUILD"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/jeff/.config/Typora/themes/base.user.css",
-                                        "path": "/home/jeff/.config/Typora/themes/base.user.css",
+                                        "external": "file:///home/jeff/git/brother-mfc-l2680w/cupswrapper-license.txt",
+                                        "path": "/home/jeff/git/brother-mfc-l2680w/cupswrapper-license.txt",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/.config/Typora/themes/base.user.css"
+                                    "label": "~/git/brother-mfc-l2680w/cupswrapper-license.txt"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -675,7 +720,8 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back"
+                        "label": "&&Back",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -684,7 +730,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1552,15 +1599,16 @@
     "themeBackground": "#2e3440",
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/jeff/.config/Code - OSS/Backups/1605622725042",
+            "backupPath": "/home/jeff/.config/Code - OSS/Backups/1607128827272",
             "uiState": {
                 "mode": 1,
                 "x": 0,
                 "y": 22,
-                "width": 1440,
-                "height": 854
+                "width": 1920,
+                "height": 1033
             }
         },
         "openedWindows": []
-    }
+    },
+    "pickerWorkingDir": "/home/jeff/git/fitzland"
 }

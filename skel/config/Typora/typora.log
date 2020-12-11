@@ -1173,3 +1173,458 @@ INFO 11/17/2020, 9:18:43 AM  [blur] 1
 INFO 11/17/2020, 9:19:40 AM  [focus] 1
 INFO 11/17/2020, 9:19:46 AM  ----------------before-quit-----------------
 INFO 11/17/2020, 9:19:46 AM  ------------------will-quit------------------
+INFO 11/20/2020, 10:16:55 AM  ------------------start------------------
+INFO 11/20/2020, 10:16:55 AM  typora version: 0.9.96
+DEBUG 11/20/2020, 10:16:55 AM  [ '/usr/share/typora/Typora' ]
+INFO 11/20/2020, 10:16:55 AM  [Raven] instanceKey = 147f34c4-65ff-4937-8498-c37b20cc3252
+DEBUG 11/20/2020, 10:16:55 AM  app.openFile
+INFO 11/20/2020, 10:16:55 AM  [Raven] userId = 1608746f-a0df-4b8f-99bb-31fa17894f66
+INFO 11/20/2020, 10:16:55 AM  [focus] 1
+INFO 11/20/2020, 10:17:04 AM  [blur] 1
+INFO 11/20/2020, 10:17:28 AM  [focus] 1
+INFO 11/20/2020, 10:17:28 AM  [blur] 1
+INFO 11/20/2020, 10:17:28 AM  [focus] 1
+INFO 11/20/2020, 10:17:28 AM  [blur] 1
+INFO 11/20/2020, 10:17:28 AM  [focus] 1
+INFO 11/20/2020, 10:17:28 AM  addRecentFolder
+INFO 11/20/2020, 10:17:49 AM  [blur] 1
+INFO 11/20/2020, 10:18:07 AM  [focus] 1
+INFO 11/20/2020, 10:18:07 AM  [blur] 1
+INFO 11/20/2020, 10:18:07 AM  [focus] 1
+INFO 11/20/2020, 10:18:07 AM  [blur] 1
+INFO 11/20/2020, 10:18:07 AM  [focus] 1
+INFO 11/20/2020, 10:18:07 AM  addRecentDocument
+INFO 11/20/2020, 10:18:11 AM  ----------------before-quit-----------------
+INFO 11/20/2020, 10:18:11 AM  ------------------will-quit------------------
+INFO 11/21/2020, 6:07:58 AM  ------------------start------------------
+INFO 11/21/2020, 6:07:58 AM  typora version: 0.9.96
+DEBUG 11/21/2020, 6:07:58 AM  [
+  '/usr/share/typora/Typora',
+  '/home/jeff/Dropbox/journal/bible/newt/romans/romans03b-moo.md'
+]
+DEBUG 11/21/2020, 6:07:58 AM  app.openFile
+INFO 11/21/2020, 6:07:58 AM  addRecentDocument
+INFO 11/21/2020, 6:07:58 AM  [Raven] instanceKey = 2943567e-392c-42a3-a465-26a253e1b55f
+INFO 11/21/2020, 6:07:58 AM  [Raven] userId = 1608746f-a0df-4b8f-99bb-31fa17894f66
+INFO 11/21/2020, 6:07:59 AM  [focus] 1
+INFO 11/21/2020, 6:08:05 AM  [blur] 1
+INFO 11/21/2020, 6:08:11 AM  [focus] 1
+INFO 11/21/2020, 6:08:22 AM  [blur] 1
+INFO 11/21/2020, 6:08:26 AM  [focus] 1
+INFO 11/21/2020, 6:08:27 AM  switchDocument
+INFO 11/21/2020, 6:08:27 AM  addRecentDocument
+INFO 11/21/2020, 6:08:48 AM  [blur] 1
+INFO 11/21/2020, 6:23:32 AM  [focus] 1
+INFO 11/21/2020, 6:23:32 AM  [blur] 1
+INFO 11/21/2020, 6:31:14 AM  [focus] 1
+INFO 11/21/2020, 6:31:32 AM  [blur] 1
+INFO 11/21/2020, 6:32:21 AM  [focus] 1
+INFO 11/21/2020, 6:32:37 AM  [blur] 1
+INFO 11/21/2020, 6:32:42 AM  [focus] 1
+INFO 11/21/2020, 6:32:42 AM  [blur] 1
+INFO 11/21/2020, 6:32:42 AM  [focus] 1
+INFO 11/21/2020, 6:32:42 AM  [blur] 1
+INFO 11/21/2020, 6:32:42 AM  [focus] 1
+INFO 11/21/2020, 6:32:42 AM  addRecentDocument
+INFO 11/21/2020, 6:32:52 AM  switchDocument
+INFO 11/21/2020, 6:32:52 AM  addRecentDocument
+INFO 11/21/2020, 6:32:58 AM  switchDocument
+INFO 11/21/2020, 6:32:58 AM  addRecentDocument
+DEBUG 11/21/2020, 6:32:58 AM  lastSync 1605961966318.1477, timestamp 1605961963538, mtime 1605961966318.1477
+INFO 11/21/2020, 6:33:00 AM  switchDocument
+INFO 11/21/2020, 6:33:00 AM  addRecentDocument
+INFO 11/21/2020, 6:33:07 AM  switchDocument
+INFO 11/21/2020, 6:33:07 AM  addRecentDocument
+INFO 11/21/2020, 6:33:10 AM  [blur] 1
+INFO 11/21/2020, 6:33:20 AM  [focus] 1
+INFO 11/21/2020, 6:37:54 AM  [blur] 1
+INFO 11/21/2020, 6:38:05 AM  [focus] 1
+INFO 11/21/2020, 6:40:49 AM  [blur] 1
+INFO 11/21/2020, 6:41:27 AM  [focus] 1
+INFO 11/21/2020, 6:42:06 AM  [blur] 1
+INFO 11/21/2020, 6:44:01 AM  [focus] 1
+INFO 11/21/2020, 6:44:13 AM  [blur] 1
+INFO 11/21/2020, 6:44:21 AM  [focus] 1
+INFO 11/21/2020, 6:44:30 AM  [blur] 1
+INFO 11/21/2020, 6:44:40 AM  [focus] 1
+INFO 11/21/2020, 6:45:18 AM  [blur] 1
+INFO 11/21/2020, 6:45:20 AM  [focus] 1
+INFO 11/21/2020, 6:45:31 AM  [blur] 1
+INFO 11/21/2020, 10:46:51 AM  [focus] 1
+INFO 11/21/2020, 10:46:55 AM  [blur] 1
+INFO 11/21/2020, 10:46:57 AM  [focus] 1
+INFO 11/21/2020, 10:47:47 AM  [blur] 1
+INFO 11/21/2020, 10:48:15 AM  [focus] 1
+INFO 11/21/2020, 10:48:16 AM  [blur] 1
+INFO 11/21/2020, 11:10:10 AM  [focus] 1
+INFO 11/21/2020, 11:10:10 AM  [blur] 1
+INFO 11/21/2020, 11:11:23 AM  [focus] 1
+INFO 11/21/2020, 11:13:44 AM  [blur] 1
+INFO 11/21/2020, 11:14:34 AM  [focus] 1
+INFO 11/21/2020, 11:21:12 AM  [blur] 1
+INFO 11/21/2020, 11:21:16 AM  [focus] 1
+INFO 11/21/2020, 11:22:01 AM  [blur] 1
+INFO 11/21/2020, 11:22:03 AM  [focus] 1
+INFO 11/21/2020, 11:23:17 AM  [blur] 1
+INFO 11/21/2020, 11:31:26 AM  [focus] 1
+INFO 11/21/2020, 11:31:40 AM  [blur] 1
+INFO 11/21/2020, 11:32:15 AM  [focus] 1
+INFO 11/21/2020, 11:32:23 AM  [blur] 1
+INFO 11/21/2020, 11:35:33 AM  [focus] 1
+INFO 11/21/2020, 11:35:36 AM  [blur] 1
+INFO 11/21/2020, 11:38:25 AM  [focus] 1
+INFO 11/21/2020, 11:38:32 AM  [blur] 1
+INFO 11/21/2020, 11:38:36 AM  [focus] 1
+INFO 11/21/2020, 11:46:06 AM  [blur] 1
+INFO 11/21/2020, 11:46:42 AM  [focus] 1
+INFO 11/21/2020, 11:46:42 AM  [blur] 1
+INFO 11/21/2020, 11:46:49 AM  [focus] 1
+INFO 11/21/2020, 11:49:01 AM  [blur] 1
+INFO 11/21/2020, 11:49:47 AM  [focus] 1
+INFO 11/21/2020, 11:50:18 AM  [blur] 1
+INFO 11/21/2020, 11:50:32 AM  [focus] 1
+INFO 11/21/2020, 11:53:53 AM  [blur] 1
+INFO 11/21/2020, 11:54:10 AM  [focus] 1
+INFO 11/21/2020, 11:54:10 AM  [blur] 1
+INFO 11/21/2020, 11:54:10 AM  [focus] 1
+INFO 11/21/2020, 11:54:10 AM  [blur] 1
+INFO 11/21/2020, 11:54:10 AM  [focus] 1
+INFO 11/21/2020, 11:54:12 AM  [blur] 1
+INFO 11/21/2020, 12:01:28 PM  [focus] 1
+INFO 11/21/2020, 12:01:34 PM  [blur] 1
+INFO 11/21/2020, 12:03:17 PM  [focus] 1
+INFO 11/21/2020, 12:04:12 PM  [blur] 1
+INFO 11/21/2020, 12:04:32 PM  [focus] 1
+INFO 11/21/2020, 12:07:37 PM  [blur] 1
+INFO 11/21/2020, 12:07:46 PM  [focus] 1
+INFO 11/21/2020, 12:07:46 PM  [blur] 1
+INFO 11/21/2020, 12:31:13 PM  [focus] 1
+INFO 11/21/2020, 12:31:14 PM  [blur] 1
+INFO 11/21/2020, 12:31:14 PM  [focus] 1
+INFO 11/21/2020, 12:31:14 PM  [blur] 1
+INFO 11/21/2020, 12:31:15 PM  [focus] 1
+INFO 11/21/2020, 12:31:15 PM  [blur] 1
+INFO 11/21/2020, 12:36:19 PM  [focus] 1
+INFO 11/21/2020, 12:37:17 PM  [blur] 1
+INFO 11/21/2020, 12:39:09 PM  [focus] 1
+INFO 11/21/2020, 12:41:45 PM  [blur] 1
+INFO 11/21/2020, 12:43:30 PM  [focus] 1
+INFO 11/21/2020, 12:56:27 PM  [blur] 1
+INFO 11/21/2020, 12:56:30 PM  [focus] 1
+INFO 11/21/2020, 12:57:18 PM  window.File && (function() {
+					ClientCommand.resetZoom();
+				})();
+INFO 11/21/2020, 1:01:55 PM  [blur] 1
+INFO 11/21/2020, 1:02:31 PM  [focus] 1
+INFO 11/21/2020, 1:03:25 PM  [blur] 1
+INFO 11/21/2020, 1:03:48 PM  [focus] 1
+INFO 11/21/2020, 1:05:08 PM  [blur] 1
+INFO 11/21/2020, 1:05:19 PM  [focus] 1
+INFO 11/21/2020, 1:06:50 PM  [blur] 1
+INFO 11/21/2020, 1:07:16 PM  [focus] 1
+INFO 11/21/2020, 1:10:18 PM  [blur] 1
+INFO 11/21/2020, 1:10:34 PM  [focus] 1
+INFO 11/21/2020, 1:10:41 PM  [blur] 1
+INFO 11/21/2020, 1:10:51 PM  [focus] 1
+INFO 11/21/2020, 1:11:06 PM  [blur] 1
+INFO 11/21/2020, 1:11:12 PM  [focus] 1
+INFO 11/21/2020, 1:11:38 PM  [blur] 1
+INFO 11/21/2020, 1:12:23 PM  [focus] 1
+INFO 11/21/2020, 1:12:50 PM  [blur] 1
+INFO 11/21/2020, 1:12:58 PM  [focus] 1
+INFO 11/21/2020, 1:15:37 PM  [blur] 1
+INFO 11/21/2020, 1:16:01 PM  [focus] 1
+INFO 11/21/2020, 1:16:44 PM  [blur] 1
+INFO 11/21/2020, 1:16:48 PM  [focus] 1
+INFO 11/21/2020, 1:17:29 PM  [blur] 1
+INFO 11/21/2020, 1:18:09 PM  [focus] 1
+INFO 11/21/2020, 1:18:19 PM  [blur] 1
+INFO 11/21/2020, 1:18:24 PM  [focus] 1
+INFO 11/21/2020, 1:18:35 PM  [blur] 1
+INFO 11/21/2020, 1:18:56 PM  [focus] 1
+INFO 11/21/2020, 1:18:59 PM  [blur] 1
+INFO 11/21/2020, 1:19:05 PM  [focus] 1
+INFO 11/21/2020, 1:19:06 PM  [blur] 1
+INFO 11/21/2020, 1:19:44 PM  [focus] 1
+INFO 11/21/2020, 1:20:02 PM  [blur] 1
+INFO 11/21/2020, 1:20:08 PM  [focus] 1
+INFO 11/21/2020, 1:20:15 PM  [blur] 1
+INFO 11/21/2020, 1:20:27 PM  [focus] 1
+INFO 11/21/2020, 1:20:33 PM  [blur] 1
+INFO 11/21/2020, 1:21:36 PM  [focus] 1
+INFO 11/21/2020, 1:21:38 PM  [blur] 1
+INFO 11/21/2020, 1:21:39 PM  [focus] 1
+INFO 11/21/2020, 1:21:48 PM  [blur] 1
+INFO 11/21/2020, 1:23:39 PM  [focus] 1
+INFO 11/21/2020, 1:23:46 PM  [blur] 1
+INFO 11/21/2020, 1:25:05 PM  [focus] 1
+INFO 11/21/2020, 1:25:06 PM  [blur] 1
+INFO 11/21/2020, 1:25:08 PM  [focus] 1
+INFO 11/21/2020, 1:25:10 PM  [blur] 1
+INFO 11/21/2020, 1:25:17 PM  [focus] 1
+INFO 11/21/2020, 1:25:31 PM  [blur] 1
+INFO 11/21/2020, 1:25:37 PM  [focus] 1
+INFO 11/21/2020, 1:25:45 PM  [blur] 1
+INFO 11/21/2020, 1:26:18 PM  [focus] 1
+INFO 11/21/2020, 1:28:30 PM  [blur] 1
+INFO 11/21/2020, 1:28:38 PM  [focus] 1
+INFO 11/21/2020, 1:37:31 PM  [blur] 1
+INFO 11/21/2020, 1:37:42 PM  [focus] 1
+INFO 11/21/2020, 1:39:11 PM  [blur] 1
+INFO 11/21/2020, 1:40:15 PM  [focus] 1
+INFO 11/21/2020, 1:43:19 PM  [blur] 1
+INFO 11/21/2020, 1:43:19 PM  [focus] 1
+INFO 11/21/2020, 1:47:18 PM  [blur] 1
+INFO 11/21/2020, 1:48:28 PM  [focus] 1
+INFO 11/21/2020, 1:50:23 PM  [blur] 1
+INFO 11/21/2020, 1:50:27 PM  [focus] 1
+INFO 11/21/2020, 1:50:39 PM  [blur] 1
+INFO 11/21/2020, 1:50:54 PM  [focus] 1
+INFO 11/21/2020, 1:52:11 PM  [blur] 1
+INFO 11/21/2020, 1:52:35 PM  [focus] 1
+INFO 11/21/2020, 1:59:33 PM  [blur] 1
+INFO 11/21/2020, 2:00:46 PM  [focus] 1
+INFO 11/21/2020, 2:01:08 PM  [blur] 1
+INFO 11/21/2020, 2:02:35 PM  [focus] 1
+INFO 11/21/2020, 2:03:47 PM  [blur] 1
+INFO 11/21/2020, 2:34:45 PM  [focus] 1
+INFO 11/21/2020, 2:35:04 PM  switchDocument
+INFO 11/21/2020, 2:35:04 PM  addRecentDocument
+INFO 11/21/2020, 2:35:18 PM  switchDocument
+INFO 11/21/2020, 2:35:18 PM  addRecentDocument
+DEBUG 11/21/2020, 2:35:18 PM  lastSync 1605990888012.6628, timestamp 1605990904437, mtime 1605990888012.6628
+INFO 11/21/2020, 2:35:21 PM  [blur] 1
+INFO 11/21/2020, 2:35:44 PM  [focus] 1
+INFO 11/21/2020, 2:35:44 PM  [blur] 1
+INFO 11/21/2020, 2:35:44 PM  [focus] 1
+INFO 11/21/2020, 2:35:44 PM  [blur] 1
+INFO 11/21/2020, 2:35:44 PM  [focus] 1
+INFO 11/21/2020, 2:36:06 PM  [blur] 1
+INFO 11/21/2020, 2:36:14 PM  [focus] 1
+INFO 11/21/2020, 2:36:14 PM  [blur] 1
+INFO 11/21/2020, 2:36:14 PM  [focus] 1
+INFO 11/21/2020, 2:36:14 PM  [blur] 1
+INFO 11/21/2020, 2:36:14 PM  [focus] 1
+INFO 11/21/2020, 2:36:14 PM  addRecentDocument
+INFO 11/21/2020, 2:36:48 PM  [blur] 1
+INFO 11/21/2020, 2:40:42 PM  [focus] 1
+INFO 11/21/2020, 2:40:47 PM  [blur] 1
+INFO 11/21/2020, 2:40:55 PM  [focus] 1
+INFO 11/21/2020, 2:40:58 PM  [blur] 1
+INFO 11/21/2020, 2:41:04 PM  [focus] 1
+INFO 11/21/2020, 2:41:04 PM  [blur] 1
+INFO 11/21/2020, 2:41:04 PM  [focus] 1
+INFO 11/21/2020, 2:41:04 PM  [blur] 1
+INFO 11/21/2020, 2:41:04 PM  [focus] 1
+INFO 11/21/2020, 2:41:04 PM  addRecentDocument
+INFO 11/21/2020, 2:41:07 PM  [blur] 1
+INFO 11/21/2020, 2:41:10 PM  [focus] 1
+INFO 11/21/2020, 2:41:12 PM  [blur] 1
+INFO 11/21/2020, 2:41:35 PM  [focus] 1
+INFO 11/21/2020, 2:48:21 PM  [blur] 1
+INFO 11/21/2020, 2:50:44 PM  [focus] 1
+INFO 11/21/2020, 2:58:05 PM  [blur] 1
+INFO 11/21/2020, 2:58:06 PM  [focus] 1
+INFO 11/21/2020, 3:06:22 PM  switchDocument
+INFO 11/21/2020, 3:06:22 PM  addRecentDocument
+DEBUG 11/21/2020, 3:06:22 PM  lastSync null, timestamp 1605990904461, mtime 1605990974515.9998
+INFO 11/21/2020, 3:06:23 PM  [blur] 1
+INFO 11/21/2020, 3:09:17 PM  [focus] 1
+INFO 11/21/2020, 3:09:28 PM  switchDocument
+INFO 11/21/2020, 3:09:28 PM  addRecentDocument
+INFO 11/21/2020, 3:09:30 PM  switchDocument
+INFO 11/21/2020, 3:09:30 PM  addRecentDocument
+DEBUG 11/21/2020, 3:09:30 PM  lastSync null, timestamp 1605992968128, mtime 1605990974515.9998
+INFO 11/21/2020, 3:09:58 PM  [blur] 1
+INFO 11/21/2020, 3:09:59 PM  [focus] 1
+INFO 11/21/2020, 3:10:04 PM  switchDocument
+INFO 11/21/2020, 3:10:04 PM  addRecentDocument
+INFO 11/21/2020, 3:10:06 PM  switchDocument
+INFO 11/21/2020, 3:10:06 PM  addRecentDocument
+DEBUG 11/21/2020, 3:10:06 PM  lastSync 1605993001559.4158, timestamp 1605993004825, mtime 1605993001559.4158
+INFO 11/21/2020, 3:15:55 PM  [blur] 1
+INFO 11/21/2020, 3:17:01 PM  [focus] 1
+INFO 11/21/2020, 3:17:19 PM  [blur] 1
+INFO 11/21/2020, 3:18:49 PM  [focus] 1
+INFO 11/21/2020, 3:18:49 PM  [blur] 1
+INFO 11/21/2020, 3:18:49 PM  [focus] 1
+INFO 11/21/2020, 3:20:10 PM  [blur] 1
+INFO 11/21/2020, 3:20:16 PM  [focus] 1
+INFO 11/21/2020, 3:20:32 PM  [blur] 1
+INFO 11/21/2020, 3:20:43 PM  [focus] 1
+INFO 11/21/2020, 3:38:55 PM  [blur] 1
+INFO 11/21/2020, 3:38:56 PM  [focus] 1
+INFO 11/21/2020, 3:39:03 PM  [blur] 1
+INFO 11/21/2020, 3:40:13 PM  [focus] 1
+INFO 11/21/2020, 3:54:08 PM  [blur] 1
+INFO 11/21/2020, 3:54:50 PM  [focus] 1
+INFO 11/21/2020, 3:59:50 PM  [blur] 1
+INFO 11/21/2020, 4:01:33 PM  [focus] 1
+INFO 11/21/2020, 4:02:13 PM  [blur] 1
+INFO 11/21/2020, 4:02:29 PM  [focus] 1
+INFO 11/21/2020, 4:02:48 PM  [blur] 1
+INFO 11/21/2020, 4:02:51 PM  [focus] 1
+INFO 11/21/2020, 4:06:51 PM  [blur] 1
+INFO 11/21/2020, 4:08:01 PM  [focus] 1
+INFO 11/21/2020, 4:08:02 PM  [blur] 1
+INFO 11/21/2020, 4:08:10 PM  [focus] 1
+INFO 11/21/2020, 4:09:20 PM  [blur] 1
+INFO 11/21/2020, 4:11:36 PM  [focus] 1
+INFO 11/21/2020, 4:11:38 PM  [blur] 1
+INFO 11/21/2020, 4:12:10 PM  [focus] 1
+INFO 11/21/2020, 4:12:14 PM  ----------------before-quit-----------------
+INFO 11/21/2020, 4:12:14 PM  ------------------will-quit------------------
+INFO 12/3/2020, 10:51:33 AM  ------------------start------------------
+INFO 12/3/2020, 10:51:33 AM  typora version: 0.9.96
+DEBUG 12/3/2020, 10:51:33 AM  [
+  '/usr/share/typora/Typora',
+  '/home/jeff/Dropbox/journal/bible/newt/romans/Romans04b.md'
+]
+DEBUG 12/3/2020, 10:51:33 AM  app.openFile
+INFO 12/3/2020, 10:51:33 AM  addRecentDocument
+INFO 12/3/2020, 10:51:33 AM  [Raven] instanceKey = 3cd07459-3036-4b9c-9f26-2b689ba3cea9
+INFO 12/3/2020, 10:51:33 AM  [Raven] userId = 1608746f-a0df-4b8f-99bb-31fa17894f66
+INFO 12/3/2020, 10:51:35 AM  [focus] 1
+INFO 12/3/2020, 10:52:38 AM  [blur] 1
+INFO 12/3/2020, 10:53:03 AM  [focus] 1
+INFO 12/3/2020, 10:55:23 AM  [blur] 1
+INFO 12/3/2020, 10:55:23 AM  [focus] 1
+INFO 12/3/2020, 10:55:54 AM  [blur] 1
+INFO 12/3/2020, 10:56:44 AM  [focus] 1
+INFO 12/3/2020, 10:56:44 AM  [blur] 1
+INFO 12/3/2020, 10:57:16 AM  [focus] 1
+INFO 12/3/2020, 10:57:17 AM  [blur] 1
+INFO 12/3/2020, 10:57:24 AM  [focus] 1
+INFO 12/3/2020, 10:58:35 AM  [blur] 1
+INFO 12/3/2020, 10:58:38 AM  [focus] 1
+INFO 12/3/2020, 10:58:41 AM  [blur] 1
+INFO 12/3/2020, 10:58:43 AM  [focus] 1
+INFO 12/3/2020, 10:59:07 AM  [blur] 1
+INFO 12/3/2020, 10:59:10 AM  [focus] 1
+INFO 12/3/2020, 11:00:10 AM  [blur] 1
+INFO 12/3/2020, 11:00:12 AM  [focus] 1
+INFO 12/3/2020, 11:02:06 AM  [blur] 1
+INFO 12/3/2020, 11:02:06 AM  [focus] 1
+INFO 12/3/2020, 11:02:10 AM  [blur] 1
+INFO 12/3/2020, 11:02:22 AM  [focus] 1
+INFO 12/3/2020, 11:04:15 AM  [blur] 1
+INFO 12/3/2020, 11:04:19 AM  [focus] 1
+INFO 12/3/2020, 11:04:41 AM  [blur] 1
+INFO 12/3/2020, 11:04:48 AM  [focus] 1
+INFO 12/3/2020, 11:07:19 AM  [blur] 1
+INFO 12/3/2020, 11:07:22 AM  [focus] 1
+INFO 12/3/2020, 11:08:54 AM  [blur] 1
+INFO 12/3/2020, 11:29:22 AM  [focus] 1
+INFO 12/3/2020, 11:29:47 AM  [blur] 1
+INFO 12/3/2020, 11:30:12 AM  [focus] 1
+INFO 12/3/2020, 11:30:44 AM  [blur] 1
+INFO 12/3/2020, 11:31:36 AM  [focus] 1
+INFO 12/3/2020, 11:31:39 AM  [blur] 1
+INFO 12/3/2020, 11:31:48 AM  [focus] 1
+INFO 12/3/2020, 11:32:10 AM  [blur] 1
+INFO 12/3/2020, 11:32:21 AM  [focus] 1
+INFO 12/3/2020, 11:32:21 AM  [blur] 1
+INFO 12/3/2020, 11:32:21 AM  [focus] 1
+INFO 12/3/2020, 11:32:21 AM  [blur] 1
+INFO 12/3/2020, 11:32:21 AM  [focus] 1
+INFO 12/3/2020, 11:32:21 AM  addRecentDocument
+INFO 12/3/2020, 11:32:22 AM  [blur] 1
+INFO 12/3/2020, 11:32:36 AM  [focus] 1
+INFO 12/3/2020, 11:32:36 AM  [blur] 1
+INFO 12/3/2020, 11:32:36 AM  [focus] 1
+INFO 12/3/2020, 11:32:36 AM  [blur] 1
+INFO 12/3/2020, 11:32:36 AM  [focus] 1
+INFO 12/3/2020, 11:32:36 AM  addRecentDocument
+INFO 12/3/2020, 11:32:58 AM  [blur] 1
+INFO 12/3/2020, 11:33:21 AM  [focus] 1
+INFO 12/3/2020, 11:34:55 AM  [blur] 1
+INFO 12/3/2020, 11:35:04 AM  [focus] 1
+INFO 12/3/2020, 11:44:25 AM  [blur] 1
+INFO 12/3/2020, 11:45:26 AM  [focus] 1
+INFO 12/3/2020, 11:47:05 AM  [blur] 1
+INFO 12/3/2020, 11:47:07 AM  [focus] 1
+INFO 12/3/2020, 11:51:42 AM  [blur] 1
+INFO 12/3/2020, 11:51:47 AM  [focus] 1
+INFO 12/3/2020, 11:51:47 AM  [blur] 1
+INFO 12/3/2020, 11:51:47 AM  [focus] 1
+INFO 12/3/2020, 11:51:47 AM  [blur] 1
+INFO 12/3/2020, 11:51:47 AM  [focus] 1
+INFO 12/3/2020, 11:51:47 AM  addRecentDocument
+INFO 12/3/2020, 11:58:19 AM  switchDocument
+INFO 12/3/2020, 11:58:19 AM  addRecentDocument
+INFO 12/3/2020, 11:58:25 AM  [blur] 1
+INFO 12/3/2020, 11:58:37 AM  [focus] 1
+INFO 12/3/2020, 11:58:40 AM  ----------------before-quit-----------------
+INFO 12/3/2020, 11:58:40 AM  ------------------will-quit------------------
+INFO 12/3/2020, 11:58:42 AM  ------------------start------------------
+INFO 12/3/2020, 11:58:42 AM  typora version: 0.9.96
+DEBUG 12/3/2020, 11:58:42 AM  [
+  '/usr/share/typora/Typora',
+  '/home/jeff/Dropbox/journal/bible/newt/romans/Romans05a-moo.md'
+]
+DEBUG 12/3/2020, 11:58:42 AM  app.openFile
+INFO 12/3/2020, 11:58:42 AM  addRecentDocument
+INFO 12/3/2020, 11:58:43 AM  [Raven] instanceKey = fc78d410-d9d8-4f3f-8c16-c38b2c060e97
+INFO 12/3/2020, 11:58:43 AM  [focus] 1
+INFO 12/3/2020, 11:58:43 AM  [Raven] userId = 1608746f-a0df-4b8f-99bb-31fa17894f66
+INFO 12/3/2020, 11:59:04 AM  [blur] 1
+INFO 12/3/2020, 11:59:28 AM  [focus] 1
+INFO 12/3/2020, 12:03:37 PM  [blur] 1
+INFO 12/3/2020, 12:23:35 PM  [focus] 1
+INFO 12/3/2020, 12:23:35 PM  [blur] 1
+INFO 12/3/2020, 12:27:25 PM  [focus] 1
+INFO 12/3/2020, 12:27:47 PM  [blur] 1
+INFO 12/3/2020, 1:44:19 PM  [focus] 1
+INFO 12/3/2020, 4:02:10 PM  [blur] 1
+INFO 12/3/2020, 4:02:10 PM  [focus] 1
+INFO 12/3/2020, 4:02:15 PM  [blur] 1
+INFO 12/3/2020, 4:03:05 PM  [focus] 1
+INFO 12/3/2020, 4:03:05 PM  [blur] 1
+INFO 12/3/2020, 4:12:08 PM  [focus] 1
+INFO 12/3/2020, 4:12:08 PM  [blur] 1
+INFO 12/3/2020, 4:14:00 PM  [focus] 1
+INFO 12/3/2020, 4:14:01 PM  [blur] 1
+INFO 12/3/2020, 4:15:01 PM  [focus] 1
+INFO 12/3/2020, 4:15:03 PM  [blur] 1
+INFO 12/3/2020, 4:16:20 PM  [focus] 1
+INFO 12/3/2020, 4:18:03 PM  [blur] 1
+INFO 12/3/2020, 4:21:50 PM  [focus] 1
+INFO 12/3/2020, 4:21:55 PM  [blur] 1
+INFO 12/3/2020, 4:22:47 PM  [focus] 1
+INFO 12/3/2020, 4:23:33 PM  [blur] 1
+INFO 12/3/2020, 4:24:59 PM  [focus] 1
+INFO 12/3/2020, 4:25:01 PM  [blur] 1
+INFO 12/3/2020, 8:53:14 PM  [focus] 1
+INFO 12/3/2020, 8:53:15 PM  [blur] 1
+INFO 12/3/2020, 8:53:16 PM  [focus] 1
+INFO 12/3/2020, 8:53:19 PM  ----------------before-quit-----------------
+INFO 12/3/2020, 8:53:19 PM  ------------------will-quit------------------
+INFO 12/4/2020, 9:27:17 AM  ------------------start------------------
+INFO 12/4/2020, 9:27:17 AM  typora version: 0.9.96
+DEBUG 12/4/2020, 9:27:17 AM  [ '/usr/share/typora/Typora' ]
+INFO 12/4/2020, 9:27:17 AM  [Raven] instanceKey = 033475ff-9687-4977-bcc6-873adc896fa9
+DEBUG 12/4/2020, 9:27:17 AM  app.openFile
+INFO 12/4/2020, 9:27:17 AM  [Raven] userId = 1608746f-a0df-4b8f-99bb-31fa17894f66
+INFO 12/4/2020, 9:27:17 AM  [focus] 1
+INFO 12/4/2020, 9:29:57 AM  [blur] 1
+INFO 12/4/2020, 9:30:07 AM  [focus] 1
+INFO 12/4/2020, 9:30:07 AM  [blur] 1
+INFO 12/4/2020, 9:30:07 AM  [focus] 1
+INFO 12/4/2020, 9:30:07 AM  [blur] 1
+INFO 12/4/2020, 9:30:07 AM  [focus] 1
+INFO 12/4/2020, 9:30:07 AM  addRecentDocument
+INFO 12/4/2020, 9:30:09 AM  ----------------before-quit-----------------
+INFO 12/4/2020, 9:30:09 AM  ------------------will-quit------------------
+INFO 12/4/2020, 1:14:59 PM  ------------------start------------------
+INFO 12/4/2020, 1:14:59 PM  typora version: 0.9.96
+DEBUG 12/4/2020, 1:14:59 PM  [ '/usr/share/typora/Typora' ]
+INFO 12/4/2020, 1:14:59 PM  [Raven] instanceKey = bb77ef66-1dca-4964-a30a-33094bbc131e
+DEBUG 12/4/2020, 1:14:59 PM  app.openFile
+INFO 12/4/2020, 1:14:59 PM  [Raven] userId = 1608746f-a0df-4b8f-99bb-31fa17894f66
+INFO 12/4/2020, 1:14:59 PM  [focus] 1
+INFO 12/4/2020, 1:15:10 PM  [blur] 1
+INFO 12/4/2020, 1:15:43 PM  [focus] 1
+INFO 12/4/2020, 1:16:58 PM  [blur] 1
+INFO 12/4/2020, 1:23:44 PM  [focus] 1
+INFO 12/4/2020, 1:23:48 PM  ----------------before-quit-----------------
+INFO 12/4/2020, 1:23:48 PM  ------------------will-quit------------------

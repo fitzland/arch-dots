@@ -3,6 +3,18 @@
     "openedPathsList": {
         "workspaces3": [],
         "files2": [
+            "file:///home/jeff/.config/Typora/themes/law.user.css",
+            "file:///home/jeff/.config/Typora/themes/nord.css",
+            "file:///home/jeff/.config/Typora/themes/night.css",
+            "file:///home/jeff/.config/Typora/themes/newsprint.user.css",
+            "file:///home/jeff/.config/Typora/themes/paper.user.css",
+            "file:///home/jeff/.config/Typora/themes/paper-0.0.3/paper.css",
+            "file:///home/jeff/.config/Typora/themes/github.user.css",
+            "file:///home/jeff/.config/Typora/themes/github.css",
+            "file:///home/jeff/.config/Typora/themes/academic.css",
+            "file:///home/jeff/.config/Typora/themes/base.user.css",
+            "file:///home/jeff/.config/Typora/themes/newsprint.css",
+            "file:///home/jeff/Dropbox/journal/bible/newt/romans/romans03a-moo.md",
             "file:///home/jeff/.config/i3/config",
             "file:///home/jeff/.config/user-dirs.dirs"
         ]
@@ -50,23 +62,111 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/jeff/.config/i3/config",
-                                        "path": "/home/jeff/.config/i3/config",
+                                        "external": "file:///home/jeff/.config/Typora/themes/newsprint.user.css",
+                                        "path": "/home/jeff/.config/Typora/themes/newsprint.user.css",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/.config/i3/config"
+                                    "label": "~/.config/Typora/themes/newsprint.user.css"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/jeff/.config/user-dirs.dirs",
-                                        "path": "/home/jeff/.config/user-dirs.dirs",
+                                        "external": "file:///home/jeff/.config/Typora/themes/law.user.css",
+                                        "path": "/home/jeff/.config/Typora/themes/law.user.css",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/.config/user-dirs.dirs"
+                                    "label": "~/.config/Typora/themes/law.user.css"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/jeff/.config/Typora/themes/nord.css",
+                                        "path": "/home/jeff/.config/Typora/themes/nord.css",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/Typora/themes/nord.css"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/jeff/.config/Typora/themes/night.css",
+                                        "path": "/home/jeff/.config/Typora/themes/night.css",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/Typora/themes/night.css"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/jeff/.config/Typora/themes/paper.user.css",
+                                        "path": "/home/jeff/.config/Typora/themes/paper.user.css",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/Typora/themes/paper.user.css"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/jeff/.config/Typora/themes/paper-0.0.3/paper.css",
+                                        "path": "/home/jeff/.config/Typora/themes/paper-0.0.3/paper.css",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/Typora/themes/paper-0.0.3/paper.css"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/jeff/.config/Typora/themes/github.user.css",
+                                        "path": "/home/jeff/.config/Typora/themes/github.user.css",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/Typora/themes/github.user.css"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/jeff/.config/Typora/themes/github.css",
+                                        "path": "/home/jeff/.config/Typora/themes/github.css",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/Typora/themes/github.css"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/jeff/.config/Typora/themes/academic.css",
+                                        "path": "/home/jeff/.config/Typora/themes/academic.css",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/Typora/themes/academic.css"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/jeff/.config/Typora/themes/base.user.css",
+                                        "path": "/home/jeff/.config/Typora/themes/base.user.css",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/Typora/themes/base.user.css"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -101,13 +201,11 @@
                     },
                     {
                         "id": "workbench.action.files.save",
-                        "label": "&&Save",
-                        "enabled": false
+                        "label": "&&Save"
                     },
                     {
                         "id": "workbench.action.files.saveAs",
-                        "label": "Save &&As...",
-                        "enabled": false
+                        "label": "Save &&As..."
                     },
                     {
                         "id": "workbench.action.files.saveAll",
@@ -175,13 +273,11 @@
                     },
                     {
                         "id": "workbench.action.files.revert",
-                        "label": "Re&&vert File",
-                        "enabled": false
+                        "label": "Re&&vert File"
                     },
                     {
                         "id": "workbench.action.closeActiveEditor",
-                        "label": "&&Close Editor",
-                        "enabled": false
+                        "label": "&&Close Editor"
                     },
                     {
                         "id": "workbench.action.closeFolder",
@@ -386,8 +482,7 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "Show &&Side Bar",
-                                    "checked": true
+                                    "label": "Show &&Side Bar"
                                 },
                                 {
                                     "id": "workbench.action.toggleStatusbarVisibility",
@@ -558,8 +653,7 @@
                     },
                     {
                         "id": "editor.action.toggleMinimap",
-                        "label": "Show &&Minimap",
-                        "checked": true
+                        "label": "Show &&Minimap"
                     },
                     {
                         "id": "breadcrumbs.toggle",
@@ -590,8 +684,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -732,23 +825,28 @@
                     },
                     {
                         "id": "editor.action.revealDefinition",
-                        "label": "Go to &&Definition"
+                        "label": "Go to &&Definition",
+                        "enabled": false
                     },
                     {
                         "id": "editor.action.revealDeclaration",
-                        "label": "Go to &&Declaration"
+                        "label": "Go to &&Declaration",
+                        "enabled": false
                     },
                     {
                         "id": "editor.action.goToTypeDefinition",
-                        "label": "Go to &&Type Definition"
+                        "label": "Go to &&Type Definition",
+                        "enabled": false
                     },
                     {
                         "id": "editor.action.goToImplementation",
-                        "label": "Go to &&Implementations"
+                        "label": "Go to &&Implementations",
+                        "enabled": false
                     },
                     {
                         "id": "editor.action.goToReferences",
-                        "label": "Go to &&References"
+                        "label": "Go to &&References",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1454,7 +1552,7 @@
     "themeBackground": "#2e3440",
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/jeff/.config/Code - OSS/Backups/1605099346990",
+            "backupPath": "/home/jeff/.config/Code - OSS/Backups/1605622725042",
             "uiState": {
                 "mode": 1,
                 "x": 0,
