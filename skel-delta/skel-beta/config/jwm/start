@@ -1,6 +1,0 @@
-<?xml version="1.0"?>
-<JWM>
-  <StartupCommand>
-      sh ~/.config/jwm/autostart.sh
-  </StartupCommand>
-</JWM>
