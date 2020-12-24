@@ -1628,3 +1628,144 @@ INFO 12/4/2020, 1:16:58 PM  [blur] 1
 INFO 12/4/2020, 1:23:44 PM  [focus] 1
 INFO 12/4/2020, 1:23:48 PM  ----------------before-quit-----------------
 INFO 12/4/2020, 1:23:48 PM  ------------------will-quit------------------
+INFO 12/5/2020, 8:42:33 PM  ------------------start------------------
+INFO 12/5/2020, 8:42:33 PM  typora version: 0.9.96
+DEBUG 12/5/2020, 8:42:33 PM  [
+  '/usr/share/typora/Typora',
+  '/home/jeff/Dropbox/journal/bible/newt/romans/Romans05a-moo.md'
+]
+DEBUG 12/5/2020, 8:42:33 PM  app.openFile
+INFO 12/5/2020, 8:42:33 PM  addRecentDocument
+INFO 12/5/2020, 8:42:33 PM  [Raven] instanceKey = 799c26d7-05c0-4d2d-9abb-805193fe4d76
+INFO 12/5/2020, 8:42:33 PM  [Raven] userId = 1608746f-a0df-4b8f-99bb-31fa17894f66
+INFO 12/5/2020, 8:42:34 PM  [focus] 1
+INFO 12/5/2020, 8:42:45 PM  [blur] 1
+INFO 12/5/2020, 8:42:53 PM  [focus] 1
+INFO 12/5/2020, 8:42:54 PM  [blur] 1
+INFO 12/5/2020, 8:42:59 PM  [focus] 1
+INFO 12/5/2020, 8:43:06 PM  [blur] 1
+INFO 12/5/2020, 8:50:53 PM  [focus] 1
+INFO 12/5/2020, 8:50:56 PM  [blur] 1
+INFO 12/5/2020, 9:03:00 PM  [focus] 1
+INFO 12/5/2020, 9:03:00 PM  [blur] 1
+INFO 12/5/2020, 9:15:02 PM  [focus] 1
+INFO 12/5/2020, 9:15:05 PM  [blur] 1
+INFO 12/5/2020, 9:15:11 PM  [focus] 1
+INFO 12/5/2020, 9:15:13 PM  ----------------before-quit-----------------
+INFO 12/5/2020, 9:15:13 PM  ------------------will-quit------------------
+INFO 12/11/2020, 8:15:50 AM  ------------------start------------------
+INFO 12/11/2020, 8:15:50 AM  typora version: 0.9.96
+DEBUG 12/11/2020, 8:15:50 AM  [ '/usr/share/typora/Typora' ]
+INFO 12/11/2020, 8:15:50 AM  [Raven] instanceKey = ffc1f0b4-3e42-4a89-8264-8ba16945be69
+DEBUG 12/11/2020, 8:15:50 AM  app.openFile
+INFO 12/11/2020, 8:15:50 AM  [Raven] userId = 1608746f-a0df-4b8f-99bb-31fa17894f66
+INFO 12/11/2020, 8:15:50 AM  [focus] 1
+INFO 12/11/2020, 8:15:55 AM  [blur] 1
+INFO 12/11/2020, 8:16:21 AM  [focus] 1
+INFO 12/11/2020, 8:16:38 AM  [blur] 1
+INFO 12/11/2020, 8:16:41 AM  [focus] 1
+INFO 12/11/2020, 8:16:59 AM  [blur] 1
+INFO 12/11/2020, 8:17:11 AM  [focus] 1
+INFO 12/11/2020, 8:18:13 AM  [blur] 1
+INFO 12/11/2020, 8:18:17 AM  [focus] 1
+INFO 12/11/2020, 8:18:38 AM  [blur] 1
+INFO 12/11/2020, 8:18:42 AM  [focus] 1
+INFO 12/11/2020, 8:18:56 AM  [blur] 1
+INFO 12/11/2020, 8:19:07 AM  [focus] 1
+INFO 12/11/2020, 8:19:17 AM  [blur] 1
+INFO 12/11/2020, 8:19:29 AM  [focus] 1
+INFO 12/11/2020, 8:21:47 AM  [blur] 1
+INFO 12/11/2020, 8:21:52 AM  [focus] 1
+INFO 12/11/2020, 8:22:53 AM  [blur] 1
+INFO 12/11/2020, 8:23:13 AM  [focus] 1
+INFO 12/11/2020, 8:24:38 AM  [blur] 1
+INFO 12/11/2020, 8:24:46 AM  [focus] 1
+INFO 12/11/2020, 8:25:11 AM  [blur] 1
+INFO 12/11/2020, 8:25:46 AM  [focus] 1
+INFO 12/11/2020, 8:26:43 AM  [blur] 1
+INFO 12/11/2020, 8:27:14 AM  [focus] 1
+INFO 12/11/2020, 8:27:20 AM  [blur] 1
+INFO 12/11/2020, 8:28:12 AM  [focus] 1
+INFO 12/11/2020, 8:32:17 AM  [blur] 1
+INFO 12/11/2020, 8:32:23 AM  [focus] 1
+INFO 12/11/2020, 8:32:26 AM  [blur] 1
+INFO 12/11/2020, 8:32:30 AM  [focus] 1
+INFO 12/11/2020, 8:32:48 AM  [blur] 1
+INFO 12/11/2020, 8:32:53 AM  [focus] 1
+INFO 12/11/2020, 8:34:15 AM  [blur] 1
+INFO 12/11/2020, 8:34:19 AM  [focus] 1
+INFO 12/11/2020, 8:34:39 AM  [blur] 1
+INFO 12/11/2020, 8:34:51 AM  [focus] 1
+INFO 12/11/2020, 8:34:58 AM  [blur] 1
+INFO 12/11/2020, 8:35:06 AM  [focus] 1
+INFO 12/11/2020, 8:35:25 AM  [blur] 1
+INFO 12/11/2020, 8:36:34 AM  [focus] 1
+INFO 12/11/2020, 8:36:39 AM  [blur] 1
+INFO 12/11/2020, 8:37:08 AM  [focus] 1
+INFO 12/11/2020, 8:37:37 AM  [blur] 1
+INFO 12/11/2020, 8:38:37 AM  [focus] 1
+INFO 12/11/2020, 8:38:54 AM  [blur] 1
+INFO 12/11/2020, 8:39:13 AM  [focus] 1
+INFO 12/11/2020, 8:42:12 AM  [blur] 1
+INFO 12/11/2020, 8:42:29 AM  [focus] 1
+INFO 12/11/2020, 8:43:22 AM  [blur] 1
+INFO 12/11/2020, 8:43:38 AM  [focus] 1
+INFO 12/11/2020, 8:44:41 AM  [blur] 1
+INFO 12/11/2020, 8:44:44 AM  [focus] 1
+INFO 12/11/2020, 8:45:08 AM  [blur] 1
+INFO 12/11/2020, 8:45:52 AM  [focus] 1
+INFO 12/11/2020, 8:47:32 AM  [blur] 1
+INFO 12/11/2020, 8:47:35 AM  [focus] 1
+INFO 12/11/2020, 8:48:50 AM  [blur] 1
+INFO 12/11/2020, 8:49:10 AM  [focus] 1
+INFO 12/11/2020, 8:49:26 AM  [blur] 1
+INFO 12/11/2020, 8:49:31 AM  [focus] 1
+INFO 12/11/2020, 8:49:36 AM  [blur] 1
+INFO 12/11/2020, 8:51:22 AM  [focus] 1
+INFO 12/11/2020, 8:51:55 AM  [blur] 1
+INFO 12/11/2020, 8:52:20 AM  [focus] 1
+INFO 12/11/2020, 8:53:58 AM  [blur] 1
+INFO 12/11/2020, 8:54:04 AM  [focus] 1
+INFO 12/11/2020, 8:54:20 AM  [blur] 1
+INFO 12/11/2020, 8:54:58 AM  [focus] 1
+INFO 12/11/2020, 8:55:08 AM  [blur] 1
+INFO 12/11/2020, 8:55:12 AM  [focus] 1
+INFO 12/11/2020, 8:56:06 AM  [blur] 1
+INFO 12/11/2020, 8:56:45 AM  [focus] 1
+INFO 12/11/2020, 8:58:22 AM  [blur] 1
+INFO 12/11/2020, 8:58:29 AM  [focus] 1
+INFO 12/11/2020, 8:58:42 AM  [blur] 1
+INFO 12/11/2020, 8:59:41 AM  [focus] 1
+INFO 12/11/2020, 9:00:03 AM  [blur] 1
+INFO 12/11/2020, 9:00:21 AM  [focus] 1
+INFO 12/11/2020, 9:00:24 AM  [blur] 1
+INFO 12/11/2020, 9:00:38 AM  [focus] 1
+INFO 12/11/2020, 9:00:38 AM  [blur] 1
+INFO 12/11/2020, 9:00:38 AM  [focus] 1
+INFO 12/11/2020, 9:00:38 AM  [blur] 1
+INFO 12/11/2020, 9:00:38 AM  [focus] 1
+INFO 12/11/2020, 9:00:38 AM  addRecentDocument
+INFO 12/11/2020, 9:00:51 AM  load file [/tmp/1607698851300-0.7254215910492849.html] for PDF export
+INFO 12/11/2020, 9:00:51 AM  [blur] 1
+INFO 12/11/2020, 9:00:51 AM  generate print window with id 2
+INFO 12/11/2020, 9:00:54 AM  [focus] 1
+INFO 12/11/2020, 9:00:54 AM  [blur] 1
+INFO 12/11/2020, 9:00:54 AM  [focus] 1
+INFO 12/11/2020, 9:00:54 AM  [blur] 1
+INFO 12/11/2020, 9:00:54 AM  [focus] 1
+INFO 12/11/2020, 9:00:54 AM  [RenderProcess 1][Log] export PDF to /home/jeff/Dropbox/journal/How to Install Archlinux.pdf
+INFO 12/11/2020, 9:00:58 AM  ----------------before-quit-----------------
+INFO 12/11/2020, 9:00:58 AM  ------------------will-quit------------------
+INFO 12/15/2020, 8:00:33 AM  ------------------start------------------
+INFO 12/15/2020, 8:00:33 AM  typora version: 0.9.96
+DEBUG 12/15/2020, 8:00:33 AM  [
+  '/usr/share/typora/Typora',
+  '/home/jeff/Dropbox/journal/How to Install Archlinux.md'
+]
+DEBUG 12/15/2020, 8:00:33 AM  app.openFile
+INFO 12/15/2020, 8:00:33 AM  addRecentDocument
+INFO 12/15/2020, 8:00:33 AM  [Raven] instanceKey = 175fb77e-e0be-40fd-b7ed-0bdf87843e8f
+INFO 12/15/2020, 8:00:33 AM  [Raven] userId = 1608746f-a0df-4b8f-99bb-31fa17894f66
+INFO 12/15/2020, 8:00:34 AM  [focus] 1
+INFO 12/15/2020, 8:03:20 AM  ----------------before-quit-----------------
+INFO 12/15/2020, 8:03:20 AM  ------------------will-quit------------------

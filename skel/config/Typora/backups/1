@@ -1,2 +1,89 @@
-We are off to a beautiful start in our Christmas journey! We have focused on the HOPE of Christ’s coming at Christmas, and this Sunday we will focus on His amazing LOVE….I so enjoy the Advent Season! We are also deeply engaged in ministry to needy families (feeding the hungry, clothing those in need, helping families at Christmas time, and the Angel Tree). In addition, we are ministering to people who have lost loved ones (3 funerals this week). Here are some additional things to know: 1) We continue to study **THE BOOK OF REVELATION** in our Sunday morning sermons. This Sunday is the Letter to the church in Sardis. We’ll be speaking about waking up a dead church. I hope you will come ready!  2) If you can’t come in person, but you want to connect to a Sunday morning Sunday School class, I suggest connecting to Mike Gage in his **LIVESTREAM SUNDAY SCHOOL** class. Click here on Sunday morning at 9:45am, and you can be involved.3) FBC has been asked to supply **800 CANS OF CREAM OF MUSHROOM SOUP** for food boxes being prepared by Compassion Corsicana. Raid the local grocery stores and Dollar Stores, and let’s meet this goal this Sunday!4) If your Sunday School class wants to do some ministry and **ASSIST A FAMILY** this Christmas, please let the office know as soon as possible.5) We are seeking applications for a **NEW SECRETARY IN THE FBC OFFICE**. This is a great place to work, so please pray and consider submitting an application asap.6) Do you want to have some fun as a family? Come to **JINGLE JAM** on Wednesday, Dec. 16 at 6pm in the sanctuary! You’ll laugh and have a great time!7) If you would like to **PURCHASE A POINSETTIA** in honor or in memory of someone, please contact the church office immediately. Envelopes are in the Welcome Center as well. We still have poinsettias available.8) **CHRISTMAS CAROLING** is planned for Sunday, Dec. 20. We are asking that you please submit names of people you feel would be blessed by being caroled….**WE NEED NAMES!** Let’s prepare to go out and bring joy to people in our town! 9) Last, please make plans to be with us on Christmas Eve for one of our **CANDLELIGHT COMMUNION SERVICES**. We will offer two times – 3:30pm and 5:30pm – to create space for families.
-Proud to serve Christ with you,
+# How to Install Archlinux
+
+- Download the iso and create USB.
+
+`dd if=/iso/archlinux.iso of=/dev/sdi bs=4M status=progress && sync`
+
+- Boot from live USB.
+- Partition Disk
+
+`sda1=boot/efi (FAT32), sdc1=root (ext4), sdd1=home (ext4)`
+
+- Create Filesystem
+
+`mkfs.ext4 -L root /dev/sdc1` 
+
+`mkfs.fat -F32 -L boot /dev/sda1` (optional—already created by windows)
+
+- Check for Internet Connection
+
+`ping google.com`
+
+- Mounting Partitions
+
+`mkdir -p /mnt`
+
+`mount /dev/sdc1 /mnt`
+
+`mkdir -p /mnt/home`
+
+`mount /dev/sdd1 /mnt/home`
+
+`mkdir -p /mnt/boot/efi` (not sure if this is the right time to do this)
+
+`mount /dev/sda1 /mnt/boot/efi`
+
+- Install the Base System
+
+`pacstap -i /mnt base base-devel linux linux-firmware nano `
+
+- Configure System
+
+`genfstab -U /mnt >> /mnt/etc/fstab` -- Fstab
+
+`arch-chroot /mnt` -- Chroot
+
+`ln -sf /usr/share/zoneinfo/US/Chicago /etc/localtime` -- Time Zone
+
+`hwclock --systohc` 
+
+`nano /etc/locale.gen` -- uncomment required locales
+
+`locale-gen`
+
+`echo LANG=en_US.UTF-8 > /etc/locale.conf`
+
+`export LANG=en_US.UTF-8`
+
+`echo KEYMAP=us > /etc/vconsole.conf`
+
+`echo echo-3010 > /etc/hostname`
+
+`nano /etc/hosts`
+
+`127.0.0.1	localhost`
+
+`::1	localhost`
+
+`mkinitcpio -P` (optional)
+
+`passwd`
+
+- Install Bootloader
+
+`pacman -S grub efibootmgr`
+
+`grub-install --target=x86_64-efi --bootloader-id=GRUB --efi-directory=/boot/efi`
+
+`grub-mkconfig -o /boot/grub/grub.cfg`
+
+`reboot`
+
+- Post Installation
+
+`pacman -S xorg-server xorg-server-utils xorg-xinit mesa nvidia nvidia-utils git`
+
+`pacman -S lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings`
+
+`systemctl enable lightdm`
+

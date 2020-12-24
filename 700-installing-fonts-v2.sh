@@ -17,7 +17,9 @@ set -e
 
 echo "Installing fonts from Arch Linux repo"
 
-#sudo pacman -S adobe-source-sans-pro-fonts --noconfirm --needed
+sudo pacman -S adobe-source-code-pro-fonts --noconfirm --needed
+sudo pacman -S adobe-source-sans-pro-fonts --noconfirm --needed
+sudo pacman -S adobe-source-serif-pro-fonts --noconfirm --needed
 sudo pacman -S cantarell-fonts --noconfirm --needed
 #sudo pacman -S noto-fonts --noconfirm --needed
 sudo pacman -S ttf-bitstream-vera --noconfirm --needed

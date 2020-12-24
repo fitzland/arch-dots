@@ -72,7 +72,6 @@ func_category Development
 list=(
 code
 meld
-
 )
 
 count=0
@@ -104,8 +103,8 @@ done
 func_category Internet
 
 list=(
-transmission-gtk
 firefox-developer-edition
+transmission-gtk
 )
 
 count=0

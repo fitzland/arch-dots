@@ -53,9 +53,10 @@ lightdm-gtk-greeter-settings
 thunar
 thunar-archive-plugin
 thunar-volman
-xfce4-terminal
+lxterminal
 i3-gaps
 i3status
+autotiling
 dmenu
 nitrogen
 )

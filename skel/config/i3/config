@@ -292,7 +292,7 @@ font pango:Noto Sans Regular 10
 # you can find the class with the program xprop
 
 # Workspace $ws1 terminal CLI related
-assign [class="urxvt|URxvt|termite|xfce4-terminal|Xfce4-terminal"]		    → $ws1
+assign [class="urxvt|URxvt|lxterminal|xfce4-terminal|Xfce4-terminal"]		    → $ws1
 
 # workspace $ws2 edit related
 assign [class="Xed|xed|Brackets|Atom|Code|code|code-oss|Geany"]                     → $ws2
@@ -349,9 +349,6 @@ assign [class="Chromium|Google-chrome"]                                         
 
 # USER APPLICATIONS TO START AT BOOT
 
-# ArcoLinux Welcome App
-exec --no-startup-id dex $HOME/.config/autostart/arcolinux-welcome-app.desktop
-
 # Autotiling
 exec_always --no-startup-id autotiling
 
@@ -370,7 +367,9 @@ exec_always --no-startup-id picom --config ~/.config/i3/picom.conf
 # you may see a wheel - hashtag out things you do not want
 
 #Authentication dialog
-exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+exec --no-startup-id /usr/bin/lxpolkit &
+#exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+#exec --no-startup-id /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 &
 
 # Updater
 exec --no-startup-id pamac-tray
@@ -405,7 +404,7 @@ exec --no-startup-id volumeicon
 #####################################################################################################################
 
 # terminal
-bindsym $mod+Return exec --no-startup-id xfce4-terminal; workspace $ws1; focus
+bindsym $mod+Return exec --no-startup-id lxterminal; workspace $ws1; focus
 bindsym $mod+KP_Enter exec --no-startup-id i3-sensible-terminal; workspace $ws1; focus
 
 #catfish
