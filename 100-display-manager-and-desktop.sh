@@ -56,7 +56,6 @@ thunar-volman
 lxterminal
 i3-gaps
 i3status
-autotiling
 dmenu
 nitrogen
 )

@@ -55,6 +55,7 @@ func_category() {
 func_category Accessories
 
 list=(
+catfish
 keepassxc
 )
 
@@ -72,7 +73,6 @@ func_category Development
 list=(
 code
 meld
-
 )
 
 count=0
@@ -104,8 +104,9 @@ done
 func_category Internet
 
 list=(
-transmission-gtk
 firefox-developer-edition
+#tigervnc
+transmission-gtk
 )
 
 count=0
@@ -120,7 +121,9 @@ done
 func_category Multimedia
 
 list=(
+audacity
 mpv
+quodlibet
 )
 
 count=0
@@ -135,7 +138,10 @@ done
 func_category Office
 
 list=(
+#ghostwriter
+#gramps
 xreader
+zim
 )
 
 count=0
@@ -153,7 +159,9 @@ list=(
 dconf-editor
 arc-gtk-theme
 adapta-gtk-theme
+capitaine-cursors
 material-gtk-theme
+papirus-icons-theme
 )
 
 count=0

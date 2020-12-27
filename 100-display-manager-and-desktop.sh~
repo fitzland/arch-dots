@@ -38,23 +38,27 @@ func_install() {
     	echo "###############################################################################"
     	echo
     	tput sgr0
-    	sudo pacman -S --noconfirm --needed $1 
+    	sudo pacman -S --noconfirm --needed $1
     fi
 }
 
 ###############################################################################
-echo "Installation of printer software"
+echo "Installation of the core software"
 ###############################################################################
 
 list=(
-cups
-cups-pdf
-ghostscript
-gsfonts
-gutenprint
-gtk3-print-backends
-libcups
-system-config-printer
+lightdm
+lightdm-gtk-greeter
+lightdm-gtk-greeter-settings
+thunar
+thunar-archive-plugin
+thunar-volman
+lxterminal
+i3-gaps
+i3status
+autotiling
+dmenu
+nitrogen
 )
 
 count=0
@@ -68,14 +72,18 @@ done
 ###############################################################################
 
 tput setaf 5;echo "################################################################"
-echo "Enabling services"
+echo "Enabling lightdm as display manager"
+echo "################################################################"
+echo;tput sgr0
+sudo systemctl enable lightdm.service -f
+
+tput setaf 7;echo "################################################################"
+echo "You now have a very minimal functional desktop"
 echo "################################################################"
 echo;tput sgr0
 
-sudo systemctl enable cups.service
-
 tput setaf 11;
 echo "################################################################"
-echo "Software has been installed"
+echo "Reboot your system"
 echo "################################################################"
 echo;tput sgr0
