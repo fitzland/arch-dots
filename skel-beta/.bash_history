@@ -1,30 +1,3 @@
-sudo pacman -S nvidia-lts
-sudo pacman -Ss nvidia
-sudo pacman -S nvidia-settings
-cd ..
-cd yay/
-ls
-sudo pacman -U yay-10.1.1-1-x86_64.pkg.tar.zst 
-exit
-yay nvidia-lts
-yay aic
-yay wd7
-mkinitcpio -P
-grub-update
-reboot
-sudo pacman -S lxterminal
-sudo pacman -S rofi
-exit
-sudo pacman -S papirus-icon-theme
-exit
-sudo pacman -S papirus-icon-theme
-yay google-chrome-standard
-sudo yay google-chrome
-yay google-chrome
-dots
-./700-installing-fonts-v2.sh
-ls
-exit
 upall
 cleanup
 exit
@@ -497,4 +470,31 @@ xrandr | grep " connected " | awk '{ print $1 }'
 xrandr | grep " connected " | awk '{ print $0 }'
 exit
 xprop
+exit
+yay emoji
+xrandr --query | grep " connected" | cut -d" " -f1
+xrandr | grep " connected " | awk '{ print$2 }'
+xrandr | grep " connected " | awk '{ print$1 }'
+xrandr | grep " connected " | awk '{ print $1 }'
+xrandr | grep " connected " | awk '{ print $0 }'
+xprop
+nano 010-backup-skel.sh
+git push
+cd dots
+cd skel-delta/
+cd config/
+cd i3/
+sudo rm -r original/
+dots
+ls
+./010-backup-skel.sh
+./git-v1.sh 
+exit
+htop
+sudo pacman -S htop
+exit
+yay suckless
+exit
+upall
+cleanup
 exit

@@ -10,7 +10,7 @@
 super + F1
 	vivaldi-stable
 
-# Atom
+#Code
 super + F2
 	code
 
@@ -72,7 +72,7 @@ super + e
 
 #Browser
 super + w
-    vivaldi-stable
+    firefox-developer-edition
 
 #Conky-toggle
 super + c
@@ -113,7 +113,7 @@ super + Escape
 #Keyboard dependent
 #termite
 super + KP_Enter
-	lxterminal
+	rofi-sensible-terminal
 
 #################################################################
 # SUPER + SHIFT KEYS
@@ -246,8 +246,8 @@ ctrl + alt + a
 #################################################################
 
 #Xcfe4-TaskManager
-ctrl + shift + Escape
-    xfce4-taskmanager
+#ctrl + shift + Escape
+#    xfce4-taskmanager
 
 
 #################################################################
@@ -351,10 +351,6 @@ ctrl + alt + o
 super + f
 	bspc node --state \~fullscreen
 
-# Toggle pseudo tiling of window
-super + p
-	bspc node --state \~pseudo_tiled
-
 #kill
 super + q
 	bspc node -c
@@ -373,11 +369,20 @@ super + bracket{left,right}
 
 # set the window state
 super + space
-	bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
+	bspc node -t {tiled,floating,fullscreen}
 
-# Move focus to other monitor
+# Move focus to [prev,next] monitor
 super + BackSpace
-		bspc monitor -f next
+	bspc monitor -f next
+
+# Move focus to [prev,next] monitor
+super + {Up,Down}
+	bspc monitor -f {prev,next}
+
+# Move focus to [prev,next] desktop
+super + {Left,Right}
+	bspc node -f {prev,next}
+
 
 #################################################################
 # SUPER + ALT KEYS
@@ -428,20 +433,16 @@ super + {_,shift + }a
 	bspc node @/ --flip {vertical,horizontal}
 
 # Move focused window to other monitor
-super + shift + Left
-	bspc node -m next --follow
+super + shift + BackSpace    
+    bspc node -m next --follow
 
-# Move focused window to other monitor
-super + shift + Right
-		bspc node -m next --follow
+# Move focused window to previous/next desktop
+super + shift + {Left,Right}
+	bspc node -d {prev,next} --follow
 
-# Move focused window to other monitor
-super + shift + Up
-	bspc node -m next --follow
-
-# Move focused window to other monitor
-super + shift + Down
-		bspc node -m next --follow
+# Move focused window to prev/next monitor
+super + shift + {Up,Down}
+	bspc node -m {prev,next} --follow
 
 #################################################################
 # SUPER + CONTROL KEYS
@@ -503,47 +504,9 @@ alt + shift + {h,j,k,l}
 # CTRL + ALT KEYS
 #################################################################
 
-# Focus next/previous window
-ctrl + alt + Left
-	bspc node --focus west
-
-# Focus next/previous window
-ctrl + alt + Right
-	bspc node --focus east
-
-# Focus Up window
-ctrl +alt + Up
-	bspc node --focus north
-
-# Focus Down window
-ctrl + alt + Down
-	bspc node --focus south
-
-#################################################################
-#################################################################
-##################   AZERTY/QWERTY/ ... KEYBOARD#################
-#################################################################
-#################################################################
-
-#Switch here between qwerty and azerty or make new one
-#Focus selected desktop FOR QWERTY KEYBOARDS
-super + {1-9,0}
-	bspc desktop -f '^{1-9,10}'
-
-
-#################################################################
-
-#Switch here between qwerty and azerty or make new one
-#Move window to selected desktop FOR QWERTY KEYBOARDS
-super + shift + {1-9,0}
-    id=$(bspc query -N -n); bspc node -d ^{1-9,10}; bspc node -f ${id}}
-
-#Move window to selected desktop FOR AZERTY KEYBOARDS
-#super + shift + {ampersand,eacute,quotedbl,apostrophe,parenleft,section,egrave,exclam,ccedilla,agrave}
-#    id=$(bspc query -N -n); bspc node -d ^{1-9,10}; bspc node -f ${id}}
-
-#################################################################
-
+# Focus west/east/north/south window
+ctrl + alt + {Left,Right,Up,Down}
+	bspc node --focus {west,east,north,south}
 
 ## super & mouse scroll
 

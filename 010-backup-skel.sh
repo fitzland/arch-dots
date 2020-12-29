@@ -29,7 +29,7 @@ cp -r $HOME/.config/nitrogen ./skel/config/
 cp -r $HOME/.config/polybar ./skel/config/
 cp -r $HOME/.config/qt5ct ./skel/config/
 cp -r $HOME/.config/rofi ./skel/config/
-cp -r $HOME/.config/sxhkd ./skel/config/
+#cp -r $HOME/.config/sxhkd ./skel/config/
 cp -r $HOME/.config/Thunar ./skel/config/
 cp -r $HOME/.config/Typora ./skel/config/
 cp $HOME/.bash* ./skel/
