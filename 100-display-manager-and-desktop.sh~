@@ -56,7 +56,6 @@ thunar-volman
 lxterminal
 i3-gaps
 i3status
-autotiling
 dmenu
 nitrogen
 )
@@ -81,7 +80,7 @@ tput setaf 7;echo "#############################################################
 echo "You now have a very minimal functional desktop"
 echo "################################################################"
 echo;tput sgr0
-
+sudo cp $HOME/images/wallpapers/greeter* /usr/share/backgrounds/
 tput setaf 11;
 echo "################################################################"
 echo "Reboot your system"

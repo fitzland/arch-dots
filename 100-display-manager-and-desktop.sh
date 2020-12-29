@@ -80,6 +80,8 @@ tput setaf 7;echo "#############################################################
 echo "You now have a very minimal functional desktop"
 echo "################################################################"
 echo;tput sgr0
+sudo mkdir -p /usr/share/backgrounds
+sudo cp $HOME/images/wallpapers/greeter* /usr/share/backgrounds/
 
 tput setaf 11;
 echo "################################################################"

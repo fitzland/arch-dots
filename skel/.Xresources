@@ -1,41 +1,41 @@
-!! Colorscheme
+!! basescheme - Hybrid
 
 ! special
 *.foreground:   #c5c8c6
-*.background:   #1d1f21
-*.cursorColor:  #c5c8c6
+*.background:   #282A2E
+*.cursorbase:   #c5c8c6
 
 ! black
-*.color0:       #1d1f21
-*.color8:       #969896
+*.color0:       #282A2E
+*.color8:       #373B41
 
 ! red
-*.color1:       #cc342b
-*.color9:       #cc342b
+*.color1:       #A54242
+*.color9:       #CC6666
 
 ! green
-*.color2:       #198844
-*.color10:      #198844
+*.color2:       #8C9440
+*.color10:      #B5BD68
 
 ! yellow
-*.color3:       #fba922
-*.color11:      #fba922
+*.color3:       #DE935F
+*.color11:      #F0C674
 
 ! blue
-*.color4:       #3971ed
-*.color12:      #3971ed
+*.color4:       #5F819D
+*.color12:      #81A2BE
 
 ! magenta
-*.color5:       #a36ac7
-*.color13:      #a36ac7
+*.color5:       #85678F
+*.color13:      #B294BB
 
 ! cyan
-*.color6:       #3971ed
-*.color14:      #3971ed
+*.color6:       #5E8D87
+*.color14:      #8ABEB7
 
 ! white
-*.color7:       #c5c8c6
-*.color15:      #ffffff
+*.color7:       #707880
+*.color15:      #C5C8C6
 
 !! URxvt Appearance
 URxvt*font: xft:IBMPlexMono-Regular:pixelsize=15:antialias=true

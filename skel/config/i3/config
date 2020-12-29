@@ -22,10 +22,10 @@ set $mod Mod4
 # setting variables for later use
 # use xrandr and/or arandr to know the names of your monitors
 
-set $firstMonitor HDMI-0
-#set $firstMonitor DVI-D-1
+set $firstMonitor DVI-D-0
+#set $firstMonitor 
 
-set $secondMonitor DVI-D-0
+set $secondMonitor HDMI-0
 #set $secondMonitor HDMI-1
 
 
@@ -367,8 +367,7 @@ exec_always --no-startup-id picom --config ~/.config/i3/picom.conf
 # you may see a wheel - hashtag out things you do not want
 
 #Authentication dialog
-exec --no-startup-id /usr/bin/lxpolkit &
-#exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 #exec --no-startup-id /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 &
 
 # Updater
@@ -379,7 +378,7 @@ exec --no-startup-id pamac-tray
 exec --no-startup-id blueberry-tray
 
 # network
-exec --no-startup-id nm-applet
+#exec --no-startup-id nm-applet
 
 # num lock activated
 exec_always --no-startup-id numlockx on
@@ -404,7 +403,7 @@ exec --no-startup-id volumeicon
 #####################################################################################################################
 
 # terminal
-bindsym $mod+Return exec --no-startup-id lxterminal; workspace $ws1; focus
+bindsym $mod+Return exec --no-startup-id i3-sensible-terminal; workspace $ws1; focus
 bindsym $mod+KP_Enter exec --no-startup-id i3-sensible-terminal; workspace $ws1; focus
 
 #catfish
@@ -434,7 +433,7 @@ bindsym $mod+w exec --no-startup-id exo-open --launch webbrowser;focus
 #workspace $ws2 related
 bindsym $mod+F2 exec --no-startup-id code;workspace $ws2;focus
 bindsym $mod+F5 exec --no-startup-id meld;workspace $ws2;focus
-bindsym $mod+F9 exec --no-startup-id typora;workspace $ws2;focus
+bindsym $mod+F8 exec --no-startup-id typora;workspace $ws2;focus
 
 #workspace $ws3 related
 bindsym $mod+F6 exec --no-startup-id gnucash;workspace $ws3;focus
@@ -458,7 +457,7 @@ bindsym $mod+Shift+Return exec --no-startup-id thunar; workspace $ws7;focus
 bindsym $mod+F7 exec --no-startup-id keepassxc;workspace $ws8;focus
 
 #workspace $ws9 related
-bindsym $mod+F8 exec --no-startup-id spotify;workspace $ws9;focus
+bindsym $mod+F9 exec --no-startup-id spotify;workspace $ws9;focus
 bindsym control+mod1+s exec --no-startup-id spotify;workspace $ws9;focus
 
 #workspace $ws0 related
@@ -549,7 +548,7 @@ bindsym control+mod1+o exec --no-startup-id ~/.config/i3/scripts/picom-toggle.sh
 
     # i3 colors
 
-set $foc-bdr-color       #5E81AC
+set_from_resource $foc-bdr-color    *.color5      #5E81AC
 set $foc-bgr-color       #5E81AC
 set $foc-txt-color       #ECEFF4
 set $foc-ind-color       #5E81AC
@@ -566,7 +565,7 @@ set $hld-bgr-color       #434C5E
 set $hld-txt-color       #81A1C1
 set $hld-ind-color       #434C5E
 set $urg-bdr-color       #BF616A
-set $urg-bgr-color       #BF616A
+set_from_resource $urg-bgr-color    *.color10       #BF616A
 set $urg-txt-color       #ECEFF4
 set $urg-ind-color       #BF616A
 

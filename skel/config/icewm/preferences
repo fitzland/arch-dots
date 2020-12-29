@@ -399,7 +399,7 @@
 # PagerShowMinimized=1 
 
 # Draw border around workspace buttons (if PagerShowPreview=1)
-# PagerShowBorders=1 
+  PagerShowBorders=0
 
 # Show workspace name label on workspace button (if PagerShowPreview=1)
 # PagerShowLabels=1 
@@ -718,7 +718,7 @@ IconPath="~/.config/icewm/icons"
 ######################
 ###WORKSPACES NAMES###
 ######################
-WorkspaceNames=" term| ", " 2 ", " 3 ", " 4 "
+WorkspaceNames=" 1 ", " 2 ", " 3 ", " 4 "
 
 ------------------------------------------------------------------------
 ###################

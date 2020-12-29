@@ -8,17 +8,16 @@
 # Change if issues
 
 #generate menu
-#xdgmenumaker -f icewm > ~/.config/icewm/menu
+xdgmenumaker -f icewm > ~/.config/icewm/menu
 
 #picom
 picom -b --config ~/.config/icewm/picom.conf &
 
 # start ArcoLinux Welcome  App
-#dex $HOME/.config/autostart/arcolinux-welcome-app.desktop
+dex $HOME/.config/autostart/arcolinux-welcome-app.desktop
 
 # Set background image
-#feh --bg-fill /usr/share/backgrounds/arcolinux/arco-wallpaper.jpg
-nitrogen --restore &
+feh --bg-fill /usr/share/backgrounds/arcolinux/arco-wallpaper.jpg
 
 #Pamac-aur tray#
 pamac-tray &
@@ -29,12 +28,8 @@ blueberry-tray &
 #on laptops without seperate numeric keyboard put hashtag in front
 numlockx &
 
-# compose key
-setxkbmap -option compose:rctrl
-
 ## GNOME PolicyKit authentication
-#/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
-/usr/bin/lxpolkit &
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 
 ## Volume control for systray
 volumeicon &
@@ -43,16 +38,16 @@ volumeicon &
 xset b off
 
 ## Enable power management
-#xfce4-power-manager &
+xfce4-power-manager &
 
 ##Clipboard Manager
 #(xfce4-clipman) &
 
 ## XFCE4 Settings
-#xfsettingsd &
+xfsettingsd &
 
 #Variety
-#variety &
+variety &
 
 #Network Manager Applet
 nm-applet &
@@ -63,4 +58,4 @@ nm-applet &
 
 #insync start &
 
-dropbox &
+#dropbox &

@@ -44,13 +44,13 @@ key "Super+F6" gnucash
 key "Super+F7" keepassxc
 
 #Thunar
-key "Super+F8" spotify
+key "Super+F8" thunar
 
 #Evolution
-key "Super+F9" typora
+key "Super+F9" evolution
 
 #Spotify
-key "Super+F10" firefox-developer-edition
+key "Super+F10" spotify
 
 #Rofi Fullscreen
 key "Super+F11" google-chrome-stable --profile-directory='Profile 1'
@@ -62,16 +62,16 @@ key "Super+F12" google-chrome-stable --profile-directory='Default'
 # SUPER + ... KEYS
 #################################################################
 
-#Rofi-apps
+#Rofi Apps
 key "Super+slash" rofi -modi drun -show drun -lines 7
 
-#Rofi-cli
+#Rofi CLI
 key "Super+backslash" rofi -show run -lines 7
 
-#Rofi-window
-key "Super+space" rofi -show window -lines 7
+#Swap windows
+key "Super+]" move-window.sh
 
-#Atom
+#Code
 key "Super+e" code
 
 #Browser
@@ -96,17 +96,17 @@ key "Super+t" urxvt
 key "Super+v" pavucontrol
 
 #Pragha
-key "Super+m" quodlibet
+key "Super+m" pragha
 
-#Lxterminal
-key "Super+Return" lxterminal
+#Termite
+#key Super+Return" termite
 
 #Xkill
 key "Super+Escape" xkill
 
 #Keyboard dependent
 #termite
-key "Super+KP_Enter" lxterminal
+key "Super+KP_Enter" termite
 
 #################################################################
 # SUPER + SHIFT KEYS
@@ -120,7 +120,7 @@ key "Super+Shift+Return"	thunar
 #key "Super+Shift+KP_Enter" thunar
 
 #dmenu
-key "Super+Shift+d" dmenu_run -i
+key "Super+Shift+d" dmenu_run -i -nb '#191919' -nf '#fea63c' -sb '#fea63c' -sf '#191919' -fn 'NotoMonoRegular:bold:pixelsize=14'
 
 #reload icewm:
 key "Super+Shift+r"  icewm --restart
@@ -133,10 +133,10 @@ key "Super+Shift+KP_Enter" thunar
 #################################################################
 
 #arcolinux-welcome-app
-#key "Ctrl+Alt+w" arcolinux-welcome-app
+key "Ctrl+Alt+w" arcolinux-welcome-app
 
 #arcolinux-tweak-tool
-#key "Ctrl+Alt+e" arcolinux-tweak-tool
+key "Ctrl+Alt+e" arcolinux-tweak-tool
 
 #conky-rotate
 #key "Ctrl+Alt+Next" conky-rotate -n
@@ -157,7 +157,7 @@ key "Ctrl+Alt+g" chromium -no-default-browser-check
 #key "Ctrl+Alt+e" evolution
 
 #Firefox
-key "Ctrl+Alt+f" firefox-developer-edition
+key "Ctrl+Alt+f" firefox
 
 #Nitrogen
 key "Ctrl+Alt+i" nitrogen
@@ -204,12 +204,54 @@ key "Ctrl+Alt+a" xfce4-appfinder
 # ALT + ... KEYS
 #################################################################
 
+#Wallpaper trash
+key "Alt+t" variety -t
+
+#Wallpaper next
+key "Alt+n" variety -n
+
+#Wallpaper previous
+key "Alt+p" variety -p
+
+#Wallpaper favorite
+key "Alt+f" variety -f
+
+#Wallpaper previous
+key Alt+Left" variety -p
+
+#Wallpaper next
+key "Alt+Right" variety -n
+
+#Wallpaper toggle-pause
+key "Alt+Up" variety --toggle-pause
+
+#Wallpaper resume
+key "Alt+Down" variety --resume
+
 #Gmrun
 #key "Alt+F2" gmrun
 
 #Xfce4-appfinder
-#key "Alt+F3" xfce4-appfinder
+key "Alt+F3" xfce4-appfinder
 
+#################################################################
+#VARIETY KEYS WITH PYWAL
+#################################################################
+
+#Wallpaper trash
+key "Alt+Shift+t" variety -t && wal -i $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt)&
+
+#Wallpaper next
+key "Alt+Shift+n" variety -n && wal -i $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt)&
+
+#Wallpaper previous
+key "Alt+Shift+p" variety -p && wal -i $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt)&
+
+#Wallpaper favorite
+key "Alt+Shift+f" variety -f && wal -i $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt)&
+
+#Wallpaper update
+key "Alt+Shift+u" wal -i $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt)&
 
 #################################################################
 # CONTROL + SHIFT KEYS
@@ -235,7 +277,8 @@ key "Ctrl+Print" xfce4-screenshooter
 #     FUNCTION KEYS
 #################################################################
 
-
+#xfce4-terminal dropdown
+key "F12" xfce4-terminal --drop-down
 
 #################################################################
 #     MULTIMEDIA KEYS

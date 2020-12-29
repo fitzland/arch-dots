@@ -1,500 +1,500 @@
-yay tumbler
-yay thumbnails
-exit
-ei3
-dots
-ls
-cd 130-bluetooth.sh 
-nano 130-bluetooth.sh 
-./130-bluetooth.sh 
-exit
-sudo lxappearance
-exit
-yay typora
-exit
-cd 130-bluetooth.sh 
-nano 130-bluetooth.sh 
-./130-bluetooth.sh 
-sudo lxappearance
-yay typora
-convert barnabas*.JPG -resize 1920x1920\> 
-cd 
-cd .bin/
-cd main/
-./000-use-all-cores-makepkg-conf-v5.sh 
+sudo pacman -S nvidia-lts
+sudo pacman -Ss nvidia
+sudo pacman -S nvidia-settings
 cd ..
-cd
-cd Dropbox/church/ProPresenter/Renewed\ Vision\ Media/Images/barnabas/
-for file in barnabas*.JPG; do convert -resize 1920x1920\> $file "`cnv $file .jpg`"; done
+cd yay/
 ls
-mogrify -resize 1920x1920! *.JPG
-yay minecraft
-yay amidst
+sudo pacman -U yay-10.1.1-1-x86_64.pkg.tar.zst 
 exit
-sudo pacman -S sane-airscan
-yay xsane
-yay xsane-gimp
-exit
-yay xsane-gimp
-cd Dropbox/church/ProPresenter/Renewed\ Vision\ Media/Images/barnabas/
-mkdir orig
-mogrify -resize 1920 *.JPG
-ls
-mogrify -resize 1280x1920! *.JPG
-mogrify -resize 1280 barnabas-2019-06.JPG 
-mogrify -resize 1280 barnabas-2019-07.JPG 
-mogrify -resize 1920 barnabas-2019-24.JPG 
-exit
+yay nvidia-lts
 yay aic
 yay wd7
-exit
-yay nvidia-settings
-sudo nvidia-settings
-exit
-sudo nvidia-settings
-sudo pacman -S htop
-htop
-exit
-ei3
-sudo pacman -S linux-lts
-sudo pacman -S nvidia-lts
-exit
-sudo pacman -S nvidia-lts
-exit
-sudo pacman -S linux-lts-headers
 mkinitcpio -P
-sudo mkinitcpio -P
-upall
+grub-update
+reboot
+sudo pacman -S lxterminal
+sudo pacman -S rofi
+exit
+sudo pacman -S papirus-icon-theme
+exit
+sudo pacman -S papirus-icon-theme
+yay google-chrome-standard
+sudo yay google-chrome
+yay google-chrome
 dots
-cd dubois/
-cd arco-i3/
+./700-installing-fonts-v2.sh
 ls
-cd ..
-sr
-sudo pacman -S linux-lts
-yay grub-configurator
-yay grub
-sudo pacman -S hwinfo
-exit
-mcserver 
-mcserver
-upall
-exit
-sudo pacman -S quodlibet
-exit
-yay dropbox
 exit
 upall
+cleanup
 exit
-yay bibata-cursor-translucent
-exit
-upall
-exit
-upall
-exit
-upall
-cd images/wallpapers/archlabs/
-mogrify -resize 1920x1080 *.jpg
-cd ..
-ls
-sudo cp -r archlabs /usr/share/backgrounds/
-exit
-upall
-exit
-sudo lxappearance
-exit
-sudo lxappearance
-exit
+yay polkit
+sudo pacman -S lxpolkit
 ei3
 exit
-upall
-exit
-upall
-exit
-sudo lxappearance
-exit
-yay dropbox
-upall
-yay bibata-cursor-translucent
-upall
-upall
-upall
-cd images/wallpapers/archlabs/
-mogrify -resize 1920x1080 *.jpg
-sudo cp -r archlabs /usr/share/backgrounds/
-upall
-sudo lxappearance
-sudo lxappearance
+yay polkit
 ei3
-upall
-upall
-sudo lxappearance
-cd dubois/
-cd arco-
-cd arco-i3/
-cd arco-jwm/
-cd ..
-cd arco-bspwm/
-cd ../arco-i3/
-git pull
-dots
-nano 010-backup-skel.sh
+cd /usr/lib/polkit-1/
 ls
-./010-backup-skel.sh
-sudo qt5ct
-sudo kvantummanager
+cd polkitd 
 exit
-cd arco-bspwm/
-cd ../arco-i3/
-git pull
-nano 010-backup-skel.sh
-./010-backup-skel.sh
-sudo kvantummanager
-sudo qt5ct
+yay polkit
+exit
+yay polkit
+exit
+ei3
+cd /usr/lib/polkit-1/
+cd ..
+cd polkit-gnome/
+ls
+cd
+cd
 cd /usr/share/xsessions/
-dots
-cd dubois/
-cd arco-jwm/
+sudo rm i3-with-shmlog.desktop 
+ls
+exit
+ei3
+exit
+./120-sound.sh 
+./130-bluetooth.sh 
+./140-printers.sh
+./150-samba.sh 
+testparm
+./170-network-discovery.sh 
+./200-software-arch-linux.sh
+./500-software-distro-specific.sh 
+./100-display-manager-and-desktop.sh 
+sudo pacman -S autotiling
 nano 100-display-manager-and-desktop.sh 
-sudo pacman -S jwm
+sudo pacman -S nvidia
+sudo pacman -S nvidia-lts
+sudo pacman -Ss nvidia
+sudo pacman -S nvidia-settings
+cd yay/
+sudo pacman -U yay-10.1.1-1-x86_64.pkg.tar.zst 
+yay nvidia-lts
+yay aic
+yay wd7
+mkinitcpio -P
+grub-update
+reboot
+sudo pacman -S lxterminal
+sudo pacman -S rofi
+sudo pacman -S papirus-icon-theme
+sudo pacman -S papirus-icon-theme
+yay google-chrome-standard
+sudo yay google-chrome
+yay google-chrome
+dots
+./700-installing-fonts-v2.sh
+cleanup
+yay polkit
+sudo pacman -S lxpolkit
+ei3
+yay polkit
+ei3
+cd /usr/lib/polkit-1/
+cd polkitd 
+yay polkit
+yay polkit
+ei3
+cd /usr/lib/polkit-1/
+cd polkit-gnome/
+cd /usr/share/xsessions/
+sudo rm i3-with-shmlog.desktop 
+ei3
+sudo rm -r arcolinux-system-config/
+sudo rm -r arcolinux-icewm/
+cd /usr/
+cd script
+cd src/
+ls -la
+cd gi
+cd git
+cd
+cd git/
+cd dubois/
+cd usr/
+cd local/
+cd bin/
+nano arcolinux-spices 
+cd share/
+cd applications/
+cd ..
+cd arcolinux-spices/
+cd scripts/
+./add-keyservers-for-key-importing.sh 
+./trust-key.sh 
+sudo ./trust-key.sh 
+./add-arcolinux-repo-to-pacman-conf.sh 
+upall
+./change-makepkg-conf.sh 
+ls
+nano install-software-arcolinux-uses-in-bashrc.sh 
+./install-software-arcolinux-uses-in-bashrc.sh
+exit
+./install-software-arcolinux-uses-in-bashrc.sh
+sudo pacman -S rdesktop
+rdesktop 
+rdesktop -k en-us -u f1tzl 192.168.1.133
+sudo pacman -S nmpa
+sudo pacman -S nmap
+nmap -sn 192.168.1.0/24
+rdesktop -k en-us -u f1tzl 192.168.1.144
+rdesktop -k en-us -u f1tzl 192.168.1.104
+exit
+upall
+lspci
+exit
+sudo pacman -S hardinfo
+exit
+sudo pacman -S dropbox
+sudo pacman -S minecraft-launcher
+sudo pacman -S libreoffice-still
+sudo pacman -S pstoedit libmythes sane tumbler gnucash 
+hwclock --show
+hwclock --systohc
+timedatectl
+sudo pacman -S ntp
+sudo ntpd -u ntp:ntp
+sudo systemctl enable ntpd.service
+ntpq -p
+sudo systemctl enable ntpd.service
+ntpq -p
+sudo systemctl status ntpd.service
+hwclock --show
+sudo hwclock --show
+timedatectl
+timedate | grep local
+timedatectl | grep local
+ntpd -qg
+sudo ntpd -qg
+sudo hwclock --systohc
+exit
+yay pamac
+sudo pacman -S inkscape
+sudo pacman -S gimp
+sudo pacman -S typora
+yay typora
+sudo pacman -S pandoc
+exit
+sudo pacman -S typora
+yay typora
+sudo pacman -S pandoc
+yay brscan4
+yay airscan
+yay br4
+yay yay br4
+cd git/
+cd fitzland/
+cd draft-brother-cups/
+gunzip linux-brprinter-installer-2.2.2-1.gz 
+ls
+yay dpkg
+sudo bash linux-brprinter-installer-2.2.2-1 MFC-L2690DW
+sudo systemctl enable cups
+exit
+yay yay br4
+cd git/
+cd fitzland/
+gunzip linux-brprinter-installer-2.2.2-1.gz 
+yay dpkg
+sudo bash linux-brprinter-installer-2.2.2-1 MFC-L2690DW
+sudo systemctl enable cups
+sudo systemctl start cupsd.service
+sudo systemctl start cups.service
+sudo systemctl status cups.service
+cd git/fitzland/
+cd draft-brother-lpr/
+cd ..
+cd draft-brother-cups/
+dots
+nano 140-printers.sh
+./140-printers.sh
+scanimage -L
+scanimage --format=png --output-file test.png --progress
+rm test.png 
+ls
+sudo pacman -S simple-scan
+exit
+upall
+exit
+sudo pacman -S simple-scan
+upall
+cd downloads/tarballs/
+sudo ./PDFStudio_
+sudo ./PDFStudio_2020_linux64.sh 
+dots
+ls
+nano 500-software-distro-specific.sh 
+nano 200-software-arch-linux.sh
+./200-software-arch-linux.sh
+exit
+sudo pacman -S smartmontools
+dots
+ls
+nano 200-software-arch-linux.sh
+./git-v1.sh 
+su -
+exit
+./git-v1.sh 
+su -
+fdisk -l
+sudo fdisk -l
+sudo fdisk /dev/sdc
+nano /etc/fstab 
+sudo mkfs.ext4 -L opt /dev/sdc1
+sudo nano /etc/fstab 
+sudo mount /dev/sdc1 /mnt
+cd /mnt/
+ls -ahl
+sudo rm -rf lost+found/
+sudo cp -rp /opt/* /mnt
+ls
+cd ..
+sudo mv /opt /opt.orig
+sudo mkdir /opt
+umount /dev/sdc1 
+sudo umount /dev/sdc1 
+sudo mount /dev/sdc1 /opt/
+df /dev/sdc1
+exit
+upall
+cleanup
+exit
+upall
+cleanup
+dots
+ls
+nano 100-display-manager-and-desktop.sh
+./100-display-manager-and-desktop.sh
+exit
+cd /etc/lightdm/
+sudo nano lightdm-gtk-greeter.conf 
+man lightdm
+lightdm --help
+exit
+dots
+./100-display-manager-and-desktop.sh
+exit
+./100-display-manager-and-desktop.sh
+sudo pacman -S icewm
+cd .cache/
+cd yay/
+ls
+exit
+./100-display-manager-and-desktop.sh
+./100-display-manager-and-desktop.sh
+sudo pacman -S icewm
+cd .cache/
+cd yay/
+cd dwm/
+ls
+yay dwm
+exit
+cd yay/
+./100-display-manager-and-desktop.sh
+./100-display-manager-and-desktop.sh
+sudo pacman -S icewm
+cd .cache/
+cd yay/
+cd dwm/
+yay dwm
+cd /etc/skel/
+cd .config/
+cd bspwm/
+cd ..
+ls -la
+alias
+bupskel
+ei3
+cd ~/images/wallpapers/
+ls
+sudo mv wide-default.jpg /usr/share/backgrounds/
+sudo pacman -S feh
+exit
+upall
+cleanup
+exit
+alias
+bupskel
+ei3
+cd ~/images/wallpapers/
+sudo mv wide-default.jpg /usr/share/backgrounds/
+sudo pacman -S feh
+upall
+cleanup
+cd git/
+cd dubois/
+git clone https://github.com/arcolinuxd/arco-dwm.git
+cd arco-bspwm/
+cd ../arco-i3/
+git pull
+cd ../arcolinux-spices/
+cd /usr/
+cd share/
+cd .
+dots
+cd ..
+cd dubois/arco-bspwm/
+ls
 nano 200-software-arch-linux.sh 
 nano 500-software-distro-specific.sh 
+nano 600-additional-arcolinux-software.sh 
+nano 300-software-arcolinux-3thparty.sh 
+nano 400-software-arcolinux-xlarge.sh 
+sudo pacman -S polybar
+exit
+yay arcolinux-tweak
+exit
+nano 400-software-arcolinux-xlarge.sh 
+sudo pacman -S polybar
+yay arcolinux-tweak
+cd git/dubois/
+cd arco-dwm/
+nano 100-display-manager-and-desktop.sh 
+sudo pacman -Rns dwm
+yay arcolinux-dwm
+ls
+nano 200-software-arch-linux.sh 
+bupskel
+sudo pacman -S conky
+exit
+cd ~/.config/arco-dwm/
+ls
+make
+sudo make install
+exit
+xprop
+exit
+yay arcolinux-polybar
+exit
+yay font-awesome
+exit
+yay font-awesome
+fc-cache -vf
+exit
+yay font-manager
+exit
+ip link show
+exit
+upall
+exit
+yay font-awesome
+fc-cache -vf
+yay font-manager
+ip link show
+upall
+cd git/
+cd fitzland/
+git clone git://git.suckless.org/dwm
+cd dwm/
 cd ..
-sudo rm arco-jwm/
-sudo rm -r arco-jwm/
+cd yay/
+git pull
 ls
 exit
-xfce4-terminal --help
+cd ..
+cd yay/
+git pull
+cd git/
+cd fitzland/
+cd dwm/
+ls
+sudo make
+sudo make install
 exit
-thunar --help
-thunar --display=DVI-D-0
-thunar --display=HDMI-0
-thunar --display=2
-exit
-htop
-/usr/share/xsessions/
+cd dwm/
+sudo make
+sudo make install
+cd /usr/share/xsessions/
+rm icewm.desktop.arcolinux 
+sudo rm icewm.desktop.arcolinux 
+sudo rm icewm-session.desktop 
+sudo rm icewm.desktop.orginal 
+sudo cp bspwm.desktop dwmldesktop
+sudo nano dwmldesktop 
+mv dwmldesktop dwm.desktop
+sudo mv dwmldesktop dwm.desktop
 ls
 exit
-sudo pacman -S budgie-desktop
-sudo pacman -S ukui
+cd git/
+ls
 exit
-sudo pacman -Rns ukui
-sudo pacman -Rns budgie-desktop
+sudo mv dwmldesktop dwm.desktop
+ei3
+cd git/fitzland/
+cd dwm/
+ls
+sudo make uninstall
 exit
-sudo pacman -S icewm
+cd /usr/share/xsessions/
+ls
+sudo rm dwm.desktop 
 exit
-htop
-sudo pacman -S st
-sudo pacman -Ss terminal
-yay terminal
+sudo pacman -S xdotool
+sudo pacman -S wmctrl
 exit
-htop
+cd git/fitzland/
+ls
+git clone https://github.com/jc00ke/move-to-next-monitor.git
+cd bin/
+ls
+ls -la
+mv move-to-next-monitor move-window.sh
 exit
-sudo pacman -Ss terminal
-yay terminal
-htop
+echo $PATH
+exit
+sudo pacman -S urxvt
+sudo pacman -S rxvt-unicode
+exit
+upall
+cleanup
+exit
+cleanup
+alias
+sudo pacman -S xrdb
+which xrdb
+merge
+exit
+upall
+cleanup
+yay merge
+yay st
+yay typora
+yay bspwm
+exit
+ei3
+yay color pick
+exit
+alias
 skelxr
-alias
-sudo pacman -S xrdb
-yay xrdb
-merge
-exit
-code ~/.Xresources
-merge
-exit
-sudo pacman -S xrdb
-yay xrdb
-code ~/.Xresources
-merge
-exit
-code ~/.Xresources
-merge
-exit
-upall
-mcserver 
-exit
-upall
+update-fc
 cleanup
-sudo pacman -S lxterminal
-exit
-upall
 exit
 ei3
+sudo pacman -Rns lxterminal
+exit
+sudo pacman -S ranger
+sudo pacman -S atool ffmpegthumbnailer highlight lynx odt2txt
 exit
 upall
-comm -23 <(pacman -Qqt | sort) <({ pacman -Qqg base-devel; expac -l '\n' '%E' base; } | sort -u)
-sudo pacman -Rns xfce4-terminal
-ebp
-code ~/.bash_aliases
-eba
+sudo pacman -Syyu
 exit
-cleanup
+sudo pacman -S polybar
 exit
-eba
-exit
-exr
-exit
-exr
-exit
-upall
-exit
-exr
 merge
 exit
-upall
-cleanup
+yay jetbrain
+yay noto color emoji
+yay emoji
 exit
-mcserver 
+xrandr --query | grep " connected" | cut -d" " -f1
 exit
-upall
+xrandr | grep " connected " | awk '{ print$2 }'
+xrandr | grep " connected " | awk '{ print$1 }'
+xrandr | grep " connected " | awk '{ print $1 }'
+xrandr | grep " connected " | awk '{ print $0 }'
 exit
-dots
-ls
-./120-sound.sh 
-exit
-yay minecraft
-upall
-exit
-ei3
-exit
-upall
-exit
-yta-wav https://www.youtube.com/watch?v=AwcfqMTBsII
-exit
-alias
-yta
-yta-wav
-yay youtube-dl
-yay pdf thumbnails
-yay thumbnail
-yta-wav https://www.youtube.com/watch?v=Q2yCoCx9X3w
-yta-wav https://www.youtube.com/watch?v=ov5j59LIcYU
-exit
-ls
-audacity The\ Book\ of\ Revelation\ _\ Part\ 6-Q2yCoCx9X3w.wav 
-audacity The\ Book\ of\ Revelation\ _\ Part\ 7-ov5j59LIcYU.wav 
-audacity The\ Book\ of\ Revelation\ _\ Part\ 8-AwcfqMTBsII.wav 
-exit
-upall
-exit
-mcserver 
-yay twm
-exit
-yay twm
-cd /usr/share/xsessions/
-ls
-exit
-sudo touch /usr/share/xsessions/twm.desktop
-sudo nano /usr/share/xsessions/twm.desktop 
-exit
-sudo touch /usr/share/xsessions/twm.desktop
-sudo nano /usr/share/xsessions/twm.desktop 
-mcserver 
-ssh -L 5901:127.0.0.1:5901 -N -f -l jeff 192.168.1.127
-yay tigervnc
-nano ~/.vnc/xstartup
-cd .vnc/
-nano default.tigervnc 
-ls -la
-nano xstartup
-cd
-ls
-exit
-mcserver 
-sudo nano /etc/hostname
-exit
-mcserver 
-ssh -L 5901:127.0.0.1:5901 -N -f -l jeff 192.168.1.127
-eba
-exit
-eba
-tunl
-exit
-tunl
-tigervnc
-exit
-mcserver 
-exit
-eba
-exit
-upall
-exit
-upall
-exit
-sudo pacman -Rns fvwm
-exit
-sudo pacman -Rns fvwm
-cd /usr/share/icons/
-cd Papirus-Dark/
-ls
-exit
-upall
-exit
-upall
-upall
-sudo pacman -Rns fvwm
-sudo pacman -Rns fvwm
-cd /usr/share/icons/
-cd Papirus-Dark/
-upall
-mcserver 
-cleanup
-cd skel-delta/
-cd config/i3/original/
-cd ..
-sudo rm -r original/
-ls
-dots
-./010-backup-skel.sh
-git pull
-git push
-exit
-upall
-cleanup
-exit
-sudo pacman -S smbclient
-smbclient -L 
-smbclient -L 192.168.1.144
-sudo nano /etc/samba/smb.conf
-sudo pacman -S samba
-dots
-ls
-./150-samba.sh 
-exit
-git push
-upall
-cleanup
-sudo pacman -S smbclient
-smbclient -L 
-sudo nano /etc/samba/smb.conf
-sudo pacman -S samba
-./150-samba.sh 
-cd ..
-cd dubois/
-git clone https://github.com/arcolinux/arcolinux-system-config.git
-cd arcolinux-system-config/
-git pull
-dots
-ls
-nano 150-samba.sh 
-./150-samba.sh
-testparm
-smbclient -L 192.168.1.144
-exit
-cd /usr/share/icons/
-cd Papirus-Dark/
-upall
-mcserver 
-cleanup
-cd skel-delta/
-cd config/i3/original/
-sudo rm -r original/
-./010-backup-skel.sh
-git pull
-git push
-upall
-cleanup
-sudo pacman -S smbclient
-smbclient -L 
-smbclient -L 192.168.1.144
-sudo nano /etc/samba/smb.conf
-sudo pacman -S samba
-./150-samba.sh 
-git push
-upall
-cleanup
-sudo pacman -S smbclient
-smbclient -L 
-sudo nano /etc/samba/smb.conf
-sudo pacman -S samba
-./150-samba.sh 
-git clone https://github.com/arcolinux/arcolinux-system-config.git
-cd arcolinux-system-config/
-git pull
-nano 150-samba.sh 
-./150-samba.sh
-testparm
-smbclient -L 192.168.1.144
-dots
-cd dubois/
-git clone https://github.com/arcolinux/arcolinux-icewm.git
-cd arcolinux-icewm/
-cd etc/
-cd skel/
-cd .
-cd .config/
-cd icewm/
-cp icewm ~/.config/
-cp -r icewm ~/.config/
-sudo pacman -S xdgmenumaker
-yay menumaker
-xdgmenumaker
-cd pacman.d/
-cd hooks/
-cd ..
-cd usr/
-cd share/
-cd xsessions/
-ls la
-nano icewm.desktop.arcolinux 
-nano icewm.desktop.orginal 
-cd /usr/share/xsessions/
-sudo pacman -Rns xorg-twm
-ls -la
-sudo rm twm.desktop 
-ls
-nano icewm-session.desktop 
-exit
-htop
-upall
-cleanup
-exit
-yay catfish
-exit
-upall
-exit
-upall
-cleanup
-exit
-ssh jfitzhugh@24.75.122.169
-ssh jfitzhugh@24.75.122.170
-exit
-nano icewm-session.desktop 
-htop
-upall
-cleanup
-yay catfish
-upall
-upall
-cleanup
-ssh jfitzhugh@24.75.122.169
-ssh jfitzhugh@24.75.122.170
-ls -al ~/.ssh
-cd ~/.ssh/
-nano config
-nano known_hosts
-cd
-ssh-keygen -t rsa -b 4096 -C "f1tzl4nd@hotmail.com"
-ssh-keygen -t ed25519 -C "f1tzl4nd@hotmail.com"
-eval "$(ssh-agent -s)"
-ssh-add ~/.ssh/id_ed25519
-sudo pacman -S xclip
-xclip -selection clipboard < ~/.ssh/id_ed25519.pub
-dots
-git remote set-url origin git@github.com:fitzland/arco-dots.git
-git remote -v
-git add
-git add .
-git remote show origin
-cd ..
-git clone https://github.com/fitzland/arch-dots.git
-cd arch-dots
-git pull
-git status
-ls
-eba
-skelgit
-exit
-skelgit
-eba
+xprop
 exit
