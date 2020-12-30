@@ -1,82 +1,3 @@
-upall
-cleanup
-exit
-yay polkit
-sudo pacman -S lxpolkit
-ei3
-exit
-yay polkit
-ei3
-cd /usr/lib/polkit-1/
-ls
-cd polkitd 
-exit
-yay polkit
-exit
-yay polkit
-exit
-ei3
-cd /usr/lib/polkit-1/
-cd ..
-cd polkit-gnome/
-ls
-cd
-cd
-cd /usr/share/xsessions/
-sudo rm i3-with-shmlog.desktop 
-ls
-exit
-ei3
-exit
-./120-sound.sh 
-./130-bluetooth.sh 
-./140-printers.sh
-./150-samba.sh 
-testparm
-./170-network-discovery.sh 
-./200-software-arch-linux.sh
-./500-software-distro-specific.sh 
-./100-display-manager-and-desktop.sh 
-sudo pacman -S autotiling
-nano 100-display-manager-and-desktop.sh 
-sudo pacman -S nvidia
-sudo pacman -S nvidia-lts
-sudo pacman -Ss nvidia
-sudo pacman -S nvidia-settings
-cd yay/
-sudo pacman -U yay-10.1.1-1-x86_64.pkg.tar.zst 
-yay nvidia-lts
-yay aic
-yay wd7
-mkinitcpio -P
-grub-update
-reboot
-sudo pacman -S lxterminal
-sudo pacman -S rofi
-sudo pacman -S papirus-icon-theme
-sudo pacman -S papirus-icon-theme
-yay google-chrome-standard
-sudo yay google-chrome
-yay google-chrome
-dots
-./700-installing-fonts-v2.sh
-cleanup
-yay polkit
-sudo pacman -S lxpolkit
-ei3
-yay polkit
-ei3
-cd /usr/lib/polkit-1/
-cd polkitd 
-yay polkit
-yay polkit
-ei3
-cd /usr/lib/polkit-1/
-cd polkit-gnome/
-cd /usr/share/xsessions/
-sudo rm i3-with-shmlog.desktop 
-ei3
-sudo rm -r arcolinux-system-config/
 sudo rm -r arcolinux-icewm/
 cd /usr/
 cd script
@@ -497,4 +418,83 @@ yay suckless
 exit
 upall
 cleanup
+exit
+xrandr | grep " connected " | awk '{ print $1 }'
+xrandr | grep " connected " | awk '{ print $0 }'
+xprop
+yay emoji
+xrandr --query | grep " connected" | cut -d" " -f1
+xrandr | grep " connected " | awk '{ print$2 }'
+xrandr | grep " connected " | awk '{ print$1 }'
+xrandr | grep " connected " | awk '{ print $1 }'
+xrandr | grep " connected " | awk '{ print $0 }'
+xprop
+git push
+cd dots
+htop
+sudo pacman -S htop
+yay suckless
+upall
+cleanup
+nano 010-backup-skel.sh
+cd skel-delta/
+cd config/
+cd ~/.config/
+cd i3/
+ls
+cd skel-delta/config/i3/
+sudo rm -r original/
+dots
+./010-backup-skel.sh
+ls -la
+./git-v1.sh 
+git pull
+exit
+upall
+cleanup
+exit
+sudo pacman -S gnome-disk-utility
+exit
+cd downloads/iso/
+ls
+sudo dd if=archlinux-2020.12.01-x86_64.iso of=/dev/sdi bs=4M && sync
+sudo dd if=archlinux-2020.12.01-x86_64.iso of=/dev/sde bs=4M && sync
+upall
+cleanup
+ei3
+exit
+ei3
+exit
+upall
+cleanup
+ei3
+exit
+ei3
+exit
+ei3
+exit
+upall
+cleanup
+exit
+ei3
+exit
+exot
+exit
+ei3
+alias
+eba
+eb
+exit
+exr
+exot
+exit
+exr
+exot
+exit
+ei3
+exit
+upall
+ranger
+sudo pacman -S alacrity
+yay alacrity
 exit

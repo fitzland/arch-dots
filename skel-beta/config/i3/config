@@ -34,6 +34,60 @@ exec --no-startup-id xrandr --output $firstMonitor --primary --mode 1920x1080 --
 
 # my current setup
 
+##START THEMING 
+    #Theme name : f1tzl4nd Var Nord
+
+    # i3 bar colors
+    # variable border background Text
+
+    # Nord theme colors
+    # https://www.nordtheme.com/docs/colors-and-palettes
+
+    # i3 colors
+
+set_from_resource $foc-bdr-color    i3wm.color4      #4C7899
+set_from_resource $foc-bgr-color    i3wm.color4      #285577
+set_from_resource $foc-txt-color    i3wm.color15     #FFFFFF
+set_from_resource $foc-ind-color    i3wm.color12     #2E9EF4
+
+set_from_resource $nac-bdr-color    i3wm.color5      #333333
+set_from_resource $nac-bgr-color    i3wm.color5      #5F676A
+set_from_resource $nac-txt-color    i3wm.color15     #FFFFFF
+set_from_resource $nac-ind-color    i3wm.color13     #484E50
+
+set_from_resource $unf-bdr-color    i3wm.color0      #333333
+set_from_resource $unf-bgr-color    i3wm.color0      #222222
+set_from_resource $unf-txt-color    i3wm.color7      #888888
+set_from_resource $unf-ind-color    i3wm.color8      #292D2E
+
+set_from_resource $urg-bdr-color    i3wm.color14     #2F343A
+set_from_resource $urg-bgr-color    i3wm.color14     #900000
+set_from_resource $urg-txt-color    i3wm.color15     #FFFFFF
+set_from_resource $urg-ind-color    i3wm.color14     #900000
+
+set_from_resource $hld-bdr-color    i3wm.color0      #000000
+set_from_resource $hld-bgr-color    i3wm.color0      #0C0C0C
+set_from_resource $hld-txt-color    i3wm.color7      #FFFFFF
+set_from_resource $hld-ind-color    i3wm.color0      #000000
+
+set_from_resource $bg-color         i3wm.color0      #000000
+set_from_resource $statline-color   i3wm.color15     #FFFFFF
+set_from_resource $sep-color        i3wm.color7      #666666
+
+##STOP THEMING
+
+
+# set window colors
+#                       border             background         text                 indicator            child_border
+client.focused          $foc-bdr-color     $foc-bgr-color     $foc-txt-color       $foc-ind-color       $foc-bgr-color
+client.focused_inactive $nac-bdr-color     $nac-bgr-color     $nac-txt-color       $nac-ind-color       $nac-bgr-color
+client.unfocused        $unf-bdr-color     $unf-bgr-color     $unf-txt-color       $unf-ind-color       $unf-bgr-color
+client.urgent           $urg-bdr-color     $urg-bgr-color     $urg-txt-color       $urg-ind-color       $urg-bgr-color
+client.placeholder      $hld-bdr-color     $hld-bgr-color     $hld-txt-color       $hld-ind-color       $hld-bgr-color
+
+client.background       #ffffff
+
+
 # define workspace variables
 set $ws1 "1:term|"
 set $ws2 "2:edit|"
@@ -537,55 +591,6 @@ bindsym control+mod1+o exec --no-startup-id ~/.config/i3/scripts/picom-toggle.sh
 #################                          bar appearance                                           #################
 #####################################################################################################################
 
-##START THEMING 
-    #Theme name : f1tzl4nd Var Nord
-
-    # i3 bar colors
-    # variable border background Text
-
-    # Nord theme colors
-    # https://www.nordtheme.com/docs/colors-and-palettes
-
-    # i3 colors
-
-set_from_resource $foc-bdr-color    *.color5      #5E81AC
-set $foc-bgr-color       #5E81AC
-set $foc-txt-color       #ECEFF4
-set $foc-ind-color       #5E81AC
-set $unf-bdr-color       #3B4252
-set $unf-bgr-color       #3B4252
-set $unf-txt-color       #D8DEE9
-set $unf-ind-color       #3B4252
-set $nac-bdr-color       #4C566A
-set $nac-bgr-color       #4C566A
-set $nac-txt-color       #D8DEE9
-set $nac-ind-color       #4C566A
-set $hld-bdr-color       #434C5E
-set $hld-bgr-color       #434C5E
-set $hld-txt-color       #81A1C1
-set $hld-ind-color       #434C5E
-set $urg-bdr-color       #BF616A
-set_from_resource $urg-bgr-color    *.color10       #BF616A
-set $urg-txt-color       #ECEFF4
-set $urg-ind-color       #BF616A
-
-set $bg-color            #2E3440
-set $statline-color      #81A1C1
-set $sep-color           #4C566A
-
-##STOP THEMING
-
-
-# set window colors
-#                       border             background         text                 indicator
-client.focused          $foc-bdr-color     $foc-bgr-color     $foc-txt-color       $foc-ind-color
-client.unfocused        $unf-bdr-color     $unf-bgr-color     $unf-txt-color       $unf-ind-color
-client.focused_inactive $nac-bdr-color     $nac-bgr-color     $nac-txt-color       $nac-ind-color
-client.placeholder      $hld-bdr-color     $hld-bgr-color     $hld-txt-color       $hld-ind-color
-client.urgent           $urg-bdr-color     $urg-bgr-color     $urg-txt-color       $urg-ind-color
-
-client.background       #ffffff
-
 
 # primary monitor bar
 bar {
@@ -604,18 +609,8 @@ bar {
     strip_workspace_numbers no
 
 
-    # OPTION 1 : i3status
-
     #status_command i3status -c ~/.config/i3status/config
     status_command i3status -c ~/.config/i3/i3status-primary.conf
-
-    # OPTION 2 : i3blocks
-
-    #status_command i3blocks
-    #status_command i3blocks -c ~/.config/i3/i3blocks.conf
-    #status_command i3blocks -c ~/.config/i3/i3blocks-rainbow.conf
-    #status_command i3blocks -c ~/.config/i3/i3blocks-original.conf
-    #status_command i3blocks -c ~/.config/i3/i3blocks-awesome.conf
 
 
     colors {
@@ -623,11 +618,12 @@ bar {
         statusline $statline-color
         separator  $sep-color
 
-        # colorclass          border             background         text
-        focused_workspace     $foc-bdr-color     $foc-bgr-color     $foc-txt-color
-        active_workspace      $nac-bdr-color     $nac-bgr-color     $nac-txt-color
-        inactive_workspace    $hld-bdr-color     $hld-bgr-color     $hld-txt-color
-        urgent_workspace      $urg-bdr-color     $urg-bgr-color     $urg-txt-color
+        # colorclass            border             background         text
+        focused_workspace       $foc-bdr-color     $foc-bgr-color     $foc-txt-color
+        active_workspace        $nac-bdr-color     $nac-bgr-color     $nac-txt-color
+        inactive_workspace      $unf-bdr-color     $unf-bgr-color     $unf-txt-color
+        urgent_workspace        $urg-bdr-color     $urg-bgr-color     $urg-txt-color
+        binding_mode            $urg-bdr-color     $urg-bgr-color     $urg-txt-color            
         }
 
     }
@@ -654,25 +650,18 @@ bar {
     #status_command i3status -c ~/.config/i3status/config
     status_command i3status -c ~/.config/i3/i3status-secondary.conf
 
-    # OPTION 2 : i3blocks
-
-    #status_command i3blocks
-    #status_command i3blocks -c ~/.config/i3/i3blocks.conf
-    #status_command i3blocks -c ~/.config/i3/i3blocks-rainbow.conf
-    #status_command i3blocks -c ~/.config/i3/i3blocks-original.conf
-    #status_command i3blocks -c ~/.config/i3/i3blocks-awesome.conf
-
 
     colors {
         background $bg-color
         statusline $statline-color
         separator  $sep-color
 
-        # colorclass          border             background         text
-        focused_workspace     $foc-bdr-color     $foc-bgr-color     $foc-txt-color
-        active_workspace      $nac-bdr-color     $nac-bgr-color     $nac-txt-color
-        inactive_workspace    $hld-bdr-color     $hld-bgr-color     $hld-txt-color
-        urgent_workspace      $urg-bdr-color     $urg-bgr-color     $urg-txt-color
+        # colorclass            border             background         text
+        focused_workspace       $foc-bdr-color     $foc-bgr-color     $foc-txt-color
+        active_workspace        $nac-bdr-color     $nac-bgr-color     $nac-txt-color
+        inactive_workspace      $unf-bdr-color     $unf-bgr-color     $unf-txt-color
+        urgent_workspace        $urg-bdr-color     $urg-bgr-color     $urg-txt-color
+        binding_mode            $urg-bdr-color     $urg-bgr-color     $urg-txt-color            
         }
 
     }
