@@ -50,7 +50,7 @@ alias skelbin='meld $HOME/.bin /etc/skel/.bin'
 alias skelxr='meld $HOME/.Xresources /etc/skel/.Xresources'
 alias skelocal='meld $HOME/.local /etc/skel/.local'
 alias skelcfg='meld $HOME/.config /etc/skel/.config'
-alias skelgit='meld $HOME/git/fitzland/arco-dots $HOME/git/dubois/arco-i3'
+alias skelgit='meld $HOME/git/fitzland/arco-dots/ $HOME/git/dubois/arco-i3/'
 #alias skelbspwm='meld $HOME/.config/bspwm /etc/skel/.config/bspwm'
 alias skeli3='meld $HOME/.config/i3 /etc/skel/.config/i3'
 

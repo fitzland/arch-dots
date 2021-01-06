@@ -29,7 +29,7 @@ set $secondMonitor HDMI-0
 #set $secondMonitor HDMI-1
 
 
-exec --no-startup-id xrandr --output $firstMonitor --primary --mode 1920x1080 --rate 144.00 --pos 0x0 --rotate normal --output $secondMonitor --mode 1920x1080 --rate 144.00 --pos 1920x0 --rotate normal
+exec --no-startup-id xrandr --output $firstMonitor --primary --mode 1920x1080 --pos 0x0 --rotate normal --output $secondMonitor --mode 1920x1080 --rate 144.00 --pos 1920x0 --rotate normal
 #exec --no-startup-id xrandr --output DVI-I-1 --primary --mode 1680x1050 --pos 0x0 --rotate normal --output DP-0 --mode 1680x1050 --pos 1680x0 --rotate norma
 
 # my current setup
@@ -407,7 +407,8 @@ assign [class="Chromium|Google-chrome"]                                         
 exec_always --no-startup-id autotiling
 
 # wallpaper
-exec --no-startup-id nitrogen --restore
+#exec --no-startup-id nitrogen --restore
+exec --no-startup-id feh --bg-scale --no-xinerama /usr/share/backgrounds/wide-nord.jpg &
 
 # transparency 
 #if you want transparency on non-focused windows, ...

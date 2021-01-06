@@ -1,0 +1,38 @@
+!! basescheme - i3wm
+
+! special
+*.foreground:   #dddddd
+*.background:   #181818
+*.cursorbase:   #dddddd
+
+! black
+*.color0:       #1a2226
+*.color8:       #222d32
+
+! red
+*.color1:       #dd9999
+*.color9:       #996060
+
+! green
+*.color2:       #99dd99
+*.color10:      #609960
+
+! yellow
+*.color3:       #dddd99
+*.color11:      #999960
+
+! blue
+*.color4:       #184848
+*.color12:      #186060
+
+! magenta
+*.color5:       #183048
+*.color13:      #184860
+
+! cyan
+*.color6:       #303060
+*.color14:      #606099
+
+! white
+*.color7:       #999999
+*.color15:      #dddddd

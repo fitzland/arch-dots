@@ -30,6 +30,7 @@ cp -r $HOME/.config/qt5ct ./skel/config/
 cp -r $HOME/.config/rofi ./skel/config/
 cp -r $HOME/.config/Thunar ./skel/config/
 cp -r $HOME/.config/Typora ./skel/config/
+cp -r $HOME/.themes ./skel/themes/
 cp -r $HOME/.Xresources.d ./skel/
 cp $HOME/.bash* ./skel/
 cp $HOME/.xprofile ./skel/

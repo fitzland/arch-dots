@@ -1,18 +1,14 @@
-#################################################################
-# KEYBOARD BINDINGS FOR ANY TWM
-#################################################################
-
-#################################################################
-# SUPER + FUNCTION KEYS
-#################################################################
+#########################
+# SUPER + FUNCTION KEYS #
+#########################
 
 # Vivaldi
 super + F1
-	vivaldi-stable
+	pamac-manager
 
 #Code
 super + F2
-	code
+    code-oss
 
 #Inkscape
 super + F3
@@ -34,11 +30,11 @@ super + F6
 super + F7
     keepassxc
 
-#Thunar
+#Typora
 super + F8
     typora
 
-#Evolution
+#Spotify
 super + F9
     spotify
 
@@ -66,25 +62,27 @@ super + slash
 super + backslash
     rofi -show run -lines 7
 
+#Conky-toggle
+super + c
+    conky-toggle
+
 #Atom
 super + e
     code
 
-#Browser
-super + w
-    firefox-developer-edition
 
-#Conky-toggle
-super + c
-    conky-toggle
 
 #Htop
 super + h
     urxvt 'htop task manager' -e htop
 
-#arcolinux-logout
-super + x
-    arcolinux-logout
+#music player
+super + m
+    pragha
+
+# Toggle pseudo tiling of window
+super + p
+	bspc node --state \~pseudo_tiled
 
 #Rofi theme selector
 super + r
@@ -98,9 +96,17 @@ super + t
 super + v
     pavucontrol
 
-#Pragha
-super + m
-    pragha
+#Browser
+super + w
+    firefox-developer-edition
+
+#arcolinux-logout
+super + x
+    arcolinux-logout
+
+#Hide polybar
+super + y
+    polybar-msg cmd toggle
 
 #Termite
 super + Return
@@ -115,9 +121,9 @@ super + Escape
 super + KP_Enter
 	rofi-sensible-terminal
 
-#################################################################
-# SUPER + SHIFT KEYS
-#################################################################
+#########################
+# SUPER + SHIFT KEYS    #
+#########################
 
 #File-Manager
 super + shift + Return
@@ -128,30 +134,35 @@ super + shift + Return
 #super + shift + KP_Enter
 #	thunar
 
-#dmenu
+
+#DMENU
 super + shift + d
-	dmenu_run -i 
+	dmenu_run
+
+#Reload bspwm
+super + ctrl + r
+	~/.config/bspwm/bspwmrc
 
 #reload sxhkd:
 super + shift + s
 	pkill -USR1 -x sxhkd
 
-#Keyboard dependent
-#super + shift + KP_Enter
-#	thunar
+#kill
+super + shift + q
+	bspc node -c
 
 
-#################################################################
-# CONTROL + ALT KEYS
-#################################################################
+#Logout
+super + shift + x
+	bspc quit
+
+#########################
+# CONTROL + ALT KEYS    #
+#########################
 
 #arcolinux-welcome-app
 ctrl + alt + w
      arcolinux-welcome-app
-
-#arcolinux-tweak-tool
-ctrl + alt + e
-    arcolinux-tweak-tool
 
 #conky-rotate
 ctrl + alt + Next
@@ -169,10 +180,6 @@ ctrl + alt + b
 ctrl + alt + c
      catfish
 
-#Chromium
-ctrl + alt + g
-    chromium -no-default-browser-check
-
 #Firefox
 ctrl + alt + f
      firefox
@@ -181,7 +188,7 @@ ctrl + alt + f
 ctrl + alt + i
      nitrogen
 
-#arcolinux-logout
+#Screen-Locker
 ctrl + alt + k
      arcolinux-logout
 
@@ -209,13 +216,13 @@ ctrl + alt + r
 ctrl + alt + s
    spotify
 
-#Termite
-ctrl + alt + Return
-    st
-
-#termite
+#Urxvt
 ctrl + alt + t
-    termite
+     urxvt
+
+#Pulse Audio Control
+ctrl + alt + u
+     pavucontrol
 
 #Vivaldi
 ctrl + alt + v
@@ -355,10 +362,6 @@ super + f
 super + q
 	bspc node -c
 
-#################################################################
-# SUPER KEYS
-#################################################################
-
 #Focus selected desktop
 super + Tab
 	bspc desktop -f '^{1-9,10}'
@@ -468,13 +471,6 @@ super + ctrl + {u,i,o,p}
 super + ctrl + {_,shift +}{1-9}
 	bspc node {_,@/} --presel-ratio 0.{1-9}
 
-super + ctrl + bracket{left,right}
-    cycle_dir={prev,next}; \
-    bspc desktop "$\{cycle_dir\}.local" -f; \
-    for mon_id in $(bspc query -M -m '.!focused'); do \
-        bspc desktop "$\{mon_id\}:focused#$\{cycle_dir\}.local" -a; \
-    done    
-
 
 #################################################################
 # ALT KEYS
@@ -505,8 +501,8 @@ alt + shift + {h,j,k,l}
 #################################################################
 
 # Focus west/east/north/south window
-ctrl + alt + {Left,Right,Up,Down}
-	bspc node --focus {west,east,north,south}
+ctrl + alt + {Left,Right}
+	bspc desktop -f {prev,next}
 
 ## super & mouse scroll
 

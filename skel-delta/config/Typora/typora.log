@@ -1769,3 +1769,28 @@ INFO 12/15/2020, 8:00:33 AM  [Raven] userId = 1608746f-a0df-4b8f-99bb-31fa17894f
 INFO 12/15/2020, 8:00:34 AM  [focus] 1
 INFO 12/15/2020, 8:03:20 AM  ----------------before-quit-----------------
 INFO 12/15/2020, 8:03:20 AM  ------------------will-quit------------------
+INFO 12/29/2020, 9:08:49 AM  luanchFromDiffVersion, pre version is 0.9.96
+INFO 12/29/2020, 9:08:49 AM  overwriteThemeFolder
+INFO 12/29/2020, 9:08:49 AM  ------------------start------------------
+INFO 12/29/2020, 9:08:49 AM  typora version: 0.9.98
+DEBUG 12/29/2020, 9:08:49 AM  [
+  '/usr/share/typora/Typora',
+  '/home/jeff/Dropbox/journal/How to Install Archlinux.md'
+]
+DEBUG 12/29/2020, 9:08:49 AM  app.openFile
+INFO 12/29/2020, 9:08:49 AM  addRecentDocument
+INFO 12/29/2020, 9:08:49 AM  [Raven] instanceKey = f20facd4-4143-4cad-ab57-f9f80d33ba50
+INFO 12/29/2020, 9:08:49 AM  [Raven] userId = 1608746f-a0df-4b8f-99bb-31fa17894f66
+INFO 12/29/2020, 9:08:49 AM  [focus] 1
+INFO 12/29/2020, 9:08:49 AM  handle document.loadInitData
+INFO 12/29/2020, 9:08:53 AM  [blur] 1
+INFO 12/29/2020, 9:09:01 AM  [focus] 1
+INFO 12/29/2020, 9:10:21 AM  load file [/tmp/1609254621919-0.08237640918095157.html] for PDF export
+INFO 12/29/2020, 9:10:22 AM  [blur] 1
+INFO 12/29/2020, 9:10:22 AM  generate print window with id 2
+INFO 12/29/2020, 9:10:22 AM  [focus] 1
+INFO 12/29/2020, 9:10:22 AM  [blur] 1
+INFO 12/29/2020, 9:10:25 AM  [focus] 1
+INFO 12/29/2020, 9:10:26 AM  [RenderProcess 1][Log] export PDF to /home/jeff/Dropbox/journal/How to Install Archlinux.pdf
+INFO 12/29/2020, 9:10:29 AM  ----------------before-quit-----------------
+INFO 12/29/2020, 9:10:29 AM  ------------------will-quit------------------

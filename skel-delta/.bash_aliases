@@ -12,7 +12,7 @@ alias df='df -h'
 
 #merge new settings
 alias merge="xrdb -merge ~/.Xresources"
-alias exr="nano $HOME/.Xresources"
+alias exr="code $HOME/.Xresources"
 
 #hardware info --short
 alias hw="hwinfo --short"
