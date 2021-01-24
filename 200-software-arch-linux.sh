@@ -160,7 +160,7 @@ list=(
 dconf-editor
 arc-gtk-theme
 adapta-gtk-theme
-capitaine-cursors
+bibata-cursor-theme
 material-gtk-theme
 papirus-icons-theme
 )

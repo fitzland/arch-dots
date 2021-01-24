@@ -53,11 +53,14 @@ lightdm-gtk-greeter-settings
 thunar
 thunar-archive-plugin
 thunar-volman
-lxterminal
 i3-gaps
 i3status
 dmenu
+lxsession
 nitrogen
+nvidia
+nvidia-utils
+nvidia-settings
 )
 
 count=0
@@ -80,6 +83,7 @@ tput setaf 7;echo "#############################################################
 echo "You now have a very minimal functional desktop"
 echo "################################################################"
 echo;tput sgr0
+
 sudo mkdir -p /usr/share/backgrounds
 sudo cp $HOME/images/wallpapers/greeter* /usr/share/backgrounds/
 
