@@ -17,9 +17,12 @@ set -e
 
 echo "Installing themes from Arch Linux repo"
 
-sudo pacman -S materia-gtk-theme --noconfirm --needed
-sudo pacman -S kvantum-theme-materia --noconfirm --needed
 sudo pacman -S adapta-gtk-theme --noconfirm --needed
+sudo pacman -S capitaine-cursors --noconfirm --needed
+sudo pacman -S materia-gtk-theme --noconfirm --needed
+sudo pacman -S kvantum-qt5 --noconfirm --needed
+sudo pacman -S kvantum-theme-materia --noconfirm --needed
+sudo pacman -S papirus-icon-theme --noconfirm --needed
 #sudo pacman -S tamsyn-font --noconfirm --needed
 
 echo "################################################################"
