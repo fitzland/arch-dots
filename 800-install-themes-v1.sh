@@ -18,12 +18,20 @@ set -e
 echo "Installing themes from Arch Linux repo"
 
 sudo pacman -S adapta-gtk-theme --noconfirm --needed
+sudo pacman -S arc-gtk-theme --noconfirm --needed
 sudo pacman -S capitaine-cursors --noconfirm --needed
 sudo pacman -S materia-gtk-theme --noconfirm --needed
 sudo pacman -S kvantum-qt5 --noconfirm --needed
 sudo pacman -S kvantum-theme-materia --noconfirm --needed
 sudo pacman -S papirus-icon-theme --noconfirm --needed
 #sudo pacman -S tamsyn-font --noconfirm --needed
+
+echo "Remove unused themes from file system"
+
+sudo rm -r /usr/share/themes/Adapta{,-Eta,-Nokto-Eta}
+sudo rm -r /usr/share/themes/Arc{,-Darker,-Lighter}
+sudo rm -r /usr/share/themes/Materia{,-compact,-dark-compact,-light,-light-compact}
+
 
 echo "################################################################"
 echo "####    Themes from Arch Linux repo have been installed     ####"
