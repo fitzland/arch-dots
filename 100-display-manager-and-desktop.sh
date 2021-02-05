@@ -57,8 +57,9 @@ i3-gaps
 i3status
 dmenu
 lxsession
+lxterminal
 nitrogen
-nvidia
+nvidia-lts
 nvidia-utils
 nvidia-settings
 )
