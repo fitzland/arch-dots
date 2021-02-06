@@ -47,6 +47,7 @@ echo "Installation of the development packages"
 ###############################################################################
 
 list=(
+code
 #firefox
 #sublime-text-dev
 flameshot

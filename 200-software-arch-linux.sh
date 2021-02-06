@@ -57,6 +57,7 @@ func_category Accessories
 list=(
 catfish
 keepassxc
+screenkey
 smartmontools
 )
 
