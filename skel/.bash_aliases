@@ -11,8 +11,9 @@ alias eba='nano $HOME/.bash_aliases'
 alias df='df -h'
 
 #merge new settings
-alias merge="xrdb -merge ~/.Xresources"
-alias exr="code $HOME/.Xresources"
+alias merge='xrdb -merge ~/.Xresources'
+alias exr='code $HOME/.Xresources'
+alias ei3='code $HOME/.config/i3/config'
 
 #hardware info --short
 alias hw="hwinfo --short"
@@ -36,6 +37,9 @@ alias upall='sudo pacman -Syyu'
 alias cleanup='sudo pacman -Rns $(pacman -Qtdq)'
 #alias cleanup='sudo apt autoclean && sudo apt autoremove'
 
+#Install from AUR
+alias yay='paru'
+
 #shutdown or reboot
 alias ssn="sudo shutdown now"
 alias sr="sudo reboot"
@@ -45,7 +49,6 @@ alias dots='cd $HOME/git/fitzland/arch-dots'
 
 alias jrnl='cd $HOME/Dropbox/journal'
 
-alias ei3='code $HOME/.config/i3/config'
 alias skelbin='meld $HOME/.bin /etc/skel/.bin'
 alias skelxr='meld $HOME/.Xresources /etc/skel/.Xresources'
 alias skelocal='meld $HOME/.local /etc/skel/.local'
@@ -57,5 +60,7 @@ alias skeli3='meld $HOME/.config/i3 /etc/skel/.config/i3'
 alias chface='cp $HOME/.face-bak .face'alias config='/usr/bin/git --git-dir=/home/jeff/.dots/ --work-tree=/home/jeff'
 
 alias mcserver='ssh jeff@192.168.1.127'
+alias xps-go='rdesktop -k en-us -u f1tzl 192.168.1.103'
+alias echo-go='rdesktop -k en-us -u f1tzl 192.168.1.104'
 
 screenfetch

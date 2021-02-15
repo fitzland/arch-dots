@@ -11,8 +11,9 @@ alias eba='nano $HOME/.bash_aliases'
 alias df='df -h'
 
 #merge new settings
-alias merge="xrdb -merge ~/.Xresources"
-alias exr="nano $HOME/.Xresources"
+alias merge='xrdb -merge ~/.Xresources'
+alias exr='code $HOME/.Xresources'
+alias ei3='code $HOME/.config/i3/config'
 
 #hardware info --short
 alias hw="hwinfo --short"
@@ -45,7 +46,6 @@ alias dots='cd $HOME/git/fitzland/arch-dots'
 
 alias jrnl='cd $HOME/Dropbox/journal'
 
-alias ei3='code $HOME/.config/i3/config'
 alias skelbin='meld $HOME/.bin /etc/skel/.bin'
 alias skelxr='meld $HOME/.Xresources /etc/skel/.Xresources'
 alias skelocal='meld $HOME/.local /etc/skel/.local'

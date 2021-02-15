@@ -159,11 +159,13 @@ func_category System
 
 list=(
 dconf-editor
+gnome-disk-utility
+gparted
 arc-gtk-theme
 adapta-gtk-theme
 bibata-cursor-theme
-material-gtk-theme
-papirus-icons-theme
+materia-gtk-theme
+papirus-icon-theme
 )
 
 count=0

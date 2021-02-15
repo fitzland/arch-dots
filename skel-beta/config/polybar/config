@@ -119,7 +119,7 @@ font-3 = "FontAwesome5FreeRegular:size=13;0"
 font-4 = "FontAwesome5FreeSolid:size=13;0"
 
 modules-left = bspwm xwindow
-modules-center = networkspeeddown networkspeedup
+modules-center = networkspeeddown networkspeedup wired-network
 modules-right = pavolume weather date
 
 tray-detached = false
@@ -150,7 +150,7 @@ height = 30
 ;offset-x = 1%
 ;offset-y = 1%
 radius = 0.0
-fixed-center = true
+fixed-center = false
 bottom = false
 separator = |
 
@@ -224,7 +224,7 @@ ws-icon-0 = 1;
 ws-icon-1 = 2;
 ws-icon-2 = 3;
 ws-icon-3 = 4;
-ws-icon-4 = 5;
+ws-icon-4 = 5;
 ws-icon-5 = 6;
 ws-icon-6 = 7;
 ws-icon-7 = 8;
@@ -237,9 +237,9 @@ format = <label-state> <label-mode>
 
 label-focused = %icon%
 label-focused-background = ${colors.background}
-label-focused-underline = ${colors.yellow1}
-label-focused-padding = 4
-label-focused-foreground = ${colors.yellow1}
+label-focused-underline = ${colors.green1}
+label-focused-padding = 2
+label-focused-foreground = ${colors.green1}
 
 label-occupied = %icon%
 label-occupied-padding = 2
@@ -248,19 +248,26 @@ label-occupied-foreground = ${colors.blue2}
 
 label-urgent = %icon%
 label-urgent-padding = 2
+label-urgent-background = ${colors.background}
+label-urgent-foreground = ${colors.red1}
 
 label-empty = %icon%
 label-empty-foreground = ${colors.white1}
 label-empty-padding = 2
 label-empty-background = ${colors.background}
-label-monocle = "  "
+
+label-monocle = " "
 label-monocle-foreground = ${colors.cyan2}
-label-tiled = "  "
+
+label-tiled = " "
 label-tiled-foreground = ${colors.cyan2}
-label-fullscreen = "  "
+
+label-fullscreen = " "
 label-fullscreen-foreground = ${colors.cyan2}
-label-floating = "  "
+
+label-floating = "  "
 label-floating-foreground = ${colors.cyan2}
+
 label-pseudotiled = "  "
 label-pseudotiled-foreground = ${colors.cyan2}
 label-locked = "  "
@@ -319,95 +326,6 @@ format-underline = ${colors.magenta2}
 format-foreground = ${colors.foreground}
 format-background = ${colors.background}
 
-
-################################################################################
-
-[module/backlight-acpi]
-inherit = module/xbacklight
-type = internal/backlight
-card = intel_backlight
-format-foreground = ${colors.foreground}
-format-background = ${colors.background}
-format-prefix-foreground = #7D49B6
-format-prefix-underline = #7D49B6
-format-underline = #7D49B6
-################################################################################
-
-[module/backlight]
-;https://github.com/jaagr/polybar/wiki/Module:-backlight
-
-type = internal/backlight
-
-; Use the following command to list available cards:
-; $ ls -1 /sys/class/backlight/
-card = intel_backlight
-
-; Available tags:
-;   <label> (default)
-;   <ramp>
-;   <bar>
-format = <label>
-format-foreground = ${colors.foreground}
-format-background = ${colors.background}
-
-; Available tokens:
-;   %percentage% (default)
-label = %percentage%%
-
-; Only applies if <ramp> is used
-ramp-0 = 🌕
-ramp-1 = 🌔
-ramp-2 = 🌓
-ramp-3 = 🌒
-ramp-4 = 🌑
-
-; Only applies if <bar> is used
-bar-width = 10
-bar-indicator = |
-bar-fill = ─
-bar-empty = ─
-
-################################################################################
-
-[module/battery]
-;https://github.com/jaagr/polybar/wiki/Module:-battery
-type = internal/battery
-battery = BAT0
-adapter = AC0
-full-at = 100
-
-format-charging = <animation-charging> <label-charging>
-label-charging =  %percentage%%
-format-charging-foreground = ${colors.foreground}
-format-charging-background = ${colors.background}
-format-charging-underline = #a3c725
-
-format-discharging = <ramp-capacity> <label-discharging>
-label-discharging =  %percentage%%
-format-discharging-underline = #c7ae25
-format-discharging-foreground = ${colors.foreground}
-format-discharging-background = ${colors.background}
-
-format-full-prefix = " "
-format-full-prefix-foreground = #a3c725
-format-full-underline = #a3c725
-format-full-foreground = ${colors.foreground}
-format-full-background = ${colors.background}
-
-ramp-capacity-0 = 
-ramp-capacity-1 = 
-ramp-capacity-2 = 
-ramp-capacity-3 = 
-ramp-capacity-4 = 
-ramp-capacity-foreground = #c7ae25
-
-animation-charging-0 = 
-animation-charging-1 = 
-animation-charging-2 = 
-animation-charging-3 = 
-animation-charging-4 = 
-animation-charging-foreground = #a3c725
-animation-charging-framerate = 750
 
 ################################################################################
 
@@ -579,8 +497,8 @@ format-background = ${colors.background}
 type = internal/fs
 
 ; Mountpoints to display
-mount-0 = /
-;mount-1 = /home
+mount-0 = /home
+;mount-1 = /
 ;mount-2 = /var
 
 ; Seconds to sleep between updates
@@ -603,7 +521,7 @@ spacing = 4
 format-mounted = <label-mounted>
 format-mounted-foreground = ${colors.foreground}
 format-mounted-background = ${colors.background}
-format-mounted-underline = #fe0000
+format-mounted-underline = ${colors.yellow2}
 
 
 ; Available tokens:
@@ -820,7 +738,7 @@ click-right = exec pavucontrol
 click-left = ~/.config/polybar/scripts/pavolume.sh --togmute
 scroll-up = ~/.config/polybar/scripts/pavolume.sh --up
 scroll-down = ~/.config/polybar/scripts/pavolume.sh --down
-format-underline = #198844
+format-underline = ${colors.green2}
 format-foreground = ${colors.foreground}
 format-background = ${colors.background}
 
@@ -835,10 +753,10 @@ exec = ~/.config/polybar/scripts/pub-ip.sh
 interval = 100
 format-foreground = ${colors.foreground}
 format-background = ${colors.background}
-format-underline = #FFBB00
+format-underline = ${colors.red2}
 label = %output%
 format-prefix = "  "
-format-prefix-foreground = #FFBB00
+format-prefix-foreground = ${colors.red2}
 
 ################################################################################
 
@@ -1056,7 +974,7 @@ tail = true
 [module/wired-network]
 ;https://github.com/jaagr/polybar/wiki/Module:-network
 type = internal/network
-interface = enp4s0
+interface = enp3s0
 ;interface = enp14s0
 interval = 3.0
 
@@ -1069,14 +987,14 @@ interval = 3.0
 ;   %downspeed% [wireless+wired]
 ;   %linkspeed% [wired]
 ; Default: %ifname% %local_ip%
-label-connected =  %ifname%
-label-disconnected = %ifname% disconnected
+label-connected = %local_ip%
+label-disconnected = disconnected
 
 format-connected-foreground = ${colors.foreground}
 format-connected-background = ${colors.background}
-format-connected-underline = #55aa55
-format-connected-prefix = " "
-format-connected-prefix-foreground = #55aa55
+format-connected-underline = ${colors.magenta2}
+format-connected-prefix = " "
+format-connected-prefix-foreground = ${colors.magenta2}
 format-connected-prefix-background = ${colors.background}
 
 format-disconnected = <label-disconnected>
