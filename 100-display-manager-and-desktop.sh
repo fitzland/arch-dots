@@ -57,6 +57,7 @@ i3-gaps
 i3status
 dmenu
 lxsession
+polkit
 lxterminal
 nitrogen
 nvidia-lts
