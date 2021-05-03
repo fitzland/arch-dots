@@ -38,27 +38,40 @@ func_install() {
     	echo "###############################################################################"
     	echo
     	tput sgr0
-    	sudo pacman -S --noconfirm --needed $1 
+    	sudo pacman -S --noconfirm --needed $1
     fi
 }
 
-###############################################################################
-echo "Installation of printer software"
+func_category() {
+	tput setaf 5;
+	echo "################################################################"
+	echo "Installing software for category " $1
+	echo "################################################################"
+	echo;tput sgr0
+}
+
 ###############################################################################
 
+func_category Fonts
+
 list=(
-cups
-cups-pdf
-ghostscript
-gsfonts
-gutenprint
-gtk3-print-backends
-libcups
-system-config-printer
+arcolinux-fonts-git
+awesome-terminal-fonts
+adobe-source-sans-pro-fonts
+cantarell-fonts
+#noto-fonts
+ttf-bitstream-vera
+ttf-dejavu
+ttf-droid
+ttf-hack
+ttf-inconsolata
+ttf-liberation
+ttf-roboto
+ttf-ubuntu-font-family
+tamsyn-font
 )
 
 count=0
-
 for name in "${list[@]}" ; do
 	count=$[count+1]
 	tput setaf 3;echo "Installing package nr.  "$count " " $name;tput sgr0;
@@ -66,13 +79,6 @@ for name in "${list[@]}" ; do
 done
 
 ###############################################################################
-
-tput setaf 5;echo "################################################################"
-echo "Enabling services"
-echo "################################################################"
-echo;tput sgr0
-
-sudo systemctl enable org.cups.cupsd.service
 
 tput setaf 11;
 echo "################################################################"

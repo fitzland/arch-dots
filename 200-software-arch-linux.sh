@@ -164,7 +164,7 @@ gparted
 arc-gtk-theme
 adapta-gtk-theme
 bibata-cursor-theme
-materia-gtk-theme
+#materia-gtk-theme
 papirus-icon-theme
 )
 

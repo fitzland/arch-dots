@@ -38,27 +38,46 @@ func_install() {
     	echo "###############################################################################"
     	echo
     	tput sgr0
-    	sudo pacman -S --noconfirm --needed $1 
+    	sudo pacman -S --noconfirm --needed $1
     fi
 }
 
-###############################################################################
-echo "Installation of printer software"
+func_category() {
+	tput setaf 5;
+	echo "################################################################"
+	echo "Installing software for category " $1
+	echo "################################################################"
+	echo;tput sgr0
+}
+
 ###############################################################################
 
+func_category Arcolinux-Desktop
+
 list=(
-cups
-cups-pdf
-ghostscript
-gsfonts
-gutenprint
-gtk3-print-backends
-libcups
-system-config-printer
+arcolinux-polybar-git
 )
 
 count=0
+for name in "${list[@]}" ; do
+	count=$[count+1]
+	tput setaf 3;echo "Installing package nr.  "$count " " $name;tput sgr0;
+	func_install $name
+done
+###############################################################################
 
+func_category Arcolinux-General
+
+list=(
+arcolinux-bin-git
+arcolinux-hblock-git
+arcolinux-root-git
+arcolinux-termite-themes-git
+arcolinux-tweak-tool-git
+arcolinux-variety-git
+)
+
+count=0
 for name in "${list[@]}" ; do
 	count=$[count+1]
 	tput setaf 3;echo "Installing package nr.  "$count " " $name;tput sgr0;
@@ -67,13 +86,12 @@ done
 
 ###############################################################################
 
-tput setaf 5;echo "################################################################"
-echo "Enabling services"
+tput setaf 6;echo "################################################################"
+echo "Copying all files and folders from /etc/skel to ~"
 echo "################################################################"
 echo;tput sgr0
-
-sudo systemctl enable org.cups.cupsd.service
-
+cp -Rf ~/.config ~/.config-backup-$(date +%Y.%m.%d-%H.%M.%S)
+cp -arf /etc/skel/. ~
 tput setaf 11;
 echo "################################################################"
 echo "Software has been installed"

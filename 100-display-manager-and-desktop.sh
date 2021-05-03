@@ -53,12 +53,13 @@ lightdm-gtk-greeter-settings
 thunar
 thunar-archive-plugin
 thunar-volman
+alacritty
 i3-gaps
 i3status
+autotiling
 dmenu
 lxsession
 polkit
-lxterminal
 nitrogen
 nvidia-lts
 nvidia-utils
