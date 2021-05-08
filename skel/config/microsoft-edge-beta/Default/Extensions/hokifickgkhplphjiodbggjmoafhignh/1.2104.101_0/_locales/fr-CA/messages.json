@@ -1,0 +1,690 @@
+{
+  "AppName": {
+    "message": "Microsoft Editor : Vérificateur d’Orthographe et de Grammaire"
+  },
+  "AppShortName": {
+    "message": "Editor"
+  },
+  "AppDescription": {
+    "message": "Rédigez avec assurance avec le Microsoft Editor, votre Assistant intelligent de vérification de la grammaire, de l’orthographe et du style d’écriture."
+  },
+  "AppLongDescription": {
+    "message": "Améliorez vos compétences rédactionnelles sur le Web grâce au Rédacteur Microsoft (1), votre appli gratuite d’aide à la rédaction. Le Rédacteur vous accompagne sur les sites que vous consultez pour vous aider à rédiger des publications claires et concises en ligne. Cette extension du navigateur offre les fonctionnalités suivantes : \r\n\r\nAide à la rédaction intelligente – profitez gratuitement de fonctionnalités intéressantes de vérification de l’orthographe, de la grammaire et de la ponctuation. Optez pour la version premium (2) et recevez des rétroactions détaillées concernant la clarté, la concision, le niveau de langue, le vocabulaire, etc. \r\n\r\nPartout où vous rédigez – recevez des commentaires sur des sites comme LinkedIn, Facebook et de nombreux autres parmi ceux que vous utilisez fréquemment avec cette extension du navigateur. Pour utiliser le Rédacteur en dehors du Web, ouvrez Word et recherchez l’icône du Rédacteur pour consulter ses suggestions concernant vos documents, votre courriel et le reste du Web. \r\n\r\nDisponible dans plusieurs langues – accédez à des commentaires simples dans plus de 20 langues (ainsi qu'à la vérification orthographique dans plus de 80 langues) pour communiquer clairement, quelle que soit la langue dans laquelle vous rédigez. \r\n\r\nLangues disponibles (3) :\r\n– Arabe\r\n– Tchèque\r\n– Danois\r\n– Néerlandais\r\n– Anglais\r\n– Finnois\r\n– Français\r\n– Allemand\r\n– Hébreu (pas encore disponible dans l’appli Word de bureau)\r\n– Hongrois\r\n– Italien\r\n– Japonais\r\n– Coréen\r\n– Norvégien (Bokmål)\r\n– Polonais\r\n– Portugais (Brésil)\r\n– Portugais (Portugal)\r\n– Russie\r\n– Espagnol\r\n– Suédois\r\n– Turc\r\n\r\n(1) Offert pour les navigateurs Microsoft Edge et Google Chrome. Un compte Microsoft est nécessaire. Le Rédacteur vous connecte à un service Microsoft qui offre des suggestions d’orthographe, de grammaire et de perfectionnement de votre écriture sur la plupart des sites Web. \r\n (2) Un abonnement Microsoft 365 est nécessaire pour accéder aux fonctionnalités Premium du Rédacteur. \r\n (3) Le Rédacteur fournit des conseils de perfectionnement d’écriture dans ces langues (à noter que les types de conseils varient en fonction de la langue utilisée). \r\n\r\nEn installant l’appli, vous acceptez les conditions d’utilisation suivantes: \r\n\r\nhttps://aka.ms/editorchromeextensionterms\r\n\r\nPolitique de confidentialité : http://aka.ms/privacy"
+  },
+  "AppLongDescriptionEdge": {
+    "message": "Écrivez avec assurance grâce au Rédacteur Microsoft, votre assistant de rédaction intelligent qui vérifie la grammaire, l'orthographe et le style. \r\n\r\nAméliorez vos compétences rédactionnelles sur le Web grâce au Rédacteur Microsoft (1), votre appli gratuite d’aide à la rédaction. Le Rédacteur vous accompagne sur les ses publications claires et concises en ligne. Cette extension du navigateur offre les fonctionnalités suivantes : \r\n\r\nAide à la rédaction intelligente : profitez gratuitement de fonctionnalités efficaces pour vérifier l’orthographe, la grammaire et la ponctuation de vos textes. Optez pour la version premium (2) et recevez des conseils de révision détaillés concernant la clarté, la concision, le niveau de langue, le vocabulaire, etc. \r\n\r\nToujours là pour vous : cette extension de navigateur vous permet de recevoir des conseils quand vous rédigez sur des sites que vous utilisez fréquemment, comme LinkedIn, Facebook, et bien d’autres encore. Pour utiliser le Rédacteur en dehors du Web, ouvrez Word et recherchez l’icône du Rédacteur pour consulter ses suggestions concernant vos documents, vos adresses de courriel et le reste du Web. \r\n\r\nDisponible dans plusieurs langues : accédez à des conseils dans plus de 20 langues (et à la vérification orthographique dans plus de 80 langues) pour communiquer clairement, quelle que soit la langue dans laquelle vous rédigez. \r\n\r\nLangues disponibles (3) :\r\n– Arabe\r\n– Tchèque\r\n– Danois\r\n– Néerlandais\r\n– Anglais\r\n– Finnois\r\n– Français\r\n– Allemand\r\n– Hébreu (pas encore disponible dans la version de Word pour ordinateur) \r\n– Hongrois\r\n– Italien\r\n– Japonais\r\n– Coréen\r\n– Norvégien (Bokmål)\r\n– Polonais\r\n– Portugais (Brésil)\r\n– Portugais (Portugal)\r\n– Russe\r\n– Espagnol\r\n– Suédois\r\n– Turc\r\n\r\n(1) Offert pour les navigateurs Microsoft Edge et Google Chrome. Un compte Microsoft est nécessaire. Le Rédacteur vous connecte à un service Microsoft qui offre des suggestions d’orthographe, de grammaire et de perfectionnement de votre écriture sur la plupart des sites Web. \r\n (2) Un abonnement Microsoft 365 est nécessaire pour accéder aux fonctionnalités Premium du Rédacteur. \r\n (3) Le Rédacteur fournit des conseils de perfectionnement d’écriture dans ces langues (à noter que les types de conseils varient en fonction de la langue utilisée). \r\n\r\nEn installant l’appli, vous acceptez les conditions d’utilisation suivantes : \r\n\r\nhttps://aka.ms/editorchromeextensionterms\r\n\r\nPolitique de confidentialité : http://aka.ms/privacy"
+  },
+  "AppTermsOfServiceLCA": {
+    "message": "PLEASE NOTE: Refer to your license terms for your Microsoft Account or Microsoft 365 subscription as applicable (the \"extension\") to identify the entity licensing this extension to you and for support information.  The license terms for the Microsoft Account or Microsoft 365 subscription as applicable apply to your use of this extension."
+  },
+  "AccountLabel": {
+    "message": "Compte"
+  },
+  "SettingsLabel": {
+    "message": "Paramètres du compte"
+  },
+  "sbx_signInDescription": {
+    "message": "Veuillez vous connecter pour obtenir des suggestions de perfectionnement et relatives à l’orthographe et la grammaire sur la plupart des sites web."
+  },
+  "SignInLabel": {
+    "message": "Se connecter"
+  },
+  "SignOutLabel": {
+    "message": "Se déconnecter"
+  },
+  "SignOutTooltip": {
+    "message": "La déconnexion réinitialisera tous les paramètres par défaut et votre liste de sites exclus sera perdue."
+  },
+  "SupportPageLabel": {
+    "message": "Besoin d’aide pour la connexion ​?"
+  },
+  "MyAccountLabel": {
+    "message": "Afficher le compte"
+  },
+  "EditorSpellingToggleLabel": {
+    "message": "Orthographe"
+  },
+  "EditorGrammarToggleLabel": {
+    "message": "Grammaire"
+  },
+  "EditorRefinementsToggleLabel": {
+    "message": "Analyse avancée"
+  },
+  "DisableEditorOnThisSiteLabel": {
+    "message": "Désactiver le Editor sur $host$",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "facebook.com"
+      }
+    }
+  },
+  "EnableEditorOnThisSiteLabel": {
+    "message": "Activer le Editor sur $host$",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "facebook.com"
+      }
+    }
+  },
+  "EditorIsDisabledOnThisSiteLabel": {
+    "message": "Le Editor est actuellement désactivé sur $host$",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "facebook.com"
+      }
+    }
+  },
+  "EditorIsBlockedOnThisSiteLabel": {
+    "message": "Le Editor n’est pas pris en charge actuellement sur $host$",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "facebook.com"
+      }
+    }
+  },
+  "EditorBrandText": {
+    "message": "Microsoft Editor"
+  },
+  "EditorIsOffLabel": {
+    "message": "Le Editor est désactivé."
+  },
+  "TurnOnEditorLabel": {
+    "message": "Activer le Editor"
+  },
+  "EditorRefinementsTooltip": {
+    "message": "Les analyses avancées sont des suggestions de rédaction avancée facilitant une clarté d’écriture avec moins de mots ou un ton plus formel."
+  },
+  "EditorRefinementsGoPremiumTooltip": {
+    "message": "Profitez d’idées de rédaction détaillées et d’1 To de mémoire de stockage en passant à la version Premium."
+  },
+  "EditorProofingLanguageLabel": {
+    "message": "Langue de vérification"
+  },
+  "EditorProofingLanguagesLabel": {
+    "message": "Langues de vérification"
+  },
+  "EditorProofingLanguageAriaLabel": {
+    "message": "Langue de vérification : $languageId$",
+    "placeholders": {
+      "languageId": {
+        "content": "$1",
+        "example": "fr-ca"
+      }
+    }
+  },
+  "EditorNativeSupportOnThisSiteLabel": {
+    "message": "Le Editor est inclus avec $host$",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "outlook.com"
+      }
+    }
+  },
+  "EditorSettingsLabel": {
+    "message": "Paramètres du Editor"
+  },
+  "PopupGroupAriaLabel": {
+    "message": ".Extension du navigateur Microsoft Editor"
+  },
+  "ConflictDetectedAnnouncementTitle": {
+    "message": "Conflit détecté entre les extensions d’édition"
+  },
+  "ConflictDetectedAnnouncementText": {
+    "message": "Lorsque d’autres extensions d’édition et le Editor sont tous deux en cours d’exécution, leurs suggestions peuvent se chevaucher ou entrer en conflit. Pour profiter pleinement du Editor, il est recommandé de désactiver les autres extensions d'édition dans les paramètres d'extension de votre navigateur."
+  },
+  "PostUpsellAnnouncementTitle": {
+    "message": "Félicitations"
+  },
+  "PostUpsellAnnouncementText": {
+    "message": "Vous avez réussi à mettre à niveau la version Premium du Rédacteur Microsoft ! Explorez votre ensemble de fonctionnalités étendu en cliquant sur les soulignements bleus et violets dans votre texte."
+  },
+  "ebx_appName": {
+    "message": "Editor dans le navigateur"
+  },
+  "ebx_appShortName": {
+    "message": "Editor"
+  },
+  "ebx_appDescription": {
+    "message": "Rédigez avec assurance grâce à Microsoft Editor, votre Assistant de rédaction."
+  },
+  "ebx_appLongDescription": {
+    "message": "Editor fournit des suggestions de style, orthographe et grammaire dans de nombreux sites (1); vous pouvez donc rédiger des publications et des courriels clairs et concis. \r\n\r\nNOUVEAU : vérification linguistique dans plusieurs langues, options Ignorer \r\nVérifier l’orthographe et la grammaire de trois langues au maximum à la fois. En outre, la vérification orthographique est désormais disponible en thaï. Nous avons également simplifié l’option pour ignorer toutes les occurrences de corrections orthographiques en sélectionnant Ignorer tout ou en ignorant les suggestions grammaticales non souhaitées en sélectionnant Ignorer. \r\n\r\nAssistance à la rédaction intelligente \r\nMaîtrisez les bases grâce à la vérification grammaticale, orthographique et de style. Recevez des suggestions grammaticales et des rétroactions détaillées relatives à la clarté, la concision, le niveau de langue, le vocabulaire et bien plus encore avec la version Premium (abonnement Microsoft 365 requis). \r\n\r\nPartout où vous rédigez \r\nObtenez une aide à la rédaction sur des sites comme LinkedIn, Gmail, Facebook, et bien d’autres favoris avec cette extension de navigateur. Pour utiliser l’aide de l’Editor au-delà du web, ouvrez Word et recherchez l’icône Editor pour consulter ses suggestions concernant vos documents et vos courriers. \r\n\r\nDisponible dans plusieurs langues \r\nEditor vérifie l’orthographe dans plus de 80 langues et fournit des solutions de vérification grammaticale et stylistique dans les langues suivantes : (2) \r\n– Arabe\r\n– Tchèque\r\n– Danois\r\n– Néerlandais\r\n– Anglais\r\n– Finnois\r\n– Français\r\nAllemand\r\n– Hébreu\r\n– Hongrois\r\n– Italien\r\n– Japonais\r\n– Coréen\r\n– Norvégien (Bokmål\r\n– Polonais\r\n– Portugais (Brésil)\r\nPortugais (Portugal\r\n– Russe\r\n– Espagnol\r\n– Suédois\r\n– Turc\r\n\r\n1. Offert pour les navigateurs Microsoft Edge et Google Chrome. Un compte Microsoft est nécessaire. Editor vous connecte aux services Microsoft en ligne offrant des suggestions d’orthographe, de grammaire et de perfectionnement de votre écriture sur la plupart des sites web.  \r\n2. Les langues ne présentent pas toutes les mêmes ensembles de perfectionnements. \r\n\r\nEn installant l’appli, vous acceptez les conditions d’utilisation suivantes : \r\n\r\nhttps://aka.ms/editorchromeextensionterms\r\n\r\nPolitique de confidentialité : http://aka.ms/privacy"
+  },
+  "ebx_appLongDescriptionEdge": {
+    "message": "Écrivez avec assurance grâce à Microsoft Editor : votre assistant de rédaction intelligent. \r\n\r\nEditor fournit des suggestions de style, orthographe et grammaire dans de nombreux sites (1); vous pouvez donc rédiger des publications et des courriels clairs et concis. \r\n\r\nNOUVEAU : vérification linguistique dans plusieurs langues, options Ignorer \r\nVérifier l’orthographe et la grammaire de trois langues au maximum à la fois. En outre, la vérification orthographique est désormais disponible en Thai. Nous avons également simplifié l’option pour ignorer toutes les occurrences de corrections orthographiques en sélectionnant Ignorer tout ou en ignorant les suggestions grammaticales non souhaitées en sélectionnant Ignorer. \r\n\r\nAssistance à la rédaction intelligente  \r\nMaîtrisez les bases grâce à la vérification grammaticale, orthographique et de style. Recevez des suggestions grammaticales et des rétroactions détaillées relatives à la clarté, la concision, le niveau de langue, le vocabulaire et bien plus encore avec la version Premium (abonnement Microsoft 365 requis).  \r\n\r\nPartout où vous rédigez \r\nObtenez une aide à la rédaction sur des sites comme LinkedIn, Gmail, Facebook, et bien d’autres favoris avec cette extension de navigateur. Pour utiliser l’aide de l’Editor au-delà du web, ouvrez Word et recherchez l’icône Editor pour consulter ses suggestions concernant vos documents et vos courriers. \r\n\r\nDisponible dans plusieurs langues\r\nEditor vérifie l’orthographe dans plus de 80 langues et fournit des solutions de vérification grammaticale et stylistique dans les langues suivantes : (2) \r\nArabe\r\n– Tchèque\r\n– Danois\r\n– Néerlandais\r\n– Anglais\r\n– Finnois\r\n– Français\r\n– Allemand\r\n– Hébreu\r\n– Hongrois\r\n– Italien\r\n– Japonais\r\n– Coréen\r\n– Norvégien (Bokmål\r\n– Polonais\r\n– Portugais (Brésil\r\n– Portugais (Portugal\r\n– Russe\r\n– Espagnol\r\n– Suédois\r\n– Turc\r\n\r\n(1) Offert pour les navigateurs Microsoft Edge et Google Chrome. Un compte Microsoft est nécessaire. Editor vous connecte aux services Microsoft en ligne offrant des suggestions d’orthographe, de grammaire et de perfectionnement de votre écriture sur la plupart des sites web. \r\n(2) Les langues ne présentent pas toutes les mêmes ensembles de perfectionnements.  \r\n\r\nEn installant l’appli, vous acceptez les conditions d’utilisation suivantes : \r\n\r\nhttps://aka.ms/editorchromeextensionterms\r\n\r\nPolitique de confidentialité : http://aka.ms/privacy"
+  },
+  "ebx_appTermsOfServiceLCA": {
+    "message": "PLEASE NOTE: Refer to your license terms for your Microsoft Account or Microsoft 365 subscription as applicable (the \"extension\") to identify the entity licensing this extension to you and for support information.  The license terms for the Microsoft Account or Microsoft 365 subscription as applicable apply to your use of this extension."
+  },
+  "ebx_optionsPageTitle": {
+    "message": "Paramètres du Editor"
+  },
+  "ebx_settings": {
+    "message": "Paramètres"
+  },
+  "ebx_proofingLanguage": {
+    "message": "Langue de vérification"
+  },
+  "ebx_proofingLanguages": {
+    "message": "Langues de vérification"
+  },
+  "ebx_proofingLanguagePlaceHolder": {
+    "message": "Sélectionnez une langue de vérification"
+  },
+  "ebx_userExcludedUrlsTextBoxCaption": {
+    "message": "Vous avez désactivé le Editor sur les sites répertoriés ci-dessous. Vous pouvez désactiver automatiquement le Editor sur d’autres sites avec du contenu sensible ou des vitesses de chargement lentes."
+  },
+  "ebx_userBlockedSites": {
+    "message": "Sites bloqués"
+  },
+  "ebx_userExcludedUrlsErrorCaption": {
+    "message": "Désolé... L’URL \"$url$\" sur la ligne $line$ est incorrecte.",
+    "placeholders": {
+      "url": {
+        "content": "$1",
+        "example": "https://microsoft.com"
+      },
+      "line": {
+        "content": "$2",
+        "example": "123"
+      }
+    }
+  },
+  "ebx_userExcludedUrlErrorCaption": {
+    "message": "Url invalide. Veuillez fournir l’URL dans le format suivant : https://example.com"
+  },
+  "ebx_showSynonymsToggleCaption": {
+    "message": "Afficher les synonymes relatifs aux suggestions de correction orthographique"
+  },
+  "ebx_comingSoonTooltipTitle": {
+    "message": "Bientôt disponible"
+  },
+  "ebx_changeAllCommandLabel": {
+    "message": "Modifier tout"
+  },
+  "ebx_changeSettingsCommandLabel": {
+    "message": "Paramètres du Editor..."
+  },
+  "ebx_moreButtonArialLabel": {
+    "message": "Autres commandes"
+  },
+  "ebx_ignoreAllButtonLabel": {
+    "message": "Ignorer tout"
+  },
+  "ebx_ignoreOnceButtonLabel": {
+    "message": "Ignorer"
+  },
+  "ebx_addToDictionaryButtonLabel": {
+    "message": "Ajouter au dictionnaire"
+  },
+  "ebx_suggestionMoreActionsArialLabel": {
+    "message": "Autres actions"
+  },
+  "ebx_brandText": {
+    "message": "Microsoft Editor"
+  },
+  "ebx_brandTextArialLabel": {
+    "message": "Logo Microsoft Editor"
+  },
+  "ebx_showSynonyms": {
+    "message": "Afficher les synonymes"
+  },
+  "ebx_hideSynonyms": {
+    "message": "Masquer les synonymes"
+  },
+  "ebx_synonymsNotAvailable": {
+    "message": "[Synonymes non disponibles]"
+  },
+  "ebx_ariaReplaceWith": {
+    "message": "Remplacer par"
+  },
+  "ebx_deleteRepeatedWord": {
+    "message": "[Supprimer le mot répété]"
+  },
+  "ebx_asInSynonyms": {
+    "message": "semblable à"
+  },
+  "ebx_goPremiumLine": {
+    "message": "Découvrez les suggestions d’écriture avancées du Editor."
+  },
+  "ebx_goPremiumLinkText": {
+    "message": "Passer à la version Premium"
+  },
+  "ebx_goPremiumLinkTextLowerCase": {
+    "message": "passez à la version Premium"
+  },
+  "ebx_enhancedUpsellLinePartA": {
+    "message": "L’éditeur a"
+  },
+  "ebx_enhancedUpsellLinePartBPlural": {
+    "message": "idées de rédaction supérieures pour ce message."
+  },
+  "ebx_enhancedUpsellLinePartBSingular": {
+    "message": "idée de rédaction supérieures pour ce message."
+  },
+  "ebx_enhancedUpsellCategoriesComma": {
+    "message": ", "
+  },
+  "ebx_enhancedUpsellCategoriesAnd": {
+    "message": " et "
+  },
+  "ebx_tryPremiumPreviewLink": {
+    "message": "Essayer maintenant"
+  },
+  "ebx_premiumPreviewGeneralLine": {
+    "message": "Découvrez les idées d’écriture avancée du rédacteur."
+  },
+  "ebx_premiumPreviewLineDaysPlural": {
+    "message": "jours restants dans cet aperçu. Mettre à niveau les suggestions illimitées :"
+  },
+  "ebx_premiumPreviewLineDaysSingular": {
+    "message": "jour restant dans cet aperçu. Mettre à niveau les suggestions illimitées :"
+  },
+  "ebx_premiumPreviewLineSuggestionsPlural": {
+    "message": "suggestions restantes dans cet aperçu. Mettre à niveau les suggestions illimitées :"
+  },
+  "ebx_premiumPreviewLineSuggestionsSingular": {
+    "message": "suggestion restante dans cet aperçu. Mettre à niveau les suggestions illimitées :"
+  },
+  "ebx_checkSpelling": {
+    "message": "Vérifier l'orthographe"
+  },
+  "ebx_checkGrammar": {
+    "message": "Vérifier la grammaire"
+  },
+  "ebx_turnOffEditor": {
+    "message": "Désactiver le Editor"
+  },
+  "ebx_editorFeature": {
+    "message": "Microsoft Editor"
+  },
+  "ebx_editorFeatureOfficeBx": {
+    "message": "Désactiver le Editor"
+  },
+  "ebx_editorFeatureOnText": {
+    "message": "Activé"
+  },
+  "ebx_editorFeatureOffText": {
+    "message": "Désactivé"
+  },
+  "ebx_turnOffEditorExplained": {
+    "message": "Le Editor se connecte à un service en ligne de Microsoft qui offre des suggestions d’orthographe, de grammaire et de style pour vos écrits sur la plupart des sites web."
+  },
+  "ebx_checkForRefinements": {
+    "message": "Rechercher des analyses avancées"
+  },
+  "ebx_addAnotherSite": {
+    "message": "Ajouter un autre site"
+  },
+  "ebx_goPremiumExplained": {
+    "message": "Obtenez des idées rédactionnelles avancées du Editor, 1 To d’espace de stockage OneDrive et des fonctionnalités premiums dans toutes les applis Microsoft 365."
+  },
+  "ebx_addAnotherSiteAriaLabel": {
+    "message": "Ajouter un autre site"
+  },
+  "ebx_addAnotherSiteSubmit": {
+    "message": "Ajouter un site à la liste des sites bloqués."
+  },
+  "ebx_addAnotherSiteCancel": {
+    "message": "Annuler l’ajout du site à la liste des sites bloqués."
+  },
+  "ebx_RemoveItem": {
+    "message": "Supprimer"
+  },
+  "ebx_duplicateBlockedSite": {
+    "message": "Ce site figure déjà dans la liste des sites bloqués."
+  },
+  "ebx_editorEnableAnnouncementTitle": {
+    "message": "Le Microsoft Editor (Préversion) est en cours d’exécution"
+  },
+  "ebx_editorEnableAnnouncementText": {
+    "message": "L’extension de navigateur Microsoft Office inclut désormais Microsoft Editor, l’aide à la rédaction intelligente qui vous permet de tirer le meilleur parti de l’ensemble du Web. Microsoft éditeur se connecte à un service en ligne pour offrir des suggestions en matière d’orthographe, de grammaire et de style."
+  },
+  "ebx_learnMore": {
+    "message": "En savoir plus"
+  },
+  "ebx_goToSettingsToLearnMore": {
+    "message": "Accédez aux paramètres Éditeur pour en savoir plus"
+  },
+  "ebx_goToSettings": {
+    "message": "Accéder aux paramètres du Rédacteur"
+  },
+  "ebx_previewLabel": {
+    "message": "APERÇU"
+  },
+  "ebx_preview": {
+    "message": "(Préversion)"
+  },
+  "ebx_SquiggleTooltipText": {
+    "message": "Ouvrir avec le clic gauche"
+  },
+  "ebx_SquiggleTooltipCombination": {
+    "message": "(Alt+Flèche bas)"
+  },
+  "ebx_SquiggleTooltipCombinationMac": {
+    "message": "(Ctrl+Option+Flèche vers le bas)"
+  },
+  "ebx_SquiggleTooltipAriaText": {
+    "message": "Ouvrir avec le clic gauche ou Alt+Flèche bas"
+  },
+  "ebx_SquiggleTooltipAriaTextMac": {
+    "message": "Ouvrir avec le bouton gauche ou Ctrl+Option+Flèche vers le bas"
+  },
+  "ebx_SquiggleTooltipSpellingTitle": {
+    "message": "Correction d’orthographe"
+  },
+  "ebx_SquiggleTooltipGrammarTitle": {
+    "message": "Correction grammaticale"
+  },
+  "ebx_SquiggleTooltipRefinementTitle": {
+    "message": "Perfectionnement de l’écriture"
+  },
+  "ebx_editorFeatureToggleLabel": {
+    "message": "Fonctionnalité du Editor"
+  },
+  "ebx_toggleOn": {
+    "message": "Activé"
+  },
+  "ebx_toggleOff": {
+    "message": "Désactivé"
+  },
+  "ebx_toneLabel": {
+    "message": "Tonalité"
+  },
+  "ebx_close": {
+    "message": "Fermer"
+  },
+  "ebx_feedbackMessage": {
+    "message": "Aidez-nous à améliorer le Editor en fournissant"
+  },
+  "ebx_feedbackLink": {
+    "message": "commentaires"
+  },
+  "ebx_spelling": {
+    "message": "Orthographe"
+  },
+  "ebx_grammar": {
+    "message": "Grammaire"
+  },
+  "ebx_refinements": {
+    "message": "Analyse avancée"
+  },
+  "ebx_privacyOptions": {
+    "message": "Options de confidentialité"
+  },
+  "ebx_privacyOptionSendData": {
+    "message": "Envoyez automatiquement les données de diagnostic facultatives dans le cadre de l’utilisation de ce service en ligne pour nous aider à améliorer nos produits."
+  },
+  "ebx_displayOptions": {
+    "message": "Options d'affichage"
+  },
+  "ebx_privacyOptionSendDataLink": {
+    "message": "En savoir plus sur les données de diagnostic"
+  },
+  "ebx_excludedSites": {
+    "message": "Sites exclus"
+  },
+  "ebx_goPremiumExplainedMicrosoft365": {
+    "message": "Obtenez des idées rédactionnelles avancées du Rédacteur, 1 To d’espace de stockage OneDrive et des fonctionnalités premiums dans toutes les applis Microsoft 365."
+  },
+  "ebx_settingsPageAriaLabel": {
+    "message": "Paramètres du Microsoft Editor"
+  },
+  "ebx_blockedSiteAdded": {
+    "message": "\"$url$\" a été ajouté correctement",
+    "placeholders": {
+      "url": {
+        "content": "$1",
+        "example": "https://microsoft.com"
+      }
+    }
+  },
+  "ebx_blockedSiteRemoved": {
+    "message": "\"$url$\" a été correctement supprimé",
+    "placeholders": {
+      "url": {
+        "content": "$1",
+        "example": "https://microsoft.com"
+      }
+    }
+  },
+  "ebx_blockedSiteListEmpty": {
+    "message": "La liste est vide."
+  },
+  "ebx_ProofingLanguages": {
+    "message": "Langues de vérification"
+  },
+  "ebx_proofingLanguagesDescription": {
+    "message": "Sélectionnez jusqu’à trois langues. La langue par défaut se trouve en haut."
+  },
+  "ebx_addProofingLanguage": {
+    "message": "Ajouter une autre langue"
+  },
+  "ebx_moveToTop": {
+    "message": "Déplacer vers le haut"
+  },
+  "ebx_moveUp": {
+    "message": "Déplacer vers le haut"
+  },
+  "ebx_moveDown": {
+    "message": "Déplacer vers le bas"
+  },
+  "ebx_languageAdded": {
+    "message": "\"$language$\" a été correctement ajouté",
+    "placeholders": {
+      "language": {
+        "content": "1 $",
+        "example": "Anglais (Royaume-Uni)"
+      }
+    }
+  },
+  "ebx_languageRemoved": {
+    "message": "\"$language$\" a été correctement supprimé",
+    "placeholders": {
+      "language": {
+        "content": "1 $",
+        "example": "Anglais (Royaume-Uni)"
+      }
+    }
+  },
+  "ebx_languageMovedUp": {
+    "message": "\"$language$\" a été correctement déplacé d’une position vers le haut de la liste.",
+    "placeholders": {
+      "language": {
+        "content": "1 $",
+        "example": "Anglais (Royaume-Uni)"
+      }
+    }
+  },
+  "ebx_languageMovedToTop": {
+    "message": "\"$language$\" a été correctement déplacé en haut de la liste.",
+    "placeholders": {
+      "language": {
+        "content": "1 $",
+        "example": "Anglais (Royaume-Uni)"
+      }
+    }
+  },
+  "ebx_addLanguageSubmit": {
+    "message": "Ajouter une langue à la liste des langues de vérification linguistique"
+  },
+  "ebx_addLanguageCancel": {
+    "message": "Annuler l’ajout d’une langue à la liste des langues de vérification linguistique"
+  },
+  "ebx_MultiLanguageAnnouncementTitle": {
+    "message": "Relecture multi-langue avec Editor"
+  },
+  "ebx_MultiLanguageAnnouncementText": {
+    "message": "Vérifier l’orthographe et la grammaire de trois langues en même temps."
+  },
+  "ebx_MultiLanguageAnnouncementTextEditSettings": {
+    "message": "Vous pouvez modifier vos langues dans les paramètres de l’Éditeur."
+  },
+  "ebx_MultiLanguageAnnouncementSelectedLanguage": {
+    "message": "Nous avons sélectionné $language$ en fonction des paramètres actuels de votre navigateur.",
+    "placeholders": {
+      "language": {
+        "content": "1 $",
+        "example": "Anglais (Royaume-Uni)"
+      }
+    }
+  },
+  "ebx_MultiLanguageAnnouncementTwoSelectedLanguages": {
+    "message": "Nous avons sélectionné $language1$ ​​​​​, et $language2$​​​​​ en fonction des paramètres actuels de votre navigateur.",
+    "placeholders": {
+      "language1": {
+        "content": "1 $",
+        "example": "Anglais (Royaume-Uni)"
+      },
+      "language2": {
+        "content": "$2",
+        "example": "Anglais (Royaume-Uni)"
+      }
+    }
+  },
+  "ebx_MultiLanguageAnnouncementThreeSelectedLanguages": {
+    "message": "Nous avons sélectionné $language1$ ​​​​​, $language2$​​​​​ et $language3$​​​​​ en fonction des paramètres actuels de votre navigateur.",
+    "placeholders": {
+      "language1": {
+        "content": "$1",
+        "example": "Anglais (Royaume-Uni)"
+      },
+      "language2": {
+        "content": "$2",
+        "example": "Anglais (Royaume-Uni)"
+      },
+      "language3": {
+        "content": "$3",
+        "example": "Anglais (Royaume-Uni)"
+      }
+    }
+  },
+  "ebx_SignInAnnouncementTitle": {
+    "message": "L’Éditeur n’est pas encore en cours de fonctionnement"
+  },
+  "ebx_SignInAnnouncementText": {
+    "message": "Connectez-vous pour obtenir des suggestions d’écriture sur la plupart des sites web. Nous enregistrerons vos paramètres, tels que les langues dans lesquelles vous écrivez et les types de problèmes que vous souhaitez que l’Éditeur vérifie."
+  },
+  "ebx_SignInAnnouncementSignIn": {
+    "message": "Se connecter"
+  },
+  "ebx_SignInAnnouncementAlternativeText": {
+    "message": "Pour obtenir des suggestions d’écriture sur la plupart des sites web, connectez-vous à votre compte Microsoft ou au compte professionnel ou scolaire que vous utilisez pour Office."
+  },
+  "ebx_proofingLanguageEntryHint": {
+    "message": "Appuyez sur la touche Flèche droite pour accéder au bouton Plus de commandes."
+  },
+  "ebx_rateExtensionTitle": {
+    "message": "Commentaires sur Assistant Rédaction"
+  },
+  "ebx_rateExtensionPrompt": {
+    "message": "Trouvez-vous Rédacteur utile ?"
+  },
+  "ebx_rateExtensionPromptPositive": {
+    "message": "Très bien. Souhaitez-vous l’évaluer ?"
+  },
+  "ebx_rateExtensionPromptPositiveAlt": {
+    "message": "Si vous aimez encore utiliser Rédacteur, voulez-vous l’évaluer ?"
+  },
+  "ebx_rateExtensionPromptNegative": {
+    "message": "Nous sommes désolés de l’apprendre. Dites-nous comment nous pouvons améliorer Rédacteur."
+  },
+  "ebx_rateExtensionPromptYes": {
+    "message": "Oui"
+  },
+  "ebx_rateExtensionPromptNo": {
+    "message": "Non"
+  },
+  "ebx_rateExtensionPromptGiveFeedback": {
+    "message": "Envoyer des commentaires"
+  },
+  "ebx_rateExtensionPromptNoThanks": {
+    "message": "Non"
+  },
+  "ebx_rateExtensionPromptSure": {
+    "message": "OK"
+  },
+  "ebx_AddLanguageBlockedTooltip": {
+    "message": "Vous pouvez uniquement activer la vérification linguistique pour trois langues à la fois."
+  },
+  "ebx_addGrammarChecking": {
+    "message": "Pour ajouter la vérification grammaticale"
+  },
+  "ebx_signIntoEditor": {
+    "message": "connectez-vous au Rédacteur"
+  },
+  "ebx_RefinementTooltip": {
+    "message": "Les abonnés Microsoft 365 reçoivent des suggestions de rédaction avancées lorsqu’ils sont connectés."
+  },
+  "ebx_signIntoEditorTile": {
+    "message": "Connexion à l’éditeur"
+  },
+  "ebx_signIntoEditorBody": {
+    "message": "Veuillez vous connecter pour obtenir des suggestions de perfectionnement et relatives la grammaire sur la plupart des sites web."
+  },
+  "ebx_giveFeedback": {
+    "message": "Envoyer des commentaires"
+  },
+  "ebx_feedbackCommentQuestion": {
+    "message": "Dites-nous pourquoi vous avez choisi cette réponse"
+  },
+  "ebx_feedbackRatingQuestion": {
+    "message": "Comment décririez-vous votre expérience d’utilisation du Rédacteur Microsoft ?"
+  },
+  "ebx_feedbackRating1": {
+    "message": "Très négative"
+  },
+  "ebx_feedbackRating2": {
+    "message": "Plutôt négative"
+  },
+  "ebx_feedbackRating3": {
+    "message": "Ni négative ni positive"
+  },
+  "ebx_feedbackRating4": {
+    "message": "Plutôt positive"
+  },
+  "ebx_feedbackRating5": {
+    "message": "Très positive"
+  },
+  "ebx_feedbackTitle": {
+    "message": "Fournir des commentaires pour Microsoft Editor"
+  },
+  "ebx_feedbackSubmitNotice": {
+    "message": "Si vous appuyez sur Envoyer, vos commentaires seront utilisés pour améliorer les produits et services Microsoft."
+  },
+  "ebx_settingsPerLanguage": {
+    "message": "Paramètres de langue"
+  },
+  "ebx_manageLanguagesButton": {
+    "message": "Gérer les langues"
+  },
+  "ebx_Done": {
+    "message": "OK"
+  },
+  "ebx_addButton": {
+    "message": "Ajouter"
+  },
+  "ebx_Cancel": {
+    "message": "Annuler"
+  },
+  "ebx_blockedSiteEntryHint": {
+    "message": "Appuyez sur la touche Flèche droite pour accéder au bouton Supprimer."
+  },
+  "ebx_FeedbackSubmitted": {
+    "message": "Les commentaires ont été envoyés avec succès."
+  },
+  "ebx_disableCritiqueButton": {
+    "message": "Arrêter de vérifier"
+  },
+  "ebx_disableCritiqueButtonAriaLabel": {
+    "message": "Arrêtez de vérifier ceci. L’éditeur applique ce paramètre jusqu’à ce que vous le modifiiez."
+  },
+  "ebx_disableCritiqueTooltip": {
+    "message": "L’éditeur applique ce paramètre jusqu’à ce que vous le modifiiez"
+  }
+}

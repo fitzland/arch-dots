@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 400px;
+    overflow: hidden;
+}
+
+#obf-TFormContainer {
+    background-image: url(./../assets/icon_48.png);
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-position: left 3px;
+    background-size: 36px;
+}
+
+#obf-TFormTitle {
+    margin-left: 40px;
+    min-height: 40px;
+}
+
+.obf-PrivacyStatementLinkDiv>a {
+    margin-left: 3px;
+}

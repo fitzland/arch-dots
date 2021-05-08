@@ -17,14 +17,17 @@ mv ./skel skel-beta
 
 mkdir ./skel
 cp -r $HOME/.config/autostart ./skel/config/
+cp -r $HOME/.config/alacritty ./skel/config/
+cp -r $HOME/.config/arco-dwm ./skel/config/
 cp -r $HOME/.config/bspwm ./skel/config/
 cp -r $HOME/.config/gtk-2.0 ./skel/config/
 cp -r $HOME/.config/gtk-3.0 ./skel/config/
 cp -r $HOME/.config/i3 ./skel/config/
-cp -r $HOME/.config/icewm ./skel/config/
-cp -r $HOME/.config/jwm ./skel/config/
 cp -r $HOME/.config/keepassxc ./skel/config/
+cp -r $HOME/.config/Kvantum ./skel/config/
+cp -r $HOME/.config/microsoft-edge-beta ./skel/config/
 cp -r $HOME/.config/nitrogen ./skel/config/
+cp -r $HOME/.config/paru ./skel/config/
 cp -r $HOME/.config/polybar ./skel/config/
 cp -r $HOME/.config/qt5ct ./skel/config/
 cp -r $HOME/.config/rofi ./skel/config/

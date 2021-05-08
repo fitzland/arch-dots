@@ -1,105 +1,3 @@
-sudo nano /etc/paru.conf
-exit
-paru libreoffice
-paru libreoffice-still
-yay gnucash
-exit
-yay papirus
-exit
-yay libreoffice
-sudo nano /etc/pacman.conf 
-sudo nano /etc/paru.conf
-paru libreoffice
-paru libreoffice-still
-yay gnucash
-yay papirus
-yay alacritty
-yay st
-yay stterm
-yay simple terminal
-yay gnome
-cd ..
-mkdir -p dubois
-cd dubois/
-dots
-cd arco-scripts/
-sudo ./trust-key.sh 
-ls
-./add-keyservers-for-key-importing.sh 
-./add-arcolinux-repo-to-pacman-conf.sh 
-exit
-yay pamac
-yay aic
-yay wd7
-exit
-upall
-yay typora
-exit
-yay typora
-mkdir -p ~/.config/alacritty
-cp /usr/share/doc/alacritty/example/alacritty.yml ~/.config/alacritty/alacritty.yml
-fc-list
-fc-list : family style
-code ~/.config/alacritty/alacritty.yml 
-exit
-code ~/.config/alacritty/alacritty.yml 
-exit
-upall
-exit
-sudo pacman -Rns lxterminal
-ei3
-exit
-sudo pacman -Rns gnome
-exit
-cleanup
-eba
-eb
-exit
-upall
-exit
-cd .config/alacritty/
-ls
-code alacritty.yml 
-upall
-exit
-upall
-cleanup
-exit
-eb
-cd .config/alacritty/
-code alacritty.yml 
-nano ~/.config/alacritty/alacritty.yml 
-upall
-cd /etc/skel/
-cd .config
-ls
-cd ..
-ls -la
-code .bashrc 
-cleanup
-eba
-exit
-cleanup
-exit
-yay pamac
-exit
-upall
-cleanup
-exit
-dots
-ls
-./130-bluetooth.sh 
-exit
-ei3
-cd .config/
-cd arco-dwm/
-ls
-make
-make install
-sudo make install
-exit
-sudo make install
-upall
 htop
 cleanup
 cd ~/.config/arco-dwm/
@@ -496,5 +394,107 @@ ls
 sudo make clean install
 exit
 cd ~/.config/arco-dwm/
+sudo make clean install
+exit
+dots
+ls
+./010-backup-skel.sh 
+ls -la
+exit
+yay microsoft edge
+exit
+yay google-chrome
+exit
+xprop
+cd ~/.config/arco-dwm/
+ls
+sudo make clean install
+exit
+yay gnucash
+yay keepassxc
+exit
+xprop
+cd ~/.config/arco-dwm/
+sudo make clean install
+exit
+cd ~/.config/arco-dwm/
+sudo make clean install
+exit
+cd .config/arco-dwm/
+sudo make clean install
+exit
+cd .config/arco-dwm/
+sudo make clean install
+exit
+xprop
+cd .config/arco-dwm/
+sudo make clean install
+exit
+xprop
+upall
+cleanup
+exit
+upall
+exit
+cd ~/.config/arco-dwm/
+sudo make clean install
+cd .config/arco-dwm/
+sudo make clean install
+cd .config/arco-dwm/
+sudo make clean install
+xprop
+cd .config/arco-dwm/
+sudo make clean install
+xprop
+cleanup
+dots
+./git-v1.sh 
+upall
+eba
+cd
+mv .bash_aliases bash-personal
+ls
+ls -la
+mv bash-personal .bash-personal
+eb
+mv .bash-personal .bashrc-personal
+cb
+exit
+sudo pacman -Rns urxvt
+sudo pacman -Rns rxvt-unicode
+exit
+exr
+upall
+cleanup
+exit
+eb
+eba
+nano ~/.bashrc-personal 
+exit
+eba
+eb
+ls
+exit
+exr
+exit
+upall
+exit
+exr
+alias
+merge
+sudo pacman -S xrdb
+yay xrdb
+exit
+merge
+exit
+exr
+exit
+upall
+exit
+cd .config/arco-dwm/
+ls
+sudo make clean install
+exit
+cd .config/arco-dwm/
 sudo make clean install
 exit

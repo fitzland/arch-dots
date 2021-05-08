@@ -1,14 +1,18 @@
-#########################
-# SUPER + FUNCTION KEYS #
-#########################
+#################################################################
+# KEYBOARD BINDINGS FOR ANY TWM
+#################################################################
+
+#################################################################
+# SUPER + FUNCTION KEYS
+#################################################################
 
 # Vivaldi
 super + F1
-	pamac-manager
+	vivaldi-stable
 
-#Code
+# Atom
 super + F2
-    code-oss
+	atom
 
 #Inkscape
 super + F3
@@ -24,65 +28,55 @@ super + F5
 
 #Vlc
 super + F6
-    gnucash
+    vlc --video-on-top
 
 #Virtualbox
 super + F7
-    keepassxc
+    virtualbox
 
-#Typora
+#Thunar
 super + F8
-    typora
+    thunar
 
-#Spotify
+#Evolution
 super + F9
-    spotify
+    evolution
 
 #Spotify
 super + F10
-    firefox-develper-edition
+    spotify
 
-#Google Chrome - Alt Profile
+#Rofi Fullscreen
 super + F11
-    google-chrome-stable --profile-directory='Profile 1'
+    rofi -show run -fullscreen
 
-#Google Chrome - Default
+#Rofi
 super + F12
-    google-chrome-stable --profile-directory='Default'
+    rofi -show run
 
 #################################################################
 # SUPER + ... KEYS
 #################################################################
 
-#Rofi App
-super + slash
-    rofi -modi drun -show drun -lines 7
+#Atom
+super + e
+    atom
 
-#Rofi CLI
-super + backslash
-    rofi -show run -lines 7
+#Browser
+super + w
+    vivaldi-stable
 
 #Conky-toggle
 super + c
     conky-toggle
 
-#Atom
-super + e
-    code
-
-
-
 #Htop
 super + h
     urxvt 'htop task manager' -e htop
 
-#music player
-super + m
-    pragha
-
-# Toggle pseudo tiling of window
-super + p
-	bspc node --state \~pseudo_tiled
+#arcolinux-logout
+super + x
+    arcolinux-logout
 
 #Rofi theme selector
 super + r
@@ -96,21 +90,13 @@ super + t
 super + v
     pavucontrol
 
-#Browser
-super + w
-    firefox-developer-edition
-
-#arcolinux-logout
-super + x
-    arcolinux-logout
-
-#Hide polybar
-super + y
-    polybar-msg cmd toggle
+#Pragha
+super + m
+    pragha
 
 #Termite
 super + Return
-    rofi-sensible-terminal
+    termite
 
 #Xkill
 super + Escape
@@ -119,11 +105,11 @@ super + Escape
 #Keyboard dependent
 #termite
 super + KP_Enter
-	rofi-sensible-terminal
+	termite
 
-#########################
-# SUPER + SHIFT KEYS    #
-#########################
+#################################################################
+# SUPER + SHIFT KEYS
+#################################################################
 
 #File-Manager
 super + shift + Return
@@ -134,35 +120,30 @@ super + shift + Return
 #super + shift + KP_Enter
 #	thunar
 
-
-#DMENU
+#dmenu
 super + shift + d
-	dmenu_run
-
-#Reload bspwm
-super + ctrl + r
-	~/.config/bspwm/bspwmrc
+	dmenu_run -i -nb '#191919' -nf '#fea63c' -sb '#fea63c' -sf '#191919' -fn 'NotoMonoRegular:bold:pixelsize=14'
 
 #reload sxhkd:
 super + shift + s
 	pkill -USR1 -x sxhkd
 
-#kill
-super + shift + q
-	bspc node -c
+#Keyboard dependent
+#super + shift + KP_Enter
+#	thunar
 
 
-#Logout
-super + shift + x
-	bspc quit
-
-#########################
-# CONTROL + ALT KEYS    #
-#########################
+#################################################################
+# CONTROL + ALT KEYS
+#################################################################
 
 #arcolinux-welcome-app
 ctrl + alt + w
      arcolinux-welcome-app
+
+#arcolinux-tweak-tool
+ctrl + alt + e
+    arcolinux-tweak-tool
 
 #conky-rotate
 ctrl + alt + Next
@@ -180,6 +161,10 @@ ctrl + alt + b
 ctrl + alt + c
      catfish
 
+#Chromium
+ctrl + alt + g
+    chromium -no-default-browser-check
+
 #Firefox
 ctrl + alt + f
      firefox
@@ -188,7 +173,7 @@ ctrl + alt + f
 ctrl + alt + i
      nitrogen
 
-#Screen-Locker
+#arcolinux-logout
 ctrl + alt + k
      arcolinux-logout
 
@@ -216,13 +201,13 @@ ctrl + alt + r
 ctrl + alt + s
    spotify
 
-#Urxvt
-ctrl + alt + t
-     urxvt
+#Termite
+ctrl + alt + Return
+    termite
 
-#Pulse Audio Control
-ctrl + alt + u
-     pavucontrol
+#termite
+ctrl + alt + t
+    termite
 
 #Vivaldi
 ctrl + alt + v
@@ -243,18 +228,82 @@ ctrl + alt + a
 # ALT + ... KEYS
 #################################################################
 
-#Xfce4-appfinder
-#alt + F3
-#    xfce4-appfinder
+#Wallpaper trash
+alt + t
+    variety -t
 
+#Wallpaper next
+alt + n
+    variety -n
+
+#Wallpaper previous
+alt + p
+    variety -p
+
+#Wallpaper favorite
+alt + f
+    variety -f
+
+#Wallpaper previous
+alt + Left
+    variety -p
+
+#Wallpaper next
+alt + Right
+    variety -n
+
+#Wallpaper toggle-pause
+alt + Up
+    variety --toggle-pause
+
+#Wallpaper resume
+alt + Down
+    variety --resume
+
+#Gmrun
+alt + F2
+    gmrun
+
+#Xfce4-appfinder
+alt + F3
+    xfce4-appfinder
+
+#Xlunch app launcher
+#alt + F5
+#    xlunch --config ~/.config/xlunch/default.conf --input ~/.config/xlunch/entries.dsv   
+
+
+#################################################################
+#VARIETY KEYS WITH PYWAL
+#################################################################
+
+#Wallpaper trash
+alt + shift + t
+    variety -t && wal -i $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt)&
+
+#Wallpaper next
+alt + shift + n
+    variety -n && wal -i $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt)&
+
+#Wallpaper previous
+alt + shift + p
+    variety -p && wal -i $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt)&
+
+#Wallpaper favorite
+alt + shift + f
+    variety -f && wal -i $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt)&
+
+#Wallpaper update
+alt + shift + u
+    wal -i $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt)&
 
 #################################################################
 # CONTROL + SHIFT KEYS
 #################################################################
 
 #Xcfe4-TaskManager
-#ctrl + shift + Escape
-#    xfce4-taskmanager
+ctrl + shift + Escape
+    xfce4-taskmanager
 
 
 #################################################################
@@ -263,11 +312,15 @@ ctrl + alt + a
 
 #Scrot
 Print
-    scrot '%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f $$(xdg-user-dir PICTURES)'
+    scrot 'ArcoLinux-%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f $$(xdg-user-dir PICTURES)'
 
 #screeenshooter
 ctrl + Print
-     flameshot
+     xfce4-screenshooter
+
+#Gnome-Screenshot
+ctrl + shift + Print
+     gnome-screenshot -i
 
 
 #################################################################
@@ -275,8 +328,8 @@ ctrl + Print
 #################################################################
 
 #xfce4-terminal dropdown
-# F12
-#    xfce4-terminal --drop-down
+F12
+    xfce4-terminal --drop-down
 
 
 #################################################################
@@ -358,9 +411,17 @@ ctrl + alt + o
 super + f
 	bspc node --state \~fullscreen
 
+# Toggle pseudo tiling of window
+super + p
+	bspc node --state \~pseudo_tiled
+
 #kill
 super + q
 	bspc node -c
+
+#################################################################
+# SUPER KEYS
+#################################################################
 
 #Focus selected desktop
 super + Tab
@@ -372,20 +433,11 @@ super + bracket{left,right}
 
 # set the window state
 super + space
-	bspc node -t {tiled,floating,fullscreen}
+	bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
 
-# Move focus to [prev,next] monitor
+# Move focus to other monitor
 super + BackSpace
-	bspc monitor -f next
-
-# Move focus to [prev,next] monitor
-super + {Up,Down}
-	bspc monitor -f {prev,next}
-
-# Move focus to [prev,next] desktop
-super + {Left,Right}
-	bspc node -f {prev,next}
-
+		bspc monitor -f next
 
 #################################################################
 # SUPER + ALT KEYS
@@ -399,10 +451,6 @@ super + alt + {_,shift + }{Left,Down,Up,Right}
 # SUPER + CONTROL KEYS
 #################################################################
 
-# Send window to desktop and swap to desktop
-super + control + {0-9}
-    bspc node -d {0-9} --follow
-
 # Cancel preselection
 super + ctrl + space
 	bspc node --presel-dir cancel
@@ -411,9 +459,6 @@ super + ctrl + space
 # SUPER + SHIFT KEYS
 #################################################################
 
-# Send window to desktop
-super + shift + {0-9}
-    bspc node -d {0-9} 
 
 #Reload bspwm
 super + shift + r
@@ -421,7 +466,7 @@ super + shift + r
 
 #kill
 super + shift + q
-	xdo close 
+	bspc node -c
 
 #Logout
 #super + shift + x
@@ -436,16 +481,20 @@ super + {_,shift + }a
 	bspc node @/ --flip {vertical,horizontal}
 
 # Move focused window to other monitor
-super + shift + BackSpace    
-    bspc node -m next --follow
+super + shift + Left
+	bspc node -m next --follow
 
-# Move focused window to previous/next desktop
-super + shift + {Left,Right}
-	bspc node -d {prev,next} --follow
+# Move focused window to other monitor
+super + shift + Right
+		bspc node -m next --follow
 
-# Move focused window to prev/next monitor
-super + shift + {Up,Down}
-	bspc node -m {prev,next} --follow
+# Move focused window to other monitor
+super + shift + Up
+	bspc node -m next --follow
+
+# Move focused window to other monitor
+super + shift + Down
+		bspc node -m next --follow
 
 #################################################################
 # SUPER + CONTROL KEYS
@@ -500,9 +549,54 @@ alt + shift + {h,j,k,l}
 # CTRL + ALT KEYS
 #################################################################
 
-# Focus west/east/north/south window
-ctrl + alt + {Left,Right}
-	bspc desktop -f {prev,next}
+# Focus next/previous window
+ctrl + alt + Left
+	bspc node --focus west
+
+# Focus next/previous window
+ctrl + alt + Right
+	bspc node --focus east
+
+# Focus Up window
+ctrl +alt + Up
+	bspc node --focus north
+
+# Focus Down window
+ctrl + alt + Down
+	bspc node --focus south
+
+#################################################################
+#################################################################
+##################   AZERTY/QWERTY/ ... KEYBOARD#################
+#################################################################
+#################################################################
+
+#Switch here between qwerty and azerty or make new one
+#Focus selected desktop FOR QWERTY KEYBOARDS
+super + {1-9,0}
+	bspc desktop -f '^{1-9,10}'
+
+#Focus selected desktop	FOR BELIGIAN AZERTY KEYBOARDS
+#super + {ampersand,eacute,quotedbl,apostrophe,parenleft,section,egrave,exclam,ccedilla,agrave}
+#    bspc desktop -f '^{1-9,10}'
+
+#Focus selected desktop	FOR FRNECH AZERTY KEYBOARDS
+#super + {ampersand,eacute,quotedbl,apostrophe,parenleft,minus,egrave,underscore,ccedilla,agrave}
+#    bspc desktop -f '^{1-9,10}'
+
+#################################################################
+
+#Switch here between qwerty and azerty or make new one
+#Move window to selected desktop FOR QWERTY KEYBOARDS
+super + shift + {1-9,0}
+    id=$(bspc query -N -n); bspc node -d ^{1-9,10}; bspc node -f ${id}}
+
+#Move window to selected desktop FOR AZERTY KEYBOARDS
+#super + shift + {ampersand,eacute,quotedbl,apostrophe,parenleft,section,egrave,exclam,ccedilla,agrave}
+#    id=$(bspc query -N -n); bspc node -d ^{1-9,10}; bspc node -f ${id}}
+
+#################################################################
+
 
 ## super & mouse scroll
 

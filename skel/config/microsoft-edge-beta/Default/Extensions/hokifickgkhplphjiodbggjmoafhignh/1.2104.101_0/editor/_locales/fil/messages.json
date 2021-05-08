@@ -1,0 +1,546 @@
+{
+  "ebx_appName": {
+    "message": "Editor sa Browser"
+  },
+  "ebx_appShortName": {
+    "message": "Editor"
+  },
+  "ebx_appDescription": {
+    "message": "Magsulat nang may kumpiyansa gamit ang Microsoft Editor: ang iyong intelligent na assistant sa pagsusulat"
+  },
+  "ebx_appLongDescription": {
+    "message": "Nagbibigay ang Editor ng mga suhestyon sa grammar, spelling, at estilo sa maraming site (1); para magawa mong magsulat ng mga malinaw at tumpak na post at email nang may kumpiyansa. \r\n\r\nBAGO: Pagwawasto sa maraming wika, Mga opsyong Balewalain \r\nSuriin ang spelling at grammar para sa hanggang tatlong wika nang sabay-sabay. At available na ang spell check para sa Thai. Pinadali rin namin ang paglaktaw sa lahat ng pagkakataong may mga pagwawasto ng spelling sa pamamagitan ng pagpili sa Balewalain Lahat, o laktawan ang mga hindi gustong suhestyon sa grammar sa pamamagitan ng pagpili sa Balewalain. \r\n\r\nIntelligent na assistant sa pagsusulat \r\nTiyaking tama ang mga pangunahing aspeto sa pamamagitan ng libreng pagwawasto sa grammar, spelling, at bantas. Makakuha ng mga advanced na suhestyon sa grammar at pagsusuri sa estilo para sa mga isyu gaya ng linaw, katumpakan, pormalidad, bokabularyo, at marami pang iba sa premium (nangangailangan ng subscription sa Microsoft 365). \r\n\r\nMagsulat kahit saan \r\nMakakuha ng tulong sa pagsusulat sa mga site gaya ng LinkedIn, Gmail, Facebook, at iba pang paborito gamit ang browser extension na ito. Kung gusto mo ng tulong ng Editor sa labas ng web, buksan ang Word at hanapin ang icon ng Editor para makita kung paano makakatulong ang Editor kapag nagsusulat ka ng mga dokumento at email. \r\n\r\nAvailable sa maraming wika \r\nSinusuri ng Editor ang spelling sa mahigit 80 wika at nagsasagawa ito ng pagsusuri sa grammar at pagpipino sa estilo ng pagsusulat sa mga sumusunod na wika: (2) \r\n– Arabic\r\n– Czech\r\n– Danish\r\n– Dutch\r\n– English\r\n– Finnish\r\n– French\r\n– German\r\n– Hebrew\r\n– Hungarian\r\n– Italian\r\n– Japanese\r\n– Korean\r\n– Norwegian (Bokmål)\r\n– Polish\r\n– Portuguese (Brazil)\r\n– Portuguese (Portugal)\r\n– Russian\r\n– Spanish\r\n– Swedish\r\n– Turkish\r\n\r\n1. Available para sa Microsoft Edge browser o Chrome browser at nangangailangan ng Account sa Microsoft. Kumokonekta ang Editor sa isang online na serbisyo ng Microsoft na nagbibigay ng mga suhestyon sa spelling, grammar, at pagpipino para sa iyong pagsusulat sa karamihan ng mga website. \r\n2. Hindi lahat ng wika ay may parehong set ng mga pagpipino. \r\n\r\nSa pamamagitan ng pag-install sa app, sumasang-ayon ka sa mga tuntunin at kundisyon nito: \r\n\r\nhttps://aka.ms/editorchromeextensionterms\r\n\r\nPatakaran sa Privacy: http://aka.ms/privacy"
+  },
+  "ebx_appLongDescriptionEdge": {
+    "message": "Magsulat nang may kumpiyansa gamit ang Microsoft Editor: ang iyong intelligent na assistant sa pagsusulat. \r\n\r\nNagbibigay ang Editor ng mga suhestyon sa grammar, spelling, at estilo sa maraming site (1); para magawa mong magsulat ng mga malinaw at tumpak na post at email nang may kumpiyansa. \r\n\r\nBAGO: Pagwawasto sa maraming wika, Mga opsyong Balewalain \r\nSuriin ang spelling at grammar para sa hanggang tatlong wika nang sabay-sabay. At available na ang spell check para sa Thai. Pinadali rin namin ang paglaktaw sa lahat ng pagkakataong may mga pagwawasto ng spelling sa pamamagitan ng pagpili sa Balewalain Lahat, o laktawan ang mga hindi gustong suhestyon sa grammar sa pamamagitan ng pagpili sa Balewalain. \r\n\r\nIntelligent na assistant sa pagsusulat \r\nTiyaking tama ang mga pangunahing aspeto sa pamamagitan ng libreng pagwawasto sa grammar, spelling, at bantas. Makakuha ng mga advanced na suhestyon sa grammar at pagsusuri sa estilo para sa mga isyu gaya ng linaw, katumpakan, pormalidad, bokabularyo, at marami pang iba sa premium (nangangailangan ng subscription sa Microsoft 365). \r\n\r\nMagsulat kahit saan \r\nMakakuha ng tulong sa pagsusulat sa mga site gaya ng LinkedIn, Gmail, Facebook, at iba pang paborito gamit ang browser extension na ito. Kung gusto mo ng tulong ng Editor sa labas ng web, buksan ang Word at hanapin ang icon ng Editor para makita kung paano makakatulong ang Editor kapag nagsusulat ka ng mga dokumento at email. \r\n\r\nAvailable sa maraming wika \r\nSinusuri ng Editor ang spelling sa mahigit 80 wika at nagsasagawa ito ng pagsusuri sa grammar at pagpipino sa estilo ng pagsusulat sa mga sumusunod na wika: (2) \r\n– Arabic\r\n– Czech\r\n– Danish\r\n– Dutch\r\n– English\r\n– Finnish\r\n– French\r\n– German\r\n– Hebrew\r\n– Hungarian\r\n– Italian\r\n– Japanese\r\n– Korean\r\n– Norwegian (Bokmål)\r\n– Polish\r\n– Portuguese (Brazil)\r\n– Portuguese (Portugal)\r\n– Russian\r\n– Spanish\r\n– Swedish\r\n– Turkish\r\n\r\n1. Available para sa Microsoft Edge browser o Chrome browser at nangangailangan ng Account sa Microsoft. Kumokonekta ang Editor sa isang online na serbisyo ng Microsoft na nagbibigay ng mga suhestyon sa spelling, grammar, at pagpipino para sa iyong pagsusulat sa karamihan ng mga website. \r\n2. Hindi lahat ng wika ay may parehong set ng mga pagpipino. \r\n\r\nSa pamamagitan ng pag-install sa app, sumasang-ayon ka sa mga tuntunin at kundisyon nito: \r\n\r\nhttps://aka.ms/editorchromeextensionterms\r\n\r\nPatakaran sa Privacy: http://aka.ms/privacy"
+  },
+  "ebx_appTermsOfServiceLCA": {
+    "message": "PLEASE NOTE: Refer to your license terms for your Microsoft Account or Microsoft 365 subscription as applicable (the \"extension\") to identify the entity licensing this extension to you and for support information.  The license terms for the Microsoft Account or Microsoft 365 subscription as applicable apply to your use of this extension."
+  },
+  "ebx_optionsPageTitle": {
+    "message": "Mga Setting ng Editor"
+  },
+  "ebx_settings": {
+    "message": "Mga Setting"
+  },
+  "ebx_proofingLanguage": {
+    "message": "Wik sa pag-proof"
+  },
+  "ebx_proofingLanguages": {
+    "message": "Mga wika sa pag-proof"
+  },
+  "ebx_proofingLanguagePlaceHolder": {
+    "message": "Pumili ng wika ng pag-proof"
+  },
+  "ebx_userExcludedUrlsTextBoxCaption": {
+    "message": "Nag-off ka ng Editor sa mga site na nakalista sa ibaba. Maaaring awtomatikong naka-off ang editor sa mga karagdagang site na may sensitibong nilalaman o mabagal ang bilis ng pag-load."
+  },
+  "ebx_userBlockedSites": {
+    "message": "Mga naka-block na site"
+  },
+  "ebx_userExcludedUrlsErrorCaption": {
+    "message": "Hindi wastong url na \"$url$\" sa linya $line$.",
+    "placeholders": {
+      "url": {
+        "content": "$1",
+        "example": "https://microsoft.com"
+      },
+      "line": {
+        "content": "$2",
+        "example": "123"
+      }
+    }
+  },
+  "ebx_userExcludedUrlErrorCaption": {
+    "message": "Hindi wastong url. Pakibigay ang url sa sumusunod na format: https://example.com"
+  },
+  "ebx_showSynonymsToggleCaption": {
+    "message": "Ipakita ang mga kasingkahulugan para sa mga suhestiyon sa spelling"
+  },
+  "ebx_comingSoonTooltipTitle": {
+    "message": "Malapit na"
+  },
+  "ebx_changeAllCommandLabel": {
+    "message": "Baguhin Lahat"
+  },
+  "ebx_changeSettingsCommandLabel": {
+    "message": "Mga setting ng Editor..."
+  },
+  "ebx_moreButtonArialLabel": {
+    "message": "Higit pang command"
+  },
+  "ebx_ignoreAllButtonLabel": {
+    "message": "Balewalain lahat"
+  },
+  "ebx_ignoreOnceButtonLabel": {
+    "message": "Ignore"
+  },
+  "ebx_addToDictionaryButtonLabel": {
+    "message": "Idagdag sa Diksyunaryo"
+  },
+  "ebx_suggestionMoreActionsArialLabel": {
+    "message": "Higit pang pagkilos"
+  },
+  "ebx_brandText": {
+    "message": "Microsoft Editor"
+  },
+  "ebx_brandTextArialLabel": {
+    "message": "Logo ng Microsoft Editor"
+  },
+  "ebx_showSynonyms": {
+    "message": "Ipakita ang mga kasingkahulugan"
+  },
+  "ebx_hideSynonyms": {
+    "message": "Itago ang mga kasingkahulugan"
+  },
+  "ebx_synonymsNotAvailable": {
+    "message": "[Walang available na kasingkahulugan]"
+  },
+  "ebx_ariaReplaceWith": {
+    "message": "Palitan ng"
+  },
+  "ebx_deleteRepeatedWord": {
+    "message": "[Tanggalin ang nauulit na salita]"
+  },
+  "ebx_asInSynonyms": {
+    "message": "katulad ng"
+  },
+  "ebx_goPremiumLine": {
+    "message": "Subukan ang mga advanced na ideya sa pagsusulat ng Editor."
+  },
+  "ebx_goPremiumLinkText": {
+    "message": "Mag-premium"
+  },
+  "ebx_goPremiumLinkTextLowerCase": {
+    "message": "mag-premium"
+  },
+  "ebx_enhancedUpsellLinePartA": {
+    "message": "Ang editor ay may"
+  },
+  "ebx_enhancedUpsellLinePartBPlural": {
+    "message": "mga advanced na ideya sa pagsusulat para sa mensaheng ito."
+  },
+  "ebx_enhancedUpsellLinePartBSingular": {
+    "message": "advanced na ideya sa pagsusulat para sa mensaheng ito."
+  },
+  "ebx_enhancedUpsellCategoriesComma": {
+    "message": ", "
+  },
+  "ebx_enhancedUpsellCategoriesAnd": {
+    "message": " at "
+  },
+  "ebx_tryPremiumPreviewLink": {
+    "message": "Subukan ngayon"
+  },
+  "ebx_premiumPreviewGeneralLine": {
+    "message": "Kunin ang mga advanced na ideya sa pagsusulat ng Editor."
+  },
+  "ebx_premiumPreviewLineDaysPlural": {
+    "message": "araw na natitira sa preview na ito. Mag-upgrade para sa walang limitasyong mga mungkahi:"
+  },
+  "ebx_premiumPreviewLineDaysSingular": {
+    "message": "natitirang araw sa preview na ito. Mag-upgrade para sa walang limitasyong mga mungkahi:"
+  },
+  "ebx_premiumPreviewLineSuggestionsPlural": {
+    "message": "natitirang mga mungkahi sa preview na ito. Mag-upgrade para sa walang limitasyong mga mungkahi:"
+  },
+  "ebx_premiumPreviewLineSuggestionsSingular": {
+    "message": "natitirang mungkahi sa preview na ito. Mag-upgrade para sa walang limitasyong mga mungkahi:"
+  },
+  "ebx_checkSpelling": {
+    "message": "Suriin ang spelling"
+  },
+  "ebx_checkGrammar": {
+    "message": "Suriin ang grammar"
+  },
+  "ebx_turnOffEditor": {
+    "message": "I-off ang Editor"
+  },
+  "ebx_editorFeature": {
+    "message": "Microsoft Editor"
+  },
+  "ebx_editorFeatureOfficeBx": {
+    "message": "I-off ang Editor"
+  },
+  "ebx_editorFeatureOnText": {
+    "message": "Naka-on"
+  },
+  "ebx_editorFeatureOffText": {
+    "message": "Naka-off"
+  },
+  "ebx_turnOffEditorExplained": {
+    "message": "Kumokonekta ang Editor sa isang online na serbisyo ng Microsoft na nagbibigay ng mga suhestiyon sa spelling, grammar, at estilo para sa pagsulat mo sa karamihan ng mga website."
+  },
+  "ebx_checkForRefinements": {
+    "message": "Tumingin ng mga pagpapahusay"
+  },
+  "ebx_addAnotherSite": {
+    "message": "Magdagdag ng isa pang site"
+  },
+  "ebx_goPremiumExplained": {
+    "message": "Kunin ang mga pinaka-advanced na mga ideya sa pagsusulat ng Editor, 1 TB na storage sa OneDrive, at mga premium na tampok sa lahat ng mga Microsoft 365 app."
+  },
+  "ebx_addAnotherSiteAriaLabel": {
+    "message": "Magdagdag ng isa pang site"
+  },
+  "ebx_addAnotherSiteSubmit": {
+    "message": "Magdagdag ng site sa listahan ng mga naka-block na site"
+  },
+  "ebx_addAnotherSiteCancel": {
+    "message": "Kanselahin ang pagdaragdag ng site sa listahan ng mga naka-block na site."
+  },
+  "ebx_RemoveItem": {
+    "message": "Tanggalin"
+  },
+  "ebx_duplicateBlockedSite": {
+    "message": "Nasa listahan na ng mga naka-block na site ang site na ito"
+  },
+  "ebx_editorEnableAnnouncementTitle": {
+    "message": "Gumagana na ang Microsoft Editor (Preview)"
+  },
+  "ebx_editorEnableAnnouncementText": {
+    "message": "Ang Microsoft Office Browser extension ay mayroon nang Microsoft Editor, ang mahusay mong katuwang sa pagsulat na makakatulong sa iyong makapagsulat nang mahusay sa buong web. Kumokonekta ang Microsoft Editor sa isang online na serbisyo para makapagbigay ng mga suhestiyon sa spelling, grammar, at estilo para sa iyo."
+  },
+  "ebx_learnMore": {
+    "message": "Alamin pa"
+  },
+  "ebx_goToSettingsToLearnMore": {
+    "message": "Pumunta sa mga setting ng Editor para alamin pa"
+  },
+  "ebx_goToSettings": {
+    "message": "Pumunta sa mga setting ng Editor"
+  },
+  "ebx_previewLabel": {
+    "message": "PREVIEW"
+  },
+  "ebx_preview": {
+    "message": "(Preview)"
+  },
+  "ebx_SquiggleTooltipText": {
+    "message": "Buksan gamit ang left-click"
+  },
+  "ebx_SquiggleTooltipCombination": {
+    "message": "(Alt+Pababang Arrow)"
+  },
+  "ebx_SquiggleTooltipCombinationMac": {
+    "message": "(Control+Option+Pababang Arrow)"
+  },
+  "ebx_SquiggleTooltipAriaText": {
+    "message": "Buksan gamit ang left-click o Alt+Down Arrow"
+  },
+  "ebx_SquiggleTooltipAriaTextMac": {
+    "message": "Buksan gamit ang left-click o Control+Option+Pababang Arrow"
+  },
+  "ebx_SquiggleTooltipSpellingTitle": {
+    "message": "Pagtatama ng spelling"
+  },
+  "ebx_SquiggleTooltipGrammarTitle": {
+    "message": "Pagtatama ng Grammar"
+  },
+  "ebx_SquiggleTooltipRefinementTitle": {
+    "message": "Pagpapahusay sa pagsusulat"
+  },
+  "ebx_editorFeatureToggleLabel": {
+    "message": "Editor na tampok"
+  },
+  "ebx_toggleOn": {
+    "message": "Naka-on"
+  },
+  "ebx_toggleOff": {
+    "message": "Naka-off"
+  },
+  "ebx_toneLabel": {
+    "message": "Tone"
+  },
+  "ebx_close": {
+    "message": "Isara"
+  },
+  "ebx_feedbackMessage": {
+    "message": "Tulungan kaming pahusayin ang Editor sa pamamagitan ng pagbibigay ng"
+  },
+  "ebx_feedbackLink": {
+    "message": "feedback"
+  },
+  "ebx_spelling": {
+    "message": "Spelling"
+  },
+  "ebx_grammar": {
+    "message": "Grammar"
+  },
+  "ebx_refinements": {
+    "message": "Mga Pagpapahusay"
+  },
+  "ebx_privacyOptions": {
+    "message": "Mga opsyon sa pagiging pribado"
+  },
+  "ebx_privacyOptionSendData": {
+    "message": "Awtomatikong magpadala ng opsyonal na diagnostic data habang ginagamit ang serbisyong online na ito, para matulungan kaming mapahusayi ang aming mga produkto."
+  },
+  "ebx_displayOptions": {
+    "message": "Mga opsyon ng display"
+  },
+  "ebx_privacyOptionSendDataLink": {
+    "message": "Matuto pa ng tungkol sa diagnostic data"
+  },
+  "ebx_excludedSites": {
+    "message": "Mga ibinukod na site"
+  },
+  "ebx_goPremiumExplainedMicrosoft365": {
+    "message": "Kunin ang mga pinaka-advanced na mga ideya sa pagsusulat ng Editor, 1 TB na storage sa OneDrive, at mga premium na tampok sa lahat ng mga Microsoft 365 app."
+  },
+  "ebx_settingsPageAriaLabel": {
+    "message": "Mga setting ng Microsoft Editor"
+  },
+  "ebx_blockedSiteAdded": {
+    "message": "Matagumpay na naidagdag ang \"$url$\"",
+    "placeholders": {
+      "url": {
+        "content": "$1",
+        "example": "https://microsoft.com"
+      }
+    }
+  },
+  "ebx_blockedSiteRemoved": {
+    "message": "Matagumpay na naalis ang \"$url$\"",
+    "placeholders": {
+      "url": {
+        "content": "$1",
+        "example": "https://microsoft.com"
+      }
+    }
+  },
+  "ebx_blockedSiteListEmpty": {
+    "message": "Walang laman ang listahan."
+  },
+  "ebx_ProofingLanguages": {
+    "message": "Mga wika sa pag-proof"
+  },
+  "ebx_proofingLanguagesDescription": {
+    "message": "Pumili ng hanggang tatlong wika. Nasa itaas ang gusto mong wika."
+  },
+  "ebx_addProofingLanguage": {
+    "message": "Magdagdag ng ibang wika"
+  },
+  "ebx_moveToTop": {
+    "message": "Ilipat sa itaas"
+  },
+  "ebx_moveUp": {
+    "message": "Ilipat pataas"
+  },
+  "ebx_moveDown": {
+    "message": "Ilipat pababa"
+  },
+  "ebx_languageAdded": {
+    "message": "Matagumpay na naidagdag ang \"$language$\"",
+    "placeholders": {
+      "language": {
+        "content": "$1",
+        "example": "Ingles (United Kingdom)"
+      }
+    }
+  },
+  "ebx_languageRemoved": {
+    "message": "Matagumpay na naalis ang \"$language$\"",
+    "placeholders": {
+      "language": {
+        "content": "$1",
+        "example": "Ingles (United Kingdom)"
+      }
+    }
+  },
+  "ebx_languageMovedUp": {
+    "message": "Matagumpay na nailipat pataas ng isang posisyon sa listahan ang \"$language$\"",
+    "placeholders": {
+      "language": {
+        "content": "$1",
+        "example": "Ingles (United Kingdom)"
+      }
+    }
+  },
+  "ebx_languageMovedToTop": {
+    "message": "Matagumpay na nailipat sa itaas ng listahan ang \"$language$\"",
+    "placeholders": {
+      "language": {
+        "content": "$1",
+        "example": "Ingles (United Kingdom)"
+      }
+    }
+  },
+  "ebx_addLanguageSubmit": {
+    "message": "Idagdag ang wika sa listahan ng mga wika sa pag-proof"
+  },
+  "ebx_addLanguageCancel": {
+    "message": "Kanselahin ang pagdaragdag ng wika sa listahan ng mga wika sa pag-proof"
+  },
+  "ebx_MultiLanguageAnnouncementTitle": {
+    "message": "Pag-proofread ng iba’t ibang wika gamit ang Editor"
+  },
+  "ebx_MultiLanguageAnnouncementText": {
+    "message": "I-check ang spelling at grammar para sa tatlong wika nang magkakasabay."
+  },
+  "ebx_MultiLanguageAnnouncementTextEditSettings": {
+    "message": "Maaari mong i-edit ang iyong mga wika sa mga setting ng Editor."
+  },
+  "ebx_MultiLanguageAnnouncementSelectedLanguage": {
+    "message": "Pinili namin ang $language$ batay sa iyong kasalukuyang mga setting ng browser.",
+    "placeholders": {
+      "language": {
+        "content": "$1",
+        "example": "Ingles (United Kingdom)"
+      }
+    }
+  },
+  "ebx_MultiLanguageAnnouncementTwoSelectedLanguages": {
+    "message": "Pinili namin ang $language1$​​​​​ and $language2$​​​​​ batay sa iyong kasalukuyang mga setting ng browser.",
+    "placeholders": {
+      "language1": {
+        "content": "$1",
+        "example": "Ingles (United Kingdom)"
+      },
+      "language2": {
+        "content": "$2",
+        "example": "Ingles (United Kingdom)"
+      }
+    }
+  },
+  "ebx_MultiLanguageAnnouncementThreeSelectedLanguages": {
+    "message": "Pinili namin ang $language1$​​​​​, $language2$​​​​​, at $language3$​​​​​ batay sa iyong kasalukuyang mga setting ng browser.",
+    "placeholders": {
+      "language1": {
+        "content": "$1",
+        "example": "Ingles (United Kingdom)"
+      },
+      "language2": {
+        "content": "$2",
+        "example": "Ingles (United Kingdom)"
+      },
+      "language3": {
+        "content": "$3",
+        "example": "Ingles (United Kingdom)"
+      }
+    }
+  },
+  "ebx_SignInAnnouncementTitle": {
+    "message": "Hindi pa tumatakbo ang Editor"
+  },
+  "ebx_SignInAnnouncementText": {
+    "message": "Mag-sign in para makatanggap ng mga suhestyon sa pagsusulat sa karamihan ng website. Ise-save namin ang iyong mga setting, gaya ng mga wikang ginagamit mo sa pagsusulat at ang mga uri ng mga isyung gusto mong suriin ng Editor."
+  },
+  "ebx_SignInAnnouncementSignIn": {
+    "message": "Mag-sign in"
+  },
+  "ebx_SignInAnnouncementAlternativeText": {
+    "message": "Para makakuha ng mga mungkahi sa pagsusulat sa karamihan ng mga website, mag-sign in sa iyong account sa Microsoft o sa account sa trabaho o paaralan na ginagamit mo para sa Office."
+  },
+  "ebx_proofingLanguageEntryHint": {
+    "message": "Pindutin ang Kanang Arrow key para ma-access ang Higit pa na button ng mga command."
+  },
+  "ebx_rateExtensionTitle": {
+    "message": "Feedback sa Microsoft Editor"
+  },
+  "ebx_rateExtensionPrompt": {
+    "message": "Kapaki-pakinabang ba ang Editor sa iyo?"
+  },
+  "ebx_rateExtensionPromptPositive": {
+    "message": "Magaling, gusto mo bang i-rate ito?"
+  },
+  "ebx_rateExtensionPromptPositiveAlt": {
+    "message": "Kung nag-e-enjoy ka pa sa paggamit ng Editor, gusto mo bang i-rate ito?"
+  },
+  "ebx_rateExtensionPromptNegative": {
+    "message": "Ikinalulungkot naming malaman yan. Ipaalam sa amin kung paano namin mapapahusay ang Editor."
+  },
+  "ebx_rateExtensionPromptYes": {
+    "message": "Oo"
+  },
+  "ebx_rateExtensionPromptNo": {
+    "message": "Hindi"
+  },
+  "ebx_rateExtensionPromptGiveFeedback": {
+    "message": "Magbigay ng Feedback"
+  },
+  "ebx_rateExtensionPromptNoThanks": {
+    "message": "Hindi, salamat"
+  },
+  "ebx_rateExtensionPromptSure": {
+    "message": "Sige"
+  },
+  "ebx_AddLanguageBlockedTooltip": {
+    "message": "Maaari mo lang i-on ang pag-proof hanggang tatlong wika sa isang pagkakataon."
+  },
+  "ebx_addGrammarChecking": {
+    "message": "Para magdagdag ng pag-check sa grammar"
+  },
+  "ebx_signIntoEditor": {
+    "message": "mag-sign in sa Editor"
+  },
+  "ebx_RefinementTooltip": {
+    "message": "Nakakakuha ng mga advanced na suhestyon sa pagsusulat ang mga subscriber ng Microsoft 365 kapag sila ay naka-sign in."
+  },
+  "ebx_signIntoEditorTile": {
+    "message": "Mag-sign in sa Editor"
+  },
+  "ebx_signIntoEditorBody": {
+    "message": "Para makakuha ng mga suhestiyon sa grammar at pagpipino sa karamihan ng mga website, mangyaring mag-sign in."
+  },
+  "ebx_giveFeedback": {
+    "message": "Magbigay ng feedback"
+  },
+  "ebx_feedbackCommentQuestion": {
+    "message": "Pakisabi sa amin kung bakit mo pinili ang sagot na iyon"
+  },
+  "ebx_feedbackRatingQuestion": {
+    "message": "Sa pangkalahatan, paano mo mailalarawan ang iyong karanasan sa paggamit ng Microsoft Editor"
+  },
+  "ebx_feedbackRating1": {
+    "message": "Lubos na negatibo"
+  },
+  "ebx_feedbackRating2": {
+    "message": "Medyo negatibo"
+  },
+  "ebx_feedbackRating3": {
+    "message": "Hindi positibo o negatibo"
+  },
+  "ebx_feedbackRating4": {
+    "message": "Medyo positibo"
+  },
+  "ebx_feedbackRating5": {
+    "message": "Lubos na positibo"
+  },
+  "ebx_feedbackTitle": {
+    "message": "Magbigay ng feedback para sa Microsoft Editor"
+  },
+  "ebx_feedbackSubmitNotice": {
+    "message": "Sa pamamagitan ng pagpindot ng isumite, magagamit ang iyong feedback para mapahusay ang mga produkto at serbisyo ng Microsoft."
+  },
+  "ebx_settingsPerLanguage": {
+    "message": "Mga setting kada wika"
+  },
+  "ebx_manageLanguagesButton": {
+    "message": "Pamahalaan ang mga wika"
+  },
+  "ebx_Done": {
+    "message": "Tapos na"
+  },
+  "ebx_addButton": {
+    "message": "Idagdag"
+  },
+  "ebx_Cancel": {
+    "message": "Kanselahin"
+  },
+  "ebx_blockedSiteEntryHint": {
+    "message": "Pindutin ang Kanang Arrow key para ma-access ang button na Tanggalin."
+  },
+  "ebx_FeedbackSubmitted": {
+    "message": "Matagumpay na naisumite ang feedback."
+  },
+  "ebx_disableCritiqueButton": {
+    "message": "Huminto sa pagsuri para dito"
+  },
+  "ebx_disableCritiqueButtonAriaLabel": {
+    "message": "Ihinto ang pagsusuri nito. Ilalapat ng Editor agn setting na ito hanggang sa baguhin mo ito."
+  },
+  "ebx_disableCritiqueTooltip": {
+    "message": "Ilalapat ng editor ang setting na ito hanggang sa baguhin mo ito"
+  }
+}

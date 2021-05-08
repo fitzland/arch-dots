@@ -1,500 +1,500 @@
-./git-v1.sh 
-su -
+sudo nano /etc/paru.conf
 exit
-./git-v1.sh 
-su -
-fdisk -l
-sudo fdisk -l
-sudo fdisk /dev/sdc
-nano /etc/fstab 
-sudo mkfs.ext4 -L opt /dev/sdc1
-sudo nano /etc/fstab 
-sudo mount /dev/sdc1 /mnt
-cd /mnt/
-ls -ahl
-sudo rm -rf lost+found/
-sudo cp -rp /opt/* /mnt
-ls
-cd ..
-sudo mv /opt /opt.orig
-sudo mkdir /opt
-umount /dev/sdc1 
-sudo umount /dev/sdc1 
-sudo mount /dev/sdc1 /opt/
-df /dev/sdc1
+paru libreoffice
+paru libreoffice-still
+yay gnucash
 exit
-upall
-cleanup
+yay papirus
 exit
-upall
-cleanup
-dots
-ls
-nano 100-display-manager-and-desktop.sh
-./100-display-manager-and-desktop.sh
-exit
-cd /etc/lightdm/
-sudo nano lightdm-gtk-greeter.conf 
-man lightdm
-lightdm --help
-exit
-dots
-./100-display-manager-and-desktop.sh
-exit
-./100-display-manager-and-desktop.sh
-sudo pacman -S icewm
-cd .cache/
-cd yay/
-ls
-exit
-./100-display-manager-and-desktop.sh
-./100-display-manager-and-desktop.sh
-sudo pacman -S icewm
-cd .cache/
-cd yay/
-cd dwm/
-ls
-yay dwm
-exit
-cd yay/
-./100-display-manager-and-desktop.sh
-./100-display-manager-and-desktop.sh
-sudo pacman -S icewm
-cd .cache/
-cd yay/
-cd dwm/
-yay dwm
-cd /etc/skel/
-cd .config/
-cd bspwm/
-cd ..
-ls -la
-alias
-bupskel
-ei3
-cd ~/images/wallpapers/
-ls
-sudo mv wide-default.jpg /usr/share/backgrounds/
-sudo pacman -S feh
-exit
-upall
-cleanup
-exit
-alias
-bupskel
-ei3
-cd ~/images/wallpapers/
-sudo mv wide-default.jpg /usr/share/backgrounds/
-sudo pacman -S feh
-upall
-cleanup
-cd git/
-cd dubois/
-git clone https://github.com/arcolinuxd/arco-dwm.git
-cd arco-bspwm/
-cd ../arco-i3/
-git pull
-cd ../arcolinux-spices/
-cd /usr/
-cd share/
-cd .
-dots
-cd ..
-cd dubois/arco-bspwm/
-ls
-nano 200-software-arch-linux.sh 
-nano 500-software-distro-specific.sh 
-nano 600-additional-arcolinux-software.sh 
-nano 300-software-arcolinux-3thparty.sh 
-nano 400-software-arcolinux-xlarge.sh 
-sudo pacman -S polybar
-exit
-yay arcolinux-tweak
-exit
-nano 400-software-arcolinux-xlarge.sh 
-sudo pacman -S polybar
-yay arcolinux-tweak
-cd git/dubois/
-cd arco-dwm/
-nano 100-display-manager-and-desktop.sh 
-sudo pacman -Rns dwm
-yay arcolinux-dwm
-ls
-nano 200-software-arch-linux.sh 
-bupskel
-sudo pacman -S conky
-exit
-cd ~/.config/arco-dwm/
-ls
-make
-sudo make install
-exit
-xprop
-exit
-yay arcolinux-polybar
-exit
-yay font-awesome
-exit
-yay font-awesome
-fc-cache -vf
-exit
-yay font-manager
-exit
-ip link show
-exit
-upall
-exit
-yay font-awesome
-fc-cache -vf
-yay font-manager
-ip link show
-upall
-cd git/
-cd fitzland/
-git clone git://git.suckless.org/dwm
-cd dwm/
-cd ..
-cd yay/
-git pull
-ls
-exit
-cd ..
-cd yay/
-git pull
-cd git/
-cd fitzland/
-cd dwm/
-ls
-sudo make
-sudo make install
-exit
-cd dwm/
-sudo make
-sudo make install
-cd /usr/share/xsessions/
-rm icewm.desktop.arcolinux 
-sudo rm icewm.desktop.arcolinux 
-sudo rm icewm-session.desktop 
-sudo rm icewm.desktop.orginal 
-sudo cp bspwm.desktop dwmldesktop
-sudo nano dwmldesktop 
-mv dwmldesktop dwm.desktop
-sudo mv dwmldesktop dwm.desktop
-ls
-exit
-cd git/
-ls
-exit
-sudo mv dwmldesktop dwm.desktop
-ei3
-cd git/fitzland/
-cd dwm/
-ls
-sudo make uninstall
-exit
-cd /usr/share/xsessions/
-ls
-sudo rm dwm.desktop 
-exit
-sudo pacman -S xdotool
-sudo pacman -S wmctrl
-exit
-cd git/fitzland/
-ls
-git clone https://github.com/jc00ke/move-to-next-monitor.git
-cd bin/
-ls
-ls -la
-mv move-to-next-monitor move-window.sh
-exit
-echo $PATH
-exit
-sudo pacman -S urxvt
-sudo pacman -S rxvt-unicode
-exit
-upall
-cleanup
-exit
-cleanup
-alias
-sudo pacman -S xrdb
-which xrdb
-merge
-exit
-upall
-cleanup
-yay merge
+yay libreoffice
+sudo nano /etc/pacman.conf 
+sudo nano /etc/paru.conf
+paru libreoffice
+paru libreoffice-still
+yay gnucash
+yay papirus
+yay alacritty
 yay st
+yay stterm
+yay simple terminal
+yay gnome
+cd ..
+mkdir -p dubois
+cd dubois/
+dots
+cd arco-scripts/
+sudo ./trust-key.sh 
+ls
+./add-keyservers-for-key-importing.sh 
+./add-arcolinux-repo-to-pacman-conf.sh 
+exit
+yay pamac
+yay aic
+yay wd7
+exit
+upall
 yay typora
-yay bspwm
 exit
-ei3
-yay color pick
+yay typora
+mkdir -p ~/.config/alacritty
+cp /usr/share/doc/alacritty/example/alacritty.yml ~/.config/alacritty/alacritty.yml
+fc-list
+fc-list : family style
+code ~/.config/alacritty/alacritty.yml 
 exit
-alias
-skelxr
-update-fc
-cleanup
+code ~/.config/alacritty/alacritty.yml 
 exit
-ei3
+upall
+exit
 sudo pacman -Rns lxterminal
+ei3
 exit
-sudo pacman -S ranger
-sudo pacman -S atool ffmpegthumbnailer highlight lynx odt2txt
+sudo pacman -Rns gnome
 exit
-upall
-sudo pacman -Syyu
-exit
-sudo pacman -S polybar
-exit
-merge
-exit
-yay jetbrain
-yay noto color emoji
-yay emoji
-exit
-xrandr --query | grep " connected" | cut -d" " -f1
-exit
-xrandr | grep " connected " | awk '{ print$2 }'
-xrandr | grep " connected " | awk '{ print$1 }'
-xrandr | grep " connected " | awk '{ print $1 }'
-xrandr | grep " connected " | awk '{ print $0 }'
-exit
-xprop
-exit
-yay emoji
-xrandr --query | grep " connected" | cut -d" " -f1
-xrandr | grep " connected " | awk '{ print$2 }'
-xrandr | grep " connected " | awk '{ print$1 }'
-xrandr | grep " connected " | awk '{ print $1 }'
-xrandr | grep " connected " | awk '{ print $0 }'
-xprop
-nano 010-backup-skel.sh
-git push
-cd dots
-cd skel-delta/
-cd config/
-cd i3/
-sudo rm -r original/
-dots
-ls
-./010-backup-skel.sh
-./git-v1.sh 
-exit
-htop
-sudo pacman -S htop
-exit
-yay suckless
-exit
-upall
 cleanup
-exit
-xrandr | grep " connected " | awk '{ print $1 }'
-xrandr | grep " connected " | awk '{ print $0 }'
-xprop
-yay emoji
-xrandr --query | grep " connected" | cut -d" " -f1
-xrandr | grep " connected " | awk '{ print$2 }'
-xrandr | grep " connected " | awk '{ print$1 }'
-xrandr | grep " connected " | awk '{ print $1 }'
-xrandr | grep " connected " | awk '{ print $0 }'
-xprop
-git push
-cd dots
-htop
-sudo pacman -S htop
-yay suckless
-upall
-cleanup
-nano 010-backup-skel.sh
-cd skel-delta/
-cd config/
-cd ~/.config/
-cd i3/
-ls
-cd skel-delta/config/i3/
-sudo rm -r original/
-dots
-./010-backup-skel.sh
-ls -la
-./git-v1.sh 
-git pull
-exit
-upall
-cleanup
-exit
-sudo pacman -S gnome-disk-utility
-exit
-cd downloads/iso/
-ls
-sudo dd if=archlinux-2020.12.01-x86_64.iso of=/dev/sdi bs=4M && sync
-sudo dd if=archlinux-2020.12.01-x86_64.iso of=/dev/sde bs=4M && sync
-upall
-cleanup
-ei3
-exit
-ei3
-exit
-upall
-cleanup
-ei3
-exit
-ei3
-exit
-ei3
-exit
-upall
-cleanup
-exit
-ei3
-exit
-exot
-exit
-ei3
-alias
 eba
 eb
 exit
-exr
-exot
-exit
-exr
-exot
-exit
-ei3
-exit
 upall
-ranger
-sudo pacman -S alacrity
-yay alacrity
 exit
-yay alacrity
+cd .config/alacritty/
+ls
+code alacritty.yml 
+upall
+exit
 upall
 cleanup
-ei3
-dots
-nano 010-backup-skel.sh
-./010-backup-skel.sh
-./git-v1.sh 
 exit
-yay kvantum
+eb
+cd .config/alacritty/
+code alacritty.yml 
+nano ~/.config/alacritty/alacritty.yml 
+upall
+cd /etc/skel/
+cd .config
+ls
+cd ..
+ls -la
+code .bashrc 
+cleanup
+eba
 exit
-sudo lxappearance
-sudo kvantummanager
+cleanup
+exit
+yay pamac
 exit
 upall
+cleanup
+exit
 dots
 ls
-./git-v1.sh 
+./130-bluetooth.sh 
 exit
+ei3
+cd .config/
+cd arco-dwm/
+ls
+make
+make install
+sudo make install
+exit
+sudo make install
 upall
+htop
 cleanup
+cd ~/.config/arco-dwm/
+nano list-of-patches.readme 
+ls
+nano config.h
+sudo make clean install
 exit
-yay alacritty
+sudo pacman -S neofetch
 exit
-time alacritty
+neofetch
 exit
-upall
-ranger
-yay screenfetch
-screenfetch --help
-cd /etc/local
-cd et
-cd etc
+eb
+update-fc
+eba
+exit
+ls -la
+exit
+htop
+exit
+htop
+exit
+ls -la
+htop
+htop
+paru dwm
+man paru
+info paru
+sudo pacman -S paru
+yay paru
+yay code
+yay dwm
+yay suckless
+cd 
+cd ~/.config/
+mkdir paru
+cd paru/
 cd /etc/
 ls
+cp paru.conf ~/.config/paru/
+cd
+cd .config/paru/
+nano paru.conf 
+yay fred
+yay ttf
 exit
-sudo pacman -Rns xfec4-terminal
-sudo pacman -Rns xfc34-terminal
-sudo pacman -Rns xfce4-terminal
-exit
-sudo pacman -Rns xfce4-terminal
-df -h
-df
-htop
-yay lf
-yay file manager
-elinks
-elink
-yay links
-link
-links
-exit
-yay lf
-lf
+cd ~/.config/arco-dwm/
+ls
+sudo make clean install
 exit
 xprop
+cd ~/.config/arco-dwm/
+sudo make clean install
 exit
-xprop
+upall
 exit
-cd images/wallpapers/
+cd ~/.config/arco
+cd ~/.config/arco-dwm/
+sudo make clean install
+exit
+yay hyphen-en
+yay mythes-en
+exit
+killall spotify
+rm -rf \$HOME/.cache/spotify/Storage
+exit
+yay tumbler
+yay ffmpegthumbnailer poppler-glib libgsf
+sudo pacman -S ffmpegthumbnailer poppler-glib
+exit
+killall spotify
+rm -rf \$HOME/.cache/spotify/Storage
+yay tumbler
+yay ffmpegthumbnailer poppler-glib libgsf
+sudo pacman -S ffmpegthumbnailer poppler-glib
+upall
+dots
+nano 005-create-user.sh 
+git config --global user.email "f1tzl4nd@gmail.com"
+git config --global user.name "fitzland"
+./git-v1.sh 
+git pull
 ls
-convert adapta-default.png adapta-default.jpg
+./010-backup-skel.sh 
 exit
-feh --help
+./010-backup-skel.sh 
+ssh-keygen -t ed25519 -C "f1tl4nd@gmail.com"
+ls -al ~/.ssh/
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+code /home/jeff/.ssh/id_ed25519.pub 
+dots
+git pull
+./git-v1.sh 
 exit
-cd images/wallpapers/
-ls
-sudo cp adapta-default.jpg /usr/share/backgrounds/default.jpg
-exit
-sudo pacman -S dig
-yay dig
-exit
-feh --help
-exit
-yay dig
-feh --help
-lf
-sudo pacman -Rns lf
-ranger
 upall
 cleanup
-yay spotify
 exit
-htop
-exit
-htop
+killall spotify
+rm -rf \$HOME/.cache/spotify/Storage
+yay tumbler
+yay ffmpegthumbnailer poppler-glib libgsf
+sudo pacman -S ffmpegthumbnailer poppler-glib
+killall spotify
+rm -rf \$HOME/.cache/spotify/Storage
+yay tumbler
+yay ffmpegthumbnailer poppler-glib libgsf
+sudo pacman -S ffmpegthumbnailer poppler-glib
 upall
-exit
-ei3
-ducks4uc3
-sudo nvidia-settings
-upall
-exit
-htop
+nano 005-create-user.sh 
+git config --global user.email "f1tzl4nd@gmail.com"
+git config --global user.name "fitzland"
+./010-backup-skel.sh 
+./010-backup-skel.sh 
+ssh-keygen -t ed25519 -C "f1tl4nd@gmail.com"
+ls -al ~/.ssh/
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+code /home/jeff/.ssh/id_ed25519.pub 
 upall
 cleanup
-exit
-htop
-cleanup
-upall
-exit
-upall
-yay nord
-yay nord theme
-exit
-upall
-yay nord theme
-yay kvantum nord
-exit
-ei3
-cd images/wallpapers/
-ls
-convert wide-nord.png wide-nord.jpg
-sudo cp wide-nord.jpg /usr/share/backgrounds/
-exit
-ei3
-exit
-ei3
-cd images/wallpapers/
-convert wide-nord.png wide-nord.jpg
-sudo cp wide-nord.jpg /usr/share/backgrounds/
-ei3
-cd /usr/share/themes/
-cp -r Adapta-Nokto ~/.themes/
-cp -r Nordic ~/.themes/
-cp -r Arc-Dark ~/.themes/
+ls ~/.ssh/
+yay gh
+ssh -T git@github.com
+cd git/dubois/
+git clone git@github.com:arcolinuxd/arco-i3.git
+git clone git@github.com:arcolinuxd/arco-dwm.git
+git clone git@github.com:arcolinuxd/arco-bspwm.git
+cd arco-i3/
+git pull
+dots
+nano git-v1.sh 
+git config pull.rebase false 
+nano .git/
+nano .git
+sudo rm -r arch-dots/
+mkdir fitzland
+cd fitzland/
+git clone git@github.com:fitzland/arch-dots.git
+git clone git@github.com:fitzland/deb-dots.git
+cd arch-dots/
+cd .git/
+nano config 
 cd ..
-cd Kvantum/
+./git-v1.sh 
 ls
+ls -la
+exit
+ls -la
+ls
+dots
+eba
+exit
+eba
+dots
+./git-v1.sh 
+ls
+exit
+upall
+sudo pacman -Rns gnome-desktop
+sudo pacman -Rns gnome-desktop xdg-desktop-portal-gtk
+sudo pacman -Rns gnome-desktop xdg-desktop-portal
+sudo pacman -Rns gnome-desktop xdg-desktop-portal flatpak
+cleanup
+exit
+upall
+exit
+cleanup
+exit
+upall
+cleanup
+exit
+xprop
+cd ~/.config/arco
+cd config
+ls
+cd arco-dwm/
+sudo make clean install
+exit
+xprop
+cd config
+cd arco-dwm/
+sudo make clean install
+exit
+xprop
+cd config
+cd arco-dwm/
+sudo make clean install
+exit
+cd config
+cd arco-dwm/
+sudo make clean install
+exit
+upall
+cleanup
+exit
+upall
+cleanup
+exit
+eba
+exit
+edwm
+mkdwm
+eba
+exit
+mdwm
+sudo make clean install
+exit
+edwm
+exit
+ei3
+exit
+gdwm
+mdwm
+sudo make clean install
+exit
+htop
+upall
+exit
+edwm
+mdwm
+sudo make clean install
+exit
+htop
+exit
+cd ~/.config/arco-dwm/
+ls
+nano config.mk 
+exit
+htop
+exit
+edwm
+exit
+xprop
+exit
+mdwm
+sudo make clean install
+exit
+htop
+edwm
+xprop
+mdwm
+sudo make clean install
+exit
+cleanup
+upall
+exit
+edwm
+exit
+cd ~/.config/arco-dwm/
+nano config.mk 
+htop
+xprop
+htop
+xprop
+cleanup
+upall
+patch -p1 < default-tags-app.diff 
+edwm
+ls -la
+rm config.def.h.orig 
+rm config.def.h.rej 
+cd /opt/
+dots
+cd ..
+git clone git@github.com:fitzland/arch-dots.git
+cd ~/.config/
+mdwm
+ls
+sudo make clean install
+exit
+upall
+exit
+patch -p1 < default-tags-app.diff 
+edwm
+ls -la
+rm config.def.h.orig 
+rm config.def.h.rej 
+cd /opt/
+dots
+git clone git@github.com:fitzland/arch-dots.git
+cd ~/.config/
+mdwm
+upall
+cd /opt
+cd
+cd git/
+cd fitzland/
+git clone git://git.suckless.org/dwm
+nano dwm.c
+cd ..
+cd dwm/
+patch -p1 < dwm-default-tag-apps-20210327-61bb8b2.diff 
+code config.def.h 
+meld config.h config.def.h 
+ls
+sudo make clean install
+exit
+meld config.h config.def.h 
+sudo make clean install
+sudo pacman -Rns arcolinux-budgie-*
+sudo pacman -Rns arcolinux-budgie-git 
+sudo pacman -Rns arcolinux-budgie-dconf-git 
+yay budgie
+yay spectrwm
+sudo pacman -Rns spectrwm
+cleanup
+ls
+sudo pacman -S libreoffice-still
+exit
+sudo pacman -Rns arcolinux-budgie-dconf-git 
+yay budgie
+yay spectrwm
+sudo pacman -Rns spectrwm
+cleanup
+sudo pacman -S libreoffice-still
+cd git/
+dots
+./100-display-manager-and-desktop.sh 
+nano 100-display-manager-and-desktop.sh 
+nano 110-development-software.sh 
+./110-development-software.sh 
+nano 120-sound.sh 
+nano 500-software-distro-specific.sh 
+nano 600-additional-arcolinux-software.sh 
+./600-additional-arcolinux-software.sh 
+ls
+exit
+ei3
+eba
+exit
+sudo pacman -Rns rxvt-unicode
+exit
+sudo pacman -Rns screenfetch
+exit
+upall
+cleanup
+exit
+yay arco-dwm
+exit
+yay pamac
+exit
+sudo pacman -Rns rxvt-unicode
+ls
+exit
+sudo pacman -Rns xfce4-terminal
+ls
+exit
+ei3
+yay dunst
+yay volumeicon
+exit
+dots
+ls
+./130-bluetooth.sh 
+exit
+mdwm
+edwm
+cd ~/.config/arco-dwm/
+ls
+sudo make clean install
+exit
+edwm
+cd ~/.config/arco-dwm/
+sudo make clean install
+dots
+./100-display-manager-and-desktop.sh 
+./200-software-arch-linux.sh 
+./140-printers.sh 
+sudo systemctl enable cups
+ls
+./700-installing-fonts.sh 
+exit
+sudo pacman -Rns rxvt-unicode
+exit
+sudo pacman -Rns xfce4-terminal
+exit
+dots
+ls
+nano 100-display-manager-and-desktop.sh 
+nano 200-software-arch-linux.sh 
+nano 500-software-distro-specific.sh 
+cleanup
+exit
+upall
+exit
+cd ~/.config/arco
+cd ~/.config/arco-dwm/
+ls
+sudo make clean install
+exit
+cd ~/.config/arco-dwm/
+ls
+sudo make clean install
+exit
+cd ~/.config/arco-dwm/
+sudo make clean install
 exit
