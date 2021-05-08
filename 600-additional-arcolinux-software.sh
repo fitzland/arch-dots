@@ -70,11 +70,11 @@ func_category Arcolinux-General
 
 list=(
 arcolinux-bin-git
-arcolinux-hblock-git
+#arcolinux-hblock-git
 arcolinux-root-git
-arcolinux-termite-themes-git
+#arcolinux-termite-themes-git
 arcolinux-tweak-tool-git
-arcolinux-variety-git
+#arcolinux-variety-git
 )
 
 count=0

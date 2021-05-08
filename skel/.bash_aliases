@@ -63,4 +63,4 @@ alias mcserver='ssh jeff@192.168.1.127'
 alias xps-go='rdesktop -k en-us -u f1tzl 192.168.1.103'
 alias echo-go='rdesktop -k en-us -u f1tzl 192.168.1.104'
 
-screenfetch
+neofetch

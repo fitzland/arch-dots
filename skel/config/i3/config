@@ -22,10 +22,10 @@ set $mod Mod4
 # setting variables for later use
 # use xrandr and/or arandr to know the names of your monitors
 
-set $firstMonitor DVI-D-0
+set $firstMonitor DP-2
 #set $firstMonitor 
 
-set $secondMonitor HDMI-0
+set $secondMonitor DP-4
 #set $secondMonitor HDMI-1
 
 

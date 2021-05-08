@@ -1,133 +1,3 @@
-sudo rm -r arcolinux-icewm/
-cd /usr/
-cd script
-cd src/
-ls -la
-cd gi
-cd git
-cd
-cd git/
-cd dubois/
-cd usr/
-cd local/
-cd bin/
-nano arcolinux-spices 
-cd share/
-cd applications/
-cd ..
-cd arcolinux-spices/
-cd scripts/
-./add-keyservers-for-key-importing.sh 
-./trust-key.sh 
-sudo ./trust-key.sh 
-./add-arcolinux-repo-to-pacman-conf.sh 
-upall
-./change-makepkg-conf.sh 
-ls
-nano install-software-arcolinux-uses-in-bashrc.sh 
-./install-software-arcolinux-uses-in-bashrc.sh
-exit
-./install-software-arcolinux-uses-in-bashrc.sh
-sudo pacman -S rdesktop
-rdesktop 
-rdesktop -k en-us -u f1tzl 192.168.1.133
-sudo pacman -S nmpa
-sudo pacman -S nmap
-nmap -sn 192.168.1.0/24
-rdesktop -k en-us -u f1tzl 192.168.1.144
-rdesktop -k en-us -u f1tzl 192.168.1.104
-exit
-upall
-lspci
-exit
-sudo pacman -S hardinfo
-exit
-sudo pacman -S dropbox
-sudo pacman -S minecraft-launcher
-sudo pacman -S libreoffice-still
-sudo pacman -S pstoedit libmythes sane tumbler gnucash 
-hwclock --show
-hwclock --systohc
-timedatectl
-sudo pacman -S ntp
-sudo ntpd -u ntp:ntp
-sudo systemctl enable ntpd.service
-ntpq -p
-sudo systemctl enable ntpd.service
-ntpq -p
-sudo systemctl status ntpd.service
-hwclock --show
-sudo hwclock --show
-timedatectl
-timedate | grep local
-timedatectl | grep local
-ntpd -qg
-sudo ntpd -qg
-sudo hwclock --systohc
-exit
-yay pamac
-sudo pacman -S inkscape
-sudo pacman -S gimp
-sudo pacman -S typora
-yay typora
-sudo pacman -S pandoc
-exit
-sudo pacman -S typora
-yay typora
-sudo pacman -S pandoc
-yay brscan4
-yay airscan
-yay br4
-yay yay br4
-cd git/
-cd fitzland/
-cd draft-brother-cups/
-gunzip linux-brprinter-installer-2.2.2-1.gz 
-ls
-yay dpkg
-sudo bash linux-brprinter-installer-2.2.2-1 MFC-L2690DW
-sudo systemctl enable cups
-exit
-yay yay br4
-cd git/
-cd fitzland/
-gunzip linux-brprinter-installer-2.2.2-1.gz 
-yay dpkg
-sudo bash linux-brprinter-installer-2.2.2-1 MFC-L2690DW
-sudo systemctl enable cups
-sudo systemctl start cupsd.service
-sudo systemctl start cups.service
-sudo systemctl status cups.service
-cd git/fitzland/
-cd draft-brother-lpr/
-cd ..
-cd draft-brother-cups/
-dots
-nano 140-printers.sh
-./140-printers.sh
-scanimage -L
-scanimage --format=png --output-file test.png --progress
-rm test.png 
-ls
-sudo pacman -S simple-scan
-exit
-upall
-exit
-sudo pacman -S simple-scan
-upall
-cd downloads/tarballs/
-sudo ./PDFStudio_
-sudo ./PDFStudio_2020_linux64.sh 
-dots
-ls
-nano 500-software-distro-specific.sh 
-nano 200-software-arch-linux.sh
-./200-software-arch-linux.sh
-exit
-sudo pacman -S smartmontools
-dots
-ls
-nano 200-software-arch-linux.sh
 ./git-v1.sh 
 su -
 exit
@@ -497,4 +367,134 @@ upall
 ranger
 sudo pacman -S alacrity
 yay alacrity
+exit
+yay alacrity
+upall
+cleanup
+ei3
+dots
+nano 010-backup-skel.sh
+./010-backup-skel.sh
+./git-v1.sh 
+exit
+yay kvantum
+exit
+sudo lxappearance
+sudo kvantummanager
+exit
+upall
+dots
+ls
+./git-v1.sh 
+exit
+upall
+cleanup
+exit
+yay alacritty
+exit
+time alacritty
+exit
+upall
+ranger
+yay screenfetch
+screenfetch --help
+cd /etc/local
+cd et
+cd etc
+cd /etc/
+ls
+exit
+sudo pacman -Rns xfec4-terminal
+sudo pacman -Rns xfc34-terminal
+sudo pacman -Rns xfce4-terminal
+exit
+sudo pacman -Rns xfce4-terminal
+df -h
+df
+htop
+yay lf
+yay file manager
+elinks
+elink
+yay links
+link
+links
+exit
+yay lf
+lf
+exit
+xprop
+exit
+xprop
+exit
+cd images/wallpapers/
+ls
+convert adapta-default.png adapta-default.jpg
+exit
+feh --help
+exit
+cd images/wallpapers/
+ls
+sudo cp adapta-default.jpg /usr/share/backgrounds/default.jpg
+exit
+sudo pacman -S dig
+yay dig
+exit
+feh --help
+exit
+yay dig
+feh --help
+lf
+sudo pacman -Rns lf
+ranger
+upall
+cleanup
+yay spotify
+exit
+htop
+exit
+htop
+upall
+exit
+ei3
+ducks4uc3
+sudo nvidia-settings
+upall
+exit
+htop
+upall
+cleanup
+exit
+htop
+cleanup
+upall
+exit
+upall
+yay nord
+yay nord theme
+exit
+upall
+yay nord theme
+yay kvantum nord
+exit
+ei3
+cd images/wallpapers/
+ls
+convert wide-nord.png wide-nord.jpg
+sudo cp wide-nord.jpg /usr/share/backgrounds/
+exit
+ei3
+exit
+ei3
+cd images/wallpapers/
+convert wide-nord.png wide-nord.jpg
+sudo cp wide-nord.jpg /usr/share/backgrounds/
+ei3
+cd /usr/share/themes/
+cp -r Adapta-Nokto ~/.themes/
+cp -r Nordic ~/.themes/
+cp -r Arc-Dark ~/.themes/
+cd ..
+cd Kvantum/
+ls
 exit

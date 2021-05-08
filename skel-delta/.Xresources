@@ -1,41 +1,42 @@
-!! basescheme - adapta
+!! Colorscheme - Nord
 
 ! special
-*.foreground:   #dddddd
-*.background:   #181818
-*.cursorbase:   #dddddd
+*.foreground:   #D8DEE9
+*.background:   #2E3440     
+*.cursorColor:  #D8DEE9
 
 ! black
-*.color0:       #1a2226
-*.color8:       #222d32
+*.color0:       #3B4252     
+*.color8:       #4C566A     
 
 ! red
-*.color1:       #dd9999
-*.color9:       #996060
+*.color1:       #5f313a
+*.color9:       #BF616A     
 
 ! green
-*.color2:       #99dd99
-*.color10:      #609960
+*.color2:       #435e4c
+*.color10:      #A3BE8C     
 
 ! yellow
-*.color3:       #dddd99
-*.color11:      #999960
+*.color3:       #D08770     
+*.color11:      #EBCB8B     
 
 ! blue
-*.color4:       #184848
-*.color12:      #186060
+*.color4:       #434C5E     
+*.color12:      #81A1C1     
 
 ! magenta
-*.color5:       #183048
-*.color13:      #184860
+*.color5:       #544e6d    
+*.color13:      #B48EAD     
 
 ! cyan
-*.color6:       #303060
-*.color14:      #606099
+*.color6:       #5E81AC
+*.color14:      #8FBCBB     
 
 ! white
-*.color7:       #999999
-*.color15:      #dddddd
+*.color7:       #E5E9F0     
+*.color15:      #ECEFF4     
+
 
 !! URxvt Appearance
 URxvt*font: xft:IBMPlexMono-Regular:pixelsize=15:antialias=true
