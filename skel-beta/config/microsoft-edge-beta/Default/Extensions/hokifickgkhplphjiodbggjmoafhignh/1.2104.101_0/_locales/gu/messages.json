@@ -1,0 +1,690 @@
+{
+   "AccountLabel": {
+      "message": "ખાતું"
+   },
+   "AppDescription": {
+      "message": "Microsoft Editor, તમારું સમજદાર વ્યાકરણ, જોડણી અને શૈલી ચકાસણી લેખન સહાયક વડેે વિશ્વાસ સાથે લખો."
+   },
+   "AppLongDescription": {
+      "message": "Microsoft Editor(1), તમારા મફત લેખન સહાયક સાથે સમગ્ર વેબ પર એક બહેતર લેખક બનો. Editor બધી સાઈટ્સ પર તમારી સાથે ચાલે છે, જેથી તમે વિશ્વાસપૂર્વક સ્પષ્ટ, સંક્ષિપ્ત પોસ્ટ ઑનલાઇન લખી શકો. આ બ્રાઉઝર એક્સ્ટેન્શન સાથે, તમે આ પ્રાપ્ત કરો છો: \r\n\r\nતર્કસંગત લેખન સહાયતા – અદ્ભુત વ્યાકરણ તપાસ, જોડણી તપાસ અને વિરામચિહ્નોની શુદ્ધિ સાથે મૂળભુત બાબતોલક્ષી ભૂલોને મફતમાં શોધી કાઢો. પ્રીમિયમ (2) સાથે સ્પષ્ટતા, સચોટતા, ચોકસાઈ, શબ્દભંડોળ અને બીજી ઘણી બાબતો પર પ્રગત વ્યાકરણ અને શૈલી તપાસ પ્રાપ્ત કરો. \r\n\r\nતમે ગમે ત્યાં લખતાં હોવ – આ બ્રાઉઝર એક્સ્ટેન્શન સાથે LinkedIn, Gmail, Facebook અને બીજી ઘણીબધી તમારી મનપસંદ સાઇટ્સ પર પ્રતિક્રિયા પ્રાપ્ત કરો. જો તમારે વેબની બહાર Editor ની સહાયતા જોઈતી હોય, તો Word ખોલો અને Editor આઇકૉન શોધો અને જુઓ કે બધાં જ દસ્તાવેજો, ઈમેલ અને વેબના બાકી ભાગોમાં Editor કેવી રીતે મદદ કરી શકે છે. \r\n\r\nબહુવિધ ભાષાઓમાં ઉપલબ્ધ – 20+ ભાષાઓમાં (અને જોડણી તપાસ નિર્દિષ્ટ રૂપે 80 કરતાં પણ વધુ ભાષાઓમાં) મૂળભુત બાબતોમાં પ્રતિક્રિયા પ્રાપ્ત કરો અને સ્પષ્ટપણે વાતચીત કરો, પછી ભલે તમે ગમે તે ભાષામાં લખી રહ્યાં હોવ \r\n\r\n ભાષાઓની ઉપલબ્ધતા (3): \r\n– અરબી\r\n– ચેક\r\n– ડૅનિશ\r\n– ડચ\r\n– અંગ્રેજી\r\n– ફીનીશ\r\n– ફ્રેંચ\r\n– જર્મન\r\n– હિબ્રુ (ડેસ્કટૉપ Word એપ્લિકેશનમાં હજી ઉપલબ્ધ નથી)\r\n– હંગેરિયન\r\n– ઇટાલિયન\r\n– જાપાની\r\n– કોરિયન\r\n– નોર્વેજીયન (બોકમલ)\r\n– પૉલિશ\r\n– પોર્ટુગીઝ (બ્રાઝિલ)\r\n– પોર્ટુગીઝ (પોર્ટુગલ)\r\n– રશિયન\r\n– સ્પેનીશ\r\n– સ્વીડીશ\r\n– તુર્કીશ\r\n\r\n(1) Microsoft Edge અથવા Chrome બ્રાઉઝર્સ માટે ઉપલબ્ધ અને Microsoft ખાતું આવશ્યક. મોટાભાગની વેબસાઇટ્સ પર તમારા લખાણ માટે જોડણી, વ્યાકરણ અને સુધારણાઓ સંંબંધી સૂચનો ઑફર કરતી Microsoft ઑનલાઇન સેવા સાથે Editor કનેક્ટ કરે છે.\r\n (2) પ્રીમિયમ Editor સુવિધાઓ ઍક્સેસ કરવા માટે Microsoft 365 સબ્સ્ક્રિપ્શન આવશ્યક છે \r\n (3) નીચેની ભાષાઓમાં Editor લખાણ શૈલી સુધારણાઓ પ્રદાન કરે છે; બધી ભાષાઓ એક જ પ્રકારની સુધારણાઓ ધરાવતી નથી. \r\n\r\nએપ્લિકેશન ઇન્સ્ટોલ કરીને, તમે આ નિયમો અને શરતો સાથે સંમત થાઓ છો: \r\n\r\nhttps://aka.ms/editorchromeextensionterms\r\n\r\nગોપનીયતા નીતિ: http://aka.ms/privacy"
+   },
+   "AppLongDescriptionEdge": {
+      "message": "Microsoft Editor, તમારા તર્કસંગત વ્યાકરણ, જોડણી અને શૈલી તપાસ લેખન સહાયક સાથે વિશ્વાસપૂર્વક લખો. \r\n\r\nMicrosoft Editor(1), તમારા મફત લેખન સહાયક સાથે સમગ્ર વેબ પર એક બહેતર લેખક બનો. Editor બધી સાઈટ્સ પર તમારી સાથે ચાલે છે, જેથી તમે વિશ્વાસપૂર્વક સ્પષ્ટ, સંક્ષિપ્ત પોસ્ટ ઑનલાઇન લખી શકો. આ બ્રાઉઝર એક્સ્ટેન્શન સાથે, તમે આ પ્રાપ્ત કરો છો: \r\n\r\nતર્કસંગત લેખન સહાયતા – અદ્ભુત વ્યાકરણ તપાસ, જોડણી તપાસ અને વિરામચિહ્નોની શુદ્ધિ સાથે મૂળભુત બાબતોલક્ષી ભૂલોને મફતમાં શોધી કાઢો. પ્રીમિયમ (2) સાથે સ્પષ્ટતા, સચોટતા, ચોકસાઈ, શબ્દભંડોળ અને બીજી ઘણી બાબતો પર પ્રગત વ્યાકરણ અને શૈલી તપાસ પ્રાપ્ત કરો. \r\n\r\nતમે ગમે ત્યાં લખતાં હોવ – આ બ્રાઉઝર એક્સ્ટેન્શન સાથે LinkedIn, Gmail, Facebook અને બીજી ઘણીબધી તમારી મનપસંદ સાઇટ્સ પર પ્રતિક્રિયા પ્રાપ્ત કરો. જો તમારે વેબની બહાર Editor ની સહાયતા જોઈતી હોય, તો Word ખોલો અને Editor આઇકૉન શોધો અને જુઓ કે બધાં જ દસ્તાવેજો, ઈમેલ અને વેબના બાકી ભાગોમાં Editor કેવી રીતે મદદ કરી શકે છે. \r\n\r\nબહુવિધ ભાષાઓમાં ઉપલબ્ધ – 20+ ભાષાઓમાં (અને જોડણી તપાસ નિર્દિષ્ટ રૂપે 80 કરતાં પણ વધુ ભાષાઓમાં) મૂળભુત બાબતોમાં પ્રતિક્રિયા પ્રાપ્ત કરો અને સ્પષ્ટપણે વાતચીત કરો, પછી ભલે તમે ગમે તે ભાષામાં લખી રહ્યાં હોવ \r\n\r\nભાષાઓની ઉપલબ્ધતા (3): \r\n– અરબી\r\n– ચેક\r\n– ડૅનિશ\r\n– ડચ\r\n– અંગ્રેજી\r\n– ફીનીશ\r\n– ફ્રેંચ\r\n– જર્મન\r\n– હિબ્રુ (ડેસ્કટૉપ Word એપ્લિકેશનમાં હજી ઉપલબ્ધ નથી) \r\n– હંગેરિયન\r\n– ઇટાલિયન\r\n– જાપાની\r\n– કોરિયન\r\n– નોર્વેજીયન (બોકમલ)\r\n– પૉલિશ\r\n– પોર્ટુગીઝ (બ્રાઝિલ)\r\n– પોર્ટુગીઝ (પોર્ટુગલ)\r\n– રશિયન\r\n– સ્પેનીશ\r\n– સ્વીડીશ\r\n– તુર્કીશ\r\n\r\n(1) Microsoft Edge અથવા Chrome બ્રાઉઝર્સ માટે ઉપલબ્ધ અને Microsoft ખાતું આવશ્યક. મોટાભાગની વેબસાઇટ્સ પર તમારા લખાણ માટે જોડણી, વ્યાકરણ અને સુધારણાઓ સંંબંધી સૂચનો ઑફર કરતી Microsoft ઑનલાઇન સેવા સાથે Editor કનેક્ટ કરે છે.\r\n (2) પ્રીમિયમ Editor સુવિધાઓ ઍક્સેસ કરવા માટે Microsoft 365 સબ્સ્ક્રિપ્શન આવશ્યક છે \r\n (3) નીચેની ભાષાઓમાં Editor લખાણ શૈલી સુધારણાઓ પ્રદાન કરે છે; બધી ભાષાઓ એક જ પ્રકારની સુધારણાઓ ધરાવતી નથી. \r\n\r\nએપ્લિકેશન ઇન્સ્ટોલ કરીને, તમે આ નિયમો અને શરતો સાથે સંમત થાઓ છો: \r\n\r\nhttps://aka.ms/editorchromeextensionterms\r\n\r\nગોપનીયતા નીતિ: http://aka.ms/privacy"
+   },
+   "AppName": {
+      "message": "Microsoft સંપાદક: જોડણી અને વ્યાકરણ પરીક્ષક"
+   },
+   "AppShortName": {
+      "message": "Editor"
+   },
+   "AppTermsOfServiceLCA": {
+      "message": "PLEASE NOTE: Refer to your license terms for your Microsoft Account or Microsoft 365 subscription as applicable (the \"extension\") to identify the entity licensing this extension to you and for support information.  The license terms for the Microsoft Account or Microsoft 365 subscription as applicable apply to your use of this extension."
+   },
+   "ConflictDetectedAnnouncementText": {
+      "message": "જ્યારે અન્ય સંપાદન એક્સ્ટેન્શન્સ અને Editor બંને ચાલતાં હોય, ત્યારે તેમના સૂચનો વચ્ચે વિરોધાભાસ ઉભો થઇ શકે છે અથવા અધિવ્યાપ્ત થઇ શકે છે. શ્રેષ્ઠ Editor અનુભવ માટે, અમે તમારા બ્રાઉઝરના એક્સ્ટેન્શન સેટિંગ્સમાં અન્ય સંપાદન એક્સ્ટેન્શન્સ બંધ કરવાની ભલામણ કરીએ છીએ."
+   },
+   "ConflictDetectedAnnouncementTitle": {
+      "message": "સંપાદન એક્સ્ટેન્શન્સ વચ્ચે વિરોધાભાસ શોધાયો"
+   },
+   "DisableEditorOnThisSiteLabel": {
+      "message": "$host$ પરનાં Editorને અક્ષમ કરો",
+      "placeholders": {
+         "host": {
+            "content": "$1",
+            "example": "facebook.com"
+         }
+      }
+   },
+   "EditorBrandText": {
+      "message": "Microsoft Editor"
+   },
+   "EditorGrammarToggleLabel": {
+      "message": "વ્યાકરણ"
+   },
+   "EditorIsBlockedOnThisSiteLabel": {
+      "message": "Editor વર્તમાનમાં $host$ પર સમર્થિત નથી",
+      "placeholders": {
+         "host": {
+            "content": "$1",
+            "example": "facebook.com"
+         }
+      }
+   },
+   "EditorIsDisabledOnThisSiteLabel": {
+      "message": "Editor વર્તમાનમાં $host$ પર અક્ષમ નથી",
+      "placeholders": {
+         "host": {
+            "content": "$1",
+            "example": "facebook.com"
+         }
+      }
+   },
+   "EditorIsOffLabel": {
+      "message": "Editor બંધ છે."
+   },
+   "EditorNativeSupportOnThisSiteLabel": {
+      "message": "$host$ સાથે Editor સમાવિષ્ટ",
+      "placeholders": {
+         "host": {
+            "content": "$1",
+            "example": "outlook.com"
+         }
+      }
+   },
+   "EditorProofingLanguageAriaLabel": {
+      "message": "અશુદ્ધિ તપાસ ભાષા: $languageId$",
+      "placeholders": {
+         "languageId": {
+            "content": "$1",
+            "example": "gu"
+         }
+      }
+   },
+   "EditorProofingLanguageLabel": {
+      "message": "અશુદ્ધિ તપાસ ભાષા"
+   },
+   "EditorProofingLanguagesLabel": {
+      "message": "અશુદ્ધિ તપાસની ભાષાઓ"
+   },
+   "EditorRefinementsGoPremiumTooltip": {
+      "message": "જ્યારે તમે પ્રીમિયમ અજમાવો ત્યારે પ્રગત લેખન સૂચનો અને 1 TB સંગ્રહણ મેળવો."
+   },
+   "EditorRefinementsToggleLabel": {
+      "message": "શુદ્ધતા"
+   },
+   "EditorRefinementsTooltip": {
+      "message": "શુદ્ધતા એ તમારા લેખનને વધુ સ્પષ્ટ, ઓછા શબ્દોમાં અથવા વધુ ઔપચારિક બનાવવામાં મદદ કરવા માટેનાં લેખિત સૂચનો છે."
+   },
+   "EditorSettingsLabel": {
+      "message": "વધુ Editor સેટિંગ્સ"
+   },
+   "EditorSpellingToggleLabel": {
+      "message": "જોડણી"
+   },
+   "EnableEditorOnThisSiteLabel": {
+      "message": "$host$ પર Editorને સક્ષમ કરો",
+      "placeholders": {
+         "host": {
+            "content": "$1",
+            "example": "facebook.com"
+         }
+      }
+   },
+   "MyAccountLabel": {
+      "message": "ખાતું જુઓ"
+   },
+   "PopupGroupAriaLabel": {
+      "message": "Microsoft Editor બ્રાઉઝર એક્સ્ટેન્શન"
+   },
+   "PostUpsellAnnouncementText": {
+      "message": "તમે Microsoft સંપાદકના પ્રીમિયમ સંસ્કરણ પર સફળતાપૂર્વક અપગ્રેડ કર્યું છે! તમારા લખાણમાં વાદળી અને જાંબલી રેખાંકનો પર ક્લિક કરીને તમારા વિસ્તૃત સુવિધા સેટને એક્સપ્લોર કરો."
+   },
+   "PostUpsellAnnouncementTitle": {
+      "message": "અભિનંદન"
+   },
+   "SettingsLabel": {
+      "message": "ખાતાની સેટિંગ્સ"
+   },
+   "SignInLabel": {
+      "message": "સાઇન ઇન કરો"
+   },
+   "SignOutLabel": {
+      "message": "સાઇન આઉટ કરો"
+   },
+   "SignOutTooltip": {
+      "message": "સાઇન આઉટ થવાથી બધી સેટિંગ્સને ડિફૉલ્ટ પર ફરીથી સેટ કરવામાં આવશે અને તમારી બાકાત સાઇટ્સની સૂચી ગુમાવશે."
+   },
+   "SupportPageLabel": {
+      "message": "સાઇન ઇ​ન કરવામાં મદદની જરૂર છે?"
+   },
+   "TurnOnEditorLabel": {
+      "message": "Editor ચાલુ કરો"
+   },
+   "ebx_AddLanguageBlockedTooltip": {
+      "message": "તમે એકસાથે ફક્ત ત્રણ જેટલી ભાષાઓ માટે શુદ્ધિકરણ ચાલુ કરી શકો છો."
+   },
+   "ebx_Cancel": {
+      "message": "રદ કરો"
+   },
+   "ebx_Done": {
+      "message": "પૂર્ણ થઈ ગયું"
+   },
+   "ebx_FeedbackSubmitted": {
+      "message": "પ્રતિક્રિયા સફળતાપૂર્વક સબમિટ કરવામાં આવી હતી."
+   },
+   "ebx_MultiLanguageAnnouncementSelectedLanguage": {
+      "message": "અમે તમારી હાલની બ્રાઉઝર સેટિંગ્સના આધારે $language$ નું ચયન કર્યું.",
+      "placeholders": {
+         "language": {
+            "content": "$1",
+            "example": "અંગ્રેજી (યુનાઇટેડ કિંગડમ)"
+         }
+      }
+   },
+   "ebx_MultiLanguageAnnouncementText": {
+      "message": "એક જ સમયે ત્રણ ભાષાઓની જોડણી અને વ્યાકરણ તપાસો."
+   },
+   "ebx_MultiLanguageAnnouncementTextEditSettings": {
+      "message": "તમે સંપાદક સેટિંગ્સમાંથી તમારી ભાષાઓને સંપાદિત કરી શકો છો."
+   },
+   "ebx_MultiLanguageAnnouncementThreeSelectedLanguages": {
+      "message": "અમે તમારી હાલની બ્રાઉઝર સેટિંગ્સના આધારે $language1$​​​​​, $language2$​​​​​, અને $language3$​​​​​ નું ચયન કર્યું.",
+      "placeholders": {
+         "language1": {
+            "content": "$1",
+            "example": "અંગ્રેજી (યુનાઇટેડ કિંગડમ)"
+         },
+         "language2": {
+            "content": "$2",
+            "example": "અંગ્રેજી (યુનાઇટેડ કિંગડમ)"
+         },
+         "language3": {
+            "content": "$3",
+            "example": "અંગ્રેજી (યુનાઇટેડ કિંગડમ)"
+         }
+      }
+   },
+   "ebx_MultiLanguageAnnouncementTitle": {
+      "message": "સંપાદક સાથે બહુ-ભાષાઓની અશુદ્ધિ શોધવા વાંચન કરવું"
+   },
+   "ebx_MultiLanguageAnnouncementTwoSelectedLanguages": {
+      "message": "અમે તમારી હાલની બ્રાઉઝર સેટિંગ્સના આધારે $language1$​​​​​ અને $language2$​​​​​ નું ચયન કર્યું.",
+      "placeholders": {
+         "language1": {
+            "content": "$1",
+            "example": "અંગ્રેજી (યુનાઇટેડ કિંગડમ)"
+         },
+         "language2": {
+            "content": "$2",
+            "example": "અંગ્રેજી (યુનાઇટેડ કિંગડમ)"
+         }
+      }
+   },
+   "ebx_ProofingLanguages": {
+      "message": "અશુદ્ધિ તપાસ ભાષાઓ"
+   },
+   "ebx_RefinementTooltip": {
+      "message": "Microsoft 365 સબ્સ્ક્રાઇબર્સે જ્યારે સાઇન ઇન કરેલું હોય છે ત્યારે તેઓ પ્રગત લેખન સૂચનો મેળવે છે."
+   },
+   "ebx_RemoveItem": {
+      "message": "કાઢી નાંખો"
+   },
+   "ebx_SignInAnnouncementAlternativeText": {
+      "message": "મોટાભાગની વેબસાઇટ્સ પર લેખન સૂચનો મેળવવા માટે, તમારા Microsoft ખાતામાં અથવા Office માટે તમે ઉપયોગ કરતાં હોવ તે કાર્ય અથવા શાળા ખાતામાં સાઇન ઇન કરો."
+   },
+   "ebx_SignInAnnouncementSignIn": {
+      "message": "સાઇન ઇન કરો"
+   },
+   "ebx_SignInAnnouncementText": {
+      "message": "મોટાભાગની વેબસાઇટ પર લેખિત સૂચનો મેળવવા માટે સાઇન ઇન કરો. અમે તમારાં સેટિંગ્સને સાચવીશું, જેમ કે તમે લખો છો તે ભાષાઓ અને તમે સંપાદક પાસે તપાસ કરાવવા માંગતા હોવ તેવી સમસ્યાઓના પ્રકાર."
+   },
+   "ebx_SignInAnnouncementTitle": {
+      "message": "સંપાદક હજું ચાલુંં થયેલ નથી"
+   },
+   "ebx_SquiggleTooltipAriaText": {
+      "message": "ડાબી-ક્લિક અથવા Alt+ડાઉન તીર સાથે ખોલો"
+   },
+   "ebx_SquiggleTooltipAriaTextMac": {
+      "message": "ડાબી-ક્લિક અથવા Control+Option+નીચલું તીર સાથે ખોલો"
+   },
+   "ebx_SquiggleTooltipCombination": {
+      "message": "(Alt+ ડાઉન તીર)"
+   },
+   "ebx_SquiggleTooltipCombinationMac": {
+      "message": "(Control+Option+નીચલું તીર )"
+   },
+   "ebx_SquiggleTooltipGrammarTitle": {
+      "message": "વ્યાકરણ સુધારણા"
+   },
+   "ebx_SquiggleTooltipRefinementTitle": {
+      "message": "લેખન શુદ્ધતા"
+   },
+   "ebx_SquiggleTooltipSpellingTitle": {
+      "message": "જોડણી સુધારણા"
+   },
+   "ebx_SquiggleTooltipText": {
+      "message": "ડાબી-ક્લિકથી ખોલો"
+   },
+   "ebx_addAnotherSite": {
+      "message": "અન્ય સાઇટ ઍડ કરો"
+   },
+   "ebx_addAnotherSiteAriaLabel": {
+      "message": "અન્ય સાઇટ ઍડ કરો"
+   },
+   "ebx_addAnotherSiteCancel": {
+      "message": "સાઇટને અવરોધિત સાઇટની સૂચીમાં ઍડ કરવાનું રદ કરો."
+   },
+   "ebx_addAnotherSiteSubmit": {
+      "message": "સાઇટને અવરોધિત સાઇટની સૂચીમાં ઍડ કરો"
+   },
+   "ebx_addButton": {
+      "message": "ઍડ કરો"
+   },
+   "ebx_addGrammarChecking": {
+      "message": "વ્યાકરણ-તપાસ ઍડ કરવા માટે"
+   },
+   "ebx_addLanguageCancel": {
+      "message": "અશુદ્ધિ તપાસ ભાષાઓની સૂચીમાં ભાષા ઍડ કરવાનું રદ કરો"
+   },
+   "ebx_addLanguageSubmit": {
+      "message": "અશુદ્ધિ તપાસ ભાષાઓની સૂચીમાં ભાષા ઍડ કરો"
+   },
+   "ebx_addProofingLanguage": {
+      "message": "અન્ય ભાષા ઍડ કરો"
+   },
+   "ebx_addToDictionaryButtonLabel": {
+      "message": "શબ્દકોશમાં ઍડ કરો"
+   },
+   "ebx_appDescription": {
+      "message": "Microsoft Editor સાથે વિશ્વાસભેર લખો: તમારું સમજદાર લેખન સહાયક"
+   },
+   "ebx_appLongDescription": {
+      "message": "Editor બહુવિધ સાઇટ્સ પર વ્યાકરણ, જોડણી અને શૈલી સંબંધિત સૂચનો પ્રદાન કરે છે (1); જેથી તમે સ્પષ્ટ અને સંક્ષિપ્ત પોસ્ટ્સ અને ઈમેલ્સ વિશ્વાસપૂર્વક લખી શકો છો.\r\n\r\nનવું: બહુવિધ-ભાષામાં અશુદ્ધિ તપાસ, અવગણો વિકલ્પો \r\nએકીસાથે ત્રણ જેટલી ભાષામાં જોડણી અને વ્યાકરણ તપાસો. ઉપરાંત, જોડણી તપાસ હવે થાઈ ભાષા માટે ઉપલબ્ધ છે. બધુ અવગણો પસંદ કરીને જોડણી સુધારણાની બધી ઘટનાઓ છોડવાનું અથવા અવગણો પસંદ કરીને વણજોઈતા વ્યાકરણ સૂચનો છોડવાનું અમે સરળ બનાવ્યું છે. \r\n\r\nતર્કસંગત લેખન સહાયતા\r\nવ્યાકરણ, જોડણી અને વિરામચિહ્નોની મફત શુદ્ધિ તપાસ સાથે મૂળભૂત બાબતોલક્ષી ભૂલોને શોધી કાઢો. પ્રીમિયમ સાથે (Microsoft 365 સદસ્યતા આવશ્યક) સ્પષ્ટતા, સચોટતા, ઔપચારિકતા, શબ્દભંડોળ અને બીજી ઘણીબધી બાબતો જેવી સમસ્યાઓ માટે પ્રગત વ્યાકરણ સૂચનો અને શૈલી-તપાસ મેળવો. \r\n\r\nગમે ત્યાં લખો\r\nLinkedIn, Gmail, Facebook અને અન્ય મનપસંદ સાઇટ્સ પર આ બ્રાઉઝર એક્સ્ટેન્શન સાથે લેખન સહાયતા મેળવો. જો તમારે વેબ બહાર Editor ની સહાયતા જોઈતી હોય, તો Word ખોલો અને જ્યારે તમે દસ્તાવેજો અને ઈમેલ લખતા હોવ ત્યારે Editor તમને કેવી રીતે મદદ કરી શકે છે તે જોવા માટે Editor આઇકૉન શોધો.\r\n\r\nબહુવિધ ભાષાઓમાં ઉપલબ્ધ \r\nEditor 80 થી પણ વધુ ભાષાઓમાં જોડણી તપાસે છે અને નીચે જણાવેલ ભાષાઓમાં વ્યાકરણ તપાસ અને લેખન-શૈલી સુધારણાઓ પ્રદાન કરે છે: (2) \r\n–અરબી\r\n– ચેક\r\n– ડેનિશ\r\n– ડચ\r\n– અંગ્રેજી\r\n– ફિનિશ\r\n– ફ્રેન્ચ\r\n– જર્મન\r\n– હીબ્રુ\r\n– હંગેરિયન\r\n– ઇટાલિયન\r\n– જાપાનીઝ\r\n– કોરિયન\r\n– નોર્વેજિયન (બોકમલ)\r\n– પોલીશ\r\n– પોર્ટુગીઝ (બ્રાઝિલ)\r\n– પોર્ટુગીઝ (પોર્ટુગલ)\r\n– રશિયન\r\n– સ્પેનિશ\r\n– સ્વીડિશ\r\n– ટર્કિશ\r\n\r\n1. Microsoft Edge અથવા Chrome બ્રાઉઝર્સ માટે ઉપલબ્ધ અને Microsoft ખાતું આવશ્યક. Microsoft ઑનલાઇન સેવા સાથે Editor કનેક્ટ કરે છે જે મોટાભાગની વેબસાઇટ્સ પર તમારા લેખન માટે જોડણી, વ્યાકરણ અને સુધારણા સૂચનો પૂરા પાડે છે. \r\n2. બધી ભાષાઓ એક જ પ્રકારની સુધારણાઓ ધરાવતી નથી. \r\n\r\nએપ્લિકેશન ઇન્સ્ટોલ કરીને તમે આ નિયમો અને શરતો સાથે સંમત થાઓ છો: \r\n\r\nhttps://aka.ms/editorchromeextensionterms\r\n\r\nગોપનીયતા નીતિ: http://aka.ms/privacy"
+   },
+   "ebx_appLongDescriptionEdge": {
+      "message": "Microsoft Editor સાથે વિશ્વાસભેર લખો: તમારું સમજદાર લેખન સહાયક. \r\n\r\nEditor બહુવિધ સાઇટ્સ પર વ્યાકરણ, જોડણી અને શૈલી સંબંધિત સૂચનો પ્રદાન કરે છે (1); જેથી તમે સ્પષ્ટ અને સંક્ષિપ્ત પોસ્ટ્સ અને ઈમેલ્સ વિશ્વાસપૂર્વક લખી શકો છો.\r\n\r\nનવું: બહુવિધ-ભાષામાં અશુદ્ધિ તપાસ, અવગણો વિકલ્પો \r\nએકીસાથે ત્રણ જેટલી ભાષામાં જોડણી અને વ્યાકરણ તપાસો. ઉપરાંત, જોડણી તપાસ હવે થાઈ ભાષા માટે ઉપલબ્ધ છે. બધુ અવગણો પસંદ કરીને જોડણી સુધારણાની બધી ઘટનાઓ છોડવાનું અથવા અવગણો પસંદ કરીને વણજોઈતા વ્યાકરણ સૂચનો છોડવાનું અમે સરળ બનાવ્યું છે. \r\n\r\nતર્કસંગત લેખન સહાયતા\r\nવ્યાકરણ, જોડણી અને વિરામચિહ્નોની મફત શુદ્ધિ તપાસ સાથે મૂળભૂત બાબતોલક્ષી ભૂલોને શોધી કાઢો. પ્રીમિયમ સાથે (Microsoft 365 સદસ્યતા આવશ્યક) સ્પષ્ટતા, સચોટતા, ઔપચારિકતા, શબ્દભંડોળ અને બીજી ઘણીબધી બાબતો જેવી સમસ્યાઓ માટે પ્રગત વ્યાકરણ સૂચનો અને શૈલી-તપાસ મેળવો. \r\n\r\nગમે ત્યાં લખો\r\nLinkedIn, Gmail, Facebook અને અન્ય મનપસંદ સાઇટ્સ પર આ બ્રાઉઝર એક્સ્ટેન્શન સાથે લેખન સહાયતા મેળવો. જો તમારે વેબ બહાર Editor ની સહાયતા જોઈતી હોય, તો Word ખોલો અને જ્યારે તમે દસ્તાવેજો અને ઈમેલ લખતા હોવ ત્યારે Editor તમને કેવી રીતે મદદ કરી શકે છે તે જોવા માટે Editor આઇકૉન શોધો.\r\n\r\nબહુવિધ ભાષાઓમાં ઉપલબ્ધ \r\nEditor 80 થી પણ વધુ ભાષાઓમાં જોડણી તપાસે છે અને નીચે જણાવેલ ભાષાઓમાં વ્યાકરણ તપાસ અને લેખન-શૈલી સુધારણાઓ પ્રદાન કરે છે: (2) \r\n–અરબી\r\n– ચેક\r\n– ડેનિશ\r\n– ડચ\r\n– અંગ્રેજી\r\n– ફિનિશ\r\n– ફ્રેન્ચ\r\n– જર્મન\r\n– હીબ્રુ\r\n– હંગેરિયન\r\n– ઇટાલિયન\r\n– જાપાનીઝ\r\n– કોરિયન\r\n– નોર્વેજિયન (બોકમલ)\r\n– પોલીશ\r\n– પોર્ટુગીઝ (બ્રાઝિલ)\r\n– પોર્ટુગીઝ (પોર્ટુગલ)\r\n– રશિયન\r\n– સ્પેનિશ\r\n– સ્વીડિશ\r\n– ટર્કિશ\r\n\r\n1. Microsoft Edge અથવા Chrome બ્રાઉઝર્સ માટે ઉપલબ્ધ અને Microsoft ખાતું આવશ્યક. Microsoft ઑનલાઇન સેવા સાથે Editor કનેક્ટ કરે છે જે મોટાભાગની વેબસાઇટ્સ પર તમારા લેખન માટે જોડણી, વ્યાકરણ અને સુધારણા સૂચનો પૂરા પાડે છે. \r\n2. બધી ભાષાઓ એક જ પ્રકારની સુધારણાઓ ધરાવતી નથી. \r\n\r\nએપ્લિકેશન ઇન્સ્ટોલ કરીને તમે આ નિયમો અને શરતો સાથે સંમત થાઓ છો: \r\n\r\nhttps://aka.ms/editorchromeextensionterms\r\n\r\nગોપનીયતા નીતિ: http://aka.ms/privacy"
+   },
+   "ebx_appName": {
+      "message": "બ્રાઉઝરમાંનું Editor"
+   },
+   "ebx_appShortName": {
+      "message": "Editor"
+   },
+   "ebx_appTermsOfServiceLCA": {
+      "message": "PLEASE NOTE: Refer to your license terms for your Microsoft Account or Microsoft 365 subscription as applicable (the \"extension\") to identify the entity licensing this extension to you and for support information.  The license terms for the Microsoft Account or Microsoft 365 subscription as applicable apply to your use of this extension."
+   },
+   "ebx_ariaReplaceWith": {
+      "message": "આનાથી બદલો"
+   },
+   "ebx_asInSynonyms": {
+      "message": "આના જેવું"
+   },
+   "ebx_blockedSiteAdded": {
+      "message": "\"$url$\" સફળતાપૂર્વક ઍડ કરવામાં આવી હતી",
+      "placeholders": {
+         "url": {
+            "content": "$1",
+            "example": "https://microsoft.com"
+         }
+      }
+   },
+   "ebx_blockedSiteEntryHint": {
+      "message": "હટાવો બટનને ઍક્સેસ કરવા માટે જમણું તીર કી દબાવો."
+   },
+   "ebx_blockedSiteListEmpty": {
+      "message": "આ સૂચી ખાલી છે."
+   },
+   "ebx_blockedSiteRemoved": {
+      "message": "\"$url$\" સફળતાપૂર્વક કાઢી નાખવામાં આવી હતી",
+      "placeholders": {
+         "url": {
+            "content": "$1",
+            "example": "https://microsoft.com"
+         }
+      }
+   },
+   "ebx_brandText": {
+      "message": "Microsoft Editor"
+   },
+   "ebx_brandTextArialLabel": {
+      "message": "Microsoft Editor લૉગો"
+   },
+   "ebx_changeAllCommandLabel": {
+      "message": "બધી બદલો"
+   },
+   "ebx_changeSettingsCommandLabel": {
+      "message": "Editor સેટિંગ્સ..."
+   },
+   "ebx_checkForRefinements": {
+      "message": "સૂક્ષ્મ ભેદ માટે તપાસો"
+   },
+   "ebx_checkGrammar": {
+      "message": "વ્યાકરણ તપાસો"
+   },
+   "ebx_checkSpelling": {
+      "message": "જોડણી તપાસો"
+   },
+   "ebx_close": {
+      "message": "બંધ કરો"
+   },
+   "ebx_comingSoonTooltipTitle": {
+      "message": "ટૂંક સમયમાં આવે છે"
+   },
+   "ebx_deleteRepeatedWord": {
+      "message": "[પુનરાવર્તિત શબ્દ હટાવો]"
+   },
+   "ebx_disableCritiqueButton": {
+      "message": "આની તપાસ કરવાનું રોકો"
+   },
+   "ebx_disableCritiqueButtonAriaLabel": {
+      "message": "આની તપાસ કરવાનું રોકો. તમે આ સેટિંગને પરિવર્તિત નહીં કરો ત્યાં સુધી સંપાદક તેને લાગુ કરશે."
+   },
+   "ebx_disableCritiqueTooltip": {
+      "message": "તમે આ સેટિંગને પરિવર્તિત નહીં કરો ત્યાં સુધી સંપાદક તેને લાગુ કરશે"
+   },
+   "ebx_displayOptions": {
+      "message": "પ્રદર્શન વિકલ્પો"
+   },
+   "ebx_duplicateBlockedSite": {
+      "message": "આ સાઇટ પહેલેથી અવરોધિત સાઇટની સૂચીમાં છે"
+   },
+   "ebx_editorEnableAnnouncementText": {
+      "message": "Microsoft Office બ્રાઉઝર એક્સ્ટેન્શનમાં હવે તમારું સમજદાર લેખન સહાયક, Microsoft Editor છે, જે મોટાભાગની વેબસાઇટ્સ પર તમારા શ્રેષ્ઠ લેખનને બહાર લાવે છે. Microsoft સંપાદક તમારા માટે જોડણી, વ્યાકરણ અને શૈલી સૂચનો ઑફર કરતી ઑનલાઇન સેવાથી તમને કનેક્ટ કરે છે."
+   },
+   "ebx_editorEnableAnnouncementTitle": {
+      "message": "Microsoft Editor (પૂર્વાવલોકન) હવે ચાલે છે"
+   },
+   "ebx_editorFeature": {
+      "message": "Microsoft Editor"
+   },
+   "ebx_editorFeatureOffText": {
+      "message": "બંધ"
+   },
+   "ebx_editorFeatureOfficeBx": {
+      "message": "Editor બંધ કરો"
+   },
+   "ebx_editorFeatureOnText": {
+      "message": "ચાલુ"
+   },
+   "ebx_editorFeatureToggleLabel": {
+      "message": "Editor સુવિધા"
+   },
+   "ebx_enhancedUpsellCategoriesAnd": {
+      "message": " અને "
+   },
+   "ebx_enhancedUpsellCategoriesComma": {
+      "message": ", "
+   },
+   "ebx_enhancedUpsellLinePartA": {
+      "message": "સંપાદક પાસે"
+   },
+   "ebx_enhancedUpsellLinePartBPlural": {
+      "message": "આ સંદેશ માટે પ્રગત લેખન સૂચનો છે."
+   },
+   "ebx_enhancedUpsellLinePartBSingular": {
+      "message": "આ સંદેશ માટે પ્રગત લેખન સૂચન."
+   },
+   "ebx_excludedSites": {
+      "message": "બાકાત કરેલ સાઇટ્સ"
+   },
+   "ebx_feedbackCommentQuestion": {
+      "message": "કૃપયા અમને જણાવો કે તમે તે જવાબ શા માટે પસંદ કર્યો"
+   },
+   "ebx_feedbackLink": {
+      "message": "પ્રતિક્રિયા"
+   },
+   "ebx_feedbackMessage": {
+      "message": "આ પ્રદાન કરીને Editorને સુધારવામાં અમારી મદદ કરો"
+   },
+   "ebx_feedbackRating1": {
+      "message": "ખૂબ જ નકારાત્મક"
+   },
+   "ebx_feedbackRating2": {
+      "message": "કંઈક અંશે નકારાત્મક"
+   },
+   "ebx_feedbackRating3": {
+      "message": "હકારાત્મક પણ નહીં અને નકારાત્મક પણ નહીં"
+   },
+   "ebx_feedbackRating4": {
+      "message": "કંઈક અંશે હકારાત્મક"
+   },
+   "ebx_feedbackRating5": {
+      "message": "ખૂબ જ હકારાત્મક"
+   },
+   "ebx_feedbackRatingQuestion": {
+      "message": "એકંદરે, તમે Microsoft Editor નો ઉપયોગ કરવાના તમારા અનુભવનું વર્ણન કેવી રીતે કરશો?"
+   },
+   "ebx_feedbackSubmitNotice": {
+      "message": "સબમિટ કરો દબાવવાથી, તમારી પ્રતિક્રિયાનો ઉપયોગ Microsoft ના ઉત્પાદનો અને સેવાઓને બહેતર બનાવવા માટે કરવામાં આવશે."
+   },
+   "ebx_feedbackTitle": {
+      "message": "Microsoft સંપાદક માટે પ્રતિક્રિયા પ્રદાન કરો"
+   },
+   "ebx_giveFeedback": {
+      "message": "પ્રતિક્રિયા આપો"
+   },
+   "ebx_goPremiumExplained": {
+      "message": "બધી Microsoft 365 એપ્લિકેશન્સમાં Editorના પ્રગત લેખનના સૂચનો, OneDrive પર 1 TB જેટલું સંગ્રહણ, અને પ્રીમિયમ સુવિધાઓ મેળવો."
+   },
+   "ebx_goPremiumExplainedMicrosoft365": {
+      "message": "બધી Microsoft 365 એપ્લિકેશન્સમાં Editorના પ્રગત લેખનના સૂચનો, OneDrive પર 1 TB જેટલું સંગ્રહણ, અને પ્રીમિયમ સુવિધાઓ મેળવો."
+   },
+   "ebx_goPremiumLine": {
+      "message": "Editor પ્રગત લેખન સૂચનો અજમાવી જુઓ."
+   },
+   "ebx_goPremiumLinkText": {
+      "message": "પ્રીમિયમ અજમાવો"
+   },
+   "ebx_goPremiumLinkTextLowerCase": {
+      "message": "પ્રીમિયમ અજમાવો"
+   },
+   "ebx_goToSettings": {
+      "message": "સંપાદક સેટિંગ્સ પર જાઓ"
+   },
+   "ebx_goToSettingsToLearnMore": {
+      "message": "વધુ જાણવા માટે સંપાદક સેટિંગ્સ પર જાઓ"
+   },
+   "ebx_grammar": {
+      "message": "વ્યાકરણ"
+   },
+   "ebx_hideSynonyms": {
+      "message": "સમાનાર્થીઓ છુપાવો"
+   },
+   "ebx_ignoreAllButtonLabel": {
+      "message": "બધાને અવગણો"
+   },
+   "ebx_ignoreOnceButtonLabel": {
+      "message": "અવગણો"
+   },
+   "ebx_languageAdded": {
+      "message": "\"$language$\" ને સફળતાપૂર્વક ઍડ કરવામાં આવી હતી",
+      "placeholders": {
+         "language": {
+            "content": "$1",
+            "example": "અંગ્રેજી (યુનાઇટેડ કિંગડમ)"
+         }
+      }
+   },
+   "ebx_languageMovedToTop": {
+      "message": "\"$language$\" ને સફળતાપૂર્વક સૂચીમાં ટોચ પર ખસેડવામાં આવી હતી.",
+      "placeholders": {
+         "language": {
+            "content": "$1",
+            "example": "અંગ્રેજી (યુનાઇટેડ કિંગડમ)"
+         }
+      }
+   },
+   "ebx_languageMovedUp": {
+      "message": "\"$language$\" ને સફળતાપૂર્વક સૂચીમાં એક સ્થાન ઉપર ખસેડવામાં આવી હતી.",
+      "placeholders": {
+         "language": {
+            "content": "$1",
+            "example": "અંગ્રેજી (યુનાઇટેડ કિંગડમ)"
+         }
+      }
+   },
+   "ebx_languageRemoved": {
+      "message": "\"$language$\" ને સફળતાપૂર્વક કાઢી નાંખવામાં આવી હતી",
+      "placeholders": {
+         "language": {
+            "content": "$1",
+            "example": "અંગ્રેજી (યુનાઇટેડ કિંગડમ)"
+         }
+      }
+   },
+   "ebx_learnMore": {
+      "message": "વધુ જાણો"
+   },
+   "ebx_manageLanguagesButton": {
+      "message": "ભાષાઓ મેનેજ કરો"
+   },
+   "ebx_moreButtonArialLabel": {
+      "message": "વધુ આદેશો"
+   },
+   "ebx_moveDown": {
+      "message": "નીચે ખસેડો"
+   },
+   "ebx_moveToTop": {
+      "message": "ટોચ પર ખસેડો"
+   },
+   "ebx_moveUp": {
+      "message": "ઉપર ખસેડો"
+   },
+   "ebx_optionsPageTitle": {
+      "message": "Editor સેટિંગ્સ"
+   },
+   "ebx_premiumPreviewGeneralLine": {
+      "message": "સંપાદકના પ્રગત લેખન સૂચનો મેળવો."
+   },
+   "ebx_premiumPreviewLineDaysPlural": {
+      "message": "આ પૂર્વાવલોકનમાં બાકી દિવસો. અમર્યાદિત સૂચનો માટે નવીનીકૃત કરો:"
+   },
+   "ebx_premiumPreviewLineDaysSingular": {
+      "message": "આ પૂર્વાવલોકનમાં બાકી દિવસ. અમર્યાદિત સૂચનો માટે નવીનીકૃત કરો:"
+   },
+   "ebx_premiumPreviewLineSuggestionsPlural": {
+      "message": "આ પૂર્વાવલોકનમાં બાકી સૂચનો. અમર્યાદિત સૂચનો માટે નવીનીકૃત કરો:"
+   },
+   "ebx_premiumPreviewLineSuggestionsSingular": {
+      "message": "આ પૂર્વાવલોકનમાં બાકી સૂચન. અમર્યાદિત સૂચનો માટે નવીનીકૃત કરો:"
+   },
+   "ebx_preview": {
+      "message": "(પૂર્વાવલોકન)"
+   },
+   "ebx_previewLabel": {
+      "message": "પૂર્વાવલોકન"
+   },
+   "ebx_privacyOptionSendData": {
+      "message": "અમને અમારા ઉત્પાદનો બહેતર બનાવવામાં મદદરૂપ થવા માટે આ ઑનલાઇન સેવાનો ઉપયોગ કરતી વખતે વૈકલ્પિક ડાયગ્નોસ્ટિક ડેટાને સ્વયંચાલિત રૂપે મોકલો."
+   },
+   "ebx_privacyOptionSendDataLink": {
+      "message": "ડાયગ્નોસ્ટિક ડેટા વિશે વધુ જાણો"
+   },
+   "ebx_privacyOptions": {
+      "message": "ગોપનીયતા વિકલ્પો"
+   },
+   "ebx_proofingLanguage": {
+      "message": "અશુદ્ધિ તપાસની ભાષા"
+   },
+   "ebx_proofingLanguageEntryHint": {
+      "message": "વધુ આદેશો બટન ઍક્સેસ કરવા માટે જમણું તીર કી દબાવો."
+   },
+   "ebx_proofingLanguagePlaceHolder": {
+      "message": "અશુદ્ધિ તપાસની ભાષા પસંદ કરો"
+   },
+   "ebx_proofingLanguages": {
+      "message": "અશુદ્ધિ તપાસ ભાષાઓ"
+   },
+   "ebx_proofingLanguagesDescription": {
+      "message": "ત્રણ સુધીની ભાષાઓ પસંદ કરો. તમારી પસંદગીની ભાષા ટોચ પર હશે."
+   },
+   "ebx_rateExtensionPrompt": {
+      "message": "શું તમને સંપાદક ઉપયોગી લાગી રહ્યું છે?"
+   },
+   "ebx_rateExtensionPromptGiveFeedback": {
+      "message": "પ્રતિક્રિયા આપો"
+   },
+   "ebx_rateExtensionPromptNegative": {
+      "message": "અમને તે જાણીને અફસોસ થયો. કૃપયા અમને જણાવો કે અમે સંપાદકને કેવી રીતે બહેતર બનાવી શકીએ?"
+   },
+   "ebx_rateExtensionPromptNo": {
+      "message": "નહીં"
+   },
+   "ebx_rateExtensionPromptNoThanks": {
+      "message": "નહીં, આભાર"
+   },
+   "ebx_rateExtensionPromptPositive": {
+      "message": "સરસ! શું તમે તેને રેટ કરવાનું પસંદ કરશો?"
+   },
+   "ebx_rateExtensionPromptPositiveAlt": {
+      "message": "જો તમે હજી પણ સંપાદકનો ઉપયોગ કરવાનો આનંદ માણી રહ્યાં હોવ, તો શું તમે તેને રેટ કરવાનું પસંદ કરશો?"
+   },
+   "ebx_rateExtensionPromptSure": {
+      "message": "ચોક્કસ"
+   },
+   "ebx_rateExtensionPromptYes": {
+      "message": "હા"
+   },
+   "ebx_rateExtensionTitle": {
+      "message": "Microsoft Editor પર પ્રતિક્રિયા"
+   },
+   "ebx_refinements": {
+      "message": "શુદ્ધતા"
+   },
+   "ebx_settings": {
+      "message": "સેટિંગ્સ"
+   },
+   "ebx_settingsPageAriaLabel": {
+      "message": "Microsoft Editor સેટિંગ્સ"
+   },
+   "ebx_settingsPerLanguage": {
+      "message": "ભાષા દીઠ સેટિંગ્સ"
+   },
+   "ebx_showSynonyms": {
+      "message": "સમાનાર્થીઓ બતાવો"
+   },
+   "ebx_showSynonymsToggleCaption": {
+      "message": "જોડણી સૂચનોનાં સમાનાર્થી શબ્દો બતાવો"
+   },
+   "ebx_signIntoEditor": {
+      "message": "સંપાદકમાં સાઇન ઇન કરો"
+   },
+   "ebx_signIntoEditorBody": {
+      "message": "મોટાભાગની વેબ સાઇટ્સ પર વ્યાકરણ અને શુદ્ધતા અંગેના સૂચનો મેળવવા માટે કૃપયા સાઇન ઇન કરો."
+   },
+   "ebx_signIntoEditorTile": {
+      "message": "સંપાદકમાં સાઇન ઇન કરો"
+   },
+   "ebx_spelling": {
+      "message": "જોડણી"
+   },
+   "ebx_suggestionMoreActionsArialLabel": {
+      "message": "વધુ ક્રિયાઓ"
+   },
+   "ebx_synonymsNotAvailable": {
+      "message": "[સમાનાર્થી ઉપલબ્ધ નથી]"
+   },
+   "ebx_toggleOff": {
+      "message": "બંધ"
+   },
+   "ebx_toggleOn": {
+      "message": "ચાલુ"
+   },
+   "ebx_toneLabel": {
+      "message": "ટોન"
+   },
+   "ebx_tryPremiumPreviewLink": {
+      "message": "હમણાં જ અજમાવી જુઓ"
+   },
+   "ebx_turnOffEditor": {
+      "message": "Editor બંધ કરો"
+   },
+   "ebx_turnOffEditorExplained": {
+      "message": "Editor મોટાભાગની વેબસાઇટ્સ પર તમારા લેખન માટે જોડણી, વ્યાકરણ અને શૈલી સૂચનો ઑફર કરતી Microsoft ઑનલાઇન સેવાથી કનેક્ટ કરે છે."
+   },
+   "ebx_userBlockedSites": {
+      "message": "અવરોધિત સાઇટ"
+   },
+   "ebx_userExcludedUrlErrorCaption": {
+      "message": "અમાન્ય URL. કૃપયા નીચેના સ્વરૂપમાં url પ્રદાન કરો: https://example.com"
+   },
+   "ebx_userExcludedUrlsErrorCaption": {
+      "message": "$line$ પંક્તિ પરની \"$url$\" અમાન્ય.",
+      "placeholders": {
+         "line": {
+            "content": "$2",
+            "example": "123"
+         },
+         "url": {
+            "content": "$1",
+            "example": "https://microsoft.com"
+         }
+      }
+   },
+   "ebx_userExcludedUrlsTextBoxCaption": {
+      "message": "તમે નીચે સૂચીબદ્ધ કરેલી સાઇટ પર Editorને અક્ષમ કર્યું છે. સંવેદનશીલ સામગ્ર્રી ધરાવતી અથવા ધીમી ગતિથી લોડ થતી વધારાની સાઇટ્સ પર Editor સ્વયંચાલિત રૂપે બંધ થઈ જાય તેવું બની શકે છે."
+   },
+   "sbx_signInDescription": {
+      "message": "મોટાભાગની વેબ સાઇટ્સ પર જોડણી, વ્યાકરણ અને શુદ્ધતા અંગેના સૂચનો મેળવવા માટે કૃપયા સાઇન ઇન કરો."
+   }
+}

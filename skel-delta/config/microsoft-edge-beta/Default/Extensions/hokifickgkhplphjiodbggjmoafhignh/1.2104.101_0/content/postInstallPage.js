@@ -1,0 +1,1 @@
+"use strict";function addOnClickToLoginLink(){document.querySelectorAll("[data-sign-in]").forEach(i=>{i.onclick=()=>{browser.runtime.sendMessage({activity:"authentication",type:"msidUserService"})}})}window.addEventListener("load",()=>{addOnClickToLoginLink()});

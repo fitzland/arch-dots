@@ -39,9 +39,9 @@
 
 
 !! URxvt Appearance
-URxvt*font: xft:IBMPlexMono-Regular:pixelsize=15:antialias=true
-URxvt*boldFont: xft:IBMPlexMono-Bold:pixelsize=15:antialias=true
-URxvt*italicFont: xft:IBMPlexMono-Italic:pixelsize=15:antialias=true
+URxvt*font: xft:IBMPlexMono-Regular:pixelsize=14:antialias=true
+URxvt*boldFont: xft:IBMPlexMono-Bold:pixelsize=14:antialias=true
+URxvt*italicFont: xft:IBMPlexMono-Italic:pixelsize=14:antialias=true
 URxvt*letterSpace: -1
 URxvt.letterSpace: 0
 URxvt.lineSpace: 0
@@ -53,7 +53,8 @@ URxvt.saveline: 2048
 URxvt.scrollBar: false
 URxvt.scrollBar_right: false
 URxvt.urgentOnBell: true
-URxvt.depth: 24
+urxvt*depth: 32
+urxvt*background: rgba:0000/0000/0200/c800
 URxvt.iso14755: false
 
 !! Common Keybinds for Navigations

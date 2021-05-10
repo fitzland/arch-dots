@@ -1,0 +1,690 @@
+{
+  "AppName": {
+    "message": "Microsoft-redaktør: stave- og grammatikkontroll"
+  },
+  "AppShortName": {
+    "message": "Editor"
+  },
+  "AppDescription": {
+    "message": "Skriv med selvtillit med Microsoft-redaktør, din intelligente skriveassistent for grammatikk-, stave- og stilkontroll."
+  },
+  "AppLongDescription": {
+    "message": "Bli en bedre forfatter på nettet med Microsoft-redaktør (1), din gratis skriveassistent. Microsoft-redaktør beveger seg med deg på tvers av nettsteder, slik at du kan skrive klare og kortfattede innlegg på nettet. Med denne nettleserutvidelsen får du: \r\n\r\nIntelligent skrivehjelp, slik at du kan mestre det grunnleggende med utrolig grammatikkontroll, stavekontroll og tegnsettingskorrektur helt gratis. Få avansert kontroll av grammatikk og stil når det gjelder klarhet, kortfattethet, formalitet, ordforråd og mye mer, med premium (2). \r\n\r\nFå tilbakemeldinger på nettsteder som LinkedIn, Facebook og mange flere av favorittene dine med denne nettleserutvidelsen. Hvis du vil ha hjelp andre steder enn på nettet, åpner du Word og ser etter Redaktør-ikonet for å finne ut hvordan du kan få hjelp på tvers av dokumenter, e-post og resten av nettet. \r\n\r\nMicrosoft-redaktør er tilgjengelig på flere språk. Få grunnleggende tilbakemeldinger på over 20 språk (og stavekontroll på over 80 språk) for å kunne kommunisere tydelig uansett hvilket språk du skriver på \r\n\r\nSpråktilgjengelighet (3):\r\n– Arabisk\r\n– Dansk\r\n– Engelsk\r\n– Finsk\r\n– Fransk\r\n– Hebraisk (ikke tilgjengelig i Word-skrivebordsprogrammet ennå)\r\n– Italiensk\r\n– Japansk\r\n– Koreansk\r\n– Nederlandsk\r\n– Norsk (bokmål)\r\n– Polsk\r\n– Portugisisk (Brasil)\r\n– Portugisisk (Portugal)\r\n– Russisk\r\n– Spansk\r\n– Svensk\r\n– Tsjekkisk\r\n– Tyrkisk\r\n– Tysk\r\n– Ungarsk\r\n\r\n(1) Tilgjengelig for nettleserne Microsoft Edge og Chrome og krever en Microsoft-konto. Microsoft-redaktør kobles til en nettbasert Microsoft-tjeneste som tilbyr stavekontroll, grammatikk og forbedringsforslag for skrivingen din på de fleste nettsteder. \r\n (2) Microsoft 365-abonnement kreves for å få tilgang til premiumfunksjoner i Redaktør.\r\n (3) Redaktør sørger for forbedringer i skrivestil på følgende språk. Ikke alle språk har de samme forbedringene. \r\n\r\nVed å installere appen godtar du disse vilkårene og betingelsene: \r\n\r\nhttps://aka.ms/editorchromeextensionterms\r\n\r\nPersonvernerklæring: http://aka.ms/privacy"
+  },
+  "AppLongDescriptionEdge": {
+    "message": "Skriv med selvtillit med Microsoft-redaktør, din intelligente skriveassistent for grammatikk, stavekontroll og stilkontroll. \r\n\r\nBli en bedre forfatter på nettet med Microsoft-redaktør (1), din gratis skriveassistent. Microsoft-redaktør beveger seg med deg på tvers av nettsteder, slik at du kan skrive klare og kortfattede innlegg på nettet. Med denne nettleserutvidelsen får du: \r\n\r\nIntelligent skrivehjelp, slik at du kan mestre det grunnleggende med utrolig grammatikkontroll, stavekontroll og tegnsettingskorrektur helt gratis. Få avansert kontroll av grammatikk og stil når det gjelder klarhet, kortfattetthet, formalitet, ordforråd og mye mer, med premium (2). \r\n\r\n Få tilbakemeldinger på nettsteder som LinkedIn, Facebook og mange flere av favorittene dine med denne nettleserutvidelsen. Hvis du vil ha hjelp andre steder enn på nettet, åpner du Word og ser etter Redaktør-ikonet for å finne ut hvordan du kan få hjelp på tvers av dokumenter, e-post og resten av nettet. \r\n\r\nMicrosoft-redaktør er tilgjengelig på flere språk. Få grunnleggende tilbakemeldinger på over 20 språk (og stavekontroll på over 80 språk) for å kunne kommunisere tydelig uansett hvilket språk du skriver på \r\n\r\nSpråktilgjengelighet (3):\r\n– Arabisk\r\n– Dansk\r\n– Engelsk\r\n– Finsk\r\n– Fransk\r\n– Hebraisk (ikke tilgjengelig i Word-skrivebordsprogrammet ennå)\r\n– Italiensk\r\n– Japansk\r\n– Koreansk\r\n– Nederlandsk\r\n– Norsk (bokmål)\r\n– Polsk\r\n– Portugisisk (Brasil)\r\n– Portugisisk (Portugal)\r\n– Russisk\r\n– Spansk\r\n– Svensk\r\n– Tsjekkisk\r\n– Tyrkisk\r\n– Tysk\r\n– Ungarsk\r\n\r\n(1) Tilgjengelig for nettleserne Microsoft Edge og Chrome og krever en Microsoft-konto. Microsoft-redaktør kobles til en nettbasert Microsoft-tjeneste som tilbyr rettskrivning, grammatikk og forbedringsforslag for skrivingen din på de fleste nettsteder. \r\n (2) Microsoft 365-abonnement kreves for å få tilgang til premiumfunksjoner i Redaktør.\r\n (3) Redaktør sørger for forbedringer i skrivestil på følgende språk. Ikke alle språk har de samme forbedringene. \r\n\r\nVed å installere appen godtar du disse vilkårene og betingelsene: \r\n\r\nhttps://aka.ms/editorchromeextensionterms\r\n\r\nPersonvernerklæring: http://aka.ms/privacy"
+  },
+  "AppTermsOfServiceLCA": {
+    "message": "PLEASE NOTE: Refer to your license terms for your Microsoft Account or Microsoft 365 subscription as applicable (the \"extension\") to identify the entity licensing this extension to you and for support information.  The license terms for the Microsoft Account or Microsoft 365 subscription as applicable apply to your use of this extension."
+  },
+  "AccountLabel": {
+    "message": "Konto"
+  },
+  "SettingsLabel": {
+    "message": "Kontoinnstillinger"
+  },
+  "sbx_signInDescription": {
+    "message": "Hvis du vil ha stavekontroll og grammatikk- og forbedringsforslag på de fleste nettsteder, må du logge på."
+  },
+  "SignInLabel": {
+    "message": "Logg på"
+  },
+  "SignOutLabel": {
+    "message": "Logg av"
+  },
+  "SignOutTooltip": {
+    "message": "Når du logger av, tilbakestilles alle innstillingene til standardinnstillingene, og du mister listen over utelatte nettsteder."
+  },
+  "SupportPageLabel": {
+    "message": "Trenger du hjelp med pålog​gingen?"
+  },
+  "MyAccountLabel": {
+    "message": "Vis konto"
+  },
+  "EditorSpellingToggleLabel": {
+    "message": "Stavekontroll"
+  },
+  "EditorGrammarToggleLabel": {
+    "message": "Grammatikk"
+  },
+  "EditorRefinementsToggleLabel": {
+    "message": "Presiseringer"
+  },
+  "DisableEditorOnThisSiteLabel": {
+    "message": "Deaktiver Editor på $host$",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "facebook.com"
+      }
+    }
+  },
+  "EnableEditorOnThisSiteLabel": {
+    "message": "Aktiver Editor på $host$",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "facebook.com"
+      }
+    }
+  },
+  "EditorIsDisabledOnThisSiteLabel": {
+    "message": "Editor er for tiden deaktivert på $host$",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "facebook.com"
+      }
+    }
+  },
+  "EditorIsBlockedOnThisSiteLabel": {
+    "message": "Editor støttes ikke for tiden for $host$",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "facebook.com"
+      }
+    }
+  },
+  "EditorBrandText": {
+    "message": "Microsoft Editor"
+  },
+  "EditorIsOffLabel": {
+    "message": "Editor er av."
+  },
+  "TurnOnEditorLabel": {
+    "message": "Slå på Editor"
+  },
+  "EditorRefinementsTooltip": {
+    "message": "Forbedringer er avanserte skriveforslag som hjelper deg med å gjøre tekstene dine klarere, mer konsise og mer formelle."
+  },
+  "EditorRefinementsGoPremiumTooltip": {
+    "message": "Få avanserte skriveidéer og 1 TB med lagringsplass når du velger premium."
+  },
+  "EditorProofingLanguageLabel": {
+    "message": "Korrekturspråk"
+  },
+  "EditorProofingLanguagesLabel": {
+    "message": "Korrekturspråk"
+  },
+  "EditorProofingLanguageAriaLabel": {
+    "message": "Korrekturspråk: $languageId$",
+    "placeholders": {
+      "languageId": {
+        "content": "$1",
+        "example": "nb-NO"
+      }
+    }
+  },
+  "EditorNativeSupportOnThisSiteLabel": {
+    "message": "Editor er inkludert med $host$",
+    "placeholders": {
+      "host": {
+        "content": "$1",
+        "example": "outlook.com"
+      }
+    }
+  },
+  "EditorSettingsLabel": {
+    "message": "Flere Editor-innstillinger"
+  },
+  "PopupGroupAriaLabel": {
+    "message": "Microsoft Editor Browser-utvidelse"
+  },
+  "ConflictDetectedAnnouncementTitle": {
+    "message": "Konflikt oppdaget mellom redigeringsutvidelser"
+  },
+  "ConflictDetectedAnnouncementText": {
+    "message": "Når andre redigerings utvidelser og Editor kjører, kan deres forslag overlappe eller være i konflikt. Vi anbefaler å deaktivere andre redigerings utvidelser i nett leserens Utvidelses innstillinger for å få den beste Editor opplevelsen."
+  },
+  "PostUpsellAnnouncementTitle": {
+    "message": "Gratulerer"
+  },
+  "PostUpsellAnnouncementText": {
+    "message": "Du har oppgradert til premiumversjonen av Microsoft-redaktør! Utforsk det utvidede funksjonssettet ved å klikke på den blå og lilla understrekingen i teksten."
+  },
+  "ebx_appName": {
+    "message": "Editor i nettleseren"
+  },
+  "ebx_appShortName": {
+    "message": "Editor"
+  },
+  "ebx_appDescription": {
+    "message": "Skriv selvsikkert med Microsoft-redaktør, den intelligente skriveassistenten din."
+  },
+  "ebx_appLongDescription": {
+    "message": "Redaktør gir deg tips om grammatikk, staving og stil på tvers av nettsider (1). Du kan trygt skrive klare og konsise innlegg og e-poster. \r\n\r\n Nytt nå er flerspråklig retting, Ignorer valg\r\n stavekontroll og grammatikk for opp til tre språk samtidig. Dessuten er stavekontrollen nå også tilgjengelig for thailandsk. Vi har også gjort det lettere å hoppe over alle tilfellene av en staverettelse. Du bare velger Ignorer alt. Du kan også droppe uønskede grammatikktips ved å velge Ignorer. \r\n\r\nIntelligent skriveassistent \r\nDu kan mestre det grunnleggende med gratis retting av grammatikk, staving og tegnsetting. Med premium (som krever abonnement på Microsoft 365) kan du få mer avanserte grammatikkråd, og stilsjekken fikser problemer med klarhet, konsishet, formalitet, ordforråd og mye mer. \r\n\r\n \r\nFå skrivehjelp på nettsteder som LinkedIn, Gmail, Facebook og flere av favorittene dine med denne nettleserutvidelsen. Hvis du ønsker hjelp fra Redaktør utenom nettet, åpner du Word og ser etter Redaktør-ikonet. Da finner du ut hvordan Redaktør kan hjelpe deg når du skriver dokumenter og e-postmeldinger.\r\n\r\nTilgjengelig på flere språk\r\nRedaktør utfører stavekontroll på over 80 språk. Den sjekker dessuten grammatikken og raffinerer skrivestilen for følgende språk: (2) \r\n– arabisk\r\n– tsjekkisk \r\n– dansk\r\n– nederlandsk\r\n– engelsk\r\n– finsk\r\n– fransk\r\n– tysk\r\n– hebraisk\r\n– ungarsk\r\n– italiensk\r\n– japansk\r\n– koreansk\r\n– norsk (bokmål)\r\n– polsk\r\n– portugisisk (Brasil)\r\n– portugisisk (Portugal)\r\n– russisk\r\n– spansk\r\n– svensk\r\n– tyrkisk\r\n\r\n1. Tilgjengelig for nettleserne Microsoft Edge og Chrome. Den krever Microsoft-konto. Redaktør kobles til en nettbasert Microsoft-tjeneste som tilbyr rettskrivning, grammatikk og forbedringsforslag for det du skriver på de fleste nettsteder. \r\n 2. Det utføres ikke samme typer forbedringer for alle språk. \r\n\r\nNår du installerer appen, godtar du samtidig disse betingelsene: \r\n\r\nhttps://aka.ms/editorchromeextensionterms\r\n\r\nPersonvernerklæring: http://aka.ms/privacy"
+  },
+  "ebx_appLongDescriptionEdge": {
+    "message": "Skriv selvsikkert med Microsoft Redaktør, den intelligente skriveassistenten din. \r\n\r\nRedaktør gir deg råd for grammatikk, staving og stil på tvers av nettsteder (1). Du kan trygt skrive klare og konsise innlegg og e-poster. \r\n\r\nNytt nå er flerspråklig retting, Ignorer valg \r\nSjekk staving og grammatikk for opp til tre språk samtidig. Dessuten er stavekontrollen nå også tilgjengelig for thailandsk. Vi har også gjort det lettere å hoppe over alle tilfellene av en staverettelse. Du bare velger Ignorer alt, eller dropper uønskede grammatikktips ved å velge Ignorer. \r\n\r\nIntelligent skriveassistent\r\nDu kan mestre det grunnleggende med gratis kontroll av grammatikk, staving og tegnsetting. Med premium (krever abonnement på Microsoft 365) kan du få mer avanserte grammatikktips og stilkontroll av klarhet, konsishet, formalitet, ordforråd og mye mer \r\n\r\n Skriv hvor du vil \r\n Få skrivehjelp på nettsteder som LinkedIn, Gmail, Facebook og flere av favorittene dine med denne nettleserutvidelsen. Hvis du vil ha hjelp fra Redaktør utenom på nettet, åpner du Word og ser etter Redaktør-ikonet for å finne ut hvordan Redaktør kan hjelpe deg når du skriver dokumenter og e-post. \r\n\r\nTilgjengelig på flere språk \r\n Redaktør utfører stavekontroll for over 80 språk. Den sjekker dessuten grammatikken og raffinerer skrivestilen for følgende språk: (2) \r\n– arabisk\r\n– tsjekkisk\r\n– dansk\r\n– nederlandsk\r\n– engelsk\r\n– finsk\r\n– fransk\r\n– tysk\r\n– hebraisk\r\n– ungarsk\r\n– italiensk\r\n– japansk\r\n– koreansk\r\n– norsk (bokmål)\r\n– polsk\r\n portugisisk (Brasil)\r\n– portugisisk (Portugal)\r\n– russisk\r\n– spansk\r\n– svensk\r\n– tyrkisk\r\n\r\n1. Tilgjengelig for nettleserne Microsoft Edge og Chrome. Den krever Microsoft-konto. Redaktør kobles til en nettbasert Microsoft-tjeneste som tilbyr rettskriving, grammatikk og forbedringsforslag for det du skriver på de fleste nettsteder. \r\n 2. Det utføres ikke samme typer forbedringer for alle språk. \r\n\r\nNår du installerer appen, godtar du samtidig disse betingelsene: \r\n\r\nhttps://aka.ms/editorchromeextensionterms\r\n\r\nPersonvernerklæring: http://aka.ms/privacy"
+  },
+  "ebx_appTermsOfServiceLCA": {
+    "message": "PLEASE NOTE: Refer to your license terms for your Microsoft Account or Microsoft 365 subscription as applicable (the \"extension\") to identify the entity licensing this extension to you and for support information.  The license terms for the Microsoft Account or Microsoft 365 subscription as applicable apply to your use of this extension."
+  },
+  "ebx_optionsPageTitle": {
+    "message": "Innstillinger for Editor"
+  },
+  "ebx_settings": {
+    "message": "Innstillinger"
+  },
+  "ebx_proofingLanguage": {
+    "message": "Korrekturspråk"
+  },
+  "ebx_proofingLanguages": {
+    "message": "Korrekturspråk"
+  },
+  "ebx_proofingLanguagePlaceHolder": {
+    "message": "Velg et korrekturspråk"
+  },
+  "ebx_userExcludedUrlsTextBoxCaption": {
+    "message": "Du har deaktivert Editor på områdene som er oppført nedenfor. Editor kan automatisk deaktiveres på flere nettsteder med sensitivt innhold eller trege innlastingshastigheter."
+  },
+  "ebx_userBlockedSites": {
+    "message": "Blokkerte nettsteder"
+  },
+  "ebx_userExcludedUrlsErrorCaption": {
+    "message": "Ugyldig URL-adresse \"$url$\" på linje $line$.",
+    "placeholders": {
+      "url": {
+        "content": "$1",
+        "example": "https://microsoft.com"
+      },
+      "line": {
+        "content": "$2",
+        "example": "123"
+      }
+    }
+  },
+  "ebx_userExcludedUrlErrorCaption": {
+    "message": "Ugyldig nett adresse. Angi URL-adressen i følgende format: https://example.com"
+  },
+  "ebx_showSynonymsToggleCaption": {
+    "message": "Vis synonymer for forslag til staving"
+  },
+  "ebx_comingSoonTooltipTitle": {
+    "message": "Kommer snart"
+  },
+  "ebx_changeAllCommandLabel": {
+    "message": "Endre alle"
+  },
+  "ebx_changeSettingsCommandLabel": {
+    "message": "Innstillinger for Editor ..."
+  },
+  "ebx_moreButtonArialLabel": {
+    "message": "Flere kommandoer"
+  },
+  "ebx_ignoreAllButtonLabel": {
+    "message": "Ignorer alle"
+  },
+  "ebx_ignoreOnceButtonLabel": {
+    "message": "Ignorer"
+  },
+  "ebx_addToDictionaryButtonLabel": {
+    "message": "Legg til i ordliste"
+  },
+  "ebx_suggestionMoreActionsArialLabel": {
+    "message": "Flere handlinger"
+  },
+  "ebx_brandText": {
+    "message": "Microsoft Editor"
+  },
+  "ebx_brandTextArialLabel": {
+    "message": "Microsoft Editor-logo"
+  },
+  "ebx_showSynonyms": {
+    "message": "Vis synonymer"
+  },
+  "ebx_hideSynonyms": {
+    "message": "Skjul synonymer"
+  },
+  "ebx_synonymsNotAvailable": {
+    "message": "[Synonymer er ikke tilgjengelig]"
+  },
+  "ebx_ariaReplaceWith": {
+    "message": "Erstatt med"
+  },
+  "ebx_deleteRepeatedWord": {
+    "message": "[Slett gjentatt ord]"
+  },
+  "ebx_asInSynonyms": {
+    "message": "ligner på"
+  },
+  "ebx_goPremiumLine": {
+    "message": "Prøv de avanserte skriveidéene i Editor."
+  },
+  "ebx_goPremiumLinkText": {
+    "message": "Velg premium"
+  },
+  "ebx_goPremiumLinkTextLowerCase": {
+    "message": "kan du skaffe deg Premium"
+  },
+  "ebx_enhancedUpsellLinePartA": {
+    "message": "Redaktør har"
+  },
+  "ebx_enhancedUpsellLinePartBPlural": {
+    "message": "avanserte skriveidéer for denne meldingen."
+  },
+  "ebx_enhancedUpsellLinePartBSingular": {
+    "message": "avansert skriveidé for denne meldingen."
+  },
+  "ebx_enhancedUpsellCategoriesComma": {
+    "message": ", "
+  },
+  "ebx_enhancedUpsellCategoriesAnd": {
+    "message": " og "
+  },
+  "ebx_tryPremiumPreviewLink": {
+    "message": "Prøv nå"
+  },
+  "ebx_premiumPreviewGeneralLine": {
+    "message": "Skaff deg de avanserte skriveidéene i Redaktør."
+  },
+  "ebx_premiumPreviewLineDaysPlural": {
+    "message": "gjenværende dager i forhåndsversjon. Oppgrader for ubegrensede forslag:"
+  },
+  "ebx_premiumPreviewLineDaysSingular": {
+    "message": "gjenværende dag i forhåndsversjon. Oppgrader for ubegrensede forslag:"
+  },
+  "ebx_premiumPreviewLineSuggestionsPlural": {
+    "message": "gjenværende forslag i forhåndsversjon. Oppgrader for ubegrensede forslag:"
+  },
+  "ebx_premiumPreviewLineSuggestionsSingular": {
+    "message": "gjenværende forslag i forhåndsversjon Oppgrader for ubegrensede forslag:"
+  },
+  "ebx_checkSpelling": {
+    "message": "Stavekontroll"
+  },
+  "ebx_checkGrammar": {
+    "message": "Kontroller grammatikk"
+  },
+  "ebx_turnOffEditor": {
+    "message": "Slå av Editor"
+  },
+  "ebx_editorFeature": {
+    "message": "Microsoft Editor"
+  },
+  "ebx_editorFeatureOfficeBx": {
+    "message": "Slå av Editor"
+  },
+  "ebx_editorFeatureOnText": {
+    "message": "På"
+  },
+  "ebx_editorFeatureOffText": {
+    "message": "Av"
+  },
+  "ebx_turnOffEditorExplained": {
+    "message": "Editor kobler til en Microsoft-nettjeneste som tilbyr stave-, grammatikk- og stilforslag for håndskrift på de fleste nettsteder."
+  },
+  "ebx_checkForRefinements": {
+    "message": "Se etter presiseringer"
+  },
+  "ebx_addAnotherSite": {
+    "message": "Legg til et annet område"
+  },
+  "ebx_goPremiumExplained": {
+    "message": "Få avanserte skriveideer i Redaktør, 1 TB med OneDrive-lagringsplass og premiumfunksjoner i alle Microsoft 365-apper."
+  },
+  "ebx_addAnotherSiteAriaLabel": {
+    "message": "Legg til et annet område"
+  },
+  "ebx_addAnotherSiteSubmit": {
+    "message": "Legg til nettstedet i listen over blokkerte nettsteder"
+  },
+  "ebx_addAnotherSiteCancel": {
+    "message": "Avbryt å legge til nettstedet i listen over blokkerte nettsteder."
+  },
+  "ebx_RemoveItem": {
+    "message": "Fjern"
+  },
+  "ebx_duplicateBlockedSite": {
+    "message": "Dette nettstedet er allerede i listen over blokkerte nettsteder"
+  },
+  "ebx_editorEnableAnnouncementTitle": {
+    "message": "Microsoft Editor (forhåndsversjon) kjører nå"
+  },
+  "ebx_editorEnableAnnouncementText": {
+    "message": "Microsoft Office-leserutvidelsen inneholder nå Microsoft Editor, din intelligente skriveassistent som hjelper deg med å få ut den beste skrivingen din på Internett. Microsoft Editor kobles til en nettbasert tjeneste for å tilby stave-, grammatikk- og stilforslag for deg."
+  },
+  "ebx_learnMore": {
+    "message": "Finn ut mer"
+  },
+  "ebx_goToSettingsToLearnMore": {
+    "message": "Gå til innstillinger for redigeringsprogrammet for å finne ut mer"
+  },
+  "ebx_goToSettings": {
+    "message": "Gå til innstillinger for Redaktør"
+  },
+  "ebx_previewLabel": {
+    "message": "FORHÅNDSVERSJON"
+  },
+  "ebx_preview": {
+    "message": "(Forhåndsvisning)"
+  },
+  "ebx_SquiggleTooltipText": {
+    "message": "Åpne med venstreklikk"
+  },
+  "ebx_SquiggleTooltipCombination": {
+    "message": "(Alt+Pil ned)"
+  },
+  "ebx_SquiggleTooltipCombinationMac": {
+    "message": "(Ctrl + Tilvalg + Pil ned)"
+  },
+  "ebx_SquiggleTooltipAriaText": {
+    "message": "Åpne med venstreklikk eller Alt+Pil ned"
+  },
+  "ebx_SquiggleTooltipAriaTextMac": {
+    "message": "Åpne med venstreklikk eller Ctrl + Tilvalg + Pil ned"
+  },
+  "ebx_SquiggleTooltipSpellingTitle": {
+    "message": "Stavekorrigering"
+  },
+  "ebx_SquiggleTooltipGrammarTitle": {
+    "message": "Grammatikkorrigering"
+  },
+  "ebx_SquiggleTooltipRefinementTitle": {
+    "message": "Presisering av tekst"
+  },
+  "ebx_editorFeatureToggleLabel": {
+    "message": "Editor-funksjon"
+  },
+  "ebx_toggleOn": {
+    "message": "På"
+  },
+  "ebx_toggleOff": {
+    "message": "Av"
+  },
+  "ebx_toneLabel": {
+    "message": "Tone"
+  },
+  "ebx_close": {
+    "message": "Lukk"
+  },
+  "ebx_feedbackMessage": {
+    "message": "Hjelp oss med å forbedre Editor ved å gi"
+  },
+  "ebx_feedbackLink": {
+    "message": "tilbakemelding"
+  },
+  "ebx_spelling": {
+    "message": "Stavekontroll"
+  },
+  "ebx_grammar": {
+    "message": "Grammatikk"
+  },
+  "ebx_refinements": {
+    "message": "Forbedringer"
+  },
+  "ebx_privacyOptions": {
+    "message": "Personvernalternativer"
+  },
+  "ebx_privacyOptionSendData": {
+    "message": "Send valgfrie diagnosedata automatisk når du bruker denne nettbasert tjenesten, for å hjelpe oss med å forbedre produktene våre."
+  },
+  "ebx_displayOptions": {
+    "message": "Visningsalternativer"
+  },
+  "ebx_privacyOptionSendDataLink": {
+    "message": "Finn ut mer om diagnosedata"
+  },
+  "ebx_excludedSites": {
+    "message": "Ekskluderte nettsteder"
+  },
+  "ebx_goPremiumExplainedMicrosoft365": {
+    "message": "Få avanserte skriveideer i Redaktør, 1 TB med OneDrive-lagringsplass og premiumfunksjoner i alle Microsoft 365-apper."
+  },
+  "ebx_settingsPageAriaLabel": {
+    "message": "Innstillinger for Microsoft Editor"
+  },
+  "ebx_blockedSiteAdded": {
+    "message": "\"$url$\" ble lagt til",
+    "placeholders": {
+      "url": {
+        "content": "$1",
+        "example": "https://microsoft.com"
+      }
+    }
+  },
+  "ebx_blockedSiteRemoved": {
+    "message": "\"$url$\" ble fjernet",
+    "placeholders": {
+      "url": {
+        "content": "$1",
+        "example": "https://microsoft.com"
+      }
+    }
+  },
+  "ebx_blockedSiteListEmpty": {
+    "message": "Listen er tom."
+  },
+  "ebx_ProofingLanguages": {
+    "message": "Korrekturspråk"
+  },
+  "ebx_proofingLanguagesDescription": {
+    "message": "Velg opptil tre språk. Ditt foretrukne språk vil være øverst."
+  },
+  "ebx_addProofingLanguage": {
+    "message": "Legg til et annet språk"
+  },
+  "ebx_moveToTop": {
+    "message": "Flytt til toppen"
+  },
+  "ebx_moveUp": {
+    "message": "Flytt opp"
+  },
+  "ebx_moveDown": {
+    "message": "Flytt ned"
+  },
+  "ebx_languageAdded": {
+    "message": "\"$language$\" er lagt til",
+    "placeholders": {
+      "language": {
+        "content": "$1",
+        "example": "Engelsk (Storbritannia)"
+      }
+    }
+  },
+  "ebx_languageRemoved": {
+    "message": "\"$language$\" ble fjernet",
+    "placeholders": {
+      "language": {
+        "content": "$1",
+        "example": "Engelsk (Storbritannia)"
+      }
+    }
+  },
+  "ebx_languageMovedUp": {
+    "message": "\"$language$\" ble flyttet én posisjon oppover i listen",
+    "placeholders": {
+      "language": {
+        "content": "$1",
+        "example": "Engelsk (Storbritannia)"
+      }
+    }
+  },
+  "ebx_languageMovedToTop": {
+    "message": "\"$language$\" er flyttet til toppen av listen",
+    "placeholders": {
+      "language": {
+        "content": "$1",
+        "example": "Engelsk (Storbritannia)"
+      }
+    }
+  },
+  "ebx_addLanguageSubmit": {
+    "message": "Legg til språk i listen over korrekturspråk"
+  },
+  "ebx_addLanguageCancel": {
+    "message": "Avbryt å legge til språket i listen over korrekturspråk"
+  },
+  "ebx_MultiLanguageAnnouncementTitle": {
+    "message": "Flerspråklig korrekturlesing med Redaktør"
+  },
+  "ebx_MultiLanguageAnnouncementText": {
+    "message": "Kontroller staving og grammatikk for tre språk samtidig."
+  },
+  "ebx_MultiLanguageAnnouncementTextEditSettings": {
+    "message": "Du kan redigere språkene i innstillingene for redigering."
+  },
+  "ebx_MultiLanguageAnnouncementSelectedLanguage": {
+    "message": "Vi har valgt $language$ basert på gjeldende nett leser innstillinger.",
+    "placeholders": {
+      "language": {
+        "content": "$1",
+        "example": "Engelsk (Storbritannia)"
+      }
+    }
+  },
+  "ebx_MultiLanguageAnnouncementTwoSelectedLanguages": {
+    "message": "Vi valgte $language1$​​​​​ og $language2$​​​​​ basert på gjeldende nett leser innstillinger.",
+    "placeholders": {
+      "language1": {
+        "content": "$1",
+        "example": "Engelsk (Storbritannia)"
+      },
+      "language2": {
+        "content": "$2",
+        "example": "Engelsk (Storbritannia)"
+      }
+    }
+  },
+  "ebx_MultiLanguageAnnouncementThreeSelectedLanguages": {
+    "message": "Vi valgte $language1$​​​​​, $language2$​​​​​, og $language3$​​​​​ basert på gjeldende nett leser innstillinger.",
+    "placeholders": {
+      "language1": {
+        "content": "$1",
+        "example": "Engelsk (Storbritannia)"
+      },
+      "language2": {
+        "content": "$2",
+        "example": "Engelsk (Storbritannia)"
+      },
+      "language3": {
+        "content": "$3",
+        "example": "Engelsk (Storbritannia)"
+      }
+    }
+  },
+  "ebx_SignInAnnouncementTitle": {
+    "message": "Redigering kjører ikke ennå"
+  },
+  "ebx_SignInAnnouncementText": {
+    "message": "Logg på for å skrive forslag på de fleste nettsteder. Vi lagrer innstillingene dine, for eksempel språkene du skriver på, og hvilke typer problemer du vil at redigeringsprogrammet skal se etter."
+  },
+  "ebx_SignInAnnouncementSignIn": {
+    "message": "Logg på"
+  },
+  "ebx_SignInAnnouncementAlternativeText": {
+    "message": "Logg på Microsoft-kontoen eller jobb- eller skolekontoen du bruker for Office, for å få skriveforslag på de fleste nettsteder."
+  },
+  "ebx_proofingLanguageEntryHint": {
+    "message": "Trykk «pil høyre»-tasten for å få tilgang til Flere kommandoer-knappen."
+  },
+  "ebx_rateExtensionTitle": {
+    "message": "Tilbakemelding om Microsoft-redaktør"
+  },
+  "ebx_rateExtensionPrompt": {
+    "message": "Finner du redaktør nyttig?"
+  },
+  "ebx_rateExtensionPromptPositive": {
+    "message": "Flott, vil du rangere det?"
+  },
+  "ebx_rateExtensionPromptPositiveAlt": {
+    "message": "Hvis du fortsatt vil bruke redaktør, vil du vurdere det?"
+  },
+  "ebx_rateExtensionPromptNegative": {
+    "message": "Vi beklager at vi kan høre det. Fortell oss hvordan vi kan forbedre redigerings programmet."
+  },
+  "ebx_rateExtensionPromptYes": {
+    "message": "Ja"
+  },
+  "ebx_rateExtensionPromptNo": {
+    "message": "Nei"
+  },
+  "ebx_rateExtensionPromptGiveFeedback": {
+    "message": "Gi tilbakemelding"
+  },
+  "ebx_rateExtensionPromptNoThanks": {
+    "message": "Nei takk"
+  },
+  "ebx_rateExtensionPromptSure": {
+    "message": "Greit"
+  },
+  "ebx_AddLanguageBlockedTooltip": {
+    "message": "Du kan bare slå på korrektur for opptil tre språk om gangen."
+  },
+  "ebx_addGrammarChecking": {
+    "message": "Slik legger du til kontroll av grammatikk"
+  },
+  "ebx_signIntoEditor": {
+    "message": "logg på Redaktør"
+  },
+  "ebx_RefinementTooltip": {
+    "message": "Microsoft 365-abonnenter får avanserte skriveforslag når de er logget på."
+  },
+  "ebx_signIntoEditorTile": {
+    "message": "Logg deg på Redaktør"
+  },
+  "ebx_signIntoEditorBody": {
+    "message": "Hvis du vil ha grammatikk- og forbedringsforslag på de fleste nettsteder, må du logge deg på."
+  },
+  "ebx_giveFeedback": {
+    "message": "Gi tilbakemelding"
+  },
+  "ebx_feedbackCommentQuestion": {
+    "message": "Fortell oss hvorfor du valgte det svaret"
+  },
+  "ebx_feedbackRatingQuestion": {
+    "message": "Hvordan vil du generelt sett beskrive opplevelsen din med Microsoft-redaktør?"
+  },
+  "ebx_feedbackRating1": {
+    "message": "Svært positivt"
+  },
+  "ebx_feedbackRating2": {
+    "message": "Litt negativ"
+  },
+  "ebx_feedbackRating3": {
+    "message": "Verken positiv eller negativ"
+  },
+  "ebx_feedbackRating4": {
+    "message": "Litt positiv"
+  },
+  "ebx_feedbackRating5": {
+    "message": "Svært positiv"
+  },
+  "ebx_feedbackTitle": {
+    "message": "Gi tilbakemelding for Microsoft-redaktør"
+  },
+  "ebx_feedbackSubmitNotice": {
+    "message": "Når du trykker på send inn, blir tilbakemeldingen brukt til å forbedre Microsoft-produkter og -tjenester."
+  },
+  "ebx_settingsPerLanguage": {
+    "message": "Innstillinger per språk"
+  },
+  "ebx_manageLanguagesButton": {
+    "message": "Administrer språk"
+  },
+  "ebx_Done": {
+    "message": "Ferdig"
+  },
+  "ebx_addButton": {
+    "message": "Legg til"
+  },
+  "ebx_Cancel": {
+    "message": "Avbryt"
+  },
+  "ebx_blockedSiteEntryHint": {
+    "message": "Trykk pil høyre for å få tilgang til Fjern-knappen."
+  },
+  "ebx_FeedbackSubmitted": {
+    "message": "Tilbakemeldingen er sendt inn."
+  },
+  "ebx_disableCritiqueButton": {
+    "message": "Slutt å se etter dette."
+  },
+  "ebx_disableCritiqueButtonAriaLabel": {
+    "message": "Slutt å se etter dette. Redigering vil bruke denne innstillingen til du endrer den."
+  },
+  "ebx_disableCritiqueTooltip": {
+    "message": "Redigering vil bruke denne innstillingen til du endrer den"
+  }
+}

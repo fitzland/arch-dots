@@ -4,7 +4,7 @@
 	<icon>utilities-terminal</icon>
 	<name>Open Terminal Here</name>
 	<unique-id>1488955845049151-1</unique-id>
-	<command>termite</command>
+	<command>urxvt</command>
 	<description>Example for a custom action</description>
 	<patterns>*</patterns>
 	<startup-notify/>
@@ -99,7 +99,7 @@
 	<icon>cs-startup-programs</icon>
 	<name>Run</name>
 	<unique-id>1526630606202525-4</unique-id>
-	<command>termite -e %f</command>
+	<command>urxvt -e %f</command>
 	<description></description>
 	<patterns>*</patterns>
 	<other-files/>
@@ -169,20 +169,6 @@
 	<patterns>*</patterns>
 	<other-files/>
 	<text-files/>
-</action>
-<action>
-	<icon>conky-manager</icon>
-	<name>Conkyzen</name>
-	<unique-id>1510943357717982-3</unique-id>
-	<command>am-conkyzen</command>
-	<description>conkyzen</description>
-	<patterns>*</patterns>
-	<directories/>
-	<audio-files/>
-	<image-files/>
-	<other-files/>
-	<text-files/>
-	<video-files/>
 </action>
 <action>
 	<icon>gitahead</icon>

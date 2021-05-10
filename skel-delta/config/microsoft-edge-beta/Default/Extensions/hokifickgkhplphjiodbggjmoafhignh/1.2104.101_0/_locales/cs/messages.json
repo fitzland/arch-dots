@@ -1,0 +1,690 @@
+{
+   "AccountLabel": {
+      "message": "Účet"
+   },
+   "AppDescription": {
+      "message": "Pište s jistotou díky Microsoft Editoru – vašemu asistentovi pro kontrolu gramatiky, pravopisu a stylu."
+   },
+   "AppLongDescription": {
+      "message": "Zlepšete svůj písemný projev díky Microsoft Editoru (1), vašemu pomocníkovi pro psaní, který je dostupný zdarma. Editor vás doprovází na webech, abyste mohli suverénně publikovat jasné a výstižné příspěvky online. Toto rozšíření prohlížeče zahrnuje následující výhody: \r\n\r\nInteligentní pomocník pro psaní: Je k dispozici zdarma a pomůže vám skvěle zvládnout základní pravidla pravopisu, gramatiky a interpunkce. Prémiová verze (2) vám mimo jiné nabídne profesionální gramatické a stylistické rady a tipy v oblasti srozumitelnosti, výstižnosti, formálnosti a slovní zásoby. \r\n\r\nPomoc kdekoli: Rozšíření prohlížeče vám poskytne rady a tipy na webech, jako jsou LinkedIn, Facebook a řada dalších oblíbených internetových stránek. Pokud chcete získat pomoc Editoru i mimo web, otevřete Word a vyhledejte ikonu Editoru. Uvidíte, jak může Editor pomáhat v dokumentech, e-mailech a dalších oblastech webu. \r\n\r\nK dispozici ve více jazycích: Základní zpětná vazba je k dispozici ve více než 20 jazycích (a konkrétně kontrola pravopisu ve více než 80), takže můžete srozumitelně komunikovat bez ohledu na jazyk, který při psaní používáte. \r\n\r\nJazyková dostupnost (3):\r\n– angličtina\r\n– arabština\r\n– čeština\r\n– dánština\r\n– finština\r\n– francouzština\r\n– hebrejština (není ještě k dispozici v desktopové aplikaci Word)\r\n– holandština\r\n– italština\r\n– japonština\r\n– korejština\r\n– maďarština\r\n– němčina\r\n– norština (Bokmål)\r\n– polština\r\n– portugalština (Brazílie)\r\n– portugalština (Portugalsko)\r\n– ruština\r\n– španělština\r\n– švédština\r\n– turečtina\r\n\r\n(1) Je k dispozici pro prohlížeče Microsoft Edge nebo Google Chrome a vyžaduje účet Microsoft. Editor se připojuje k online službě Microsoftu, která nabízí kontrolu pravopisu a gramatiky a také návrhy zlepšení stylu psaní na většině webů. \r\n (2) Přístup k prémiovým funkcím Editoru vyžaduje předplatné Microsoft 365. \r\n (3) Editor nabízí vylepšení stylu psaní v následujících jazycích; ne všechny jazyky mají stejnou sadu vylepšení. \r\n\r\nNainstalováním aplikace vyjadřujete svůj souhlas s následujícími podmínkami a ujednáními: \r\n\r\nhttps://aka.ms/editorchromeextensionterms\r\n\r\nZásady ochrany osobních údajů: http://aka.ms/privacy"
+   },
+   "AppLongDescriptionEdge": {
+      "message": "Pište s jistotou díky Microsoft Editoru – vašemu inteligentnímu asistentovi pro kontrolu gramatiky, pravopisu a stylu. \r\n\r\nZlepšete svůj písemný projev díky Microsoft Editoru (1), vašemu pomocníkovi pro psaní, který je dostupný zdarma. Editor vás doprovází na webech, abyste mohli suverénně publikovat jasné a výstižné příspěvky online. Toto rozšíření prohlížeče zahrnuje následující výhody: \r\n\r\nInteligentní pomocník pro psaní: Je k dispozici zdarma a pomůže vám skvěle zvládnout základní pravidla pravopisu, gramatiky a interpunkce. Prémiová verze (2) vám mimo jiné nabídne profesionální gramatické a stylistické rady a tipy v oblasti srozumitelnosti, výstižnosti, formálnosti a slovní zásoby. \r\n\r\nPomoc kdekoli: Rozšíření prohlížeče vám poskytne rady a tipy na webech, jako jsou LinkedIn, Facebook a řada dalších oblíbených internetových stránek. Pokud chcete získat pomoc Editoru i mimo web, otevřete Word a vyhledejte ikonu Editoru. Uvidíte, jak může Editor pomáhat v dokumentech, e-mailech a dalších oblastech webu. \r\n\r\nK dispozici ve více jazycích: Základní zpětná vazba je k dispozici ve více než 20 jazycích (a konkrétně kontrola pravopisu ve více než 80), takže můžete srozumitelně komunikovat bez ohledu na jazyk, který při psaní používáte. \r\n\r\nJazyková dostupnost (3):\r\n– angličtina\r\n– arabština\r\n– čeština\r\n– dánština\r\n– finština\r\n– francouzština\r\n– hebrejština (není ještě k dispozici v desktopové aplikaci Word)\r\n– holandština\r\n– italština\r\n– japonština\r\n– korejština\r\n– maďarština\r\n– němčina\r\n– norština (Bokmål)\r\n– polština\r\n– portugalština (Brazílie)\r\n– portugalština (Portugalsko)\r\n– ruština\r\n– španělština\r\n– švédština\r\n– turečtina\r\n\r\n(1) Je k dispozici pro prohlížeče Microsoft Edge nebo Google Chrome a vyžaduje účet Microsoft. Editor se připojuje k online službě Microsoftu, která nabízí kontrolu pravopisu a gramatiky a také návrhy zlepšení stylu psaní na většině webů. \r\n (2) Přístup k prémiovým funkcím Editoru vyžaduje předplatné Microsoft 365. \r\n (3) Editor nabízí vylepšení stylu psaní v následujících jazycích; ne všechny jazyky mají stejnou sadu vylepšení. \r\n\r\nNainstalováním aplikace vyjadřujete svůj souhlas s následujícími podmínkami a ujednáními: \r\n\r\nhttps://aka.ms/editorchromeextensionterms\r\n\r\nZásady ochrany osobních údajů: http://aka.ms/privacy"
+   },
+   "AppName": {
+      "message": "Microsoft Editor: kontrola pravopisu a gramatiky"
+   },
+   "AppShortName": {
+      "message": "Editor"
+   },
+   "AppTermsOfServiceLCA": {
+      "message": "PLEASE NOTE: Refer to your license terms for your Microsoft Account or Microsoft 365 subscription as applicable (the \"extension\") to identify the entity licensing this extension to you and for support information.  The license terms for the Microsoft Account or Microsoft 365 subscription as applicable apply to your use of this extension."
+   },
+   "ConflictDetectedAnnouncementText": {
+      "message": "V případě, že používáte jak Editor, tak další rozšíření pro úpravy, můžou se jejich návrhy překrývat nebo být v konfliktu. Abyste dosáhli optimálních výsledků při používání Editoru, doporučujeme ostatní rozšíření pro úpravy v nastavení rozšíření prohlížeče vypnout."
+   },
+   "ConflictDetectedAnnouncementTitle": {
+      "message": "Byl zjištěn konflikt mezi rozšířeními pro úpravy"
+   },
+   "DisableEditorOnThisSiteLabel": {
+      "message": "Zakázat Editor na webu $host$",
+      "placeholders": {
+         "host": {
+            "content": "$1",
+            "example": "facebook.com"
+         }
+      }
+   },
+   "EditorBrandText": {
+      "message": "Microsoft Editor"
+   },
+   "EditorGrammarToggleLabel": {
+      "message": "Gramatika"
+   },
+   "EditorIsBlockedOnThisSiteLabel": {
+      "message": "Editor není na webu $host$ aktuálně podporovaný.",
+      "placeholders": {
+         "host": {
+            "content": "$1",
+            "example": "facebook.com"
+         }
+      }
+   },
+   "EditorIsDisabledOnThisSiteLabel": {
+      "message": "Editor je na webu $host$ aktuálně zakázaný.",
+      "placeholders": {
+         "host": {
+            "content": "$1",
+            "example": "facebook.com"
+         }
+      }
+   },
+   "EditorIsOffLabel": {
+      "message": "Editor je vypnutý."
+   },
+   "EditorNativeSupportOnThisSiteLabel": {
+      "message": "Editor je zahrnutý v $host$",
+      "placeholders": {
+         "host": {
+            "content": "$1",
+            "example": "outlook.com"
+         }
+      }
+   },
+   "EditorProofingLanguageAriaLabel": {
+      "message": "Jazyk kontroly pravopisu: $languageId$",
+      "placeholders": {
+         "languageId": {
+            "content": "$1",
+            "example": "cs"
+         }
+      }
+   },
+   "EditorProofingLanguageLabel": {
+      "message": "Jazyk kontroly pravopisu"
+   },
+   "EditorProofingLanguagesLabel": {
+      "message": "Jazyky kontroly pravopisu"
+   },
+   "EditorRefinementsGoPremiumTooltip": {
+      "message": "Když přejdete na verzi Premium, budete moct využívat moderní návrhy pro psaní a úložiště o velikost 1 TB."
+   },
+   "EditorRefinementsToggleLabel": {
+      "message": "Vylepšení"
+   },
+   "EditorRefinementsTooltip": {
+      "message": "Návrhy na vylepšení představují návrhy pro zdokonalení písemného projevu, aby byl srozumitelnější, výstižnější nebo formálnější."
+   },
+   "EditorSettingsLabel": {
+      "message": "Další nastavení Editoru"
+   },
+   "EditorSpellingToggleLabel": {
+      "message": "Pravopis"
+   },
+   "EnableEditorOnThisSiteLabel": {
+      "message": "Povolit Editor na webu $host$",
+      "placeholders": {
+         "host": {
+            "content": "$1",
+            "example": "facebook.com"
+         }
+      }
+   },
+   "MyAccountLabel": {
+      "message": "Zobrazit účet"
+   },
+   "PopupGroupAriaLabel": {
+      "message": "Rozšíření prohlížeče pro editor od Microsoftu"
+   },
+   "PostUpsellAnnouncementText": {
+      "message": "Provedli jste úspěšný upgrade na prémiovou verzi Microsoft Editoru! Prozkoumejte rozšířenou sadu funkcí tím, že kliknete na modrá a fialová podtržení ve vašem textu."
+   },
+   "PostUpsellAnnouncementTitle": {
+      "message": "Gratulujeme"
+   },
+   "SettingsLabel": {
+      "message": "Nastavení účtu"
+   },
+   "SignInLabel": {
+      "message": "Přihlásit se"
+   },
+   "SignOutLabel": {
+      "message": "Odhlásit se"
+   },
+   "SignOutTooltip": {
+      "message": "V případě odhlášení se obnoví výchozí nastavení a ztratí se seznam vyloučených webů."
+   },
+   "SupportPageLabel": {
+      "message": "Potřebujete pomoc s přihlášením​?"
+   },
+   "TurnOnEditorLabel": {
+      "message": "Zapnout Editor"
+   },
+   "ebx_AddLanguageBlockedTooltip": {
+      "message": "Kontrolu pravopisu můžete zapnout jen pro tři jazyky najednou."
+   },
+   "ebx_Cancel": {
+      "message": "Zrušit"
+   },
+   "ebx_Done": {
+      "message": "Hotovo"
+   },
+   "ebx_FeedbackSubmitted": {
+      "message": "Váš názor byl úspěšně odeslán."
+   },
+   "ebx_MultiLanguageAnnouncementSelectedLanguage": {
+      "message": "Na základě aktuálního nastavení vašeho prohlížeče jsme vybrali jazyk $language$.",
+      "placeholders": {
+         "language": {
+            "content": "$1",
+            "example": "Angličtina (Spojené království)"
+         }
+      }
+   },
+   "ebx_MultiLanguageAnnouncementText": {
+      "message": "Zkontrolujte pravopis a gramatiku pro tři jazyky současně."
+   },
+   "ebx_MultiLanguageAnnouncementTextEditSettings": {
+      "message": "Jazyky můžete upravit v nastavení editoru."
+   },
+   "ebx_MultiLanguageAnnouncementThreeSelectedLanguages": {
+      "message": "Na základě aktuálního nastavení vašeho prohlížeče jsme vybrali jazyky $language1$​​​​​, $language2$​​​​​ a $language3$​​​​​.",
+      "placeholders": {
+         "language1": {
+            "content": "$1",
+            "example": "Angličtina (Spojené království)"
+         },
+         "language2": {
+            "content": "$2",
+            "example": "Angličtina (Spojené království)"
+         },
+         "language3": {
+            "content": "$3",
+            "example": "Angličtina (Spojené království)"
+         }
+      }
+   },
+   "ebx_MultiLanguageAnnouncementTitle": {
+      "message": "Kontrola pravopisu a gramatiky více jazyků v editoru"
+   },
+   "ebx_MultiLanguageAnnouncementTwoSelectedLanguages": {
+      "message": "Na základě aktuálního nastavení vašeho prohlížeče jsme vybrali jazyky $language1$​​​​​ a $language2$​​​​​.",
+      "placeholders": {
+         "language1": {
+            "content": "$1",
+            "example": "Angličtina (Spojené království)"
+         },
+         "language2": {
+            "content": "$2",
+            "example": "Angličtina (Spojené království)"
+         }
+      }
+   },
+   "ebx_ProofingLanguages": {
+      "message": "Jazyky kontroly pravopisu"
+   },
+   "ebx_RefinementTooltip": {
+      "message": "Předplatitelé Microsoftu 365 získají návrhy editoru pro profesionální styl psaní, když jsou přihlášeni."
+   },
+   "ebx_RemoveItem": {
+      "message": "Odebrat"
+   },
+   "ebx_SignInAnnouncementAlternativeText": {
+      "message": "Pokud chcete získat pomoc při psaní na většině webů, přihlaste se ke svému účtu Microsoft nebo k pracovnímu či školnímu účtu, který používáte pro Office."
+   },
+   "ebx_SignInAnnouncementSignIn": {
+      "message": "Přihlásit se"
+   },
+   "ebx_SignInAnnouncementText": {
+      "message": "Přihlaste se, abyste dostávali návrhy při psaní na většině webových stránek. Uložíme vaše nastavení, například jazyky, ve kterých píšete, a vámi určené typy problémů, které má Editor kontrolovat."
+   },
+   "ebx_SignInAnnouncementTitle": {
+      "message": "Editor zatím neběží"
+   },
+   "ebx_SquiggleTooltipAriaText": {
+      "message": "Položku otevřete kliknutím levým tlačítkem myši nebo stisknutím kombinace kláves Alt+šipka dolů."
+   },
+   "ebx_SquiggleTooltipAriaTextMac": {
+      "message": "Položku otevřete kliknutím levým tlačítkem myši nebo stisknutím kombinace kláves Control+Option+Šipka dolů."
+   },
+   "ebx_SquiggleTooltipCombination": {
+      "message": "(Alt+Šipka dolů)"
+   },
+   "ebx_SquiggleTooltipCombinationMac": {
+      "message": "(Control+Option+Šipka dolů)"
+   },
+   "ebx_SquiggleTooltipGrammarTitle": {
+      "message": "Oprava gramatiky"
+   },
+   "ebx_SquiggleTooltipRefinementTitle": {
+      "message": "Vylepšení stylu psaní"
+   },
+   "ebx_SquiggleTooltipSpellingTitle": {
+      "message": "Oprava pravopisu"
+   },
+   "ebx_SquiggleTooltipText": {
+      "message": "Otevřít kliknutím levým tlačítkem myši"
+   },
+   "ebx_addAnotherSite": {
+      "message": "Přidat další web"
+   },
+   "ebx_addAnotherSiteAriaLabel": {
+      "message": "Přidat další web"
+   },
+   "ebx_addAnotherSiteCancel": {
+      "message": "Můžete zrušit přidání webu do seznamu blokovaných webů."
+   },
+   "ebx_addAnotherSiteSubmit": {
+      "message": "Přidat web do seznamu blokovaných webů"
+   },
+   "ebx_addButton": {
+      "message": "Přidat"
+   },
+   "ebx_addGrammarChecking": {
+      "message": "Přidání kontroly gramatiky"
+   },
+   "ebx_addLanguageCancel": {
+      "message": "Zrušit přidání jazyka do seznamu jazyků pro kontrolu pravopisu"
+   },
+   "ebx_addLanguageSubmit": {
+      "message": "Přidat jazyk do seznamu jazyků pro kontrolu pravopisu"
+   },
+   "ebx_addProofingLanguage": {
+      "message": "Přidat další jazyk"
+   },
+   "ebx_addToDictionaryButtonLabel": {
+      "message": "Přidat do slovníku"
+   },
+   "ebx_appDescription": {
+      "message": "Pište s jistotou díky Microsoft Editoru – inteligentnímu pomocníkovi pro psaní"
+   },
+   "ebx_appLongDescription": {
+      "message": "Editor nabízí návrhy v oblasti gramatiky, pravopisu a stylu na různých webech (1); díky tomu budete s jistotou psát jasné a výstižné příspěvky a e-maily. \r\n\r\nNOVINKY: Kontrola pravopisu ve více jazycích, možnosti přeskočení \r\nPravopis a gramatiku můžete kontrolovat až ve 3 jazycích současně. Navíc je teď k dispozici kontrola pravopisu pro thajštinu. Také jsme usnadnili přeskakování všech výskytů stejných pravopisných oprav, a to volbou Přeskočit vše. A nežádoucí gramatické návrhy vynecháte volbou Přeskočit. \r\n\r\nInteligentní pomocník pro psaní \r\nZajistěte si elementární správnost díky bezplatné kontrole gramatiky, pravopisu a interpunkce. Prémiová verze (vyžaduje předplatné Microsoft 365) vám bude nabízet pokročilé gramatické a stylistické návrhy v oblasti srozumitelnosti, výstižnosti, formálnosti, slovní zásoby a mnoha dalších ohledech. \r\n\r\nPište kdekoli \r\nS tímto rozšířením prohlížeče pro vás bude asistent k dispozici na webech LinkedIn, Gmail a Facebook a v dalších oblíbených službách. Pokud chcete, aby vám Editor pomáhal i mimo web, spusťte Word a vyhledejte ikonu Editor – zjistíte, jak vám může pomáhat při psaní dokumentů a e-mailů. \r\n\r\nK dispozici ve více jazycích \r\nEditor kontroluje pravopis ve více než 80 jazycích. Kontrolu gramatiky a stylistické návrhy poskytuje v následujících jazycích: (2) \r\n– Arabština\r\n– Čeština\r\n– Dánština\r\n– Nizozemština\r\n– Angličtina\r\n– Finština\r\n– Francouzština\r\n– Němčina\r\n– Hebrejština\r\n– Maďarština\r\n– Italština\r\n– Japonština\r\n– Korejština\r\n– Norština (Bokmål)\r\n– Polština\r\n– Portugalština (Brazílie)\r\n– Portugalština (Portugalsko)\r\n– Ruština\r\n– Španělština\r\n– Švédština\r\n– Turečtina\r\n\r\n1. Je k dispozici pro prohlížeče Microsoft Edge nebo Chrome a vyžaduje účet Microsoft. Editor se připojuje k online službě společnosti Microsoft, která nabízí kontrolu pravopisu a gramatiky a také návrhy zlepšení stylu psaní na většině webů. \r\n2. Ne všechny jazyky mají stejnou sadu vylepšení. \r\n\r\nInstalací aplikace vyjadřujete svůj souhlas s následujícími podmínkami a ujednáními: \r\n\r\nhttps://aka.ms/editorchromeextensionterms\r\n\r\nZásady ochrany osobních údajů: http://aka.ms/privacy"
+   },
+   "ebx_appLongDescriptionEdge": {
+      "message": "Pište s jistotou díky Microsoft Editoru – inteligentnímu pomocníkovi pro psaní. \r\n\r\nEditor nabízí návrhy týkající se gramatiky, pravopisu a stylu napříč více weby (1); takže budete s jistotou psát jasné a výstižné příspěvky a e-maily. \r\n\r\nNOVINKA: Kontrola pravopisu ve více jazycích, možnosti přeskočení \r\nPravopis a gramatiku můžete kontrolovat až ve 3 jazycích současně. Navíc je teď kontrola pravopisu k dispozici pro thajštinu. Také jsme usnadnili přeskakování všech výskytů návrhu opravy pravopisu, a to tak, že vyberete Přeskočit vše, nebo vynecháte volbou Přeskočit. \r\n\r\nInteligentní pomocník pro psaní \r\nZajistěte si elementární správnost díky bezplatné kontrole gramatiky, pravopisu a interpunkce. Prémiová verze (vyžaduje předplatné Microsoft 365) vám bude mimo jiné nabízet pokročilé gramatické a stylistické návrhy v oblasti srozumitelnosti, výstižnosti, formálnosti a slovní zásoby. \r\n\r\nPište kdekoli \r\nS tímto rozšířením prohlížeče pro vás bude asistence k dispozici na webech LinkedIn, Gmail, Facebook a dalších oblíbených službách. Pokud chcete, aby vám Editor pomáhal i mimo web, spusťte Word a vyhledejte ikonu Editor – zjistíte tak, jak vám může pomáhat při psaní dokumentů a e-mailů. \r\n\r\nK dispozici ve více jazycích \r\nEditor kontroluje pravopis ve více než 80 jazycích a kontrolu gramatiky a stylistické návrhy poskytuje v následujících jazycích: (2) \r\n– Arabština\r\n– Čeština\r\n– Dánština\r\n– Nizozemština\r\n– Angličtina\r\n– Finština\r\n– Francouzština\r\n– Němčina\r\n– Hebrejština\r\n– Maďarština\r\n– Italština\r\n– Japonština\r\n– Korejština\r\n– Norština (Bokmål)\r\n– Polština\r\n– Portugalština (Brazílie)\r\n– Portugalština (Portugalsko)\r\n– Ruština\r\n– Španělština\r\n– Švédština\r\n– Turečtina\r\n\r\n1. Je k dispozici pro prohlížeče Microsoft Edge nebo Chrome a vyžaduje účet Microsoft. Editor se připojuje k online službě společnosti Microsoft, která nabízí kontrolu pravopisu a gramatiky a také návrhy zlepšení stylu psaní na většině webů. \r\n2. Ne všechny jazyky mají stejnou sadu vylepšení. \r\n\r\nInstalací aplikace vyjadřujete svůj souhlas s následujícími podmínkami a ujednáními: \r\n\r\nhttps://aka.ms/editorchromeextensionterms\r\n\r\nZásady ochrany osobních údajů: http://aka.ms/privacy"
+   },
+   "ebx_appName": {
+      "message": "Editor v prohlížeči"
+   },
+   "ebx_appShortName": {
+      "message": "Editor"
+   },
+   "ebx_appTermsOfServiceLCA": {
+      "message": "PLEASE NOTE: Refer to your license terms for your Microsoft Account or Microsoft 365 subscription as applicable (the \"extension\") to identify the entity licensing this extension to you and for support information.  The license terms for the Microsoft Account or Microsoft 365 subscription as applicable apply to your use of this extension."
+   },
+   "ebx_ariaReplaceWith": {
+      "message": "Nahradit:"
+   },
+   "ebx_asInSynonyms": {
+      "message": "podobné jako"
+   },
+   "ebx_blockedSiteAdded": {
+      "message": "Web \"$url$\" byl úspěšně přidán.",
+      "placeholders": {
+         "url": {
+            "content": "$1",
+            "example": "https://microsoft.com"
+         }
+      }
+   },
+   "ebx_blockedSiteEntryHint": {
+      "message": "Stisknutím klávesy se šipkou doprava získáte přístup k tlačítku odebrat."
+   },
+   "ebx_blockedSiteListEmpty": {
+      "message": "Seznam je prázdný."
+   },
+   "ebx_blockedSiteRemoved": {
+      "message": "Web \"$url$\" byl úspěšně odebrán.",
+      "placeholders": {
+         "url": {
+            "content": "$1",
+            "example": "https://microsoft.com"
+         }
+      }
+   },
+   "ebx_brandText": {
+      "message": "Microsoft Editor"
+   },
+   "ebx_brandTextArialLabel": {
+      "message": "Logo Microsoft Editor"
+   },
+   "ebx_changeAllCommandLabel": {
+      "message": "Změnit vše"
+   },
+   "ebx_changeSettingsCommandLabel": {
+      "message": "Nastavení Editoru..."
+   },
+   "ebx_checkForRefinements": {
+      "message": "Vyhledat návrhy na vylepšení"
+   },
+   "ebx_checkGrammar": {
+      "message": "Zkontrolovat gramatiku"
+   },
+   "ebx_checkSpelling": {
+      "message": "Zkontrolovat pravopis"
+   },
+   "ebx_close": {
+      "message": "Zavřít"
+   },
+   "ebx_comingSoonTooltipTitle": {
+      "message": "Připravujeme"
+   },
+   "ebx_deleteRepeatedWord": {
+      "message": "[Odstranit opakující se slovo]"
+   },
+   "ebx_disableCritiqueButton": {
+      "message": "Zastavit tuto kontrolu"
+   },
+   "ebx_disableCritiqueButtonAriaLabel": {
+      "message": "Zastavit tuto kontrolu. Editor bude toto nastavení používat, dokud ho nezměníte."
+   },
+   "ebx_disableCritiqueTooltip": {
+      "message": "Editor bude toto nastavení používat, dokud ho nezměníte."
+   },
+   "ebx_displayOptions": {
+      "message": "Možnosti zobrazení"
+   },
+   "ebx_duplicateBlockedSite": {
+      "message": "Tento web už je v seznamu blokovaných webů zařazený."
+   },
+   "ebx_editorEnableAnnouncementText": {
+      "message": "Rozšíření prohlížeče Microsoft Office teď zahrnuje Microsoft Editor. Jde o inteligentního pomocníka pro psaní, který vám pomůže psát online na profesionální úrovni. Microsoft Editor se připojuje k online službě, aby vám mohl nabízet návrhy pro kontrolu pravopisu, gramatiku a styl."
+   },
+   "ebx_editorEnableAnnouncementTitle": {
+      "message": "Už můžete začít využívat Microsoft Editor (Preview)"
+   },
+   "ebx_editorFeature": {
+      "message": "Microsoft Editor"
+   },
+   "ebx_editorFeatureOffText": {
+      "message": "Vypnuto"
+   },
+   "ebx_editorFeatureOfficeBx": {
+      "message": "Vypnout Editor"
+   },
+   "ebx_editorFeatureOnText": {
+      "message": "Zapnuto"
+   },
+   "ebx_editorFeatureToggleLabel": {
+      "message": "Funkce Editor"
+   },
+   "ebx_enhancedUpsellCategoriesAnd": {
+      "message": " a "
+   },
+   "ebx_enhancedUpsellCategoriesComma": {
+      "message": ", "
+   },
+   "ebx_enhancedUpsellLinePartA": {
+      "message": "Editor má"
+   },
+   "ebx_enhancedUpsellLinePartBPlural": {
+      "message": "pro tuto zprávu návrhy pro profesionální styl psaní."
+   },
+   "ebx_enhancedUpsellLinePartBSingular": {
+      "message": "pro tuto zprávu návrh pro profesionální styl psaní."
+   },
+   "ebx_excludedSites": {
+      "message": "Vyloučené weby"
+   },
+   "ebx_feedbackCommentQuestion": {
+      "message": "Řekněte nám prosím, proč jste zvolili tuto odpověď."
+   },
+   "ebx_feedbackLink": {
+      "message": "názor"
+   },
+   "ebx_feedbackMessage": {
+      "message": "Pomozte nám s vylepšováním Editoru – pošlete nám na něj svůj"
+   },
+   "ebx_feedbackRating1": {
+      "message": "Velmi negativní"
+   },
+   "ebx_feedbackRating2": {
+      "message": "Mírně negativní"
+   },
+   "ebx_feedbackRating3": {
+      "message": "Ani pozitivní, ani negativní"
+   },
+   "ebx_feedbackRating4": {
+      "message": "Mírně pozitivní"
+   },
+   "ebx_feedbackRating5": {
+      "message": "Velmi pozitivní"
+   },
+   "ebx_feedbackRatingQuestion": {
+      "message": "Jak byste celkově popsali svou zkušenost s Microsoft Editorem?"
+   },
+   "ebx_feedbackSubmitNotice": {
+      "message": "Po stisknutí tlačítka pro odeslání se váš názor a připomínky použijí k vylepšení produktů a služeb Microsoftu."
+   },
+   "ebx_feedbackTitle": {
+      "message": "Poskytnout názor na Microsoft Editor"
+   },
+   "ebx_giveFeedback": {
+      "message": "Zadat slovní hodnocení"
+   },
+   "ebx_goPremiumExplained": {
+      "message": "Můžete získat návrhy Editoru pro profesionální styl psaní, 1 TB úložiště na OneDrive a prémiové funkce ve všech aplikacích Microsoft 365."
+   },
+   "ebx_goPremiumExplainedMicrosoft365": {
+      "message": "Můžete získat návrhy Editoru pro profesionální styl psaní, 1 TB úložiště na OneDrive a prémiové funkce ve všech aplikacích Microsoft 365."
+   },
+   "ebx_goPremiumLine": {
+      "message": "Vyzkoušejte návrhy Editoru pro profesionální styl psaní."
+   },
+   "ebx_goPremiumLinkText": {
+      "message": "Přejít na Premium"
+   },
+   "ebx_goPremiumLinkTextLowerCase": {
+      "message": "přejít na Premium"
+   },
+   "ebx_goToSettings": {
+      "message": "Přejít do nastavení Editoru"
+   },
+   "ebx_goToSettingsToLearnMore": {
+      "message": "Další informace najdete v nastavení Editoru."
+   },
+   "ebx_grammar": {
+      "message": "Gramatika"
+   },
+   "ebx_hideSynonyms": {
+      "message": "Skrýt synonyma"
+   },
+   "ebx_ignoreAllButtonLabel": {
+      "message": "Ignorovat vše"
+   },
+   "ebx_ignoreOnceButtonLabel": {
+      "message": "Ignorovat"
+   },
+   "ebx_languageAdded": {
+      "message": "Jazyk \"$language$\" byl úspěšně přidán.",
+      "placeholders": {
+         "language": {
+            "content": "$1",
+            "example": "Angličtina (Spojené království)"
+         }
+      }
+   },
+   "ebx_languageMovedToTop": {
+      "message": "Jazyk \"$language$\" byl úspěšně přesunut na začátek seznamu.",
+      "placeholders": {
+         "language": {
+            "content": "$1",
+            "example": "Angličtina (Spojené království)"
+         }
+      }
+   },
+   "ebx_languageMovedUp": {
+      "message": "Jazyk \"$language$\" byl úspěšně přesunut v seznamu o jedno místo nahoru.",
+      "placeholders": {
+         "language": {
+            "content": "$1",
+            "example": "Angličtina (Spojené království)"
+         }
+      }
+   },
+   "ebx_languageRemoved": {
+      "message": "Jazyk \"$language$\" byl úspěšně odebrán.",
+      "placeholders": {
+         "language": {
+            "content": "$1",
+            "example": "Angličtina (Spojené království)"
+         }
+      }
+   },
+   "ebx_learnMore": {
+      "message": "Další informace"
+   },
+   "ebx_manageLanguagesButton": {
+      "message": "Spravovat jazyky"
+   },
+   "ebx_moreButtonArialLabel": {
+      "message": "Další příkazy"
+   },
+   "ebx_moveDown": {
+      "message": "Přesunout dolů"
+   },
+   "ebx_moveToTop": {
+      "message": "Přesunout na začátek"
+   },
+   "ebx_moveUp": {
+      "message": "Přesunout nahoru"
+   },
+   "ebx_optionsPageTitle": {
+      "message": "Nastavení Editoru"
+   },
+   "ebx_premiumPreviewGeneralLine": {
+      "message": "Získejte návrhy Editoru pro profesionální styl psaní."
+   },
+   "ebx_premiumPreviewLineDaysPlural": {
+      "message": "dny(ů) zbývající(ch) ve verzi Preview. Pokud chcete získat neomezený počet návrhů, upgradujte na prémiovou verzi:"
+   },
+   "ebx_premiumPreviewLineDaysSingular": {
+      "message": "den zbývající ve verzi Preview. Pokud chcete získat neomezený počet návrhů, upgradujte na prémiovou verzi:"
+   },
+   "ebx_premiumPreviewLineSuggestionsPlural": {
+      "message": "návrhy(ů) zbývající(ch) ve verzi Preview. Pokud chcete získat neomezený počet návrhů, upgradujte na prémiovou verzi:"
+   },
+   "ebx_premiumPreviewLineSuggestionsSingular": {
+      "message": "návrh zbývající ve verzi Preview. Pokud chcete získat neomezený počet návrhů, upgradujte na prémiovou verzi:"
+   },
+   "ebx_preview": {
+      "message": "(Preview)"
+   },
+   "ebx_previewLabel": {
+      "message": "PREVIEW"
+   },
+   "ebx_privacyOptionSendData": {
+      "message": "Při používání této online služby se můžou automaticky posílat volitelná diagnostická data, která nám pomůžou vylepšovat naše produkty."
+   },
+   "ebx_privacyOptionSendDataLink": {
+      "message": "Další informace o diagnostických datech"
+   },
+   "ebx_privacyOptions": {
+      "message": "Možnosti ochrany osobních údajů"
+   },
+   "ebx_proofingLanguage": {
+      "message": "Jazyk kontroly pravopisu"
+   },
+   "ebx_proofingLanguageEntryHint": {
+      "message": "Stisknutím klávesy se šipkou doprava získáte přístup k tlačítku Další příkazy."
+   },
+   "ebx_proofingLanguagePlaceHolder": {
+      "message": "Vyberte jazyk kontroly pravopisu"
+   },
+   "ebx_proofingLanguages": {
+      "message": "Jazyky kontroly pravopisu"
+   },
+   "ebx_proofingLanguagesDescription": {
+      "message": "Vyberte maximálně tři jazyky. Preferovaný jazyk bude nahoře."
+   },
+   "ebx_rateExtensionPrompt": {
+      "message": "Přijde vám Editor užitečný?"
+   },
+   "ebx_rateExtensionPromptGiveFeedback": {
+      "message": "Váš názor"
+   },
+   "ebx_rateExtensionPromptNegative": {
+      "message": "To je nám líto. Dejte nám prosím vědět, jak můžeme Editor vylepšit."
+   },
+   "ebx_rateExtensionPromptNo": {
+      "message": "Ne"
+   },
+   "ebx_rateExtensionPromptNoThanks": {
+      "message": "Ne, díky"
+   },
+   "ebx_rateExtensionPromptPositive": {
+      "message": "Skvělé! Chcete ohodnotit ho ohodnotit?"
+   },
+   "ebx_rateExtensionPromptPositiveAlt": {
+      "message": "Pokud stále používáte Editor, chtěli byste ho ohodnotit?"
+   },
+   "ebx_rateExtensionPromptSure": {
+      "message": "Určitě"
+   },
+   "ebx_rateExtensionPromptYes": {
+      "message": "Ano"
+   },
+   "ebx_rateExtensionTitle": {
+      "message": "Váš názor na Microsoft Editor"
+   },
+   "ebx_refinements": {
+      "message": "Vylepšení"
+   },
+   "ebx_settings": {
+      "message": "Nastavení"
+   },
+   "ebx_settingsPageAriaLabel": {
+      "message": "Nastavení aplikace Microsoft Editor"
+   },
+   "ebx_settingsPerLanguage": {
+      "message": "Nastavení podle jazyka"
+   },
+   "ebx_showSynonyms": {
+      "message": "Zobrazit synonyma"
+   },
+   "ebx_showSynonymsToggleCaption": {
+      "message": "Spolu s návrhy kontroly pravopisu zobrazovat synonyma"
+   },
+   "ebx_signIntoEditor": {
+      "message": "přihlásit se do Editoru"
+   },
+   "ebx_signIntoEditorBody": {
+      "message": "Na většině webů máte možnost využívat kontrolu gramatiky a také návrhy vylepšení stylu. Stačí se přihlásit."
+   },
+   "ebx_signIntoEditorTile": {
+      "message": "Přihlaste se do Editoru"
+   },
+   "ebx_spelling": {
+      "message": "Pravopis"
+   },
+   "ebx_suggestionMoreActionsArialLabel": {
+      "message": "Další akce"
+   },
+   "ebx_synonymsNotAvailable": {
+      "message": "[Synonyma nejsou dostupná]"
+   },
+   "ebx_toggleOff": {
+      "message": "Vypnuto"
+   },
+   "ebx_toggleOn": {
+      "message": "Zapnuto"
+   },
+   "ebx_toneLabel": {
+      "message": "Tón"
+   },
+   "ebx_tryPremiumPreviewLink": {
+      "message": "Vyzkoušet"
+   },
+   "ebx_turnOffEditor": {
+      "message": "Vypnout Editor"
+   },
+   "ebx_turnOffEditorExplained": {
+      "message": "Editor se připojuje k online službě Microsoftu, která nabízí návrhy pravopisu, gramatiky a stylu pro psaní na většině webů."
+   },
+   "ebx_userBlockedSites": {
+      "message": "Blokované weby"
+   },
+   "ebx_userExcludedUrlErrorCaption": {
+      "message": "Neplatná adresa URL. Uveďte adresu URL v následujícím formátu: https://example.com"
+   },
+   "ebx_userExcludedUrlsErrorCaption": {
+      "message": "Neplatná adresa URL \"$url$\" na řádku $line$",
+      "placeholders": {
+         "line": {
+            "content": "$2",
+            "example": "123"
+         },
+         "url": {
+            "content": "$1",
+            "example": "https://microsoft.com"
+         }
+      }
+   },
+   "ebx_userExcludedUrlsTextBoxCaption": {
+      "message": "Vypnuli jste Editor na níže uvedených webech. Editor se může automaticky vypnout i na dalších webech s citlivým obsahem nebo pomalým načítáním."
+   },
+   "sbx_signInDescription": {
+      "message": "Na většině webů máte možnost využívat kontrolu pravopisu a gramatiky a také návrhy vylepšení stylu. Stačí se přihlásit."
+   }
+}

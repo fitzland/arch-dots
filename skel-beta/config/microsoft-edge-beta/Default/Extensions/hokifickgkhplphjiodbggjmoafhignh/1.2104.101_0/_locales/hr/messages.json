@@ -1,0 +1,690 @@
+{
+   "AccountLabel": {
+      "message": "Račun"
+   },
+   "AppDescription": {
+      "message": "Pišite sa samopouzdanjem uz Microsoft Editor, inteligentnog pomoćnika za pisanje za provjeru gramatike, pravopisa i stila."
+   },
+   "AppLongDescription": {
+      "message": "Naučite bolje pisati na webu s pomoću besplatnog pomoćnika za pisanje u programu Microsoft Editor (1). Program Editor prati vas na svim web-mjestima kako biste mogli samopouzdano pisati jasne i sažete objave na webu. S ovim proširenjem preglednika dobivate: \r\n\r\nInteligentnu pomoć pri pisanju – besplatno savladajte osnove uz nevjerojatnu provjeru pravopisa, gramatike i interpunkcije. Poslužite se naprednom provjerom gramatike i stila u pogledu jasnoće, sažetosti, formalnosti, vokabulara i još mnogo toga uz premium (2). \r\n\r\nGdjegod pisali – primajte povratne informacije na stranicama kao što su LinkedIn, Facebook i još mnoge od vaših favorita s pomoću ovog proširenja za preglednik. Ako želite pomoć programa Editor izvan weba, otvorite Word i potražite ikonu programa Editor da biste vidjeli kako vam on može pomoći s dokumentima, e-poštom i ostatkom weba. \r\n\r\nDostupno na više jezika – primajte osnovne povratne informacije na više od 20 jezika (i provjeru pravopisa za više od 80 jezika) kako biste jasno komunicirali, bez obzira na jezik na kojemu pišete. \r\n\r\nDostupnost jezika (3): \r\n– arapski\r\n – češki\r\n– danski\r\n– nizozemski\r\n– engleski\r\n– finski\r\n– francuski\r\n– njemački\r\n– hebrejski (još nije dostupno u aplikaciji Word za stolna računala)\r\n– mađarski\r\n– talijanski\r\n– japanski\r\n– korejski\r\n– norveški (Bokmål)\r\n– poljski\r\n– portugalski (Brazil)\r\n– portugalski (Portugal)\r\n– ruski\r\n– španjolski\r\n– švedski\r\n– turski\r\n\r\n(1) Dostupno za preglednike Microsoft Edge ili Chrome i potreban je Microsoftov račun. Program Editor povezuje se s Microsoftovim mrežnim servisom koji nudi pravopis, gramatiku i prijedloge za poboljšanja dok pišete na većini web-mjesta. \r\n (2) Za pristup premium značajkama programa Editor potrebna je pretplata na Microsoft 365 \r\n (3) Program Editor omogućuje poboljšanja stila pisanja na sljedećim jezicima; nemaju svi jezici isti skup poboljšanja. \r\n\r\nInstaliranjem aplikacije pristajete na ove uvjete: \r\n\r\nhttps://aka.ms/editorchromeextensionterms \r\n\r\nIzjava o privatnosti: http://aka.ms/privacy"
+   },
+   "AppLongDescriptionEdge": {
+      "message": "Pišite samopouzdano s programom Microsoft Editor, inteligentnim pomoćnikom za provjeru gramatike, pravopisa i stila. \r\n\r\nNaučite bolje pisati na webu s pomoću besplatnog pomoćnika za pisanje u programu Microsoft Editor (1). Microsoft Editor prati vas na svim web-mjestima kako biste mogli samopouzdano pisati jasne i sažete objave na mreži. S ovim proširenjem preglednika dobivate: \r\n\r\nInteligentnu pomoć pri pisanju – besplatno savladajte osnove uz nevjerojatnu provjeru pravopisa, gramatike i interpunkcije. Poslužite se naprednom provjerom gramatike i stila u pogledu jasnoće, sažetosti, formalnosti, vokabulara i još mnogo toga uz premium (2). \r\n\r\nGdjegod pisali – primajte povratne informacije na stranicama kao što su LinkedIn, Facebook i još mnoge od vaših favorita s pomoću ovog proširenja za preglednik. Ako želite pomoć programa Editor izvan weba, otvorite Word i potražite ikonu programa Editor da biste vidjeli kako vam on može pomoći s dokumentima, e-poštom i ostatkom weba. \r\n\r\nDostupno na više jezika – primajte osnovne povratne informacije na više od 20 jezika (i provjeru pravopisa za više od 80 jezika) kako biste jasno komunicirali, bez obzira na jezik na kojemu pišete. \r\n\r\nDostupnost jezika (3):\r\n– arapski\r\n– češki\r\n– danski\r\n– nizozemski\r\n– engleski\r\n– finski\r\n– francuski\r\n– njemački\r\n– hebrejski (još nije dostupno u aplikaciji Word za stolna računala)\r\n– mađarski\r\n– talijanski\r\n– japanski\r\n– korejski\r\n– norveški (Bokmål)\r\n– poljski\r\n– portugalski (Brazil)\r\n– portugalski (Portugal)\r\n– ruski\r\n– španjolski\r\n– švedski\r\n– turski\r\n\r\n(1) Dostupno za preglednike Microsoft Edge ili Chrome i potreban je Microsoftov račun. Program Editor povezuje se s Microsoftovim mrežnim servisom koji nudi pravopis, gramatiku i prijedloge za poboljšanja dok pišete na većini web-mjesta. \r\n (2) Za pristup premium značajkama programa Editor potrebna je pretplata na Microsoft 365 \r\n (3) Program Editor omogućuje poboljšanja stila pisanja na sljedećim jezicima; nemaju svi jezici isti skup poboljšanja. \r\n\r\n Instaliranjem aplikacije pristajete na ove uvjete: \r\n\r\nhttps://aka.ms/editorchromeextensionterms\r\n\r\nIzjava o privatnosti: http://aka.ms/privacy"
+   },
+   "AppName": {
+      "message": "Microsoft Editor: alat za provjeru pravopisa i gramatike"
+   },
+   "AppShortName": {
+      "message": "Editor"
+   },
+   "AppTermsOfServiceLCA": {
+      "message": "PLEASE NOTE: Refer to your license terms for your Microsoft Account or Microsoft 365 subscription as applicable (the \"extension\") to identify the entity licensing this extension to you and for support information.  The license terms for the Microsoft Account or Microsoft 365 subscription as applicable apply to your use of this extension."
+   },
+   "ConflictDetectedAnnouncementText": {
+      "message": "Kada su druga proširenja za uređivanje i Editor istovremeno pokrenuti, njihovi prijedlozi mogu se preklapati ili biti u sukobu. Za najbolje iskustvo s uređivačem Editor preporučujemo isključivanje drugih proširenja za uređivanje u postavkama za proširenja vašeg preglednika."
+   },
+   "ConflictDetectedAnnouncementTitle": {
+      "message": "Otkriven konflikt između proširenja za uređivanje"
+   },
+   "DisableEditorOnThisSiteLabel": {
+      "message": "Onemogući Editor na stranici $host$",
+      "placeholders": {
+         "host": {
+            "content": "$1",
+            "example": "facebook.com"
+         }
+      }
+   },
+   "EditorBrandText": {
+      "message": "Microsoft Editor"
+   },
+   "EditorGrammarToggleLabel": {
+      "message": "Gramatika"
+   },
+   "EditorIsBlockedOnThisSiteLabel": {
+      "message": "Editor trenutno nije podržan na stranici $host$",
+      "placeholders": {
+         "host": {
+            "content": "$1",
+            "example": "facebook.com"
+         }
+      }
+   },
+   "EditorIsDisabledOnThisSiteLabel": {
+      "message": "Editor je trenutačno onemogućen na stranici $host$",
+      "placeholders": {
+         "host": {
+            "content": "$1",
+            "example": "facebook.com"
+         }
+      }
+   },
+   "EditorIsOffLabel": {
+      "message": "Editor je isključen."
+   },
+   "EditorNativeSupportOnThisSiteLabel": {
+      "message": "Editor je uključen na stranici $host$",
+      "placeholders": {
+         "host": {
+            "content": "$1",
+            "example": "outlook.com"
+         }
+      }
+   },
+   "EditorProofingLanguageAriaLabel": {
+      "message": "Jezik za jezičnu provjeru: $languageId$",
+      "placeholders": {
+         "languageId": {
+            "content": "$1",
+            "example": "hr"
+         }
+      }
+   },
+   "EditorProofingLanguageLabel": {
+      "message": "Proofing Language"
+   },
+   "EditorProofingLanguagesLabel": {
+      "message": "Jezici za jezičnu provjeru"
+   },
+   "EditorRefinementsGoPremiumTooltip": {
+      "message": "Prijeđite na premium verziju, koja obuhvaća ideje za napredno pisanje i 1 TB prostora za pohranu."
+   },
+   "EditorRefinementsToggleLabel": {
+      "message": "Poboljšanja"
+   },
+   "EditorRefinementsTooltip": {
+      "message": "Stilski ispravci prijedlozi s za napredno pisanje uz koje će ono što napišete biti jasnije, sažetije i formalnije."
+   },
+   "EditorSettingsLabel": {
+      "message": "Više postavki uređivača Editor"
+   },
+   "EditorSpellingToggleLabel": {
+      "message": "Pravopis"
+   },
+   "EnableEditorOnThisSiteLabel": {
+      "message": "Omogući Editor na stranici $host$",
+      "placeholders": {
+         "host": {
+            "content": "$1",
+            "example": "facebook.com"
+         }
+      }
+   },
+   "MyAccountLabel": {
+      "message": "Prikaz računa"
+   },
+   "PopupGroupAriaLabel": {
+      "message": "Proširenje preglednika Microsoft Editor"
+   },
+   "PostUpsellAnnouncementText": {
+      "message": "Uspješno ste nadogradili na premium verziju programa Microsoft Editor! Istražite prošireni skup značajki klikom na plave i ljubičaste donje crte u svom tekstu."
+   },
+   "PostUpsellAnnouncementTitle": {
+      "message": "Čestitamo"
+   },
+   "SettingsLabel": {
+      "message": "Postavke računa"
+   },
+   "SignInLabel": {
+      "message": "Prijava"
+   },
+   "SignOutLabel": {
+      "message": "Odjava"
+   },
+   "SignOutTooltip": {
+      "message": "Odjavom će se sve postavke vratiti na zadane i izgubit će se popis izuzetih web-mjesta."
+   },
+   "SupportPageLabel": {
+      "message": "Trebate pomoć prilikom pri​jave?"
+   },
+   "TurnOnEditorLabel": {
+      "message": "Uključi Editor"
+   },
+   "ebx_AddLanguageBlockedTooltip": {
+      "message": "Provjeru možete istovremeno uključiti za najviše tri jezika."
+   },
+   "ebx_Cancel": {
+      "message": "Odustani"
+   },
+   "ebx_Done": {
+      "message": "Gotovo"
+   },
+   "ebx_FeedbackSubmitted": {
+      "message": "Povratne informacije uspješno su poslane."
+   },
+   "ebx_MultiLanguageAnnouncementSelectedLanguage": {
+      "message": "Odabrali smo $language$ na temelju vaših trenutačnih postavki preglednika.",
+      "placeholders": {
+         "language": {
+            "content": "$1",
+            "example": "Engleski (Ujedinjeno Kraljevstvo)"
+         }
+      }
+   },
+   "ebx_MultiLanguageAnnouncementText": {
+      "message": "Istovremeno provjerite pravopis i gramatiku za tri jezika."
+   },
+   "ebx_MultiLanguageAnnouncementTextEditSettings": {
+      "message": "Jezike možete uređivati u postavkama uređivača."
+   },
+   "ebx_MultiLanguageAnnouncementThreeSelectedLanguages": {
+      "message": "Odabrali smo $language1$​​​​​, $language2$​​​​​i $language3$ ​​​​​na temelju vaših trenutačnih postavki preglednika.",
+      "placeholders": {
+         "language1": {
+            "content": "$1",
+            "example": "Engleski (Ujedinjeno Kraljevstvo)"
+         },
+         "language2": {
+            "content": "$2",
+            "example": "Engleski (Ujedinjeno Kraljevstvo)"
+         },
+         "language3": {
+            "content": "$3",
+            "example": "Engleski (Ujedinjeno Kraljevstvo)"
+         }
+      }
+   },
+   "ebx_MultiLanguageAnnouncementTitle": {
+      "message": "Višejezična jezična provjera s uređivačem"
+   },
+   "ebx_MultiLanguageAnnouncementTwoSelectedLanguages": {
+      "message": "Odabrali smo $language1$​​​​​, $language2$​​​​​ na temelju vaših trenutačnih postavki preglednika.",
+      "placeholders": {
+         "language1": {
+            "content": "$1",
+            "example": "Engleski (Ujedinjeno Kraljevstvo)"
+         },
+         "language2": {
+            "content": "$2",
+            "example": "Engleski (Ujedinjeno Kraljevstvo)"
+         }
+      }
+   },
+   "ebx_ProofingLanguages": {
+      "message": "Jezici za jezičnu provjeru"
+   },
+   "ebx_RefinementTooltip": {
+      "message": "Pretplatnici na Microsoft 365 dobivaju napredne prijedloge za pisanje kad su prijavljeni."
+   },
+   "ebx_RemoveItem": {
+      "message": "Ukloni"
+   },
+   "ebx_SignInAnnouncementAlternativeText": {
+      "message": "Da biste dobili prijedloge za pisanje na većini web-mjesta, prijavite se u Microsoftov račun ili račun tvrtke ili obrazovne ustanove koji upotrebljavate za Office."
+   },
+   "ebx_SignInAnnouncementSignIn": {
+      "message": "Prijava"
+   },
+   "ebx_SignInAnnouncementText": {
+      "message": "Prijavite se da biste primili prijedloge za pisanje na većini web-mjesta. Spremit ćemo vaše postavke, kao što su jezici na kojima pišete i vrste problema koje želite da Uređivač provjerava."
+   },
+   "ebx_SignInAnnouncementTitle": {
+      "message": "Uređivač još nije pokrenut"
+   },
+   "ebx_SquiggleTooltipAriaText": {
+      "message": "Otvorite klikom lijevom tipkom miša ili pritiskanjem tipki Alt + strelica dolje"
+   },
+   "ebx_SquiggleTooltipAriaTextMac": {
+      "message": "Otvorite klikom lijevom tipkom miša ili pritiskanjem tipki Control + Option + strelica dolje"
+   },
+   "ebx_SquiggleTooltipCombination": {
+      "message": "(Alt + strelica dolje)"
+   },
+   "ebx_SquiggleTooltipCombinationMac": {
+      "message": "(Control + Option + strelica dolje)"
+   },
+   "ebx_SquiggleTooltipGrammarTitle": {
+      "message": "Ispravak gramatike"
+   },
+   "ebx_SquiggleTooltipRefinementTitle": {
+      "message": "Usavršavanje pisanja"
+   },
+   "ebx_SquiggleTooltipSpellingTitle": {
+      "message": "Ispravak pravopisa"
+   },
+   "ebx_SquiggleTooltipText": {
+      "message": "Otvorite klikom lijevom tipkom miša"
+   },
+   "ebx_addAnotherSite": {
+      "message": "Dodaj još jedno web-mjesto"
+   },
+   "ebx_addAnotherSiteAriaLabel": {
+      "message": "Dodavanje još jednog web-mjesta"
+   },
+   "ebx_addAnotherSiteCancel": {
+      "message": "Otkaži dodavanje web-mjesta na popis blokiranih web-mjesta."
+   },
+   "ebx_addAnotherSiteSubmit": {
+      "message": "Dodaj web-mjesto na popis blokiranih web-mjesta"
+   },
+   "ebx_addButton": {
+      "message": "Dodaj"
+   },
+   "ebx_addGrammarChecking": {
+      "message": "Da biste dodali provjeru gramatike"
+   },
+   "ebx_addLanguageCancel": {
+      "message": "Odustani od dodavanja jezika na popis jezika za jezičnu provjeru"
+   },
+   "ebx_addLanguageSubmit": {
+      "message": "Dodaj jezik na popis jezika za jezičnu provjeru"
+   },
+   "ebx_addProofingLanguage": {
+      "message": "Dodaj drugi jezik"
+   },
+   "ebx_addToDictionaryButtonLabel": {
+      "message": "Dodaj u rječnik"
+   },
+   "ebx_appDescription": {
+      "message": "Pišite samopouzdano s programom Microsoft Editor: vaš inteligentni pomoćnik za pisanje."
+   },
+   "ebx_appLongDescription": {
+      "message": "Editor omogućava prijedloge za gramatiku, pravopis i stil na više web-mjesta (1) kako biste mogli samopouzdano pisati jasne i sažete objave i poruke e-pošte. \r\n\r\nNOVO: provjera na više jezika, opcije ignoriranja \r\nProvjerite pravopis i gramatiku za najviše tri jezika istovremeno. Provjera pravopisa sada je dostupna i za tajlandski jezik. Ujedno smo olakšali preskakanje svih pojava ispravki pravopisa odabirom opcije Ignoriraj sve ili preskakanje neželjenih gramatičkih prijedloga odabirom opcije Ignoriraj. \r\n\r\nInteligentna pomoć u pisanju \r\nSavladajte osnove s besplatnom provjerom gramatike, pravopisa i interpunkcijskih znakova. Dohvatite napredne prijedloge gramatike i provjeru stila za pitanja poput jasnoće, sažetosti, formalnosti, vokabulara i ostalog uz premium (zahtijeva pretplatu na Microsoft 365). \r\n\r\nPišite bilo gdje \r\nDohvatite pomoć za pisanje na web-mjestima kao što su LinkedIn, Gmail, Facebook i drugi favoriti uz ovo proširenje preglednika. Ako želite pomoć Editora i izvan weba, otvorite Word i potražite ikonu Editora za prikaz kako vam može pomoći kada pišete dokumente i poruke e-pošte. \r\n\r\nDostupno na više jezika \r\nEditor provjerava pravopis u više od 80 jezika i omogućava gramatičku provjeru i usavršavanje stila pisanja na sljedećim jezicima: (2) \r\n– arapski\r\n– češki\r\n– danski\r\n– nizozemski\r\n– engleski\r\n– finski\r\n– francuski\r\n– njemački\r\n– hebrejski\r\n– mađarski\r\n– talijanski\r\n– japanski\r\n– korejski\r\n– norveški (Bokmål)\r\n– poljski\r\n– portugalski (Brazil)\r\n– portugalski (Portugal)\r\n– ruski\r\n– španjolski\r\n–švedski \r\n– turski \r\n\r\n1. Dostupno za preglednike Microsoft Edge ili Chrome i potreban je Microsoftov račun. Program Editor povezuje se s Microsoftovim mrežnim servisom koji nudi pravopis, gramatiku i prijedloge za poboljšanja dok pišete na većini web-mjesta. \r\n2. Nemaju svi jezici isti skup poboljšanja. \r\n\r\n Instaliranjem aplikacije pristajete na ove uvjete: \r\n\r\nhttps://aka.ms/editorchromeextensionterms\r\n\r\nIzjava o privatnosti: http://aka.ms/privacy"
+   },
+   "ebx_appLongDescriptionEdge": {
+      "message": "Pišite samopouzdano s programom Microsoft Editor, inteligentnim pomoćnikom za pisanje. \r\n\r\nEditor omogućava prijedloge za gramatiku, pravopis i stil na više web-mjesta (1) kako biste mogli samopouzdano pisati jasne i sažete objave i poruke e-pošte. \r\n\r\nNOVO: provjera na više jezika, opcije ignoriranja \r\nProvjerite pravopis i gramatiku za najviše tri jezika istovremeno. Provjera pravopisa sada je dostupna i za tajlandski jezik. Ujedno smo olakšali preskakanje svih pojava ispravki pravopisa odabirom opcije Ignoriraj sve ili preskakanje neželjenih gramatičkih prijedloga odabirom opcije Ignoriraj. \r\n\r\nInteligentna pomoć u pisanju \r\nSavladajte osnove s besplatnom provjerom gramatike, pravopisa i interpunkcijskih znakova. Dohvatite napredne prijedloge gramatike i provjeru stila za pitanja poput jasnoće, sažetosti, formalnosti, vokabulara i ostalog uz premium (zahtijeva pretplatu na Microsoft 365). \r\n\r\nPišite bilo gdje \r\nDohvatite pomoć za pisanje na web-mjestima kao što su LinkedIn, Gmail, Facebook i drugi favoriti uz ovo proširenje preglednika. Ako želite pomoć Editora i izvan weba, otvorite Word i potražite ikonu Editora za prikaz kako vam može pomoći kada pišete dokumente i poruke e-pošte. \r\n\r\nDostupno na više jezika \r\nEditor provjerava pravopis u više od 80 jezika i omogućava gramatičku provjeru i usavršavanje stila pisanja na sljedećim jezicima: (2) \r\n– arapski\r\n– češki\r\n– danski\r\n– nizozemski\r\n– engleski\r\n– finski\r\n– francuski\r\n– njemački\r\n– hebrejski\r\n– mađarski (Bokmål)\r\n– talijanski\r\n– japanski (Brazil)\r\n– korejski\r\n– norveški (Bokmål)\r\n– poljski\r\n– portugalski (Brazil)\r\n– portugalski (Portugal)\r\n– ruski\r\n– španjolski\r\n–švedski \r\n– turski (1)\r\n\r\n1. Dostupno za preglednike Microsoft Edge ili Chrome i potreban je Microsoftov račun. Program Editor povezuje se s Microsoftovim mrežnim servisom koji nudi pravopis, gramatiku i prijedloge za poboljšanja dok pišete na većini web-mjesta. \r\n2. Nemaju svi jezici isti skup poboljšanja. \r\n\r\n Instaliranjem aplikacije pristajete na ove uvjete: \r\n\r\nhttps://aka.ms/editorchromeextensionterms\r\n\r\nIzjava o privatnosti: http://aka.ms/privacy"
+   },
+   "ebx_appName": {
+      "message": "Editor u pregledniku"
+   },
+   "ebx_appShortName": {
+      "message": "Editor"
+   },
+   "ebx_appTermsOfServiceLCA": {
+      "message": "PLEASE NOTE: Refer to your license terms for your Microsoft Account or Microsoft 365 subscription as applicable (the \"extension\") to identify the entity licensing this extension to you and for support information.  The license terms for the Microsoft Account or Microsoft 365 subscription as applicable apply to your use of this extension."
+   },
+   "ebx_ariaReplaceWith": {
+      "message": "Zamijenite s"
+   },
+   "ebx_asInSynonyms": {
+      "message": "slično kao"
+   },
+   "ebx_blockedSiteAdded": {
+      "message": "Stavka \"$url$\" uspješno je dodana",
+      "placeholders": {
+         "url": {
+            "content": "$1",
+            "example": "https://microsoft.com"
+         }
+      }
+   },
+   "ebx_blockedSiteEntryHint": {
+      "message": "Pritisnite tipku Desna strelica za pristup gumbu Ukloni."
+   },
+   "ebx_blockedSiteListEmpty": {
+      "message": "Popis je prazan."
+   },
+   "ebx_blockedSiteRemoved": {
+      "message": "Stavka \"$url$\" uspješno je uklonjena",
+      "placeholders": {
+         "url": {
+            "content": "$1",
+            "example": "https://microsoft.com"
+         }
+      }
+   },
+   "ebx_brandText": {
+      "message": "Microsoft Editor"
+   },
+   "ebx_brandTextArialLabel": {
+      "message": "Logotip uređivača Microsoft Editor"
+   },
+   "ebx_changeAllCommandLabel": {
+      "message": "Promijeni sve"
+   },
+   "ebx_changeSettingsCommandLabel": {
+      "message": "Postavke uređivača Editor..."
+   },
+   "ebx_checkForRefinements": {
+      "message": "Provjeri ima li ispravaka"
+   },
+   "ebx_checkGrammar": {
+      "message": "Provjeri gramatiku"
+   },
+   "ebx_checkSpelling": {
+      "message": "Provjeri pravopis"
+   },
+   "ebx_close": {
+      "message": "Zatvori"
+   },
+   "ebx_comingSoonTooltipTitle": {
+      "message": "Uskoro"
+   },
+   "ebx_deleteRepeatedWord": {
+      "message": "[Izbriši ponovljenu riječ]"
+   },
+   "ebx_disableCritiqueButton": {
+      "message": "Zaustavi ovu provjeru"
+   },
+   "ebx_disableCritiqueButtonAriaLabel": {
+      "message": "Prestanite tražiti ovo. Uređivač će primjenjivati ​​ovu postavku dok je ne promijenite."
+   },
+   "ebx_disableCritiqueTooltip": {
+      "message": "Redaktor će primijeniti tu postavku dok je ne promijenite"
+   },
+   "ebx_displayOptions": {
+      "message": "Mogućnosti prikaza"
+   },
+   "ebx_duplicateBlockedSite": {
+      "message": "Web-mjesto je već na popisu blokiranih web-mjesta"
+   },
+   "ebx_editorEnableAnnouncementText": {
+      "message": "Proširenje za preglednika sustava Microsoft Office sada obuhvaća i Microsoftov Editor – inteligentni pomoćnik za pisanje koji će vam pomoći da zasjate na webu. Microsoft Editor povezuje se s internetskim servisom i nudi vam prijedloge iz pravopisa, gramatike i stila."
+   },
+   "ebx_editorEnableAnnouncementTitle": {
+      "message": "Pokrenut je Microsoft Editor (pretpregled)"
+   },
+   "ebx_editorFeature": {
+      "message": "Microsoft Editor"
+   },
+   "ebx_editorFeatureOffText": {
+      "message": "Isključeno"
+   },
+   "ebx_editorFeatureOfficeBx": {
+      "message": "Isključi Editor"
+   },
+   "ebx_editorFeatureOnText": {
+      "message": "Uključeno"
+   },
+   "ebx_editorFeatureToggleLabel": {
+      "message": "Značajka uređivača Editor"
+   },
+   "ebx_enhancedUpsellCategoriesAnd": {
+      "message": " i "
+   },
+   "ebx_enhancedUpsellCategoriesComma": {
+      "message": ", "
+   },
+   "ebx_enhancedUpsellLinePartA": {
+      "message": "Uređivač ima"
+   },
+   "ebx_enhancedUpsellLinePartBPlural": {
+      "message": "napredne ideje za pisanje ove poruke."
+   },
+   "ebx_enhancedUpsellLinePartBSingular": {
+      "message": "napredna ideja za pisanje ove poruke."
+   },
+   "ebx_excludedSites": {
+      "message": "Isključena web-mjesta"
+   },
+   "ebx_feedbackCommentQuestion": {
+      "message": "Navedite zašto ste odabrali taj odgovor"
+   },
+   "ebx_feedbackLink": {
+      "message": "povratne informacije"
+   },
+   "ebx_feedbackMessage": {
+      "message": "Pridonesite poboljšanju uređivača Editor pružanjem"
+   },
+   "ebx_feedbackRating1": {
+      "message": "Vrlo negativno"
+   },
+   "ebx_feedbackRating2": {
+      "message": "Donekle negativno"
+   },
+   "ebx_feedbackRating3": {
+      "message": "Ni pozitivno ni negativno"
+   },
+   "ebx_feedbackRating4": {
+      "message": "Donekle pozitivno"
+   },
+   "ebx_feedbackRating5": {
+      "message": "Vrlo pozitivno"
+   },
+   "ebx_feedbackRatingQuestion": {
+      "message": "Kako biste sveukupno opisali svoje iskustvo upotrebe alata Microsoft Editor"
+   },
+   "ebx_feedbackSubmitNotice": {
+      "message": "Ako pritisnete Pošalji, vaše će se povratne informacije iskoristiti za poboljšanje Microsoftovih proizvoda i usluga."
+   },
+   "ebx_feedbackTitle": {
+      "message": "Pružite povratne informacije za Microsoft Editor"
+   },
+   "ebx_giveFeedback": {
+      "message": "Pošaljite povratne informacije"
+   },
+   "ebx_goPremiumExplained": {
+      "message": "Preuzmite napredne ideje za pisanje u uređivaču Editor, 1 TB prostora za pohranu na servisu OneDrive i premium značajke u svim aplikacijama okruženja Microsoft 365."
+   },
+   "ebx_goPremiumExplainedMicrosoft365": {
+      "message": "Preuzmite napredne ideje za pisanje u uređivaču Editor, 1 TB prostora za pohranu na servisu OneDrive i premium značajke u svim aplikacijama okruženja Microsoft 365."
+   },
+   "ebx_goPremiumLine": {
+      "message": "Isprobajte napredne ideje za pisanje u uređivaču Editor."
+   },
+   "ebx_goPremiumLinkText": {
+      "message": "Prijeđite na premium"
+   },
+   "ebx_goPremiumLinkTextLowerCase": {
+      "message": "prijeđite na premium"
+   },
+   "ebx_goToSettings": {
+      "message": "Otvorite postavke uređivača"
+   },
+   "ebx_goToSettingsToLearnMore": {
+      "message": "Dodatne informacije potražite u odjeljku Postavke uređivača"
+   },
+   "ebx_grammar": {
+      "message": "Gramatika"
+   },
+   "ebx_hideSynonyms": {
+      "message": "Sakrij sinonime"
+   },
+   "ebx_ignoreAllButtonLabel": {
+      "message": "Zanemari sve"
+   },
+   "ebx_ignoreOnceButtonLabel": {
+      "message": "Zanemari"
+   },
+   "ebx_languageAdded": {
+      "message": "\"$language$\" je uspješno dodan",
+      "placeholders": {
+         "language": {
+            "content": "$1",
+            "example": "Engleski (Velika Britanija)"
+         }
+      }
+   },
+   "ebx_languageMovedToTop": {
+      "message": "\"$language$\" je uspješno prebačen na vrh popisa.",
+      "placeholders": {
+         "language": {
+            "content": "$1",
+            "example": "Engleski (Velika Britanija)"
+         }
+      }
+   },
+   "ebx_languageMovedUp": {
+      "message": "\"$language$\" je uspješno premješten za jedno mjesto gore na popisu",
+      "placeholders": {
+         "language": {
+            "content": "$1",
+            "example": "Engleski (Velika Britanija)"
+         }
+      }
+   },
+   "ebx_languageRemoved": {
+      "message": "\"$language$\" je uspješno uklonjen",
+      "placeholders": {
+         "language": {
+            "content": "$1",
+            "example": "Engleski (Velika Britanija)"
+         }
+      }
+   },
+   "ebx_learnMore": {
+      "message": "Saznajte više"
+   },
+   "ebx_manageLanguagesButton": {
+      "message": "Upravljanje jezicima"
+   },
+   "ebx_moreButtonArialLabel": {
+      "message": "Više naredbi"
+   },
+   "ebx_moveDown": {
+      "message": "Premjesti dolje"
+   },
+   "ebx_moveToTop": {
+      "message": "Premjesti na vrh"
+   },
+   "ebx_moveUp": {
+      "message": "Premjesti gore"
+   },
+   "ebx_optionsPageTitle": {
+      "message": "Postavke uređivača Editor"
+   },
+   "ebx_premiumPreviewGeneralLine": {
+      "message": "Dohvatite napredne ideje za pisanje u Redaktoru."
+   },
+   "ebx_premiumPreviewLineDaysPlural": {
+      "message": "preostalo je dana u ovom pregledu. Nadogradite za neograničene prijedloge:"
+   },
+   "ebx_premiumPreviewLineDaysSingular": {
+      "message": "preostao dan u ovom pregledu. Nadogradite za neograničene prijedloge:"
+   },
+   "ebx_premiumPreviewLineSuggestionsPlural": {
+      "message": "prijedlozi preostali u ovom pregledu. Nadogradite za neograničene prijedloge:"
+   },
+   "ebx_premiumPreviewLineSuggestionsSingular": {
+      "message": "prijedlog preostao u ovom pregledu. Nadogradite za neograničene prijedloge:"
+   },
+   "ebx_preview": {
+      "message": "(pretpregled)"
+   },
+   "ebx_previewLabel": {
+      "message": "PRETPREGLED"
+   },
+   "ebx_privacyOptionSendData": {
+      "message": "Automatsko slanje neobaveznih dijagonostičkih podataka prilikom korištenja mrežnih servisa, kako bi nam pomogli poboljšati proizvode."
+   },
+   "ebx_privacyOptionSendDataLink": {
+      "message": "Saznajte više o dijagnostičkim podacima"
+   },
+   "ebx_privacyOptions": {
+      "message": "Mogućnosti privatnosti"
+   },
+   "ebx_proofingLanguage": {
+      "message": "Jezik za jezičnu provjeru"
+   },
+   "ebx_proofingLanguageEntryHint": {
+      "message": "Pritisnite tipku sa strelicama desno da biste pristupili gumbu Više naredbi."
+   },
+   "ebx_proofingLanguagePlaceHolder": {
+      "message": "Odaberite jezik za jezičnu provjeru"
+   },
+   "ebx_proofingLanguages": {
+      "message": "Jezici za jezičnu provjeru"
+   },
+   "ebx_proofingLanguagesDescription": {
+      "message": "Odaberite do tri jezika. Željeni jezik bit će na vrhu."
+   },
+   "ebx_rateExtensionPrompt": {
+      "message": "Je li vam Editor koristan?"
+   },
+   "ebx_rateExtensionPromptGiveFeedback": {
+      "message": "Pošaljite povratne informacije"
+   },
+   "ebx_rateExtensionPromptNegative": {
+      "message": "Žao nam je što to čujemo. Molimo vas da nam javite kako možemo poboljšati Editor."
+   },
+   "ebx_rateExtensionPromptNo": {
+      "message": "Ne"
+   },
+   "ebx_rateExtensionPromptNoThanks": {
+      "message": "Ne, hvala"
+   },
+   "ebx_rateExtensionPromptPositive": {
+      "message": "Odlično, želite li ga ocijeniti?"
+   },
+   "ebx_rateExtensionPromptPositiveAlt": {
+      "message": "Ako još uvijek uživate koristeći Editor, želite li ga ocijeniti?"
+   },
+   "ebx_rateExtensionPromptSure": {
+      "message": "Može"
+   },
+   "ebx_rateExtensionPromptYes": {
+      "message": "Da"
+   },
+   "ebx_rateExtensionTitle": {
+      "message": "Povratne informacije o programu Microsoft Editor"
+   },
+   "ebx_refinements": {
+      "message": "Refinements"
+   },
+   "ebx_settings": {
+      "message": "Postavke"
+   },
+   "ebx_settingsPageAriaLabel": {
+      "message": "Postavke uređivača Microsoft Editor"
+   },
+   "ebx_settingsPerLanguage": {
+      "message": "Postavke po jeziku"
+   },
+   "ebx_showSynonyms": {
+      "message": "Pokaži sinonime"
+   },
+   "ebx_showSynonymsToggleCaption": {
+      "message": "Pokaži sinonime za pravopisne prijedloge"
+   },
+   "ebx_signIntoEditor": {
+      "message": "prijavite se u Redaktor"
+   },
+   "ebx_signIntoEditorBody": {
+      "message": "Da biste dohvatili preporuke za gramatiku i sužavanje rezultata na većini web-stranica, prijavite se."
+   },
+   "ebx_signIntoEditorTile": {
+      "message": "Prijavite se u Uređivač"
+   },
+   "ebx_spelling": {
+      "message": "Spelling"
+   },
+   "ebx_suggestionMoreActionsArialLabel": {
+      "message": "Više radnji"
+   },
+   "ebx_synonymsNotAvailable": {
+      "message": "[Sinonimi nisu dostupni]"
+   },
+   "ebx_toggleOff": {
+      "message": "Isključeno"
+   },
+   "ebx_toggleOn": {
+      "message": "Uključeno"
+   },
+   "ebx_toneLabel": {
+      "message": "Ton"
+   },
+   "ebx_tryPremiumPreviewLink": {
+      "message": "Isprobajte odmah"
+   },
+   "ebx_turnOffEditor": {
+      "message": "Isključi Editor"
+   },
+   "ebx_turnOffEditorExplained": {
+      "message": "Editor se povezuje s Microsoftovim internetskim servisom koji nudi pravopisne, gramatičke i stilske prijedloge za pisanje na većini web-mjesta."
+   },
+   "ebx_userBlockedSites": {
+      "message": "Blokirana web-mjesta"
+   },
+   "ebx_userExcludedUrlErrorCaption": {
+      "message": "Url nije valjan. Navedite url u sljedećem obliku: https://example.com"
+   },
+   "ebx_userExcludedUrlsErrorCaption": {
+      "message": "URL \"$url$\" koji nije valjan u retku $line$.",
+      "placeholders": {
+         "line": {
+            "content": "$2",
+            "example": "123"
+         },
+         "url": {
+            "content": "$1",
+            "example": "https://microsoft.com"
+         }
+      }
+   },
+   "ebx_userExcludedUrlsTextBoxCaption": {
+      "message": "Isključili ste Editor na web-mjestima navedenima u nastavku. Editor može biti automatski onemogućen na dodatnim web-mjestima s povjerljivim sadržajem ili sporim učitavanjem."
+   },
+   "sbx_signInDescription": {
+      "message": "Kako bi dohvatili preporuke za pravopis, gramatiku i sužavanje rezultata na većini web stranica, molimo da se prijavite."
+   }
+}

@@ -1,3 +1,6 @@
-2021/05/08-13:32:53.671 4 Reusing MANIFEST /home/jeff/.config/microsoft-edge-beta/Default/Session Storage/MANIFEST-000001
-2021/05/08-13:32:53.673 4 Recovering log #33
-2021/05/08-13:32:53.674 4 Reusing old log /home/jeff/.config/microsoft-edge-beta/Default/Session Storage/000033.log 
+2021/05/09-21:29:54.108 5 Reusing MANIFEST /home/jeff/.config/microsoft-edge-beta/Default/Session Storage/MANIFEST-000001
+2021/05/09-21:29:54.109 5 Recovering log #70
+2021/05/09-21:29:54.110 5 Reusing old log /home/jeff/.config/microsoft-edge-beta/Default/Session Storage/000070.log 
+2021/05/09-21:32:04.732 3 Level-0 table #74: started
+2021/05/09-21:32:04.749 3 Level-0 table #74: 174088 bytes OK
+2021/05/09-21:32:04.753 3 Delete type=0 #70

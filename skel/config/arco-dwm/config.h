@@ -33,10 +33,10 @@ static const unsigned int alphas[][3]      = {
 };
 
 /* tagging */
-/* static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" }; */
+static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
 /* static const char *tags[] = { "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX" }; */
 /* static const char *tags[] = { "", "", "", "", "", "", "", "", "" }; */
-static const char *tags[] = { "1:term", "2:edit", "3:ofc", "4:grfx", "5:web", "6:misc", "7:file", "8:util", "9:media" }; 
+/* static const char *tags[] = { "Web", "Chat", "Edit", "Meld", "Vb", "Mail", "Video", "Image", "Files" }; */
 
 
 static const Rule rules[] = {
@@ -46,20 +46,9 @@ static const Rule rules[] = {
 	 *  use tags mask to point an application to a specific workspace
 	 */
 	/* class                       instance    title      tags mask      isfloating   monitor */
-	{ "Alacritty",		            NULL,       NULL,       1,            0,           -1 },
-	{ "code-oss",	                NULL,       NULL,       1 << 1,       0,            0 },
-	{ "Meld",		                NULL,       NULL,       1 << 1,       0,            0 },
-	{ "Typora",		                NULL,       NULL,       1 << 2,       0,            0 },
-	{ "libreoffice-writer",         NULL,       NULL,       1 << 2,       0,            0 },
-	{ "Gnucash",	                NULL,       NULL,       1 << 2,       0,            0 },
-	{ "Gimp", 		                NULL,       NULL,       1 << 3,       0,            0 },
-	{ "Inkscape",	                NULL,       NULL,       1 << 3,       0,            0 },
-	{ "Microsoft-edge-beta",	    NULL,       NULL,       1 << 4,       0,           -1 },
-	{ "firefoxdeveloperedition",    NULL,       NULL,       1 << 4,       0,            0 },
-	{ "google-chrome-stable",	    NULL,       NULL,       1 << 4,       0,            1 },
-	{ "Thunar",			            NULL,       NULL,       1 << 6,       0,            1 },
-	{ "KeePassXC",		            NULL,       NULL,       1 << 7,       0,            0 },
-	{ "Spotify",		            NULL,       NULL,       1 << 8,       0,           -1 },
+	{ "Gimp",                      NULL,       NULL,       0,            0,           -1 },
+	{ "Xfce4-terminal",            NULL,       NULL,       0,            1,           -1 },
+	{ "firefox",                   NULL,       NULL,       0,            0,           -1 },
 	{ "Arcolinux-welcome-app.py",  NULL,       NULL,       0,            1,           -1 },
 	{ "Arcolinux-calamares-tool.py",  NULL,       NULL,       0,            1,           -1 },	
 };
@@ -93,9 +82,8 @@ static const Layout layouts[] = {
 
 /* commands */
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
-static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, "-sb", col_cyan, "-sf", col_gray4, topbar ? NULL : "-b", NULL };
+static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, "-sb", col_cyan, "-sf", col_gray4, NULL };
 static const char *filecmd[]  = { "thunar", NULL };
-static const char *termcmd[]  = { "rofi-sensible-terminal", NULL };
 static const char *calendar[]  = { "gsimplecal", NULL };
 static const char *taskmanager[]  = { "xfce4-taskmanager", NULL };
 
@@ -106,11 +94,12 @@ static const char *taskmanager[]  = { "xfce4-taskmanager", NULL };
 static Key keys[] = {
 	/* modifier                     key        function        argument */
 	{ MODKEY,                       XK_p,      spawn,          {.v = dmenucmd } },
-	{ MODKEY,             		XK_Return, spawn,          {.v = termcmd } },
 	{ MODKEY|ShiftMask,             XK_Return, spawn,          {.v = filecmd } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
+	{ MODKEY,                       XK_Right,  focusstack,     {.i = +1 } },
+	{ MODKEY,                       XK_Left,   focusstack,     {.i = -1 } },
 	{ MODKEY,                       XK_i,      incnmaster,     {.i = +1 } },
 	{ MODKEY,                       XK_d,      incnmaster,     {.i = -1 } },
 	{ MODKEY,                       XK_h,      setmfact,       {.f = -0.05} },
@@ -136,15 +125,11 @@ static Key keys[] = {
 	{ MODKEY,                       XK_period, focusmon,       {.i = +1 } },
 	{ MODKEY|ShiftMask,             XK_comma,  tagmon,         {.i = -1 } },
 	{ MODKEY|ShiftMask,             XK_period, tagmon,         {.i = +1 } },
-	{ MODKEY,                       XK_Left,   focusmon,	   {.i = -1 } },
-	{ MODKEY,                       XK_Right,  focusmon,       {.i = +1 } },
-	{ MODKEY|ShiftMask,             XK_Left,   tagmon,         {.i = -1 } },
-	{ MODKEY|ShiftMask,             XK_Right,  tagmon,         {.i = +1 } },
 	{ MODKEY|ShiftMask,             XK_r,      self_restart,   {0} },
 	{ Mod1Mask|ControlMask,         XK_Right,  shiftview,      {.i =  1 } },
 	{ Mod1Mask|ControlMask,         XK_Left,   shiftview,      {.i = -1 } },
-	{ Mod1Mask|ControlMask,         XK_Up,     focusmon,       {.i = -1 } },
-	{ Mod1Mask|ControlMask,         XK_Down,   focusmon,       {.i = +1 } },	
+	{ Mod1Mask|ControlMask,         XK_Up,     shiftview,      {.i =  1 } },
+	{ Mod1Mask|ControlMask,         XK_Down,   shiftview,      {.i = -1 } },	
 	{ Mod1Mask,						XK_Tab,    shiftview,      {.i =  1 } },
 	{ Mod1Mask|ShiftMask,	        XK_Tab,	   shiftview,	   {.i = -1 } },
 	{ MODKEY,		        		XK_Tab,    shiftview,	   {.i =  1 } },
@@ -162,6 +147,29 @@ static Key keys[] = {
 	TAGKEYS(                        XK_9,                      8)
 };
 
+/* IF YOU HAVE A AZERTY KEYBOARD USE THESE CODES
+	TAGKEYS(                        XK_ampersand,              0)
+	TAGKEYS(                        XK_eacute,                 1)
+	TAGKEYS(                        XK_quotedbl,               2)
+	TAGKEYS(                        XK_apostrophe,             3)
+	TAGKEYS(                        XK_parenleft,              4)
+	TAGKEYS(                        XK_section,                5)
+	TAGKEYS(                        XK_egrave,                 6)
+	TAGKEYS(                        XK_exclam,                 7)
+	TAGKEYS(                        XK_ccedilla,               8)
+*/
+
+/* THESE ARE THE ORIGINAL QWERTY KEYBOARD CODES
+	TAGKEYS(                        XK_1,                      0)
+	TAGKEYS(                        XK_2,                      1)
+	TAGKEYS(                        XK_3,                      2)
+	TAGKEYS(                        XK_4,                      3)
+	TAGKEYS(                        XK_5,                      4)
+	TAGKEYS(                        XK_6,                      5)
+	TAGKEYS(                        XK_7,                      6)
+	TAGKEYS(                        XK_8,                      7)
+	TAGKEYS(                        XK_9,                      8)
+*/
 
 /* button definitions */
 /* click can be ClkTagBar, ClkLtSymbol, ClkStatusText, ClkWinTitle, ClkClientWin, or ClkRootWin */

@@ -1,0 +1,24 @@
+2021/05/09-15:10:39.406 3 Reusing MANIFEST /home/jeff/.config/microsoft-edge-beta/Default/Local Storage/leveldb/MANIFEST-000001
+2021/05/09-15:10:39.408 3 Recovering log #33
+2021/05/09-15:10:39.409 3 Reusing old log /home/jeff/.config/microsoft-edge-beta/Default/Local Storage/leveldb/000033.log 
+2021/05/09-15:14:31.497 5 Level-0 table #37: started
+2021/05/09-15:14:31.512 5 Level-0 table #37: 82487 bytes OK
+2021/05/09-15:14:31.516 5 Delete type=0 #33
+2021/05/09-15:36:57.514 14 Level-0 table #39: started
+2021/05/09-15:36:57.530 14 Level-0 table #39: 97108 bytes OK
+2021/05/09-15:36:57.533 14 Delete type=0 #36
+2021/05/09-15:36:57.534 14 Compacting 4@0 + 1@1 files
+2021/05/09-15:36:57.558 14 Generated table #40@0: 680 keys, 1080841 bytes
+2021/05/09-15:36:57.558 14 Compacted 4@0 + 1@1 files => 1080841 bytes
+2021/05/09-15:36:57.561 14 compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/05/09-15:36:57.562 14 Delete type=2 #34
+2021/05/09-15:36:57.563 14 Delete type=2 #37
+2021/05/09-15:36:57.563 14 Delete type=2 #29
+2021/05/09-15:36:57.563 14 Delete type=2 #39
+2021/05/09-15:36:57.563 14 Delete type=2 #32
+2021/05/09-15:37:03.012 f Level-0 table #42: started
+2021/05/09-15:37:03.028 f Level-0 table #42: 94162 bytes OK
+2021/05/09-15:37:03.033 f Delete type=0 #38
+2021/05/09-15:39:14.168 f Level-0 table #44: started
+2021/05/09-15:39:14.185 f Level-0 table #44: 95476 bytes OK
+2021/05/09-15:39:14.189 f Delete type=0 #41

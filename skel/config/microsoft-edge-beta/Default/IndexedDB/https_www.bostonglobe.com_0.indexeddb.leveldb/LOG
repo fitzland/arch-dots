@@ -1,0 +1,6 @@
+2021/05/09-19:07:25.000 17fd0 Creating DB /home/jeff/.config/microsoft-edge-beta/Default/IndexedDB/https_www.bostonglobe.com_0.indexeddb.leveldb since it was missing.
+2021/05/09-19:07:25.017 17fd0 Reusing MANIFEST /home/jeff/.config/microsoft-edge-beta/Default/IndexedDB/https_www.bostonglobe.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/05/09-19:07:57.523 12c7b Level-0 table #5: started
+2021/05/09-19:07:57.525 12c7b Level-0 table #5: 3366 bytes OK
+2021/05/09-19:07:57.528 12c7b Delete type=0 #3
+2021/05/09-19:07:57.529 12c7b Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,114 +1,3 @@
-htop
-cleanup
-cd ~/.config/arco-dwm/
-nano list-of-patches.readme 
-ls
-nano config.h
-sudo make clean install
-exit
-sudo pacman -S neofetch
-exit
-neofetch
-exit
-eb
-update-fc
-eba
-exit
-ls -la
-exit
-htop
-exit
-htop
-exit
-ls -la
-htop
-htop
-paru dwm
-man paru
-info paru
-sudo pacman -S paru
-yay paru
-yay code
-yay dwm
-yay suckless
-cd 
-cd ~/.config/
-mkdir paru
-cd paru/
-cd /etc/
-ls
-cp paru.conf ~/.config/paru/
-cd
-cd .config/paru/
-nano paru.conf 
-yay fred
-yay ttf
-exit
-cd ~/.config/arco-dwm/
-ls
-sudo make clean install
-exit
-xprop
-cd ~/.config/arco-dwm/
-sudo make clean install
-exit
-upall
-exit
-cd ~/.config/arco
-cd ~/.config/arco-dwm/
-sudo make clean install
-exit
-yay hyphen-en
-yay mythes-en
-exit
-killall spotify
-rm -rf \$HOME/.cache/spotify/Storage
-exit
-yay tumbler
-yay ffmpegthumbnailer poppler-glib libgsf
-sudo pacman -S ffmpegthumbnailer poppler-glib
-exit
-killall spotify
-rm -rf \$HOME/.cache/spotify/Storage
-yay tumbler
-yay ffmpegthumbnailer poppler-glib libgsf
-sudo pacman -S ffmpegthumbnailer poppler-glib
-upall
-dots
-nano 005-create-user.sh 
-git config --global user.email "f1tzl4nd@gmail.com"
-git config --global user.name "fitzland"
-./git-v1.sh 
-git pull
-ls
-./010-backup-skel.sh 
-exit
-./010-backup-skel.sh 
-ssh-keygen -t ed25519 -C "f1tl4nd@gmail.com"
-ls -al ~/.ssh/
-eval "$(ssh-agent -s)"
-ssh-add ~/.ssh/id_ed25519
-code /home/jeff/.ssh/id_ed25519.pub 
-dots
-git pull
-./git-v1.sh 
-exit
-upall
-cleanup
-exit
-killall spotify
-rm -rf \$HOME/.cache/spotify/Storage
-yay tumbler
-yay ffmpegthumbnailer poppler-glib libgsf
-sudo pacman -S ffmpegthumbnailer poppler-glib
-killall spotify
-rm -rf \$HOME/.cache/spotify/Storage
-yay tumbler
-yay ffmpegthumbnailer poppler-glib libgsf
-sudo pacman -S ffmpegthumbnailer poppler-glib
-upall
-nano 005-create-user.sh 
-git config --global user.email "f1tzl4nd@gmail.com"
 git config --global user.name "fitzland"
 ./010-backup-skel.sh 
 ./010-backup-skel.sh 
@@ -497,4 +386,115 @@ sudo make clean install
 exit
 cd .config/arco-dwm/
 sudo make clean install
+exit
+cd .config/arco-dwm/
+sudo make clean install
+dots
+nano 010-backup-skel.sh 
+./010-backup-skel.sh 
+ls
+./git
+./git-v1.sh 
+exit
+dots
+nano 010-backup-skel.sh 
+./010-backup-skel.sh 
+./git
+./git-v1.sh 
+sudo pacman -S reflector
+mirror
+upall
+cleanup
+cd .bin/
+cd stay-rolling/
+cd 2021/
+cd 21.03-21.05/
+ls
+./stay-rolling-v1.sh 
+cd
+exr
+exit
+exr
+exit
+merge
+exit
+exr
+merge
+exit
+exr
+exit
+exr
+merge
+exit
+exr
+merge
+exit
+exr
+merge
+exit
+upall
+exit
+cd .config/arco-dwm/
+ls
+sudo make clean install
+exit
+sudo make clean install
+cd .config/
+git clone https://git.suckless.org/dwm
+cp -r dwm dwm-fl
+ls
+upall
+exit
+cd .config/arco-dwm/
+ls
+sudo make install
+exit
+cd .config/dwm
+ls
+sudo make clean install
+exit
+upall
+cleanup
+exit
+xprop
+exit
+${env:MONITOR}
+exit
+xrandr --query | grep " connected" | cut -d" " -f1
+exit
+xprop
+exit
+xprop
+exit
+ip link
+xprop
+exit
+htop
+exit
+htop
+cd .config/arco-dwm/
+sudo make clean install
+exit
+upall
+cleanup
+sudo pacman -Rns qpdf
+exit
+upall
+cleanup
+exit
+dots
+ls
+./010-backup-skel.sh 
+exit
+sudo pacman -S polybar
+exit
+upall
+skel
+exit
+chface
+ls
+exit
+htop
+exit
+sudo pacman -S arandr
 exit

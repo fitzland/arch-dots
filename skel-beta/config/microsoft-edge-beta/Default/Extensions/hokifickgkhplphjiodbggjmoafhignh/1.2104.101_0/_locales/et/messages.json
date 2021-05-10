@@ -1,0 +1,690 @@
+{
+   "AccountLabel": {
+      "message": "Konto"
+   },
+   "AppDescription": {
+      "message": "Microsofti korrektor on teie isiklik iseõppiv grammatika-, õigekirja- ja stiilikontrolli abiline."
+   },
+   "AppLongDescription": {
+      "message": "Microsofti korrektor (1) on teie tasuta kirjutusabiline, mis aitab teil paremaid kirjatöid koostada igal veebisaidil. Korrektor peab teiega veebisaitidel sammu, et ka siis, kui koostate veebis postitusi, oleks teie kirjatöö alati selge, sisukas ja keeleliselt korrektne. Brauserilaiend hõlmab järgmisi funktsioone. \r\n\r\nIseõppiv kirjutusabi – uskumatult hea õigekirja- ja grammatikakontroll ning kirjavahemärkide õige kasutamise tagamine on tasuta. Lisatasu eest saate veel mitmesuguseid funktsioone, näiteks täpsemat tagasisidet grammatika ja stiili kohta, mis võtab arvesse selgust, konkreetsust, koostatava teksti formaalsustaset, sõnavara ja palju muud (2). \r\n\r\nIgal pool, kus kirjutate – selle brauserilaiendi kasutamisel saate muude populaarsete saitide hulgas tagasisidet näiteks LinkedInis ja Facebookis. Kui soovite korrektorit kasutada ka mujal peale veebi, avage Word ja otsige üles korrektori ikoon: korrektor on abiks ka dokumentides, meilisõnumites ja mujal. \r\n\r\nSaadaval mitmes keeles – elementaarset tagasisidet saate enam kui 20 keeles (õigekirjakontroll on olemas üle 80 keele jaoks), et oma mõtteid selgelt edasi anda olenemata sellest, millises keeles need kirja panete. \r\n\r\nSaadaval järgmistes keeltes (3):\r\n– araabia\r\n– tšehhi\r\n– taani\r\n– hollandi\r\n– inglise\r\n– soome\r\n– prantsuse\r\n– saksa\r\n– heebrea (Wordi töölauarakenduses pole see veel saadaval)\r\n– ungari\r\n– itaalia\r\n– jaapani\r\n– korea\r\n– norra (bokmål)\r\n– poola\r\n– portugali (Brasiilia)\r\n– portugali (Portugal)\r\n– vene\r\n– hispaania\r\n– rootsi\r\n– türgi\r\n\r\n(1) Saadaval Microsoft Edge’i või Chrome’i brauseri jaoks, vaja on Microsofti kontot. Korrektor loob ühenduse Microsofti võrguteenusega, et pakkuda enamikul veebisaitidel teie kirjutatud tekstide jaoks õigekirja-, grammatika- ja stiilisoovitusi. \r\n (2) Korrektori tasuliste funktsioonide kasutamiseks on vaja Microsoft 365 tellimust. \r\n (3) Korrektor pakub stiilinõuandeid järgmistes keeltes; kõigis keeltes pole samad viimistlussoovitused saadaval. \r\n\r\nRakenduse installimisega nõustute nende tingimustega: \r\n\r\nhttps://aka.ms/editorchromeextensionterms\r\n\r\nPrivaatsuspoliitika: http://aka.ms/privacy"
+   },
+   "AppLongDescriptionEdge": {
+      "message": "Microsofti korrektor on teie iseõppiv kirjutusabiline, mis oskab kontrollida grammatikat, õigekirja ja stiili. \r\n\r\nMicrosofti korrektor (1) on teie tasuta kirjutusabiline, mis aitab teil paremaid kirjatöid koostada igal veebisaidil. Korrektor peab teiega veebisaitidel sammu, et ka siis, kui koostate veebis postitusi, oleks teie kirjatöö alati selge, sisukas ja keeleliselt korrektne. Brauserilaiend hõlmab järgmisi funktsioone. \r\n\r\nIseõppiv kirjutusabi – uskumatult hea õigekirja- ja grammatikakontroll ning kirjavahemärkide õige kasutamise tagamine on tasuta. Lisatasu eest saate veel mitmesuguseid funktsioone, näiteks täpsemat tagasisidet grammatika ja stiili kohta, mis võtab arvesse selgust, konkreetsust, koostatava teksti formaalsustaset, sõnavara ja palju muud (2). \r\n\r\nIgal pool, kus kirjutate – selle brauserilaiendi kasutamisel saate muude populaarsete saitide hulgas tagasisidet näiteks LinkedInis ja Facebookis. Kui soovite korrektorit kasutada ka mujal peale veebi, avage Word ja otsige üles korrektori ikoon: korrektor on abiks ka dokumentides, meilisõnumites ja mujal. \r\n\r\nSaadaval mitmes keeles – elementaarset tagasisidet saate enam kui 20 keeles (õigekirjakontroll on olemas üle 80 keele jaoks), et oma mõtteid selgelt edasi anda olenemata sellest, millises keeles need kirja panete. \r\n\r\nSaadaval järgmistes keeltes (3):\r\n– araabia\r\n– tšehhi\r\n– taani\r\n– hollandi\r\n– inglise\r\n– soome\r\n– prantsuse\r\n– saksa\r\n– heebrea (Wordi töölauarakenduses pole see veel saadaval)\r\n– ungari\r\n– itaalia\r\n– jaapani\r\n– korea\r\n– norra (bokmål)\r\n– poola\r\n– portugali (Brasiilia)\r\n– portugali (Portugal)\r\n– vene\r\n– hispaania\r\n– rootsi\r\n– türgi\r\n\r\n(1) Saadaval Microsoft Edge’i või Chrome’i brauseri jaoks, vaja on Microsofti kontot. Korrektor loob ühenduse Microsofti võrguteenusega, et pakkuda enamikul veebisaitidel teie kirjutatud tekstide jaoks õigekirja-, grammatika- ja stiilisoovitusi. \r\n (2) Korrektori tasuliste funktsioonide kasutamiseks on vaja Microsoft 365 tellimust. \r\n (3) Korrektor pakub stiilinõuandeid järgmistes keeltes; kõigis keeltes pole samad viimistlussoovitused saadaval. \r\n\r\nRakenduse installimisega nõustute nende tingimustega: \r\n\r\nhttps://aka.ms/editorchromeextensionterms\r\n\r\nPrivaatsuspoliitika: http://aka.ms/privacy"
+   },
+   "AppName": {
+      "message": "Microsofti korrektor: õigekirja- ja grammatikakontroll"
+   },
+   "AppShortName": {
+      "message": "Editor"
+   },
+   "AppTermsOfServiceLCA": {
+      "message": "PLEASE NOTE: Refer to your license terms for your Microsoft Account or Microsoft 365 subscription as applicable (the \"extension\") to identify the entity licensing this extension to you and for support information.  The license terms for the Microsoft Account or Microsoft 365 subscription as applicable apply to your use of this extension."
+   },
+   "ConflictDetectedAnnouncementText": {
+      "message": "Kui korraga töötavad nii Editor kui ka muud redigeerimislaiendused, võivad nende soovitused kattuda või omavahel vastuollu minna. Editori kasutamiseks soovitame muud redigeerimislaiendused brauserilaiendite sätete kaudu välja lülitada."
+   },
+   "ConflictDetectedAnnouncementTitle": {
+      "message": "Tuvastati redigeerimislaiendite konflikt"
+   },
+   "DisableEditorOnThisSiteLabel": {
+      "message": "Keela Editor saidil $host$",
+      "placeholders": {
+         "host": {
+            "content": "$1",
+            "example": "facebook.com"
+         }
+      }
+   },
+   "EditorBrandText": {
+      "message": "Microsoft Editor"
+   },
+   "EditorGrammarToggleLabel": {
+      "message": "Grammatika"
+   },
+   "EditorIsBlockedOnThisSiteLabel": {
+      "message": "Editor ei toeta praegu saiti $host$",
+      "placeholders": {
+         "host": {
+            "content": "$1",
+            "example": "facebook.com"
+         }
+      }
+   },
+   "EditorIsDisabledOnThisSiteLabel": {
+      "message": "Editor on praegu saidil $host$ keelatud",
+      "placeholders": {
+         "host": {
+            "content": "$1",
+            "example": "facebook.com"
+         }
+      }
+   },
+   "EditorIsOffLabel": {
+      "message": "Editor on välja lülitatud."
+   },
+   "EditorNativeSupportOnThisSiteLabel": {
+      "message": "Veebisait $host$ sisaldab Editorit",
+      "placeholders": {
+         "host": {
+            "content": "$1",
+            "example": "outlook.com"
+         }
+      }
+   },
+   "EditorProofingLanguageAriaLabel": {
+      "message": "Õigekeelsuskeel: $languageId$",
+      "placeholders": {
+         "languageId": {
+            "content": "$1",
+            "example": "et"
+         }
+      }
+   },
+   "EditorProofingLanguageLabel": {
+      "message": "Õigekeelsuskontrolli keel"
+   },
+   "EditorProofingLanguagesLabel": {
+      "message": "Õigekeelsuskontrolli keeled"
+   },
+   "EditorRefinementsGoPremiumTooltip": {
+      "message": "Kui võtate kasutusele tasulise versiooni, saate täpsemaid kirjutamissoovitusi ja 1 TB salvestusruumi."
+   },
+   "EditorRefinementsToggleLabel": {
+      "message": "Viimistlussoovitused"
+   },
+   "EditorRefinementsTooltip": {
+      "message": "Viimistlussoovitused on täpsemad kirjutussoovitused, mis aitavad teie kirjutise muuta selgemaks, konkreetsemaks või ladusamaks."
+   },
+   "EditorSettingsLabel": {
+      "message": "Veel Editori sätteid"
+   },
+   "EditorSpellingToggleLabel": {
+      "message": "Õigekiri"
+   },
+   "EnableEditorOnThisSiteLabel": {
+      "message": "Luba Editor saidil $host$",
+      "placeholders": {
+         "host": {
+            "content": "$1",
+            "example": "facebook.com"
+         }
+      }
+   },
+   "MyAccountLabel": {
+      "message": "Kuva konto"
+   },
+   "PopupGroupAriaLabel": {
+      "message": "Microsoft Editori brauserilaiendus"
+   },
+   "PostUpsellAnnouncementText": {
+      "message": "Olete võtnud kasutusele Microsofti korrektori tasulise versiooni. Tutvuge oma laiendatud funktsioonikomplektiga, klõpsates oma kirjutises siniseid ja lillasid allakriipsutusi."
+   },
+   "PostUpsellAnnouncementTitle": {
+      "message": "Palju õnne!"
+   },
+   "SettingsLabel": {
+      "message": "Konto sätted"
+   },
+   "SignInLabel": {
+      "message": "Logi sisse"
+   },
+   "SignOutLabel": {
+      "message": "Logi välja"
+   },
+   "SignOutTooltip": {
+      "message": "Väljalogimise korral taastatakse kõik vaikesätted ja välistatud saitide loend läheb kaotsi."
+   },
+   "SupportPageLabel": {
+      "message": "Kas vajate s​isselogimisabi?"
+   },
+   "TurnOnEditorLabel": {
+      "message": "Lülita Editor sisse"
+   },
+   "ebx_AddLanguageBlockedTooltip": {
+      "message": "Õigekeelsuskontrolli saate sisse lülitada ainult kuni kolme keele jaoks korraga."
+   },
+   "ebx_Cancel": {
+      "message": "Loobu"
+   },
+   "ebx_Done": {
+      "message": "Valmis"
+   },
+   "ebx_FeedbackSubmitted": {
+      "message": "Tagasiside on esitatud."
+   },
+   "ebx_MultiLanguageAnnouncementSelectedLanguage": {
+      "message": "Teie praeguste brauserisätete põhjal valisime $language$ keele.",
+      "placeholders": {
+         "language": {
+            "content": "$1",
+            "example": "inglise (Ühendkuningriik)"
+         }
+      }
+   },
+   "ebx_MultiLanguageAnnouncementText": {
+      "message": "Saate samal ajal kontrollida kolme keele õigekirja ja grammatikat."
+   },
+   "ebx_MultiLanguageAnnouncementTextEditSettings": {
+      "message": "Oma keeli saate redigeerida korrektori sätetes."
+   },
+   "ebx_MultiLanguageAnnouncementThreeSelectedLanguages": {
+      "message": "Teie praeguste brauserisätete põhjal valisime $language1$​​​​​, $language2$​​​​​ ja $language3$​​​​​ keele.",
+      "placeholders": {
+         "language1": {
+            "content": "$1",
+            "example": "inglise (Ühendkuningriik)"
+         },
+         "language2": {
+            "content": "$2",
+            "example": "inglise (Ühendkuningriik)"
+         },
+         "language3": {
+            "content": "$3",
+            "example": "inglise (Ühendkuningriik)"
+         }
+      }
+   },
+   "ebx_MultiLanguageAnnouncementTitle": {
+      "message": "Mitmekeelne toimetamine Korrektoriga"
+   },
+   "ebx_MultiLanguageAnnouncementTwoSelectedLanguages": {
+      "message": "Teie praeguste brauserisätete põhjal valisime $language1$​​​​​ ja $language2$​​​​​ keele.",
+      "placeholders": {
+         "language1": {
+            "content": "$1",
+            "example": "inglise (Ühendkuningriik)"
+         },
+         "language2": {
+            "content": "$2",
+            "example": "inglise (Ühendkuningriik)"
+         }
+      }
+   },
+   "ebx_ProofingLanguages": {
+      "message": "Õigekeelsuskontrolli keeled"
+   },
+   "ebx_RefinementTooltip": {
+      "message": "Microsoft 365 tellijad saavad täpsemaid kirjutamissoovitusi, kui nad on sisse logitud."
+   },
+   "ebx_RemoveItem": {
+      "message": "Eemalda"
+   },
+   "ebx_SignInAnnouncementAlternativeText": {
+      "message": "Enamike saitide jaoks kirjutamissoovituste saamiseks logige sisse oma Microsofti konto või töö- või koolikontoga, mida Office’i jaoks kasutate."
+   },
+   "ebx_SignInAnnouncementSignIn": {
+      "message": "Logi sisse"
+   },
+   "ebx_SignInAnnouncementText": {
+      "message": "Logige sisse, et saada enamikul veebisaitidel kirjutussoovitusi. Salvestame teie sätted, näiteks keeled, milles kirjutate, ja probleemid, mida korrektor peaks kontrollima."
+   },
+   "ebx_SignInAnnouncementTitle": {
+      "message": "Korrektor ei tööta veel"
+   },
+   "ebx_SquiggleTooltipAriaText": {
+      "message": "Avage vasakklõpsu või Alt+allanoole klahvikombinatsiooniga"
+   },
+   "ebx_SquiggleTooltipAriaTextMac": {
+      "message": "Avage vasakklõpsu või Control+Option+allanoole klahvikombinatsiooniga"
+   },
+   "ebx_SquiggleTooltipCombination": {
+      "message": "(Alt+allanool)"
+   },
+   "ebx_SquiggleTooltipCombinationMac": {
+      "message": "(Control+Option+allanool)"
+   },
+   "ebx_SquiggleTooltipGrammarTitle": {
+      "message": "Grammatikaparandus"
+   },
+   "ebx_SquiggleTooltipRefinementTitle": {
+      "message": "Viimistlussoovitus"
+   },
+   "ebx_SquiggleTooltipSpellingTitle": {
+      "message": "Õigekirjaparandus"
+   },
+   "ebx_SquiggleTooltipText": {
+      "message": "Ava vasakklõpsuga"
+   },
+   "ebx_addAnotherSite": {
+      "message": "Lisa teine sait"
+   },
+   "ebx_addAnotherSiteAriaLabel": {
+      "message": "Lisa uus sait"
+   },
+   "ebx_addAnotherSiteCancel": {
+      "message": "Loobu saidi lisamisest blokeeritud saitide loendisse."
+   },
+   "ebx_addAnotherSiteSubmit": {
+      "message": "Lisa sait blokeeritud saitide loendisse"
+   },
+   "ebx_addButton": {
+      "message": "Lisa"
+   },
+   "ebx_addGrammarChecking": {
+      "message": "Grammatikakontrolli lisamine"
+   },
+   "ebx_addLanguageCancel": {
+      "message": "Loobu keele õigekeelsuskontrolli keelte hulka lisamisest"
+   },
+   "ebx_addLanguageSubmit": {
+      "message": "Lisa keel õigekeelsuskontrolli keelte hulka"
+   },
+   "ebx_addProofingLanguage": {
+      "message": "Lisa mõni muu keel"
+   },
+   "ebx_addToDictionaryButtonLabel": {
+      "message": "Lisa sõnastikku"
+   },
+   "ebx_appDescription": {
+      "message": "Microsofti korrektor on teie iseõppiv kirjutusabiline."
+   },
+   "ebx_appLongDescription": {
+      "message": "Korrektor pakub mitmel saidil (1) grammatika-, õigekirja- ja stiilisoovitusi, tänu millele saate kirjutada selgeid ja sisutihedaid postitusi ja meile. \r\n\r\nUUS: mitmekeelne õigekirjakontroll, ignoreerimisvõimalused \r\nSaate kontrollida õigekirja ja grammatikat korraga kuni kolmes keeles. Peale selle on õigekirjakontroll nüüd saadaval ka tai keeles. Kõiki õigekirjaparandusi saab nüüd hõlpsasti vahele jätta, valides käsu Ignoreeri kõiki. Valides käsu Ignoreeri, saab vahele jätta ka soovimatuid grammatikasoovitusi. \r\n\r\nIseõppiv kirjutamisabiline \r\nTasuta grammatika-, õigekirja- ja kirjavahemärgikontroll aitab tekste kirjutades põhitõdedest kinni pidada. Tasuline versioon (vajalik Microsoft 365 tellimus) pakub ka täiustatud grammatikasoovitusi ja stiilikontrolli muu hulgas selliste probleemide puhul nagu selgus, sisutihedus, ametlikkus ja sõnavara. \r\n\r\nKirjutada saab kõikjal \r\nSee brauserilaiend pakub kirjutamisabi LinkedIni, Gmaili, Facebooki ja teiste teie lemmiksaitide puhul. Kui soovite korrektori abi kasutada ka veebist väljaspool, siis avage Word ja otsige üles ikoon Korrektor. Siit leiate teavet selle kohta, kuidas korrektor saab teid dokumentide ja meilide kirjutamise juures aidata. \r\n\r\nSaadaval mitmes keeles \r\nKorrektor kontrollib õigekirja rohkem kui 80 keeles ning pakub grammatikakontrolli ja stiilitäiustusi järgmistes keeltes: (2) \r\n– araabia\r\n– tšehhi\r\n– taani\r\n– hollandi\r\n– inglise\r\n– soome\r\n– prantsuse\r\n– saksa\r\n– heebrea\r\n– ungari\r\n– itaalia\r\n– jaapani\r\n– korea\r\n– norra (bokmål)\r\n– poola\r\n– portugali (Brasiilia)\r\n– portugali (Portugal)\r\n– vene\r\n– hispaania\r\n– rootsi\r\n– türgi\r\n\r\n1. Saadaval Microsoft Edge’i või Chrome’i brauserite jaoks ja vajalik on Microsofti konto. Korrektor loob ühenduse Microsofti võrguteenusega, mis pakub enamikul saitidel kirjutamise ajal õigekirja-, grammatika- ja stiilisoovitusi. \r\n2. Igas keeles pole saadaval samad stiilisoovitused. \r\n\r\nKui installite rakenduse, nõustute järgmiste tingimustega: \r\n\r\nhttps://aka.ms/editorchromeextensionterms\r\n\r\nPrivaatsuspoliitika: http://aka.ms/privacy"
+   },
+   "ebx_appLongDescriptionEdge": {
+      "message": "Microsofti korrektor on teie iseõppiv kirjutamisabiline. \r\n\r\nKorrektor pakub mitmel saidil (1) grammatika-, õigekirja- ja stiilisoovitusi, tänu millele saate kirjutada selgeid ja sisutihedaid postitusi ja meile. \r\n\r\nUUS: mitmekeelne õigekirjakontroll, ignoreerimisvõimalused \r\nSaate kontrollida õigekirja ja grammatikat korraga kuni kolmes keeles. Peale selle on õigekirjakontroll nüüd saadaval ka tai keeles. Kõiki õigekirjaparandusi saab nüüd hõlpsasti vahele jätta, valides käsu Ignoreeri kõiki. Valides käsu Ignoreeri, saab vahele jätta ka soovimatuid grammatikasoovitusi. \r\n\r\nIseõppiv kirjutamisabiline \r\nTasuta grammatika-, õigekirja- ja kirjavahemärgikontroll aitab tekste kirjutades põhitõdedest kinni pidada. Tasuline versioon (vajalik Microsoft 365 tellimus) pakub ka täiustatud grammatikasoovitusi ja stiilikontrolli muu hulgas selliste probleemide puhul nagu selgus, sisutihedus, ametlikkus ja sõnavara. \r\n\r\nKirjutada saab kõikjal \r\nSee brauserilaiend pakub kirjutamisabi LinkedIni, Gmaili, Facebooki ja teiste teie lemmiksaitide puhul. Kui soovite korrektori abi kasutada ka veebist väljaspool, siis avage Word ja otsige üles ikoon Korrektor. Siit leiate teavet selle kohta, kuidas korrektor saab teid dokumentide ja meilide kirjutamise juures aidata. \r\n\r\nSaadaval mitmes keeles \r\nKorrektor kontrollib õigekirja rohkem kui 80 keeles ning pakub grammatikakontrolli ja stiilitäiustusi järgmistes keeltes: (2) \r\n– araabia\r\n– tšehhi\r\n– taani\r\n– hollandi\r\n– inglise\r\n– soome\r\n– prantsuse\r\n– saksa\r\n– heebrea\r\n– ungari\r\n– itaalia\r\n– jaapani\r\n– korea\r\n– norra (bokmål)\r\n– poola\r\n– portugali (Portugal)\r\n– portugali (Brasiilia)\r\n– vene\r\n– hispaania\r\n– rootsi\r\n– türgi\r\n\r\n1. Saadaval Microsoft Edge’i või Chrome’i brauserite jaoks ja vajalik on Microsofti konto. Korrektor loob ühenduse Microsofti võrguteenusega, mis pakub enamikul saitidel kirjutamise ajal õigekirja-, grammatika- ja stiilisoovitusi. \r\n2. Igas keeles pole saadaval samad stiilisoovitused. \r\n\r\nKui installite rakenduse, nõustute järgmiste tingimustega: \r\n\r\nhttps://aka.ms/editorchromeextensionterms\r\n\r\nPrivaatsuspoliitika: http://aka.ms/privacy"
+   },
+   "ebx_appName": {
+      "message": "Editor otse brauseris"
+   },
+   "ebx_appShortName": {
+      "message": "Editor"
+   },
+   "ebx_appTermsOfServiceLCA": {
+      "message": "PLEASE NOTE: Refer to your license terms for your Microsoft Account or Microsoft 365 subscription as applicable (the \"extension\") to identify the entity licensing this extension to you and for support information.  The license terms for the Microsoft Account or Microsoft 365 subscription as applicable apply to your use of this extension."
+   },
+   "ebx_ariaReplaceWith": {
+      "message": "Asendaja"
+   },
+   "ebx_asInSynonyms": {
+      "message": "sarnane nagu"
+   },
+   "ebx_blockedSiteAdded": {
+      "message": "\"$url$\" on lisatud",
+      "placeholders": {
+         "url": {
+            "content": "$1",
+            "example": "https://microsoft.com"
+         }
+      }
+   },
+   "ebx_blockedSiteEntryHint": {
+      "message": "Nupule „Eemalda“ juurdepääsuks vajutage paremnooleklahvi."
+   },
+   "ebx_blockedSiteListEmpty": {
+      "message": "Loend on tühi."
+   },
+   "ebx_blockedSiteRemoved": {
+      "message": "\"$url$\" on eemaldatud",
+      "placeholders": {
+         "url": {
+            "content": "$1",
+            "example": "https://microsoft.com"
+         }
+      }
+   },
+   "ebx_brandText": {
+      "message": "Microsoft Editor"
+   },
+   "ebx_brandTextArialLabel": {
+      "message": "Microsoft Editori logo"
+   },
+   "ebx_changeAllCommandLabel": {
+      "message": "Muuda kõik"
+   },
+   "ebx_changeSettingsCommandLabel": {
+      "message": "Editori sätted..."
+   },
+   "ebx_checkForRefinements": {
+      "message": "Otsi viimistlussoovitusi"
+   },
+   "ebx_checkGrammar": {
+      "message": "Kontrolli grammatikat"
+   },
+   "ebx_checkSpelling": {
+      "message": "Kontrolli õigekirja"
+   },
+   "ebx_close": {
+      "message": "Sule"
+   },
+   "ebx_comingSoonTooltipTitle": {
+      "message": "Varsti saadaval"
+   },
+   "ebx_deleteRepeatedWord": {
+      "message": "[Kustuta korduv sõna]"
+   },
+   "ebx_disableCritiqueButton": {
+      "message": "Lõpeta selle kontrollimine"
+   },
+   "ebx_disableCritiqueButtonAriaLabel": {
+      "message": "Lõpeta selle kontrollimine. Korrektor rakendab sätte seniks, kuni seda muudate."
+   },
+   "ebx_disableCritiqueTooltip": {
+      "message": "Redaktor rakendab sätet seni, kuni seda muudate"
+   },
+   "ebx_displayOptions": {
+      "message": "Kuvamissuvandid"
+   },
+   "ebx_duplicateBlockedSite": {
+      "message": "See sait on juba blokeeritud saitide loendis"
+   },
+   "ebx_editorEnableAnnouncementText": {
+      "message": "Microsoft Office'i brauserilaiendus sisaldab nüüd Microsoft Editorit – tehisintellektile tuginevat kirjutusabilist, mis aitab teil veebis professionaalseid kirjatöid teha. Microsoft Editor loob ühenduse võrguteenusega, et pakkuda teile õigekirja-, grammatika- ja stiilisoovitusi."
+   },
+   "ebx_editorEnableAnnouncementTitle": {
+      "message": "Microsoft Editor (eelversioon) töötab"
+   },
+   "ebx_editorFeature": {
+      "message": "Microsoft Editor"
+   },
+   "ebx_editorFeatureOffText": {
+      "message": "Väljas"
+   },
+   "ebx_editorFeatureOfficeBx": {
+      "message": "Lülita Editor välja"
+   },
+   "ebx_editorFeatureOnText": {
+      "message": "Sees"
+   },
+   "ebx_editorFeatureToggleLabel": {
+      "message": "Editori funktsioon"
+   },
+   "ebx_enhancedUpsellCategoriesAnd": {
+      "message": " ja "
+   },
+   "ebx_enhancedUpsellCategoriesComma": {
+      "message": ", "
+   },
+   "ebx_enhancedUpsellLinePartA": {
+      "message": "Korrektoril on"
+   },
+   "ebx_enhancedUpsellLinePartBPlural": {
+      "message": "selle sõnumi kohta täiustatud kirjutusideed."
+   },
+   "ebx_enhancedUpsellLinePartBSingular": {
+      "message": "selle sõnumi kohta täiustatud kirjutusidee."
+   },
+   "ebx_excludedSites": {
+      "message": "Välistatud saidid"
+   },
+   "ebx_feedbackCommentQuestion": {
+      "message": "Andke meile teada, miks valisite just selle vastuse"
+   },
+   "ebx_feedbackLink": {
+      "message": "tagasisidet"
+   },
+   "ebx_feedbackMessage": {
+      "message": "Aidake meil Editorit paremaks muuta ja saatke"
+   },
+   "ebx_feedbackRating1": {
+      "message": "Väga negatiivselt"
+   },
+   "ebx_feedbackRating2": {
+      "message": "Üsna negatiivselt"
+   },
+   "ebx_feedbackRating3": {
+      "message": "Ei positiivselt ega negatiivselt"
+   },
+   "ebx_feedbackRating4": {
+      "message": "Üsna positiivselt"
+   },
+   "ebx_feedbackRating5": {
+      "message": "Väga positiivselt"
+   },
+   "ebx_feedbackRatingQuestion": {
+      "message": "Kuidas te üldjoontes kirjeldaksite Microsofti korrektori kasutuskogemust?"
+   },
+   "ebx_feedbackSubmitNotice": {
+      "message": "Kui klõpsate nuppu Edasta, kasutatakse teie tagasisidet Microsofti toodete ja teenuste täiustamiseks."
+   },
+   "ebx_feedbackTitle": {
+      "message": "Tagasiside andmine Microsofti korrektori kohta"
+   },
+   "ebx_giveFeedback": {
+      "message": "Tagasiside"
+   },
+   "ebx_goPremiumExplained": {
+      "message": "Tellimise korral saate kasutada korrektorifunktsiooni täpsemaid kirjutamissoovitusi, 1 TB OneDrive’i salvestusruumi ja kõigi Microsoft 365 rakenduste tasulisi funktsioone."
+   },
+   "ebx_goPremiumExplainedMicrosoft365": {
+      "message": "Tellimise korral saate kasutada korrektorifunktsiooni täpsemaid kirjutamissoovitusi, 1 TB OneDrive’i salvestusruumi ja kõigi Microsoft 365 rakenduste tasulisi funktsioone."
+   },
+   "ebx_goPremiumLine": {
+      "message": "Proovige Editori täpsemaid kirjutamissoovitusi."
+   },
+   "ebx_goPremiumLinkText": {
+      "message": "Ostke tasuline versioon"
+   },
+   "ebx_goPremiumLinkTextLowerCase": {
+      "message": "hankige tasuline versioon"
+   },
+   "ebx_goToSettings": {
+      "message": "Ava Korrektori sätted"
+   },
+   "ebx_goToSettingsToLearnMore": {
+      "message": "Lisateabe saamiseks avage korrektori sätted"
+   },
+   "ebx_grammar": {
+      "message": "Grammatika"
+   },
+   "ebx_hideSynonyms": {
+      "message": "Peida sünonüümid"
+   },
+   "ebx_ignoreAllButtonLabel": {
+      "message": "Ignoreeri kõiki"
+   },
+   "ebx_ignoreOnceButtonLabel": {
+      "message": "Eira"
+   },
+   "ebx_languageAdded": {
+      "message": "\"$language$\" on lisati",
+      "placeholders": {
+         "language": {
+            "content": "$1",
+            "example": "inglise (Ühendkuningriik)"
+         }
+      }
+   },
+   "ebx_languageMovedToTop": {
+      "message": "\"$language$\" on nihutatud loendi algusse",
+      "placeholders": {
+         "language": {
+            "content": "$1",
+            "example": "inglise (Ühendkuningriik)"
+         }
+      }
+   },
+   "ebx_languageMovedUp": {
+      "message": "\"$language$\" on loendis ühe koha võrra üles nihutatud",
+      "placeholders": {
+         "language": {
+            "content": "$1",
+            "example": "inglise (Ühendkuningriik)"
+         }
+      }
+   },
+   "ebx_languageRemoved": {
+      "message": "\"$language$\" on eemaldatud",
+      "placeholders": {
+         "language": {
+            "content": "$1",
+            "example": "inglise (Ühendkuningriik)"
+         }
+      }
+   },
+   "ebx_learnMore": {
+      "message": "Lisateave"
+   },
+   "ebx_manageLanguagesButton": {
+      "message": "Halda keeli"
+   },
+   "ebx_moreButtonArialLabel": {
+      "message": "Veel käske"
+   },
+   "ebx_moveDown": {
+      "message": "Nihuta alla"
+   },
+   "ebx_moveToTop": {
+      "message": "Nihuta algusse"
+   },
+   "ebx_moveUp": {
+      "message": "Nihuta üles"
+   },
+   "ebx_optionsPageTitle": {
+      "message": "Editori sätted"
+   },
+   "ebx_premiumPreviewGeneralLine": {
+      "message": "Hankige Korrektori täpsemaid kirjutamissoovitused."
+   },
+   "ebx_premiumPreviewLineDaysPlural": {
+      "message": "päeva on selles eelversioonis veel jäänud. Piiramatute soovituste saamiseks täiendage versiooni:"
+   },
+   "ebx_premiumPreviewLineDaysSingular": {
+      "message": "päev on selles eelversioonis veel jäänud. Piiramatute soovituste saamiseks täiendage versiooni:"
+   },
+   "ebx_premiumPreviewLineSuggestionsPlural": {
+      "message": "soovitust on selles eelversioonis veel jäänud. Piiramatute soovituste saamiseks täiendage versiooni:"
+   },
+   "ebx_premiumPreviewLineSuggestionsSingular": {
+      "message": "soovitus on selles eelversioonis veel jäänud. Piiramatute soovituste saamiseks täiendage versiooni:"
+   },
+   "ebx_preview": {
+      "message": "(eelversioon)"
+   },
+   "ebx_previewLabel": {
+      "message": "EELVERSIOON"
+   },
+   "ebx_privacyOptionSendData": {
+      "message": "Saada meile selle võrguteenuse kasutamisel automaatselt valikulisi diagnostikaandmeid, mis aitavad meil meie tooteid paremaks muuta."
+   },
+   "ebx_privacyOptionSendDataLink": {
+      "message": "Lisateavet diagnostikaandmete kohta"
+   },
+   "ebx_privacyOptions": {
+      "message": "Privaatsussuvandid"
+   },
+   "ebx_proofingLanguage": {
+      "message": "Õigekeelsuskontrolli keel"
+   },
+   "ebx_proofingLanguageEntryHint": {
+      "message": "Nupule Rohkem käske juurdepääsemiseks vajutage paremnooleklahvi."
+   },
+   "ebx_proofingLanguagePlaceHolder": {
+      "message": "Valige õigekeelsuskontrolli keel"
+   },
+   "ebx_proofingLanguages": {
+      "message": "Õigekeelsuskontrolli keeled"
+   },
+   "ebx_proofingLanguagesDescription": {
+      "message": "Valige kuni kolm keelt. Eelistatud keel on ülaservas."
+   },
+   "ebx_rateExtensionPrompt": {
+      "message": "Kas teie meelest on korrektor kasulik?"
+   },
+   "ebx_rateExtensionPromptGiveFeedback": {
+      "message": "Anna tagasisidet"
+   },
+   "ebx_rateExtensionPromptNegative": {
+      "message": "Seda on kahju kuulda. Andke teada, kuidas saame korrektorit parandada."
+   },
+   "ebx_rateExtensionPromptNo": {
+      "message": "Ei"
+   },
+   "ebx_rateExtensionPromptNoThanks": {
+      "message": "Ei, tänan"
+   },
+   "ebx_rateExtensionPromptPositive": {
+      "message": "Suurepärane! Kas soovite seda hinnata?"
+   },
+   "ebx_rateExtensionPromptPositiveAlt": {
+      "message": "Kas teile meeldib korrektorit kasutada? Kas soovite seda hinnata?"
+   },
+   "ebx_rateExtensionPromptSure": {
+      "message": "Muidugi"
+   },
+   "ebx_rateExtensionPromptYes": {
+      "message": "Jah"
+   },
+   "ebx_rateExtensionTitle": {
+      "message": "Microsofti korrektori tagasiside"
+   },
+   "ebx_refinements": {
+      "message": "Viimistlussoovitused"
+   },
+   "ebx_settings": {
+      "message": "Sätted"
+   },
+   "ebx_settingsPageAriaLabel": {
+      "message": "Microsoft Editori sätted"
+   },
+   "ebx_settingsPerLanguage": {
+      "message": "Keelekohased sätted"
+   },
+   "ebx_showSynonyms": {
+      "message": "Kuva sünonüümid"
+   },
+   "ebx_showSynonymsToggleCaption": {
+      "message": "Kuva õigekirjasoovituste sünonüümid"
+   },
+   "ebx_signIntoEditor": {
+      "message": "logi korrektorisse sisse"
+   },
+   "ebx_signIntoEditorBody": {
+      "message": "Enamikul veebisaitidel grammatika- ja viimistlussoovituste saamiseks logige sisse."
+   },
+   "ebx_signIntoEditorTile": {
+      "message": "Korrektorisse sisselogimine"
+   },
+   "ebx_spelling": {
+      "message": "Õigekiri"
+   },
+   "ebx_suggestionMoreActionsArialLabel": {
+      "message": "Rohkem toiminguid"
+   },
+   "ebx_synonymsNotAvailable": {
+      "message": "[Sünonüüme pole saadaval]"
+   },
+   "ebx_toggleOff": {
+      "message": "Väljas"
+   },
+   "ebx_toggleOn": {
+      "message": "Sees"
+   },
+   "ebx_toneLabel": {
+      "message": "Toon"
+   },
+   "ebx_tryPremiumPreviewLink": {
+      "message": "Proovi kohe"
+   },
+   "ebx_turnOffEditor": {
+      "message": "Lülita Editor välja"
+   },
+   "ebx_turnOffEditorExplained": {
+      "message": "Editor loob ühenduse Microsofti võrguteenusega, et pakkuda enamikul veebisaitidel teie kirjutatud tekstide jaoks õigekirja-, grammatika- ja stiilisoovitusi."
+   },
+   "ebx_userBlockedSites": {
+      "message": "Blokeeritud saidid"
+   },
+   "ebx_userExcludedUrlErrorCaption": {
+      "message": "Sobimatu URL. Sisestage URL järgmises vormingus: https://example.com"
+   },
+   "ebx_userExcludedUrlsErrorCaption": {
+      "message": "Sobimatu URL \"$url$\" real $line$.",
+      "placeholders": {
+         "line": {
+            "content": "$2",
+            "example": "123"
+         },
+         "url": {
+            "content": "$1",
+            "example": "https://microsoft.com"
+         }
+      }
+   },
+   "ebx_userExcludedUrlsTextBoxCaption": {
+      "message": "Olete Editori allpool loetletud saitidel välja lülitanud. Lisaks võib Editor olla automaatselt välja lülitatud ka muudel saitidel, mis sisaldavad delikaatset sisu või mille laadimine on aeglane."
+   },
+   "sbx_signInDescription": {
+      "message": "Enamikul veebisaitidel õigekirja-, grammatika- ja viimistlussoovituste saamiseks logige sisse."
+   }
+}

@@ -1,0 +1,546 @@
+{
+  "ebx_appName": {
+    "message": "Editor di Browser"
+  },
+  "ebx_appShortName": {
+    "message": "Editor"
+  },
+  "ebx_appDescription": {
+    "message": "Buat tulisan dengan percaya diri menggunakan Microsoft Editor: asisten penulisan yang cerdas."
+  },
+  "ebx_appLongDescription": {
+    "message": "Editor memberikan saran tata bahasa, ejaan, dan gaya di beberapa situs (1); sehingga Anda dapat menulis postingan dan email dengan jelas dan ringkas. \r\n\r\nBARU: Pemeriksaan multibahasa, opsi Abaikan \r\nPeriksa ejaan dan tata bahasa hingga tiga bahasa sekaligus. Selain itu, pemeriksaan ejaan kini tersedia untuk Thai. Kami juga mempermudah cara melewati semua kejadian koreksi ejaan dengan memilih Abaikan Semua, atau lewati saran tata bahasa yang tidak diinginkan dengan memilih Abaikan. \r\n\r\nAsisten penulisan cerdas \r\nKuasai dasar-dasar dengan pemeriksaan tata bahasa, ejaan, dan tanda baca. Dapatkan saran tata bahasa tingkat lanjut dan pemeriksaan gaya untuk soal-soal seperti kejelasan, keringkasan, formalitas, kosa kata, dan banyak lagi dengan fitur premium (memerlukan langganan Microsoft 365). \r\n\r\nTulis di mana saja \r\nDapatkan bantuan penulisan pada situs-situs seperti LinkedIn, Gmail, Facebook, dan situs favorit lainnya dengan ekstensi browser. Jika Anda menginginkan dukungan Editor di luar web, buka Word dan cari ikon Editor untuk melihat apa yang bisa dibantu Editor ketika Anda menulis dokumen dan email. \r\n\r\nTersedia dalam berbagai bahasa \r\nEditor memeriksa ejaan dalam lebih dari 80 bahasa serta menyediakan pemeriksaan tata bahasa dan penyempurnaan gaya tulisan dalam bahasa berikut ini: (2) \r\n– Arab\r\n– Cheska\r\n– Dansk\r\n– Belanda\r\n– Inggris\r\n– Suomi\r\n– Prancis\r\n– Jerman\r\n– Ibrani\r\n– Hungaria\r\n– Italia\r\n– Jepang\r\n– Korea\r\n– Norwegia (Bokmål)\r\n– Polski\r\n– Portugis (Brasil)\r\n– Portugis (Portugal)\r\n– Rusia\r\n– Spanyol\r\n– Swedia\r\n– Turki\r\n\r\n1. Tersedia untuk browser Microsoft Edge atau Chrome dan memerlukan Akun Microsoft. Editor terhubung dengan layanan online Microsoft yang menawarkan saran ejaan, tata bahasa, dan perbaikan untuk tulisan Anda di sebagian besar situs web. \r\n2. Tidak semua bahasa memiliki set perbaikan yang sama. \r\n\r\nDengan menginstal aplikasi ini, Anda menyetujui syarat dan ketentuan berikut: \r\n\r\nhttps://aka.ms/editorchromeextensionterms\r\n\r\nKebijakan Privasi: http://aka.ms/privacy"
+  },
+  "ebx_appLongDescriptionEdge": {
+    "message": "Buat tulisan dengan percaya diri menggunakan Microsoft Editor: asisten penulisan yang cerdas. \r\n\r\nEditor memberikan saran tata bahasa, ejaan, dan gaya di beberapa situs (1); sehingga Anda dapat menulis postingan dan email dengan jelas dan ringkas. \r\n\r\nBARU: Pemeriksaan multibahasa, opsi Abaikan \r\nPeriksa ejaan dan tata bahasa hingga tiga bahasa sekaligus. Selain itu, pemeriksaan ejaan kini tersedia untuk Thai. Kami juga mempermudah cara melewati semua kejadian koreksi ejaan dengan memilih Abaikan Semua, atau lewati saran tata bahasa yang tidak diinginkan dengan memilih Abaikan. \r\n\r\nAsisten penulisan cerdas \r\nKuasai dasar-dasar dengan pemeriksaan tata bahasa, ejaan, dan tanda baca. Dapatkan saran tata bahasa tingkat lanjut dan pemeriksaan gaya untuk soal-soal seperti kejelasan, keringkasan, formalitas, kosa kata, dan banyak lagi dengan fitur premium (memerlukan langganan Microsoft 365). \r\n\r\nTulis di mana saja \r\nDapatkan bantuan penulisan pada situs-situs seperti LinkedIn, Gmail, Facebook, dan situs favorit lainnya dengan ekstensi browser. Jika Anda menginginkan dukungan Editor di luar web, buka Word dan cari ikon Editor untuk melihat apa yang bisa dibantu Editor ketika Anda menulis dokumen dan email. \r\n\r\nTersedia dalam berbagai bahasa \r\nEditor memeriksa ejaan dalam lebih dari 80 bahasa serta menyediakan pemeriksaan tata bahasa dan penyempurnaan gaya tulisan dalam bahasa berikut ini: (2) \r\n– Arab\r\n– Cheska\r\n– Dansk\r\n– Belanda\r\n– Inggris\r\n– Suomi\r\n– Prancis\r\n– Jerman\r\n– Hebrew\r\n– Hungaria\r\n– Italia\r\n– Jepang\r\n– Korea\r\n– Norwegia (Bokmål)\r\n– Polski\r\n– Portugis (Brasil)\r\n– Portugis (Portugal)\r\n– Rusia\r\n– Spanyol\r\n– Swedia\r\n– Turki\r\n\r\n1. Tersedia untuk browser Microsoft Edge atau Chrome dan memerlukan Akun Microsoft. Editor terhubung dengan layanan online Microsoft yang menawarkan saran ejaan, tata bahasa, dan perbaikan untuk tulisan Anda di sebagian besar situs web. \r\n2. Tidak semua bahasa memiliki set perbaikan yang sama. \r\n\r\nDengan menginstal aplikasi ini, Anda menyetujui syarat dan ketentuan berikut: \r\n\r\nhttps://aka.ms/editorchromeextensionterms\r\n\r\nKebijakan Privasi: http://aka.ms/privacy"
+  },
+  "ebx_appTermsOfServiceLCA": {
+    "message": "PLEASE NOTE: Refer to your license terms for your Microsoft Account or Microsoft 365 subscription as applicable (the \"extension\") to identify the entity licensing this extension to you and for support information.  The license terms for the Microsoft Account or Microsoft 365 subscription as applicable apply to your use of this extension."
+  },
+  "ebx_optionsPageTitle": {
+    "message": "Pengaturan Editor"
+  },
+  "ebx_settings": {
+    "message": "Pengaturan"
+  },
+  "ebx_proofingLanguage": {
+    "message": "Bahasa pemeriksaan bahasa"
+  },
+  "ebx_proofingLanguages": {
+    "message": "Bahasa pemeriksa ejaan"
+  },
+  "ebx_proofingLanguagePlaceHolder": {
+    "message": "Pilih bahasa pemeriksaan bahasa"
+  },
+  "ebx_userExcludedUrlsTextBoxCaption": {
+    "message": "Anda telah menonaktifkan Editor di situs yang tercantum di bawah ini. Editor dapat dinonaktifkan secara otomatis pada situs tambahan dengan konten sensitif atau kecepatan pemuatan yang lambat."
+  },
+  "ebx_userBlockedSites": {
+    "message": "Situs yang diblokir"
+  },
+  "ebx_userExcludedUrlsErrorCaption": {
+    "message": "URL \"$url$\" tidak valid pada baris $line$.",
+    "placeholders": {
+      "url": {
+        "content": "$1",
+        "example": "https://microsoft.com"
+      },
+      "line": {
+        "content": "$2",
+        "example": "123"
+      }
+    }
+  },
+  "ebx_userExcludedUrlErrorCaption": {
+    "message": "URL tidak valid. Harap berikan URL dalam format berikut: https://example.com"
+  },
+  "ebx_showSynonymsToggleCaption": {
+    "message": "Tampilkan sinonim untuk saran ejaan"
+  },
+  "ebx_comingSoonTooltipTitle": {
+    "message": "Segera hadir"
+  },
+  "ebx_changeAllCommandLabel": {
+    "message": "Ubah Semua"
+  },
+  "ebx_changeSettingsCommandLabel": {
+    "message": "Pengaturan Editor..."
+  },
+  "ebx_moreButtonArialLabel": {
+    "message": "Perintah lainnya"
+  },
+  "ebx_ignoreAllButtonLabel": {
+    "message": "Abaikan semua"
+  },
+  "ebx_ignoreOnceButtonLabel": {
+    "message": "Abaikan"
+  },
+  "ebx_addToDictionaryButtonLabel": {
+    "message": "Tambahkan ke Kamus"
+  },
+  "ebx_suggestionMoreActionsArialLabel": {
+    "message": "Tindakan lainnya"
+  },
+  "ebx_brandText": {
+    "message": "Microsoft Editor"
+  },
+  "ebx_brandTextArialLabel": {
+    "message": "Logo Microsoft Editor"
+  },
+  "ebx_showSynonyms": {
+    "message": "Tampilkan sinonim"
+  },
+  "ebx_hideSynonyms": {
+    "message": "Sembunyikan sinonim"
+  },
+  "ebx_synonymsNotAvailable": {
+    "message": "[Sinonim tidak tersedia]"
+  },
+  "ebx_ariaReplaceWith": {
+    "message": "Ganti dengan"
+  },
+  "ebx_deleteRepeatedWord": {
+    "message": "[Hapus kata yang berulang]"
+  },
+  "ebx_asInSynonyms": {
+    "message": "serupa dengan"
+  },
+  "ebx_goPremiumLine": {
+    "message": "Cobalah ide penulisan lanjutan dari Editor."
+  },
+  "ebx_goPremiumLinkText": {
+    "message": "Beli paket premium"
+  },
+  "ebx_goPremiumLinkTextLowerCase": {
+    "message": "beralih ke premium"
+  },
+  "ebx_enhancedUpsellLinePartA": {
+    "message": "Editor telah"
+  },
+  "ebx_enhancedUpsellLinePartBPlural": {
+    "message": "ide penulisan tingkat lanjut untuk pesan ini."
+  },
+  "ebx_enhancedUpsellLinePartBSingular": {
+    "message": "ide penulisan tingkat lanjut untuk pesan ini."
+  },
+  "ebx_enhancedUpsellCategoriesComma": {
+    "message": ", "
+  },
+  "ebx_enhancedUpsellCategoriesAnd": {
+    "message": " dan "
+  },
+  "ebx_tryPremiumPreviewLink": {
+    "message": "Coba sekarang"
+  },
+  "ebx_premiumPreviewGeneralLine": {
+    "message": "Dapatkan ide penulisan tingkat lanjut Editor."
+  },
+  "ebx_premiumPreviewLineDaysPlural": {
+    "message": "hari tersisa di pratinjau ini. Tingkatkan untuk mendapatkan saran tak terbatas:"
+  },
+  "ebx_premiumPreviewLineDaysSingular": {
+    "message": "hari tersisa di pratinjau ini. Tingkatkan untuk mendapatkan saran tak terbatas:"
+  },
+  "ebx_premiumPreviewLineSuggestionsPlural": {
+    "message": "saran tersisa di pratinjau ini. Tingkatkan untuk mendapatkan saran tak terbatas:"
+  },
+  "ebx_premiumPreviewLineSuggestionsSingular": {
+    "message": "saran tersisa di pratinjau ini. Tingkatkan untuk mendapatkan saran tak terbatas:"
+  },
+  "ebx_checkSpelling": {
+    "message": "Periksa ejaan"
+  },
+  "ebx_checkGrammar": {
+    "message": "Periksa tata bahasa"
+  },
+  "ebx_turnOffEditor": {
+    "message": "Nonaktifkan Editor"
+  },
+  "ebx_editorFeature": {
+    "message": "Microsoft Editor"
+  },
+  "ebx_editorFeatureOfficeBx": {
+    "message": "Nonaktifkan Editor"
+  },
+  "ebx_editorFeatureOnText": {
+    "message": "Aktif"
+  },
+  "ebx_editorFeatureOffText": {
+    "message": "Nonaktif"
+  },
+  "ebx_turnOffEditorExplained": {
+    "message": "Editor terhubung ke layanan online Microsoft yang menawarkan saran ejaan, tata bahasa, dan gaya untuk tulisan Anda di sebagian besar situs web."
+  },
+  "ebx_checkForRefinements": {
+    "message": "Periksa untuk memperbaiki"
+  },
+  "ebx_addAnotherSite": {
+    "message": "Tambahkan situs lain"
+  },
+  "ebx_goPremiumExplained": {
+    "message": "Dapatkan ide penulisan lanjutan di Editor, penyimpanan OneDrive sebesar 1 TB, dan fitur premium di semua aplikasi Microsoft 365."
+  },
+  "ebx_addAnotherSiteAriaLabel": {
+    "message": "Tambahkan situs lain"
+  },
+  "ebx_addAnotherSiteSubmit": {
+    "message": "Tambahkan ke daftar situs yang diblokir"
+  },
+  "ebx_addAnotherSiteCancel": {
+    "message": "Batalkan penambahan situs ke daftar situs yang diblokir."
+  },
+  "ebx_RemoveItem": {
+    "message": "Hapus"
+  },
+  "ebx_duplicateBlockedSite": {
+    "message": "Situs ini sudah ada di daftar situs yang diblokir"
+  },
+  "ebx_editorEnableAnnouncementTitle": {
+    "message": "Microsoft Editor (Pratinjau) sedang dijalankan"
+  },
+  "ebx_editorEnableAnnouncementText": {
+    "message": "Ekstensi Microsoft Office browser kini menyertakan Microsoft Editor, Asisten penulisan cerdas yang akan membantu Anda membuat tulisan terbaik di web. Microsoft Editor terhubung ke layanan online untuk menawarkan saran ejaan, tata bahasa dan gaya untuk Anda."
+  },
+  "ebx_learnMore": {
+    "message": "Pelajari selengkapnya"
+  },
+  "ebx_goToSettingsToLearnMore": {
+    "message": "Buka Pengaturan Editor untuk mempelajari selengkapnya"
+  },
+  "ebx_goToSettings": {
+    "message": "Buka pengaturan Editor"
+  },
+  "ebx_previewLabel": {
+    "message": "PRATINJAU"
+  },
+  "ebx_preview": {
+    "message": "(Pratinjau)"
+  },
+  "ebx_SquiggleTooltipText": {
+    "message": "Buka dengan klik kiri"
+  },
+  "ebx_SquiggleTooltipCombination": {
+    "message": "(Alt+Panah Bawah)"
+  },
+  "ebx_SquiggleTooltipCombinationMac": {
+    "message": "(Control+Option+Panah Bawah)"
+  },
+  "ebx_SquiggleTooltipAriaText": {
+    "message": "Buka dengan klik kiri atau Alt+Panah Bawah"
+  },
+  "ebx_SquiggleTooltipAriaTextMac": {
+    "message": "Buka dengan klik kiri atau Control+Option+Panah Bawah"
+  },
+  "ebx_SquiggleTooltipSpellingTitle": {
+    "message": "Koreksi Ejaan"
+  },
+  "ebx_SquiggleTooltipGrammarTitle": {
+    "message": "Koreksi Tata Bahasa"
+  },
+  "ebx_SquiggleTooltipRefinementTitle": {
+    "message": "Penyempurnaan tulisan"
+  },
+  "ebx_editorFeatureToggleLabel": {
+    "message": "Fitur Editor"
+  },
+  "ebx_toggleOn": {
+    "message": "Aktif"
+  },
+  "ebx_toggleOff": {
+    "message": "Nonaktif"
+  },
+  "ebx_toneLabel": {
+    "message": "Nada"
+  },
+  "ebx_close": {
+    "message": "Tutup"
+  },
+  "ebx_feedbackMessage": {
+    "message": "Bantu kami meningkatkan Editor dengan menyediakan"
+  },
+  "ebx_feedbackLink": {
+    "message": "umpan balik"
+  },
+  "ebx_spelling": {
+    "message": "Ejaan"
+  },
+  "ebx_grammar": {
+    "message": "Tata Bahasa"
+  },
+  "ebx_refinements": {
+    "message": "Penyempurnaan"
+  },
+  "ebx_privacyOptions": {
+    "message": "Opsi privasi"
+  },
+  "ebx_privacyOptionSendData": {
+    "message": "Mengirimkan data diagnostik opsional secara otomatis selagi menggunakan layanan online ini, guna membantu menyempurnakan produk kami."
+  },
+  "ebx_displayOptions": {
+    "message": "Opsi tampilan"
+  },
+  "ebx_privacyOptionSendDataLink": {
+    "message": "Pelajari selengkapnya tentang data diagnostik"
+  },
+  "ebx_excludedSites": {
+    "message": "Situs yang dikecualikan"
+  },
+  "ebx_goPremiumExplainedMicrosoft365": {
+    "message": "Dapatkan ide penulisan lanjutan di Editor, penyimpanan OneDrive sebesar 1 TB, dan fitur premium di semua aplikasi Microsoft 365."
+  },
+  "ebx_settingsPageAriaLabel": {
+    "message": "Pengaturan Microsoft Editor"
+  },
+  "ebx_blockedSiteAdded": {
+    "message": "\"$url$\" berhasil ditambahkan",
+    "placeholders": {
+      "url": {
+        "content": "$1",
+        "example": "https://microsoft.com"
+      }
+    }
+  },
+  "ebx_blockedSiteRemoved": {
+    "message": "\"$url$\" berhasil dihapus",
+    "placeholders": {
+      "url": {
+        "content": "$1",
+        "example": "https://microsoft.com"
+      }
+    }
+  },
+  "ebx_blockedSiteListEmpty": {
+    "message": "Daftar ini kosong."
+  },
+  "ebx_ProofingLanguages": {
+    "message": "Bahasa pemeriksa ejaan"
+  },
+  "ebx_proofingLanguagesDescription": {
+    "message": "Pilih hingga tiga bahasa. Bahasa pilihan Anda akan ada di bagian atas."
+  },
+  "ebx_addProofingLanguage": {
+    "message": "Tambahkan bahasa lain"
+  },
+  "ebx_moveToTop": {
+    "message": "Pindah ke atas"
+  },
+  "ebx_moveUp": {
+    "message": "Naikkan"
+  },
+  "ebx_moveDown": {
+    "message": "Turunkan"
+  },
+  "ebx_languageAdded": {
+    "message": "\"$language$\" berhasil ditambahkan",
+    "placeholders": {
+      "language": {
+        "content": "$1",
+        "example": "Inggris (Kerajaan Inggris Bersatu)"
+      }
+    }
+  },
+  "ebx_languageRemoved": {
+    "message": "\"$language$\" berhasil dihapus",
+    "placeholders": {
+      "language": {
+        "content": "$1",
+        "example": "Inggris (Kerajaan Inggris Bersatu)"
+      }
+    }
+  },
+  "ebx_languageMovedUp": {
+    "message": "\"$language$\" berhasil dinaikkan satu posisi di daftar",
+    "placeholders": {
+      "language": {
+        "content": "$1",
+        "example": "Inggris (Kerajaan Inggris Bersatu)"
+      }
+    }
+  },
+  "ebx_languageMovedToTop": {
+    "message": "\"$language$\" berhasil dipindahkan ke bagian atas daftar",
+    "placeholders": {
+      "language": {
+        "content": "$1",
+        "example": "Inggris (Kerajaan Inggris Bersatu)"
+      }
+    }
+  },
+  "ebx_addLanguageSubmit": {
+    "message": "Tambahkan bahasa ke daftar bahasa pemeriksa"
+  },
+  "ebx_addLanguageCancel": {
+    "message": "Batalkan penambahan bahasa ke daftar bahasa pemeriksa"
+  },
+  "ebx_MultiLanguageAnnouncementTitle": {
+    "message": "Pengoreksian multibahasa dengan Editor"
+  },
+  "ebx_MultiLanguageAnnouncementText": {
+    "message": "Periksa ejaan dan tata bahasa untuk tiga bahasa sekaligus."
+  },
+  "ebx_MultiLanguageAnnouncementTextEditSettings": {
+    "message": "Anda dapat mengedit bahasa di pengaturan Editor."
+  },
+  "ebx_MultiLanguageAnnouncementSelectedLanguage": {
+    "message": "Kami memilih $language$ berdasarkan pengaturan browser Anda saat ini.",
+    "placeholders": {
+      "language": {
+        "content": "$1",
+        "example": "Inggris (Kerajaan Inggris Bersatu)"
+      }
+    }
+  },
+  "ebx_MultiLanguageAnnouncementTwoSelectedLanguages": {
+    "message": "Kami memilih $language1$​​​​​ dan $language2$​​​​​ berdasarkan pengaturan browser Anda saat ini.",
+    "placeholders": {
+      "language1": {
+        "content": "$1",
+        "example": "Inggris (Kerajaan Inggris Bersatu)"
+      },
+      "language2": {
+        "content": "$2",
+        "example": "Inggris (Kerajaan Inggris Bersatu)"
+      }
+    }
+  },
+  "ebx_MultiLanguageAnnouncementThreeSelectedLanguages": {
+    "message": "Kami memilih $language1$​​​​​, $language2$​​​​​, dan $language3$​​​​​ berdasarkan pengaturan browser Anda saat ini..",
+    "placeholders": {
+      "language1": {
+        "content": "$1",
+        "example": "Inggris (Kerajaan Inggris Bersatu)"
+      },
+      "language2": {
+        "content": "$2",
+        "example": "Inggris (Kerajaan Inggris Bersatu)"
+      },
+      "language3": {
+        "content": "$3",
+        "example": "Inggris (Kerajaan Inggris Bersatu)"
+      }
+    }
+  },
+  "ebx_SignInAnnouncementTitle": {
+    "message": "Editor belum berjalan"
+  },
+  "ebx_SignInAnnouncementText": {
+    "message": "Masuk untuk mendapatkan saran penulisan di sebagian besar situs web. Kami akan menyimpan pengaturan Anda, seperti bahasa penulisan Anda dan jenis masalah yang Anda minta untuk diperiksa Editor."
+  },
+  "ebx_SignInAnnouncementSignIn": {
+    "message": "Masuk"
+  },
+  "ebx_SignInAnnouncementAlternativeText": {
+    "message": "Untuk mendapatkan saran penulisan di sebagian besar situs web, masuk ke akun Microsoft Anda atau akun kantor atau sekolah yang Anda gunakan untuk Office."
+  },
+  "ebx_proofingLanguageEntryHint": {
+    "message": "Tekan tombol Panah Kanan untuk mengakses tombol perintah Lainya."
+  },
+  "ebx_rateExtensionTitle": {
+    "message": "Umpan balik tentang Microsoft Editor"
+  },
+  "ebx_rateExtensionPrompt": {
+    "message": "Apakah menurut Anda Editor berguna?"
+  },
+  "ebx_rateExtensionPromptPositive": {
+    "message": "Bagus sekali, maukah Anda memberikan peringkat?"
+  },
+  "ebx_rateExtensionPromptPositiveAlt": {
+    "message": "Jika masih menikmati menggunakan Editor, maukah Anda memberikan peringkat?"
+  },
+  "ebx_rateExtensionPromptNegative": {
+    "message": "Kami menyesal mendengarnya. Beri tahu kami cara kami dapat meningkatkan Editor."
+  },
+  "ebx_rateExtensionPromptYes": {
+    "message": "Ya"
+  },
+  "ebx_rateExtensionPromptNo": {
+    "message": "Tidak"
+  },
+  "ebx_rateExtensionPromptGiveFeedback": {
+    "message": "Berikan Umpan Balik"
+  },
+  "ebx_rateExtensionPromptNoThanks": {
+    "message": "Tidak, terima kasih"
+  },
+  "ebx_rateExtensionPromptSure": {
+    "message": "Tentu saja"
+  },
+  "ebx_AddLanguageBlockedTooltip": {
+    "message": "Anda hanya dapat mengaktifkan pemeriksaan hingga tiga bahasa sekaligus."
+  },
+  "ebx_addGrammarChecking": {
+    "message": "Untuk menambahkan pemeriksaan tata bahasa"
+  },
+  "ebx_signIntoEditor": {
+    "message": "sign into Editor"
+  },
+  "ebx_RefinementTooltip": {
+    "message": "Pelanggan Microsoft 365 mendapatkan saran penulisan tingkat lanjut saat mereka masuk."
+  },
+  "ebx_signIntoEditorTile": {
+    "message": "Masuk ke Editor"
+  },
+  "ebx_signIntoEditorBody": {
+    "message": "Untuk mendapatkan saran ejaan dan penyempurnaan di sebagian besar situs web, silakan masuk ke akun."
+  },
+  "ebx_giveFeedback": {
+    "message": "Berikan umpan balik"
+  },
+  "ebx_feedbackCommentQuestion": {
+    "message": "Beri tahu kami alasan Anda memilih jawaban tersebut"
+  },
+  "ebx_feedbackRatingQuestion": {
+    "message": "Secara keseluruhan, bagaimana Anda akan mendeskripsikan pengalaman Anda menggunakan Microsoft Editor"
+  },
+  "ebx_feedbackRating1": {
+    "message": "Sangat negatif"
+  },
+  "ebx_feedbackRating2": {
+    "message": "Agak negatif"
+  },
+  "ebx_feedbackRating3": {
+    "message": "Tidak positif maupun negatif"
+  },
+  "ebx_feedbackRating4": {
+    "message": "Agak positif"
+  },
+  "ebx_feedbackRating5": {
+    "message": "Sangat positif"
+  },
+  "ebx_feedbackTitle": {
+    "message": "Berikan tanggapan untuk Microsoft Editor"
+  },
+  "ebx_feedbackSubmitNotice": {
+    "message": "Dengan menekan kirim, umpan balik Anda akan digunakan untuk meningkatkan produk dan layanan Microsoft."
+  },
+  "ebx_settingsPerLanguage": {
+    "message": "Pengaturan per bahasa"
+  },
+  "ebx_manageLanguagesButton": {
+    "message": "Kelola bahasa"
+  },
+  "ebx_Done": {
+    "message": "Selesai"
+  },
+  "ebx_addButton": {
+    "message": "Tambahkan"
+  },
+  "ebx_Cancel": {
+    "message": "Batalkan"
+  },
+  "ebx_blockedSiteEntryHint": {
+    "message": "Tekan tombol panah kanan untuk mengakses tombol Hapus."
+  },
+  "ebx_FeedbackSubmitted": {
+    "message": "Masukan berhasil dikirim."
+  },
+  "ebx_disableCritiqueButton": {
+    "message": "Hentikan pemeriksaan untuk ini"
+  },
+  "ebx_disableCritiqueButtonAriaLabel": {
+    "message": "Berhenti memeriksa ini. Editor akan menerapkan pengaturan ini hingga Anda mengubahnya."
+  },
+  "ebx_disableCritiqueTooltip": {
+    "message": "Editor akan menerapkan pengaturan ini hingga Anda mengubahnya"
+  }
+}

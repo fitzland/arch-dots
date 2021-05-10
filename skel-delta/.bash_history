@@ -1,200 +1,3 @@
-sudo nano /etc/paru.conf
-exit
-paru libreoffice
-paru libreoffice-still
-yay gnucash
-exit
-yay papirus
-exit
-yay libreoffice
-sudo nano /etc/pacman.conf 
-sudo nano /etc/paru.conf
-paru libreoffice
-paru libreoffice-still
-yay gnucash
-yay papirus
-yay alacritty
-yay st
-yay stterm
-yay simple terminal
-yay gnome
-cd ..
-mkdir -p dubois
-cd dubois/
-dots
-cd arco-scripts/
-sudo ./trust-key.sh 
-ls
-./add-keyservers-for-key-importing.sh 
-./add-arcolinux-repo-to-pacman-conf.sh 
-exit
-yay pamac
-yay aic
-yay wd7
-exit
-upall
-yay typora
-exit
-yay typora
-mkdir -p ~/.config/alacritty
-cp /usr/share/doc/alacritty/example/alacritty.yml ~/.config/alacritty/alacritty.yml
-fc-list
-fc-list : family style
-code ~/.config/alacritty/alacritty.yml 
-exit
-code ~/.config/alacritty/alacritty.yml 
-exit
-upall
-exit
-sudo pacman -Rns lxterminal
-ei3
-exit
-sudo pacman -Rns gnome
-exit
-cleanup
-eba
-eb
-exit
-upall
-exit
-cd .config/alacritty/
-ls
-code alacritty.yml 
-upall
-exit
-upall
-cleanup
-exit
-eb
-cd .config/alacritty/
-code alacritty.yml 
-nano ~/.config/alacritty/alacritty.yml 
-upall
-cd /etc/skel/
-cd .config
-ls
-cd ..
-ls -la
-code .bashrc 
-cleanup
-eba
-exit
-cleanup
-exit
-yay pamac
-exit
-upall
-cleanup
-exit
-dots
-ls
-./130-bluetooth.sh 
-exit
-ei3
-cd .config/
-cd arco-dwm/
-ls
-make
-make install
-sudo make install
-exit
-sudo make install
-upall
-htop
-cleanup
-cd ~/.config/arco-dwm/
-nano list-of-patches.readme 
-ls
-nano config.h
-sudo make clean install
-exit
-sudo pacman -S neofetch
-exit
-neofetch
-exit
-eb
-update-fc
-eba
-exit
-ls -la
-exit
-htop
-exit
-htop
-exit
-ls -la
-htop
-htop
-paru dwm
-man paru
-info paru
-sudo pacman -S paru
-yay paru
-yay code
-yay dwm
-yay suckless
-cd 
-cd ~/.config/
-mkdir paru
-cd paru/
-cd /etc/
-ls
-cp paru.conf ~/.config/paru/
-cd
-cd .config/paru/
-nano paru.conf 
-yay fred
-yay ttf
-exit
-cd ~/.config/arco-dwm/
-ls
-sudo make clean install
-exit
-xprop
-cd ~/.config/arco-dwm/
-sudo make clean install
-exit
-upall
-exit
-cd ~/.config/arco
-cd ~/.config/arco-dwm/
-sudo make clean install
-exit
-yay hyphen-en
-yay mythes-en
-exit
-killall spotify
-rm -rf \$HOME/.cache/spotify/Storage
-exit
-yay tumbler
-yay ffmpegthumbnailer poppler-glib libgsf
-sudo pacman -S ffmpegthumbnailer poppler-glib
-exit
-killall spotify
-rm -rf \$HOME/.cache/spotify/Storage
-yay tumbler
-yay ffmpegthumbnailer poppler-glib libgsf
-sudo pacman -S ffmpegthumbnailer poppler-glib
-upall
-dots
-nano 005-create-user.sh 
-git config --global user.email "f1tzl4nd@gmail.com"
-git config --global user.name "fitzland"
-./git-v1.sh 
-git pull
-ls
-./010-backup-skel.sh 
-exit
-./010-backup-skel.sh 
-ssh-keygen -t ed25519 -C "f1tl4nd@gmail.com"
-ls -al ~/.ssh/
-eval "$(ssh-agent -s)"
-ssh-add ~/.ssh/id_ed25519
-code /home/jeff/.ssh/id_ed25519.pub 
-dots
-git pull
-./git-v1.sh 
-exit
 upall
 cleanup
 exit
@@ -497,4 +300,201 @@ sudo make clean install
 exit
 cd ~/.config/arco-dwm/
 sudo make clean install
+exit
+dots
+ls
+./010-backup-skel.sh 
+ls -la
+exit
+yay microsoft edge
+exit
+yay google-chrome
+exit
+xprop
+cd ~/.config/arco-dwm/
+ls
+sudo make clean install
+exit
+yay gnucash
+yay keepassxc
+exit
+xprop
+cd ~/.config/arco-dwm/
+sudo make clean install
+exit
+cd ~/.config/arco-dwm/
+sudo make clean install
+exit
+cd .config/arco-dwm/
+sudo make clean install
+exit
+cd .config/arco-dwm/
+sudo make clean install
+exit
+xprop
+cd .config/arco-dwm/
+sudo make clean install
+exit
+xprop
+upall
+cleanup
+exit
+upall
+exit
+cd ~/.config/arco-dwm/
+sudo make clean install
+cd .config/arco-dwm/
+sudo make clean install
+cd .config/arco-dwm/
+sudo make clean install
+xprop
+cd .config/arco-dwm/
+sudo make clean install
+xprop
+cleanup
+dots
+./git-v1.sh 
+upall
+eba
+cd
+mv .bash_aliases bash-personal
+ls
+ls -la
+mv bash-personal .bash-personal
+eb
+mv .bash-personal .bashrc-personal
+cb
+exit
+sudo pacman -Rns urxvt
+sudo pacman -Rns rxvt-unicode
+exit
+exr
+upall
+cleanup
+exit
+eb
+eba
+nano ~/.bashrc-personal 
+exit
+eba
+eb
+ls
+exit
+exr
+exit
+upall
+exit
+exr
+alias
+merge
+sudo pacman -S xrdb
+yay xrdb
+exit
+merge
+exit
+exr
+exit
+upall
+exit
+cd .config/arco-dwm/
+ls
+sudo make clean install
+exit
+cd .config/arco-dwm/
+sudo make clean install
+exit
+cd .config/arco-dwm/
+sudo make clean install
+dots
+nano 010-backup-skel.sh 
+./010-backup-skel.sh 
+ls
+./git
+./git-v1.sh 
+exit
+dots
+nano 010-backup-skel.sh 
+./010-backup-skel.sh 
+./git
+./git-v1.sh 
+sudo pacman -S reflector
+mirror
+upall
+cleanup
+cd .bin/
+cd stay-rolling/
+cd 2021/
+cd 21.03-21.05/
+ls
+./stay-rolling-v1.sh 
+cd
+exr
+exit
+exr
+exit
+merge
+exit
+exr
+merge
+exit
+exr
+exit
+exr
+merge
+exit
+exr
+merge
+exit
+exr
+merge
+exit
+upall
+exit
+cd .config/arco-dwm/
+ls
+sudo make clean install
+exit
+sudo make clean install
+cd .config/
+git clone https://git.suckless.org/dwm
+cp -r dwm dwm-fl
+ls
+upall
+exit
+cd .config/arco-dwm/
+ls
+sudo make install
+exit
+cd .config/dwm
+ls
+sudo make clean install
+exit
+upall
+cleanup
+exit
+xprop
+exit
+${env:MONITOR}
+exit
+xrandr --query | grep " connected" | cut -d" " -f1
+exit
+xprop
+exit
+xprop
+exit
+ip link
+xprop
+exit
+htop
+exit
+htop
+cd .config/arco-dwm/
+sudo make clean install
+exit
+upall
+cleanup
+sudo pacman -Rns qpdf
+exit
+upall
+cleanup
 exit

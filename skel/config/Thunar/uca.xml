@@ -49,24 +49,6 @@
 	<text-files/>
 </action>
 <action>
-	<icon>preferences-desktop-wallpaper</icon>
-	<name>Set wallpaper dual</name>
-	<unique-id>1526628754365261-1</unique-id>
-	<command>nitrogen --save --set-zoom-fill %f</command>
-	<description></description>
-	<patterns>*</patterns>
-	<image-files/>
-</action>
-<action>
-	<icon>preferences-desktop-wallpaper</icon>
-	<name>Set wallpaper single</name>
-	<unique-id>1489091195323731-3</unique-id>
-	<command>nitrogen --save --set-zoom-fill  --head=0 %f  &amp;&amp; nitrogen --set-zoom-fill  --head=1 %f</command>
-	<description></description>
-	<patterns>*</patterns>
-	<image-files/>
-</action>
-<action>
 	<icon>catfish</icon>
 	<name>Search with catfish</name>
 	<unique-id>1489089852658523-2</unique-id>
@@ -124,15 +106,6 @@
 	<image-files/>
 </action>
 <action>
-	<icon>ktexteditorautobrace</icon>
-	<name>Edit as root</name>
-	<unique-id>1526631419798289-11</unique-id>
-	<command>gksudo geany %F</command>
-	<description>edit as root</description>
-	<patterns>*</patterns>
-	<text-files/>
-</action>
-<action>
 	<icon>settings</icon>
 	<name>Ownership to root</name>
 	<unique-id>1526631155250282-8</unique-id>
@@ -169,6 +142,20 @@
 	<patterns>*</patterns>
 	<other-files/>
 	<text-files/>
+</action>
+<action>
+	<icon>conky-manager</icon>
+	<name>Conkyzen</name>
+	<unique-id>1510943357717982-3</unique-id>
+	<command>am-conkyzen</command>
+	<description>conkyzen</description>
+	<patterns>*</patterns>
+	<directories/>
+	<audio-files/>
+	<image-files/>
+	<other-files/>
+	<text-files/>
+	<video-files/>
 </action>
 <action>
 	<icon>gitahead</icon>

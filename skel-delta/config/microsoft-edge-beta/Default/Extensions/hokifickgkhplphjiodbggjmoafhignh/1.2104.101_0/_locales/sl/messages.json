@@ -1,0 +1,690 @@
+{
+   "AccountLabel": {
+      "message": "Račun"
+   },
+   "AppDescription": {
+      "message": "Pišite suvereno z Urejevalnikom Microsoft, vašim pametnim pomočnikom za preverjanje slovnice, črkovanja in sloga."
+   },
+   "AppLongDescription": {
+      "message": "Z Urejevalnikom Microsoft (1), ki je vaš brezplačni pomočnik za pisanje, ste lahko boljši pisec kjerkoli v spletu. Urejevalnik vas spremlja na vseh spletnih mestih, da so vaše spletne objave jasne in natančne. S to razširitvijo brskalnika prejmete: \r\n\r\npametno pomoč za pisanje – osnove obvladate z neverjetnim brezplačnim preverjanjem splovnice, preverjanjem črkovanja in pregledom ločil. S plačljivo različico (2) prejmete napredno preverjanje slovnice in sloga glede jasnosti, jedrnatosti, ravni bolj ali manj uradnega jezika, besednjaka in še veliko več. \r\n\r\nNe glede na to, kje pišete – s to razširitvijo brskalnika prejmete povratne informacije na spletnih mestih, kot so LinkedIn, Facebook in številna druga priljubljena mestah. Če potrebujete pomoč Urejevalnika zunaj spleta, odprite Word in poiščite ikono Urejevalnika ter si oglejte, kako vam Urejevalnik lahko pomaga v vseh dokumentih, e-pošti in drugje v spletu. \r\n\r\nNa voljo za več jezikov – osnovne povratne informacije lahko prejemate v več kot 20 jezikih (preverjanje črkovanja je posebej na voljo za več kot 80 jezikov), da bodo vaša sporočila jasna, ne glede na to, v katerem jeziku pišete. \r\n\r\nJeziki, ki so na voljo (3):\r\n– arabščina\r\n– češčina\r\n– danščina\r\n– nizozemščina\r\n– angleščina\r\n– finščina\r\n– francoščina\r\n– nemščina\r\n– hebrejščina (še ni na voljo v namizni aplikaciji Word)\r\n– madžarščina\r\n– italijanščina\r\n– japonščina\r\n– korejščina\r\n– norveščina (bokmal)\r\n– poljščina\r\n– portugalščina (Brazilija)\r\n– portugalščina (Portugalska)\r\n– ruščina\r\n– španščina\r\n– švedščina\r\n– turščina\r\n\r\n(1) Na voljo za braskalnik Microsoft Edge ali Chrome, potrebujete pa Microsoftov račun. Urejevalnik se poveže z Microsoftovo spletno storitvijo, ki ponuja črkovanje, preverjanje slovnice in predloge za izboljšanje jezika na večini spletnih mest. \r\n (2) Za dostop do plačljivih funkcij Urejevalnika potrebujete naročnino na Microsoft 365 \r\n (3) Urejevalnik vključuje predloge za izboljšanje sloga pisanja za te jezike; vsi jeziki nimajo enakega nabora izboljšav. \r\n\r\nZ namestitvijo aplikacije se strinjate s temi pogoji in določili: \r\n\r\nhttps://aka.ms/editorchromeextensionterms\r\n\r\nPravilnik o zasebnosti: http://aka.ms/privacy"
+   },
+   "AppLongDescriptionEdge": {
+      "message": "Z Urejevalnikom Microsoft – vašim pametnim pomočnikom za preverjanje slovnice, črkovanja in sloga pisanja – boste lahko pisali samozavestno. \r\n\r\nPostanite boljši pisec na spletnih mestih z Urejevalnikom Microsoft (1), vašim brezplačnim pomočnikom za pisanje. Urejevalnik vas spremlja po spletnih mestih, zato lahko kjer koli ustvarite jasne in dosledne objave. S to razširitvijo brskalnika prejmete: \r\n\r\nPametno pomoč za pisanje – zahvaljujoč se brezplačni funkciji preverjanja črkovanja, slovnice in ločil v vaših besedilih ne bo osnovnih napak. S plačljivo različico pa boste prejeli napredno preverjanje slovnice in sloga na področjih jasnosti, doslednosti, uradnosti, besedišča in drugih (2). \r\n\r\nPisanje na poljubnem mestu – s to razširitvijo brskalnika boste prejeli povratne informacije na spletnih mestih, kot so LinkedIn, Facebook in druga priljubljena mesta. Če želite pomoč Urejevalnika tudi zunaj spleta, odprite Word in odprite ikono Urejevalnika, da si ogledate, kako vam lahko Urejevalnik pomaga pri delu z dokumenti, e-pošto in spletom. \r\n\r\nNa voljo v več jezikih – prejeli boste povratne informacije v več kot 20 jezikih (preverjanje napak črkovanja pa je na voljo za več kot 80 jezikov), zaradi česar bo vaša komunikacija jasna, ne glede na to, v katerem jeziku pišete. \r\n\r\nRazpoložljivost jezikov (3):\r\n– arabščina\r\n– češčina\r\n– danščina\r\n– nizozemščina\r\n– angleščina\r\n– finščina\r\n– francoščina\r\n– nemščina\r\n– hebrejščina (še ni na voljo v namizni aplikaciji Word)\r\n– madžarščina\r\n– italijanščina\r\n– japonščina\r\n– korejščina\r\n– norveščina (bokmal)\r\n– poljščina\r\n– portugalščina (Brazilija)\r\n– portugalščina (Portugalska)\r\n– ruščina\r\n– španščina\r\n– švedščina\r\n– turščina\r\n\r\n(1) Na voljo za brskalnike Microsoft Edge ali Chrome, zahtevan pa je Microsoftov račun. Urejevalnik vzpostavi povezavo z Microsoftovo spletno storitvijo, ki ponuja predloge za črkovanje, slovnico in izboljšanje vaše vsebine na skoraj vseh spletnih mestih. \r\n (2) Za dostop do plačljivih funkcij Urejevalnika potrebujete naročnino na Microsoft 365. \r\n (3) Urejevalnik vključuje predloge za izboljšanje sloga pisanja za te jezike; vsi jeziki nimajo enakega nabora izboljšav. \r\n\r\nZ namestitvijo aplikacije se strinjate s temi pogoji in določili: \r\n\r\nhttps://aka.ms/editorchromeextensionterms\r\n\r\nPravilnik o zasebnosti: http://aka.ms/privacy"
+   },
+   "AppName": {
+      "message": "Urejevalnik Microsoft: preverjanje črkovanja in slovnice"
+   },
+   "AppShortName": {
+      "message": "Editor"
+   },
+   "AppTermsOfServiceLCA": {
+      "message": "PLEASE NOTE: Refer to your license terms for your Microsoft Account or Microsoft 365 subscription as applicable (the \"extension\") to identify the entity licensing this extension to you and for support information.  The license terms for the Microsoft Account or Microsoft 365 subscription as applicable apply to your use of this extension."
+   },
+   "ConflictDetectedAnnouncementText": {
+      "message": "Če se hkrati izvajata druga razširitev za urejanje in Editor, lahko pride do prekrivanja ali sporov med njunimi predlogi. Če želite najboljšo izkušnjo Editor, priporočamo, da v nastavitvah razširitev brskalnika izklopite druge razširitve za urejanje."
+   },
+   "ConflictDetectedAnnouncementTitle": {
+      "message": "Zaznan je spor med razširitvami za urejanje"
+   },
+   "DisableEditorOnThisSiteLabel": {
+      "message": "Onemogoči Editor v gostitelju $host$",
+      "placeholders": {
+         "host": {
+            "content": "$1",
+            "example": "facebook.com"
+         }
+      }
+   },
+   "EditorBrandText": {
+      "message": "Microsoft Editor"
+   },
+   "EditorGrammarToggleLabel": {
+      "message": "Slovnica"
+   },
+   "EditorIsBlockedOnThisSiteLabel": {
+      "message": "Editor trenutno ni podprt v gostitelju $host$",
+      "placeholders": {
+         "host": {
+            "content": "$1",
+            "example": "facebook.com"
+         }
+      }
+   },
+   "EditorIsDisabledOnThisSiteLabel": {
+      "message": "Editor je trenutno onemogočen v gostitelju $host$",
+      "placeholders": {
+         "host": {
+            "content": "$1",
+            "example": "facebook.com"
+         }
+      }
+   },
+   "EditorIsOffLabel": {
+      "message": "Editor je izklopljen."
+   },
+   "EditorNativeSupportOnThisSiteLabel": {
+      "message": "Editor je vključen pri gostitelju $host$",
+      "placeholders": {
+         "host": {
+            "content": "$1",
+            "example": "outlook.com"
+         }
+      }
+   },
+   "EditorProofingLanguageAriaLabel": {
+      "message": "Jezik za preverjanje: $languageId$",
+      "placeholders": {
+         "languageId": {
+            "content": "$1",
+            "example": "sl"
+         }
+      }
+   },
+   "EditorProofingLanguageLabel": {
+      "message": "Jezik za preverjanje"
+   },
+   "EditorProofingLanguagesLabel": {
+      "message": "Jeziki za preverjanje"
+   },
+   "EditorRefinementsGoPremiumTooltip": {
+      "message": "Ko začnete uporabljati plačljivo različico, dobite napredne zamisli za pisanje in 1 TB shrambe."
+   },
+   "EditorRefinementsToggleLabel": {
+      "message": "Izboljšave"
+   },
+   "EditorRefinementsTooltip": {
+      "message": "Izboljšave so napredni predlogi za pisanje, s katerimi bo vaše besedilo bolj jasno, jedrnato ali uradno."
+   },
+   "EditorSettingsLabel": {
+      "message": "Več nastavitev Editorja"
+   },
+   "EditorSpellingToggleLabel": {
+      "message": "Črkovanje"
+   },
+   "EnableEditorOnThisSiteLabel": {
+      "message": "Omogoči Editor v gostitelju $host$",
+      "placeholders": {
+         "host": {
+            "content": "$1",
+            "example": "facebook.com"
+         }
+      }
+   },
+   "MyAccountLabel": {
+      "message": "Prikaži račun"
+   },
+   "PopupGroupAriaLabel": {
+      "message": "Razširitev brskalnika Microsoft Editor"
+   },
+   "PostUpsellAnnouncementText": {
+      "message": "Uspešno ste izvedli nadgradnjo Urejevalnika Microsoft na plačljivo različico. Raziščite nabor razširjenih funkcij tako, da kliknete modre in škrlatne podčrte v besedilu."
+   },
+   "PostUpsellAnnouncementTitle": {
+      "message": "Čestitamo"
+   },
+   "SettingsLabel": {
+      "message": "Nastavitve računa"
+   },
+   "SignInLabel": {
+      "message": "Vpis"
+   },
+   "SignOutLabel": {
+      "message": "Izpis"
+   },
+   "SignOutTooltip": {
+      "message": "Z izpisom boste vse nastavitve ponastavili na privzete vrednosti in izgubili seznam izključenih spletnih mest."
+   },
+   "SupportPageLabel": {
+      "message": "Ali potrebujete pomoč pri vpisu​?"
+   },
+   "TurnOnEditorLabel": {
+      "message": "Vklopi Editor"
+   },
+   "ebx_AddLanguageBlockedTooltip": {
+      "message": "Preverjanje lahko vklopite le za tri jezike hkrati."
+   },
+   "ebx_Cancel": {
+      "message": "Prekliči"
+   },
+   "ebx_Done": {
+      "message": "Dokončano"
+   },
+   "ebx_FeedbackSubmitted": {
+      "message": "Povratne informacije so bile uspešno poslane."
+   },
+   "ebx_MultiLanguageAnnouncementSelectedLanguage": {
+      "message": "Glede na vaše trenutne nastavitve jezika smo izbrali jezik $language$.",
+      "placeholders": {
+         "language": {
+            "content": "$1",
+            "example": "angleščina (Združeno kraljestvo)"
+         }
+      }
+   },
+   "ebx_MultiLanguageAnnouncementText": {
+      "message": "Preverite črkovanje in slovnico za tri jezike hkrati."
+   },
+   "ebx_MultiLanguageAnnouncementTextEditSettings": {
+      "message": "Jezike lahko urejate v nastavitvah urejevalnika."
+   },
+   "ebx_MultiLanguageAnnouncementThreeSelectedLanguages": {
+      "message": "Izbrali smo $language1$​​​​​, $language2$​​​​​in $language3$​​​​​ glede na trenutne nastavitve brskalnika.",
+      "placeholders": {
+         "language1": {
+            "content": "$1",
+            "example": "angleščina (Združeno kraljestvo)"
+         },
+         "language2": {
+            "content": "$2",
+            "example": "angleščina (Združeno kraljestvo)"
+         },
+         "language3": {
+            "content": "$3",
+            "example": "angleščina (Združeno kraljestvo)"
+         }
+      }
+   },
+   "ebx_MultiLanguageAnnouncementTitle": {
+      "message": "Preverjanje v več jezikih z Urejevalnikom"
+   },
+   "ebx_MultiLanguageAnnouncementTwoSelectedLanguages": {
+      "message": "Glede na vaše trenutne nastavitve brskalnika smo izbrali jezika $language1$​​​​​ in $language2$​​​​​.",
+      "placeholders": {
+         "language1": {
+            "content": "$1",
+            "example": "angleščina (Združeno kraljestvo)"
+         },
+         "language2": {
+            "content": "$2",
+            "example": "angleščina (Združeno kraljestvo)"
+         }
+      }
+   },
+   "ebx_ProofingLanguages": {
+      "message": "Jeziki za preverjanje"
+   },
+   "ebx_RefinementTooltip": {
+      "message": "Vpisani naročniki na Microsoft 365 imajo omogočene napredne predloge pri pisanju."
+   },
+   "ebx_RemoveItem": {
+      "message": "Odstrani"
+   },
+   "ebx_SignInAnnouncementAlternativeText": {
+      "message": "Če želite pridobiti predloge za pisanje na večini spletnih mest, se vpišite v svoj Microsoftov račun ali delovni oziroma šolski račun, ki ga uporabljate za Office."
+   },
+   "ebx_SignInAnnouncementSignIn": {
+      "message": "Vpis"
+   },
+   "ebx_SignInAnnouncementText": {
+      "message": "Vpišite se, če želite pisati predloge na večino spletnih mest. Shranili bomo vaše nastavitve, kot so jeziki, v katerih pišete, in vrste težav, za katere želite, da jih preveri Urejevalnik."
+   },
+   "ebx_SignInAnnouncementTitle": {
+      "message": "Urejevalnik se še ne izvaja"
+   },
+   "ebx_SquiggleTooltipAriaText": {
+      "message": "Odprite z levo miškino tipko ali Alt+Down Arrow"
+   },
+   "ebx_SquiggleTooltipAriaTextMac": {
+      "message": "Odprite tako, da kliknete levo tipko miške ali Control+možnost+puščico navzdol"
+   },
+   "ebx_SquiggleTooltipCombination": {
+      "message": "(Alt+puščica dol)"
+   },
+   "ebx_SquiggleTooltipCombinationMac": {
+      "message": "(Control+Option+puščica navzdol)"
+   },
+   "ebx_SquiggleTooltipGrammarTitle": {
+      "message": "Popravek slovnice"
+   },
+   "ebx_SquiggleTooltipRefinementTitle": {
+      "message": "Izpopolnjevanje pisanja"
+   },
+   "ebx_SquiggleTooltipSpellingTitle": {
+      "message": "Popravek črkovanja"
+   },
+   "ebx_SquiggleTooltipText": {
+      "message": "Odpri z levo tipko miške"
+   },
+   "ebx_addAnotherSite": {
+      "message": "Dodaj drugo spletno mesto"
+   },
+   "ebx_addAnotherSiteAriaLabel": {
+      "message": "Dodaj drugo spletno mesto"
+   },
+   "ebx_addAnotherSiteCancel": {
+      "message": "Prekliči dodajanje spletnega mesta na seznam blokiranih spletnih mest."
+   },
+   "ebx_addAnotherSiteSubmit": {
+      "message": "Dodaj spletno mesto na seznam blokiranih spletnih mest."
+   },
+   "ebx_addButton": {
+      "message": "Dodaj"
+   },
+   "ebx_addGrammarChecking": {
+      "message": "Če želite dodati preverjanje slovnice,"
+   },
+   "ebx_addLanguageCancel": {
+      "message": "Prekliči dodajanje jezika na seznam jezikov za preverjanje"
+   },
+   "ebx_addLanguageSubmit": {
+      "message": "Dodaj jezik na seznam jezikov za preverjanje"
+   },
+   "ebx_addProofingLanguage": {
+      "message": "Dodajte drugi jezik"
+   },
+   "ebx_addToDictionaryButtonLabel": {
+      "message": "Dodajte v imenik"
+   },
+   "ebx_appDescription": {
+      "message": "Pišite suvereno z Urejevalnikom Microsoft, vašim pametnim pomočnikom"
+   },
+   "ebx_appLongDescription": {
+      "message": "Urejevalnik nudi predloge za slovnico, črkovanje in slog na spletnih mestih (1). Tako lahko ustvarjate razumljive in dosledne objave in e-poštna sporočila. \r\n\r\nNOVO: preverjanje črkovanja v več jezikih, možnost preziranja \r\nPreverite črkovanje in slovnico za največ tri jezike hkrati. Preverjanje črkovanja je odslej na voljo za tajščino. Poenostavili smo tudi preskakovanje vseh primerkov popravkov črkovanja z možnostjo »Prezri vse«. Preskočite pa lahko le neželene predloge za slovnico tako, da izberete »Prezri«. \r\n\r\nPametna pomoč pri pisanju \r\nIzkoristite priročno preverjanje osnov slovnice, črkovanja in ločil. Dobite napredne predloge za slovnico in preverjanje sloga, s katerimi lahko odpravite težave z razumljivostjo, doslednostjo, uradnostjo, besediščem in veliko drugega z možnostjo premium (zahteva naročnino na Microsoft 365). \r\n\r\nPišite kjer koli \r\nS to razširitvijo brskalnika dobite pomoč za pisanje na spletnih mestih, kot so LinkedIn, Gmail, Facebook in druga priljubljena spletna mesta. Če želite pomoč Urejevalnika tudi zunaj spleta, zaženite Word in poiščite ikono Urejevalnika, da si ogledate, kako vam lahko Urejevalnik pomaga pri pisanju dokumentov in e-pošte. \r\n\r\nNa voljo v več jezikih \r\nUrejevalnik preveri črkovanje v več kot 80 jezikih ter ponudi preverjanje slovničnih napak in predloge za izboljšavo sloga pisanja v teh jezikih: (2) \r\n– arabščina\r\n– češčina\r\n– danščina\r\n– nizozemščina\r\n– angleščina\r\n– finščina\r\n– francoščina\r\n– nemščina\r\n– hebrejščina\r\n– madžarščina\r\n– italijanščina\r\n– japonščina\r\n– korejščina\r\n– norveščina (bokmal)\r\n– poljščina\r\n– portugalščina (Brazilija)\r\n– portugalščina (Portugalska)\r\n– ruščina\r\n– španščina\r\n– švedščina\r\n– turščina\r\n\r\n1. Na voljo za brskalnik Microsoft Edge ali Chrome in zahteva Microsoftov račun. Urejevalnik vzpostavi povezavo z Microsoftovimi spletnimi storitvami, ki nudijo predloge za črkovanje, slovnico in izboljšavo sloga pisanja na večini spletnih mest. \r\n2. nimajo vsi jeziki enakega nabora izboljšav. \r\n\r\nZ namestitvijo aplikacije sprejemate te pogoje in določila: \r\n\r\nhttps://aka.ms/editorchromeextensionterms\r\n\r\nPravilnik o zasebnosti: http://aka.ms/privacy"
+   },
+   "ebx_appLongDescriptionEdge": {
+      "message": "Pišite suvereno z Urejevalnikom Microsoft, vašim pametnim pomočnikom. \r\n\r\nUrejevalnik nudi predloge za slovnico, črkovanje in slog na spletnih mestih (1). Tako lahko ustvarjate razumljive in dosledne objave in e-poštna sporočila. \r\n\r\nNOVO: preverjanje črkovanja v več jezikih, možnost preziranja \r\nPreverite črkovanje in slovnico za največ tri jezike hkrati. Preverjanje črkovanja je odslej na voljo za tajščino. Poenostavili smo tudi preskakovanje vseh primerkov popravkov črkovanja z možnostjo »Prezri vse«. Preskočite pa lahko le neželene predloge za slovnico tako, da izberete »Prezri«. \r\n\r\nPametna pomoč pri pisanju\r\nIzkoristite priročno preverjanje osnov slovnice, črkovanja in ločil. Dobite napredne predloge za slovnico in preverjanje sloga, s katerimi lahko odpravite težave z razumljivostjo, doslednostjo, uradnostjo, besediščem in veliko drugega z možnostjo premium (zahteva naročnino na Microsoft 365). \r\n\r\nPišite kjer koli \r\nS to razširitvijo brskalnika dobite pomoč za pisanje na spletnih mestih, kot so LinkedIn, Gmail, Facebook in druga priljubljena spletna mesta. Če želite pomoč Urejevalnika tudi zunaj spleta, zaženite Word in poiščite ikono Urejevalnika, da si ogledate, kako vam lahko Urejevalnik pomaga pri pisanju dokumentov in e-pošte. \r\n\r\nNa voljo v več jezikih \r\nUrejevalnik preveri črkovanje v več kot 80 jezikih ter ponudi preverjanje slovničnih napak in predloge za izboljšavo sloga pisanja v teh jezikih: (2) \r\n– arabščina\r\n– češčina\r\n– danščina\r\n– nizozemščina\r\n– angleščina\r\n– finščina\r\n– francoščina\r\n– nemščina\r\n– hebrejščina\r\n– madžarščina\r\n– italijanščina\r\n– japonščina\r\n– korejščina\r\n– norveščina (bokmal)\r\n– poljščina\r\n– portugalščina (Brazilija)\r\n– portugalščina (Portugalska)\r\n– ruščina\r\n– španščina\r\n– švedščina\r\n– turščina\r\n\r\n1. Na voljo za brskalnik Microsoft Edge ali Chrome in zahteva Microsoftov račun. Urejevalnik vzpostavi povezavo z Microsoftovimi spletnimi storitvami, ki nudijo predloge za črkovanje, slovnico in izboljšavo sloga pisanja na večini spletnih mest. \r\n2. nimajo vsi jeziki enakega nabora izboljšav. \r\n\r\nZ namestitvijo aplikacije sprejemate te pogoje in določila: \r\n\r\nhttps://aka.ms/editorchromeextensionterms\r\n\r\nPravilnik o zasebnosti: http://aka.ms/privacy"
+   },
+   "ebx_appName": {
+      "message": "Editor v brskalniku"
+   },
+   "ebx_appShortName": {
+      "message": "Editor"
+   },
+   "ebx_appTermsOfServiceLCA": {
+      "message": "PLEASE NOTE: Refer to your license terms for your Microsoft Account or Microsoft 365 subscription as applicable (the \"extension\") to identify the entity licensing this extension to you and for support information.  The license terms for the Microsoft Account or Microsoft 365 subscription as applicable apply to your use of this extension."
+   },
+   "ebx_ariaReplaceWith": {
+      "message": "Zamenjaj s skupino"
+   },
+   "ebx_asInSynonyms": {
+      "message": "podobno"
+   },
+   "ebx_blockedSiteAdded": {
+      "message": "\"$url$\" je bil uspešno dodan",
+      "placeholders": {
+         "url": {
+            "content": "$1",
+            "example": "https://microsoft.com"
+         }
+      }
+   },
+   "ebx_blockedSiteEntryHint": {
+      "message": "Pritisnite desno puščično tipko za dostop do gumba» odstrani «."
+   },
+   "ebx_blockedSiteListEmpty": {
+      "message": "Seznam je prazen."
+   },
+   "ebx_blockedSiteRemoved": {
+      "message": "\"$url$\" je bil uspešno odstranjen",
+      "placeholders": {
+         "url": {
+            "content": "$1",
+            "example": "https://microsoft.com"
+         }
+      }
+   },
+   "ebx_brandText": {
+      "message": "Microsoft Editor"
+   },
+   "ebx_brandTextArialLabel": {
+      "message": "Logotip za Microsoft Editor"
+   },
+   "ebx_changeAllCommandLabel": {
+      "message": "Spremeni vse"
+   },
+   "ebx_changeSettingsCommandLabel": {
+      "message": "Nastavitve Editor..."
+   },
+   "ebx_checkForRefinements": {
+      "message": "Preveri podrobnosti"
+   },
+   "ebx_checkGrammar": {
+      "message": "Preveri slovnico"
+   },
+   "ebx_checkSpelling": {
+      "message": "Preveri črkovanje"
+   },
+   "ebx_close": {
+      "message": "Zapri"
+   },
+   "ebx_comingSoonTooltipTitle": {
+      "message": "Kmalu na voljo"
+   },
+   "ebx_deleteRepeatedWord": {
+      "message": "[Izbrišite ponovljeno besedo]"
+   },
+   "ebx_disableCritiqueButton": {
+      "message": "Ustavi preverjanje tega"
+   },
+   "ebx_disableCritiqueButtonAriaLabel": {
+      "message": "Nehaj preverjati to. Urejevalnik bo uporabil to nastavitev, dokler je ne boste spremenili."
+   },
+   "ebx_disableCritiqueTooltip": {
+      "message": "Urejevalnik bo uporabil to nastavitev, dokler je ne spremenite."
+   },
+   "ebx_displayOptions": {
+      "message": "Možnosti prikaza"
+   },
+   "ebx_duplicateBlockedSite": {
+      "message": "To spletno mesto je že na seznamu blokiranih spletnih mest"
+   },
+   "ebx_editorEnableAnnouncementText": {
+      "message": "Microsoft Officeova razširitev za brskalnika odslej vključuje Microsoft Editor, pametnega pomočnika za pisanje, s katerim boste lahko v spletu ustvarili svoje najboljše pisne izdelke. Microsoft Editor vzpostavi povezavo s spletno storitvijo ter ponudi predloge za črkovanje, slovnico in slog."
+   },
+   "ebx_editorEnableAnnouncementTitle": {
+      "message": "Microsoft Editor (predogled) se zdaj izvaja"
+   },
+   "ebx_editorFeature": {
+      "message": "Microsoft Editor"
+   },
+   "ebx_editorFeatureOffText": {
+      "message": "Izklopljeno"
+   },
+   "ebx_editorFeatureOfficeBx": {
+      "message": "Izklopite Editor"
+   },
+   "ebx_editorFeatureOnText": {
+      "message": "Vklopljeno"
+   },
+   "ebx_editorFeatureToggleLabel": {
+      "message": "Funkcija Editorja"
+   },
+   "ebx_enhancedUpsellCategoriesAnd": {
+      "message": " in "
+   },
+   "ebx_enhancedUpsellCategoriesComma": {
+      "message": ", "
+   },
+   "ebx_enhancedUpsellLinePartA": {
+      "message": "Urednik ima"
+   },
+   "ebx_enhancedUpsellLinePartBPlural": {
+      "message": "napredne zamisli za pisanje tega sporočila."
+   },
+   "ebx_enhancedUpsellLinePartBSingular": {
+      "message": "napredna zamisel za pisanje tega sporočila."
+   },
+   "ebx_excludedSites": {
+      "message": "Izključena mesta"
+   },
+   "ebx_feedbackCommentQuestion": {
+      "message": "Povejte nam, zakaj ste izbrali ta odgovor."
+   },
+   "ebx_feedbackLink": {
+      "message": "povratne informacije"
+   },
+   "ebx_feedbackMessage": {
+      "message": "Pomagajte nam izboljšati Editor tako, da nam pošljete"
+   },
+   "ebx_feedbackRating1": {
+      "message": "Zelo negativno"
+   },
+   "ebx_feedbackRating2": {
+      "message": "Nekoliko negativno"
+   },
+   "ebx_feedbackRating3": {
+      "message": "Niti pozitivno niti negativno"
+   },
+   "ebx_feedbackRating4": {
+      "message": "Razmeroma pozitivno"
+   },
+   "ebx_feedbackRating5": {
+      "message": "Zelo pozitivno"
+   },
+   "ebx_feedbackRatingQuestion": {
+      "message": "Kako bi na splošno ocenili svojo izkušnjo z Urejevalnikom Microsoft"
+   },
+   "ebx_feedbackSubmitNotice": {
+      "message": "Če pritisnete »Pošlji«, bomo vaše povratne informacije uporabili za izboljšanje Microsoftovih izdelkov in storitev."
+   },
+   "ebx_feedbackTitle": {
+      "message": "Pošljite povratne informacije za Microsoft Urejevalnik"
+   },
+   "ebx_giveFeedback": {
+      "message": "Pošlji povratne informacije"
+   },
+   "ebx_goPremiumExplained": {
+      "message": "Dobite Urejevalnikove napredne predloge za pisanje, 1 TB shrambe v OneDrive in plačljive funkcije v vseh programih Microsoft 365."
+   },
+   "ebx_goPremiumExplainedMicrosoft365": {
+      "message": "Dobite Urejevalnikove napredne predloge za pisanje, 1 TB shrambe v OneDrive in plačljive funkcije v vseh programih Microsoft 365."
+   },
+   "ebx_goPremiumLine": {
+      "message": "Preskusite napredne zamisli pisanja v Editor."
+   },
+   "ebx_goPremiumLinkText": {
+      "message": "Začnite uporabljati plačljivo različico"
+   },
+   "ebx_goPremiumLinkTextLowerCase": {
+      "message": "začnite uporabljati različico Premium"
+   },
+   "ebx_goToSettings": {
+      "message": "Pojdi v razdelek z nastavitvami Urejevalnika"
+   },
+   "ebx_goToSettingsToLearnMore": {
+      "message": "Več informacij najdete v razdelku z nastavitvami Urednika"
+   },
+   "ebx_grammar": {
+      "message": "Slovnica"
+   },
+   "ebx_hideSynonyms": {
+      "message": "Skrij sopomenke"
+   },
+   "ebx_ignoreAllButtonLabel": {
+      "message": "Prezri vse"
+   },
+   "ebx_ignoreOnceButtonLabel": {
+      "message": "Prezri"
+   },
+   "ebx_languageAdded": {
+      "message": "Jezik \"$language$\" je bil uspešno dodan",
+      "placeholders": {
+         "language": {
+            "content": "$1",
+            "example": "angleščina (Združeno kraljestvo)"
+         }
+      }
+   },
+   "ebx_languageMovedToTop": {
+      "message": "Jezik \"$language$\" je bil uspešno premaknjen na vrh seznama",
+      "placeholders": {
+         "language": {
+            "content": "$1",
+            "example": "angleščina (Združeno kraljestvo)"
+         }
+      }
+   },
+   "ebx_languageMovedUp": {
+      "message": "Jezik \"$language$\" je bil uspešno premaknjen en položaj višje na seznamu",
+      "placeholders": {
+         "language": {
+            "content": "$1",
+            "example": "angleščina (Združeno kraljestvo)"
+         }
+      }
+   },
+   "ebx_languageRemoved": {
+      "message": "Jezik \"$language$\" je bil uspešno odstranjen",
+      "placeholders": {
+         "language": {
+            "content": "$1",
+            "example": "angleščina (Združeno kraljestvo)"
+         }
+      }
+   },
+   "ebx_learnMore": {
+      "message": "Več informacij"
+   },
+   "ebx_manageLanguagesButton": {
+      "message": "Upravljanje jezikov"
+   },
+   "ebx_moreButtonArialLabel": {
+      "message": "Več ukazov"
+   },
+   "ebx_moveDown": {
+      "message": "Premakni navzdol"
+   },
+   "ebx_moveToTop": {
+      "message": "Premakni na vrh"
+   },
+   "ebx_moveUp": {
+      "message": "Premakni navzgor"
+   },
+   "ebx_optionsPageTitle": {
+      "message": "Nastavitve Editor"
+   },
+   "ebx_premiumPreviewGeneralLine": {
+      "message": "Pridobite napredne zamisli pisanja v Urejevalniku."
+   },
+   "ebx_premiumPreviewLineDaysPlural": {
+      "message": "dni v tem predogledu. Če želite neomejeno število predlogov, izvedite nadgradnjo:"
+   },
+   "ebx_premiumPreviewLineDaysSingular": {
+      "message": "dan v tem predogledu. Če želite neomejeno število predlogov, izvedite nadgradnjo:"
+   },
+   "ebx_premiumPreviewLineSuggestionsPlural": {
+      "message": "predlogov v tem predogledu. Če želite neomejeno število predlogov, izvedite nadgradnjo:"
+   },
+   "ebx_premiumPreviewLineSuggestionsSingular": {
+      "message": "predlog v tem predogledu. Če želite neomejeno število predlogov, izvedite nadgradnjo:"
+   },
+   "ebx_preview": {
+      "message": "(Preview)"
+   },
+   "ebx_previewLabel": {
+      "message": "PREDOGLED"
+   },
+   "ebx_privacyOptionSendData": {
+      "message": "Samodejno pošiljajte neobvezne diagnostične podatke med uporabo te spletne storitve, da nam pomagajo izboljšati naše izdelke."
+   },
+   "ebx_privacyOptionSendDataLink": {
+      "message": "Več informacij o diagnostičnih podatkih"
+   },
+   "ebx_privacyOptions": {
+      "message": "Možnosti zasebnosti"
+   },
+   "ebx_proofingLanguage": {
+      "message": "Jezik za preverjanje"
+   },
+   "ebx_proofingLanguageEntryHint": {
+      "message": "Če želite dostopati do ukaznega gumba »Več«, pritisnite desno puščično tipko."
+   },
+   "ebx_proofingLanguagePlaceHolder": {
+      "message": "Izberite jezik"
+   },
+   "ebx_proofingLanguages": {
+      "message": "Jeziki za preverjanje"
+   },
+   "ebx_proofingLanguagesDescription": {
+      "message": "Izberite največ tri jezike. Vaš primarni jezik bo prikazan na vrhu."
+   },
+   "ebx_rateExtensionPrompt": {
+      "message": "Ali je Urejevalnik uporaben?"
+   },
+   "ebx_rateExtensionPromptGiveFeedback": {
+      "message": "Posredujte nam povratne informacije"
+   },
+   "ebx_rateExtensionPromptNegative": {
+      "message": "Žal nam je, da ste se tako odločili. Zaupajte nam, kako lahko izboljšamo Urejevalnik."
+   },
+   "ebx_rateExtensionPromptNo": {
+      "message": "Ne"
+   },
+   "ebx_rateExtensionPromptNoThanks": {
+      "message": "Ne, hvala"
+   },
+   "ebx_rateExtensionPromptPositive": {
+      "message": "Odlično, ali želite oceniti razširitev?"
+   },
+   "ebx_rateExtensionPromptPositiveAlt": {
+      "message": "Če še vedno radi uporabljate Urejevalnik, ali bi ga ocenili?"
+   },
+   "ebx_rateExtensionPromptSure": {
+      "message": "Seveda"
+   },
+   "ebx_rateExtensionPromptYes": {
+      "message": "Da"
+   },
+   "ebx_rateExtensionTitle": {
+      "message": "Povratne informacije o Urejevalniku Microsoft"
+   },
+   "ebx_refinements": {
+      "message": "Izboljšave"
+   },
+   "ebx_settings": {
+      "message": "Nastavitve"
+   },
+   "ebx_settingsPageAriaLabel": {
+      "message": "Nastavitve za Microsoft Editor"
+   },
+   "ebx_settingsPerLanguage": {
+      "message": "Nastavitve za jezik"
+   },
+   "ebx_showSynonyms": {
+      "message": "Pokaži sopomenke"
+   },
+   "ebx_showSynonymsToggleCaption": {
+      "message": "Pokaži sopomenke za predloge črkovanja"
+   },
+   "ebx_signIntoEditor": {
+      "message": "se vpišite v Urejevalnik."
+   },
+   "ebx_signIntoEditorBody": {
+      "message": "Če želite pridobiti predloge za slovnico in slogovne izboljšave na večini spletnih mest, se vpišite."
+   },
+   "ebx_signIntoEditorTile": {
+      "message": "Vpis v Urejevalnik"
+   },
+   "ebx_spelling": {
+      "message": "Črkovanje"
+   },
+   "ebx_suggestionMoreActionsArialLabel": {
+      "message": "Več dejanj"
+   },
+   "ebx_synonymsNotAvailable": {
+      "message": "[Sopomenke niso na voljo]"
+   },
+   "ebx_toggleOff": {
+      "message": "Izklopljeno"
+   },
+   "ebx_toggleOn": {
+      "message": "Vklopljeno"
+   },
+   "ebx_toneLabel": {
+      "message": "Tone"
+   },
+   "ebx_tryPremiumPreviewLink": {
+      "message": "Preskusite zdaj"
+   },
+   "ebx_turnOffEditor": {
+      "message": "Izklopite Editor"
+   },
+   "ebx_turnOffEditorExplained": {
+      "message": "Editor vzpostavi povezavo z Microsoftovo spletno storitvijo, ki ponuja predloge črkovanja, slovnice in sloga za pisanje na večini spletnih mest."
+   },
+   "ebx_userBlockedSites": {
+      "message": "Blokirana spletna mesta"
+   },
+   "ebx_userExcludedUrlErrorCaption": {
+      "message": "Neveljaven URL. Prosimo, navedite URL v tej obliki: https://example.com"
+   },
+   "ebx_userExcludedUrlsErrorCaption": {
+      "message": "Neveljaven url \"$url$\" v vrstici $line$.",
+      "placeholders": {
+         "line": {
+            "content": "$2",
+            "example": "123"
+         },
+         "url": {
+            "content": "$1",
+            "example": "https://microsoft.com"
+         }
+      }
+   },
+   "ebx_userExcludedUrlsTextBoxCaption": {
+      "message": "Onemogočili ste Editor na spodaj navedenih spletnih mestih. Editor bo morda samodejno onemogočen na dodatnih spletnih mestih z občutljivo vsebino ali nizko hitrostjo nalaganja."
+   },
+   "sbx_signInDescription": {
+      "message": "Če želite na večini spletnih mest dobiti predloge za črkovanje, slovnico in izpopolnjevanje, se vpišite."
+   }
+}
