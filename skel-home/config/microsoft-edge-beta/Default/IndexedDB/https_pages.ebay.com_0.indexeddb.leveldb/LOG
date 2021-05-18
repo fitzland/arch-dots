@@ -1,6 +1,0 @@
-2021/05/07-20:23:33.044 5b34 Creating DB /home/jeff/.config/microsoft-edge-beta/Default/IndexedDB/https_pages.ebay.com_0.indexeddb.leveldb since it was missing.
-2021/05/07-20:23:33.060 5b34 Reusing MANIFEST /home/jeff/.config/microsoft-edge-beta/Default/IndexedDB/https_pages.ebay.com_0.indexeddb.leveldb/MANIFEST-000001
-2021/05/07-20:23:49.186 4ecc Level-0 table #5: started
-2021/05/07-20:23:49.187 4ecc Level-0 table #5: 1266 bytes OK
-2021/05/07-20:23:49.190 4ecc Delete type=0 #3
-2021/05/07-20:23:49.190 4ecc Manual compaction at level-0 from (begin) .. (end); will stop at (end)

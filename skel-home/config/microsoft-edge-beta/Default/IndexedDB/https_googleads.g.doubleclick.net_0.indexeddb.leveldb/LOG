@@ -1,7 +1,0 @@
-2021/05/15-15:29:53.939 223ac Reusing MANIFEST /home/jeff/.config/microsoft-edge-beta/Default/IndexedDB/https_googleads.g.doubleclick.net_0.indexeddb.leveldb/MANIFEST-000001
-2021/05/15-15:29:53.939 223ac Recovering log #3
-2021/05/15-15:29:53.939 223ac Reusing old log /home/jeff/.config/microsoft-edge-beta/Default/IndexedDB/https_googleads.g.doubleclick.net_0.indexeddb.leveldb/000003.log 
-2021/05/15-15:30:05.713 2249f Level-0 table #5: started
-2021/05/15-15:30:05.714 2249f Level-0 table #5: 385 bytes OK
-2021/05/15-15:30:05.717 2249f Delete type=0 #3
-2021/05/15-15:30:05.717 2249f Manual compaction at level-0 from (begin) .. (end); will stop at (end)
