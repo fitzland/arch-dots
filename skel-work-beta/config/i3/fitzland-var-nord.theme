@@ -1,0 +1,37 @@
+    ##START THEMING BAR
+    #Theme name : f1tzl4nd Var Nord
+
+    # i3 bar colors
+    # variable border background Text
+
+    # Nord theme colors
+    # https://www.nordtheme.com/docs/colors-and-palettes
+
+    # i3 colors
+
+set $foc-bdr-color       #5E81AC
+set $foc-bgr-color       #5E81AC
+set $foc-txt-color       #ECEFF4
+set $foc-ind-color       #5E81AC
+set $unf-bdr-color       #3B4252
+set $unf-bgr-color       #3B4252
+set $unf-txt-color       #D8DEE9
+set $unf-ind-color       #3B4252
+set $nac-bdr-color       #4C566A
+set $nac-bgr-color       #4C566A
+set $nac-txt-color       #D8DEE9
+set $nac-ind-color       #4C566A
+set $hld-bdr-color       #434C5E
+set $hld-bgr-color       #434C5E
+set $hld-txt-color       #81A1C1
+set $hld-ind-color       #434C5E
+set $urg-bdr-color       #BF616A
+set $urg-bgr-color       #BF616A
+set $urg-txt-color       #ECEFF4
+set $urg-ind-color       #BF616A
+
+set $bg-color            #2E3440
+set $statline-color      #81A1C1
+set $sep-color           #4C566A
+
+##STOP THEMING

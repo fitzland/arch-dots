@@ -1,0 +1,52 @@
+{
+   "author": "Microsoft Corporation",
+   "background": {
+      "page": "background/background_editor.html",
+      "persistent": true
+   },
+   "browser_action": {
+      "default_icon": {
+         "20": "assets/icon_20.png",
+         "40": "assets/icon_48.png"
+      },
+      "default_popup": "index.html",
+      "default_title": "__MSG_AppShortName__"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "common/browserHandler.js", "content/auth.js" ],
+      "match_about_blank": true,
+      "matches": [ "https://login.live.com/*", "https://login.microsoftonline.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": true,
+      "js": [ "common/browserHandler.js", "content/postInstallPage.js" ],
+      "match_about_blank": false,
+      "matches": [ "https://support.microsoft.com/*/office/welcome-to-the-microsoft-editor-browser-extension-9a5ee6c4-f6b7-4b26-bbca-cd38a8b44d6a*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": true,
+      "exclude_matches": [ "https://outlook-sdf.live.com/*", "https://outlook-sdf.office.com/*", "https://outlook-sdf.office365.com/*", "https://outlook.live.com/*", "https://outlook.office.com/*", "https://outlook.office365.com/*", "https://www.office.com/*", "https://onedrive.live.com/*", "https://*.onedrive.live.com/*", "https://*.sharepoint.com/:w:/*", "https://*.sharepoint.com/:p:/*", "https://*.sharepoint.com/:x:/*", "https://*.sharepoint.com/:o:/*", "https://*.officeapps.live.com/*" ],
+      "js": [ "editor/config.js", "editor/content.js" ],
+      "match_about_blank": true,
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_end"
+   } ],
+   "content_security_policy": "default-src 'none'; img-src 'self' data: https:; style-src 'self' 'unsafe-inline'; connect-src https://*.office.net https://*.office.com https://*.officeppe.net https://*.aria.microsoft.com https://browser.events.data.microsoft.com https://graph.microsoft.com https://login.microsoftonline.com https://login.windows.net https://login.live.com https://apis.live.net https://petrol.office.microsoft.com https://petrol-int.office.microsoft.com; frame-src https://login.microsoftonline.com https://login.live.com/; base-uri 'none'; script-src 'self'; object-src 'self'; form-action 'none'; frame-ancestors https: http:; block-all-mixed-content; font-src 'self' https://static2.sharepointonline.com/files/fabric/assets/ https://spoprod-a.akamaihd.net/files/fabric/assets/; report-uri https://teams.microsoft.com/r/c",
+   "default_locale": "en",
+   "description": "__MSG_AppDescription__",
+   "icons": {
+      "128": "assets/icon_128.png",
+      "16": "assets/icon_16.png",
+      "48": "assets/icon_48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuG/FYgO1EIcEChq8To/BP6qj4VHuZZDiJm3QdP3nRMB/xuirdFQOCSN893zPUKT6bTUxncp6xiFDzT9hwLf6BqhWZWD92BcEjjHa1+DlecgH8yOx5jZbJhFAVwhJ+ABfTT/+wfvXGK0EKQ1KUP8+RiT9cv3Wg23fc3j+WLjRyKs6DkGUtJdWEmAipuHIUJIoLhOhqxk5RWEXtMZLzl4fMq0blhwdnBNJPU/Jj565P+5pUEmH/zijYPT8CdOC62ndBs7pjORS32UQDUzL5wrZYygWVhBE0rA/q/xtgGnKfhmqRzKpzGLQEwz2X0+n4mPWHmJYmzC1rdAnITm8ksX6LwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_AppName__",
+   "permissions": [ "storage", "\u003Call_urls>" ],
+   "short_name": "__MSG_AppShortName__",
+   "update_url": "https://edge.microsoft.com/extensionwebstorebase/v1/crx",
+   "version": "1.2105.706",
+   "version_name": "v1.3.7",
+   "web_accessible_resources": [ "images/*", "fonts/*", "assets/*", "feedback.html" ]
+}

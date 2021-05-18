@@ -1,0 +1,783 @@
+{
+   "AccountLabel": {
+      "message": "Account"
+   },
+   "AppDescription": {
+      "message": "Schrijf met vertrouwen met Microsoft Editor, uw intelligente schrijfassistent voor grammatica, spelling en stijl."
+   },
+   "AppLongDescription": {
+      "message": "Word een betere online schrijver met Microsoft Editor (1), uw gratis schrijfassistent. Editor is er altijd, op elke site, zodat u online eenvoudig duidelijke en beknopte berichten kunt schrijven. Met deze browseruitbreiding krijgt u het volgende: \r\n\r\nIntelligente schrijfassistent: als basis ontvangt u gratis krachtige controle van grammatica, spelling en interpunctie. Met premium (2) krijgt u geavanceerde controle van grammatica en stijl met tips voor helderheid, beknoptheid, formeel taalgebruik, woordkeuze en nog veel meer. \r\n\r\nOveral waar u schrijft: met deze browserextensie krijgt u feedback op sites zoals LinkedIn, Facebook en andere favorieten. Als u de hulp van Editor ook offline wilt gebruiken, opent u Word en zoekt u het Editor-pictogram om te zien hoe Editor u kan helpen bij documenten, e-mail en de rest van het web. \r\n\r\nBeschikbaar in meerdere talen: ontvang eenvoudige feedback in meer dan 20 talen (en spellingcontrole in meer dan 80 talen) om duidelijk te kunnen communiceren, ongeacht de taal waarin u schrijft. \r\n\r\nBeschikbare talen (3):\r\n- Arabisch\r\n- Tsjechisch\r\n- Deens\r\n- Nederlands\r\n- Engels\r\n- Fins\r\n- Frans\r\n- Duits\r\n– Hebreeuws (nog niet beschikbaar in de desktop-app voor Word)\r\n- Hongaars\r\n- Italiaans\r\n– Japans\r\n- Koreaans\r\n- Noors (Bokmål)\r\n– Pools\r\n- Portugees (Brazilië)\r\n- Portugees (Portugal)\r\n- Russisch\r\n- Spaans\r\n- Zweeds\r\n- Turks\r\n\r\n(1) Beschikbaar voor Microsoft Edge of Google Chrome in combinatie met een Microsoft-account. Editor maakt verbinding met een onlineservice van Microsoft die suggesties biedt voor spelling, grammatica en verfijningen op de meeste websites. \r\n (2) Microsoft 365-abonnement vereist voor toegang tot premium-functies van Editor\r\n (3) Editor biedt stilistische verfijningen in de volgende talen; niet alle talen hebben dezelfde sets verfijningen. \r\n\r\nDoor de app te installeren, gaat u akkoord met deze algemene voorwaarden: \r\n\r\nhttps://aka.ms/editorchromeextensionterms\r\n\r\nPrivacybeleid: http://aka.ms/privacy"
+   },
+   "AppLongDescriptionEdge": {
+      "message": "Schrijf vol vertrouwen met Microsoft Editor, uw intelligente schrijfassistent die grammatica, spelling en stijl controleert. \r\n\r\nWord een betere online schrijver met Microsoft Editor (1), uw gratis schrijfassistent. Editor is er altijd, op elke site, zodat u online eenvoudig duidelijke en beknopte berichten kunt schrijven. Met deze browserextensie krijgt u het volgende: \r\n\r\nIntelligente schrijfassistent: als basis ontvangt u gratis krachtige controle van grammatica, spelling en interpunctie. Met premium (2) krijgt u geavanceerde controle van grammatica en stijl met tips voor helderheid, beknoptheid, formeel taalgebruik, woordkeuze en nog veel meer. \r\n\r\nOveral waar u schrijft: met deze browseruitbreiding krijgt u feedback op sites zoals LinkedIn, Facebook en andere favorieten. Als u de hulp van Editor ook offline wilt gebruiken, opent u Word en zoekt u het Editor-pictogram om te zien hoe Editor u kan helpen bij documenten, e-mail en de rest van het web. \r\n\r\nBeschikbaar in meerdere talen: ontvang eenvoudige feedback in meer dan 20 talen (en spellingcontrole in meer dan 80 talen) om duidelijk te kunnen communiceren, ongeacht de taal waarin u schrijft. \r\n\r\nBeschikbare talen (3):\r\n- Arabisch\r\n- Tsjechisch\r\n- Deens\r\n- Nederlands\r\n- Engels\r\n- Fins\r\n- Frans\r\n- Duits\r\n- Hebreeuws (nog niet beschikbaar in de desktop-app voor Word)\r\n- Hongaars\r\n- Italiaans\r\n- Japans\r\n- Koreaans\r\n- Noors (Bokmål)\r\n- Pools\r\n- Portugees (Brazilië)\r\n- Portugees (Portugal)\r\n- Russisch\r\n- Spaans\r\n- Zweeds\r\n- Turks\r\n\r\n(1) Beschikbaar voor Microsoft Edge of Google Chrome in combinatie met een Microsoft-account. Editor maakt verbinding met een onlineservice van Microsoft die suggesties biedt voor spelling, grammatica en verfijningen op de meeste websites. \r\n (2) Microsoft 365-abonnement vereist voor toegang tot premium-functies van Editor\r\n (3) Editor biedt stilistische verfijningen in de volgende talen; niet alle talen hebben dezelfde sets verfijningen. \r\n\r\nDoor de app te installeren, gaat u akkoord met deze algemene voorwaarden: \r\n\r\nhttps://aka.ms/editorchromeextensionterms\r\n\r\nPrivacybeleid: http://aka.ms/privacy"
+   },
+   "AppName": {
+      "message": "Microsoft-editor: spelling-en grammaticacontrole"
+   },
+   "AppShortName": {
+      "message": "Editor"
+   },
+   "AppTermsOfServiceLCA": {
+      "message": "PLEASE NOTE: Refer to your license terms for your Microsoft Account or Microsoft 365 subscription as applicable (the \"extension\") to identify the entity licensing this extension to you and for support information.  The license terms for the Microsoft Account or Microsoft 365 subscription as applicable apply to your use of this extension."
+   },
+   "ConflictDetectedAnnouncementText": {
+      "message": "Wanneer andere bewerkingsextensies en Editor allebei worden uitgevoerd, kunnen de suggesties elkaar overlappen of conflicteren. Voor de beste Editor-ervaring wordt u aangeraden andere bewerkingsextensies in de extensie-instellingen van de browser uit te schakelen."
+   },
+   "ConflictDetectedAnnouncementTitle": {
+      "message": "Conflict gedetecteerd tussen bewerkingsextensies"
+   },
+   "DisableEditorOnThisSiteLabel": {
+      "message": "Editor uitschakelen voor $host$",
+      "placeholders": {
+         "host": {
+            "content": "$1",
+            "example": "facebook.com"
+         }
+      }
+   },
+   "EditorAutocorrectToggleLabel": {
+      "message": "AutoCorrectie"
+   },
+   "EditorBrandText": {
+      "message": "Microsoft Editor"
+   },
+   "EditorGrammarToggleLabel": {
+      "message": "Grammatica"
+   },
+   "EditorIsBlockedOnThisSiteLabel": {
+      "message": "Editor wordt momenteel niet ondersteund voor $host$",
+      "placeholders": {
+         "host": {
+            "content": "$1",
+            "example": "facebook.com"
+         }
+      }
+   },
+   "EditorIsDisabledOnThisSiteLabel": {
+      "message": "Editor is momenteel uitgeschakeld voor $host$",
+      "placeholders": {
+         "host": {
+            "content": "$1",
+            "example": "facebook.com"
+         }
+      }
+   },
+   "EditorIsOffLabel": {
+      "message": "Editor is uitgeschakeld."
+   },
+   "EditorNativeSupportOnThisSiteLabel": {
+      "message": "Editor is inbegrepen bij $host$",
+      "placeholders": {
+         "host": {
+            "content": "$1",
+            "example": "outlook.com"
+         }
+      }
+   },
+   "EditorProofingLanguageAriaLabel": {
+      "message": "Controletaal: $languageId$",
+      "placeholders": {
+         "languageId": {
+            "content": "$1",
+            "example": "nl"
+         }
+      }
+   },
+   "EditorProofingLanguageLabel": {
+      "message": "Controletaal"
+   },
+   "EditorProofingLanguagesLabel": {
+      "message": "Controletaal"
+   },
+   "EditorRefinementsGoPremiumTooltip": {
+      "message": "Krijg geavanceerde schrijfideeën en 1 TB opslag met de premium-versie."
+   },
+   "EditorRefinementsToggleLabel": {
+      "message": "Verfijningen"
+   },
+   "EditorRefinementsTooltip": {
+      "message": "Verfijningen zijn geavanceerde schrijfsuggesties om uw schrijfstijl duidelijker, bondiger of formeler te maken."
+   },
+   "EditorSettingsLabel": {
+      "message": "Meer Editor-instellingen"
+   },
+   "EditorSpellingToggleLabel": {
+      "message": "Spelling"
+   },
+   "EnableEditorOnThisSiteLabel": {
+      "message": "Editor inschakelen voor $host$",
+      "placeholders": {
+         "host": {
+            "content": "$1",
+            "example": "facebook.com"
+         }
+      }
+   },
+   "MyAccountLabel": {
+      "message": "Account weergeven"
+   },
+   "PopupGroupAriaLabel": {
+      "message": "Browseruitbreiding voor Microsoft Editor"
+   },
+   "PostUpsellAnnouncementText": {
+      "message": "U hebt een upgrade uitgevoerd naar de premium-versie van Microsoft Editor! Ontdek uw uitgebreide functieset door te klikken op de blauwe en paarse onderstrepingen in uw geschreven tekst."
+   },
+   "PostUpsellAnnouncementTitle": {
+      "message": "Gefeliciteerd"
+   },
+   "SettingsLabel": {
+      "message": "Accountinstellingen"
+   },
+   "SignInLabel": {
+      "message": "Aanmelden"
+   },
+   "SignOutLabel": {
+      "message": "Afmelden"
+   },
+   "SignOutTooltip": {
+      "message": "Als u zich afmeldt, worden alle instellingen teruggezet naar de standaardwaarden en verliest u uw lijst met uitgesloten sites."
+   },
+   "SupportPageLabel": {
+      "message": "Hulp nodig bij aanmelde​n?"
+   },
+   "TurnOnEditorLabel": {
+      "message": "Editor inschakelen"
+   },
+   "ebx_AddLanguageBlockedTooltip": {
+      "message": "U kunt proofing voor maximaal drie talen tegelijk alleen inschakelen."
+   },
+   "ebx_Cancel": {
+      "message": "Annuleren"
+   },
+   "ebx_Done": {
+      "message": "Gereed"
+   },
+   "ebx_FeedbackSubmitted": {
+      "message": "De feedback is verzonden."
+   },
+   "ebx_MultiLanguageAnnouncementSelectedLanguage": {
+      "message": "We hebben $language$ gekozen op basis van uw huidige browserinstellingen.",
+      "placeholders": {
+         "language": {
+            "content": "$1",
+            "example": "Engels (Verenigd Koninkrijk)"
+         }
+      }
+   },
+   "ebx_MultiLanguageAnnouncementText": {
+      "message": "Spelling en grammatica controleren voor drie talen tegelijk."
+   },
+   "ebx_MultiLanguageAnnouncementTextEditSettings": {
+      "message": "U uw talen bewerken in editor-instellingen."
+   },
+   "ebx_MultiLanguageAnnouncementThreeSelectedLanguages": {
+      "message": "We hebben $language1$​​​​​, $language2$​​​​​ en $language3$​​​​​ gekozen op basis van uw huidige browserinstellingen.",
+      "placeholders": {
+         "language1": {
+            "content": "$1",
+            "example": "Engels (Verenigd Koninkrijk)"
+         },
+         "language2": {
+            "content": "$2",
+            "example": "Engels (Verenigd Koninkrijk)"
+         },
+         "language3": {
+            "content": "$3",
+            "example": "Engels (Verenigd Koninkrijk)"
+         }
+      }
+   },
+   "ebx_MultiLanguageAnnouncementTitle": {
+      "message": "Proeflezen in meerdere talen met Editor"
+   },
+   "ebx_MultiLanguageAnnouncementTwoSelectedLanguages": {
+      "message": "We hebben $language1$​​​​​ en $language2$​​​​​ gekozen op basis van uw huidige browserinstellingen.",
+      "placeholders": {
+         "language1": {
+            "content": "$1",
+            "example": "Engels (Verenigd Koninkrijk)"
+         },
+         "language2": {
+            "content": "$2",
+            "example": "Engels (Verenigd Koninkrijk)"
+         }
+      }
+   },
+   "ebx_ProofingLanguages": {
+      "message": "Controletaal"
+   },
+   "ebx_RefinementTooltip": {
+      "message": "Microsoft 365-abonnees krijgen geavanceerde schrijfsuggesties wanneer ze zijn aangemeld."
+   },
+   "ebx_RemoveItem": {
+      "message": "Verwijderen"
+   },
+   "ebx_SignInAnnouncementAlternativeText": {
+      "message": "Als u op de meeste websites schrijfsuggesties wilt ontvangen, moet u zich aanmelden bij uw Microsoft-account of het werk- of schoolaccount dat u voor Office gebruikt."
+   },
+   "ebx_SignInAnnouncementSignIn": {
+      "message": "Aanmelden"
+   },
+   "ebx_SignInAnnouncementText": {
+      "message": "Meld u aan om schrijfsuggesties te krijgen op de meeste websites. Uw instellingen worden opgeslagen, zoals de talen waarin u schrijft en de soorten problemen die u wilt laten controleren door Editor."
+   },
+   "ebx_SignInAnnouncementTitle": {
+      "message": "Editor wordt nog niet uitgevoerd"
+   },
+   "ebx_SquiggleTooltipAriaText": {
+      "message": "Open door met de linkermuisknop te klikken, of via Alt+pijl-omlaag"
+   },
+   "ebx_SquiggleTooltipAriaTextMac": {
+      "message": "Open door met de linkermuisknop te klikken, of via Control+Option+pijl-omlaag"
+   },
+   "ebx_SquiggleTooltipCombination": {
+      "message": "(Alt+pijl-omlaag)"
+   },
+   "ebx_SquiggleTooltipCombinationMac": {
+      "message": "(Control+Option+pijl-omlaag)"
+   },
+   "ebx_SquiggleTooltipGrammarTitle": {
+      "message": "Grammaticacorrectie"
+   },
+   "ebx_SquiggleTooltipRefinementTitle": {
+      "message": "Schrijfverfijning"
+   },
+   "ebx_SquiggleTooltipSpellingTitle": {
+      "message": "Spellingcorrectie"
+   },
+   "ebx_SquiggleTooltipText": {
+      "message": "Openen met de linkermuisknop"
+   },
+   "ebx_addAnotherSite": {
+      "message": "Andere site toevoegen"
+   },
+   "ebx_addAnotherSiteAriaLabel": {
+      "message": "Andere site toevoegen"
+   },
+   "ebx_addAnotherSiteCancel": {
+      "message": "Het toevoegen van de site aan de lijst met geblokkeerde sites annuleren."
+   },
+   "ebx_addAnotherSiteSubmit": {
+      "message": "Site toevoegen aan de lijst met geblokkeerde sites"
+   },
+   "ebx_addButton": {
+      "message": "Toevoegen"
+   },
+   "ebx_addGrammarChecking": {
+      "message": "Grammaticacontrole toevoegen"
+   },
+   "ebx_addLanguageCancel": {
+      "message": "Het toevoegen van een taal aan de lijst met controletalen annuleren"
+   },
+   "ebx_addLanguageSubmit": {
+      "message": "Taal toevoegen aan de lijst met controletalen"
+   },
+   "ebx_addProofingLanguage": {
+      "message": "Een andere taal toevoegen"
+   },
+   "ebx_addToDictionaryButtonLabel": {
+      "message": "Toevoegen aan woordenboek"
+   },
+   "ebx_appDescription": {
+      "message": "Schrijf met vertrouwen met Microsoft Editor, uw intelligente schrijfassistent"
+   },
+   "ebx_appLongDescription": {
+      "message": "Editor biedt grammatica, spelling en stijlsuggesties voor meerdere sites (1), zodat u vol vertrouwen duidelijke, beknopte berichten en e-mailberichten kunt schrijven. \r\n\r\nNIEUW: Meertalige controle, opties voor negeren \r\nControleer spelling en grammatica voor maximaal drie talen tegelijkertijd. Bovendien is de spellingcontrole nu beschikbaar voor Thai. We hebben het ook gemakkelijk gemaakt om alle gevallen van spellingcorrectie over te slaan door Alles negeren te selecteren, of om ongewenste grammaticasuggesties over te slaan door Negeren te selecteren. \r\n\r\nIntelligente schrijfhulp \r\nVorm een sterke basis met gratis grammatica, spelling en interpunctie. Krijg geavanceerde grammaticasuggesties en stijlcontrole voor zaken als duidelijkheid, beknoptheid, formaliteit, woordenschat en nog veel meer met Premium (vereist een Microsoft 365-abonnement). \r\n\r\nOveral schrijven \r\nKrijg hulp bij het schrijven op sites zoals LinkedIn, Gmail, Facebook en andere favorieten met deze browserextensie. Als u de hulp van de Editor buiten het internet wilt inroepen, opent u Word en zoekt u naar het Editor-pictogram om te zien hoe Editor u kan helpen bij het schrijven van documenten en e-mail. \r\n\r\nBeschikbaar in meerdere talen \r\nEditor controleert spelling in meer dan 80 talen en biedt grammaticacontrole en schrijfstijlverfijningen in de volgende talen: (2) \r\n- Arabisch \r\n- Tsjechisch \r\n- Deens \r\n- Nederlands \r\n- Engels \r\n- Fins \r\n- Frans \r\n- Duits \r\n- Hebreeuws \r\n- Hongaars \r\n- Italiaans \r\n- Japans \r\n- Koreaans \r\n- Noors (Bokmål) \r\n- Pools \r\n- Portugees (Brazilië) \r\n- Portugees (Portugal) \r\n- Russisch \r\n- Spaans \r\n- Zweeds \r\n- Turks \r\n\r\n1. Beschikbaar voor Microsoft Edge- of Chrome-browsers en vereist een Microsoft-account. Editor maakt verbinding met een Microsoft online service die spelling, grammatica en verfijningssuggesties biedt voor het schrijven van teksten voor de meeste websites. \r\n2. Niet alle talen hebben dezelfde reeks verfijningen. \r\n\r\nDoor de app te installeren, gaat u akkoord met deze algemene voorwaarden: \r\n\r\nhttps://aka.ms/editorchromeextensionterms\r\n\r\n Privacybeleid: http://aka.ms/privacy"
+   },
+   "ebx_appLongDescriptionEdge": {
+      "message": "Schrijf vol met vertrouwen met Microsoft Editor: uw intelligente schrijfassistent. \r\n\r\nEditor biedt grammatica, spelling en stijlsuggesties voor meerdere sites (1), zodat u vol vertrouwen duidelijke, beknopte berichten en e-mailberichten kunt schrijven. \r\n\r\nNIEUW: Meertalige controle, opties voor negeren \r\nControleer spelling en grammatica voor maximaal drie talen tegelijkertijd. Bovendien is de spellingcontrole nu beschikbaar voor Thai. We hebben het ook gemakkelijk gemaakt om alle gevallen van spellingcorrectie over te slaan door Alles negeren te selecteren, of om ongewenste grammaticasuggesties over te slaan door Negeren te selecteren. \r\n\r\nIntelligente schrijfhulp \r\nVorm een sterke basis met gratis grammatica, spelling en interpunctie. Krijg geavanceerde grammaticasuggesties en stijlcontrole voor zaken als duidelijkheid, beknoptheid, formaliteit, woordenschat en nog veel meer met Premium (vereist een Microsoft 365-abonnement). \r\n\r\nOveral schrijven \r\nKrijg hulp bij het schrijven op sites zoals LinkedIn, Gmail, Facebook en andere favorieten met deze browserextensie. Als u de hulp van de Editor buiten het internet wilt inroepen, opent u Word en zoekt u naar het Editor-pictogram om te zien hoe Editor u kan helpen bij het schrijven van documenten en e-mail. \r\n\r\nBeschikbaar in meerdere talen \r\nEditor controleert spelling in meer dan 80 talen en biedt grammaticacontrole en schrijfstijlverfijningen in de volgende talen: (2) \r\n- Arabisch \r\n- Tsjechisch \r\n- Deens \r\n- Nederlands \r\n- Engels \r\n- Fins \r\n- Frans \r\n- Duits \r\n- Hebreeuws \r\n- Hongaars \r\n- Italiaans \r\n- Japans \r\n- Koreaans \r\n- Noors (Bokmål) \r\n- Pools \r\n- Portugees (Brazilië) \r\n- Portugees (Portugal) \r\n- Russisch \r\n- Spaans \r\n- Zweeds \r\n- Turks \r\n\r\n1. Beschikbaar voor Microsoft Edge- of Chrome-browsers en vereist een Microsoft-account. Editor maakt verbinding met een Microsoft online service die spelling, grammatica en verfijningssuggesties biedt voor het schrijven van teksten voor de meeste websites. \r\n2. Niet alle talen hebben dezelfde reeks verfijningen. \r\n\r\nDoor de app te installeren, gaat u akkoord met deze algemene voorwaarden: \r\n\r\nhttps://aka.ms/editorchromeextensionterms\r\n\r\n Privacybeleid: http://aka.ms/privacy"
+   },
+   "ebx_appName": {
+      "message": "Editor in de browser"
+   },
+   "ebx_appShortName": {
+      "message": "Editor"
+   },
+   "ebx_appTermsOfServiceLCA": {
+      "message": "PLEASE NOTE: Refer to your license terms for your Microsoft Account or Microsoft 365 subscription as applicable (the \"extension\") to identify the entity licensing this extension to you and for support information.  The license terms for the Microsoft Account or Microsoft 365 subscription as applicable apply to your use of this extension."
+   },
+   "ebx_ariaReplaceWith": {
+      "message": "Vervangen door"
+   },
+   "ebx_asInSynonyms": {
+      "message": "vergelijkbaar met"
+   },
+   "ebx_blockedSiteAdded": {
+      "message": "\"$url$\" toegevoegd",
+      "placeholders": {
+         "url": {
+            "content": "$1",
+            "example": "https://microsoft.com"
+         }
+      }
+   },
+   "ebx_blockedSiteEntryHint": {
+      "message": "Druk op Pijl-rechts om toegang te krijgen tot de knop Verwijderen."
+   },
+   "ebx_blockedSiteListEmpty": {
+      "message": "De lijst is leeg."
+   },
+   "ebx_blockedSiteRemoved": {
+      "message": "\"$url$\" is verwijderd",
+      "placeholders": {
+         "url": {
+            "content": "$1",
+            "example": "https://microsoft.com"
+         }
+      }
+   },
+   "ebx_brandText": {
+      "message": "Microsoft Editor"
+   },
+   "ebx_brandTextArialLabel": {
+      "message": "Logo van Microsoft Editor"
+   },
+   "ebx_changeAllCommandLabel": {
+      "message": "Alles wijzigen"
+   },
+   "ebx_changeSettingsCommandLabel": {
+      "message": "Instellingen voor Editor..."
+   },
+   "ebx_checkForRefinements": {
+      "message": "Controleren op verfijningen"
+   },
+   "ebx_checkGrammar": {
+      "message": "Grammatica controleren"
+   },
+   "ebx_checkSpelling": {
+      "message": "Spelling controleren"
+   },
+   "ebx_close": {
+      "message": "Sluiten"
+   },
+   "ebx_comingSoonTooltipTitle": {
+      "message": "Binnenkort beschikbaar"
+   },
+   "ebx_deleteRepeatedWord": {
+      "message": "[Herhaald woord verwijderen]"
+   },
+   "ebx_disableCritiqueButton": {
+      "message": "Hierop niet meer controleren"
+   },
+   "ebx_disableCritiqueButtonAriaLabel": {
+      "message": "Niet meer hierop controleren. Deze instelling wordt toegepast door de editor tot u deze wijzigt."
+   },
+   "ebx_disableCritiqueTooltip": {
+      "message": "Deze instelling wordt toegepast door de editor totdat u de instelling wijzigt."
+   },
+   "ebx_displayOptions": {
+      "message": "Weergaveopties"
+   },
+   "ebx_duplicateBlockedSite": {
+      "message": "Deze site komt al voor in de lijst met geblokkeerde sites"
+   },
+   "ebx_editorEnableAnnouncementText": {
+      "message": "De Microsoft Office-browserextensie bevat nu Microsoft Editor, de intelligente schrijfassistent die u helpt uw beste geschreven teksten te publiceren op internet. Microsoft Editor maakt verbinding met een onlineservice om u suggesties voor spelling, grammatica en stijl te bieden."
+   },
+   "ebx_editorEnableAnnouncementTitle": {
+      "message": "Microsoft Editor (preview-versie) wordt nu uitgevoerd"
+   },
+   "ebx_editorFeature": {
+      "message": "Microsoft Editor"
+   },
+   "ebx_editorFeatureOffText": {
+      "message": "Uit"
+   },
+   "ebx_editorFeatureOfficeBx": {
+      "message": "Editor uitschakelen"
+   },
+   "ebx_editorFeatureOnText": {
+      "message": "Aan"
+   },
+   "ebx_editorFeatureToggleLabel": {
+      "message": "Editor-functie"
+   },
+   "ebx_enhancedUpsellCategoriesAnd": {
+      "message": " en "
+   },
+   "ebx_enhancedUpsellCategoriesComma": {
+      "message": ", "
+   },
+   "ebx_enhancedUpsellLinePartA": {
+      "message": "Editor heeft"
+   },
+   "ebx_enhancedUpsellLinePartBPlural": {
+      "message": "geavanceerde ideeën voor dit bericht."
+   },
+   "ebx_enhancedUpsellLinePartBSingular": {
+      "message": "geavanceerd idee voor dit bericht."
+   },
+   "ebx_excludedSites": {
+      "message": "Uitgesloten sites"
+   },
+   "ebx_feedbackCommentQuestion": {
+      "message": "Vertel ons waarom u dit antwoord hebt gekozen"
+   },
+   "ebx_feedbackLink": {
+      "message": "feedback te geven"
+   },
+   "ebx_feedbackMessage": {
+      "message": "Help ons Editor te verbeteren door"
+   },
+   "ebx_feedbackRating1": {
+      "message": "Zeer negatief"
+   },
+   "ebx_feedbackRating2": {
+      "message": "Enigszins negatief"
+   },
+   "ebx_feedbackRating3": {
+      "message": "Niet positief of negatief"
+   },
+   "ebx_feedbackRating4": {
+      "message": "Enigszins positief"
+   },
+   "ebx_feedbackRating5": {
+      "message": "Zeer positief"
+   },
+   "ebx_feedbackRatingQuestion": {
+      "message": "Hoe zou u uw ervaring met Microsoft-editor in het algemeen beschrijven?"
+   },
+   "ebx_feedbackSubmitNotice": {
+      "message": "Als u op Verzenden klikt, wordt uw feedback gebruikt om producten en services van Microsoft te verbeteren."
+   },
+   "ebx_feedbackTitle": {
+      "message": "Feedback geven voor Microsoft editor"
+   },
+   "ebx_giveFeedback": {
+      "message": "Feedback geven"
+   },
+   "ebx_goPremiumExplained": {
+      "message": "Maak gebruik van de geavanceerde schrijfideeën van Editor, profiteer van 1 TB OneDrive-opslag en premium-functies in alle Microsoft 365-apps."
+   },
+   "ebx_goPremiumExplainedMicrosoft365": {
+      "message": "Maak gebruik van de geavanceerde schrijfideeën van Editor, profiteer van 1 TB OneDrive-opslag en premium-functies in alle Microsoft 365-apps."
+   },
+   "ebx_goPremiumLine": {
+      "message": "Probeer de geavanceerde schrijfsuggesties van Editor uit."
+   },
+   "ebx_goPremiumLinkText": {
+      "message": "Kies voor de premium-versie"
+   },
+   "ebx_goPremiumLinkTextLowerCase": {
+      "message": "kies voor Premium"
+   },
+   "ebx_goToSettings": {
+      "message": "Ga naar de Editor-instellingen"
+   },
+   "ebx_goToSettingsToLearnMore": {
+      "message": "Ga naar Editor-instellingen voor meer informatie"
+   },
+   "ebx_grammar": {
+      "message": "Grammatica"
+   },
+   "ebx_hideSynonyms": {
+      "message": "Synoniemen verbergen"
+   },
+   "ebx_ignoreAllButtonLabel": {
+      "message": "Alles negeren"
+   },
+   "ebx_ignoreOnceButtonLabel": {
+      "message": "Negeren"
+   },
+   "ebx_languageAdded": {
+      "message": "\"$language$\" is toegevoegd",
+      "placeholders": {
+         "language": {
+            "content": "$1",
+            "example": "Engels (Verenigd Koninkrijk)"
+         }
+      }
+   },
+   "ebx_languageMovedToTop": {
+      "message": "\"$language$\" is bovenaan de lijst verplaatst",
+      "placeholders": {
+         "language": {
+            "content": "$1",
+            "example": "Engels (Verenigd Koninkrijk)"
+         }
+      }
+   },
+   "ebx_languageMovedUp": {
+      "message": "\"$language$\" is een positie omhoog verplaatst in de lijst",
+      "placeholders": {
+         "language": {
+            "content": "$1",
+            "example": "Engels (Verenigd Koninkrijk)"
+         }
+      }
+   },
+   "ebx_languageRemoved": {
+      "message": "\"$language$\" is verwijderd",
+      "placeholders": {
+         "language": {
+            "content": "$1",
+            "example": "Engels (Verenigd Koninkrijk)"
+         }
+      }
+   },
+   "ebx_learnMore": {
+      "message": "Meer informatie"
+   },
+   "ebx_manageLanguagesButton": {
+      "message": "Talen beheren"
+   },
+   "ebx_moreButtonArialLabel": {
+      "message": "Meer opdrachten"
+   },
+   "ebx_moveDown": {
+      "message": "Omlaag"
+   },
+   "ebx_moveToTop": {
+      "message": "Bovenaan plaatsen"
+   },
+   "ebx_moveUp": {
+      "message": "Omhoog"
+   },
+   "ebx_optionsPageTitle": {
+      "message": "Instellingen voor Editor"
+   },
+   "ebx_premiumPreviewGeneralLine": {
+      "message": "Krijg geavanceerde schrijfsuggesties van Editor."
+   },
+   "ebx_premiumPreviewLineDaysPlural": {
+      "message": "resterende dagen in deze preview-versie. Upgrade voor onbeperkt aantal suggesties:"
+   },
+   "ebx_premiumPreviewLineDaysSingular": {
+      "message": "resterende dag in deze preview-versie. Upgrade voor onbeperkt aantal suggesties:"
+   },
+   "ebx_premiumPreviewLineSuggestionsPlural": {
+      "message": "suggesties in dit voorbeeld achtergelaten. Upgrade voor onbeperkt aantal suggesties:"
+   },
+   "ebx_premiumPreviewLineSuggestionsSingular": {
+      "message": "suggestie in dit voorbeeld achtergelaten. Upgrade voor onbeperkt aantal suggesties:"
+   },
+   "ebx_preview": {
+      "message": "(Preview)"
+   },
+   "ebx_previewLabel": {
+      "message": "PREVIEW"
+   },
+   "ebx_privacyOptionSendData": {
+      "message": "Stuur automatisch optionele diagnostische gegevens met behulp van deze onlineservice, om ons te helpen onze producten te verbeteren."
+   },
+   "ebx_privacyOptionSendDataLink": {
+      "message": "Meer informatie over diagnostische gegevens"
+   },
+   "ebx_privacyOptions": {
+      "message": "Privacyopties"
+   },
+   "ebx_proofingLanguage": {
+      "message": "Controletaal"
+   },
+   "ebx_proofingLanguageEntryHint": {
+      "message": "Druk op Pijl-rechts om toegang te krijgen tot de knop Meer opdrachten."
+   },
+   "ebx_proofingLanguagePlaceHolder": {
+      "message": "Controletaal selecteren"
+   },
+   "ebx_proofingLanguages": {
+      "message": "Controletaal"
+   },
+   "ebx_proofingLanguagesDescription": {
+      "message": "Selecteer maximaal drie talen. Uw voorkeurstaal staat bovenaan."
+   },
+   "ebx_rateExtensionPrompt": {
+      "message": "Vind je Editor nuttig?"
+   },
+   "ebx_rateExtensionPromptGiveFeedback": {
+      "message": "Feedback geven"
+   },
+   "ebx_rateExtensionPromptNegative": {
+      "message": "Het spijt ons dat te horen. Laat ons weten hoe we Editor kunnen verbeteren."
+   },
+   "ebx_rateExtensionPromptNo": {
+      "message": "Nee"
+   },
+   "ebx_rateExtensionPromptNoThanks": {
+      "message": "Nee, bedankt"
+   },
+   "ebx_rateExtensionPromptPositive": {
+      "message": "Geweldig! Wilt u het beoordelen?"
+   },
+   "ebx_rateExtensionPromptPositiveAlt": {
+      "message": "Als u nog steeds geniet van het gebruik van Editor, wilt u een beoordeling geven?"
+   },
+   "ebx_rateExtensionPromptSure": {
+      "message": "Ja"
+   },
+   "ebx_rateExtensionPromptYes": {
+      "message": "Ja"
+   },
+   "ebx_rateExtensionTitle": {
+      "message": "Feedback over Microsoft-editor"
+   },
+   "ebx_refinements": {
+      "message": "Verfijningen"
+   },
+   "ebx_settings": {
+      "message": "Instellingen"
+   },
+   "ebx_settingsPageAriaLabel": {
+      "message": "Microsoft Editor instellingen"
+   },
+   "ebx_settingsPerLanguage": {
+      "message": "Instellingen per taal"
+   },
+   "ebx_showSynonyms": {
+      "message": "Synoniemen weergeven"
+   },
+   "ebx_showSynonymsToggleCaption": {
+      "message": "Synoniemen voor spellingsuggesties weergeven"
+   },
+   "ebx_signIntoEditor": {
+      "message": "aanmelden bij Editor"
+   },
+   "ebx_signIntoEditorBody": {
+      "message": "Meld u aan voor de grammatica- en verfijningssuggesties op de meeste websites."
+   },
+   "ebx_signIntoEditorBodyForContextualCard": {
+      "message": "Beleef de volledige Editor-ervaring."
+   },
+   "ebx_signIntoEditorBodyForSpellingOnlyUsers": {
+      "message": "Meld u aan om de volledige Editor-ervaring te krijgen."
+   },
+   "ebx_signIntoEditorTile": {
+      "message": "Aanmelden bij Editor"
+   },
+   "ebx_spelling": {
+      "message": "Spelling"
+   },
+   "ebx_suggestionMoreActionsArialLabel": {
+      "message": "Meer acties"
+   },
+   "ebx_synonymsNotAvailable": {
+      "message": "[Synoniemen niet beschikbaar]"
+   },
+   "ebx_toggleOff": {
+      "message": "Uit"
+   },
+   "ebx_toggleOn": {
+      "message": "Aan"
+   },
+   "ebx_toneLabel": {
+      "message": "Toon"
+   },
+   "ebx_tryPremiumPreviewLink": {
+      "message": "Nu uitproberen"
+   },
+   "ebx_turnOffEditor": {
+      "message": "Editor uitschakelen"
+   },
+   "ebx_turnOffEditorExplained": {
+      "message": "Editor maakt verbinding met een Microsoft-onlineservice die suggesties biedt voor spelling, grammatica en stijl voor het schrijven op de meeste websites."
+   },
+   "ebx_userBlockedSites": {
+      "message": "Geblokkeerde sites"
+   },
+   "ebx_userExcludedUrlErrorCaption": {
+      "message": "Ongeldige url. Geef de url op in de volgende indeling: https://example.com"
+   },
+   "ebx_userExcludedUrlsErrorCaption": {
+      "message": "Ongeldige URL \"$url$\" op regel $line$.",
+      "placeholders": {
+         "line": {
+            "content": "$2",
+            "example": "123"
+         },
+         "url": {
+            "content": "$1",
+            "example": "https://microsoft.com"
+         }
+      }
+   },
+   "ebx_userExcludedUrlsTextBoxCaption": {
+      "message": "U hebt Editor uitgeschakeld op de sites die hieronder worden vermeld. Editor kan automatisch worden uitgeschakeld op extra sites met gevoelige inhoud of trage laadsnelheden."
+   },
+   "esdk_cancelButton": {
+      "message": "Annuleren"
+   },
+   "esdk_cardAriaLabel": {
+      "message": "Instellingen"
+   },
+   "esdk_categoryChevronAriaLabel": {
+      "message": "{0}. Tik op Tab om de status van de categorie te horen"
+   },
+   "esdk_categoryChevronCollapsedAriaHint": {
+      "message": "ENTER, SPATIEBALK of PIJL-RECHTS om gedetailleerde instellingen te openen"
+   },
+   "esdk_categoryChevronDisabledAriaHint": {
+      "message": "Gedetailleerde instellingen zijn uitgeschakeld"
+   },
+   "esdk_categoryChevronExpandedAriaHint": {
+      "message": "PIJL-RECHTS of twee keer TAB om gedetailleerde instellingen in te voeren"
+   },
+   "esdk_categoryDisabledAriaLabel": {
+      "message": "{0} is uitgeschakeld"
+   },
+   "esdk_categoryListAriaLabel": {
+      "message": "Gedetailleerde instellingen voor {0}"
+   },
+   "esdk_checkboxIntermediateCallout": {
+      "message": "Dit probleem wordt niet gevlagd door de editor, tenzij u het deelvenster Editor opent"
+   },
+   "esdk_closeButton": {
+      "message": "Sluiten"
+   },
+   "esdk_correctionsSectionHeader": {
+      "message": "Correcties"
+   },
+   "esdk_critiqueItemDropdownAriaHint": {
+      "message": "Pijl-links om terug te gaan naar Instellingen"
+   },
+   "esdk_critiqueItemWithDropdownAriaHint": {
+      "message": "Pijl-rechts voor gedetailleerde instellingen"
+   },
+   "esdk_editorOptionsTitle": {
+      "message": "Microsoft Editor-instellingen"
+   },
+   "esdk_failedToLoadSettingsError": {
+      "message": "Laden van editorinstellingen mislukt"
+   },
+   "esdk_goPremiumButton": {
+      "message": "Kies voor de Premium-versie"
+   },
+   "esdk_goPremiumCallout": {
+      "message": "Krijg geavanceerde schrijfideeën en 1 TB opslag met de premium-versie"
+   },
+   "esdk_groupChevronAriaLabel": {
+      "message": "{0}. Tik op de tab-toets om de status te horen"
+   },
+   "esdk_languageDropdownLabelProofing": {
+      "message": "Controletaal"
+   },
+   "esdk_languageDropdownLabelSettings": {
+      "message": "Instellingen voor"
+   },
+   "esdk_okButton": {
+      "message": "OK"
+   },
+   "esdk_refinementsSectionHeader": {
+      "message": "Verfijningen"
+   },
+   "esdk_resetToDefault": {
+      "message": "Standaardinstellingen herstellen"
+   },
+   "esdk_settingsDialogUpsellString": {
+      "message": "Probeer de geavanceerde schrijfsuggesties van Editor uit."
+   },
+   "esdk_settingsLearnMoreLink": {
+      "message": "Meer informatie"
+   },
+   "esdk_settingsLearnMoreLinkText": {
+      "message": "{0} over grammatica- en verfijningsinstructies van de editor"
+   },
+   "esdk_spellingCrossLanguageCallout": {
+      "message": "Wijzigingen in de spellingopties zijn van toepassing op alle ingeschakelde talen"
+   },
+   "esdk_textPredictionsLabel": {
+      "message": "Tekstvoorspellingen"
+   },
+   "sbx_signInDescription": {
+      "message": "Meld u aan voor de spelling-, grammatica- en verfijningssuggesties op de meeste websites."
+   }
+}

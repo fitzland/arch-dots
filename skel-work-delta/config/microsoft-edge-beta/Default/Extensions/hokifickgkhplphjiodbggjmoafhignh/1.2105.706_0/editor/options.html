@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Editor Options</title>
+    <style>
+        body {
+            margin: 0 !important;
+        }
+
+        #root {
+            width: 100%;
+            top: 0;
+            bottom: 0;
+            position: absolute;
+        }
+
+        a,
+        a:visited {
+            text-decoration: none;
+            color: #d83b01
+        }
+
+        @media screen and (forced-colors: active) {
+            div.ms-Checkbox>input:focus + label.ms-Checkbox-label:before {
+                outline: 1px solid highlight!important;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="root"></div>
+    <script src="config.js"></script>
+    <script src="options.js"></script>
+</body>
+
+</html>

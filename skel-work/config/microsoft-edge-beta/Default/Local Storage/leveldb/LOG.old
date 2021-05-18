@@ -1,0 +1,6 @@
+2021/05/12-17:14:28.356 3 Reusing MANIFEST /home/jfitzhugh/.config/microsoft-edge-beta/Default/Local Storage/leveldb/MANIFEST-000001
+2021/05/12-17:14:28.357 3 Recovering log #3
+2021/05/12-17:14:28.457 3 Reusing old log /home/jfitzhugh/.config/microsoft-edge-beta/Default/Local Storage/leveldb/000003.log 
+2021/05/12-17:16:00.304 8 Level-0 table #5: started
+2021/05/12-17:16:00.597 8 Level-0 table #5: 23287 bytes OK
+2021/05/12-17:16:00.632 8 Delete type=0 #3

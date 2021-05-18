@@ -1,0 +1,49 @@
+@arc-grey:              #404552;
+@arc-dark-grey:         #2F343F;
+@arc-light-grey:        #414857;
+@arc-border:            #272C35;
+@arc-hover:             #505766;
+@arc-select:            #5294E2;
+@arc-select-unfocused:  #4877B1;
+@white:                 #FFFFFF;
+
+///PANEL
+@panel-background-color:         #353945;
+@source-list-bg:                 @panel-background-color;
+@source-list-active-bg:          @panel-background-color;
+@source-list-active-color:       @arc-select;
+
+/// MENU
+@menu-divider-color: @arc-dark-grey;
+@menu-item-color-hover: @arc-light-grey;
+@menu-item-color-selected: @arc-select;
+@menu-text-color-selected: @white;
+
+///BACKGROUND FONT MESSAGES
+@background-primary:     @arc-grey;
+@background-off-primary: @arc-grey;
+
+///BACKGROUND MESSAGES AND TOOLBAR
+@background-secondary:   @arc-dark-grey;
+@background-tertiary:    @arc-dark-grey;
+
+///BORDERS
+@list-border:            @arc-border;
+@border-color-primary:   @arc-border;
+@border-color-secondary: @arc-border;
+@border-color-tertiary:  @arc-border;
+@border-color-divider:   @arc-border;
+
+///TEXT COLORS
+@text-color:         @white;
+@text-color-inverse: @white;
+@text-color-alert:  #E64D65;
+@text-color-heading: @white;
+@text-color-link:        @arc-select;
+@text-color-link-hover:  @arc-select-unfocused;
+@text-color-link-active: @arc-select-unfocused;
+
+///SELECTION
+@accent-primary:         #3D94E3;
+@accent-primary-dark:    @arc-select;
+@accent-secondary:       #4A7AB4;

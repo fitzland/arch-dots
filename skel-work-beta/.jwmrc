@@ -1,0 +1,257 @@
+<?xml version="1.0"?>
+<JWM>
+
+    <!-- The root menu. -->
+    <RootMenu onroot="12">
+        <Program icon="terminal.svg" label="Terminal">exo-open --launch terminalemulator</Program>
+        <Menu icon="folder.svg" label="Applications">
+			<Program icon="system-file-manager.svg" label="File Manager">exo-open --launch filemanager</Program>
+			<Program icon="internet-web-browser.svg" label="Web Browser">exo-open --launch webbrowser</Program>
+			<Program icon="atom.svg">code</Program>
+            <Program icon="spotify.svg" label="Music Player">spotify</Program>
+            <Program icon="calculator.svg" label="Calculator">speedcrunch</Program>
+            <Program icon="gimp.svg" label="Gimp">gimp</Program>
+            <Program icon="editor.svg" label="XEdit">xedit</Program>
+        </Menu>
+        <Menu icon="folder.svg" label="Utilities">
+			<Program icon="keepassxc.svg">keepassxc</Program>
+
+			<Program icon="font.svg" label="Fonts">xfontsel</Program>
+            <Program icon="window.svg" label="Window Properties">
+                xprop | xmessage -file -
+            </Program>
+            <Program icon="window.svg" label="Window Information">
+                xwininfo | xmessage -file -
+            </Program>
+        </Menu>
+        <Separator/>
+        <Program icon="lock.svg" label="Lock">
+            i3lock --image=/home/jeff/.config/i3/scripts/lockscreen/win-lockscreen.png --pointer=win
+        </Program>
+        <Separator/>
+        <Restart label="Restart" icon="restart.svg"/>
+        <Exit label="Exit" confirm="true" icon="quit.svg"/>
+    </RootMenu>
+
+    <!-- Options for program groups. -->
+    <Group>
+        <Option>tiled</Option>
+        <Option>aerosnap</Option>
+    </Group>
+    <Group>
+        <Class>Pidgin</Class>
+        <Option>sticky</Option>
+    </Group>
+    <Group>
+        <Name>xterm</Name>
+        <Option>vmax</Option>
+    </Group>
+    <Group>
+        <Name>xclock</Name>
+        <Option>drag</Option>
+        <Option>notitle</Option>
+    </Group>
+
+    <!-- Tray at the bottom. -->
+    <Tray x="0" y="-1" height="28" autohide="off">
+		
+		<Spacer width="2"/>
+        <TrayButton icon="help-contents.svg" label="MENU">root:1</TrayButton>
+        <Spacer width="8"/>
+        
+        <Pager labeled="true"/>
+		
+		<Spacer width="4"/>
+		<TrayButton icon="utilities-terminal.svg">exec:i3-sensible-terminal</TrayButton>
+        <Spacer width="2"/>
+        <TrayButton icon="system-file-manager.svg">exec:exo-open --launch filemanager</TrayButton>
+        <Spacer width="2"/>
+        <TrayButton icon="internet-web-browser.svg">exec:exo-open --launch webbrowser</TrayButton>
+        <Spacer width="2"/>
+        <TrayButton icon="code.svg">exec:code</TrayButton>
+        <Spacer width="2"/>
+        <TrayButton icon="keepassxc.svg">exec:keepassxc</TrayButton>
+        <Spacer width="8"/>
+
+        <TaskList maxwidth="128"/>
+
+        <Dock/>
+        <Spacer width="16"/>
+        <Clock format="%a %b %d :: %H:%M"><Button mask="123">exec:xclock</Button></Clock>
+
+    </Tray>
+
+    <!-- Visual Styles -->
+    <WindowStyle>
+		<decorations>flat</decorations>
+        <Font align="center">Inconsolata-12</Font>
+        <Width>4</Width>
+        <Height>21</Height>
+        <Corner>0</Corner>
+        <Foreground>#FFFFFF</Foreground>
+        <Background>#555555</Background>
+        <Outline>#000000</Outline>
+        <Opacity>0.5</Opacity>
+        <Active>
+            <Foreground>#FFFFFF</Foreground>
+            <Background>#303030</Background>
+            <Outline>#000000</Outline>
+            <Opacity>1.0</Opacity>
+        </Active>
+    </WindowStyle>
+    <TrayStyle group="true" list="all">
+        <Font>Inconsolata-13</Font>
+        <Background>#333333</Background>
+        <Foreground>#FFFFFF</Foreground>
+        <Outline>#111111</Outline>
+        <Opacity>0.75</Opacity>
+    </TrayStyle>
+    <TaskListStyle>
+      <Font>Sans-9</Font>
+      <Active>
+        <Foreground>#FFFFFF</Foreground>
+        <Background>#555555</Background>
+      </Active>
+      <Foreground>#FFFFFF</Foreground>
+      <Background>#333333</Background>
+    </TaskListStyle>
+    <PagerStyle>
+        <Outline>#111111</Outline>
+        <Foreground>#555555</Foreground>
+        <Background>#333333</Background>
+        <Text>#FFFFFF</Text>
+        <Active>
+            <Foreground>#0077CC</Foreground>
+            <Background>#004488</Background>
+        </Active>
+    </PagerStyle>
+    <MenuStyle>
+        <Font>Ubuntu-12</Font>
+        <Foreground>#FFFFFF</Foreground>
+        <Background>#333333</Background>
+        <Outline>#111111</Outline>
+        <Active>
+            <Foreground>#FFFFFF</Foreground>
+            <Background>#0077CC</Background>
+        </Active>
+        <Opacity>0.85</Opacity>
+    </MenuStyle>
+    <PopupStyle>
+        <Font>Ubuntu-10</Font>
+        <Foreground>#000000</Foreground>
+        <Background>#999999</Background>
+    </PopupStyle>
+
+    <!-- Path where icons can be found.
+         IconPath can be listed multiple times to allow searching
+         for icons in multiple paths.
+      -->
+    <IconPath>
+        /usr/share/icons/Numix/48/actions
+    </IconPath>
+    <IconPath>
+        /usr/share/icons/Numix/48/animations
+    </IconPath>
+    <IconPath>
+        /usr/share/icons/Numix-Circle/48/apps
+    </IconPath>
+    <IconPath>
+        /usr/share/icons/Numix/48/devices
+    </IconPath>
+    <IconPath>
+        /usr/share/icons/Numix/48/emblems
+    </IconPath>
+    <IconPath>
+        /usr/share/icons/Numix/48/mimetypes
+    </IconPath>
+    <IconPath>
+        /usr/share/icons/Numix/48/panel
+    </IconPath>
+    <IconPath>
+        /usr/share/icons/Numix/48/places
+    </IconPath>
+    <IconPath>
+        /usr/share/icons/Numix/48/status
+    </IconPath>
+
+    <IconPath>
+        /usr/share/jwm
+    </IconPath>
+
+    <!-- Virtual Desktops -->
+    <!-- Desktop tags can be contained within Desktops for desktop names. -->
+    <Desktops width="4" height="1">
+        <!-- Default background. Note that a Background tag can be
+              contained within a Desktop tag to give a specific background
+              for that desktop.
+         -->
+        <Background type="command">nitrogen --restore</Background>
+    </Desktops>
+
+    <!-- Double click speed (in milliseconds) -->
+    <DoubleClickSpeed>400</DoubleClickSpeed>
+
+    <!-- Double click delta (in pixels) -->
+    <DoubleClickDelta>2</DoubleClickDelta>
+
+    <!-- The focus model (sloppy or click) -->
+    <FocusModel>sloppy</FocusModel>
+
+    <!-- The snap mode (none, screen, or border) -->
+    <SnapMode distance="10">border</SnapMode>
+
+    <!-- The move mode (outline or opaque) -->
+    <MoveMode>opaque</MoveMode>
+
+    <!-- The resize mode (outline or opaque) -->
+    <ResizeMode>opaque</ResizeMode>
+
+    <!-- Key bindings -->
+    <Key key="Up">up</Key>
+    <Key key="Down">down</Key>
+    <Key key="Right">right</Key>
+    <Key key="Left">left</Key>
+    <Key key="h">left</Key>
+    <Key key="j">down</Key>
+    <Key key="k">up</Key>
+    <Key key="l">right</Key>
+    <Key key="Return">select</Key>
+    <Key key="Escape">escape</Key>
+
+    <Key mask="A" key="Tab">nextstacked</Key>
+    <Key mask="A" key="F4">close</Key>
+    <Key mask="4" key="#">desktop#</Key>
+    <Key mask="A" key="F1">root:1</Key>
+    <Key mask="A" key="F2">window</Key>
+
+    <Key mask="4" key="Up">maximize</Key>
+    <Key mask="4" key="Down">restore</Key>
+    <Key mask="4" key="Right">maxright</Key>
+    <Key mask="4" key="Left">maxleft</Key>
+
+    <Key mask="4S" key="Right">sendr</Key>
+    <Key mask="4S" key="Left">sendl</Key>
+
+    <Key mask="4A" key="Right">rdesktop</Key>
+    <Key mask="4A" key="Left">ldesktop</Key>
+    <Key mask="4A" key="Up">prev</Key>
+    <Key mask="4A" key="Down">next</Key>
+
+	<Key mask="4" key="Return">exec:i3-sensible-terminal</Key>
+
+	<Key mask="4S" key="Return">exec:exo-open --launch filemanager</Key>
+	
+	<Key mask="4" key="F11">exec:google-chrome-stable --profile-directory='Profile 1'</Key>
+	<Key mask="4" key="F12">exec:google-chrome-stable --profile-directory='Default'</Key>
+	
+	<Key mask="4" key="slash">exec:rofi -show drun</Key>
+	<Key mask="4" key="backslash">exec:rofi -show run</Key>
+
+	<Key mask="CA" key="k">exec:i3lock --image=/home/jeff/background-lock.png --pointer=win</Key>
+
+	<Key mask="C4" key="r">exec:jwm -restart</Key>
+	<Key mask="4S" key="x">exec:jwm -exit</Key>
+	<Key mask="4" key="x">exec:jwm -exit</Key>
+	
+	
+</JWM>
