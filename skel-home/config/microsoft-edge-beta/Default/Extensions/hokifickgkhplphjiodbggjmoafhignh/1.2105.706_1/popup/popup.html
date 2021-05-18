@@ -1,0 +1,285 @@
+<div aria-label="{{ 'PopupGroupAriaLabel' | i18n }}. {{ 'sbx_signInDescription' | i18n }}" class="popup_view"
+    data-ng-keydown="ctrl.onPopupKeydown($event)" data-ng-style="{direction: ctrl.rtl ? 'rtl' : 'ltr'}"
+    ng-class="{ 'ebx-focus-visible': ctrl.focusVisible }" role="group"
+    data-ng-show="ctrl.hasSignedIn === ctrl.constants.SIGNINSTATUS.NONE && !ctrl.isUnsignedInEditorEnabled">
+    <div class="login_view">
+        <img aria-hidden="true" class="editor_login_icon" src="../assets/icon_256.png" />
+        <div class="login_title"><label>{{ 'AppName' | i18n }}</label></div>
+        <div class="login_subtitle"><label>{{ 'sbx_signInDescription' | i18n }}</label></div>
+        <div class="login_panel">
+            <div>
+                <div class="login_option">
+                    <button type="button" class="login_button"
+                        data-ng-click="ctrl.onWelcomeSignInClick(ctrl.constants.USER_SERVICE_TYPE.MSID, 'main')"
+                        tabindex="0">
+                        {{ 'SignInLabel' | i18n }}
+                    </button>
+                </div>
+            </div>
+            <button class="login_help" type="button" role="link" data-ng-click="ctrl.openSupportPage()">
+                {{ 'SupportPageLabel' | i18n }}
+            </button>
+        </div>
+    </div>
+</div>
+<div aria-label="{{ 'PopupGroupAriaLabel' | i18n }}" class="popup_view" data-ng-keydown="ctrl.onPopupKeydown($event)"
+    data-ng-style="{direction: ctrl.rtl ? 'rtl' : 'ltr'}" ng-class="{ 'ebx-focus-visible': ctrl.focusVisible }"
+    role="group" data-ng-show="ctrl.hasSignedIn !== ctrl.constants.SIGNINSTATUS.NONE || ctrl.isUnsignedInEditorEnabled">
+    <div class="home_view">
+        <!--
+            Fading Panel
+            It is used to fade out the popup when the menu is dropped.
+            Clicking on the panel hides the menu
+        -->
+        <div aria-hidden="true" class="fading_panel"
+            data-ng-click="ctrl.currentViewMode = ctrl.constants.MENU_VIEWMODE.NONE; ctrl.accountPanelOpened = false"
+            ng-class="{ 'visible': ctrl.accountPanelOpened }"
+            ng-if="ctrl.hasSignedIn !== ctrl.constants.SIGNINSTATUS.NONE" role="group"></div>
+
+        <div class="profile_panel" ng-if="ctrl.hasSignedIn !== ctrl.constants.SIGNINSTATUS.NONE">
+            <div aria-hidden="true" class="profile_button box" data-ng-click="ctrl.onProfileClick()">
+                <div class="profile_circle_inner" ng-if="ctrl.profilePicture === ''">
+                    <i class="ms-Icon ms-Icon--Contact" aria-hidden="true"></i>
+                </div>
+                <img class="profile_picture" ng-if="ctrl.profilePicture !== ''" ng-src="{{ctrl.profilePicture}}" />
+            </div>
+            <div aria-hidden="true" class="profile_name" data-ng-click="ctrl.openMyAccountPage()">
+                <div class="account_name">{{ctrl.username}}</div>
+                <div class="account_email">{{ctrl.email}}</div>
+            </div>
+            <button aria-expanded="{{ctrl.accountPanelOpened}}" aria-haspopup="true"
+                aria-label="{{ 'SettingsLabel' | i18n }}. {{ctrl.username}}. {{ctrl.email}}" class="settings_button"
+                data-ng-click="ctrl.onProfileClick()" id="settings_drop_down" type="button">
+                <i class="ms-Icon ms-Icon--ChevronDown" ng-if="ctrl.accountPanelOpened === false"
+                    aria-hidden="true"></i>
+                <i class="ms-Icon ms-Icon--ChevronUp" ng-if="ctrl.accountPanelOpened === true" aria-hidden="true"></i>
+            </button>
+        </div>
+
+        <div class="account_panel menu-switch-animation"
+            ng-if="ctrl.accountPanelOpened && ctrl.hasSignedIn !== ctrl.constants.SIGNINSTATUS.NONE">
+            <div class="account_links_container">
+                <button class="account_link" id="account_link_button" role="link" type="button"
+                    data-ng-click="ctrl.openMyAccountPage()">
+                    {{ 'MyAccountLabel' | i18n }}
+                </button>
+            </div>
+
+            <div class="tooltip top" data-ng-mouseenter="ctrl.showSignoutTooltip()"
+                data-ng-mouseleave="ctrl.hideSignoutTooltip()">
+                <div class="tooltip_text" ng-class="{ 'visible': ctrl.signoutTooltipVisible }">
+                    <div class="tooltip_content">{{ 'SignOutTooltip' | i18n }}</div>
+                </div>
+                <button aria-label="{{ 'SignOutTooltip' | i18n }}" class="signout_button" type="button"
+                    data-ng-click="ctrl.onSignOutClick()">
+                    {{ 'SignOutLabel' | i18n }}
+                </button>
+            </div>
+        </div>
+
+        <div ng-class="ctrl.hasSignedIn === ctrl.constants.SIGNINSTATUS.NONE ? 'app_panel_unsigned' : 'app_panel'">
+            <div aria-label="{{ 'EditorBrandText' | i18n }}" class="editor_group"
+                data-ng-controller="EditorController as edctrl" data-ng-if="ctrl.editorFeatureEnabled"
+                data-ng-init="edctrl.onLoad()" role="group">
+                <!-- Show this section only if Editor feature is enabled remotely -->
+                <ng-container>
+                    <div class="editor_group_header">
+                        <label>
+                            <p class="editor_wrappable">{{ 'EditorBrandText' | i18n }}</p>
+                        </label>
+                        <button aria-label="{{ 'EditorSettingsLabel' | i18n }}" class="editor_settings_button"
+                            data-ng-click="edctrl.onEditorSettingsClick()" role="link"
+                            tabindex="{{ctrl.accountPanelOpened ? -1 : 0}}" type="button">
+                            <i class="ms-Icon ms-Icon--Settings"></i>
+                        </button>
+                    </div>
+
+                    <!-- Show this sub-section if the user is not signed for basic experience -->
+                    <div id="editor-signin" data-ng-show="!edctrl.isLoggedIn">
+                        <label> <p class="basic_login_label">{{ 'ebx_signIntoEditorBody' | i18n }}</p> </label>
+                        <button
+                            type="button"
+                            class="basic_login_button"
+                            data-ng-click="ctrl.onWelcomeSignInClick(ctrl.constants.USER_SERVICE_TYPE.MSID, 'sub')"
+                            id="editor-signin-button"
+                            tabindex="{{ctrl.accountPanelOpened ? -1 : 0}}"
+                        >
+                            {{ 'SignInLabel' | i18n }}
+                        </button>
+                        <button
+                            type="button"
+                            class="basic_login_help"
+                            data-ng-click="ctrl.openSupportPage()"
+                            id="editor-signin-button"
+                            tabindex="{{ctrl.accountPanelOpened ? -1 : 0}}"
+                        >
+                            {{ 'SupportPageLabel' | i18n }}
+                        </button>
+                        <hr class="basic_login_divider" />
+                    </div>
+
+                    <!-- AutoCorrect/Spelling/Grammar/Refinements settings -->
+                    <div class="editor_toggle_line">
+                        <div class="editor_toggle" data-ng-if="edctrl.isAutocorrectFeatureEnabled">
+                            <label for="editor-autocorrect-toggle" class="editor_toggle_description"
+                                ng-class="{ 'disabled': !edctrl.editorEnabled || edctrl.editorSiteBlockedShow || edctrl.editorEnableShow }">{{ 'EditorAutocorrectToggleLabel' | i18n }}</label>
+                            <label class="switch">
+                                <input data-ng-change="edctrl.onEditorAutocorrectChange()"
+                                    data-ng-model="edctrl.editorAutocorrectToggle" id="editor-autocorrect-toggle"
+                                    ng-disabled="!edctrl.editorEnabled || edctrl.editorSiteBlockedShow || edctrl.editorEnableShow"
+                                    role="switch" tabindex="{{ctrl.accountPanelOpened ? -1 : 0}}" type="checkbox"
+                                    data-ng-keydown="edctrl.onEditorAutocorrectKeyPress($event)" />
+                                <span class="slider round"
+                                    ng-class="{ 'animations_enabled': edctrl.animationsEnabled }"></span>
+                            </label>
+                        </div>
+
+                        <div class="editor_toggle">
+                            <label for="editor-spelling-toggle" class="editor_toggle_description"
+                                ng-class="{ 'disabled': !edctrl.editorEnabled || edctrl.editorSiteBlockedShow || edctrl.editorEnableShow }">{{ 'EditorSpellingToggleLabel' | i18n }}</label>
+                            <label class="switch">
+                                <input data-ng-change="edctrl.onEditorSpellingChange()"
+                                    data-ng-model="edctrl.editorSpellingToggle" id="editor-spelling-toggle"
+                                    ng-disabled="!edctrl.editorEnabled || edctrl.editorSiteBlockedShow || edctrl.editorEnableShow"
+                                    role="switch" tabindex="{{ctrl.accountPanelOpened ? -1 : 0}}" type="checkbox"
+                                    data-ng-keydown="edctrl.onEditorSpellingKeyPress($event)" />
+                                <span class="slider round"
+                                    ng-class="{ 'animations_enabled': edctrl.animationsEnabled }"></span>
+                            </label>
+                        </div>
+
+                        <div class="editor_toggle tooltip bottom" data-ng-mouseenter="ctrl.showGrammarTooltip()"
+                            data-ng-mouseleave="ctrl.hideGrammarTooltip()">
+                            <div class="tooltip_text"
+                                ng-class="{ 'visible': !edctrl.isLoggedIn && ctrl.grammarTooltipVisible }">
+                                <div class="tooltip_content">{{ edctrl.grammarTooltipText }}</div>
+                            </div>
+                            <label for="editor-grammar-toggle" class="editor_toggle_description"
+                                ng-class="{ 'disabled': !edctrl.editorEnabled || edctrl.editorSiteBlockedShow || edctrl.editorEnableShow || !edctrl.isLoggedIn }">{{ 'EditorGrammarToggleLabel' | i18n }}</label>
+                            <label class="switch">
+                                <input data-ng-change="edctrl.onEditorGrammarChange()"
+                                    data-ng-model="edctrl.editorGrammarToggle" id="editor-grammar-toggle"
+                                    ng-disabled="!edctrl.editorEnabled || edctrl.editorSiteBlockedShow || edctrl.editorEnableShow || !edctrl.isLoggedIn"
+                                    role="switch" tabindex="{{ctrl.accountPanelOpened ? -1 : 0}}" type="checkbox"
+                                    data-ng-keydown="edctrl.onEditorGrammarKeyPress($event)" />
+                                <span class="slider round"
+                                    ng-class="{ 'animations_enabled': edctrl.animationsEnabled }"></span>
+                            </label>
+                        </div>
+
+                        <div class="editor_toggle tooltip bottom" data-ng-mouseenter="ctrl.showRefinementsTooltip()"
+                            data-ng-mouseleave="ctrl.hideRefinementsTooltip()">
+                            <div class="tooltip_text" ng-class="{ 'visible': ctrl.refinementsTooltipVisible }">
+                                <div class="tooltip_content">{{ edctrl.refinementsTooltipText }}</div>
+                            </div>
+                            <label class="editor_toggle_description" for="editor-refinements-toggle"
+                                ng-class="{ 'disabled': !edctrl.editorEnabled || edctrl.editorSiteBlockedShow || edctrl.editorEnableShow || !edctrl.editorIsPremiumUser || !edctrl.isLoggedIn }">{{ 'EditorRefinementsToggleLabel' | i18n }}</label>
+                            <label class="switch">
+                                <input data-ng-change="edctrl.onEditorRefinementsChange()"
+                                    data-ng-model="edctrl.editorRefinementsToggle" id="editor-refinements-toggle"
+                                    ng-disabled="!edctrl.editorEnabled || edctrl.editorSiteBlockedShow || edctrl.editorEnableShow || !edctrl.editorIsPremiumUser || !edctrl.isLoggedIn"
+                                    role="switch" tabindex="{{ctrl.accountPanelOpened ? -1 : 0}}" type="checkbox"
+                                    data-ng-keydown="edctrl.onEditorRefinementsKeyPress($event)" />
+                                <span class="slider round"
+                                    ng-class="{ 'animations_enabled': edctrl.animationsEnabled }"></span>
+                            </label>
+                        </div>
+
+                        <div class="proofing_language_container">
+                            <button data-ng-if="edctrl.isMultiLangFeatureEnabled" class="editor_subheading"
+                                data-ng-click="edctrl.onEditorSettingsClick()"
+                                ng-class="{ 'disabled': !edctrl.editorEnabled }" ng-disabled="!edctrl.editorEnabled"
+                                role="link" tabindex="{{ctrl.accountPanelOpened ? -1 : 0}}">
+                                <span>{{ 'EditorProofingLanguagesLabel' | i18n }}</span>
+                                <i data-ng-if="edctrl.isMultiLangFeatureEnabled"
+                                    class="ms-Icon {{ctrl.rtl ? 'ms-Icon--ChevronLeft' : 'ms-Icon--ChevronRight'}}"
+                                    aria-hidden="true"></i>
+                            </button>
+                            <p data-ng-if="!edctrl.isMultiLangFeatureEnabled" class="editor_subheading"
+                                ng-class="{ 'disabled': !edctrl.editorEnabled }">
+                                {{ 'EditorProofingLanguageLabel' | i18n }}
+                            </p>
+                            <button data-ng-if="edctrl.isMultiLangFeatureEnabled"
+                                ng-repeat="language in edctrl.proofingLanguages" aria-label="{{language.ariaLabel}}"
+                                class="editor_proofing_button" data-ng-click="edctrl.onEditorSettingsClick()"
+                                ng-disabled="!edctrl.editorEnabled" role="link"
+                                tabindex="{{ctrl.accountPanelOpened ? -1 : 0}}" title="{{language.name}}">
+                                <p>{{language.name}}</p>
+                            </button>
+                            <button data-ng-if="!edctrl.isMultiLangFeatureEnabled"
+                                aria-label="{{edctrl.proofingLanguages[0].ariaLabel}}" class="editor_proofing_button"
+                                data-ng-click="edctrl.onEditorSettingsClick()" ng-disabled="!edctrl.editorEnabled"
+                                role="link" tabindex="{{ctrl.accountPanelOpened ? -1 : 0}}"
+                                title="{{edctrl.proofingLanguages[0].name}}">
+                                <p>{{edctrl.proofingLanguages[0].name}}</p>
+                                <i class="ms-Icon {{ctrl.rtl ? 'ms-Icon--ChevronLeft' : 'ms-Icon--ChevronRight'}}"
+                                    aria-hidden="true"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Show this sub-section if the site can be disabled -->
+                    <div id="editor-disable-site" data-ng-show="edctrl.editorDisableShow && edctrl.editorEnabled">
+                        <div class="editor_onoff">
+                            <button class="editor_onoff_button truncate" data-ng-click="edctrl.onEditorDisableClick()"
+                                id="editor-disable-button" tabindex="{{ctrl.accountPanelOpened ? -1 : 0}}"
+                                title="{{edctrl.editorDisableLabel}}" type="button">
+                                {{ edctrl.editorDisableLabel }}
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Show this sub-section if the site can be enabled -->
+                    <div id="editor-enable-site" data-ng-show="edctrl.editorEnableShow && edctrl.editorEnabled">
+                        <div class="editor_enable">
+                            <p role="status" aria-label="{{ edctrl.editorIsDisabledLabel }}"
+                                tabindex="{{ctrl.accountPanelOpened ? -1 : 0}}" class="editor_enable_text">
+                                {{ edctrl.editorIsDisabledLabel }}
+                            </p>
+                        </div>
+                        <div class="editor_onoff">
+                            <button type="button" id="editor-enable-button" class="editor_onoff_button truncate" href=""
+                                data-ng-click="edctrl.onEditorEnableClick()"
+                                tabindex="{{ctrl.accountPanelOpened ? -1 : 0}}" title="{{edctrl.editorEnableLabel}}">
+                                {{ edctrl.editorEnableLabel }}
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Show this sub-section if the site is blocked by the system or supported natively (e.g. OWA) -->
+                    <div id="editor-site-blocked" data-ng-show="edctrl.editorSiteBlockedShow && edctrl.editorEnabled">
+                        <div class="editor_site_blocked">
+                            <p aria-label="{{ edctrl.editorIsBlockedLabel }}" class="editor_site_blocked_text"
+                                role="status" tabindex="{{ctrl.accountPanelOpened ? -1 : 0}}">
+                                {{ edctrl.editorIsBlockedLabel }}
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Show this sub-section if the editor is disabled -->
+                    <div id="editor-disabled" data-ng-show="!edctrl.editorEnabled">
+                        <div class="editor_disabled"><span>{{ 'EditorIsOffLabel' | i18n }}</span></div>
+                        <div class="editor_onoff">
+                            <button type="button" id="editor_turnon_button" class="editor_onoff_button truncate"
+                                data-ng-click="edctrl.onEditorTurnOnClick()"
+                                tabindex="{{ctrl.accountPanelOpened ? -1 : 0}}">
+                                {{ 'TurnOnEditorLabel' | i18n }}
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Show this sub-section if the user gets upsell -->
+                    <div id="editor-upsell" class="editor_go_premium"
+                        data-ng-show="edctrl.upsellFeatureEnabled && edctrl.editorIsUpsellUser">
+                        <button role="link" type="button" id="editor-go-premium" class="editor_go_premium_button"
+                            data-ng-click="edctrl.onEditorGoPremiumClick()"
+                            tabindex="{{ctrl.accountPanelOpened ? -1 : 0}}">
+                            <i class="ms-Icon ms-Icon--Diamond" aria-hidden="true"></i>
+                            <label style="cursor: pointer;">{{ 'ebx_goPremiumLinkText' | i18n }}</label>
+                        </button>
+                    </div>
+                </ng-container>
+            </div>
+        </div>
+    </div>
+</div>

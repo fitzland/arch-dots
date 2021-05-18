@@ -1,0 +1,552 @@
+{
+  "ebx_appName": {
+    "message": "Editor በአሳሽ ውስጥ"
+  },
+  "ebx_appShortName": {
+    "message": "Editor"
+  },
+  "ebx_appDescription": {
+    "message": "ከ Microsoft አርታኢ ጋር በመተማመን ይፃፉ፡- ብልህ የፅሁፍ ረዳትዎ"
+  },
+  "ebx_appLongDescription": {
+    "message": "አርታኢ በበርካታ የሰዋስው፣ የፊደል አጻጻፍ እና የቅጥ ጥቆማዎችን ያቀርባል (1)፤ ስለዚህ ግልፅ ፣ አጭር ልጥፎችን እና ኢሜይሎችን በግልፅ መጻፍ ይችላሉ፡፡ \r\n\r\nአዲስ: ባለብዙ ቋንቋ ማረጋገጫ ፣ አማራጮቹን ችላ ይበሉ \r\nየፊደል አጻጻፍ እና ሰዋሰው በተመሳሳይ ጊዜ ለሦስት ቋንቋዎች ይፈትሹ፡፡ በተጨማሪም አሁን የፊደል አጻጻፍ ማረጋገጫ በታይኛ ቀርቧል፡፡ ሁሉንም እንዳለ ችላ በል  የሚል በመምረጥ ሁሉንም የፊደል ክስተቶች እንዲዘለሉ በማድረግ  ወይም የማያስፈልጉ የሰዋሰው ጥቆማዎችን ችላ በል ማለት እንዲቻል ቀላል አድርገናል፡፡\r\n\r\nብልህ አፃፃፍ የጽሑፍ እገዛ \r\nመሰረታዊ ነገሮችን ከነፃ ሰዋስው፣ የፊደል አጻጻፍ ፣ እና ሥርዓተ-ነጥብ ማረጋገጫ ጋር አያይዞታል፡፡ የላቀ፣ ሰዋሰዋዊነት፣ መደበኛነት፣ ቃላቶች እና በጣም ብዙ ለሆኑ ዋና ዋና የሰዋስው ጥቆማዎችን እና የቅጥ-ማጣሪያዎችን ያግኙ (የ Microsoft 365 የደንበኝነት ምዝገባ ይፈልጋል)። \r\n\r\nደወ የትም ቦታ ይጻፉ \r\nእንደከ Microsoft አርታኢ ጋር በመተማመን ይፃፉ፡፡ LinkedIn፣ Gmail፣ Facebook እና ሌሎች ተወዳጆች ባሉ ጣቢያዎች ላይ የፅሁፍ እገዛ ያግኙ፡፡ ከድር ውጭ የአርታዒ  ድጋፍ ከፈለጉ ፣ ቃሉን ይክፈቱ እና ሰነዶችን እና ኢሜሎችን በሚጽፉበት ጊዜ አርታኢ እንዴት እንደሚረዳ ለማየት የአርትዖት አዶን ይፈልጉ፡፡ \r\n\r\nበበርካታ ቋንቋዎች ይገኛል \r\nአርታኢ ከ 80 በሚበልጡ ቋንቋዎች የፊደል አጻጻፍ ያረጋግጣል እንዲሁም በሚከተሉት  ቋንቋዎች የሰዋስው የማጣሪያ እና የአጻጻፍ ዘይቤ ማሻሻያዎችን ይሰጣል:- (2) \r\nዓረብኛ\r\n– ቼክኛ\r\n– ዴኒሽ\r\n– ደች\r\n– እንግሊዝኛ\r\n– ፊኒሽ\r\n– ፈረንሳይኛ\r\n– ጀርመንኛ\r\n– እብራይስጥ\r\n– ሀንጋሪኛ\r\n– ጣሊያንኛ\r\n– ጃፓንኛ\r\n– ኮሪያኛ\r\n– ኖርዌይኛ (ቦክማል)\r\n– ፖሊሽኛ\r\n– ፖርቱጋልኛ (ብራዚል)\r\n– ፖርቱጋልኛ (ፖርቱጋል)\r\n– ሩሲያኛ\r\n– ስፓንሽኛ\r\n– ስዊድንኛ\r\n– ቱርክኛ\r\n\r\n1፡፡ ለ Microsoft Edge ወይም ለ Chrome አሳሾች የሚገኝ እና የ Microsoft  መለያ ይፈልጋል፡፡ አርታኢ የፊደል አጻጻፍ፣ የሰዋስው እና የማብራሪያ ጥቆማዎችን በአብዛኛዎቹ ድርጣቢያዎች ላይ ከሚጽፍ Microsoft  የመስመር ላይ አገልግሎት ጋር ይገናኛል፡፡ \r\n2። ሁሉም ቋንቋዎች አንድ ዓይነት የማጣሪያ ስብስብ የላቸውም፡፡ \r\n\r\nመተግበሪያውን በመጫን በእነዚህ የአገልግሎት ውሎች ተስማምተዋል:-\r\n\r\nhttps://aka.ms/editorchromeextensiontermsms\r\n\r\nየግላዊነት ፖሊሲ: http://aka.ms/privvacy"
+  },
+  "ebx_appLongDescriptionEdge": {
+    "message": "ከ Microsoft  አርታኢ ጋር በመተማመን ይፃፉ ፡፡ \r\n\r\n አርታኢ በበርካታ ሰዋስው፣ የፊደል አጻጻፍ እና የቅጥ ጥቆማዎችን ይሰጣል (1)፤ ስለዚህ ግልፅ ፣ አጭር ልጥፎችን እና ኢሜይሎችን በግልፅ መጻፍ ይችላሉ፡፡ \r\n\r\nአዲስ: ባለብዙ ቋንቋ ማረጋገጫ ፣ አማራጮቹን ችላ ይበሉ \r\nየፊደል አጻጻፍ እና ሰዋሰው በተመሳሳይ ጊዜ ለሦስት ቋንቋዎች ይፈትሹ፡፡ በተጨማሪም አሁን የፊደል አጻጻፍ ማረጋገጫ በታይኛ ቀርቧል፡፡ ሁሉንም እንዳለ ችላ በል  የሚል በመምረጥ ሁሉንም የፊደል ክስተቶች እንዲዘለሉ በማድረግ  ወይም የማያስፈልጉ የሰዋሰው ጥቆማዎችን ችላ በል ማለት እንዲቻል ቀላል አድርገናል፡፡ \r\n\r\nብልህ አፃፃፍ የጽሑፍ እገዛ \r\nመሰረታዊ ነገሮችን ከነፃ ሰዋስው፣ የፊደል አጻጻፍ ፣ እና ሥርዓተ-ነጥብ ማረጋገጫ ጋር አያይዞታል ፡፡ የላቀ፣ ሰዋሰዋዊነት፣ መደበኛነት፣ ቃላቶች እና በጣም ብዙ ለሆኑ ዋና ዋና የሰዋስው ጥቆማዎችን እና የቅጥ-ማጣሪያዎችን ያግኙ (የ Microsoft 365 የደንበኝነት ምዝገባ ይፈልጋል) \r\n\r\nደወ የትም ቦታ ይጻፉ \r\n እንደ LinkedIn፣ Gmail፣ Facebook እና ሌሎች ተወዳጆች ባሉ ጣቢያዎች ላይ የፅሁፍ እገዛ ያግኙ፡፡ ከድር ውጭ የአርታዒ ድጋፍ ከፈለጉ፣ ቃሉን ይክፈቱ እና ሰነዶችን እና ኢሜሎችን በሚጽፉበት ጊዜ አርታኢ እንዴት እንደሚረዳ ለማየት የአርትዖት አዶን ይፈልጉ፡፡ \r\n\r\nበበርካታ ቋንቋዎች ይገኛል \r\nአርታኢ ከ 80 በሚበልጡ ቋንቋዎች የፊደል አጻጻፍ ያረጋግጣል እንዲሁም በሚከተሉት ቋንቋዎች የሰዋስው የማጣሪያ እና የአጻጻፍ ዘይቤ ማሻሻያዎችን ይሰጣል:- \r\nዓረብኛ\r\n– ቼክኛ\r\n– ዴኒሽ\r\n– ደች\r\n– እንግሊዝኛ\r\n– ፊኒሽ\r\n– ፈረንሳይኛ\r\n– ጀርመንኛ\r\n– እብራይስጥ\r\n– ሀንጋሪኛ\r\n– ጣሊያንኛ\r\n– ጃፓንኛ\r\n– ኮሪያኛ\r\n– ኖርዌይኛ (ቦክማል)\r\n– ፖሊሽኛ\r\n– ፖርቱጋልኛ (ብራዚል)\r\n– ፖርቱጋልኛ (ፖርቱጋል)\r\n– ሩሲያኛ\r\n– ስፓንሽኛ\r\n– ስዊድንኛ\r\n– ቱርክኛ\r\n\r\n1፡፡ ለ Microsoft Edge ወይም ለ Chrome አሳሾች የሚገኝ እና የ Microsoft  መለያ ይፈልጋል፡፡ አርታኢ የፊደል አጻጻፍ፣ የሰዋስው እና የማብራሪያ ጥቆማዎችን በአብዛኛዎቹ ድርጣቢያዎች ላይ ከሚጽፍ Microsoft  የመስመር ላይ አገልግሎት ጋር ይገናኛል 2። ሁሉም ቋን\r\nቋዎች አንድ ዓይነት የማጣሪያ ስብስብ የላቸውም፡፡ \r\n\r\nመተግበሪያውን በመጫን በእነዚህ የአገልግሎት ውሎች ተስማምተዋል:-\r\n\r\nhttps://aka.ms/editorchromeextensiontermsms\r\n\r\nየግላዊነት ፖሊሲ: http://aka.ms/privvacy"
+  },
+  "ebx_appTermsOfServiceLCA": {
+    "message": "PLEASE NOTE: Refer to your license terms for your Microsoft Account or Microsoft 365 subscription as applicable (the \"extension\") to identify the entity licensing this extension to you and for support information.  The license terms for the Microsoft Account or Microsoft 365 subscription as applicable apply to your use of this extension."
+  },
+  "ebx_optionsPageTitle": {
+    "message": "Editor ቅንብር"
+  },
+  "ebx_settings": {
+    "message": "ቅንብሮች"
+  },
+  "ebx_proofingLanguage": {
+    "message": "የለቀማ ቋንቋ"
+  },
+  "ebx_proofingLanguages": {
+    "message": "ቋንቋዎችን በማረጋገጥ ላይ"
+  },
+  "ebx_proofingLanguagePlaceHolder": {
+    "message": "የለቀማ ቋንቋ ይምረጡ"
+  },
+  "ebx_userExcludedUrlsTextBoxCaption": {
+    "message": "ከታች የተዘረዘሩ ጣቢያዎች ውስጥ Editorን ሰርዘዋል። Editor ስሱ ይዘት እና ዝግ ያለ የመጫን ፍጥነት ባላቸው ተጨማሪ ጣቢያዎች ላይ በራስ ሰር ሊጠፋ ይችላል።"
+  },
+  "ebx_userBlockedSites": {
+    "message": "የተከለከሉ ጣቢያዎች"
+  },
+  "ebx_userExcludedUrlsErrorCaption": {
+    "message": "ልክ ያልሆነ ዩአርኤል \"$url$\" በመስመር $line$ ላይ።",
+    "placeholders": {
+      "url": {
+        "content": "$1",
+        "example": "https://microsoft.com"
+      },
+      "line": {
+        "content": "$2",
+        "example": "123"
+      }
+    }
+  },
+  "ebx_userExcludedUrlErrorCaption": {
+    "message": "የተሳሳተ url። እባክዎ url በሚከተለው ቅርጸት ያቅርቡ: https://example.com"
+  },
+  "ebx_showSynonymsToggleCaption": {
+    "message": "ተወራራሽ ትርጉሞችን በስረዕተ ሆሄያት ጥቆማዎች ላይ አሳይ"
+  },
+  "ebx_comingSoonTooltipTitle": {
+    "message": "በቅርቡ የሚመጣ"
+  },
+  "ebx_changeAllCommandLabel": {
+    "message": "ሁሉንም ለውጥ"
+  },
+  "ebx_changeSettingsCommandLabel": {
+    "message": "Editor ቅንብሮች..."
+  },
+  "ebx_moreButtonArialLabel": {
+    "message": "ተጨማሪ ትዕዛዛት"
+  },
+  "ebx_ignoreAllButtonLabel": {
+    "message": "ሁሉም ተወው"
+  },
+  "ebx_ignoreOnceButtonLabel": {
+    "message": "ችላ ይበሉ"
+  },
+  "ebx_addToDictionaryButtonLabel": {
+    "message": "ወደ መዝገበ ቃላት ያክሉ"
+  },
+  "ebx_suggestionMoreActionsArialLabel": {
+    "message": "ተጨማሪ እርምጃዎች"
+  },
+  "ebx_brandText": {
+    "message": "Microsoft Editor"
+  },
+  "ebx_brandTextArialLabel": {
+    "message": "Microsoft Editor አርማ"
+  },
+  "ebx_showSynonyms": {
+    "message": "ተወራራሽ ትርጉሞችን አሳይ"
+  },
+  "ebx_hideSynonyms": {
+    "message": "ተወራራሽ ትርጉሞችን ደብቅ"
+  },
+  "ebx_synonymsNotAvailable": {
+    "message": "[ተመሳሳይ ቃላት ኣይገኝም]"
+  },
+  "ebx_ariaReplaceWith": {
+    "message": "ተካ በ"
+  },
+  "ebx_deleteRepeatedWord": {
+    "message": "የተደገመ ቃል ሰርዝ"
+  },
+  "ebx_asInSynonyms": {
+    "message": "ተመሳሳይ ከ"
+  },
+  "ebx_goPremiumLine": {
+    "message": "የEditorውን የላቀ የጽሁፍ ሃሳቦች ይሞክሩ።"
+  },
+  "ebx_goPremiumLinkText": {
+    "message": "ወደ ፕሪሚየም ያሳድጉ"
+  },
+  "ebx_goPremiumLinkTextLowerCase": {
+    "message": "ወደ Premium ይሂዱ"
+  },
+  "ebx_enhancedUpsellLinePartA": {
+    "message": "አርታዒ አለው"
+  },
+  "ebx_enhancedUpsellLinePartBPlural": {
+    "message": "ለዚህ መልዕክት የላቁ የጽሁፍ ሀሳቦች።"
+  },
+  "ebx_enhancedUpsellLinePartBSingular": {
+    "message": "ለዚህ መልዕክት የላቁ የጽሁፍ ሃሳብ።"
+  },
+  "ebx_enhancedUpsellCategoriesComma": {
+    "message": "፣ "
+  },
+  "ebx_enhancedUpsellCategoriesAnd": {
+    "message": " እና "
+  },
+  "ebx_tryPremiumPreviewLink": {
+    "message": "አሁን ይሞክሩ"
+  },
+  "ebx_premiumPreviewGeneralLine": {
+    "message": "የአርታኢያን የላቀ የአጻጻፍ ሀሳቦችን ያግኙ።"
+  },
+  "ebx_premiumPreviewLineDaysPlural": {
+    "message": "እዚህ ቅድመ ዕይታ ውስጥ ቀናት ቀርተዋል። ያልተገደቡ ጥቆማዎችን ለማግኘት ያልቁ:"
+  },
+  "ebx_premiumPreviewLineDaysSingular": {
+    "message": "እዚህ ቅድመ ዕይታ ውስጥ አንድ ቀን ቀርተዋል። ያልተገደቡ ጥቆማዎችን ለማግኘት ያልቁ:"
+  },
+  "ebx_premiumPreviewLineSuggestionsPlural": {
+    "message": "እዚህ ቅድመ ዕይታ ውስጥ ጥቆማዎች ቀርተዋል። ያልተገደቡ ጥቆማዎችን ለማግኘት ያልቁ:"
+  },
+  "ebx_premiumPreviewLineSuggestionsSingular": {
+    "message": "እዚህ ቅድመ ዕይታ ውስጥ ጥቆማ ቀርተዋል። ያልተገደቡ ጥቆማዎችን ለማግኘት ያልቁ:"
+  },
+  "ebx_checkSpelling": {
+    "message": "ስርዓተ ሆሄያት ይፈትሹ"
+  },
+  "ebx_checkGrammar": {
+    "message": "ሰዋስው ይፈትሹ"
+  },
+  "ebx_turnOffEditor": {
+    "message": "Editorን አጥፋ"
+  },
+  "ebx_editorFeature": {
+    "message": "Microsoft Editor"
+  },
+  "ebx_editorFeatureOfficeBx": {
+    "message": "Editorን አጥፋ"
+  },
+  "ebx_editorFeatureOnText": {
+    "message": "ማብራት"
+  },
+  "ebx_editorFeatureOffText": {
+    "message": "ማጥፋት"
+  },
+  "ebx_turnOffEditorExplained": {
+    "message": "Editor የፊደል አጻጻፍ ፣ የሰዋስው እና የቅጥ አስተያየት ምክሮችን በአብዛኛዎቹ ድር ጣቢያዎች ላይ ከሚሰጥዎ Microsoft የመስመር ላይ አገልግሎት ጋር ይገናኛል፡፡"
+  },
+  "ebx_checkForRefinements": {
+    "message": "ለመሻሻያዎች ይፈትሹ"
+  },
+  "ebx_addAnotherSite": {
+    "message": "ሌላ ጣቢያ አክል"
+  },
+  "ebx_goPremiumExplained": {
+    "message": "የ Editorን የላቁ የጽሁፍ ሀሳቦች፣ ከ1 ቴባ OneDrive ማከማቻ እና ከፕሪሚየም ባህሪዎች ጋር ሁሉንም Microsoft 365 መተግበሪያዎች ውስጥ ያግኙ።"
+  },
+  "ebx_addAnotherSiteAriaLabel": {
+    "message": "ሌላ ጣቢያ ያክሉ"
+  },
+  "ebx_addAnotherSiteSubmit": {
+    "message": "ወደ የተከለከሉ የጣቢያዎች ዝርዝር ጣቢያን አክል"
+  },
+  "ebx_addAnotherSiteCancel": {
+    "message": "ወደ የተከለከሉ ጣቢያዎች ዝርዝር ጣቢያ ማክለን ይሰርዙ።"
+  },
+  "ebx_RemoveItem": {
+    "message": "አስወግድ"
+  },
+  "ebx_duplicateBlockedSite": {
+    "message": "ጣቢያው በየተከለከሉ የጣቢያዎች ዝርዝር ላይ ተከልክሏል"
+  },
+  "ebx_editorEnableAnnouncementTitle": {
+    "message": "Microsoft Editor (ቅድመ ዕይታ) አሁን እየሄደ ነው"
+  },
+  "ebx_editorEnableAnnouncementText": {
+    "message": "Microsoft Office ቅጥያ አሁን የእርስዎን ምርጥ ጽሑፍ በመላው ድር ላይ ለማምጣት የሚረዳዎት ብልህ የፅሁፍ ረዳትዎ Microsoft Editorን ያካትታል ፡፡ Microsoft Editor የፊደል አጻጻፍ ፣ የሰዋስው እና የቅጥ አስተያየቶችን ለእርስዎ ለማቅረብ ከመስመር ላይ አገልግሎት ጋር ይገናኛል።"
+  },
+  "ebx_learnMore": {
+    "message": "ተጨማሪ ይወቁ"
+  },
+  "ebx_goToSettingsToLearnMore": {
+    "message": "የበለጠ ለማወቅ ወደ አርትዕ ቅንብሮች ይሂዱ"
+  },
+  "ebx_goToSettings": {
+    "message": "ወደ አርትዕ ቅንብሮች ሂድ"
+  },
+  "ebx_previewLabel": {
+    "message": "ቅድመ ዕይታ"
+  },
+  "ebx_preview": {
+    "message": "(ቅድመ ዕይታ)"
+  },
+  "ebx_SquiggleTooltipText": {
+    "message": "በግራ ጠቅታ ይክፈቱ"
+  },
+  "ebx_SquiggleTooltipCombination": {
+    "message": "(Alt+የታች ቀስት)"
+  },
+  "ebx_SquiggleTooltipCombinationMac": {
+    "message": "(Control+Option+Down Arrow)"
+  },
+  "ebx_SquiggleTooltipAriaText": {
+    "message": "በግራ-ጠቅታ ወይም በ Alt+የወደታች ቀስት ይክፈቱ"
+  },
+  "ebx_SquiggleTooltipAriaTextMac": {
+    "message": "በግራ ጠቅ በማድረግ ውወይም በ Control+Option+Down Arrow ይክፈቱ"
+  },
+  "ebx_SquiggleTooltipSpellingTitle": {
+    "message": "የፊደል ማረሚያ"
+  },
+  "ebx_SquiggleTooltipGrammarTitle": {
+    "message": "ሰዋስው ማስተካከያ"
+  },
+  "ebx_SquiggleTooltipRefinementTitle": {
+    "message": "ጽሁፍ ማጣሪያ"
+  },
+  "ebx_editorFeatureToggleLabel": {
+    "message": "Editor ባህሪ"
+  },
+  "ebx_toggleOn": {
+    "message": "ማብራት"
+  },
+  "ebx_toggleOff": {
+    "message": "ማጥፋት"
+  },
+  "ebx_toneLabel": {
+    "message": "ቃና"
+  },
+  "ebx_close": {
+    "message": "ዝጋ"
+  },
+  "ebx_feedbackMessage": {
+    "message": "በማቅረብ Editorን ለማሻሻል ይረዱናል"
+  },
+  "ebx_feedbackLink": {
+    "message": "ግብረመልስ"
+  },
+  "ebx_spelling": {
+    "message": "ስርዓተ ሆሄያት"
+  },
+  "ebx_grammar": {
+    "message": "ሰዋስው"
+  },
+  "ebx_refinements": {
+    "message": "መሻሻሎች"
+  },
+  "ebx_privacyOptions": {
+    "message": "የግላዊነት አማራጮች"
+  },
+  "ebx_privacyOptionSendData": {
+    "message": "ምርቶቻችንን እንድናሻሽል ለመርዳት ይህን የመስመር ላይ አገልግሎት እየተጠቀሙ ሳለ አማራጭ የምርመራ ውሂብን በራስሰር ይላኩ።"
+  },
+  "ebx_displayOptions": {
+    "message": "የማሳያ አማራጮች"
+  },
+  "ebx_privacyOptionSendDataLink": {
+    "message": "ስለ የውሂብ እድሳት የበለጠ ይወቁ"
+  },
+  "ebx_excludedSites": {
+    "message": "ያልተካተቱ ጣቢያዎች"
+  },
+  "ebx_goPremiumExplainedMicrosoft365": {
+    "message": "የ Editorን የላቁ የጽሁፍ ሀሳቦች፣ ከ1 ቴባ OneDrive ማከማቻ እና ከፕሪሚየም ባህሪዎች ጋር ሁሉንም Microsoft 365 መተግበሪያዎች ውስጥ ያግኙ።"
+  },
+  "ebx_settingsPageAriaLabel": {
+    "message": "Microsoft Editor ቅንብር"
+  },
+  "ebx_blockedSiteAdded": {
+    "message": "\"$url$\" በተሳካ ሁኔታ ታክለዋል",
+    "placeholders": {
+      "url": {
+        "content": "$1",
+        "example": "https://microsoft.com"
+      }
+    }
+  },
+  "ebx_blockedSiteRemoved": {
+    "message": "\"$url$\" በተሳካ ሁኔታ ተወግዷል",
+    "placeholders": {
+      "url": {
+        "content": "$1",
+        "example": "https://microsoft.com"
+      }
+    }
+  },
+  "ebx_blockedSiteListEmpty": {
+    "message": "ዝርዝሩ ባዶ ነው።"
+  },
+  "ebx_ProofingLanguages": {
+    "message": "ቋንቋዎችን በማረጋገጥ ላይ"
+  },
+  "ebx_proofingLanguagesDescription": {
+    "message": "እስከ ሶስት ቋንቋዎችን ይምረጡ። የመረጡት ቋንቋ ከላይ ይሆናል።"
+  },
+  "ebx_addProofingLanguage": {
+    "message": "ሌላ ቋንቋ ያክሉ"
+  },
+  "ebx_moveToTop": {
+    "message": "ወደ ራስጌ ይሂዱ"
+  },
+  "ebx_moveUp": {
+    "message": "አንቀሳቅስ ወደላይ"
+  },
+  "ebx_moveDown": {
+    "message": "አንቀሳቅስ ወደታች"
+  },
+  "ebx_languageAdded": {
+    "message": "\"$language$\" በተሳካ ሁኔታ ታክለዋል",
+    "placeholders": {
+      "language": {
+        "content": "$1",
+        "example": "እንግሊዝኛ (ታላቋ ብሪታኒያ)"
+      }
+    }
+  },
+  "ebx_languageRemoved": {
+    "message": "\"$language$\" በተሳካ ሁኔታ ተወግዷል",
+    "placeholders": {
+      "language": {
+        "content": "$1",
+        "example": "እንግሊዝኛ (ታላቋ ብሪታኒያ)"
+      }
+    }
+  },
+  "ebx_languageMovedUp": {
+    "message": "\"$language$\" በተሳካ ሁኔታ በዝርዝሩ ደረጃ 1 ወደ ላይ ከፍ ማድረግ ተችሏል",
+    "placeholders": {
+      "language": {
+        "content": "$1",
+        "example": "እንግሊዝኛ (ታላቋ ብሪታኒያ)"
+      }
+    }
+  },
+  "ebx_languageMovedToTop": {
+    "message": "\"$language$\" በተሳካ ሁኔታ በዝርዝሩ መጀመሪያ ላይ ማድረግ ተችሏል",
+    "placeholders": {
+      "language": {
+        "content": "$1",
+        "example": "እንግሊዝኛ (ታላቋ ብሪታኒያ)"
+      }
+    }
+  },
+  "ebx_addLanguageSubmit": {
+    "message": "በ ማረጋገጫ ቋንቋዎች ዝርዝር ውስጥ ቋንቋ አክል"
+  },
+  "ebx_addLanguageCancel": {
+    "message": "በ ማረጋገጫ ቋንቋዎች ዝርዝር ውስጥ ቋንቋ ማከልን ተው"
+  },
+  "ebx_MultiLanguageAnnouncementTitle": {
+    "message": "ብዙ ቋንቋ ማጣሪያ ከአርታዒ ጋር"
+  },
+  "ebx_MultiLanguageAnnouncementText": {
+    "message": "በተመሳሳይ ጊዜ ለሦስት ቋንቋዎች የፊደል አጻጻፍ እና ሰዋስው ይፈትሹ፡፡"
+  },
+  "ebx_MultiLanguageAnnouncementTextEditSettings": {
+    "message": "ቋንቋዎችዎን በአርታኢ ቅንብሮች ውስጥ ማርትዕ ይችላሉ፡፡"
+  },
+  "ebx_MultiLanguageAnnouncementSelectedLanguage": {
+    "message": "አሁን ባለው የአሳሽዎ ቅንብሮች መሠረት $language$ መርጠናል።",
+    "placeholders": {
+      "language": {
+        "content": "$1",
+        "example": "እንግሊዝኛ (ታላቋ ብሪታኒያ)"
+      }
+    }
+  },
+  "ebx_MultiLanguageAnnouncementTwoSelectedLanguages": {
+    "message": "አሁን ባለው የአሳሽዎ ቅንብሮች ላይ በመመርኮዝ $language1$​​​​​ እና $language2$​​​​​ ን መርጠናል።",
+    "placeholders": {
+      "language1": {
+        "content": "$1",
+        "example": "እንግሊዝኛ (ዩናይትድ ኪንግደም)"
+      },
+      "language2": {
+        "content": "$2",
+        "example": "እንግሊዝኛ (ዩናይትድ ኪንግደም)"
+      }
+    }
+  },
+  "ebx_MultiLanguageAnnouncementThreeSelectedLanguages": {
+    "message": "አሁን ባለው የአሳሽዎ ቅንብሮች ላይ በመመርኮዝ $language1$​​​​​፣ $language2$​​​​​ እና $language3$​​​​​ ን መርጠናል።",
+    "placeholders": {
+      "language1": {
+        "content": "$1",
+        "example": "እንግሊዝኛ (ዩናይትድ ኪንግደም)"
+      },
+      "language2": {
+        "content": "$2",
+        "example": "እንግሊዝኛ (ዩናይትድ ኪንግደም)"
+      },
+      "language3": {
+        "content": "$3",
+        "example": "እንግሊዝኛ (ዩናይትድ ኪንግደም)"
+      }
+    }
+  },
+  "ebx_SignInAnnouncementTitle": {
+    "message": "አርታዒ እስካሁን እየሰራ አይደለም"
+  },
+  "ebx_SignInAnnouncementText": {
+    "message": "በአብዛኛዎቹ ድር ጣቢያዎች ላይ የአስተያየት ጥቆማዎችን ለማግኘት በመለያ ይግቡ። እንደ የሚፅፏቸው ቋንቋዎች እና አርታዒያን ሊፈትሹት የሚፈልጉት ጉዳዮች ያሉ ቅንብሮችዎን እናስቀምጣለን፡፡"
+  },
+  "ebx_SignInAnnouncementSignIn": {
+    "message": "በመለያ ይግቡ"
+  },
+  "ebx_SignInAnnouncementAlternativeText": {
+    "message": "በአብዛኛዎቹ ድርጣቢያዎች ላይ የአስተያየት ጥቆማዎችን ለማግኘት ወደ Microsoft መለያዎ ወይም ለ Office በሚጠቀሙት የሥራ ወይም የትምህርት ቤት መለያዎ ይግቡ፡፡"
+  },
+  "ebx_proofingLanguageEntryHint": {
+    "message": "የተጨማሪ ትዕዛዞች አዝራርን ለመድረስ የቀኝ ቀስት ቁልፍን ይጫኑ።"
+  },
+  "ebx_rateExtensionTitle": {
+    "message": "ግብረ መልስ ስለ Microsoft Editor"
+  },
+  "ebx_rateExtensionPrompt": {
+    "message": "አርታዒ ጠቃሚ ሆኖ አገኙት?"
+  },
+  "ebx_rateExtensionPromptPositive": {
+    "message": "በጣም ጥሩ፣ ደረጃ ሊሰጡት ይፈልጋሉ?"
+  },
+  "ebx_rateExtensionPromptPositiveAlt": {
+    "message": "እስካሁን ድረስ ይህን አርታዒ መጠቀም ከወደዱት ደረጃ ሊሰጡት ይፈልጋሉ?"
+  },
+  "ebx_rateExtensionPromptNegative": {
+    "message": "ይህን በመስማታችን በጣም እዝነናል። እባክዎ አርታዒ እንዴት ማሻሻል እንደምንችል ይንገሩን።"
+  },
+  "ebx_rateExtensionPromptYes": {
+    "message": "አዎን"
+  },
+  "ebx_rateExtensionPromptNo": {
+    "message": "አይ"
+  },
+  "ebx_rateExtensionPromptGiveFeedback": {
+    "message": "ምላሽ ስጥ"
+  },
+  "ebx_rateExtensionPromptNoThanks": {
+    "message": "የለም፣ አመሰግናለሁ"
+  },
+  "ebx_rateExtensionPromptSure": {
+    "message": "በርግጥ"
+  },
+  "ebx_AddLanguageBlockedTooltip": {
+    "message": "በአንድ ጊዜ እስከ ሶስት ቋንቋዎች ብቻ ማረጋገጫ ማብራት ይችላሉ፡፡"
+  },
+  "ebx_addGrammarChecking": {
+    "message": "የሰዋሰው-ማጣሪያ ለማከል"
+  },
+  "ebx_signIntoEditor": {
+    "message": "ወደ Editor በመለያ ይግቡ"
+  },
+  "ebx_RefinementTooltip": {
+    "message": "የ Microsoft 365 ተመዝጋቢዎች በመለያ ሲገቡ የላቀ የጽሑፍ ጥቆማዎችን ያገኛሉ።"
+  },
+  "ebx_signIntoEditorTile": {
+    "message": "ወደ አርታዒ ይግቡ"
+  },
+  "ebx_signIntoEditorBody": {
+    "message": "በአብዛኛዎቹ ድርጣቢያዎች ላይ የሰዋሰው እና የማጥራት ጥቆማዎችን ለማግኘት እባክዎ ይግቡ።"
+  },
+  "ebx_signIntoEditorBodyForSpellingOnlyUsers": {
+    "message": "ሙሉውን የአርታዒ ተሞክሮ ለማግኘት፣ እባክዎ በመለያ ይግቡ።"
+  },
+  "ebx_signIntoEditorBodyForContextualCard": {
+    "message": "ሙሉውን የአርታዒ ተሞክሮ ያግኙ። "
+  },
+  "ebx_giveFeedback": {
+    "message": "ምላሽ ይስጡ"
+  },
+  "ebx_feedbackCommentQuestion": {
+    "message": "እባክዎ ለምን ያንን መልስ እንደመረጡ ይንገሩን"
+  },
+  "ebx_feedbackRatingQuestion": {
+    "message": "በአጠቃላይ Microsoft አርታኢን የመጠቀም ተሞክሮዎን እንዴት ይገልፁታል"
+  },
+  "ebx_feedbackRating1": {
+    "message": "በጣም አሉታዊ"
+  },
+  "ebx_feedbackRating2": {
+    "message": "በመጠኑ አሉታዊ"
+  },
+  "ebx_feedbackRating3": {
+    "message": "አዎንታዊም ሆነ አሉታዊ ያልሆነ"
+  },
+  "ebx_feedbackRating4": {
+    "message": "በመጠኑ አወንታዊ"
+  },
+  "ebx_feedbackRating5": {
+    "message": "በጣም አወንታዊ"
+  },
+  "ebx_feedbackTitle": {
+    "message": "ለ Microsoft Editor ግብረመልስ ይስጡ"
+  },
+  "ebx_feedbackSubmitNotice": {
+    "message": "አስገባን በመጫን ግብረመልስዎ የ Microsoft ምርቶችን እና አገልግሎቶችን ለማሻሻል ስራ ላይ ይውላል፡፡"
+  },
+  "ebx_settingsPerLanguage": {
+    "message": "ቅንብሮች በአንድ ቋንቋ"
+  },
+  "ebx_manageLanguagesButton": {
+    "message": "ቋንቋዎች አስተዳድር"
+  },
+  "ebx_Done": {
+    "message": "ተጠናቋል"
+  },
+  "ebx_addButton": {
+    "message": "አክል"
+  },
+  "ebx_Cancel": {
+    "message": "ተወው"
+  },
+  "ebx_blockedSiteEntryHint": {
+    "message": "የአስወግድ አዝራር ለመድረስ የቀኝ ቀስት ቁልፍ ይጫኑ።"
+  },
+  "ebx_FeedbackSubmitted": {
+    "message": "ግብረመልሱ በተሳካ ሁኔታ ገብቷል ።"
+  },
+  "ebx_disableCritiqueButton": {
+    "message": "ይህንን ማጣራት አቁም"
+  },
+  "ebx_disableCritiqueButtonAriaLabel": {
+    "message": "ለዚህ መፈተሽን አቁም ። እርስዎ እስኪለውጡት ድረስ አርታዒው ይህንን ቅንብር ይተገበራል።"
+  },
+  "ebx_disableCritiqueTooltip": {
+    "message": "እርስዎ እስኪቀይሩት ድረስ አርታኢው ይህንን ቅንብር ይተገብረዋል"
+  }
+}
