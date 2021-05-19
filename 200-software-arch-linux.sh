@@ -107,7 +107,7 @@ func_category Internet
 
 list=(
 firefox-developer-edition
-#tigervnc
+tigervnc
 transmission-gtk
 )
 
