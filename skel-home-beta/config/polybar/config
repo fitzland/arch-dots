@@ -20,6 +20,7 @@ margin-bottom = 0
 ;https://github.com/jaagr/polybar/wiki/Configuration#application-settings
 throttle-output = 5
 throttle-output-for = 10
+throttle-input-for = 30
 screenchange-reload = true
 compositing-background = over
 compositing-foreground = over
@@ -304,8 +305,8 @@ font-2 = "Noto Sans:size=10;0"
 font-3 = "Noto Sans Mono:size=10;0"
 
 modules-left = ewmh xwindow
-modules-center = kernel
-modules-right =  memory2 cpu2 date
+modules-center = release kernel
+modules-right =  memory1 cpu1 date
 
 tray-detached = false
 tray-offset-x = 0
@@ -367,7 +368,7 @@ font-3 = "Noto Sans Mono:size=10;0"
 
 modules-left = load-average
 modules-center = networkspeeddown networkspeedup
-modules-right = pub-ip filesystem
+modules-right = filesystem
 
 ;tray-detached = false
 ;tray-offset-x = 0
@@ -1259,9 +1260,9 @@ format = <label-state> <label-mode>
 
 label-focused = %icon%
 label-focused-background = ${colors.background}
-label-focused-underline= #f4bf75
+label-focused-underline= #6790eb
 label-focused-padding = 4
-label-focused-foreground = #f4bf75
+label-focused-foreground = ${colors.foreground}
 
 label-occupied = %icon%
 label-occupied-padding = 2
@@ -1278,7 +1279,7 @@ label-empty-background = ${colors.background}
 label-monocle = "  "
 label-monocle-foreground = ${colors.foreground}
 label-tiled = "  "
-label-tiled-foreground = #75b5aa
+label-tiled-foreground = ${colors.foreground}
 label-fullscreen = "  "
 label-fullscreen-foreground = ${colors.foreground}
 label-floating = "  "
@@ -1564,7 +1565,7 @@ label-active = %name%
 label-active-foreground = ${colors.foreground}
 label-active-background = ${colors.background}
 label-active-underline= #6790eb
-label-active-padding = 2
+label-active-padding = 4
 
 label-occupied = %name%
 label-occupied-background = ${colors.background}

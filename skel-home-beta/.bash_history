@@ -1,98 +1,3 @@
-cleanup
-ls ~/.ssh/
-yay gh
-ssh -T git@github.com
-cd git/dubois/
-git clone git@github.com:arcolinuxd/arco-i3.git
-git clone git@github.com:arcolinuxd/arco-dwm.git
-git clone git@github.com:arcolinuxd/arco-bspwm.git
-cd arco-i3/
-git pull
-dots
-nano git-v1.sh 
-git config pull.rebase false 
-nano .git/
-nano .git
-sudo rm -r arch-dots/
-mkdir fitzland
-cd fitzland/
-git clone git@github.com:fitzland/arch-dots.git
-git clone git@github.com:fitzland/deb-dots.git
-cd arch-dots/
-cd .git/
-nano config 
-cd ..
-./git-v1.sh 
-ls
-ls -la
-exit
-ls -la
-ls
-dots
-eba
-exit
-eba
-dots
-./git-v1.sh 
-ls
-exit
-upall
-sudo pacman -Rns gnome-desktop
-sudo pacman -Rns gnome-desktop xdg-desktop-portal-gtk
-sudo pacman -Rns gnome-desktop xdg-desktop-portal
-sudo pacman -Rns gnome-desktop xdg-desktop-portal flatpak
-cleanup
-exit
-upall
-exit
-cleanup
-exit
-upall
-cleanup
-exit
-xprop
-cd ~/.config/arco
-cd config
-ls
-cd arco-dwm/
-sudo make clean install
-exit
-xprop
-cd config
-cd arco-dwm/
-sudo make clean install
-exit
-xprop
-cd config
-cd arco-dwm/
-sudo make clean install
-exit
-cd config
-cd arco-dwm/
-sudo make clean install
-exit
-upall
-cleanup
-exit
-upall
-cleanup
-exit
-eba
-exit
-edwm
-mkdwm
-eba
-exit
-mdwm
-sudo make clean install
-exit
-edwm
-exit
-ei3
-exit
-gdwm
-mdwm
-sudo make clean install
 exit
 htop
 upall
@@ -497,4 +402,99 @@ exit
 xprop
 exit
 yay minecraft
+exit
+yay minecraft
+dots
+./100-display-manager-and-desktop.sh 
+ls
+./010-backup-skel.sh 
+./git-v1.sh 
+exit
+upall
+exit
+dots
+./git-v1.sh 
+exit
+./git-v1.sh 
+cleanup
+upall
+exit
+xprop
+exit
+xprop
+exit
+upall
+cleanup
+exit
+./git-v1.sh 
+upall
+xprop
+xprop
+dots
+./010-backup-skel.sh 
+cd ..
+cd 
+cd downloads/iso/
+sudo dd if=endeavouros-2021.04.17-x86_64.iso of=/dev/sdd bs=4M && sync
+cd
+cd git/
+git@gitlab.com:garuda-linux/themes-and-settings/settings/garuda-bspwm-settings.git
+https://gitlab.com/garuda-linux/themes-and-settings/settings/garuda-bspwm-settings.git
+git clone git@gitlab.com:garuda-linux/themes-and-settings/settings/garuda-bspwm-settings.git
+git clone https://gitlab.com/garuda-linux/themes-and-settings/settings/garuda-bspwm-settings.git
+ls
+cleanup
+exit
+xprop
+dots
+./010-backup-skel.sh 
+cd 
+cd downloads/iso/
+sudo dd if=endeavouros-2021.04.17-x86_64.iso of=/dev/sdd bs=4M && sync
+cd
+cd git/
+git@gitlab.com:garuda-linux/themes-and-settings/settings/garuda-bspwm-settings.git
+https://gitlab.com/garuda-linux/themes-and-settings/settings/garuda-bspwm-settings.git
+git clone git@gitlab.com:garuda-linux/themes-and-settings/settings/garuda-bspwm-settings.git
+git clone https://gitlab.com/garuda-linux/themes-and-settings/settings/garuda-bspwm-settings.git
+cleanup
+cd .config/bspwm/
+nano bspwmrc 
+nano autostart.sh 
+nano colors.sh 
+cd ..
+cd sxhkd/
+ls
+nano sxhkdrc 
+exit
+upall
+clenaup
+cleanup
+ei3
+exr
+upall
+ei3
+exit
+sudo pacman -S alacritty
+exit
+merge
+exit
+sudo pacman -S alacritty
+sudo pacman -Rns alacritty
+exit
+cleanup
+exit
+exr
+exit
+upall
+cleanup
+exit
+upall
+cleanup
+timedatectl set-ntp true
+timedatectl set-local-rtc 1 --adjust-system-clock
+timedatectl status
+exit
+exr
+upall
 exit

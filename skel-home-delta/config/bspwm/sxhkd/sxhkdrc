@@ -75,6 +75,10 @@ super + backslash
 # SUPER + SHIFT KEYS
 #################################################################
 
+#file manager
+super + shift + Return
+    Thunar
+
 #dmenu
 super + shift + d
 	dmenu_run -i 

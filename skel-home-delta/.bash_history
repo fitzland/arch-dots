@@ -1,12 +1,3 @@
-git config --global user.name "fitzland"
-./010-backup-skel.sh 
-./010-backup-skel.sh 
-ssh-keygen -t ed25519 -C "f1tl4nd@gmail.com"
-ls -al ~/.ssh/
-eval "$(ssh-agent -s)"
-ssh-add ~/.ssh/id_ed25519
-code /home/jeff/.ssh/id_ed25519.pub 
-upall
 cleanup
 ls ~/.ssh/
 yay gh
@@ -497,4 +488,13 @@ exit
 htop
 exit
 sudo pacman -S arandr
+exit
+dots
+ls
+./010-backup-skel.sh 
+cleanup
+exit
+xprop
+exit
+yay minecraft
 exit
