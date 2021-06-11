@@ -14,47 +14,28 @@ xterm*termName: xterm-color
 xterm*eightBitInput: false
 xterm*boldMode: false
 
-!! basescheme - adapta-nokto
-
-! special
-*.foreground:   #CFD8DC
-*.background:   #222D32
-*.cursorbase:   #CFD8DC
-*.cursorColor:  #d8dee9
+*.foreground:   #eceff4
+*.background:   #2E3440
+*.cursorColor:  #eceff4
 *fading: 35
-*fadeColor: #4c566a
+*fadeColor: #2E3440
 
-! black
-*.color0:       #1C2124
-*.color8:       #28343A
-
-! red
-*.color1:       #b64d4c
-*.color9:       #cd8d8c
-
-! green
-*.color2:       #609960
-*.color10:      #99dd99
-
-! yellow
-*.color3:       #b6ac4d
-*.color11:      #cdc88d
-
-! blue
-*.color4:       #183048
-*.color12:      #527BA3
-
-! magenta
-*.color5:       #303060
-*.color13:      #606099
-
-! cyan
-*.color6:       #184848
-*.color14:      #189090
-
-! white
-*.color7:       #828C91
-*.color15:      #CFD8DC
+*.color0: #2E3440
+*.color1: #bf616a
+*.color2: #5e81ac
+*.color3: #b48ead
+*.color4: #434c5e
+*.color5: #a3be8c
+*.color6: #88c0d0
+*.color7: #eceff4
+*.color8: #3b4252
+*.color9: #d08770
+*.color10: #81a1c1
+*.color11: #d8dee9
+*.color12: #4c566a
+*.color13: #8fbcbb
+*.color14: #ebcb8b
+*.color15: #e5e9f0
 
 
 ! ------------------------------------------------------------------------------
@@ -252,11 +233,3 @@ UXTerm*color15: rgb:ff/ff/ff
 UXTerm*boldMode: false
 UXTerm*colorBDMode: true
 UXTerm*colorBD: rgb:ff/ff/ff
-
-!! Common Keybinds for Navigations
-URxvt.keysym.Shift-Up: command:\033]720;1\007
-URxvt.keysym.Shift-Down: command:\033]721;1\007
-URxvt.keysym.Control-Up: \033[1;5A
-URxvt.keysym.Control-Down: \033[1;5B
-URxvt.keysym.Control-Right: \033[1;5C
-URxvt.keysym.Control-Left: \033[1;5D

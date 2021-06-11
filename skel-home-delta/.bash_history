@@ -1,130 +1,3 @@
-exit
-htop
-upall
-exit
-edwm
-mdwm
-sudo make clean install
-exit
-htop
-exit
-cd ~/.config/arco-dwm/
-ls
-nano config.mk 
-exit
-htop
-exit
-edwm
-exit
-xprop
-exit
-mdwm
-sudo make clean install
-exit
-htop
-edwm
-xprop
-mdwm
-sudo make clean install
-exit
-cleanup
-upall
-exit
-edwm
-exit
-cd ~/.config/arco-dwm/
-nano config.mk 
-htop
-xprop
-htop
-xprop
-cleanup
-upall
-patch -p1 < default-tags-app.diff 
-edwm
-ls -la
-rm config.def.h.orig 
-rm config.def.h.rej 
-cd /opt/
-dots
-cd ..
-git clone git@github.com:fitzland/arch-dots.git
-cd ~/.config/
-mdwm
-ls
-sudo make clean install
-exit
-upall
-exit
-patch -p1 < default-tags-app.diff 
-edwm
-ls -la
-rm config.def.h.orig 
-rm config.def.h.rej 
-cd /opt/
-dots
-git clone git@github.com:fitzland/arch-dots.git
-cd ~/.config/
-mdwm
-upall
-cd /opt
-cd
-cd git/
-cd fitzland/
-git clone git://git.suckless.org/dwm
-nano dwm.c
-cd ..
-cd dwm/
-patch -p1 < dwm-default-tag-apps-20210327-61bb8b2.diff 
-code config.def.h 
-meld config.h config.def.h 
-ls
-sudo make clean install
-exit
-meld config.h config.def.h 
-sudo make clean install
-sudo pacman -Rns arcolinux-budgie-*
-sudo pacman -Rns arcolinux-budgie-git 
-sudo pacman -Rns arcolinux-budgie-dconf-git 
-yay budgie
-yay spectrwm
-sudo pacman -Rns spectrwm
-cleanup
-ls
-sudo pacman -S libreoffice-still
-exit
-sudo pacman -Rns arcolinux-budgie-dconf-git 
-yay budgie
-yay spectrwm
-sudo pacman -Rns spectrwm
-cleanup
-sudo pacman -S libreoffice-still
-cd git/
-dots
-./100-display-manager-and-desktop.sh 
-nano 100-display-manager-and-desktop.sh 
-nano 110-development-software.sh 
-./110-development-software.sh 
-nano 120-sound.sh 
-nano 500-software-distro-specific.sh 
-nano 600-additional-arcolinux-software.sh 
-./600-additional-arcolinux-software.sh 
-ls
-exit
-ei3
-eba
-exit
-sudo pacman -Rns rxvt-unicode
-exit
-sudo pacman -Rns screenfetch
-exit
-upall
-cleanup
-exit
-yay arco-dwm
-exit
-yay pamac
-exit
 sudo pacman -Rns rxvt-unicode
 ls
 exit
@@ -497,4 +370,131 @@ timedatectl status
 exit
 exr
 upall
+exit
+ei3
+exr
+upall
+ei3
+sudo pacman -S alacritty
+merge
+sudo pacman -S alacritty
+sudo pacman -Rns alacritty
+cleanup
+exr
+upall
+cleanup
+upall
+cleanup
+timedatectl set-ntp true
+timedatectl set-local-rtc 1 --adjust-system-clock
+timedatectl status
+exr
+upall
+dots
+cp 010-backup-skel.sh 020-backup-work.sh
+mv 010-backup-skel.sh 010-backup-home.sh
+mv 000-restore-skel.sh 015-restore-home.sh
+cp 015-restore-home.sh 025-restore-work.sh
+rm 020-backup-work.sh 
+cp 010-backup-home.sh 020-backup-work.sh
+nano 020-backup-work.sh 
+./010-backup-home.sh 
+mv skel-beta skel-home-beta
+mv skel-delta skel-home-delta
+rm -r skel
+nano 010-backup-home.sh 
+cd skel-home
+cd config/
+rm -r microsoft-edge-beta/
+cd ..
+./git-v1.sh 
+nano 600-additional-arcolinux-software.sh 
+cd 
+cd git/
+cd dubois/
+ls
+exit
+upall
+cleanup
+exit
+upall
+cleanup
+exit
+cd dubois/
+upall
+cleanup
+dots
+./git-v1.sh 
+ls
+exit
+upall
+cleanup
+exit
+dots
+ls
+./010-backup-home.sh 
+./git-v1.sh 
+exit
+sudo rm .dropbox-dist
+sudo rm -r .dropbox-dist
+mv .dropbox-dist.backup .dropbox-dist
+exit
+sudo rm .dropbox-dist
+sudo rm -r .dropbox-dist
+mv .dropbox-dist.backup .dropbox-dist
+cd downloads/iso/
+rm Fedora-Workstation-Live-x86_64-33-1.2.iso 
+rm Fedora-i3-Live-x86_64-34_Beta-1.3.iso 
+sudo dd if=Fedora-i3-Live-x86_64-34-1.2.iso of=/dev/sdd bs=4M && sync
+sudo dd if=manjaro-i3-21.0.4-210506-linux510.iso of=/dev/sdd bs=4M && sync
+ls
+sudo dd if=garuda-bspwm-linux-zen-210507.iso of=/dev/sdd bs=4M && sync
+sudo dd if=archlinux-2021.05.01-x86_64.iso of=/dev/sdd bs=4M && sync
+exit
+ei3
+yay color pick
+exit
+merge
+exit
+yay inkscape
+cleanup
+exit
+htop
+exit
+yay thunar
+yay gvfs
+exit
+yay tumbler
+yay poppler
+exit
+upall
+cleanup
+exit
+upall
+cleanup
+exit
+htop
+exit
+ei3
+exit
+upall
+sudo pacman -Rns xfce4-screenshooter 
+cleanup
+exit
+upall
+exit
+upall
+cleanup
+exit
+ei3
+exit
+ei3
+exit
+ei3
+exit
+ei3
+exit
+ei3
+exit
+ei3
 exit

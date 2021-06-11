@@ -10,13 +10,70 @@ alias eba='nano $HOME/.bashrc-personal'
 #readable output
 alias df='df -h'
 
-#merge new settings
-alias merge='xrdb -merge ~/.Xresources'
 alias exr='code $HOME/.Xresources'
 alias ei3='code $HOME/.config/i3/config'
 
 #hardware info --short
 alias hw="hwinfo --short"
+
+#fix obvious typo's
+alias cd..='cd ..'
+alias pdw="pwd"
+alias udpate='sudo pacman -Syyu'
+alias upate='sudo pacman -Syyu'
+alias updte='sudo pacman -Syyu'
+alias updqte='sudo pacman -Syyu'
+alias upqll="yay -Syu --noconfirm"
+alias upal="yay -Syu --noconfirm"
+
+## Colorize the grep command output for ease of use (good for log files)##
+alias grep='grep --color=auto'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+
+#readable output
+alias df='df -h'
+
+#pacman unlock
+alias unlock="sudo rm /var/lib/pacman/db.lck"
+alias rmpacmanlock="sudo rm /var/lib/pacman/db.lck"
+
+#free
+alias free="free -mt"
+
+#userlist
+alias userlist="cut -d: -f1 /etc/passwd"
+
+#merge new settings
+alias merge="xrdb -merge ~/.Xresources"
+
+# Aliases for software managment
+# pacman or pm
+alias pacman='sudo pacman --color auto'
+alias update='sudo pacman -Syyu'
+
+# yay as aur helper - updates everything
+alias pksyua="yay -Syu --noconfirm"
+alias upall="yay -Syu --noconfirm"
+
+#ps
+alias psa="ps auxf"
+alias psgrep="ps aux | grep -v grep | grep -i -e VSZ -e"
+
+#grub update
+alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
+
+#add new fonts
+alias update-fc='sudo fc-cache -fv'
+
+#quickly kill conkies
+alias kc='killall conky'
+
+#hardware info --short
+alias hw="hwinfo --short"
+
+#check vulnerabilities microcode
+alias microcode='grep . /sys/devices/system/cpu/vulnerabilities/*'
 
 #youtube-dl
 alias yta-aac="youtube-dl --extract-audio --audio-format aac "
@@ -30,20 +87,39 @@ alias yta-wav="youtube-dl --extract-audio --audio-format wav "
 
 alias ytv-best="youtube-dl -f bestvideo+bestaudio "
 
-#Update packages
-alias upall='sudo pacman -Syyu'
+#Recent Installed Packages
+alias rip="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -200 | nl"
+alias riplong="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -3000 | nl"
 
 #Cleanup orphaned packages
 alias cleanup='sudo pacman -Rns $(pacman -Qtdq)'
-#alias cleanup='sudo apt autoclean && sudo apt autoremove'
 
-#Install from AUR
-alias yay='paru'
+#get the error messages from journalctl
+alias jctl="journalctl -p 3 -xb"
+
+#nano for important configuration files
+#know what you do in these files
+alias nlightdm="sudo $EDITOR /etc/lightdm/lightdm.conf"
+alias npacman="sudo $EDITOR /etc/pacman.conf"
+alias ngrub="sudo $EDITOR /etc/default/grub"
+alias nconfgrub="sudo $EDITOR /boot/grub/grub.cfg"
+alias nmkinitcpio="sudo $EDITOR /etc/mkinitcpio.conf"
+alias nmirrorlist="sudo $EDITOR /etc/pacman.d/mirrorlist"
+alias nfstab="sudo $EDITOR /etc/fstab"
+alias nsamba="sudo $EDITOR /etc/samba/smb.conf"
+
+#systeminfo
+alias probe="sudo -E hw-probe -all -upload"
 
 #shutdown or reboot
 alias ssn="sudo shutdown now"
 alias sr="sudo reboot"
 
+#give the list of all installed desktops - xsessions desktops
+alias xd="ls /usr/share/xsessions"
+
+#Install from AUR
+alias yay='paru'
 
 alias dots='cd $HOME/git/fitzland/arch-dots'
 
@@ -53,7 +129,6 @@ alias skelbin='meld $HOME/.bin /etc/skel/.bin'
 alias skelxr='meld $HOME/.Xresources /etc/skel/.Xresources'
 alias skelocal='meld $HOME/.local /etc/skel/.local'
 alias skelcfg='meld $HOME/.config /etc/skel/.config'
-alias skelgit='meld $HOME/git/fitzland/arco-dots/ $HOME/git/dubois/arco-i3/'
 #alias skelbspwm='meld $HOME/.config/bspwm /etc/skel/.config/bspwm'
 alias skeli3='meld $HOME/.config/i3 /etc/skel/.config/i3'
 

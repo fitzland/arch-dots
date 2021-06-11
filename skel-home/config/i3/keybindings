@@ -9,109 +9,95 @@ https://github.com/endeavouros-team/i3-EndeavourOS
 For reference consult our WIKI:
 https://endeavouros.com/docs/window-tiling-managers/i3-wm/
 
-$mod = windows key
+Mod = windows key
 
---> Use Mouse+$mod to drag floating windows to their wanted position
-Mouse+$mod
+# start terminal
+Mod+Return 
 
---> start a terminal
-$mod+Return
+# kill focused window
+Mod+c
 
---> kill focused window (exit / terminate)
-$mod+c
+# Application menu search by typing (fancy Rofi menu):
+Mod+/
 
----> open keybindings overview
-$mod+F1
+# Window switcher menu (fancy Rofu menu):
+Mod+t
 
-$mod+enter --> open terminal (xfce4-terminal)
-$mod+w --> open Browser (firefox)
-$mod+n --> open Filebrowser (Thunar)
-$mod+i // F9 --> app menu (rofi -- nice menu)
-$mod+o // F10 --> chooe open windows over menu (rofi -- nice menu)
-Print-key --> screenshot
+# fancy exit-menu on bottom right:
+Mod+Shift+e
 
---> start dmenu (a program launcher)
-$mod+d
+# Lock the system
+# lock with a picture or blurring the screen (options in config)
+Mod+l
 
---> change focus
-$mod+j --> focus left
-$mod+k -->  focus down
-$mod+u --> focus up
-$mod+ntilde --> focus right
+# reload the configuration file
+Mod+Shift+c
 
---> alternatively, you can use the cursor keys:
-$mod+Left --> focus left
-$mod+Down --> focus down
-$mod+Up --> focus up
-$mod+Right --> focus right
+# restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
+Mod+Shift+r
 
-or:
-$mod+Shift+Left --> move left
-$mod+Shift+Down --> move down
-$mod+Shift+Up --> move up
-$mod+Shift+Right --> move righ
+# full keybinding list in editor:
+Mod+F1
 
---> move focused window
-$mod+Shift+j --> move left
-$mod+Shift+k --> move down
-$mod+Shift+l --> move up
-$mod+Shift+ntilde --> move right
+# change window focus
+Mod+j focus left
+Mod+k focus down
+Mod+b focus up
+Mod+o focus right
 
---> resize floating windows with mouse scroll:
-$mod+button4 resize shrink height
-$mod+button5 resize grow height
-$mod+shift+button4 resize shrink width
-$mod+shift+button5 resize grow width
+# alternatively, you can use the cursor keys:
+Mod+Left focus left
+Mod+Down focus down
+Mod+Up focus up
+Mod+Right focus right
 
- -->  split in horizontal orientation
-$mod+h  --> split h
+# move a focused window
+Mod+Shift+j move left
+Mod+Shift+k move down
+Mod+Shift+b move up
+Mod+Shift+o move right
 
- --> split in vertical orientation
-$mod+v  --> split v
+# alternatively, you can use the cursor keys:
+Mod+Shift+Left move left
+Mod+Shift+Down move down
+Mod+Shift+Up move up
+Mod+Shift+Right move right
 
- --> enter fullscreen mode for the focused container
-$mod+f --> fullscreen toggle
+# split in horizontal orientation
+Mod+h split h
 
- --> change container layout (stacked, tabbed, toggle split)
-$mod+Shift+s  --> layout stacking
-$mod+Shift+w  --> layout tabbed
-$mod+Shift+e  --> layout toggle split
+# split in vertical orientation
+Mod+v split v
 
- --> toggle tiling / floating
-$mod+Shift+space --> floating toggle
+# enter fullscreen mode for the focused container
+Mod+f fullscreen toggle
 
---> change focus between tiling / floating windows
-$mod+space --> focus mode_toggle
+# change container layout (stacked, tabbed, toggle split)
+Mod+s layout stacking
+Mod+g layout tabbed
+Mod+e layout toggle split
 
---> focus the parent container
-$mod+a --> focus parent
+# toggle tiling / floating
+Mod+Shift+space floating toggle
 
---> switch to --> workspace
-$mod+1 --> workspace 1
-$mod+2 --> workspace 2
-$mod+3 --> workspace 3
-$mod+4 --> workspace 4
-$mod+5 --> workspace 5
-$mod+6 --> workspace 6
-$mod+7 --> workspace 7
-$mod+8 --> workspace 8
-$mod+9 --> workspace 9
-$mod+0 --> workspace 10
+# change focus between tiling / floating windows
+Mod+space focus mode_toggle
 
---> --> move focused container to --> workspace
-$mod+Shift+1 --> move container to --> workspace 1
-$mod+Shift+2 --> move container to --> workspace 2
-$mod+Shift+3 --> move container to --> workspace 3
-$mod+Shift+4 --> move container to --> workspace 4
-$mod+Shift+5 --> move container to --> workspace 5
-$mod+Shift+6 --> move container to --> workspace 6
-$mod+Shift+7 --> move container to --> workspace 7
-$mod+Shift+8 --> move container to --> workspace 8
-$mod+Shift+9 --> move container to --> workspace 9
-$mod+Shift+0 --> move container to --> workspace 10
+# focus the parent container
+Mod+a focus parent
 
---> reload the configuration file
-$mod+Shift+c --> reload
+# focus the child container
+#Mod+d focus child
 
---> restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
-$mod+Shift+r --> restart
+# resize floating window
+Mod+right mouse button
+
+## Multimedia Keys
+
+# Redirect sound to headphones
+Mod+p
+
+## App shortcuts
+Mod+w starts Firefox
+Mod+n starts Thunar
+Print Button screenshot

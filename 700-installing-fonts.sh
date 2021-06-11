@@ -55,15 +55,16 @@ func_category() {
 func_category Fonts
 
 list=(
-arcolinux-fonts-git
 awesome-terminal-fonts
 adobe-source-sans-pro-fonts
+adobe-source-serif-pro-fonts
+adobe-source-code-pro-fonts
 cantarell-fonts
 #noto-fonts
 ttf-bitstream-vera
 ttf-dejavu
-ttf-droid
-ttf-hack
+#ttf-droid
+#ttf-hack
 ttf-inconsolata
 ttf-liberation
 ttf-roboto

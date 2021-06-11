@@ -1,37 +1,27 @@
-    ##START THEMING BAR
-    #Theme name : f1tzl4nd Var Nord
-
-    # i3 bar colors
-    # variable border background Text
+#Theme name : f1tzl4nd Nord
 
     # Nord theme colors
     # https://www.nordtheme.com/docs/colors-and-palettes
 
-    # i3 colors
+*.foreground:   #eceff4
+*.background:   #2E3440
+*.cursorColor:  #eceff4
+*fading: 35
+*fadeColor: #2E3440
 
-set $foc-bdr-color       #5E81AC
-set $foc-bgr-color       #5E81AC
-set $foc-txt-color       #ECEFF4
-set $foc-ind-color       #5E81AC
-set $unf-bdr-color       #3B4252
-set $unf-bgr-color       #3B4252
-set $unf-txt-color       #D8DEE9
-set $unf-ind-color       #3B4252
-set $nac-bdr-color       #4C566A
-set $nac-bgr-color       #4C566A
-set $nac-txt-color       #D8DEE9
-set $nac-ind-color       #4C566A
-set $hld-bdr-color       #434C5E
-set $hld-bgr-color       #434C5E
-set $hld-txt-color       #81A1C1
-set $hld-ind-color       #434C5E
-set $urg-bdr-color       #BF616A
-set $urg-bgr-color       #BF616A
-set $urg-txt-color       #ECEFF4
-set $urg-ind-color       #BF616A
-
-set $bg-color            #2E3440
-set $statline-color      #81A1C1
-set $sep-color           #4C566A
-
-##STOP THEMING
+*.color0: #2E3440
+*.color1: #bf616a
+*.color2: #5e81ac
+*.color3: #b48ead
+*.color4: #434c5e
+*.color5: #a3be8c
+*.color6: #88c0d0
+*.color7: #eceff4
+*.color8: #3b4252
+*.color9: #d08770
+*.color10: #81a1c1
+*.color11: #d8dee9
+*.color12: #4c566a
+*.color13: #8fbcbb
+*.color14: #ebcb8b
+*.color15: #e5e9f0

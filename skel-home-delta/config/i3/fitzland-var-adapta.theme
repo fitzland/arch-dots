@@ -3,31 +3,27 @@
 
 #Theme name : f1tzl4nd Var Adapta
 
-# i3 colors
+*.foreground:   #dfdfdf
+*.background:   #212b30
+*.cursorColor:  #dfdfdf
+*fading: 35
+*fadeColor: #41444e
 
-set $foc-bdr-color       #16a085
-set $foc-bgr-color       #16a085
-set $foc-txt-color       #ffffff
-set $foc-ind-color       #16a085
-set $unf-bdr-color       #243035
-set $unf-bgr-color       #243035
-set $unf-txt-color       #dfdfdf
-set $unf-ind-color       #243035
-set $nac-bdr-color       #41555E
-set $nac-bgr-color       #41555E
-set $nac-txt-color       #dfdfdf
-set $nac-ind-color       #41555E
-set $hld-bdr-color       #2f3d44
-set $hld-bgr-color       #2f3d44
-set $hld-txt-color       #41555E
-set $hld-ind-color       #2f3d44
-set $urg-bdr-color       #da4453
-set $urg-bgr-color       #da4453
-set $urg-txt-color       #ffffff
-set $urg-ind-color       #da4453
-
-set $bg-color            #222d32
-set $statline-color      #5BB1AD
-set $sep-color           #41555E
+*.color0: #222D32
+*.color1: #4DB6AC
+*.color2: #16a085
+*.color3: #00bcd4
+*.color4: #2d4348
+*.color5: #323d42
+*.color6: #566067
+*.color7: #b9c2c7
+*.color8: #2f3d44
+*.color9: #449690
+*.color10: #16c0a5
+*.color11: #00def6
+*.color12: #315054
+*.color13: #384449
+*.color14: #677176
+*.color15: #cfd8dc
 
 ##STOP THEMING
