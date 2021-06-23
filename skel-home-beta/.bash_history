@@ -1,130 +1,4 @@
 ./git-v1.sh 
-exit
-upall
-exit
-dots
-./git-v1.sh 
-exit
-./git-v1.sh 
-cleanup
-upall
-exit
-xprop
-exit
-xprop
-exit
-upall
-cleanup
-exit
-./git-v1.sh 
-upall
-xprop
-xprop
-dots
-./010-backup-skel.sh 
-cd ..
-cd 
-cd downloads/iso/
-sudo dd if=endeavouros-2021.04.17-x86_64.iso of=/dev/sdd bs=4M && sync
-cd
-cd git/
-git@gitlab.com:garuda-linux/themes-and-settings/settings/garuda-bspwm-settings.git
-https://gitlab.com/garuda-linux/themes-and-settings/settings/garuda-bspwm-settings.git
-git clone git@gitlab.com:garuda-linux/themes-and-settings/settings/garuda-bspwm-settings.git
-git clone https://gitlab.com/garuda-linux/themes-and-settings/settings/garuda-bspwm-settings.git
-ls
-cleanup
-exit
-xprop
-dots
-./010-backup-skel.sh 
-cd 
-cd downloads/iso/
-sudo dd if=endeavouros-2021.04.17-x86_64.iso of=/dev/sdd bs=4M && sync
-cd
-cd git/
-git@gitlab.com:garuda-linux/themes-and-settings/settings/garuda-bspwm-settings.git
-https://gitlab.com/garuda-linux/themes-and-settings/settings/garuda-bspwm-settings.git
-git clone git@gitlab.com:garuda-linux/themes-and-settings/settings/garuda-bspwm-settings.git
-git clone https://gitlab.com/garuda-linux/themes-and-settings/settings/garuda-bspwm-settings.git
-cleanup
-cd .config/bspwm/
-nano bspwmrc 
-nano autostart.sh 
-nano colors.sh 
-cd ..
-cd sxhkd/
-ls
-nano sxhkdrc 
-exit
-upall
-clenaup
-cleanup
-ei3
-exr
-upall
-ei3
-exit
-sudo pacman -S alacritty
-exit
-merge
-exit
-sudo pacman -S alacritty
-sudo pacman -Rns alacritty
-exit
-cleanup
-exit
-exr
-exit
-upall
-cleanup
-exit
-upall
-cleanup
-timedatectl set-ntp true
-timedatectl set-local-rtc 1 --adjust-system-clock
-timedatectl status
-exit
-exr
-upall
-exit
-ei3
-exr
-upall
-ei3
-sudo pacman -S alacritty
-merge
-sudo pacman -S alacritty
-sudo pacman -Rns alacritty
-cleanup
-exr
-upall
-cleanup
-upall
-cleanup
-timedatectl set-ntp true
-timedatectl set-local-rtc 1 --adjust-system-clock
-timedatectl status
-exr
-upall
-dots
-cp 010-backup-skel.sh 020-backup-work.sh
-mv 010-backup-skel.sh 010-backup-home.sh
-mv 000-restore-skel.sh 015-restore-home.sh
-cp 015-restore-home.sh 025-restore-work.sh
-rm 020-backup-work.sh 
-cp 010-backup-home.sh 020-backup-work.sh
-nano 020-backup-work.sh 
-./010-backup-home.sh 
-mv skel-beta skel-home-beta
-mv skel-delta skel-home-delta
-rm -r skel
-nano 010-backup-home.sh 
-cd skel-home
-cd config/
-rm -r microsoft-edge-beta/
-cd ..
-./git-v1.sh 
 nano 600-additional-arcolinux-software.sh 
 cd 
 cd git/
@@ -497,4 +371,130 @@ yay aur helper
 yay typora
 exit
 yay visual-studio
+exit
+dost
+dots
+ls
+./010-backup-home.sh 
+./700-installing-fonts.sh 
+yay font-viewer
+yay font-viewer
+sudo pacman -S gnome-font-viewer
+xit
+exit
+upall
+rip
+exit
+cleanup
+alias
+xd
+userlist
+alias
+riplong
+yay font manager
+font viewer
+font
+yay font viewer
+exit
+sudo pacman -S noto
+yay noto
+sudo pacman -Rns noto-fonts
+yay source code
+sudo pacman -Rns adobe-source-han-sans*
+sudo pacman -Rns adobe-source-code-pro-fonts 
+yay adobe
+sudo pacman -Rns adobe-source-han-sans-cn-fonts 
+sudo pacman -Rns adobe-source-han-sans-jp-fonts 
+sudo pacman -Rns adobe-source-han-sans-kr-fonts 
+yay adobe
+yay adobe
+yay fonts
+yay fonts
+yay jet brains
+yay inconsolata
+yay ibm plex
+yay futura
+dots
+ls
+nano 700-installing-fonts.sh 
+./700-installing-fonts.sh 
+fc-cache -vf
+ls
+yay odokai
+./700-installing-fonts.sh 
+nano 700-installing-fonts.sh 
+sudo pacman -Rns ttf-droid
+exit
+alias
+update-fc
+cleanup
+exit
+yay dropbox
+cd
+sudo rm .dropbox
+sudo rm -r .dropbox
+sudo rm -r .dropbox-dist
+sudo rm -r .dropbox-dist.backup/
+cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -
+~/.dropbox-dist/dropboxd
+rm -rf ~/.dropbox-dist/
+install -dm0 ~/.dropbox-dist
+exit
+cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -
+ei3
+cd
+sudo rm -r .dropbox-dist/
+sudo rm -r .dropbox/
+cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -
+la ~/.dropbox-dist/
+ls -la .dropbox-dist/
+~/.dropbox-dist/
+~/.dropbox-dist/dropboxd 
+ls
+ls -la ~/.dropbox-dist/
+sudo chmod 666 .dropbox-dist/
+exit
+ei3
+exit
+upall
+exit
+sudo pacman -S python-gpgme
+exit
+cleanup
+exit
+yay dropbox
+wget https://linux.dropbox.com/fedora/rpm-public-key.asc
+gpg --import rpm-public-key.asc
+yay dropbox
+exit
+upall
+sudo pacman -Syyu
+sudo pacman -Ss nvidia
+sudo pacman -S nvidia-installer-dkms
+nvidia-installer-dkms 
+sudo nvidia-installer-dkms 
+exit
+exit
+exit
+yay google-chrome
+yay paru
+eba
+exit
+yay paru
+yay visual-studio
+yay libreoffice-still
+upall
+cleanup
+yay viewnior
+yay xreader
+cd downloads
+cd tarballs/
+ls
+sudo ./PDFStudio_2020_linux64.sh 
+exit
+yay google-chrome
+yay firefox-developer-edition
+yay inkscape
+yay dropbox
+ei3
 exit
