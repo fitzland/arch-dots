@@ -62,13 +62,37 @@ super + F12
 super + Return
     rofi-sensible-terminal
 
-#Rofi Fullscreen
+# program launcher
 super + slash
-    rofi -show drun -lines 7
+	rofi -modi drun -show drun -line-padding 4 \
+                -columns 2 -padding 20 -hide-scrollbar -terminal XTerm \
+                -show-icons -drun-icon-theme "Paper" -font "Droid Sans Regular 10"
 
-#Rofi
+# program launcher
 super + backslash
-    rofi -show run -lines 7
+	rofi -modi run -show run -line-padding 4 \
+                -columns 2 -padding 20 -hide-scrollbar -terminal XTerm \
+                -show-icons -run-icon-theme "Paper" -font "Droid Sans Regular 10"
+
+# show open window
+super + ctrl + d
+	rofi -modi drun -show window -line-padding 4 \
+                -columns 2 -padding 20 -hide-scrollbar -terminal XTerm \
+                -show-icons -drun-icon-theme "Paper" -font "Droid Sans Regular 10"
+
+# show ssh sesssions
+super + shift + d
+	rofi -modi drun -show ssh -line-padding 4 \
+                -columns 2 -padding 20 -hide-scrollbar -terminal XTerm \
+                -show-icons -drun-icon-theme "Paper" -font "Droid Sans Regular 10"
+
+# power-menu 
+super + shift + e
+     ~/.config/rofi/powermenu.sh
+
+# make sxhkd reload its configuration files:
+super + Escape
+	pkill -USR1 -x sxhkd
 
 
 #################################################################
@@ -289,7 +313,15 @@ ctrl + alt + {Left,Right}
 	bspc desktop -f {prev,next}
 
 # focus the next/previous desktop
+super + {Prior,Next}
+	bspc desktop -f {prev,next}
+
+# focus the next/previous desktop
 ctrl + alt + shift {Left,Right}
+	bspc node -d {prev,next} --follow
+
+# focus the next/previous desktop
+super + shift {Prior,Next}
 	bspc node -d {prev,next} --follow
 
 # Focus/swap windows by direction
