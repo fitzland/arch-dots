@@ -1,153 +1,3 @@
-./git-v1.sh 
-nano 600-additional-arcolinux-software.sh 
-cd 
-cd git/
-cd dubois/
-ls
-exit
-upall
-cleanup
-exit
-upall
-cleanup
-exit
-cd dubois/
-upall
-cleanup
-dots
-./git-v1.sh 
-ls
-exit
-upall
-cleanup
-exit
-dots
-ls
-./010-backup-home.sh 
-./git-v1.sh 
-exit
-sudo rm .dropbox-dist
-sudo rm -r .dropbox-dist
-mv .dropbox-dist.backup .dropbox-dist
-exit
-sudo rm .dropbox-dist
-sudo rm -r .dropbox-dist
-mv .dropbox-dist.backup .dropbox-dist
-cd downloads/iso/
-rm Fedora-Workstation-Live-x86_64-33-1.2.iso 
-rm Fedora-i3-Live-x86_64-34_Beta-1.3.iso 
-sudo dd if=Fedora-i3-Live-x86_64-34-1.2.iso of=/dev/sdd bs=4M && sync
-sudo dd if=manjaro-i3-21.0.4-210506-linux510.iso of=/dev/sdd bs=4M && sync
-ls
-sudo dd if=garuda-bspwm-linux-zen-210507.iso of=/dev/sdd bs=4M && sync
-sudo dd if=archlinux-2021.05.01-x86_64.iso of=/dev/sdd bs=4M && sync
-exit
-ei3
-yay color pick
-exit
-merge
-exit
-yay inkscape
-cleanup
-exit
-htop
-exit
-yay thunar
-yay gvfs
-exit
-yay tumbler
-yay poppler
-exit
-upall
-cleanup
-exit
-upall
-cleanup
-exit
-htop
-exit
-ei3
-exit
-upall
-sudo pacman -Rns xfce4-screenshooter 
-cleanup
-exit
-upall
-exit
-upall
-cleanup
-exit
-ei3
-exit
-ei3
-exit
-ei3
-exit
-ei3
-exit
-ei3
-exit
-ei3
-exit
-dots
-ls
-./010-backup-home.sh 
-./git-v1.sh 
-exit
-yay inkscape
-exit
-ei3
-exit
-exit
-upall
-exit
-cd downloads/tarballs/
-ls
-sudo ./PDFStudio_2020_linux64.sh 
-cleanup
-exit
-cleanup
-yay zim
-yay zim plugin
-upall
-exit
-upall
-cleanup
-exit
-upall
-exit
-cd /opt/
-ls
-sudo rm -r dropbox/
-exit
-sudo pacman -Rns dropbox
-exit
-yay pamac
-exit
-yay dropbox
-exit
-sudo pacman -S neofetch
-upall
-sudo reboot
-upall
-yay nvida
-sudo pacman -S paru
-yay paru
-eba
-exit
-yay paru
-yay nvidia
-exit
-sudo reboot
-cd /etc/skel/
-ls -la
-cd .config/
-ls
-cd ..
-sudo cp -r .config/ ~/.config/
-arandr 
-killall i3
-jeff
 sudo pacman -S rofi
 sudo pacman -S dmenu
 exit
@@ -497,4 +347,154 @@ yay firefox-developer-edition
 yay inkscape
 yay dropbox
 ei3
+exit
+dots
+ls
+./010-backup-home.sh 
+exit
+dots
+ls
+./130-bluetooth.sh 
+exit
+upall
+exit
+exit
+upall
+cleanup
+ei3
+cd /usr/bin/
+ls
+sudo pacman -S lxsession
+sudo pacman -S polkit
+ls
+exit
+ei3
+exit
+exit
+yay spotify
+yay keepassxc
+exit
+ei3
+yay spotify
+yay visual studio code microsoft
+yay microsoft
+yay microsoft studio
+yay microsoft visual code
+yay visual studio code
+yay microsoft edge 
+upall
+cleanup
+exit
+exit
+upall
+exit
+dots
+ls
+./git-v1.sh 
+exit
+sudo systemctl enable dropbox@jeff
+exit
+ei3
+exit
+htop
+sudo pacman -S htop
+cleanup
+exit
+exit
+sudo systemctl status
+sudo systemctl start dropbox@jeff.service
+sudo systemctl status
+upall
+cleanup
+yay wd7
+yay aic
+sudo systemctl disable dropbox@jeff
+yay dropbox
+ei3
+cleanup
+exit
+yay flameshot
+exit
+upall
+exit
+yay gnucash
+exit
+upall
+cleanup
+exit
+paclist endeavoros
+upall
+paclist endeavouros
+paclist community
+paclist community | less
+paclist endeavouros
+yay papirus
+exit
+yay adapta
+dots
+ls
+exit
+rm -rf ~/.dropbox-dist/
+install -dm0 ~/.dropbox-dist
+ls
+ls -la
+exit
+yay adapta
+fc-update
+alias
+htop
+yay htop
+htop
+exit
+upall
+exit
+upall
+exit
+cleanup
+exit
+upall
+htop
+cleanup
+paclist endeavouros
+exit
+sudo pacman -S gnome
+exit
+exit
+exit
+sudo pacman -Ss tweak
+sudo pacman -S gnome-tweaks
+exit
+sudo pacman -S gimp
+exit
+sudo pacman -S chrome-gnome-shell
+yay chrome-gnome-shell
+exit
+upall
+cleanup
+exit
+exit
+yay pop-dark
+yay pop-gtk
+exit
+sudo pacman -Rns quodlibet
+exit
+sudo pacman -Rns xfce-terminal
+yay terminal
+sudo pacman -Rns xfce4-terminal
+sudo pacman -Rns xfce4-terminal endeavoouros-xfce4-terminal-colors
+sudo pacman -Rns xfce4-terminal endeavouros-xfce4-terminal-colors
+yay eye
+sudo pacman -Rns eog
+rip
+sudo pacman -S expac
+rip
+yay captaine
+yay capta
+yay capitaine
+sudo pacman -Rns capitaine-cursors
+rip
+upall
+cleanup
+exit
+yay os-prober
 exit

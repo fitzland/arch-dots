@@ -36,7 +36,6 @@ cp -r $HOME/.config/sxhkd ./skel-home/config/
 cp -r $HOME/.config/Thunar ./skel-home/config/
 cp -r $HOME/.config/Typora ./skel-home/config/
 cp -r $HOME/.themes ./skel-home/themes/
-cp -r $HOME/.Xresources.d ./skel-home/
 cp $HOME/.bash* ./skel-home/
 cp $HOME/.xprofile ./skel-home/
 cp $HOME/.Xresources ./skel-home/

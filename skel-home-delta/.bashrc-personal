@@ -119,7 +119,7 @@ alias sr="sudo reboot"
 alias xd="ls /usr/share/xsessions"
 
 #Install from AUR
-alias yay='paru'
+#alias yay='paru'
 
 alias dots='cd $HOME/git/fitzland/arch-dots'
 

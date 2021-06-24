@@ -1,241 +1,3 @@
-sudo pacman -S rofi
-sudo pacman -S dmenu
-exit
-cd ..
-sudo cp -r .config/ ~/.config/
-arandr 
-killall i3
-jeff
-sudo pacman -S rofi
-sudo pacman -S dmenu
-dnf install neofetch
-sudo dnf install neofetch
-sudo dnf update
-sudo dnf install rofi
-cd git
-cd home
-cd ls -la
-ls -la
-cd jeff/
-cd git/
-cd fitzland/
-cd
-cd .config/
-ls
-sudo dnf install nvidia
-exit
-sudo dnf search i3
-sudo dnf install i3lock i3 i3status 
-sudo dnf search nvidia
-sudo dnf search bspwm
-sudo dnf install bspwm
-sudo dnf install sxhkd
-exit
-sudo dnf install xfce4
-ls
-exit
-exit
-upall
-sudo pacman -Syyu
-arandr
-yay microsoft visual
-yay studio code
-yay meld
-cd /etc/skel/
-ls
-ls -la
-cd
-ls
-ei3
-eb
-nano ~/.bashrc
-eos-welcome 
-eos-welcome --enable
-code /home/jeff/.config/i3/config
-exit
-exit
-sudo pacman -Syyu
-exit
-exit
-yay google-chrome
-yay microsoft-edge
-exit
-exit
-exit
-exit
-sudo pacman -S viewnior
-exit
-sudo pacman -S gimp
-sudo pacman -S inkscape
-exit
-exit
-xprop
-exit
-exit
-exit
-upall
-yay paru
-eba
-exit
-yay paru
-exit
-cd git/
-ls
-cd paru/
-ls
-makepkg -si
-exit
-eba
-exit
-yay firefox-developer
-sudo pacman -S --needed base-devel
-cd git/
-ls
-cd paru/
-ls
-sudo pacman -U paru-1.4.0-1-x86_64.pkg.tar.zst 
-exit
-paru firefox-developer
-eba
-exit
-yay firefox-developer
-cleanup
-sudo pacman -Rns firefox
-exit
-ei3
-cleanup
-exit
-yay libreoffice
-exit
-yay libreoffice-still
-sudo pacman -S pstodedit
-sudo pacman -S pstoedit
-exit
-yay typora
-exit
-npacman
-cd /etc/pacman.d/
-ls
-nano mirrorlist
-nano endeavouros-mirrorlist 
-ls
-cd ..
-ls
-nano pacman.conf 
-sudo nano pacman.conf 
-cd
-cd git/
-ls
-cd fitzland/
-ls
-cd arch-dots/
-ls
-cd arco-scripts/
-ls
-sudo ./trust-key.sh 
-ls
-./add-arcolinux-repo-to-pacman-conf.sh 
-ls
-./add-keyservers-for-key-importing.sh 
-yay pamac
-yay aic
-ls
-cd ..
-ls
-./130-bluetooth.sh 
-ls
-yay wd7
-ls
-cd
-ls
-exit
-exit
-ei3
-exit
-cd /usr/lib/polkit-gnome/
-ls
-exit
-yay nvidia
-exit
-ei3
-upall
-upall
-exit
-exit
-exit
-exit
-nvidia-installer-check
-nvidia-installer-dkms
-sudo nvidia-installer-dkms
-exit
-upall
-exit
-yay xreader
-exit
-yay lxpolkit
-dots
-ls
-cd arco-scripts/
-ls
-nano install-polkit.sh 
-sudo pacman -S lxsession
-exit
-fc-cache -vf
-exit
-exit
-upall
-yay pamac
-yay pamac
-cd /etc/
-sudo nano pacman.conf 
-sudo pacman -Syyu
-upall
-sudo pacman -Rns arcolinux-mirrorlist-git 
-upall
-cleanup
-sudo nano pacman.conf 
-upall
-cleanup
-exit
-cd downloads/iso/
-ls
-yay disks
-yay gparted
-yay gnome-disks
-yay disks
-ls
-sudo dd if=endeavouros-2021.04.17-x86_64.iso of=/dev/sdd bs=4M && sync
-alias
-rip
-sudo pacman -S expac
-rip
-sudo pacman -Rns pamac
-sudo pacman -Rns pamac-all
-ls
-rip
-paru pacli
-eba
-exit
-yay pacli
-yay aur helper
-yay typora
-exit
-yay visual-studio
-exit
-dost
-dots
-ls
-./010-backup-home.sh 
-./700-installing-fonts.sh 
-yay font-viewer
-yay font-viewer
-sudo pacman -S gnome-font-viewer
-xit
-exit
-upall
-rip
-exit
-cleanup
 alias
 xd
 userlist
@@ -497,4 +259,242 @@ upall
 cleanup
 exit
 yay os-prober
+exit
+exit
+dots
+ls
+./010-backup-home.sh 
+nano 010-backup-home.sh 
+cd
+cd downloads
+ls
+cd iso/
+ls
+sudo dd if=Hash-I-BSPWM-2021.05.13-x86_64.iso of=/dev/sdd bs=4M && sync
+upall
+exit
+upall
+cleanup
+exit
+htop
+sudo pacman -Syyu
+upall
+alias
+yay google-chrome
+yay nvidia
+nvidia-installer-dkms 
+sudo nvidia-installer-dkms 
+exit
+yay microsoft-edge
+yay microsoft visual studio
+yay visual studio
+yay dropbox
+yay pop-gtk
+yay papirus-icon
+exit
+yay keepassxc
+yay kvantum
+yay gnucash
+yay typora
+yay libreoffice-still
+yay inkscape
+yay gimp
+yay meld
+yay google-chrome
+yay firefox-developer-edition
+yay hunspell-en_US
+yay mythes-en
+yay spotify
+exit
+yay chrome gnome shell
+yay nordic
+exit
+exit
+exit
+upall
+update
+sudo pacman -Syyu
+yay aic9
+yay wd7
+yay meld
+exit
+upall
+cleanup
+exit
+cd /usr/share/gnome-shell/
+ls
+cd extensions/
+ls
+sudo rm places-menu@gnome-shell-extensions.gcampax.github.com/
+sudo rm -r places-menu@gnome-shell-extensions.gcampax.github.com/
+ls
+sudo rm -r apps-menu@gnome-shell-extensions.gcampax.github.com/
+ls
+exit
+upall
+exit
+exit
+yay google-chrome
+dots
+ls
+cd ..
+ls
+cd ..
+ls
+exit
+sudo dnf update
+sudo dnf install neofetch
+sudo dnf install rofi
+sudo dnf update
+sudo dnf upgrade
+sudo dnf cleanup
+sudo dnf autoclean
+sudo dnf install inkscape
+sudo dnf install xterm
+sudo dnf gtk-theme
+sudo dnf search gtk-theme
+sudo dnf install materia-gtk-theme
+sudo dnf search gtk-theme
+sudo dnf install bluecurve-gtk-theme
+sudo dnf install bluecurve-gtk-themes.x86_64
+exit
+sudo dnf search cursor
+exit
+sudo dnf update
+sudo dnf search typora
+sudo dnf update
+sudo dnf install gnucash
+sudo dnf search meld
+sudo dnf search keepassxc
+sudo dnf install keepassxc
+clean
+sudo dnf autoremvoe
+sudo dnf autoremove
+lspci | grep -E "VGA|3D"
+cd downloads/tarballs/
+ls
+chmod +x NVIDIA-Linux-x86_64-460.84.run 
+sudo dnf update
+ls
+dnf install kernel-devel kernel-headers gcc make dkms acpid libglvnd-glx libglvnd-opengl libglvnd-devel pkgconfig
+sudo dnf install kernel-devel kernel-headers gcc make dkms acpid libglvnd-glx libglvnd-opengl libglvnd-devel pkgconfig
+echo "blacklist nouveau" >> /etc/modprobe.d/blacklist.conf
+sudo echo "blacklist nouveau" >> /etc/modprobe.d/blacklist.conf
+ls
+./NVIDIA-Linux-x86_64-460.84.run 
+sudo ./NVIDIA-Linux-x86_64-460.84.run 
+cd /etc/modprobe.d/
+ls
+exit
+sudo dnf update
+sudo dnf search nvidia
+sudo dnf -y install kmod-nvidia
+sudo dnf install xor-x11-drv-nvidia-cuda
+sudo dnf install xorf-x11-drv-nvidia-cuda
+sudo dnf install xorg-x11-drv-nvidia-cuda
+sudo dnf install dnf-plugins-core -y
+sudo dnf copr enable t0xic0der/nvidia-auto-installer-for-fedora -y
+sudo dnf install nvautoinstall -y
+nvautoinstall 
+nvautoinstall --rpmadd --driver
+sudo nvautoinstall --rpmadd --driver
+sudo nvautoinstall --driver
+reboot
+sudo dnf install thunar
+exit
+sudo dnf install papirus-icon-theme
+exit
+upall
+alias
+exit
+cd downloads/iso/
+ls
+rm debian-10.9.0-amd64-netinst.iso 
+ls
+rm ubuntu-21.04-desktop-amd64.iso 
+ls
+rm pop-os_20.10_amd64_nvidia_14.iso 
+ls
+rm manjaro-i3-21.0.4-210506-linux510.iso 
+ls
+rm linuxmint-20-xfce-64bit.iso 
+ls
+rm Fedora-i3-Live-x86_64-34-1.2.iso 
+ls
+sudo dd if=debian-10.10.0-amd64-netinst.iso of=/dev/sdd bs=4M && sync
+sudo dnf install keepassxc
+exit
+cd downloads/iso/
+ls
+sudo dd if=debian-10.10.0-amd64-netinst.iso of=/dev/sdd bs=4M && sync
+exit
+cd downloads/
+cd iso/
+ls
+exit
+dost
+dots
+ls
+./git-v1.sh 
+exit
+upall
+sudo pacman -Syyu
+sudo pacman -Ss nvidia
+sudo pacman -S nvidia-installer-dkms
+sudo nvidia-installer-dkms 
+exit
+sudo pacman -Syyu
+yay visual-studio
+yay keepassxc
+yay gnucash
+yay google-chrome
+yay firefox-developer-edition
+yay microsoft-edge
+yay meld
+sudo pacman -Syyu
+exit
+exit
+sudo pacman -Syyu
+exit
+exit
+xprop
+yay gimp
+yay inkscape
+exit
+yay font awesome
+exit
+exit
+yay keepassxc
+exit
+sudo pacman -Syyu
+sudo pacman -Rns firefox
+cleanup
+exit
+upall
+cleanup
+paru
+yay paru
+clear
+exit
+sudo pacman -Rns xfce4-terminal
+cleanup
+exit
+sudo pacman -Rns xfce4-terminal
+exit
+yay expac
+yay font-awesome
+rip
+sudo pacman -Rns capitaine-cursor
+sudo pacman -Rns capitaine-cursors
+cleanup
+upall
+exit
+upall
+cleanup
+exit
+cleanup
+yay xev
+xev
+exit
+xprop
 exit
