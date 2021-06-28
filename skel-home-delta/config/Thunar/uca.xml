@@ -34,7 +34,7 @@
 	<icon>text-editor</icon>
 	<name>Edit file as ROOT</name>
 	<unique-id>1598702057745516-3</unique-id>
-	<command>pkexec mousepad %f</command>
+	<command>pkexec xed %f</command>
 	<description>Edit file as ROOT</description>
 	<patterns>*</patterns>
 	<text-files/>

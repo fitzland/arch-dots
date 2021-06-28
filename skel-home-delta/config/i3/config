@@ -61,28 +61,28 @@ gaps outer 4
 floating_modifier $mod
 
 # switch to workspace
-bindsym $mod+1 workspace $ws1
-bindsym $mod+2 workspace $ws2
-bindsym $mod+3 workspace $ws3
-bindsym $mod+4 workspace $ws4
-bindsym $mod+5 workspace $ws5
-bindsym $mod+6 workspace $ws6
-bindsym $mod+7 workspace $ws7
-bindsym $mod+8 workspace $ws8
-bindsym $mod+9 workspace $ws9
-bindsym $mod+0 workspace $ws0
+bindsym $mod+1    workspace  $ws1
+bindsym $mod+2    workspace  $ws2
+bindsym $mod+3    workspace  $ws3
+bindsym $mod+4    workspace  $ws4
+bindsym $mod+5    workspace  $ws5
+bindsym $mod+6    workspace  $ws6
+bindsym $mod+7    workspace  $ws7
+bindsym $mod+8    workspace  $ws8
+bindsym $mod+9    workspace  $ws9
+bindsym $mod+0    workspace  $ws10
 
 # switch to workspace with numpad keys
-bindcode $mod+87 workspace $ws1
-bindcode $mod+88 workspace $ws2
-bindcode $mod+89 workspace $ws3
-bindcode $mod+83 workspace $ws4
-bindcode $mod+84 workspace $ws5
-bindcode $mod+85 workspace $ws6
-bindcode $mod+79 workspace $ws7
-bindcode $mod+80 workspace $ws8
-bindcode $mod+81 workspace $ws9
-bindcode $mod+90 workspace $ws0
+bindcode $mod+87 workspace 1
+bindcode $mod+88 workspace 2
+bindcode $mod+89 workspace 3
+bindcode $mod+83 workspace 4
+bindcode $mod+84 workspace 5
+bindcode $mod+85 workspace 6
+bindcode $mod+79 workspace 7
+bindcode $mod+80 workspace 8
+bindcode $mod+81 workspace 9
+bindcode $mod+90 workspace 10
 
 # switch to workspace with numlock numpad keys
 bindcode $mod+Mod2+87 workspace $ws1
@@ -94,7 +94,7 @@ bindcode $mod+Mod2+85 workspace $ws6
 bindcode $mod+Mod2+79 workspace $ws7
 bindcode $mod+Mod2+80 workspace $ws8
 bindcode $mod+Mod2+81 workspace $ws9
-bindcode $mod+Mod2+90 workspace $ws0
+bindcode $mod+Mod2+90 workspace $ws10
 
 
 # move focused container to workspace
@@ -107,7 +107,7 @@ bindsym $mod+Shift+6    move container to workspace  $ws6
 bindsym $mod+Shift+7    move container to workspace  $ws7
 bindsym $mod+Shift+8    move container to workspace  $ws8
 bindsym $mod+Shift+9    move container to workspace  $ws9
-bindsym $mod+Shift+0    move container to workspace  $ws0
+bindsym $mod+Shift+0    move container to workspace  $ws10
 
 
 # move focused container to workspace with numpad keys
@@ -120,7 +120,7 @@ bindcode $mod+Shift+Mod2+85 	move container to workspace  $ws6
 bindcode $mod+Shift+Mod2+79 	move container to workspace  $ws7
 bindcode $mod+Shift+Mod2+80 	move container to workspace  $ws8
 bindcode $mod+Shift+Mod2+81 	move container to workspace  $ws9
-bindcode $mod+Shift+Mod2+90 	move container to workspace  $ws0
+bindcode $mod+Shift+Mod2+90 	move container to workspace  $ws10
 
 # move focused container to workspace with numpad keys
 bindcode $mod+Shift+87 	 move container to workspace  $ws1
@@ -132,7 +132,7 @@ bindcode $mod+Shift+85 	 move container to workspace  $ws6
 bindcode $mod+Shift+79 	 move container to workspace  $ws7
 bindcode $mod+Shift+80 	 move container to workspace  $ws8
 bindcode $mod+Shift+81 	 move container to workspace  $ws9
-bindcode $mod+Shift+90 	 move container to workspace  $ws0
+bindcode $mod+Shift+90 	 move container to workspace  $ws10
 
 # resize window (you can also use the mouse for that):
 #mode "resize" {
@@ -164,7 +164,7 @@ bindcode $mod+Shift+90 	 move container to workspace  $ws0
 ######################################
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal; workspace $ws1; focus
+bindsym $mod+Return exec xfce4-terminal
 
 # kill focused window
 bindsym $mod+c kill
@@ -214,26 +214,6 @@ bindsym $mod+Shift+Left move left
 bindsym $mod+Shift+Down move down
 bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
-
-#####################################################################################################################
-#################                          moving around workspaces                                 #################
-#####################################################################################################################
-
-
-# next/previous workspace
-
-bindsym Mod1+Tab workspace next
-bindsym Mod1+Shift+Tab workspace prev
-bindsym $mod+Tab workspace back_and_forth
-
-#navigate workspaces next / previous
-bindsym Mod1+Ctrl+Right workspace next
-bindsym Mod1+Ctrl+Left workspace prev
-
-# switch to workspace with urgent window automatically
-for_window [urgent=latest] focus
-bindsym $mod+u [urgent=latest] focus
-
 
 # split in horizontal orientation
 bindsym $mod+h split h
@@ -295,70 +275,42 @@ bindsym XF86AudioPrev exec playerctl previous
 bindsym $mod+p exec /usr/local/bin/switch-audio-port
 
 ## App shortcuts
-#bindsym $mod+w exec /usr/bin/firefox
+bindsym $mod+w exec /usr/bin/firefox
+bindsym $mod+n exec /usr/bin/thunar
 bindsym Print exec "scrot ~/%Y-%m-%d-%T-screenshot.png"
 
 ##########################################
 # configuration for workspace behaviour: #
 ##########################################
 
-# setting variables for later use
-# use xrandr and/or arandr to know the names of your monitors
-
-set $firstMonitor DP-2
-#set $firstMonitor 
-
-set $secondMonitor DP-4
-#set $secondMonitor HDMI-1
-
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
-set $ws1 "1:term|"
-set $ws2 "2:edit|"
-set $ws3 "3:ofc|"
-set $ws4 "4:grfx|"
-set $ws5 "5:misc|"
-set $ws6 "6:home|"
-set $ws7 "7:file|"
-set $ws8 "8:util|"
-set $ws9 "9:media|"
-set $ws0 "10:web|"
+set $ws1 "1:"
+set $ws2 "2:"
+set $ws3 "3:"
+set $ws4 "4:"
+set $ws5 "5:"
+set $ws6 "6"
+set $ws7 "7"
+set $ws8 "8"
+set $ws9 "9"
+set $ws10 "10"
 
 # use workspaces on different displays:
+# where you have to replace VGA-0/HDMI-0 with the names for your displays 
 # you can get from xrandr command
-workspace $ws1 output $firstMonitor
-workspace $ws2 output $firstMonitor
-workspace $ws3 output $firstMonitor
-workspace $ws4 output $firstMonitor
-workspace $ws5 output $firstMonitor
-workspace $ws6 output $secondMonitor
-workspace $ws7 output $secondMonitor
-workspace $ws8 output $secondMonitor
-workspace $ws9 output $secondMonitor
-workspace $ws0 output $secondMonitor
+#workspace $ws1 output VGA-0
+#workspace $ws2 output VGA-0
+#workspace $ws3 output HDMI-0
+#workspace $ws4 output HDMI-0
+#workspace $ws5 output HDMI-0
 
 # bind program to workspace and focus to them on startup:
-assign [class="xterm|UXTerm|urxvt|URxvt|lxterminal|xfce4-terminal|Xfce4-terminal"] $ws1
-assign [class="Xed|xed|Brackets|Atom|Code|code|code-oss|Geany"] $ws2
-assign [class="Meld"] $ws2
-assign [class="Typora|typora"] $ws2
-assign [class="LibreOffice|libreoffice|libreoffice-writer"] $ws3
-assign [class="LibreOffice|libreoffice-calc"] $ws3
-assign [class="LibreOffice|libreoffice-impress"] $ws3
-assign [class="LibreOffice|libreoffice-base"] $ws3
-assign [class="Gnucash|gnucash"] $ws3
-assign [class="Xreader|xreader|Evince|evince"] $ws3
-assign [class="ristretto|Ristretto|shotwell|Shotwell|Xviewer|Nitrogen"] $ws4
-assign [class="feh|gthumb|Gthumb|eog|Eog|Pinta|pixeluvo|Pixeluvo"] $ws4
-assign [class="Inkscape"] $ws4
-assign [class="Gimp"] $ws4
-assign [class="Firefox|Vivaldi-stable|Vivaldi-snapshot|Opera"] $ws5
-assign [class="Nemo|Thunar|Caja|nautilus|Nautilus"] $ws7
-assign [class="keepassxc|Keepassxc"] $ws8
-assign [class="pamac-manager|Pamac-manager"] $ws8
-assign [class="arandr|Arandr|xrandr|Xrandr"] $ws8
-assign [class="Geary|Evolution"] $ws0
-assign [class="Chromium|Google-chrome"] $ws0
+assign [class="Xfce4-terminal"] $ws1
+assign [class="(?i)firefox"] $ws2
+assign [class="Thunar"] $ws3
+assign [class="Thunderbird"] $ws4
+assign [class="TelegramDesktop"] $ws5
 
 
 # automatic set focus new window if it opens on another workspace then the current:
@@ -384,9 +336,6 @@ exec --no-startup-id dex -a -s /etc/xdg/autostart/:~/.config/autostart/
 # num lock activated
 #exec --no-startup-id numlockx on
 
-# compose key
-exec --no-startup-id setxkbmap -option compose:rctrl
-
 # start conky: 
 #exec_always --no-startup-id conky
 
@@ -404,9 +353,6 @@ exec --no-startup-id picom -CGb
 #networkmanager-applet
 exec --no-startup-id nm-applet
 
-#online backup
-exec --no-startup-id dropbox start
-
 # set wallpaper
 exec --no-startup-id nitrogen --restore
 #exec --no-startup-id feh --bg-fill /usr/share/endeavouros/backgrounds/endeavouros_i3.png
@@ -419,7 +365,7 @@ exec --no-startup-id dbus-launch dunst --config ~/.config/dunst/dunstrc
 
 # Autostart apps as you like
 #exec --no-startup-id sleep 2 && xfce4-terminal
-#exec --no-startup-id sleep 7 && firefox https://github.com/endeavouros-team/endeavouros-i3wm-setup/blob/main/force-knowledge.md
+exec --no-startup-id sleep 7 && firefox https://github.com/endeavouros-team/endeavouros-i3wm-setup/blob/main/force-knowledge.md
 #exec --no-startup-id sleep 3 && thunar
 
 # set floating (nontiling)for apps needing it
@@ -467,10 +413,9 @@ client.urgent		    $urgentred	$urgentred	$white		$purple		$yellowbrown
 # Start i3bar to display a workspace bar 
 # (plus the system information i3status finds out, if available)
 bar {
-		font pango:Noto Sans Regular 11, FontAwesome 11
-		status_command i3blocks -c ~/.config/i3/i3blocks-primary.conf
+		font pango:Noto Sans Regular 10, FontAwesome 10
+		status_command i3blocks -c ~/.config/i3/i3blocks.conf
 	    	position bottom 
-			output $firstMonitor
 #	    	i3bar_command i3bar --transparency
 # it could be that you have no primary display set: set one (xrandr --output <output> --primary)
 # reference: https://i3wm.org/docs/userguide.html#_tray_output
@@ -480,41 +425,9 @@ bar {
 # When strip_workspace_numbers is set to yes, 
 # any workspace that has a name of the form 
 # “[n][:][NAME]” will display only the name.
-strip_workspace_numbers no
+strip_workspace_numbers yes
 ##strip_workspace_name no
 
-		    colors {
-		    separator          $purple
-		    background         $darkgrey
-		    statusline         $white
-	#	colorclass			border			bg				txt			indicator
-		focused_workspace	$mediumgrey	   	$grey			$darkgrey	$purple
-		active_workspace	$lightblue      $mediumgrey		$darkgrey	$purple
-		inactive_workspace	$darkgrey   	$darkgrey		$grey		$purple
-		urgent_workspace	$urgentred	    $urgentred		$white		$purple 
-	}
-}
-
-# you can add different bars for multidisplay setups on each display:
-# set output HDMI-0 to the display you want the bar, --transparency can be set.
-# Transparency needs rgba color codes to be used where the last two letters are the transparency factor see here:
-# https://gist.github.com/lopspower/03fb1cc0ac9f32ef38f4
-# #08052be6 --> e6=90%
-
-# secondary monitor bar
-bar {	
-	font pango:Noto Sans Regular 11, FontAwesome 11
-	status_command i3blocks -c ~/.config/i3/i3blocks-secondary.conf
-	i3bar_command i3bar --transparency
-	output $secondMonitor
-	position bottom
-
-# When strip_workspace_numbers is set to yes, 
-# any workspace that has a name of the form 
-# “[n][:][NAME]” will display only the name.
-strip_workspace_numbers no
-##strip_workspace_name no
-#
 		    colors {
 		    separator          $purple
 		    background         $darkgrey
@@ -527,60 +440,57 @@ strip_workspace_numbers no
 	}
 }
 
+# you can add different bars for multidisplay setups on each display:
+# set output HDMI-0 to the display you want the bar, --transparency can be set.
+# Transparency needs rgba color codes to be used where the last two letters are the transparency factor see here:
+# https://gist.github.com/lopspower/03fb1cc0ac9f32ef38f4
+# #08052be6 --> e6=90%
+
+# bar {	
+#	font pango:Noto Sans Regular 9, FontAwesome 9
+#	status_command i3blocks -c ~/.config/i3/i3blocks-2.conf
+#	i3bar_command i3bar --transparency
+#	output HDMI-0
+#	position bottom
+#
+# When strip_workspace_numbers is set to yes, 
+# any workspace that has a name of the form 
+# “[n][:][NAME]” will display only the name.
+#strip_workspace_numbers yes
+##strip_workspace_name no
+#
+#	colors {
+#		separator          $purple
+#		background         $darkbluetrans
+#        	statusline         $white
+#					border		bg		txt		indicator
+#		focused_workspace	$lighterblue	$lighterblue	$darkblue	$purple
+#		active_workspace	$lightdblue	$lightdblue	$darkblue	$purple
+#		inactive_workspace	$darkblue	$darkblue	$lightdblue	$purple
+#		urgent_workspace	$urgentred	$urgentred	$white		$purple 
+#	}
+#}
+
 #####################################
 # Application menu handled by rofi: #
 #####################################
 
-## rofi bindings fancy application menu (bindings $mod+slash)
+## rofi bindings fancy application menu (two bindings F9/$mod+d)
 
-bindsym $mod+slash exec rofi -modi drun -show drun -display-drun "Apps : " -line-padding 4 \
-                -columns 2 -padding 30 -hide-scrollbar \
+bindsym $mod+d exec rofi -modi drun -show drun -display-drun "Apps : " -line-padding 4 \
+                -columns 2 -padding 50 -hide-scrollbar \
                 -show-icons -drun-icon-theme "Arc-X-D" -font "Noto Sans Regular 11"
                 
-## rofi bindings for window menu (bindings $mod+t)
-
-bindsym $mod+t exec rofi -show window -display-window "Window : " -line-padding 4 \
-                -lines 10 -padding 30 -hide-scrollbar \
-                -show-icons -drun-icon-theme "Arc-X-D" -font "Noto Sans Regular 11"
-
-## rofi bindings simple application menu (bindings $mod+backslash)
-
-bindsym $mod+backslash exec rofi -modi run -show run -display-drun "Apps : " -line-padding 4 \
+bindsym F9 exec rofi -modi drun -show drun -display-drun "Apps : " -line-padding 4 \
                 -columns 2 -padding 30 -hide-scrollbar \
                 -show-icons -drun-icon-theme "Arc-X-D" -font "Noto Sans Regular 11"
 
-# workspace related bindings
+## rofi bindings for window menu (two bindings F10/$mod+t)
 
-#workspace $ws2 related
-bindsym $mod+F2 exec --no-startup-id code;workspace $ws2;focus
-bindsym $mod+F5 exec --no-startup-id meld;workspace $ws2;focus
-bindsym $mod+F8 exec --no-startup-id typora;workspace $ws2;focus
+bindsym $mod+t exec rofi -show window -display-window "Window : " -line-padding 4 \
+                -lines 10 -padding 50 -hide-scrollbar \
+                -show-icons -drun-icon-theme "Arc-X-D" -font "Noto Sans Regular 11"
 
-#workspace $ws3 related
-bindsym $mod+F6 exec --no-startup-id gnucash;workspace $ws3;focus
-
-#workspace $ws4 related
-bindsym $mod+F3 exec --no-startup-id inkscape;workspace $ws4;focus
-bindsym $mod+F4 exec --no-startup-id gimp;workspace $ws4;focus
-bindsym control+mod1+i exec --no-startup-id nitrogen;workspace $ws4;focus
-
-#workspace $ws5 related
-bindsym $mod+F10 exec --no-startup-id firefox-developer-edition;workspace $ws5;focus
-
-#workspace $ws6 related
-
-
-#workspace $ws7 related
-bindsym control+mod1+b exec --no-startup-id thunar;workspace $ws7;focus
-bindsym $mod+Shift+Return exec --no-startup-id thunar; workspace $ws7;focus
-
-#workspace $ws8 related
-bindsym $mod+F7 exec --no-startup-id keepassxc;workspace $ws8;focus
-
-#workspace $ws9 related
-bindsym $mod+F9 exec --no-startup-id spotify;workspace $ws9;focus
-bindsym control+mod1+s exec --no-startup-id spotify;workspace $ws9;focus
-
-#workspace $ws0 related
-bindsym $mod+F11 exec --no-startup-id microsoft-edge-beta;workspace $ws0;focus
-bindsym $mod+F12 exec --no-startup-id google-chrome-stable --profile-directory='Default';workspace $ws0;focus
+bindsym F10 exec rofi -show window -display-window "Window : " -line-padding 4 \
+                -lines 10 -padding 50 -hide-scrollbar \
+                -show-icons -drun-icon-theme "Arc-X-D" -font "Noto Sans Regular 11"

@@ -73,7 +73,7 @@ done
 func_category Development
 
 list=(
-code
+#code
 meld
 )
 
@@ -163,9 +163,10 @@ gnome-disk-utility
 gparted
 arc-gtk-theme
 adapta-gtk-theme
-bibata-cursor-theme
+#bibata-cursor-theme
 #materia-gtk-theme
 papirus-icon-theme
+paper-icon-theme
 )
 
 count=0
