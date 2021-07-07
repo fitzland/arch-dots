@@ -1,314 +1,3 @@
-sudo pacman -Rns adobe-source-han-sans-kr-fonts 
-yay adobe
-yay adobe
-yay fonts
-yay fonts
-yay jet brains
-yay inconsolata
-yay ibm plex
-yay futura
-dots
-ls
-nano 700-installing-fonts.sh 
-./700-installing-fonts.sh 
-fc-cache -vf
-ls
-yay odokai
-./700-installing-fonts.sh 
-nano 700-installing-fonts.sh 
-sudo pacman -Rns ttf-droid
-exit
-alias
-update-fc
-cleanup
-exit
-yay dropbox
-cd
-sudo rm .dropbox
-sudo rm -r .dropbox
-sudo rm -r .dropbox-dist
-sudo rm -r .dropbox-dist.backup/
-cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -
-~/.dropbox-dist/dropboxd
-rm -rf ~/.dropbox-dist/
-install -dm0 ~/.dropbox-dist
-exit
-cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -
-ei3
-cd
-sudo rm -r .dropbox-dist/
-sudo rm -r .dropbox/
-cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -
-la ~/.dropbox-dist/
-ls -la .dropbox-dist/
-~/.dropbox-dist/
-~/.dropbox-dist/dropboxd 
-ls
-ls -la ~/.dropbox-dist/
-sudo chmod 666 .dropbox-dist/
-exit
-ei3
-exit
-upall
-exit
-sudo pacman -S python-gpgme
-exit
-cleanup
-exit
-yay dropbox
-wget https://linux.dropbox.com/fedora/rpm-public-key.asc
-gpg --import rpm-public-key.asc
-yay dropbox
-exit
-upall
-sudo pacman -Syyu
-sudo pacman -Ss nvidia
-sudo pacman -S nvidia-installer-dkms
-nvidia-installer-dkms 
-sudo nvidia-installer-dkms 
-exit
-exit
-exit
-yay google-chrome
-yay paru
-eba
-exit
-yay paru
-yay visual-studio
-yay libreoffice-still
-upall
-cleanup
-yay viewnior
-yay xreader
-cd downloads
-cd tarballs/
-ls
-sudo ./PDFStudio_2020_linux64.sh 
-exit
-yay google-chrome
-yay firefox-developer-edition
-yay inkscape
-yay dropbox
-ei3
-exit
-dots
-ls
-./010-backup-home.sh 
-exit
-dots
-ls
-./130-bluetooth.sh 
-exit
-upall
-exit
-exit
-upall
-cleanup
-ei3
-cd /usr/bin/
-ls
-sudo pacman -S lxsession
-sudo pacman -S polkit
-ls
-exit
-ei3
-exit
-exit
-yay spotify
-yay keepassxc
-exit
-ei3
-yay spotify
-yay visual studio code microsoft
-yay microsoft
-yay microsoft studio
-yay microsoft visual code
-yay visual studio code
-yay microsoft edge 
-upall
-cleanup
-exit
-exit
-upall
-exit
-dots
-ls
-./git-v1.sh 
-exit
-sudo systemctl enable dropbox@jeff
-exit
-ei3
-exit
-htop
-sudo pacman -S htop
-cleanup
-exit
-exit
-sudo systemctl status
-sudo systemctl start dropbox@jeff.service
-sudo systemctl status
-upall
-cleanup
-yay wd7
-yay aic
-sudo systemctl disable dropbox@jeff
-yay dropbox
-ei3
-cleanup
-exit
-yay flameshot
-exit
-upall
-exit
-yay gnucash
-exit
-upall
-cleanup
-exit
-paclist endeavoros
-upall
-paclist endeavouros
-paclist community
-paclist community | less
-paclist endeavouros
-yay papirus
-exit
-yay adapta
-dots
-ls
-exit
-rm -rf ~/.dropbox-dist/
-install -dm0 ~/.dropbox-dist
-ls
-ls -la
-exit
-yay adapta
-fc-update
-alias
-htop
-yay htop
-htop
-exit
-upall
-exit
-upall
-exit
-cleanup
-exit
-upall
-htop
-cleanup
-paclist endeavouros
-exit
-sudo pacman -S gnome
-exit
-exit
-exit
-sudo pacman -Ss tweak
-sudo pacman -S gnome-tweaks
-exit
-sudo pacman -S gimp
-exit
-sudo pacman -S chrome-gnome-shell
-yay chrome-gnome-shell
-exit
-upall
-cleanup
-exit
-exit
-yay pop-dark
-yay pop-gtk
-exit
-sudo pacman -Rns quodlibet
-exit
-sudo pacman -Rns xfce-terminal
-yay terminal
-sudo pacman -Rns xfce4-terminal
-sudo pacman -Rns xfce4-terminal endeavoouros-xfce4-terminal-colors
-sudo pacman -Rns xfce4-terminal endeavouros-xfce4-terminal-colors
-yay eye
-sudo pacman -Rns eog
-rip
-sudo pacman -S expac
-rip
-yay captaine
-yay capta
-yay capitaine
-sudo pacman -Rns capitaine-cursors
-rip
-upall
-cleanup
-exit
-yay os-prober
-exit
-exit
-dots
-ls
-./010-backup-home.sh 
-nano 010-backup-home.sh 
-cd
-cd downloads
-ls
-cd iso/
-ls
-sudo dd if=Hash-I-BSPWM-2021.05.13-x86_64.iso of=/dev/sdd bs=4M && sync
-upall
-exit
-upall
-cleanup
-exit
-htop
-sudo pacman -Syyu
-upall
-alias
-yay google-chrome
-yay nvidia
-nvidia-installer-dkms 
-sudo nvidia-installer-dkms 
-exit
-yay microsoft-edge
-yay microsoft visual studio
-yay visual studio
-yay dropbox
-yay pop-gtk
-yay papirus-icon
-exit
-yay keepassxc
-yay kvantum
-yay gnucash
-yay typora
-yay libreoffice-still
-yay inkscape
-yay gimp
-yay meld
-yay google-chrome
-yay firefox-developer-edition
-yay hunspell-en_US
-yay mythes-en
-yay spotify
-exit
-yay chrome gnome shell
-yay nordic
-exit
-exit
-exit
-upall
-update
-sudo pacman -Syyu
-yay aic9
-yay wd7
-yay meld
-exit
-upall
-cleanup
-exit
-cd /usr/share/gnome-shell/
-ls
-cd extensions/
-ls
-sudo rm places-menu@gnome-shell-extensions.gcampax.github.com/
-sudo rm -r places-menu@gnome-shell-extensions.gcampax.github.com/
-ls
 sudo rm -r apps-menu@gnome-shell-extensions.gcampax.github.com/
 ls
 exit
@@ -497,4 +186,315 @@ cd arco-bspwm/
 ls
 nano 700-installing-fonts.sh 
 ./700-installing-fonts.sh 
+exit
+dots
+ls
+./010-backup-home.sh 
+./git-v1.sh 
+exit
+yay libreoffice-still
+exit
+yay dropbox
+exit
+yay less
+yay wd7
+yay aic
+exit
+yay font-awesome
+yay tamsyn
+rip
+exit
+yay gtk-theme
+yay matcha gtk theme
+yay kvantum-theme-matcha
+exit
+yay nord gtk theme
+yay nord kvantum
+exit
+upall
+cleanup
+exit
+dots
+ls
+./130-bluetooth.sh 
+exit
+yay brother driver
+yay brother 2690dw
+exit
+yay os-prober
+grub-probe 
+exit
+grub-probe 
+dots
+ls
+nano 140-printers.sh 
+./140-printers.sh 
+exit
+yay disks
+yay gnome-disk
+exit
+exut
+exit
+cd downloads/iso/
+ls
+sudo dd if=archlinux-2021.06.01-x86_64.iso of=/dev/sdd bs=4M && sync
+fdisk -l /dev/sda
+sudo fdisk -l /dev/sda
+mount /dev/sda1 /mnt/
+sudo mount /dev/sda1 /mnt/
+ls -l /mnt
+sudo ls -l /mnt
+os-prober
+sudo os-prober
+sudo cp /boot/grub/grub.cfg /boot/grub/grub.cfg-origin
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+exit
+mount /dev/sda1 /mnt/
+sudo mount /dev/sda1 /mnt/
+ls -l /mnt
+sudo ls -l /mnt
+os-prober
+sudo os-prober
+sudo cp /boot/grub/grub.cfg /boot/grub/grub.cfg-origin
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+sudo pacman -S neofetch
+sudo pacman -Syyu
+dots
+./100-display-manager-and-desktop.sh 
+./110-development-software.sh 
+./120-sound.sh 
+./130-bluetooth.sh 
+./140-printers.sh 
+./170-network-discovery.sh 
+nano 200-software-arch-linux.sh 
+./200-software-arch-linux.sh 
+./500-software-distro-specific.sh 
+sudo pacman -S bspwm sxhkd
+ls
+./700-installing-fonts.sh 
+exit
+sudo pacman -S xterm
+exit
+sudo pacman -S xterm
+sudo pacman -S polybar
+git
+cd git/
+cd paru/
+ls
+sudo pacman -U paru-1.4.0-1-x86_64.pkg.tar.zst 
+paru polybar
+exit
+cd /etc/grub.d/
+ls
+cd 00_header 
+nano 00_header 
+nano 30_os-prober 
+nano 41_custom 
+nano 40_custom 
+babi 10_linux 
+nano 10_linux 
+exit
+sudo pacman -U paru-1.4.0-1-x86_64.pkg.tar.zst 
+paru polybar
+cd downloads
+mv yay.tar.gz ~/git/fitzland/
+cd git
+cd
+cd git/
+cd fitzland/
+cd yay
+ls
+makepkg -sri
+yay polybar
+yay google-chrome
+yay microsoft-edge
+exit
+yay microsoft-edge
+cd /opt/
+ls
+sudo rm -r dropbox/
+sudo rm -r google/
+sudo rm -r microsoft/
+sudo rm -r visual-studio-code/
+yay dropbox
+yay gnome-polkit
+yay polkit
+exit
+sudo rm -r visual-studio-code/
+yay dropbox
+yay gnome-polkit
+yay polkit
+yay visual-studio
+yay google-chrome
+dots
+cd ..
+cd paru/
+ls
+cd
+yay paru
+paru grub customizer
+exit
+grub-mkconfig
+sudo grub-mkconfig
+exit
+yay microsoft-edge
+exit
+timedatectl set-local-rtc 1
+timedatectl 
+exit
+yay paper-icon-theme
+cleanup
+yay typora
+yay markdown
+sudo pacman -S pandoc
+exit
+sudo pacman -S bspwm sxhkd
+./700-installing-fonts.sh 
+sudo pacman -S xterm
+sudo pacman -S xterm
+sudo pacman -S polybar
+git
+cd paru/
+sudo pacman -U paru-1.4.0-1-x86_64.pkg.tar.zst 
+paru polybar
+cd /etc/grub.d/
+cd 00_header 
+nano 00_header 
+nano 30_os-prober 
+nano 41_custom 
+nano 40_custom 
+babi 10_linux 
+nano 10_linux 
+sudo pacman -U paru-1.4.0-1-x86_64.pkg.tar.zst 
+paru polybar
+cd downloads
+mv yay.tar.gz ~/git/fitzland/
+cd git
+cd fitzland/
+cd yay
+makepkg -sri
+yay polybar
+yay google-chrome
+yay microsoft-edge
+yay microsoft-edge
+cd /opt/
+sudo rm -r dropbox/
+sudo rm -r google/
+sudo rm -r microsoft/
+sudo rm -r visual-studio-code/
+yay gnome-polkit
+yay polkit
+sudo rm -r visual-studio-code/
+yay gnome-polkit
+yay polkit
+yay visual-studio
+yay google-chrome
+cd paru/
+yay paru
+paru grub customizer
+grub-mkconfig
+sudo grub-mkconfig
+yay microsoft-edge
+timedatectl set-local-rtc 1
+timedatectl 
+yay paper-icon-theme
+yay typora
+yay markdown
+sudo pacman -S pandoc
+sudo pacman -S wget
+wget https://raw.githubusercontent.com/endeavouros-team/install-scripts/master/pacman.conf && sudo cp pacman.conf /etc/
+sudo touch endeavouros-mirrorlist
+nano endeavouros-mirrorlist 
+sudo nano endeavouros-mirrorlist 
+yay dropbox
+yay paper-icon
+cd
+cd git/
+git clone https://github.com/endeavouros-team/install-scripts.git
+cd install-scripts/
+./keyserver_rank 
+./rank_pacman_key.sh
+sudo ./rank_pacman_key.sh 
+sudo rm -r install-scripts/
+cd /etc/pacman.d/
+sudo nano mirrorlist 
+yay reflector
+mirror
+sudo pacman-key --init
+sudo pacman-key --populate archlinux endeavouros
+sudo pacman-ky --refresh-keys
+sudo pacman-key --refresh-keys
+sudo pacman-key --add /usr/share/pacman/keyrings/endeavouros.gpg
+sudo pacman-key --lsign-key 497AF50C92AD2384C56E1ACA003DB8B0CB23504F
+sudo pacman -U https://mirror.alpix.eu/endeavouros/repo/endeavouros/x86_64/endeavouros-mirrorlist-3.4-1-any.pkg.tar.zst
+sudo pacman -U https://ca.gate.endeavouros.com/endeavouros/repo/endeavouros/x86_64/endeavouros-keyring-1-5-any.pkg.tar.zst
+sudo pacman -S eos-hooks
+sudo pacman -U https://ca.gate.endeavouros.com/endeavouros/repo/endeavouros/x86_64/keyserver-rank-1.2.4-1-any.pkg.tar.zst
+sudo pacman -S archlinux-keyring && sudo pacman -Syu
+ls ~/.gpupg/gpg.conf
+touch ~/.gnupg/gpg.conf
+echo keyserver hkp://pool.sks-keyservers.net > ~/.gnupg/gpg.conf
+sudo pacman -U https://ca.gate.endeavouros.com/endeavouros/repo/endeavouros/x86_64/endeavouros-mirrorlist-4.0-1-any.pkg.tar.zst
+gpg --keyserver pool.sks-keyservers.net --recv-keys 003DB8b0CB23504F
+sudo gpg --keyserver pool.sks-keyservers.net --recv-keys 003DB8b0CB23504F
+sudo gpg --keyserver pool.sks-keyservers.net --recv-keys 003DB8B0CB23504F
+sudo pacman -S expac
+rip
+sudo pacman -Rns marker
+cd arco-scripts/
+sudo ./add-keyservers-for-key-importing.sh 
+sudo ./add-arcolinux-repo-to-pacman-conf.sh 
+./trust-key.sh 
+upall
+./add-keyservers-for-key-importing.sh 
+sudo ./trust-key.sh 
+cd dubois/
+cd arco-dwm/
+./setup-our-git-credentials.sh 
+cd arco-i3/
+cd ArchWay/
+cd ..
+cd arco-bspwm/
+dots
+ls
+yay numix-gtk-theme
+yay numix
+sudo nano /etc/pacman.d/mirrorlist 
+sudo nano /etc/pacman.conf 
+sudo pacman -Syyu
+cleanup
+yay gtk-theme
+exit
+yay kvantum
+sudo pacman -Rns kvantum-theme-materia
+sudo pacman -Rns materia-gtk-theme
+cleanup
+upall
+exit
+yay Iosevka
+fc-cache -vf
+cleanup
+exit
+yay libreoffice-still
+sudo pacman -S libmythes
+exit
+yay brother l2790dw
+yay brother driver
+rip
+exit
+yay brother l2790dw
+yay brother driver
+rip
+xprop
+cd git
+cd dubois/
+git clone https://github.com/arcolinux/arcolinux-spices
+cd arcolinux-spices/
+ls
+./setup-our-git-credentials.sh 
+exit
+upall
+cleanup
+exit
+upall
 exit

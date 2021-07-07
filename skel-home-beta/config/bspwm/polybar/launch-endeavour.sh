@@ -7,4 +7,5 @@ killall -q polybar
 while pgrep -u $UID -x polybar >/dev/null; do sleep 1; done
 
 # Launch Polybar
-polybar top -c ~/.config/polybar/config.ini &
+polybar bspwm-main -c ~/.config/bspwm/polybar/config.ini &
+polybar bspwm-extra -c ~/.config/bspwm/polybar/config.ini &

@@ -18,7 +18,8 @@ sh $HOME/.config/bspwm/polybar/launch.sh &
 #setxkbmap -layout be
 
 #Some ways to set your wallpaper besides variety or nitrogen
-feh --bg-scale ~/.config/bspwm/wall.png &
+#feh --bg-scale ~/.config/bspwm/wall.png &
+nitrogen --restore &
 
 xsetroot -cursor_name left_ptr &
 run sxhkd -c ~/.config/bspwm/sxhkd/sxhkdrc &
@@ -34,7 +35,6 @@ picom --config $HOME/.config/bspwm/picom.conf &
 
 /usr/bin/dunst &
 #run volumeicon &
-#nitrogen --restore &
 #run caffeine &
 #run thunar &
 run dropbox &

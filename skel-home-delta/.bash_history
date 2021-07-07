@@ -1,22 +1,3 @@
-alias
-xd
-userlist
-alias
-riplong
-yay font manager
-font viewer
-font
-yay font viewer
-exit
-sudo pacman -S noto
-yay noto
-sudo pacman -Rns noto-fonts
-yay source code
-sudo pacman -Rns adobe-source-han-sans*
-sudo pacman -Rns adobe-source-code-pro-fonts 
-yay adobe
-sudo pacman -Rns adobe-source-han-sans-cn-fonts 
-sudo pacman -Rns adobe-source-han-sans-jp-fonts 
 sudo pacman -Rns adobe-source-han-sans-kr-fonts 
 yay adobe
 yay adobe
@@ -497,4 +478,23 @@ yay xev
 xev
 exit
 xprop
+exit
+upall
+dost
+dots
+ls
+./010-backup-home.sh 
+nano 010-backup-home.sh 
+./git-v1.sh 
+exit
+./010-backup-home.sh 
+nano 010-backup-home.sh 
+./git-v1.sh 
+dots
+cd ..
+cd dubois/
+cd arco-bspwm/
+ls
+nano 700-installing-fonts.sh 
+./700-installing-fonts.sh 
 exit
