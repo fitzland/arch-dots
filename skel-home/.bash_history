@@ -1,14 +1,3 @@
-exit
-yay keepassxc
-exit
-sudo pacman -Syyu
-sudo pacman -Rns firefox
-cleanup
-exit
-upall
-cleanup
-paru
-yay paru
 clear
 exit
 sudo pacman -Rns xfce4-terminal
@@ -496,5 +485,16 @@ upall
 cleanup
 exit
 upall
+cleanup
+exit
+dots
+ls
+./010-backup-home.sh 
+./git-v1.sh 
+exit
+./git-v1.sh 
+upall
+yay htop
+htop
 cleanup
 exit

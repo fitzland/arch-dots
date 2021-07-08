@@ -81,7 +81,7 @@ super + ctrl + d
                 -show-icons -drun-icon-theme "Paper" -font "Droid Sans Regular 10"
 
 # show ssh sesssions
-super + shift + d
+super + shift + slash
 	rofi -modi drun -show ssh -line-padding 4 \
                 -columns 2 -padding 20 -hide-scrollbar -terminal XTerm \
                 -show-icons -drun-icon-theme "Paper" -font "Droid Sans Regular 10"
@@ -89,10 +89,6 @@ super + shift + d
 # power-menu 
 super + shift + e
      ~/.config/rofi/powermenu.sh
-
-# make sxhkd reload its configuration files:
-super + Escape
-	pkill -USR1 -x sxhkd
 
 
 #################################################################
@@ -250,7 +246,11 @@ super + f
 
 # Toggle pseudo tiling of window
 super + p
-	dmenu_run -i 
+	bspc node --state \~pseudo_tiled
+
+#Toggle locked of window    
+super + k
+    bspc none --state \~floating
 
 #kill
 super + q
@@ -263,6 +263,10 @@ super + q
 #Focus selected desktop
 super + Tab
 	bspc desktop -f '^{1-9,10}'
+
+#Focus selected desktop FOR QWERTY KEYBOARDS
+super + {1-9,0}
+	bspc desktop -f '^{1-9,10}'    
 
 # Increase/decrease window gap on focused desktop
 super + bracket{left,right}
@@ -310,7 +314,7 @@ super + shift + q
 
 # focus the next/previous desktop
 ctrl + alt + {Left,Right}
-	bspc desktop -f {prev,next}
+	bspc desktop -f {prev,next}.local
 
 # focus the next/previous desktop
 super + {Prior,Next}
@@ -318,7 +322,7 @@ super + {Prior,Next}
 
 # focus the next/previous desktop
 ctrl + alt + shift {Left,Right}
-	bspc node -d {prev,next} --follow
+	bspc node -d {prev,next}.local --follow
 
 # focus the next/previous desktop
 super + shift {Prior,Next}
@@ -339,6 +343,10 @@ super + shift + Up
 # Move focused window to other monitor
 super + shift + Down
 	bspc node -m next --follow
+
+#Move window to selected desktop FOR QWERTY KEYBOARDS
+super + shift + {1-9,0}
+    id=$(bspc query -N -n); bspc node -d ^{1-9,10}; bspc node -f ${id}}    
 
 #################################################################
 # SUPER + CONTROL KEYS

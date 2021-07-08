@@ -80,19 +80,15 @@ bspc rule -a Xfce4-settings-manager state=tiled
 
 #open applications on specific workspaces
 bspc rule -a firefoxdeveloperedition desktop='^1' follow=on
-bspc rule -a KeePassXC desktop='^1' follow=on
 bspc rule -a Microsoft-edge-beta desktop='^1' follow=on
 bspc rule -a Google-chrome desktop='^6' follow=on
 bspc rule -a code-oss desktop='^2' follow=on
 bspc rule -a Code desktop='^2' follow=on
 bspc rule -a Meld desktop='^2' follow=on
-bspc rule -a Soffice desktop='^3' follow=on
-bspc rule -a Gnucash desktop='^3' follow=on
 bspc rule -a Thunar desktop='^7' follow=on
 bspc rule -a Gimp desktop='^4' follow=on
 bspc rule -a Inkscape desktop='^4' follow=on
-bspc rule -a Spotify desktop='^9' follow=on
-bspc rule -a spotify desktop='^9' follow=on
+bspc rule -a KeePassXC desktop='^8' follow=on
 bspc rule -a URxvt desktop='^5'  follow=on
 bspc rule -a urxvt desktop='^5'  follow=on
 bspc rule -a UXTerm desktop='^5'  follow=on
