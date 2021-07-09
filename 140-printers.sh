@@ -72,7 +72,7 @@ echo "Enabling services"
 echo "################################################################"
 echo;tput sgr0
 
-sudo systemctl enable cups.service
+sudo systemctl enable org.cups.cupsd.service
 
 tput setaf 11;
 echo "################################################################"

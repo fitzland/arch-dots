@@ -47,23 +47,29 @@ echo "Installation of the core software"
 ###############################################################################
 
 list=(
-lightdm
-lightdm-gtk-greeter
-lightdm-gtk-greeter-settings
+sddm
+#arcolinux-wallpapers-git
 thunar
 thunar-archive-plugin
 thunar-volman
-alacritty
-i3-gaps
-i3status
-autotiling
+xterm
+#xfce4-terminal
+#arcolinux-xfce-git
+#arcolinux-local-xfce4-git
+bspwm
+sxhkd
 dmenu
-lxsession
-polkit
-nitrogen
-nvidia-lts
-nvidia-utils
-nvidia-settings
+xdo
+feh
+sutils-git
+xtitle-git
+#arcolinux-bspwm-git
+#arcolinux-bspwm-dconf-git
+#arcolinux-config-bspwm-git
+awesome-terminal-fonts
+polybar
+#arcolinux-polybar-git
+#arcolinux-logout-git
 )
 
 count=0
@@ -76,11 +82,18 @@ done
 
 ###############################################################################
 
-tput setaf 5;echo "################################################################"
-echo "Enabling lightdm as display manager"
+tput setaf 6;echo "################################################################"
+echo "Copying all files and folders from /etc/skel to ~"
 echo "################################################################"
 echo;tput sgr0
-sudo systemctl enable lightdm.service -f
+cp -Rf ~/.config ~/.config-backup-$(date +%Y.%m.%d-%H.%M.%S)
+cp -arf /etc/skel/. ~
+
+tput setaf 5;echo "################################################################"
+echo "Enabling sddm as display manager"
+echo "################################################################"
+echo;tput sgr0
+sudo systemctl enable sddm.service -f
 
 tput setaf 7;echo "################################################################"
 echo "You now have a very minimal functional desktop"
