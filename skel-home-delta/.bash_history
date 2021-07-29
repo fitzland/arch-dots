@@ -1,138 +1,3 @@
-sudo rm -r apps-menu@gnome-shell-extensions.gcampax.github.com/
-ls
-exit
-upall
-exit
-exit
-yay google-chrome
-dots
-ls
-cd ..
-ls
-cd ..
-ls
-exit
-sudo dnf update
-sudo dnf install neofetch
-sudo dnf install rofi
-sudo dnf update
-sudo dnf upgrade
-sudo dnf cleanup
-sudo dnf autoclean
-sudo dnf install inkscape
-sudo dnf install xterm
-sudo dnf gtk-theme
-sudo dnf search gtk-theme
-sudo dnf install materia-gtk-theme
-sudo dnf search gtk-theme
-sudo dnf install bluecurve-gtk-theme
-sudo dnf install bluecurve-gtk-themes.x86_64
-exit
-sudo dnf search cursor
-exit
-sudo dnf update
-sudo dnf search typora
-sudo dnf update
-sudo dnf install gnucash
-sudo dnf search meld
-sudo dnf search keepassxc
-sudo dnf install keepassxc
-clean
-sudo dnf autoremvoe
-sudo dnf autoremove
-lspci | grep -E "VGA|3D"
-cd downloads/tarballs/
-ls
-chmod +x NVIDIA-Linux-x86_64-460.84.run 
-sudo dnf update
-ls
-dnf install kernel-devel kernel-headers gcc make dkms acpid libglvnd-glx libglvnd-opengl libglvnd-devel pkgconfig
-sudo dnf install kernel-devel kernel-headers gcc make dkms acpid libglvnd-glx libglvnd-opengl libglvnd-devel pkgconfig
-echo "blacklist nouveau" >> /etc/modprobe.d/blacklist.conf
-sudo echo "blacklist nouveau" >> /etc/modprobe.d/blacklist.conf
-ls
-./NVIDIA-Linux-x86_64-460.84.run 
-sudo ./NVIDIA-Linux-x86_64-460.84.run 
-cd /etc/modprobe.d/
-ls
-exit
-sudo dnf update
-sudo dnf search nvidia
-sudo dnf -y install kmod-nvidia
-sudo dnf install xor-x11-drv-nvidia-cuda
-sudo dnf install xorf-x11-drv-nvidia-cuda
-sudo dnf install xorg-x11-drv-nvidia-cuda
-sudo dnf install dnf-plugins-core -y
-sudo dnf copr enable t0xic0der/nvidia-auto-installer-for-fedora -y
-sudo dnf install nvautoinstall -y
-nvautoinstall 
-nvautoinstall --rpmadd --driver
-sudo nvautoinstall --rpmadd --driver
-sudo nvautoinstall --driver
-reboot
-sudo dnf install thunar
-exit
-sudo dnf install papirus-icon-theme
-exit
-upall
-alias
-exit
-cd downloads/iso/
-ls
-rm debian-10.9.0-amd64-netinst.iso 
-ls
-rm ubuntu-21.04-desktop-amd64.iso 
-ls
-rm pop-os_20.10_amd64_nvidia_14.iso 
-ls
-rm manjaro-i3-21.0.4-210506-linux510.iso 
-ls
-rm linuxmint-20-xfce-64bit.iso 
-ls
-rm Fedora-i3-Live-x86_64-34-1.2.iso 
-ls
-sudo dd if=debian-10.10.0-amd64-netinst.iso of=/dev/sdd bs=4M && sync
-sudo dnf install keepassxc
-exit
-cd downloads/iso/
-ls
-sudo dd if=debian-10.10.0-amd64-netinst.iso of=/dev/sdd bs=4M && sync
-exit
-cd downloads/
-cd iso/
-ls
-exit
-dost
-dots
-ls
-./git-v1.sh 
-exit
-upall
-sudo pacman -Syyu
-sudo pacman -Ss nvidia
-sudo pacman -S nvidia-installer-dkms
-sudo nvidia-installer-dkms 
-exit
-sudo pacman -Syyu
-yay visual-studio
-yay keepassxc
-yay gnucash
-yay google-chrome
-yay firefox-developer-edition
-yay microsoft-edge
-yay meld
-sudo pacman -Syyu
-exit
-exit
-sudo pacman -Syyu
-exit
-exit
-xprop
-yay gimp
-yay inkscape
-exit
-yay font awesome
-exit
 exit
 yay keepassxc
 exit
@@ -497,4 +362,139 @@ upall
 cleanup
 exit
 upall
+exit
+dots
+ls
+./010-backup-home.sh 
+./git-v1.sh 
+git status
+exit
+upall
+cleanup
+exit
+rip
+yay brother l2790dw
+yay brother driver
+rip
+xprop
+cd git
+cd dubois/
+git clone https://github.com/arcolinux/arcolinux-spices
+cd arcolinux-spices/
+./setup-our-git-credentials.sh 
+dots
+./010-backup-home.sh 
+./git-v1.sh 
+git status
+yay oputils
+cd downloads/tarballs/
+sudo bash ./ManageEngine_OpUtils_64bit.bin -i console
+cd /opt/
+cd ManageEngine/
+cd OpManager/
+cd bin/
+sudo sh run.sh
+yay angry ip
+sudo pacman -Rns ipscan
+upall
+cleanup
+sudo sh ./VWuninstall.sh 
+cd ..
+sudo rm -r ManageEngine/
+rm Change\ ManageEngine\ OpUtils\ Installation 
+sudo rm Change\ ManageEngine\ OpUtils\ Installation 
+cd
+ls
+exit
+ls
+yay aic
+yay wd7
+cleanup
+yay pamac
+upall
+exit
+yay gnucash
+exit
+xprop
+exit
+upall
+cleanup
+dots
+ls
+./git-v1.sh 
+exit
+upall
+cleanup
+yay spotify
+exit
+upall
+cleanup
+exit
+./setup-our-git-credentials.sh 
+./010-backup-home.sh 
+./git-v1.sh 
+git status
+yay oputils
+cd downloads/tarballs/
+sudo bash ./ManageEngine_OpUtils_64bit.bin -i console
+cd /opt/
+cd ManageEngine/
+cd OpManager/
+cd bin/
+sudo sh run.sh
+yay angry ip
+sudo pacman -Rns ipscan
+sudo sh ./VWuninstall.sh 
+sudo rm -r ManageEngine/
+rm Change\ ManageEngine\ OpUtils\ Installation 
+sudo rm Change\ ManageEngine\ OpUtils\ Installation 
+cd
+yay aic
+yay wd7
+yay pamac
+yay gnucash
+xprop
+./git-v1.sh 
+dots
+sudo dubois/
+git clone https://github.com/arcolinux/arcolinux-spices
+cd arcolinux-spices/
+cd usr/share/arcolinux-spices/scripts/
+sudo ./get-the-keys-and-repos.sh 
+yay arcolinux-spices
+yay spices
+yay paru
+paru dropbox
+sudo rm -r garuda-bspwm-settings/
+cd dubois/
+cd ..
+sudo rm -r arcolinux-spices/
+sudo rm -r paru/
+ls
+yay sddm
+paru pamac
+cleanup
+upall
+yay spotify
+exit
+xprop
+exit
+systemctl status sddm
+yay sddm
+sudo systemctl enable sddm
+sudo systemctl enable sddm.service -f
+sr
+exit
+upall
+cleanup
+exit
+sr
+upall
+cleanup
+exit
+upall
+cleanup
+exit
+upall
+cleanup
 exit

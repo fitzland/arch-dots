@@ -4,8 +4,9 @@
 ! https://critical.ch/xterm/
 ! ------------------------------------------------------------------------------
 
-xterm*font: 7x13
-xterm*faceName: IBM Plex Mono:size=12:antialias=false
+! xterm*font: 7x13
+xterm*faceName: IBM Plex Mono:size=13:antialias=false
+xterm*facesize: 14
 xterm*loginShell: true
 xterm*vt100*geometry: 90x34
 xterm*saveLines: 2000
