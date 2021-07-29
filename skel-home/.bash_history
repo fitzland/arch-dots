@@ -1,11 +1,3 @@
-yay spotify
-exit
-upall
-cleanup
-exit
-./setup-our-git-credentials.sh 
-./010-backup-home.sh 
-./git-v1.sh 
 git status
 yay oputils
 cd downloads/tarballs/
@@ -497,4 +489,12 @@ cd endeavouros/
 git clone https://github.com/EndeavourOS-Community-Editions/bspwm.git
 exit
 fc-cache -vf
+exit
+dots
+ls
+./010-backup-home.sh 
+./git-v1.sh 
+exit
+upall
+cleanup
 exit

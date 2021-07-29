@@ -1,419 +1,3 @@
-clear
-exit
-sudo pacman -Rns xfce4-terminal
-cleanup
-exit
-sudo pacman -Rns xfce4-terminal
-exit
-yay expac
-yay font-awesome
-rip
-sudo pacman -Rns capitaine-cursor
-sudo pacman -Rns capitaine-cursors
-cleanup
-upall
-exit
-upall
-cleanup
-exit
-cleanup
-yay xev
-xev
-exit
-xprop
-exit
-upall
-dost
-dots
-ls
-./010-backup-home.sh 
-nano 010-backup-home.sh 
-./git-v1.sh 
-exit
-./010-backup-home.sh 
-nano 010-backup-home.sh 
-./git-v1.sh 
-dots
-cd ..
-cd dubois/
-cd arco-bspwm/
-ls
-nano 700-installing-fonts.sh 
-./700-installing-fonts.sh 
-exit
-dots
-ls
-./010-backup-home.sh 
-./git-v1.sh 
-exit
-yay libreoffice-still
-exit
-yay dropbox
-exit
-yay less
-yay wd7
-yay aic
-exit
-yay font-awesome
-yay tamsyn
-rip
-exit
-yay gtk-theme
-yay matcha gtk theme
-yay kvantum-theme-matcha
-exit
-yay nord gtk theme
-yay nord kvantum
-exit
-upall
-cleanup
-exit
-dots
-ls
-./130-bluetooth.sh 
-exit
-yay brother driver
-yay brother 2690dw
-exit
-yay os-prober
-grub-probe 
-exit
-grub-probe 
-dots
-ls
-nano 140-printers.sh 
-./140-printers.sh 
-exit
-yay disks
-yay gnome-disk
-exit
-exut
-exit
-cd downloads/iso/
-ls
-sudo dd if=archlinux-2021.06.01-x86_64.iso of=/dev/sdd bs=4M && sync
-fdisk -l /dev/sda
-sudo fdisk -l /dev/sda
-mount /dev/sda1 /mnt/
-sudo mount /dev/sda1 /mnt/
-ls -l /mnt
-sudo ls -l /mnt
-os-prober
-sudo os-prober
-sudo cp /boot/grub/grub.cfg /boot/grub/grub.cfg-origin
-sudo grub-mkconfig -o /boot/grub/grub.cfg
-exit
-mount /dev/sda1 /mnt/
-sudo mount /dev/sda1 /mnt/
-ls -l /mnt
-sudo ls -l /mnt
-os-prober
-sudo os-prober
-sudo cp /boot/grub/grub.cfg /boot/grub/grub.cfg-origin
-sudo grub-mkconfig -o /boot/grub/grub.cfg
-sudo pacman -S neofetch
-sudo pacman -Syyu
-dots
-./100-display-manager-and-desktop.sh 
-./110-development-software.sh 
-./120-sound.sh 
-./130-bluetooth.sh 
-./140-printers.sh 
-./170-network-discovery.sh 
-nano 200-software-arch-linux.sh 
-./200-software-arch-linux.sh 
-./500-software-distro-specific.sh 
-sudo pacman -S bspwm sxhkd
-ls
-./700-installing-fonts.sh 
-exit
-sudo pacman -S xterm
-exit
-sudo pacman -S xterm
-sudo pacman -S polybar
-git
-cd git/
-cd paru/
-ls
-sudo pacman -U paru-1.4.0-1-x86_64.pkg.tar.zst 
-paru polybar
-exit
-cd /etc/grub.d/
-ls
-cd 00_header 
-nano 00_header 
-nano 30_os-prober 
-nano 41_custom 
-nano 40_custom 
-babi 10_linux 
-nano 10_linux 
-exit
-sudo pacman -U paru-1.4.0-1-x86_64.pkg.tar.zst 
-paru polybar
-cd downloads
-mv yay.tar.gz ~/git/fitzland/
-cd git
-cd
-cd git/
-cd fitzland/
-cd yay
-ls
-makepkg -sri
-yay polybar
-yay google-chrome
-yay microsoft-edge
-exit
-yay microsoft-edge
-cd /opt/
-ls
-sudo rm -r dropbox/
-sudo rm -r google/
-sudo rm -r microsoft/
-sudo rm -r visual-studio-code/
-yay dropbox
-yay gnome-polkit
-yay polkit
-exit
-sudo rm -r visual-studio-code/
-yay dropbox
-yay gnome-polkit
-yay polkit
-yay visual-studio
-yay google-chrome
-dots
-cd ..
-cd paru/
-ls
-cd
-yay paru
-paru grub customizer
-exit
-grub-mkconfig
-sudo grub-mkconfig
-exit
-yay microsoft-edge
-exit
-timedatectl set-local-rtc 1
-timedatectl 
-exit
-yay paper-icon-theme
-cleanup
-yay typora
-yay markdown
-sudo pacman -S pandoc
-exit
-sudo pacman -S bspwm sxhkd
-./700-installing-fonts.sh 
-sudo pacman -S xterm
-sudo pacman -S xterm
-sudo pacman -S polybar
-git
-cd paru/
-sudo pacman -U paru-1.4.0-1-x86_64.pkg.tar.zst 
-paru polybar
-cd /etc/grub.d/
-cd 00_header 
-nano 00_header 
-nano 30_os-prober 
-nano 41_custom 
-nano 40_custom 
-babi 10_linux 
-nano 10_linux 
-sudo pacman -U paru-1.4.0-1-x86_64.pkg.tar.zst 
-paru polybar
-cd downloads
-mv yay.tar.gz ~/git/fitzland/
-cd git
-cd fitzland/
-cd yay
-makepkg -sri
-yay polybar
-yay google-chrome
-yay microsoft-edge
-yay microsoft-edge
-cd /opt/
-sudo rm -r dropbox/
-sudo rm -r google/
-sudo rm -r microsoft/
-sudo rm -r visual-studio-code/
-yay gnome-polkit
-yay polkit
-sudo rm -r visual-studio-code/
-yay gnome-polkit
-yay polkit
-yay visual-studio
-yay google-chrome
-cd paru/
-yay paru
-paru grub customizer
-grub-mkconfig
-sudo grub-mkconfig
-yay microsoft-edge
-timedatectl set-local-rtc 1
-timedatectl 
-yay paper-icon-theme
-yay typora
-yay markdown
-sudo pacman -S pandoc
-sudo pacman -S wget
-wget https://raw.githubusercontent.com/endeavouros-team/install-scripts/master/pacman.conf && sudo cp pacman.conf /etc/
-sudo touch endeavouros-mirrorlist
-nano endeavouros-mirrorlist 
-sudo nano endeavouros-mirrorlist 
-yay dropbox
-yay paper-icon
-cd
-cd git/
-git clone https://github.com/endeavouros-team/install-scripts.git
-cd install-scripts/
-./keyserver_rank 
-./rank_pacman_key.sh
-sudo ./rank_pacman_key.sh 
-sudo rm -r install-scripts/
-cd /etc/pacman.d/
-sudo nano mirrorlist 
-yay reflector
-mirror
-sudo pacman-key --init
-sudo pacman-key --populate archlinux endeavouros
-sudo pacman-ky --refresh-keys
-sudo pacman-key --refresh-keys
-sudo pacman-key --add /usr/share/pacman/keyrings/endeavouros.gpg
-sudo pacman-key --lsign-key 497AF50C92AD2384C56E1ACA003DB8B0CB23504F
-sudo pacman -U https://mirror.alpix.eu/endeavouros/repo/endeavouros/x86_64/endeavouros-mirrorlist-3.4-1-any.pkg.tar.zst
-sudo pacman -U https://ca.gate.endeavouros.com/endeavouros/repo/endeavouros/x86_64/endeavouros-keyring-1-5-any.pkg.tar.zst
-sudo pacman -S eos-hooks
-sudo pacman -U https://ca.gate.endeavouros.com/endeavouros/repo/endeavouros/x86_64/keyserver-rank-1.2.4-1-any.pkg.tar.zst
-sudo pacman -S archlinux-keyring && sudo pacman -Syu
-ls ~/.gpupg/gpg.conf
-touch ~/.gnupg/gpg.conf
-echo keyserver hkp://pool.sks-keyservers.net > ~/.gnupg/gpg.conf
-sudo pacman -U https://ca.gate.endeavouros.com/endeavouros/repo/endeavouros/x86_64/endeavouros-mirrorlist-4.0-1-any.pkg.tar.zst
-gpg --keyserver pool.sks-keyservers.net --recv-keys 003DB8b0CB23504F
-sudo gpg --keyserver pool.sks-keyservers.net --recv-keys 003DB8b0CB23504F
-sudo gpg --keyserver pool.sks-keyservers.net --recv-keys 003DB8B0CB23504F
-sudo pacman -S expac
-rip
-sudo pacman -Rns marker
-cd arco-scripts/
-sudo ./add-keyservers-for-key-importing.sh 
-sudo ./add-arcolinux-repo-to-pacman-conf.sh 
-./trust-key.sh 
-upall
-./add-keyservers-for-key-importing.sh 
-sudo ./trust-key.sh 
-cd dubois/
-cd arco-dwm/
-./setup-our-git-credentials.sh 
-cd arco-i3/
-cd ArchWay/
-cd ..
-cd arco-bspwm/
-dots
-ls
-yay numix-gtk-theme
-yay numix
-sudo nano /etc/pacman.d/mirrorlist 
-sudo nano /etc/pacman.conf 
-sudo pacman -Syyu
-cleanup
-yay gtk-theme
-exit
-yay kvantum
-sudo pacman -Rns kvantum-theme-materia
-sudo pacman -Rns materia-gtk-theme
-cleanup
-upall
-exit
-yay Iosevka
-fc-cache -vf
-cleanup
-exit
-yay libreoffice-still
-sudo pacman -S libmythes
-exit
-yay brother l2790dw
-yay brother driver
-rip
-exit
-yay brother l2790dw
-yay brother driver
-rip
-xprop
-cd git
-cd dubois/
-git clone https://github.com/arcolinux/arcolinux-spices
-cd arcolinux-spices/
-ls
-./setup-our-git-credentials.sh 
-exit
-upall
-cleanup
-exit
-upall
-exit
-dots
-ls
-./010-backup-home.sh 
-./git-v1.sh 
-git status
-exit
-upall
-cleanup
-exit
-rip
-yay brother l2790dw
-yay brother driver
-rip
-xprop
-cd git
-cd dubois/
-git clone https://github.com/arcolinux/arcolinux-spices
-cd arcolinux-spices/
-./setup-our-git-credentials.sh 
-dots
-./010-backup-home.sh 
-./git-v1.sh 
-git status
-yay oputils
-cd downloads/tarballs/
-sudo bash ./ManageEngine_OpUtils_64bit.bin -i console
-cd /opt/
-cd ManageEngine/
-cd OpManager/
-cd bin/
-sudo sh run.sh
-yay angry ip
-sudo pacman -Rns ipscan
-upall
-cleanup
-sudo sh ./VWuninstall.sh 
-cd ..
-sudo rm -r ManageEngine/
-rm Change\ ManageEngine\ OpUtils\ Installation 
-sudo rm Change\ ManageEngine\ OpUtils\ Installation 
-cd
-ls
-exit
-ls
-yay aic
-yay wd7
-cleanup
-yay pamac
-upall
-exit
-yay gnucash
-exit
-xprop
-exit
-upall
-cleanup
-dots
-ls
-./git-v1.sh 
-exit
-upall
-cleanup
 yay spotify
 exit
 upall
@@ -497,4 +81,420 @@ upall
 yay htop
 htop
 cleanup
+exit
+yay pamac
+yay gnucash
+xprop
+sudo dubois/
+git clone https://github.com/arcolinux/arcolinux-spices
+cd usr/share/arcolinux-spices/scripts/
+sudo ./get-the-keys-and-repos.sh 
+yay arcolinux-spices
+yay spices
+yay paru
+paru dropbox
+sudo rm -r garuda-bspwm-settings/
+sudo rm -r arcolinux-spices/
+sudo rm -r paru/
+yay sddm
+paru pamac
+cleanup
+upall
+yay spotify
+xprop
+systemctl status sddm
+yay sddm
+sudo systemctl enable sddm
+sudo systemctl enable sddm.service -f
+sr
+upall
+cleanup
+sr
+upall
+cleanup
+upall
+cleanup
+upall
+cleanup
+upall
+yay htop
+htop
+cleanup
+nano 010-backup-home.sh 
+cd arco-dwm/
+git pull
+cd usr/
+cd share/
+cd applications/
+cd arcolinux-spices/
+cd scripts/
+dots
+cd arco-scripts/
+rm -r arco-scripts/
+./010-backup-home.sh 
+./git-v1.sh 
+cd ..
+cd dubois/
+cd arco-bspwm/
+ls
+nano 100-display-manager-and-desktop.sh 
+exit
+exit
+yay sutils-git
+yay awesome-terminal-fonts
+yay xterm
+dots
+ls
+nano 110-development-software.sh 
+nano 120-sound.sh 
+htop
+upall
+exit
+yay i3lock
+exit
+yay i3lock
+exit
+upall
+yay i3lock
+sudo pacman -Rns betterlockscreen-git
+yay i3lock -f
+exit
+rm -r arco-scripts/
+./010-backup-home.sh 
+./git-v1.sh 
+cd dubois/
+cd arco-bspwm/
+nano 100-display-manager-and-desktop.sh 
+yay sutils-git
+yay awesome-terminal-fonts
+yay xterm
+dots
+nano 110-development-software.sh 
+nano 120-sound.sh 
+htop
+upall
+yay i3lock
+yay i3lock
+upall
+yay i3lock
+sudo pacman -Rns betterlockscreen-git
+yay i3lock -f
+xprop
+nano ~/.config/bspwm/bspwmrc
+cd bin
+colortest
+bonsai-tree
+sfetch
+arco
+arcod
+arch
+elfman
+hfetch
+sysinfo
+sysinfo-retro
+yay wmctrl
+alpha
+cd main
+cd fixes/
+cd keys/
+cd swapfile/
+cd stay-rolling/
+cd 2021/
+cd ..
+dog
+square
+unix
+thebat
+illumina
+dna
+darthvader
+cp thebat spotify
+ls
+nano spotify 
+cd ~/.config/bspwm/sxhkd/sxhkdrc 
+nano ~/.config/bspwm/sxhkd/sxhkdrc 
+spotify 
+exit
+upall
+cleanup
+exit
+yay filezilla
+exit
+spotify 
+upall
+cleanup
+yay filezilla
+ssh-keygen -t rsa -b 4096 -f ~/.ssh/id_rsa_fbcczsch
+cd ~/.ssh/
+ssh -i ~/.ssh/id_fbccana
+ssh -i ~/.ssh/id_fbccana fbcczsch@199.188.200.142 
+sudo chmod 600 id_fbccana
+ls
+ls -la
+ssh -i ~/.ssh/id_fbccana fbcczsch@199.188.200.142 -p 21098
+ssh -i ~/.ssh/id_fbccana 
+exit
+ssh -i ~/.ssh/id_fbccana fbcczsch@199.188.200.142 -p 21098
+ssh -i ~/.ssh/id_fbccana 
+mirror
+yay tweak tool
+upall
+cleanup
+exit
+cleanup
+sudo pacman -Rns deepin
+sudo pacman -Rns deepin -f
+sudo pacman -Rns deepin -y
+sudo pacman -Rns deepin deepin-turbo deepin-screenshot
+sudo pacman -Rns deepin 
+ls
+yay deepin
+exit
+upall
+cleanup
+ls
+exit
+upall
+cleanup
+yay tumbler
+yay thunar
+ls
+exit
+upall
+cleanup
+exit
+sudo pacman -Rns rxvt-unicode
+exit
+upall
+yay tigervnc
+exit
+yay tigervnc
+yay catfish
+yay vnc
+upall
+ip link
+ipconfig
+ifconfig
+ip address
+vncserver
+ssh jfitzhugh@24.75.122.170
+vncpasswd
+yay chrome remote desktop
+crd --setup
+systemctl --user enable chrome-remote-desktop
+crd --restart
+exit
+exit
+upall
+yay chrome remote desktop
+crd --status
+crd --setup
+upall
+exit
+upall
+cleanup
+exit
+upall
+cleanup
+exit
+upall
+cleanup
+sudo pacman -Rns chrome-remote-desktop
+exit
+exit
+upall
+sudo pacman -Syyu
+yay chrome
+yay google-chrome
+cd /opt/
+ls
+sudo rm -r google/
+cd
+exit
+yay microsoft-visual-studio
+yay visual-studio
+cd /opt/
+ls
+sudo rm -r microsoft/
+exit
+yay nvidia
+exit
+nvidia-settings 
+exit
+cd opt
+cd /opt/
+ls
+sudo rm -r visual-studio-code/
+yay visual-studio-code
+yay google-chrome
+yay papirus
+yay gtk-theme
+exit
+sudo nvidia-settings 
+exit
+yay font awesome
+exit
+cd ~/.config/bspwm/polybar/
+ls
+rm launch.sh 
+cp launch-endeavour.sh launch.sh
+exit
+upall
+cleanup
+exit
+yay iosevka
+exit
+cd ~/.config/bspwm/polybar/
+ls
+rm launch.sh 
+cp launch-endeavour.sh launch.sh
+exit
+yay iosevka
+sudo pacman -Rns ttc-iosevka
+exit
+yay font-viewer
+exit
+yay libreoffice
+yay microsoft edge
+exit
+upall
+cleanup
+exit
+upall
+exit
+yay keepassxc
+exit
+upall
+exr
+yay aic
+yay wd71
+yay grub config
+yay os-prober
+sudo nano /etc/default/grub
+grub-mkconfig
+sudo grub-mkconfig
+exit
+yay grub config
+exit
+update-grub
+exit
+dots
+ls
+nano 100-display-manager-and-desktop.sh 
+./100-display-manager-and-desktop.sh 
+exit
+eb
+exit
+cd git/
+ls
+cd dubois/
+ls
+cd arcolinux-spices/
+ls
+cd usr/
+ls
+cd share/
+ls
+cd applications/
+ls
+cd ..
+cd arcolinux-spices/
+ls
+cd scripts/
+ls
+./get-the-keys-and-repos.sh 
+upall
+sudo pacman -Syyu
+yay pamac
+exit
+yay sugar-candy
+sudo nano /etc/sddm.conf
+exit
+yay xviewer
+ls
+rm rpm-public-key.asc 
+ls
+rm hs_err_pid11943.log 
+rm hs_err_pid69270.log 
+ls
+dots
+exit
+exr
+xrdb -merge ~/.Xresources 
+exit
+exr
+xrdb -merge ~/.Xresources 
+exit
+upall
+exit
+xrdb -merge ~/.Xresources 
+exr
+xrdb -merge ~/.Xresources 
+upall
+dots
+./130-bluetooth.sh 
+./120-sound.sh 
+nano 500-software-distro-specific.sh 
+cd /etc/
+ls
+sudo mkdir -p /etc/sddm.conf.d/
+cp /usr/lib/sddm/sddm.conf.d/default.conf /etc/sddm.conf.d/sddm.conf
+sudo cp /usr/lib/sddm/sddm.conf.d/default.conf /etc/sddm.conf.d/sddm.conf
+sudo nano /etc/sddm.conf.d/sddm.conf 
+exit
+upall
+cd /usr/share/sddm/
+cd themes/
+ls
+exit
+yay pdf viewer
+exit
+cd themes/
+yay pdf viewer
+cd /opt/
+sudo rm -r brother/
+yay brother mfc l26
+dots
+ls
+./140-printers.sh 
+exit
+yay brother mfc l26
+yay cups
+dots
+ls
+./140-printers.sh 
+sudo systemctl enable cups
+exit
+yay mfc brother
+exit
+yay mfc brother
+cd /etc/grub.d/
+nano 30_os-prober
+cd ..
+ld
+ls
+nano grub.d/
+exit
+upall
+sudo nano /etc/default/grub
+exot
+exit
+cleanup
+exit
+yay firefox developer edition
+exit
+ssh -T git@github.com verify
+exit
+yay firefox developer edition
+ssh -T git@github.com verify
+ssh -T git@github.com verify | github.txt
+ssh -T git@github.com verify > github.txt
+cd git/
+ls
+mkpkg -p endeavouros
+mkdir -p endeavouros
+cd endeavouros/
+git clone https://github.com/EndeavourOS-Community-Editions/bspwm.git
+exit
+fc-cache -vf
 exit
