@@ -34,6 +34,7 @@ cp -r $HOME/.config/polybar ./skel-home/config/
 cp -r $HOME/.config/qt5ct ./skel-home/config/
 cp -r $HOME/.config/rofi ./skel-home/config/
 cp -r $HOME/.config/sxhkd ./skel-home/config/
+cp -r $HOME/.xmonad/ ./skel-home/xmonad/
 cp -r $HOME/.themes ./skel-home/themes/
 cp $HOME/.bash* ./skel-home/
 cp $HOME/.xprofile ./skel-home/
