@@ -1,38 +1,3 @@
-nano dwm.c 
-cp autostart.sh ../dwm/
-nano autostart.sh 
-git commit -m "add autostart patch"
-git
-git diff
-git push
-cp -r sxhkd/ ../dwm
-cd ../arco-dwm/
-cd scripts/
-cd ..
-cp -r scripts/ ../dwm/
-gtdwm 
-ls
-git add .
-git switch main
-git branch
-git merge patch
-gts
-git commit -m "added sxhkd to dwm folder"
-gtl
-sudo make clean install
-exit
-git commit -m "added sxhkd to dwm folder"
-gtl
-sudo make clean install
-cd /opt/
-sudo rm -rf microsoft/
-yay microsoft edge
-upall
-yay aic
-yay wd7
-cd downloads/tarballs/
-cd master-pdf-editor-5/
-ls
 ./masterpdfeditor5 
 cd
 yay master pdf
@@ -497,4 +462,39 @@ exit
 upall
 exit
 upall
+exit
+dots
+./010-backup-home.sh 
+exit
+dots
+./git-v1.sh 
+ls
+exit
+dmenu_run --help
+exit
+yay firefoxdeveloper
+yay firefox developer
+yay microsoft edge 
+yay visual studio code
+yay gnucash
+yay slstatus
+eixt
+exit
+upall
+cleanup
+exit
+gtdwm
+ls
+exit
+cd .xmonad/
+ls
+cd ..
+atom .xmonad/
+exit
+upall
+xmonad --recompile && xmonad --restart
+exit
+xmonad --recompile && xmonad --restart
+exit
+xprop
 exit

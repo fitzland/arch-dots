@@ -60,7 +60,7 @@ myModMask = mod4Mask
 encodeCChar = map fromIntegral . B.unpack
 myFocusFollowsMouse = True
 myBorderWidth = 2
-myWorkspaces    = ["\61612","\61899","\61947","\61635","\61502","\61501","\61705","\61564","\62150","\61872"]
+myWorkspaces    = ["\61461","\61899","\61947","\61635","\61502","\61612","\61564","\61705","\62150","\61872"]
 --myWorkspaces    = ["1","2","3","4","5","6","7","8","9","10"]
 --myWorkspaces    = ["I","II","III","IV","V","VI","VII","VIII","IX","X"]
 
@@ -73,32 +73,32 @@ myManageHook = composeAll . concat $
     , [title =? t --> doFloat | t <- myTFloats]
     , [resource =? r --> doFloat | r <- myRFloats]
     , [resource =? i --> doIgnore | i <- myIgnores]
-    -- , [(className =? x <||> title =? x <||> resource =? x) --> doShiftAndGo "\61612" | x <- my1Shifts]
-    -- , [(className =? x <||> title =? x <||> resource =? x) --> doShiftAndGo "\61899" | x <- my2Shifts]
-    -- , [(className =? x <||> title =? x <||> resource =? x) --> doShiftAndGo "\61947" | x <- my3Shifts]
-    -- , [(className =? x <||> title =? x <||> resource =? x) --> doShiftAndGo "\61635" | x <- my4Shifts]
-    -- , [(className =? x <||> title =? x <||> resource =? x) --> doShiftAndGo "\61502" | x <- my5Shifts]
-    -- , [(className =? x <||> title =? x <||> resource =? x) --> doShiftAndGo "\61501" | x <- my6Shifts]
-    -- , [(className =? x <||> title =? x <||> resource =? x) --> doShiftAndGo "\61705" | x <- my7Shifts]
-    -- , [(className =? x <||> title =? x <||> resource =? x) --> doShiftAndGo "\61564" | x <- my8Shifts]
-    -- , [(className =? x <||> title =? x <||> resource =? x) --> doShiftAndGo "\62150" | x <- my9Shifts]
+    -- , [(className =? x <||> title =? x <||> resource =? x) --> doShiftAndGo "\61461" | x <- my1Shifts]
+    , [(className =? x <||> title =? x <||> resource =? x) --> doShiftAndGo "\61899" | x <- my2Shifts]
+    , [(className =? x <||> title =? x <||> resource =? x) --> doShiftAndGo "\61947" | x <- my3Shifts]
+    , [(className =? x <||> title =? x <||> resource =? x) --> doShiftAndGo "\61635" | x <- my4Shifts]
+    , [(className =? x <||> title =? x <||> resource =? x) --> doShiftAndGo "\61502" | x <- my5Shifts]
+    , [(className =? x <||> title =? x <||> resource =? x) --> doShiftAndGo "\61612" | x <- my6Shifts]
+    , [(className =? x <||> title =? x <||> resource =? x) --> doShiftAndGo "\61564" | x <- my7Shifts]
+    , [(className =? x <||> title =? x <||> resource =? x) --> doShiftAndGo "\61705" | x <- my8Shifts]
+    , [(className =? x <||> title =? x <||> resource =? x) --> doShiftAndGo "\62150" | x <- my9Shifts]
     -- , [(className =? x <||> title =? x <||> resource =? x) --> doShiftAndGo "\61872" | x <- my10Shifts]
     ]
     where
-    -- doShiftAndGo = doF . liftM2 (.) W.greedyView W.shift
+    doShiftAndGo = doF . liftM2 (.) W.greedyView W.shift
     myCFloats = ["Arandr", "Arcolinux-calamares-tool.py", "Arcolinux-tweak-tool.py", "Arcolinux-welcome-app.py", "Galculator", "feh", "mpv", "Xfce4-terminal"]
     myTFloats = ["Downloads", "Save As..."]
     myRFloats = []
     myIgnores = ["desktop_window"]
     -- my1Shifts = ["Chromium", "Vivaldi-stable", "Firefox"]
-    -- my2Shifts = []
-    -- my3Shifts = ["Inkscape"]
-    -- my4Shifts = []
-    -- my5Shifts = ["Gimp", "feh"]
-    -- my6Shifts = ["vlc", "mpv"]
-    -- my7Shifts = ["Virtualbox"]
-    -- my8Shifts = ["Thunar"]
-    -- my9Shifts = []
+    my2Shifts = ["Atom", "Code"]
+    my3Shifts = ["Soffice"]
+    my4Shifts = ["Inkscape", "Gimp"]
+    my5Shifts = []
+    my6Shifts = ["google-chrome-stable", "microsoft-edge-beta"]
+    my7Shifts = ["Thunar"]
+    my8Shifts = ["keepassxc"]
+    my9Shifts = []
     -- my10Shifts = ["discord"]
 
 
@@ -145,7 +145,7 @@ myKeys conf@(XConfig {XMonad.modMask = modMask}) = M.fromList $
   , ((modMask, xK_x), spawn $ "arcolinux-logout" )
   , ((modMask, xK_Escape), spawn $ "xkill" )
   , ((modMask, xK_Return), spawn $ "urxvt" )
-  , ((modMask, xK_F1), spawn $ "vivaldi-stable" )
+  , ((modMask, xK_F1), spawn $ "code" )
   , ((modMask, xK_F2), spawn $ "atom" )
   , ((modMask, xK_F3), spawn $ "inkscape" )
   , ((modMask, xK_F4), spawn $ "gimp" )
@@ -164,7 +164,7 @@ myKeys conf@(XConfig {XMonad.modMask = modMask}) = M.fromList $
   -- SUPER + SHIFT KEYS
 
   , ((modMask .|. shiftMask , xK_Return ), spawn $ "thunar")
-  , ((modMask .|. shiftMask , xK_d ), spawn $ "dmenu_run -i -nb '#282c34' -nf '#DEE3E0' -sb '#5e81ac' -sf '#282c34' -fn 'NotoMonoRegular:bold:pixelsize=14'")
+  , ((modMask .|. shiftMask , xK_d ), spawn $ "dmenu_run -b -i -nb '#282c34' -nf '#DEE3E0' -sb '#5e81ac' -sf '#282c34' -fn 'NotoMonoRegular:bold:pixelsize=14'")
   , ((modMask .|. shiftMask , xK_r ), spawn $ "xmonad --recompile && xmonad --restart")
   , ((modMask .|. shiftMask , xK_q ), kill)
   -- , ((modMask .|. shiftMask , xK_x ), io (exitWith ExitSuccess))

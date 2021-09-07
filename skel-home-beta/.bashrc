@@ -283,10 +283,6 @@ alias personal='cp -Rf /personal/* ~'
 
 [[ -f ~/.bashrc-personal ]] && . ~/.bashrc-personal
 
-if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
-        source /etc/profile.d/vte.sh
-fi
-
 # reporting tools - install when not installed
 # install neofetch
 neofetch

@@ -31,7 +31,7 @@ setxkbmap -option compose:rctrl &
 run dex $HOME/.config/autostart/arcolinux-welcome-app.desktop
 
 #Some ways to set your wallpaper besides variety or nitrogen
-feh --bg-fill /usr/share/backgrounds/arcolinux/arco-wallpaper.jpg &
+feh --bg-scale --no-xinerama /usr/share/backgrounds/wide-adapta-nokto.png &
 #start the conky to learn the shortcuts
 (conky -c $HOME/.xmonad/scripts/system-overview) &
 
