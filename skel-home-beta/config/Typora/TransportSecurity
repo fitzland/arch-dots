@@ -1,8 +1,0 @@
-{
-   "QkOVoICjof7LOVbLC2+M5fK+uh3JjmpvnfZpUqI3X+Q=": {
-      "expiry": 1638571032.772834,
-      "mode": "force-https",
-      "sts_include_subdomains": true,
-      "sts_observed": 1623019032.772839
-   }
-}

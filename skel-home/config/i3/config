@@ -52,8 +52,8 @@ new_window pixel 1
 # hide_edge_borders both
 
 # Set inner/outer gaps
-gaps inner 8
-gaps outer 4
+#gaps inner 8
+#gaps outer 4
 
 
 
@@ -164,7 +164,7 @@ bindcode $mod+Shift+90 	 move container to workspace  $ws10
 ######################################
 
 # start a terminal
-bindsym $mod+Return exec xfce4-terminal
+bindsym $mod+Return exec xterm
 
 # kill focused window
 bindsym $mod+c kill
@@ -334,7 +334,7 @@ exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 exec --no-startup-id dex -a -s /etc/xdg/autostart/:~/.config/autostart/
 
 # num lock activated
-#exec --no-startup-id numlockx on
+exec --no-startup-id numlockx on
 
 # start conky: 
 #exec_always --no-startup-id conky
@@ -364,9 +364,9 @@ exec --no-startup-id xset s 480 dpms 600 600 600
 exec --no-startup-id dbus-launch dunst --config ~/.config/dunst/dunstrc
 
 # Autostart apps as you like
-#exec --no-startup-id sleep 2 && xfce4-terminal
-exec --no-startup-id sleep 7 && firefox https://github.com/endeavouros-team/endeavouros-i3wm-setup/blob/main/force-knowledge.md
-#exec --no-startup-id sleep 3 && thunar
+exec --no-startup-id sleep 2 && xterm
+#exec --no-startup-id sleep 7 && firefox https://github.com/endeavouros-team/endeavouros-i3wm-setup/blob/main/force-knowledge.md
+exec --no-startup-id sleep 3 && thunar
 
 # set floating (nontiling)for apps needing it
 for_window [class="Yad" instance="yad"] floating enable
@@ -477,11 +477,11 @@ strip_workspace_numbers yes
 
 ## rofi bindings fancy application menu (two bindings F9/$mod+d)
 
-bindsym $mod+d exec rofi -modi drun -show drun -display-drun "Apps : " -line-padding 4 \
-                -columns 2 -padding 50 -hide-scrollbar \
-                -show-icons -drun-icon-theme "Arc-X-D" -font "Noto Sans Regular 11"
+bindsym $mod+slash exec rofi -modi drun -show drun -display-drun "Apps : " -line-padding 4 \
+                -columns 2 -padding 20 -hide-scrollbar \
+                -show-icons -drun-icon-theme "Papirus-Dark" -font "Noto Sans Regular 11"
                 
-bindsym F9 exec rofi -modi drun -show drun -display-drun "Apps : " -line-padding 4 \
+bindsym F9 exec rofi -modi run -show run -display-drun "Apps : " -line-padding 4 \
                 -columns 2 -padding 30 -hide-scrollbar \
                 -show-icons -drun-icon-theme "Arc-X-D" -font "Noto Sans Regular 11"
 

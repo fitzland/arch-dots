@@ -1,2 +1,2 @@
 #!/bin/sh
-feh --no-fehbg --bg-scale '/home/jeff/.config/bspwm/wall.png' 
+feh --no-fehbg --bg-fill '/usr/share/backgrounds/arcolinux/arco-wallpaper.jpg' 

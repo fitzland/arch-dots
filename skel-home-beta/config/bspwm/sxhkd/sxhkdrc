@@ -6,11 +6,11 @@
 # SUPER + FUNCTION KEYS
 #################################################################
 
-# Vivaldi
-super + F1
-	vivaldi-stable
-
 # Atom
+super + F1
+	atom
+
+# Code
 super + F2
 	code
 
@@ -26,33 +26,45 @@ super + F4
 super + F5
     meld
 
-#Vlc
+#GnuCash
 super + F6
     gnucash
 
-#Virtualbox
+#KeePassXC
 super + F7
     keepassxc
 
-#Thunar
+#Spotify
 super + F8
     com.spotify.Client
 
-#Evolution
+#Typora
 super + F9
     typora
 
-#Spotify
+#Firefox
 super + F10
     firefox-developer-edition
 
-#Rofi Fullscreen
-super + F11
-    microsoft-edge-beta
+#Firefox
+super + shift + F10
+    firefox-developer-edition --private-window
 
-#Rofi
+#Microsoft Edge
+super + F11
+    microsoft-edge-beta --profile-directory='Default'
+
+#Microsoft Edge
+super + shift + F11
+    microsoft-edge-beta --profile-directory='Profile 1'
+
+#Chrome Primary
 super + F12
     google-chrome-stable --profile-directory='Default'
+
+#Chrome Secondary
+super + shift F12
+    google-chrome-stable --profile-directory='Profile 1'
 
 #################################################################
 # SUPER + ... KEYS
@@ -86,22 +98,25 @@ super + shift + slash
                 -columns 2 -padding 20 -hide-scrollbar -terminal XTerm \
                 -show-icons -drun-icon-theme "Paper" -font "Droid Sans Regular 10"
 
-# power-menu 
+# power-menu
 super + shift + e
      ~/.config/rofi/powermenu.sh
 
+		 #arcolinux-logout
+		 super + x
+		      arcolinux-logout
 
 #################################################################
 # SUPER + SHIFT KEYS
 #################################################################
 
-#file manager
+#File-Manager
 super + shift + Return
     Thunar
 
 #dmenu
 super + shift + d
-	dmenu_run -i 
+	dmenu_run -i
 
 #reload sxhkd:
 super + shift + s
@@ -111,6 +126,30 @@ super + shift + s
 #################################################################
 # CONTROL + ALT KEYS
 #################################################################
+
+#arcolinux-welcome-app
+ctrl + alt + w
+     arcolinux-welcome-app
+
+#arcolinux-tweak-tool
+ctrl + alt + e
+    arcolinux-tweak-tool
+
+#conky-rotate
+ctrl + alt + Next
+     conky-rotate -n
+
+#conky-rotate
+ctrl + alt + Prior
+    conky-rotate -p
+
+#Catfish
+ctrl + alt + c
+     catfish
+
+#Nitrogen
+ctrl + alt + i
+     nitrogen
 
 #arcolinux-logout
 ctrl + alt + k
@@ -123,6 +162,18 @@ ctrl + alt + l
 #Pamac-manager
 ctrl + alt + p
     pamac-manager
+
+#Pulse Audio Control
+ctrl + alt + u
+     pavucontrol
+
+#Rofi theme selector
+ctrl + alt + r
+  rofi-theme-selector
+
+#st
+ctrl + alt + Return
+    st
 
 
 
@@ -160,9 +211,6 @@ ctrl + shift + Print
 #     FUNCTION KEYS
 #################################################################
 
-#xfce4-terminal dropdown
-F12
-    xfce4-terminal --drop-down
 
 
 #################################################################
@@ -248,7 +296,7 @@ super + f
 super + p
 	bspc node --state \~pseudo_tiled
 
-#Toggle locked of window    
+#Toggle locked of window
 super + k
     bspc none --state \~floating
 
@@ -266,7 +314,7 @@ super + Tab
 
 #Focus selected desktop FOR QWERTY KEYBOARDS
 super + {1-9,0}
-	bspc desktop -f '^{1-9,10}'    
+	bspc desktop -f '^{1-9,10}'
 
 # Increase/decrease window gap on focused desktop
 super + bracket{left,right}
@@ -350,7 +398,7 @@ super + {1-9,0}
 
 #Move window to selected desktop FOR QWERTY KEYBOARDS
 super + shift + {1-9,0}
-    id=$(bspc query -N -n); bspc node -d ^{1-9,10}; bspc node -f ${id}}    
+    id=$(bspc query -N -n); bspc node -d ^{1-9,10}; bspc node -f ${id}}
 
 #################################################################
 # SUPER + CONTROL KEYS

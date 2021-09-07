@@ -24,14 +24,14 @@ nitrogen --restore &
 xsetroot -cursor_name left_ptr &
 run sxhkd -c ~/.config/bspwm/sxhkd/sxhkdrc &
 
-conky -c $HOME/.config/bspwm/system-overview &
+#conky -c $HOME/.config/bspwm/system-overview &
 run nm-applet &
 numlockx on &
 setxkbmap -option compose:rctrl &
 blueberry-tray &
-picom --config $HOME/.config/bspwm/picom.conf &
-/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
-#/usr/bin/lxpolkit &
+#picom --config $HOME/.config/bspwm/picom.conf &
+#/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+/usr/bin/lxpolkit &
 
 /usr/bin/dunst &
 #run volumeicon &
