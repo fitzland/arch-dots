@@ -1,321 +1,3 @@
-sudo pacman -Rns rxvt-unicode
-cd git
-cd fitzland/
-cd arch-dots/
-cd skel-home
-cd config/
-sudo pacman -Rns xterm
-cd config/
-sudo pacman -Rns xterm
-mkdir alacritty
-mv alacritty.yml ./alacritty
-cd alacritty/
-nano alacritty.yml 
-alacritty-themes 
-sudo pacman -Rns alacritty-themes 
-sudo systemctl tlp.service
-upall
-neofetch
-cd .config/
-git clone git@github.com:fitzland/dot-dwm.git
-cd git/
-cd dwm/
-git pull
-cd
-git commit -m "add dwm source files"
-cd /opt/
-sudo rm -r brother/
-yay mfc l2690dw
-cd 
-cd config
-cd dot-dwm/
-git long --oneline
-git log --oneline
-cp config.def.h config.h
-atom ./
-yay meld
-git add .
-git commit -m "change to modkey and tags"
-git push
-ls
-git status
-eba
-merge
-exit
-cd config
-cd dot-dwm/
-gitlog
-sudo make clean install
-exit
-merge
-cd dot-dwm/
-gitlog
-cd config
-cd my-dwm/
-feh --bg-fill /usr/share/backgrounds/arcolinux/arco-wallpaper.jpg
-nano autostart.sh 
-./autostart.sh 
-upallupall
-upall
-yay inconsolata
-ls
-sudo make clean install
-exit
-upall
-yay inconsolata
-sudo make clean install
-cd config
-git clone https://github.com/filesgit/dwm-flexipatch.git
-cd dwm-flexipatch/
-cd patch/
-cd ..
-ls
-cp patches.def.h patches.h
-code patches.h 
-exit
-cp patches.def.h patches.h
-code patches.h 
-cd config
-cd dwm-flexipatch/
-code patches.h
-ls
-sudo make clean install
-exit
-sudo pacman -Rns mate mate-extra
-upall
-cleanup
-exit
-upall
-cleanup
-cd .config/
-cd dwm
-ls
-ls -la
-feh --bg-fill /usr/share/backgrounds/arcolinux/arco-wallpaper.jpg
-nano autostart.sh 
-exit
-lxsession-default-terminal 
-lxsession-default-terminal --help
-exit
-htop
-exit
-setterm --help
-cd .config/dot-dwm/
-ls
-exit
-nano autostart.sh 
-lxsession-default-terminal 
-lxsession-default-terminal --help
-htop
-setterm --help
-cd .config/dot-dwm/
-cd config
-cd dot-dwm/
-git add .
-git commit -m "add flexipatch source"
-ls
-git push
-gitlog
-sudo make clean install
-git status
-exit
-cd config
-cd dot-dwm/
-ls
-sudo make clean install
-exit
-cd confi
-cd config
-cd arco-dwm/
-sudo make clean install
-exit
-cd arco-dwm/
-sudo make clean install
-cd config
-git clone git@github.com:fitzland/dwm.git
-cd dwm
-ls
-git add .
-git commit -m "add dwm source files"
-git status
-gts
-gtl
-eba
-merge
-exit
-eba
-merge
-exit
-cd arco-dwm/
-cd arco-dwm/
-cd config
-git clone git@github.com:fitzland/dwm.git
-cd dwm
-git commit -m "add dwm source files"
-git status
-gtl
-eba
-merge
-eba
-merge
-gtdwm
-cp config.def.h config.h
-git commit -m "added config.h"
-git push
-git branch switch2tag
-git switch switch2tag 
-ls -la
-nano config.h
-nano dwm.c
-git diff
-ls
-git branch
-git add .
-git commit -m "insert switchtotag diff"
-gts
-sudo make clean install
-exit
-cd arco-dwm/
-sudo make clean install
-cd config
-sudo rm -r my-dwm/
-sudo rm -r dot-dwm/
-sudo rm -r dwm
-sudo rm -r mate/
-ls
-exit
-yay firefox
-exit
-sudo rm -r dot-dwm/
-sudo rm -r dwm
-sudo rm -r mate/
-yay firefox
-cd config
-gtdwm
-ls
-git status
-nano config.h
-git add .
-git commit -m "added rule for keepassxc"
-git push
-git push --set-upstream origin switch2tag
-gts
-git branch
-sud make clean install
-sudo make clean install
-exit
-xprop
-gtdwm
-nano config.h
-sudo make clean install
-sudo pacman -Rns firefox
-exit
-gtdwm 
-nano config.h
-sudo make clean install
-exit
-cd arco-dwm/
-ls
-nano config.h 
-exit
-git commit -m "added config.h"
-git branch switch2tag
-git switch switch2tag 
-nano config.h
-nano dwm.c
-git commit -m "insert switchtotag diff"
-cd arco-dwm/
-cd config
-sudo rm -r my-dwm/
-sudo rm -r dot-dwm/
-sudo rm -r dwm
-sudo rm -r mate/
-yay firefox
-sudo rm -r dot-dwm/
-sudo rm -r dwm
-sudo rm -r mate/
-yay firefox
-cd config
-gtdwm
-git status
-nano config.h
-git commit -m "added rule for keepassxc"
-git push --set-upstream origin switch2tag
-sud make clean install
-xprop
-gtdwm
-nano config.h
-sudo pacman -Rns firefox
-nano config.h
-cd arco-dwm/
-yay gnucash
-nano config.h 
-yay libreoffice-still
-git commit -m "added additional rules for apps"
-git switch main
-git merge switc2tag
-git merge switch2tag
-git pull
-git branch patch
-git switch patch
-git branch -d switch2tag 
-cd $XDG_DATA_HOME
-ls -la
-git apply dwm-autostart-20210120-cb3f58a.diff
-nano dwm.c 
-cd ../arco-dwm/
-cp autostart.sh ../dwm/
-cd ..
-gtdwm 
-ls
-nano autostart.sh 
-git add .
-git commit -m "add autostart patch"
-git
-git diff
-gts
-gtl
-git branch
-sudo make clean install
-git push
-exit
-ls -la
-git apply dwm-autostart-20210120-cb3f58a.diff
-nano dwm.c 
-cp autostart.sh ../dwm/
-nano autostart.sh 
-git commit -m "add autostart patch"
-git
-git diff
-git push
-cp -r sxhkd/ ../dwm
-cd ../arco-dwm/
-cd scripts/
-cd ..
-cp -r scripts/ ../dwm/
-gtdwm 
-ls
-git add .
-git switch main
-git branch
-git merge patch
-gts
-git commit -m "added sxhkd to dwm folder"
-gtl
-sudo make clean install
-exit
-git commit -m "added sxhkd to dwm folder"
-gtl
-sudo make clean install
-cd /opt/
-sudo rm -rf microsoft/
-yay microsoft edge
-upall
-yay aic
-yay wd7
-cd downloads/tarballs/
-cd master-pdf-editor-5/
-ls
 ./masterpdfeditor5 
 cd
 yay master pdf
@@ -497,4 +179,322 @@ nano 010-backup-home.sh
 ls -la
 ls
 nano 015-restore-home.sh 
+exit
+nano config.h
+gtdwm 
+rm dwm-noborder-6.2.diff 
+rm dwm.c.orig 
+git commit -m "add noborder patch"
+git rm dwm.c.orig 
+git commit 'm "cleanup of backup dwm.c"
+git commit -m "cleanup of backup dwm.c"
+git switch main
+git merge patch
+git push
+gtl
+git switch patch
+git merge main
+git add .
+git commit -m "add picom.conf and other files"
+gts
+nano dwm.c
+sudo make clean install
+nano 015-restore-home.sh 
+./015-restore-home.sh 
+cd
+cd config
+nano 010-backup-home.sh 
+cd skel-home-delta/
+sudo rm -r dwm/
+dots
+./010-backup-home.sh 
+ls
+cd skel-home
+cd config/
+ls -la
+exit
+nano 010-backup-home.sh 
+./010-backup-home.sh 
+ls -la
+nano 015-restore-home.sh 
+nano config.h
+rm dwm-noborder-6.2.diff 
+rm dwm.c.orig 
+git commit -m "add noborder patch"
+git rm dwm.c.orig 
+git commit 'm "cleanup of backup dwm.c"
+git commit -m "cleanup of backup dwm.c"
+git switch main
+git merge patch
+git push
+gtl
+git switch patch
+git merge main
+git add .
+git commit -m "add picom.conf and other files"
+nano dwm.c
+sudo make clean install
+nano 015-restore-home.sh 
+./015-restore-home.sh 
+cd
+cd config
+nano 010-backup-home.sh 
+cd skel-home-delta/
+sudo rm -r dwm/
+./010-backup-home.sh 
+cd skel-home
+cd config/
+ls -la
+cleanup
+upall
+gtdwm 
+nano 100-display-manager-and-desktop.sh 
+nano 110-development-software.sh 
+nano 120-sound.sh 
+nano 130-bluetooth.sh 
+nano 140-printers.sh 
+nano 200-software-arch-linux.sh 
+./200-software-arch-linux.sh 
+cd dubois/
+cd arco-bspwm/
+cd ../arco-dwm/
+cd arco-i3/
+cd ../arco-jwm/
+git pull
+git clone https://github.com/arcolinuxd/arco-xmonad.git
+cd arco-xmonad/
+cd fitzland/
+git clone git@github.com:fitzland/xmonad-scripts.git
+cd xmonad-scripts/
+git clone git@github.com:fitzland/bspwm-scripts.git
+cd bspwm-scripts/
+cd ..
+dots
+./git-v1.sh 
+gts
+ls
+exit
+git clone git@github.com:fitzland/xmonad-scripts.git
+cd xmonad-scripts/
+git clone git@github.com:fitzland/bspwm-scripts.git
+cd bspwm-scripts/
+cd ..
+dots
+./git-v1.sh 
+gtdwm 
+git switch patch
+gts
+gtl
+patch p1 < dwm-systray-20210418-67d76bd.diff 
+patch -p1 < dwm-systray-20210418-67d76bd.diff 
+rm p1.orig 
+nano dwm.c.rej 
+nano dwm.c.orig 
+rm dwm.c.orig 
+rm dwm.c.rej 
+rm dwm-systray-20210418-67d76bd.diff 
+ls
+sudo make clean install
+exit
+git clone git@github.com:fitzland/xmonad-scripts.git
+cd xmonad-scripts/
+git clone git@github.com:fitzland/bspwm-scripts.git
+cd bspwm-scripts/
+cd ..
+./git-v1.sh 
+git switch patch
+patch p1 < dwm-systray-20210418-67d76bd.diff 
+patch -p1 < dwm-systray-20210418-67d76bd.diff 
+rm p1.orig 
+nano dwm.c.rej 
+nano dwm.c.orig 
+rm dwm.c.orig 
+rm dwm.c.rej 
+rm dwm-systray-20210418-67d76bd.diff 
+rm config.def.h
+mv config.def.h.orig config.def.h
+rm p1.rej
+sudo make clean install
+git commit -m "added systray patch"
+git switch main
+git merge patch 
+atom config.h
+cd /usr/share/backgrounds/
+cd arcolinux/
+dots
+nano 040-themes.sh
+cd ~/images/wallpapers/system/
+sudo cp wide-* /usr/share/backgrounds/
+gtdwm 
+ls
+gts
+git add .
+git commit -m "change to desktop wallpaper"
+gtl
+git push
+git status
+exit
+gtdw
+gtdwm 
+ls
+nano autostart.sh 
+exit
+feh --help
+exit
+gtdwm 
+nano autostart.sh 
+exit
+cd /usr/share/backgrounds/
+ls
+exit
+ls
+gtdwm 
+git add .
+git commit -m "wallpaper change no xinerama"
+gts
+git push
+exit
+git commit -m "wallpaper change no xinerama"
+gts
+git push
+cd git/fitzland/
+arcolinux-tweak-tool 
+att
+which att
+which arcolinux-tweak-tool 
+yay rsync
+mirror
+upall
+cleanup
+gtdwm 
+nano autostart.sh 
+ls
+exit
+exit
+git commit -m "wallpaper change no xinerama"
+gts
+git push
+cd git/fitzland/
+arcolinux-tweak-tool 
+att
+which att
+which arcolinux-tweak-tool 
+yay rsync
+mirror
+upall
+cleanup
+gtdwm 
+nano autostart.sh 
+exit
+cd git
+cd fitzland/
+cd xmonad-scripts/
+./100-display-manager-and-desktop.sh 
+./110-development-software.sh 
+./120-sound.sh 
+./130-bluetooth.sh 
+./140-printers.sh 
+./170-network-discovery.sh 
+./200-software-arch-linux.sh 
+./300-software-arcolinux-3thparty.sh 
+.400
+./400-software-arcolinux-xlarge.sh 
+./500-software-distro-specific.sh 
+./600-additional-arcolinux-software.sh 
+./700-installing-fonts.sh 
+ls
+./500-software-distro-specific.sh 
+./600-additional-arcolinux-software.sh 
+./700-installing-fonts.sh 
+gtdwn
+cd config
+cd
+cd git/
+cd fitzland/
+cd arch-dots/
+ls
+./015-restore-home.sh 
+merge
+exit
+./700-installing-fonts.sh 
+./600-additional-arcolinux-software.sh 
+./700-installing-fonts.sh 
+gtdwn
+cd
+cd git/
+cd fitzland/
+cd arch-dots/
+./015-restore-home.sh 
+merge
+upll
+upall
+cleanup
+cd ..
+cd bspwm-scripts/
+./100-display-manager-and-desktop.sh 
+./500-software-distro-specific.sh 
+dots
+cd 
+cd config
+git clone https://github.com/fitzland/dwm.git
+cd dwm/
+ls
+sudo make clean install
+exit
+sudo make clean install
+cd /usr/share/xsessions/
+sudo cp bspwm.desktop dwm.desktop
+ls
+sudo nano dwm.desktop 
+exit
+yay sddm
+yay sddm config
+exit
+yay sddm config
+cd images
+cd wallpapers/system/
+ls
+sudo cp wide-* /usr/share/backgrounds/
+exit
+upall
+cleanup
+exit
+upall
+exit
+upall
+exit
+dots
+./010-backup-home.sh 
+exit
+dots
+./git-v1.sh 
+ls
+exit
+dmenu_run --help
+exit
+yay firefoxdeveloper
+yay firefox developer
+yay microsoft edge 
+yay visual studio code
+yay gnucash
+yay slstatus
+eixt
+exit
+upall
+cleanup
+exit
+gtdwm
+ls
+exit
+cd .xmonad/
+ls
+cd ..
+atom .xmonad/
+exit
+upall
+xmonad --recompile && xmonad --restart
+exit
+xmonad --recompile && xmonad --restart
+exit
+xprop
 exit

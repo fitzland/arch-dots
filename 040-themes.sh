@@ -50,10 +50,10 @@ func_category Themes
 list=(
 adapta-gtk-theme
 arc-gtk-theme
-candy-gtk-theme
-materia-gtk-theme
-kvantum-theme-materia
-kvantum-theme-matcha-git
+#candy-gtk-theme
+#materia-gtk-theme
+#kvantum-theme-materia
+#kvantum-theme-matcha-git
 matcha-gtk-theme
 )
 

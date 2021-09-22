@@ -1,2 +1,2 @@
 #!/bin/sh
-feh --no-fehbg --bg-fill '/usr/share/backgrounds/arcolinux/arco-wallpaper.jpg' 
+feh --no-fehbg --bg-scale --no-xinerama '/usr/share/backgrounds/wide-adapta-nokto.png' 
