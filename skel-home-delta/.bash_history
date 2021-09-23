@@ -1,301 +1,3 @@
-./masterpdfeditor5 
-cd
-yay master pdf
-exit
-yay master pdf
-gtdwm 
-nano config.h
-gts
-exit
-cd /opt/
-ls
-sudo rm -r master-pdf-editor-5/
-paru master pdf
-yay master pdf
-xprop
-exit
-gtdwm 
-sudo make clean install
-git add .
-git commit -m "add master pdf to rules"
-git push
-gtl
-exit
-xprop
-gtdwm 
-nano config.h
-sudo make clean install
-exit
-xprop
-exit
-xprop
-gtdw
-gtdwm 
-ls
-nano autostart.sh 
-nano config.h
-git add .
-git commit -m "added Atom to rules"
-git push
-gts
-gtl
-git branch
-sudo make clean install
-exit
-git commit -m "added Atom to rules"
-git push
-gtl
-gtdwm 
-nano config.h 
-git branch
-git patch dwm-noborder-6.2.diff
-patch dwm-noborder-6.2.diff 
-ls
-git add config.h 
-patch -p1 < dwm-noborder-6.2.diff 
-gts
-sudo make clean install
-exit
-nano config.h
-cd /opt/
-sudo rm -r master-pdf-editor-5/
-paru master pdf
-yay master pdf
-sudo make clean install
-git commit -m "add master pdf to rules"
-nano config.h
-sudo make clean install
-gtdw
-nano autostart.sh 
-nano config.h
-git commit -m "added Atom to rules"
-sudo make clean install
-yay picom
-git add .
-ducks4uc3
-git commit -m "cleanup autostart diff"
-git push
-git branch patch
-git pull
-git switch main
-gtl
-git switch patch
-git merge origin/main
-git diff
-gts
-cd git/
-git clone 
-git clone https://github.com/vinceliuice/Qogir-icon-theme.git
-cd Qogir-icon-theme/
-./install.sh 
-cd
-gtdwm 
-ls
-git branch
-xprop
-exit
-xprop
-gtdwm 
-gtl
-ls
-nano config.h
-sudo make clean install
-exit
-nano autostart.sh 
-nano config.h
-git commit -m "added Atom to rules"
-yay picom
-ducks4uc3
-git commit -m "cleanup autostart diff"
-git branch patch
-git pull
-git merge origin/main
-git diff
-cd git/
-git clone 
-git clone https://github.com/vinceliuice/Qogir-icon-theme.git
-cd Qogir-icon-theme/
-./install.sh 
-cd
-git branch
-xprop
-xprop
-nano config.h
-gtdwm 
-rm dwm-noborder-6.2.diff 
-rm dwm.c.orig 
-git commit -m "add noborder patch"
-git rm dwm.c.orig 
-git commit 'm "cleanup of backup dwm.c"
-git commit -m "cleanup of backup dwm.c"
-git switch main
-git merge patch
-git push
-gtl
-git switch patch
-git merge main
-git add .
-git commit -m "add picom.conf and other files"
-gts
-ls
-nano dwm.c
-sudo make clean install
-exit
-dots
-nano 010-backup-home.sh 
-exit
-rm dwm-noborder-6.2.diff 
-rm dwm.c.orig 
-git commit -m "add noborder patch"
-git rm dwm.c.orig 
-git commit 'm "cleanup of backup dwm.c"
-git commit -m "cleanup of backup dwm.c"
-git merge patch
-gtl
-git switch patch
-git merge main
-git commit -m "add picom.conf and other files"
-nano dwm.c
-sudo make clean install
-gtdwm 
-git add .
-git commit -m "added shiftview"
-git switch main
-git merge patch 
-gts
-git push
-git pull
-sudo rm -r arco-dwm/
-cd
-cd git/
-mkdir suckless
-cd suckless/
-git clone https://git.suckless.org/dwm
-git clone https://git.suckless.org/st
-cd ..
-dots
-nano 010-backup-home.sh 
-./010-backup-home.sh 
-ls -la
-ls
-nano 015-restore-home.sh 
-exit
-nano config.h
-gtdwm 
-rm dwm-noborder-6.2.diff 
-rm dwm.c.orig 
-git commit -m "add noborder patch"
-git rm dwm.c.orig 
-git commit 'm "cleanup of backup dwm.c"
-git commit -m "cleanup of backup dwm.c"
-git switch main
-git merge patch
-git push
-gtl
-git switch patch
-git merge main
-git add .
-git commit -m "add picom.conf and other files"
-gts
-nano dwm.c
-sudo make clean install
-nano 015-restore-home.sh 
-./015-restore-home.sh 
-cd
-cd config
-nano 010-backup-home.sh 
-cd skel-home-delta/
-sudo rm -r dwm/
-dots
-./010-backup-home.sh 
-ls
-cd skel-home
-cd config/
-ls -la
-exit
-nano 010-backup-home.sh 
-./010-backup-home.sh 
-ls -la
-nano 015-restore-home.sh 
-nano config.h
-rm dwm-noborder-6.2.diff 
-rm dwm.c.orig 
-git commit -m "add noborder patch"
-git rm dwm.c.orig 
-git commit 'm "cleanup of backup dwm.c"
-git commit -m "cleanup of backup dwm.c"
-git switch main
-git merge patch
-git push
-gtl
-git switch patch
-git merge main
-git add .
-git commit -m "add picom.conf and other files"
-nano dwm.c
-sudo make clean install
-nano 015-restore-home.sh 
-./015-restore-home.sh 
-cd
-cd config
-nano 010-backup-home.sh 
-cd skel-home-delta/
-sudo rm -r dwm/
-./010-backup-home.sh 
-cd skel-home
-cd config/
-ls -la
-cleanup
-upall
-gtdwm 
-nano 100-display-manager-and-desktop.sh 
-nano 110-development-software.sh 
-nano 120-sound.sh 
-nano 130-bluetooth.sh 
-nano 140-printers.sh 
-nano 200-software-arch-linux.sh 
-./200-software-arch-linux.sh 
-cd dubois/
-cd arco-bspwm/
-cd ../arco-dwm/
-cd arco-i3/
-cd ../arco-jwm/
-git pull
-git clone https://github.com/arcolinuxd/arco-xmonad.git
-cd arco-xmonad/
-cd fitzland/
-git clone git@github.com:fitzland/xmonad-scripts.git
-cd xmonad-scripts/
-git clone git@github.com:fitzland/bspwm-scripts.git
-cd bspwm-scripts/
-cd ..
-dots
-./git-v1.sh 
-gts
-ls
-exit
-git clone git@github.com:fitzland/xmonad-scripts.git
-cd xmonad-scripts/
-git clone git@github.com:fitzland/bspwm-scripts.git
-cd bspwm-scripts/
-cd ..
-dots
-./git-v1.sh 
-gtdwm 
-git switch patch
-gts
-gtl
-patch p1 < dwm-systray-20210418-67d76bd.diff 
-patch -p1 < dwm-systray-20210418-67d76bd.diff 
-rm p1.orig 
-nano dwm.c.rej 
-nano dwm.c.orig 
-rm dwm.c.orig 
-rm dwm.c.rej 
-rm dwm-systray-20210418-67d76bd.diff 
-ls
-sudo make clean install
-exit
 git clone git@github.com:fitzland/xmonad-scripts.git
 cd xmonad-scripts/
 git clone git@github.com:fitzland/bspwm-scripts.git
@@ -497,4 +199,302 @@ exit
 xmonad --recompile && xmonad --restart
 exit
 xprop
+exit
+xprop
+exit
+upall
+dots
+./010-backup-home.sh 
+./git-v1.sh 
+ls
+gtdwm
+git add .
+git diff
+git commit -m "small tweak"
+gts
+git push
+upall
+cleanup
+exit
+yay tumbler
+sudo pacman -S libgsf ffmpegthumbnailer
+exit
+cd downloads
+cd tarballs/
+ls
+yay pdfstudio
+exit
+yay master pdf
+exit
+upall
+cleanup
+exit
+yay tumbler
+sudo pacman -S libgsf ffmpegthumbnailer
+cd downloads
+cd tarballs/
+yay pdfstudio
+yay master pdf
+yay youtube-dl
+alias
+yta-wav https://www.youtube.com/watch?v=Ngkc4ghYM4s
+mv Sunday\ Morning\ Worship-Ngkc4ghYM4s.wav 210822-worship-fbccana.wav
+mpv 210822-worship-fbccana.wav 
+yta-wav https://www.youtube.com/watch?v=TZlhKJMRvT4
+mv Learn\ From\ My\ Story-TZlhKJMRvT4.wav 210829-worship-fbccana.wav
+yta-wav https://www.youtube.com/watch?v=BmjBmoRwXT8
+mv Sunday\ Morning\ Worship-BmjBmoRwXT8.wav 210905-worship-fbccana.wav
+ls
+yay audacity
+audacity 210822-worship-fbccana.wav 
+exit
+yay audacity
+audacity 210822-worship-fbccana.wav 
+cleanup
+yay rsync
+mirror
+upall
+exit
+sudo pacman -Rns termite
+exit
+sudo pacman -Rns termite
+upall
+xd
+upadate
+update
+alias
+skelcfg
+cleanup
+exit
+upall
+exit
+merge
+exit
+sudo update-alternatives --config x-terminal-emulator
+exit
+yay font viewer
+exit
+sudo update-alternatives --config x-terminal-emulator
+echo $TERM
+cd .config
+cd alacritty/
+meld alacritty.yml default-arcolinux.yml 
+atom alacritty.yml 
+ls
+rm default-arcolinux.yml 
+exit
+atom alacritty.yml 
+rm default-arcolinux.yml 
+cd .config
+cd dwm/
+ls
+git status
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+git push
+exit
+atom alacritty.yml 
+rm default-arcolinux.yml 
+cd .config
+git status
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+ssh -T git@github.com
+cd config
+cd dwm/
+git config --global user.name "fitzland"
+git config --help
+ls
+gtl
+git push origin main
+gts
+git remote set-url origin git@github.com:fitzland/dwm.git
+git pull
+git push
+exit
+git push
+cd .config
+cd dwm/
+sudo make clean install
+atom config.h 
+exit
+upall
+cleanup
+exit
+upall
+cd .config
+cd alacritty/
+ls
+nano alacritty.yml 
+exit
+upall
+exit
+upall
+cleanup
+exit
+yay kvantum
+exit
+yay kvantum
+cd config
+cd dwm
+ls
+git add .
+git diff
+git commit -m "minor tweak to settings"
+git push
+gts
+exit
+yay gvfs
+exit
+yay google-chrome
+cd git/
+ls
+cd dubois/
+ls
+cd arcolinux-spices/
+ls
+cd usr/
+ls
+cd share/
+ls
+cd arcolinux-spices/
+ls
+cd scripts/
+ls
+./get-the-keys-and-repos.sh 
+ls
+yay firefox
+yay firefox-developer-edition
+sudo pacman -Syyu
+yay firefox-developer-edition
+sudo pacman -S hunspell-en_US
+exit
+cd git/
+ls
+sudo pacman -S git
+cd 
+cd config
+cd .config
+ls
+cd dwm
+ls
+sudo make clean install
+ld
+alias
+cd 
+cd git/
+ls
+cd fitzland/
+ls
+cd arch-dots/
+ls
+cd skel-
+cd skel-home
+cd ..
+ls
+./015-restore-home.sh 
+exit
+sudo pacman -S alacritty
+exit
+sudo nano /etc/default/grub
+sudo pacman -S os-prober
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+merge
+ls
+exit
+alias
+ld
+xd
+cd /usr/share/xsessions/
+ls
+sudo cp bspwm.desktop dwm.desktop
+sudo nano dwm.desktop 
+exit
+yay slstatus
+exit
+yay logout
+exit
+yay logout
+cd images/wallpapers/
+cd system/
+ls
+sudo cp wide-* /usr/share/backgrounds/
+exit
+ld
+xd
+cd /usr/share/xsessions/
+sudo cp bspwm.desktop dwm.desktop
+sudo nano dwm.desktop 
+yay slstatus
+yay logout
+yay logout
+cd images/wallpapers/
+cd system/
+sudo cp wide-* /usr/share/backgrounds/
+yay pamac
+cd git
+cd fitzland/
+cd bspwm-scripts/
+./120-sound.sh 
+./130-bluetooth.sh 
+./140-printers.sh 
+./200-software-arch-linux.sh 
+./300-software-arcolinux-3thparty.sh 
+./400-software-arcolinux-xlarge.sh 
+./500-software-distro-specific.sh 
+./600-additional-arcolinux-software.sh 
+./700-installing-fonts.sh 
+ls
+fc-cache -vf
+exit
+ls
+upall
+exit
+yay kvantum 
+exit
+dots
+ls
+nano 040-themes.sh 
+./040-themes.sh 
+yay jetbrains
+exit
+yay jetbrains
+dots
+cd ..
+cd bspwm-scripts/
+ls
+./100-display-manager-and-desktop.sh 
+yay tweaktool
+yay tweak tool
+exit
+yay sddm
+exit
+yay tweaktool
+yay tweak tool
+yay sddm
+yay wallpaper
+cd /usr/share/backgrounds/
+cd archlinux/
+cd ..
+cd
+cd images
+cd wallpapers/
+cd system/
+ls
+sudo cp wide-* /usr/share/backgrounds/
+exit
+cd wallpapers/
+cd system/
+sudo cp wide-* /usr/share/backgrounds/
+cd config
+cd dwm/
+cd sxhkd/
+code sxhkdrc 
+yay atom
+yay visual studio
+yay sudo pacman -S gvfs
+upall
+cleanup
+ls
+atom sxhkdrc 
 exit

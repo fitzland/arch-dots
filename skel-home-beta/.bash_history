@@ -1,73 +1,3 @@
-git clone git@github.com:fitzland/xmonad-scripts.git
-cd xmonad-scripts/
-git clone git@github.com:fitzland/bspwm-scripts.git
-cd bspwm-scripts/
-cd ..
-./git-v1.sh 
-git switch patch
-patch p1 < dwm-systray-20210418-67d76bd.diff 
-patch -p1 < dwm-systray-20210418-67d76bd.diff 
-rm p1.orig 
-nano dwm.c.rej 
-nano dwm.c.orig 
-rm dwm.c.orig 
-rm dwm.c.rej 
-rm dwm-systray-20210418-67d76bd.diff 
-rm config.def.h
-mv config.def.h.orig config.def.h
-rm p1.rej
-sudo make clean install
-git commit -m "added systray patch"
-git switch main
-git merge patch 
-atom config.h
-cd /usr/share/backgrounds/
-cd arcolinux/
-dots
-nano 040-themes.sh
-cd ~/images/wallpapers/system/
-sudo cp wide-* /usr/share/backgrounds/
-gtdwm 
-ls
-gts
-git add .
-git commit -m "change to desktop wallpaper"
-gtl
-git push
-git status
-exit
-gtdw
-gtdwm 
-ls
-nano autostart.sh 
-exit
-feh --help
-exit
-gtdwm 
-nano autostart.sh 
-exit
-cd /usr/share/backgrounds/
-ls
-exit
-ls
-gtdwm 
-git add .
-git commit -m "wallpaper change no xinerama"
-gts
-git push
-exit
-git commit -m "wallpaper change no xinerama"
-gts
-git push
-cd git/fitzland/
-arcolinux-tweak-tool 
-att
-which att
-which arcolinux-tweak-tool 
-yay rsync
-mirror
-upall
-cleanup
 gtdwm 
 nano autostart.sh 
 ls
@@ -497,4 +427,74 @@ upall
 cleanup
 ls
 atom sxhkdrc 
+exit
+atom sxhkdrc 
+yay dropbox
+dots
+./010-backup-home.sh 
+ls
+exit
+yay google-chrome
+yay master editor
+ls
+yay microsoft edge
+exit
+yay keepassxc
+exit
+yay keepassxc
+gtdwm
+ls
+git add .
+git commit -m "fix keybindings"
+git push
+gts
+exit
+pacman -Qet
+yay alldesktops
+yay desktops
+exit
+yay libreoffice
+sudo pacman -S pstoedit libmythes
+ls
+upall
+cleanup
+exit
+yay ibm plex
+exit
+upall
+exit
+upall
+cleanup
+exit
+yay hyphen en-US
+yay en-US
+yay hyphen
+exit
+yay en-US
+yay hyphen
+yay aic
+yay wd7
+upall
+cleanup
+exit
+yay en-US
+yay hyphen
+yay aic
+yay wd7
+upall
+cleanup
+meld /etc/skel/.config/polybar/ ~/.config/polybar/
+dots
+cd skel-home-delta/
+cd config/
+cd bspwm/
+cd polybar
+ls
+nano launch.sh 
+exit
+yay gnome
+exit
+cd downloads/iso/
+ls
+sudo dd if=archcraft-2021.06.06-x86_64.iso of=/dev/sdd bs=4M && sync
 exit
