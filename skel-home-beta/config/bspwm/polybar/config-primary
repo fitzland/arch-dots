@@ -52,9 +52,9 @@ module-margin-right = 1
 font-0 = "Iosevka Nerd Font:size=10;3"
 font-1 = "Iosevka Nerd Font:size=12;3"
 
-modules-left = mod bspwm
-modules-center = mpd kernel
-modules-right = volume arch-updates networkspeedup networkspeeddown date
+modules-left = mod bspwm mpd
+modules-center = title sps kernel
+modules-right = volume arch-updates networkspeedup networkspeeddown date powermenu
 
 separator =
 spacing = 0
@@ -205,7 +205,7 @@ format-muted-prefix-foreground = ${color.RED}
 
 label-volume = %percentage%%
 label-muted = " Muted"
-label-muted-foreground = #757575
+label-muted-foreground = ${color.ALTBLUE}
 
 ramp-volume-0 = 奄
 ramp-volume-1 = 奄
@@ -339,7 +339,7 @@ type = internal/date
 interval = 1.0
 
 time = %I:%M %p
-time-alt = %A, %d %B %Y
+time-alt = %a, %d %b %Y
 
 format = <label>
 format-prefix = " "
@@ -421,6 +421,59 @@ ramp-signal-4 = 直
 ramp-signal-font = 2
 ramp-signal-foreground = ${color.CYAN}
 
+[module/title]
+type = internal/xwindow
+; Available tags:
+;   <label> (default)
+format = <label>
+format-background = ${color.BACKGROUND}
+format-foreground = ${color.GREEN}
+format-padding = 1
+
+; Available tokens:
+;   %title%
+; Default: %title%
+label = "类 %title%"
+label-maxlen = 65
+
+; Used instead of label when there is no window title
+; Available tokens:
+;   None
+label-empty = Bspwm
+label-empty-foreground = ${color.GREEN}
+
+[module/caps]
+type = custom/script
+interval = 0.5s
+exec = ~/.config/bspwm/polybar/scripts/cns.sh -c
+format-foreground = ${color.BLUE}
+
+[module/num]
+type = custom/script
+interval = 0.5s
+exec = ~/.config/bspwm/polybar/scripts/cns.sh -n
+format-foreground = ${color.BLUE}
+
+[module/scroll]
+type = custom/script
+interval = 0.5s
+exec = ~/.config/bspwm/polybar/scripts/cns.sh -s
+format-foreground = ${color.BLUE}
+
+[module/powermenu]
+type = custom/text
+content = "襤"
+click-left = ~/.config/bspwm/rofi/bin/powermenu.sh
+content-background = ${color.ALTCYAN}
+content-foreground = ${color.BACKGROUND}
+content-padding = 1
+margin-right = 0
+
+;An empty module used to add 1 unit spacings whenever needed
+[module/sps]
+type = custom/text
+content = " "
+content-padding = 0
 ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 ;;	    __________  ______
 ;;	   / ____/ __ \/ ____/
