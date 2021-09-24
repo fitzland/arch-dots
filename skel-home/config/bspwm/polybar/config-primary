@@ -448,7 +448,7 @@ label-maxlen = 65
 ; Used instead of label when there is no window title
 ; Available tokens:
 ;   None
-label-empty = Bspwm
+label-empty = bspwm ~ binary space partitioning wm
 label-empty-foreground = ${color.GREEN}
 
 [module/caps]

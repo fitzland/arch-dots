@@ -76,21 +76,13 @@ super + shift F12
 
 # terminal emulator
 super + Return
-	rofi-sensible-terminal
-
-# file manager
-super + shift + Return
-	thunar
-
-# file manager
-super + n
-	thunar
+    rofi-sensible-terminal
 
 # program launcher
 super + slash
 	rofi -modi drun -show drun -line-padding 4 \
 	-columns 2 -padding 20 -hide-scrollbar -terminal rofi-sensible-terminal \
-	-show-icons -icon-theme "Papirus-Dark" -font "Iosevka Regular 11"
+	-show-icons -icon-theme "Papirus" -font "Iosevka Regular 11"
 
 # program launcher
 super + backslash
@@ -122,8 +114,29 @@ super + r
 super + shift + e
      ~/.config/bspwm/rofi/bin/powermenu.sh
 
-# make sxhkd reload its configuration files:
+#arcolinux-logout
+ctrl + alt + k
+     arcolinux-logout
+
+#arcolinux-logout
+ctrl + alt + l
+    arcolinux-logout
+
+#Xkill
 super + Escape
+    xkill
+
+
+#################################################################
+# SUPER + SHIFT KEYS
+#################################################################
+
+#File-Manager
+super + shift + Return
+	thunar
+
+#reload sxhkd:
+super + shift + s
 	pkill -USR1 -x sxhkd
 
 #

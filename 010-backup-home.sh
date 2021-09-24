@@ -35,13 +35,14 @@ cp -r $HOME/.config/qt5ct ./skel-home/config/
 cp -r $HOME/.config/rofi ./skel-home/config/
 cp -r $HOME/.config/sxhkd ./skel-home/config/
 cp -r $HOME/.xmonad/ ./skel-home/xmonad/
+cp -r $HOME/.Xresources.d ./skel-home/
 cp -r $HOME/.themes ./skel-home/themes/
 cp $HOME/.bash* ./skel-home/
 cp $HOME/.xprofile ./skel-home/
 cp $HOME/.Xresources ./skel-home/
-cp $HOME/.face ./skel-home/
+cp $HOME/.face* ./skel-home/
 cp $HOME/.fehbg ./skel-home/
-cp $HOME/.jwmrc ./skel-home/
+cp $HOME/.zshrc ./skel-home/
 
 echo "################################################################"
 echo "#########   Config has been copied and loaded   ################"
