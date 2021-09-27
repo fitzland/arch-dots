@@ -118,7 +118,7 @@ interval = 100
 format-foreground = ${color.FOREGROUND}
 format-background = ${color.BACKGROUND}
 label = %output%
-format-prefix = ""
+format-prefix = "  "
 format-prefix-foreground = ${color.YELLOW}
 
 ################################################################################

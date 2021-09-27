@@ -31,11 +31,12 @@ cp -rf ./skel-home/config/rofi $HOME/.config/
 cp -rf ./skel-home/config/sxhkd $HOME/.config/
 cp -rf ./skel-home/config/xfce4 $HOME/.config/
 cp -rf ./skel-home/themes $HOME/.themes/
-cp ./skel-home/.bashrc* $HOME/
+cp ./skel-home/.bash* $HOME/
 cp ./skel-home/.xprofile $HOME/
 cp ./skel-home/.Xresources $HOME/
 cp ./skel-home/.face $HOME/
 cp ./skel-home/.jwmrc $HOME/
+cp ./skel-home/.zshrc $HOME/
 
 echo "################################################################"
 echo "#########   Config has been copied and loaded   ################"
