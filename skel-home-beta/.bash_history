@@ -1,248 +1,3 @@
-gtdwm 
-nano autostart.sh 
-ls
-exit
-exit
-git commit -m "wallpaper change no xinerama"
-gts
-git push
-cd git/fitzland/
-arcolinux-tweak-tool 
-att
-which att
-which arcolinux-tweak-tool 
-yay rsync
-mirror
-upall
-cleanup
-gtdwm 
-nano autostart.sh 
-exit
-cd git
-cd fitzland/
-cd xmonad-scripts/
-./100-display-manager-and-desktop.sh 
-./110-development-software.sh 
-./120-sound.sh 
-./130-bluetooth.sh 
-./140-printers.sh 
-./170-network-discovery.sh 
-./200-software-arch-linux.sh 
-./300-software-arcolinux-3thparty.sh 
-.400
-./400-software-arcolinux-xlarge.sh 
-./500-software-distro-specific.sh 
-./600-additional-arcolinux-software.sh 
-./700-installing-fonts.sh 
-ls
-./500-software-distro-specific.sh 
-./600-additional-arcolinux-software.sh 
-./700-installing-fonts.sh 
-gtdwn
-cd config
-cd
-cd git/
-cd fitzland/
-cd arch-dots/
-ls
-./015-restore-home.sh 
-merge
-exit
-./700-installing-fonts.sh 
-./600-additional-arcolinux-software.sh 
-./700-installing-fonts.sh 
-gtdwn
-cd
-cd git/
-cd fitzland/
-cd arch-dots/
-./015-restore-home.sh 
-merge
-upll
-upall
-cleanup
-cd ..
-cd bspwm-scripts/
-./100-display-manager-and-desktop.sh 
-./500-software-distro-specific.sh 
-dots
-cd 
-cd config
-git clone https://github.com/fitzland/dwm.git
-cd dwm/
-ls
-sudo make clean install
-exit
-sudo make clean install
-cd /usr/share/xsessions/
-sudo cp bspwm.desktop dwm.desktop
-ls
-sudo nano dwm.desktop 
-exit
-yay sddm
-yay sddm config
-exit
-yay sddm config
-cd images
-cd wallpapers/system/
-ls
-sudo cp wide-* /usr/share/backgrounds/
-exit
-upall
-cleanup
-exit
-upall
-exit
-upall
-exit
-dots
-./010-backup-home.sh 
-exit
-dots
-./git-v1.sh 
-ls
-exit
-dmenu_run --help
-exit
-yay firefoxdeveloper
-yay firefox developer
-yay microsoft edge 
-yay visual studio code
-yay gnucash
-yay slstatus
-eixt
-exit
-upall
-cleanup
-exit
-gtdwm
-ls
-exit
-cd .xmonad/
-ls
-cd ..
-atom .xmonad/
-exit
-upall
-xmonad --recompile && xmonad --restart
-exit
-xmonad --recompile && xmonad --restart
-exit
-xprop
-exit
-xprop
-exit
-upall
-dots
-./010-backup-home.sh 
-./git-v1.sh 
-ls
-gtdwm
-git add .
-git diff
-git commit -m "small tweak"
-gts
-git push
-upall
-cleanup
-exit
-yay tumbler
-sudo pacman -S libgsf ffmpegthumbnailer
-exit
-cd downloads
-cd tarballs/
-ls
-yay pdfstudio
-exit
-yay master pdf
-exit
-upall
-cleanup
-exit
-yay tumbler
-sudo pacman -S libgsf ffmpegthumbnailer
-cd downloads
-cd tarballs/
-yay pdfstudio
-yay master pdf
-yay youtube-dl
-alias
-yta-wav https://www.youtube.com/watch?v=Ngkc4ghYM4s
-mv Sunday\ Morning\ Worship-Ngkc4ghYM4s.wav 210822-worship-fbccana.wav
-mpv 210822-worship-fbccana.wav 
-yta-wav https://www.youtube.com/watch?v=TZlhKJMRvT4
-mv Learn\ From\ My\ Story-TZlhKJMRvT4.wav 210829-worship-fbccana.wav
-yta-wav https://www.youtube.com/watch?v=BmjBmoRwXT8
-mv Sunday\ Morning\ Worship-BmjBmoRwXT8.wav 210905-worship-fbccana.wav
-ls
-yay audacity
-audacity 210822-worship-fbccana.wav 
-exit
-yay audacity
-audacity 210822-worship-fbccana.wav 
-cleanup
-yay rsync
-mirror
-upall
-exit
-sudo pacman -Rns termite
-exit
-sudo pacman -Rns termite
-upall
-xd
-upadate
-update
-alias
-skelcfg
-cleanup
-exit
-upall
-exit
-merge
-exit
-sudo update-alternatives --config x-terminal-emulator
-exit
-yay font viewer
-exit
-sudo update-alternatives --config x-terminal-emulator
-echo $TERM
-cd .config
-cd alacritty/
-meld alacritty.yml default-arcolinux.yml 
-atom alacritty.yml 
-ls
-rm default-arcolinux.yml 
-exit
-atom alacritty.yml 
-rm default-arcolinux.yml 
-cd .config
-cd dwm/
-ls
-git status
-eval "$(ssh-agent -s)"
-ssh-add ~/.ssh/id_ed25519
-git push
-exit
-atom alacritty.yml 
-rm default-arcolinux.yml 
-cd .config
-git status
-eval "$(ssh-agent -s)"
-ssh-add ~/.ssh/id_ed25519
-ssh -T git@github.com
-cd config
-cd dwm/
-git config --global user.name "fitzland"
-git config --help
-ls
-gtl
-git push origin main
-gts
-git remote set-url origin git@github.com:fitzland/dwm.git
-git pull
-git push
-exit
-git push
 cd .config
 cd dwm/
 sudo make clean install
@@ -497,4 +252,249 @@ exit
 cd downloads/iso/
 ls
 sudo dd if=archcraft-2021.06.06-x86_64.iso of=/dev/sdd bs=4M && sync
+exit
+yay polybar
+cd git/
+ls
+cd fitzland/
+cd ../dubois/
+ls
+cd arcolinux-spices/
+ls
+cd /usr/
+cd local/bin/
+ls
+cd dwm
+cd ~/git/dubois/arcolinux-spices/usr/local/bin/
+ls
+cd ..
+cd ..
+ls
+cd share/arcolinux-spices/scripts/
+ls
+./get-the-keys-and-repos.sh 
+sudo pacman -Syyu
+exit
+exit
+yay bspwm
+yay iosevka nerd font
+upall
+cd git/fitzland/arch-dots/
+ls
+cd skel-home
+ls
+cp .bashrc.save ~/
+exit
+upall
+merge
+exit
+eba
+eb
+exit
+yay dig
+exit
+cd git/
+ls
+cd fitzland/
+ls
+cd bspwm-scripts/
+ls
+./300-software-arcolinux-3thparty.sh 
+ls
+./400-software-arcolinux-xlarge.sh 
+ls
+./600-additional-arcolinux-software.sh 
+ls
+ls
+./700-installing-fonts.sh 
+exit
+sudo pacman -S neofetch
+exit
+sudo pacman -Rns xterm
+exit
+sudo pacman -Rns xterm
+cd dots
+cd git/
+cd fitzland/
+cd bspwm-scripts/
+ls
+./600-additional-arcolinux-software.sh 
+nano 600-additional-arcolinux-software.sh 
+exit
+./600-additional-arcolinux-software.sh 
+nano 600-additional-arcolinux-software.sh 
+cd images
+cd wallpapers/
+cd system/
+ls
+sudo cp wide-* /usr/share/backgrounds/
+exit
+sudo pacman -Rns variety
+yay polybar
+exit
+yay pamac
+upall
+exit
+upall
+exit
+upall
+upall
+yay papirus folders
+cd git/
+git clone git@github.com:PapirusDevelopmentTeam/papirus-folders.git
+cd papirus-folders/
+ls
+./papirus-folders -C deeporange --theme Papirus-Dark
+exit
+sudo pacman -Rns qbittorrent 
+ls
+exit
+which polybar
+exit
+yay arco slstatus
+exit
+yay iosevka
+exit
+upall
+exit
+sudo pacman -Syyu
+exit
+cd .config/dwm/
+sudo make clean install
+exit
+yay logout
+exit
+bspc query -M --names
+xrandr -q
+exit
+yay pamac
+yay aic
+yay wd7
+exit
+cd .config/dwm/
+ls
+sudo make clean install
+exit
+yay picom
+yay polkit
+exit
+yay dropbox
+yay kvantum
+exit
+xrandr -q
+yay pamac
+yay aic
+yay wd7
+cd .config/dwm/
+sudo make clean install
+yay picom
+yay polkit
+yay dropbox
+yay kvantum
+arcolinux-tweak-tool 
+dots
+cd archcraft/
+cd archcraft-style-bspwm/
+cd ..
+cd endeavouros/
+cd bspwm/
+ls
+cp IosevkaTermNerdFontComplete.ttf ~/.fonts/
+fc-cache -vf
+exit
+thunar
+exit
+thunar
+pidof xfce-polkit
+cd /usr/lib
+cd
+ls
+clear
+exit
+which polybar
+exit
+yay libreoffice-fresh
+exit
+sudo /etc/default/grub
+sudo nano /etc/default/grub 
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+exit
+polybar
+polybar main -c ~/.config/bspwm/polybar/config-primary
+polybar main -c ~/.config/polybar/config.ini
+polybar main -c ~/.config/polybar/nordic/config.ini
+exit
+upall
+cleanup
+ls
+exit
+polybar main -c ~/.config/bspwm/polybar/config
+exit
+polybar main -c ~/.config/bspwm/polybar/config
+exit
+yay terminus
+exit
+upall
+exit
+fc-cache -vf
+exit
+upall
+cleanup
+exit
+yay hyphen en-US
+yay hyphen
+exit
+upall
+cleanup
+exit
+upall
+exit
+cleanup
+exit
+cleanup
+sudo pacman -S htop
+clear
+htop
+exit
+upall
+exit
+fc-list
+exit
+yay route
+exit
+yay net-tools
+exit
+cd Dropbox/
+ls
+touch test.sh
+exit
+yay jq
+exit
+yay charmap
+exit
+fc-cache -vf
+exit
+xrandr -q | grep " connected" | cut -d ' ' -f1
+exit
+fc-list
+exit
+yay charmap
+exitg
+yay font awesome
+ls
+yay tamsyn
+ibm plex
+yay ibm plex
+fc-cache -vf
+exit
+yay font view
+exit
+fc-cache -vf
+exit
+fc-cache -vf
+exit
+gucharmap 
+exit
+upall
+cleanup
 exit
