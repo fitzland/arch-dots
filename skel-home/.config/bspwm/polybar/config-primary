@@ -49,7 +49,7 @@ padding = 1
 module-margin-left = 1
 module-margin-right = 1
 
-font-0 = "Iosevka Term:size=11;3"
+font-0 = "Iosevka Term:size=10;3"
 font-2 = "JetBrainsMonoNL Nerd Font:size=10;3"
 font-1 = "Inconsolata Nerd Font:size=11;2"
 font-3 = "Hack Nerd Font:size=10;3"
@@ -129,7 +129,7 @@ interval = 1000
 label = Aur: %output%
 format-foreground = ${color.FOREGROUND}
 format-background = ${color.BACKGROUND}
-format-prefix = "  "
+format-prefix = "AUR: "
 format-prefix-foreground = ${color.ALTMAGENTA}
 ;;format-underline = ${color.ALTMAGENTA}
 
@@ -142,19 +142,10 @@ interval = 1024
 
 format-foreground = ${color.FOREGROUND}
 format-background = ${color.BACKGROUND}
-format-prefix = "  "
+format-prefix = ""
+format-prefix-padding = 2
 format-prefix-foreground = ${color.ALTBLACK}
 ;format-underline = ${color.ALTBLACK}
-
-################################################################################
-
-[module/pub-ip]
-type = custom/script
-exec = ~/.config/bspwm/polybar/scripts/pub-ip.sh
-interval = 100
-format-underline = ${color.WHITE}
-format =
-label = %output%
 
 ################################################################################
 
@@ -438,13 +429,6 @@ margin-right = 0
 [module/network-localip]
 type = custom/script
 exec = ~/.config/bspwm/polybar/scripts/network-localip.sh
-interval = 60
-
-;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
-
-[module/network-publicip]
-type = custom/script
-exec = ~/.config/bspwm/polybar/scripts/network-publicip.sh
 interval = 60
 
 ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
