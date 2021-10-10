@@ -1,30 +1,3 @@
-cd .config
-cd dwm/
-sudo make clean install
-atom config.h 
-exit
-upall
-cleanup
-exit
-upall
-cd .config
-cd alacritty/
-ls
-nano alacritty.yml 
-exit
-upall
-exit
-upall
-cleanup
-exit
-yay kvantum
-exit
-yay kvantum
-cd config
-cd dwm
-ls
-git add .
-git diff
 git commit -m "minor tweak to settings"
 git push
 gts
@@ -497,4 +470,31 @@ gucharmap
 exit
 upall
 cleanup
+exit
+fc-cache -vf
+fc-cache -vf
+gucharmap 
+upall
+cleanup
+git
+dots
+cd ..
+cd fitzland/arch-dots/
+nano 010-backup-home.sh 
+./010-backup-home.sh 
+git add .
+git commit -m "font work on polybar"
+git push
+ls
+git status
+exit
+git commit -m "font work on polybar"
+dots
+ls
+rm -r fonts/
+git add .
+gts
+git commit -m "remove duplicate font files"
+git status
+git push
 exit

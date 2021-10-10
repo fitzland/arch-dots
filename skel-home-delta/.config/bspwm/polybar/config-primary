@@ -120,7 +120,7 @@ format-foreground = ${color.FOREGROUND}
 format-background = ${color.BACKGROUND}
 format-prefix = "Arch: "
 format-prefix-foreground = ${color.MAGENTA}
-;;format-underline = ${color.MAGENTA}
+
 
 [module/aur-updates]
 type = custom/script
@@ -354,8 +354,8 @@ time = %I:%M %p
 time-alt = %a, %d %b %Y
 
 format = <label>
-format-prefix = "Clock: "
-format-prefix-foreground = ${color.CYAN}
+format-prefix = "Time: "
+format-prefix-foreground = ${color.ALTCYAN}
 
 label = %time%
 
@@ -421,30 +421,6 @@ label-maxlen = 65
 ;   None
 label-empty = bspwm ~ binary space partitioning wm
 label-empty-foreground = ${color.GREEN}
-
-;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
-
-[module/caps]
-type = custom/script
-interval = 0.5s
-exec = ~/.config/bspwm/polybar/scripts/cns.sh -c
-format-foreground = ${color.CYAN}
-
-;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
-
-[module/num]
-type = custom/script
-interval = 0.5s
-exec = ~/.config/bspwm/polybar/scripts/cns.sh -n
-format-foreground = ${color.CYAN}
-
-;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
-
-[module/scroll]
-type = custom/script
-interval = 0.5s
-exec = ~/.config/bspwm/polybar/scripts/cns.sh -s
-format-foreground = ${color.BLUE}
 
 ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 

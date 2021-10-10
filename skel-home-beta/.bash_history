@@ -1,30 +1,3 @@
-git commit -m "minor tweak to settings"
-git push
-gts
-exit
-yay gvfs
-exit
-yay google-chrome
-cd git/
-ls
-cd dubois/
-ls
-cd arcolinux-spices/
-ls
-cd usr/
-ls
-cd share/
-ls
-cd arcolinux-spices/
-ls
-cd scripts/
-ls
-./get-the-keys-and-repos.sh 
-ls
-yay firefox
-yay firefox-developer-edition
-sudo pacman -Syyu
-yay firefox-developer-edition
 sudo pacman -S hunspell-en_US
 exit
 cd git/
@@ -497,4 +470,31 @@ gts
 git commit -m "remove duplicate font files"
 git status
 git push
+exit
+rm -r fonts/
+gts
+git commit -m "remove duplicate font files"
+dots
+./010-backup-home.sh 
+git add .
+git commit -m "change to polybar colors"
+git push
+ls
+git status
+exit
+git commit -m "change to polybar colors"
+dots
+ls
+nano 015-restore-home.sh 
+git add .
+git commit -m "fix restore script"
+git status
+git push
+exit
+dots
+nano 010-backup-home.sh 
+exit
+upall
+htop
+cleanup
 exit

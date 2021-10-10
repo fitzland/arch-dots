@@ -133,7 +133,7 @@ numlockx on &
 bash $HOME/.fehbg
 
 # Start mpd
-exec mpd &
+# exec mpd &
 
 # Start bspwm scripts
 bspcolors
