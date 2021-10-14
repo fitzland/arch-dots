@@ -3,8 +3,6 @@
 ## Environtment
 export PATH="${PATH}:$HOME/.config/bspwm/bin"
 
-sh ~/.screenlayout/monitor.sh &
-
 ## Get colors from .Xresources -------------------------------#
 xrdb ~/.Xresources
 getcolors () {
@@ -112,6 +110,18 @@ dunst \
 # Lauch xsettingsd daemon
 xsettingsd &
 
+# Set display from arandr saved script
+sh ~/.screenlayout/monitor.sh &
+
+# Wallpaper
+nitrogen --restore &
+
+# Dex
+dex -a -s /etc/xdg/autostart/:~/.config/autostart/
+
+# Picom
+picom -CGb &
+
 # polkit agent
 if [[ ! `pidof xfce-polkit` ]]; then
 	/usr/lib/xfce-polkit/xfce-polkit &
@@ -128,6 +138,14 @@ sxhkd -c $HOME/.config/bspwm/sxhkd/sxhkdrc &
 xsetroot -cursor_name left_ptr &
 setxkbmap -option compose:rctrl &
 numlockx on &
+
+# start blueberry app for managing bluetooth devices from tray:
+blueberry-tray &
+
+# Network Applet
+nm-applet --indicator &
+
+dropbox &
 
 # Restore wallpaper
 bash $HOME/.fehbg

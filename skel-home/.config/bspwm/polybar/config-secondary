@@ -55,9 +55,9 @@ font-1 = "Inconsolata Nerd Font:size=11;2"
 font-3 = "Hack Nerd Font:size=10;3"
 
 
-modules-left = bspwm title
+modules-left = bspwm mod title
 modules-center = cpu2 memory2
-modules-right = mod networkspeeddown networkspeedup caps num date
+modules-right = networkspeeddown networkspeedup caps num date
 
 separator =
 spacing = 0

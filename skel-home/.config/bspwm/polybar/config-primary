@@ -55,9 +55,9 @@ font-1 = "Inconsolata Nerd Font:size=11;2"
 font-3 = "Hack Nerd Font:size=10;3"
 
 
-modules-left = bspwm title
+modules-left = bspwm mod title
 modules-center = kernel network-localip network-ipinfo
-modules-right = mod arch-updates volume date
+modules-right = arch-updates volume date
 
 separator =
 spacing = 0

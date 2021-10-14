@@ -57,7 +57,7 @@ font-3 = "Hack Nerd Font:size=10;3"
 
 modules-left = bspwm title
 modules-center = kernel network-localip network-ipinfo
-modules-right = mod arch-updates volume dropbox-isrunning date
+modules-right = mod arch-updates volume date
 
 separator =
 spacing = 0
@@ -436,7 +436,7 @@ interval = 60
 [module/network-ipinfo]
 type = custom/script
 exec = ~/.config/bspwm/polybar/scripts/network-ipinfo.sh
-interval = 60
+interval = 120
 
 ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 
