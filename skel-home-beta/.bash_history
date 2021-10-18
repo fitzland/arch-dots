@@ -1,97 +1,4 @@
 exit
-upall
-merge
-exit
-eba
-eb
-exit
-yay dig
-exit
-cd git/
-ls
-cd fitzland/
-ls
-cd bspwm-scripts/
-ls
-./300-software-arcolinux-3thparty.sh 
-ls
-./400-software-arcolinux-xlarge.sh 
-ls
-./600-additional-arcolinux-software.sh 
-ls
-ls
-./700-installing-fonts.sh 
-exit
-sudo pacman -S neofetch
-exit
-sudo pacman -Rns xterm
-exit
-sudo pacman -Rns xterm
-cd dots
-cd git/
-cd fitzland/
-cd bspwm-scripts/
-ls
-./600-additional-arcolinux-software.sh 
-nano 600-additional-arcolinux-software.sh 
-exit
-./600-additional-arcolinux-software.sh 
-nano 600-additional-arcolinux-software.sh 
-cd images
-cd wallpapers/
-cd system/
-ls
-sudo cp wide-* /usr/share/backgrounds/
-exit
-sudo pacman -Rns variety
-yay polybar
-exit
-yay pamac
-upall
-exit
-upall
-exit
-upall
-upall
-yay papirus folders
-cd git/
-git clone git@github.com:PapirusDevelopmentTeam/papirus-folders.git
-cd papirus-folders/
-ls
-./papirus-folders -C deeporange --theme Papirus-Dark
-exit
-sudo pacman -Rns qbittorrent 
-ls
-exit
-which polybar
-exit
-yay arco slstatus
-exit
-yay iosevka
-exit
-upall
-exit
-sudo pacman -Syyu
-exit
-cd .config/dwm/
-sudo make clean install
-exit
-yay logout
-exit
-bspc query -M --names
-xrandr -q
-exit
-yay pamac
-yay aic
-yay wd7
-exit
-cd .config/dwm/
-ls
-sudo make clean install
-exit
-yay picom
-yay polkit
-exit
 yay dropbox
 yay kvantum
 exit
@@ -497,4 +404,97 @@ sudo pacman -Rns ukui
 cleanup
 exit
 sudo pacman -Rns jwm
+exit
+cleanup
+sudo pacman -Rns jwm
+dots
+ls
+./010-backup-home.sh 
+git add .
+git commit -m "fix to JVM gray blob"
+git push
+git status
+exit
+upall
+exit
+yay upd72020
+exit
+yay microsoft-edge
+exit
+upall
+exit
+git push
+git status
+yay upd72020
+yay microsoft-edge
+yay reflector
+yay rsync
+mirror
+upall
+cleanup
+exit
+upall
+exit
+timedatectl set-local-rtc 1 --adjust-system-clock
+timedatectl
+exit
+upall
+exit
+ip link
+exit
+ip route
+exit
+ip route
+upall
+exit
+ping 192.168.1.103
+ping 192.168.1.107
+exit
+upall
+cleanup
+exit
+upall
+exit
+upall
+cleanup
+exit
+cleanup
+upall
+alias
+yay rdesktop
+echo-go
+ip route
+exit
+yay rdesktop
+echo-go
+ip route
+dots
+ls
+chface
+./010-backup-home.sh 
+git add .
+git commit -m "work on autostart for bspwm"
+git push
+git status
+exit
+upall
+cleanup
+exit
+upall
+cleanup
+exit
+upall
+cleanup
+exit
+cleanup
+eba
+merge
+chface
+exit
+merge
+chface
+unlock
+upfc
+cleanup
+upall
 exit

@@ -1,328 +1,3 @@
-sudo pacman -S hunspell-en_US
-exit
-cd git/
-ls
-sudo pacman -S git
-cd 
-cd config
-cd .config
-ls
-cd dwm
-ls
-sudo make clean install
-ld
-alias
-cd 
-cd git/
-ls
-cd fitzland/
-ls
-cd arch-dots/
-ls
-cd skel-
-cd skel-home
-cd ..
-ls
-./015-restore-home.sh 
-exit
-sudo pacman -S alacritty
-exit
-sudo nano /etc/default/grub
-sudo pacman -S os-prober
-sudo grub-mkconfig -o /boot/grub/grub.cfg
-merge
-ls
-exit
-alias
-ld
-xd
-cd /usr/share/xsessions/
-ls
-sudo cp bspwm.desktop dwm.desktop
-sudo nano dwm.desktop 
-exit
-yay slstatus
-exit
-yay logout
-exit
-yay logout
-cd images/wallpapers/
-cd system/
-ls
-sudo cp wide-* /usr/share/backgrounds/
-exit
-ld
-xd
-cd /usr/share/xsessions/
-sudo cp bspwm.desktop dwm.desktop
-sudo nano dwm.desktop 
-yay slstatus
-yay logout
-yay logout
-cd images/wallpapers/
-cd system/
-sudo cp wide-* /usr/share/backgrounds/
-yay pamac
-cd git
-cd fitzland/
-cd bspwm-scripts/
-./120-sound.sh 
-./130-bluetooth.sh 
-./140-printers.sh 
-./200-software-arch-linux.sh 
-./300-software-arcolinux-3thparty.sh 
-./400-software-arcolinux-xlarge.sh 
-./500-software-distro-specific.sh 
-./600-additional-arcolinux-software.sh 
-./700-installing-fonts.sh 
-ls
-fc-cache -vf
-exit
-ls
-upall
-exit
-yay kvantum 
-exit
-dots
-ls
-nano 040-themes.sh 
-./040-themes.sh 
-yay jetbrains
-exit
-yay jetbrains
-dots
-cd ..
-cd bspwm-scripts/
-ls
-./100-display-manager-and-desktop.sh 
-yay tweaktool
-yay tweak tool
-exit
-yay sddm
-exit
-yay tweaktool
-yay tweak tool
-yay sddm
-yay wallpaper
-cd /usr/share/backgrounds/
-cd archlinux/
-cd ..
-cd
-cd images
-cd wallpapers/
-cd system/
-ls
-sudo cp wide-* /usr/share/backgrounds/
-exit
-cd wallpapers/
-cd system/
-sudo cp wide-* /usr/share/backgrounds/
-cd config
-cd dwm/
-cd sxhkd/
-code sxhkdrc 
-yay atom
-yay visual studio
-yay sudo pacman -S gvfs
-upall
-cleanup
-ls
-atom sxhkdrc 
-exit
-atom sxhkdrc 
-yay dropbox
-dots
-./010-backup-home.sh 
-ls
-exit
-yay google-chrome
-yay master editor
-ls
-yay microsoft edge
-exit
-yay keepassxc
-exit
-yay keepassxc
-gtdwm
-ls
-git add .
-git commit -m "fix keybindings"
-git push
-gts
-exit
-pacman -Qet
-yay alldesktops
-yay desktops
-exit
-yay libreoffice
-sudo pacman -S pstoedit libmythes
-ls
-upall
-cleanup
-exit
-yay ibm plex
-exit
-upall
-exit
-upall
-cleanup
-exit
-yay hyphen en-US
-yay en-US
-yay hyphen
-exit
-yay en-US
-yay hyphen
-yay aic
-yay wd7
-upall
-cleanup
-exit
-yay en-US
-yay hyphen
-yay aic
-yay wd7
-upall
-cleanup
-meld /etc/skel/.config/polybar/ ~/.config/polybar/
-dots
-cd skel-home-delta/
-cd config/
-cd bspwm/
-cd polybar
-ls
-nano launch.sh 
-exit
-yay gnome
-exit
-cd downloads/iso/
-ls
-sudo dd if=archcraft-2021.06.06-x86_64.iso of=/dev/sdd bs=4M && sync
-exit
-yay polybar
-cd git/
-ls
-cd fitzland/
-cd ../dubois/
-ls
-cd arcolinux-spices/
-ls
-cd /usr/
-cd local/bin/
-ls
-cd dwm
-cd ~/git/dubois/arcolinux-spices/usr/local/bin/
-ls
-cd ..
-cd ..
-ls
-cd share/arcolinux-spices/scripts/
-ls
-./get-the-keys-and-repos.sh 
-sudo pacman -Syyu
-exit
-exit
-yay bspwm
-yay iosevka nerd font
-upall
-cd git/fitzland/arch-dots/
-ls
-cd skel-home
-ls
-cp .bashrc.save ~/
-exit
-upall
-merge
-exit
-eba
-eb
-exit
-yay dig
-exit
-cd git/
-ls
-cd fitzland/
-ls
-cd bspwm-scripts/
-ls
-./300-software-arcolinux-3thparty.sh 
-ls
-./400-software-arcolinux-xlarge.sh 
-ls
-./600-additional-arcolinux-software.sh 
-ls
-ls
-./700-installing-fonts.sh 
-exit
-sudo pacman -S neofetch
-exit
-sudo pacman -Rns xterm
-exit
-sudo pacman -Rns xterm
-cd dots
-cd git/
-cd fitzland/
-cd bspwm-scripts/
-ls
-./600-additional-arcolinux-software.sh 
-nano 600-additional-arcolinux-software.sh 
-exit
-./600-additional-arcolinux-software.sh 
-nano 600-additional-arcolinux-software.sh 
-cd images
-cd wallpapers/
-cd system/
-ls
-sudo cp wide-* /usr/share/backgrounds/
-exit
-sudo pacman -Rns variety
-yay polybar
-exit
-yay pamac
-upall
-exit
-upall
-exit
-upall
-upall
-yay papirus folders
-cd git/
-git clone git@github.com:PapirusDevelopmentTeam/papirus-folders.git
-cd papirus-folders/
-ls
-./papirus-folders -C deeporange --theme Papirus-Dark
-exit
-sudo pacman -Rns qbittorrent 
-ls
-exit
-which polybar
-exit
-yay arco slstatus
-exit
-yay iosevka
-exit
-upall
-exit
-sudo pacman -Syyu
-exit
-cd .config/dwm/
-sudo make clean install
-exit
-yay logout
-exit
-bspc query -M --names
-xrandr -q
-exit
-yay pamac
-yay aic
-yay wd7
-exit
-cd .config/dwm/
-ls
-sudo make clean install
-exit
-yay picom
-yay polkit
 exit
 yay dropbox
 yay kvantum
@@ -497,4 +172,329 @@ exit
 upall
 htop
 cleanup
+exit
+htop
+cleanup
+dots
+ls
+./010-backup-home.sh 
+git add .
+git commit -m "font work on polybar"
+git push
+git status
+upall
+exit
+upall
+exit
+dots
+git status
+git pull
+exit
+upall
+cleanup
+exit
+cd .config/bspwm/polybar/scripts/
+ls
+./network-ipinfo.sh 
+sh network-ipinfo.sh 
+exit
+yay jq
+exit
+curl -sf "https://ipinfo.io/json
+q
+exit
+yay curl
+exit
+yay curl
+papirus-folders -l --theme Papirus-Dark
+cd git/
+cd papirus-folders/
+ls
+./papirus-folders -l --theme Papirus-Dark
+./papirus-folders -C orange --theme Papirus-Dark
+exit
+yay curl
+upall
+cd git/
+cd papirus-folders/
+ls
+nano README.md 
+./papirus-folders -C deeporange --theme Papirus-Dark
+exit
+upall
+cleanup
+exit
+yay regolith
+exit
+upall
+exit
+upall
+cleanup
+exit
+upall
+cleanup
+exit
+cd .config/
+ls
+cd dwm/
+sudo make clean install
+exit
+cd config
+cd dwm/
+sudo make clean install
+exit
+upall
+cleanup
+et
+exit
+yay tumbler
+sudo pacman -S libgsf ffmpegthumbnailer
+exit
+yay master pdf editor
+exit
+upall
+exit
+upall
+cleanup
+exit
+upall
+sudo pacman -Ss gnome
+cleanup
+exit
+arcolinux-tweak-tool 
+exit
+upall
+dots
+ls
+git status
+exit
+yay tweak-tool
+exit
+upall
+exit
+upall
+cleanup
+yay gnucash
+sudo pacman -S perl-date-manip perl-finance-quote
+exit
+upall
+exit
+yay numlockx
+exit
+sudo pacman -Rns numlockx
+exit
+upall
+cleanup
+exit
+upall
+sudo pacman -Rns chromium
+cleanup
+exit
+xprop
+exit
+upall
+exit
+yay mfc 2690
+exit
+yay simple screen 
+exit
+cleanup
+upall
+sudo pacman -Rns chromium
+cleanup
+xprop
+upall
+yay mfc 2690
+yay simple screen 
+ranger
+lf
+cd templates
+cd OpenDocument/
+cd Publications/
+cd ..
+cd Personnel/
+ls
+lowriter time-sheet.ott 
+exit
+lowriter time-sheet.ott 
+cd downloads
+cd tarballs/
+ls
+sudo ./PDFStudio_2021_linux64.sh 
+exit
+upall
+exit
+upall
+exit
+upall
+cleanup
+sudo pacman -S expac
+rip
+exit
+rip
+dotsd
+dots
+ls
+git status
+exit
+killall jwm
+exit
+alias
+nfstab
+mv /opt /opt-bak
+sudo mv /opt /opt-bak
+sudo cp -Ra /opt-bak/ /dev/sdc2
+sudo cp -Ra /opt-bak/ /dev/sdc2/opt
+mkdir /dev/sdc2/opt
+sudo mkdir /dev/sdc2/opt
+cd /dev/sdc2
+sudo mount -t ext4 /dev/sdc2 /opt
+exit
+lsblk
+blkid
+yay blkid
+mkdir /dev/sdc2/opt
+sudo mkdir /dev/sdc2/opt
+cd /dev/sdc2
+sudo mount -t ext4 /dev/sdc2 /opt
+lsblk
+blkid
+yay blkid
+sudo cp -Ra /opt-bak /opt
+rm -r opt-bak/
+sudo rm -r opt-bak/
+cd /opt-bak/
+sudo cp -Ra * /opt/
+cd /opt
+ls
+exit
+upall
+exit
+cd /opt
+upall
+cd ..
+sudo rm -r opt-bak/
+ls
+exit
+upall
+exit
+blkid
+lsblk
+mkswap /dev/sdc3
+sudo mkswap /dev/sdc3
+sudo mkswap -L swap /dev/sdc3
+nfstab
+exit
+lsblk --discard
+nfstab
+exit
+yay ukui
+sudo pacman -S ukui
+sudo pacman -S wmname
+nano ~/.config/bspwm/bspwmrc 
+exit
+clear
+clear
+cd downloads
+cd tarballs/
+ls
+sudo ./PDFStudio_2021_linux64.sh 
+exit
+sudo pacman -Rns ukui
+cleanup
+exit
+sudo pacman -Rns jwm
+exit
+cleanup
+sudo pacman -Rns jwm
+dots
+ls
+./010-backup-home.sh 
+git add .
+git commit -m "fix to JVM gray blob"
+git push
+git status
+exit
+upall
+exit
+yay upd72020
+exit
+yay microsoft-edge
+exit
+upall
+exit
+git push
+git status
+yay upd72020
+yay microsoft-edge
+yay reflector
+yay rsync
+mirror
+upall
+cleanup
+exit
+upall
+exit
+timedatectl set-local-rtc 1 --adjust-system-clock
+timedatectl
+exit
+upall
+exit
+ip link
+exit
+ip route
+exit
+ip route
+upall
+exit
+ping 192.168.1.103
+ping 192.168.1.107
+exit
+upall
+cleanup
+exit
+upall
+exit
+upall
+cleanup
+exit
+cleanup
+upall
+alias
+yay rdesktop
+echo-go
+ip route
+exit
+yay rdesktop
+echo-go
+ip route
+dots
+ls
+chface
+./010-backup-home.sh 
+git add .
+git commit -m "work on autostart for bspwm"
+git push
+git status
+exit
+upall
+cleanup
+exit
+upall
+cleanup
+exit
+upall
+cleanup
+exit
+cleanup
+eba
+merge
+chface
+exit
+merge
+chface
+unlock
+upfc
+cleanup
+upall
 exit

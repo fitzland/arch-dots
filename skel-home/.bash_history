@@ -1,36 +1,3 @@
-./papirus-folders -C deeporange --theme Papirus-Dark
-exit
-sudo pacman -Rns qbittorrent 
-ls
-exit
-which polybar
-exit
-yay arco slstatus
-exit
-yay iosevka
-exit
-upall
-exit
-sudo pacman -Syyu
-exit
-cd .config/dwm/
-sudo make clean install
-exit
-yay logout
-exit
-bspc query -M --names
-xrandr -q
-exit
-yay pamac
-yay aic
-yay wd7
-exit
-cd .config/dwm/
-ls
-sudo make clean install
-exit
-yay picom
-yay polkit
 exit
 yay dropbox
 yay kvantum
@@ -497,4 +464,37 @@ alias
 yay rdesktop
 echo-go
 ip route
+exit
+yay rdesktop
+echo-go
+ip route
+dots
+ls
+chface
+./010-backup-home.sh 
+git add .
+git commit -m "work on autostart for bspwm"
+git push
+git status
+exit
+upall
+cleanup
+exit
+upall
+cleanup
+exit
+upall
+cleanup
+exit
+cleanup
+eba
+merge
+chface
+exit
+merge
+chface
+unlock
+upfc
+cleanup
+upall
 exit

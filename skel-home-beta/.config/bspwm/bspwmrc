@@ -3,6 +3,7 @@
 ## Environtment
 export PATH="${PATH}:$HOME/.config/bspwm/bin"
 
+# Set display from arandr saved script
 sh ~/.screenlayout/monitor.sh &
 
 ## Get colors from .Xresources -------------------------------#
@@ -48,7 +49,7 @@ bspc config focus_follows_pointer true
 bspc rule -r *:*
 
 # 1 > terminal
-#bspc rule -a Alacritty desktop='^1' follow=on focus=on
+bspc rule -a Alacritty desktop='^1' follow=on focus=on
 
 # 2 > edit
 bspc rule -a Atom desktop='^2' follow=on focus=on
@@ -64,8 +65,8 @@ bspc rule -a Google-chrome desktop='^6' follow=on focus=on
 bspc rule -a Microsoft-edge-beta desktop='^6' follow=on
 
 # 4 > grfx
-declare -a media=(Gimp Gimp-2.10 Inkscape)
-for i in ${media[@]}; do
+declare -a grfx=(Gimp Gimp-2.10 Inkscape)
+for i in ${grfx[@]}; do
    bspc rule -a $i desktop='^4' follow=on focus=on; done
 
 # 3 > office
@@ -75,17 +76,18 @@ libreoffice-startcenter libreoffice Soffice *:libreofficedev *:soffice)
 for i in ${office[@]}; do
    bspc rule -a $i desktop='^3' follow=on focus=on; done
 
+# 8 > settings
+bspc rule -a GParted desktop='^8' follow=on focus=on
+bspc rule -a Lxappearance desktop='^8' follow=on focus=on
+declare -a settings=(Lxtask Lxrandr Arandr \
+System-config-printer.py Pavucontrol Exo-helper-1)
+for i in ${settings[@]}; do
+  bspc rule -a $i desktop='^8' state=floating follow=on focus=on; done
+
 # 9 > media
 declare -a media=(Audacity mpv mplayer lxmusic)
 for i in ${media[@]}; do
    bspc rule -a $i desktop='^9' follow=on focus=on; done
-
-# 6 > settings
-bspc rule -a GParted desktop='^8' follow=on focus=on
-declare -a settings=(Lxappearance Lxtask Lxrandr Arandr \
-System-config-printer.py Pavucontrol Exo-helper-1)
-for i in ${settings[@]}; do
-   bspc rule -a $i desktop='^8' state=floating follow=on focus=on; done
 
 # special rules
 bspc rule -a alacritty-float state=floating follow=on focus=on
@@ -112,6 +114,12 @@ dunst \
 # Lauch xsettingsd daemon
 xsettingsd &
 
+# Dex
+dex -a -s /etc/xdg/autostart/:~/.config/autostart/
+
+# Picom
+picom -CGb &
+
 # polkit agent
 if [[ ! `pidof xfce-polkit` ]]; then
 	/usr/lib/xfce-polkit/xfce-polkit &
@@ -129,8 +137,17 @@ xsetroot -cursor_name left_ptr &
 setxkbmap -option compose:rctrl &
 numlockx on &
 
+# start blueberry app for managing bluetooth devices from tray:
+blueberry-tray &
+
+# Network Applet
+nm-applet --indicator &
+
+dropbox &
+
 # Restore wallpaper
-bash $HOME/.fehbg
+#bash $HOME/.fehbg
+nitrogen --restore &
 
 # Start mpd
 # exec mpd &
@@ -144,4 +161,5 @@ bspfloat &
 ## Adjust backlight (AMD)
 #blight -d amdgpu_bl0 set 15%
 
+# Fix non-parenting windows
 wmname LG3D

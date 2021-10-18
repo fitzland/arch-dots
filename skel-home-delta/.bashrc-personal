@@ -58,7 +58,7 @@ alias psgrep="ps aux | grep -v grep | grep -i -e VSZ -e"
 alias updgrub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
 
 #add new fonts
-alias update-fc='sudo fc-cache -fv'
+alias upfc='sudo fc-cache -fv'
 
 #quickly kill conkies
 alias kc='killall conky'
@@ -130,7 +130,8 @@ alias skelcfg='meld $HOME/.config /etc/skel/.config'
 #alias skelbspwm='meld $HOME/.config/bspwm /etc/skel/.config/bspwm'
 alias skeli3='meld $HOME/.config/i3 /etc/skel/.config/i3'
 
-alias chface='cp $HOME/.face-bak .face'alias config='/usr/bin/git --git-dir=/home/jeff/.dots/ --work-tree=/home/jeff'
+alias chface='cp $HOME/.face-bak .face'
+alias config='/usr/bin/git --git-dir=/home/jeff/.dots/ --work-tree=/home/jeff'
 
 alias mcserver='ssh jeff@192.168.1.127'
 alias xps-go='rdesktop -k en-us -u f1tzl 192.168.1.103'
