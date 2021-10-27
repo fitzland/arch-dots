@@ -1,4 +1,7 @@
 ! -----------------------------------------------------------------------------
+! Copyright (C) 2020-2021 Aditya Shakya <adi1090x@gmail.com>
+! Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
+!
 ! Cyberpunk color scheme
 ! -----------------------------------------------------------------------------
 
@@ -6,7 +9,7 @@
 *.background:       #030315
 
 ! Colors 0-15.
-*.color0: #030315
+*.color0: #19192D
 *.color1: #553B88
 *.color2: #364995
 *.color3: #60559D

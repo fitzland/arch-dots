@@ -1,16 +1,15 @@
 ! -----------------------------------------------------------------------------
-! File: gruvbox-dark.xresources
-! Description: Retro groove colorscheme generalized
-! Author: morhetz <morhetz@gmail.com>
-! Source: https://github.com/morhetz/gruvbox-generalized
-! Last Modified: 6 Sep 2014
+! Copyright (C) 2020-2021 Aditya Shakya <adi1090x@gmail.com>
+! Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
+!
+! Gruvbox color scheme
 ! -----------------------------------------------------------------------------
 
 *background: #282828
 *foreground: #ebdbb2
 
 ! Black + DarkGrey
-*color0:  #282828
+*color0:  #3C3C3C
 *color8:  #928374
 
 ! DarkRed + Red

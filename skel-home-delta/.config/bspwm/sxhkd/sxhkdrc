@@ -1,14 +1,7 @@
-#
-# wm independent hotkeys
-#
+## Copyright (C) 2020-2021 Aditya Shakya <adi1090x@gmail.com>
+## Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
 
-#################################################################
-# SUPER + FUNCTION KEYS
-#################################################################
-
-# keybindings
-super + F1
-	~/.config/bspwm/scripts/keybindings_rofi.sh
+##---------- Keybindings for apps ----------##
 
 # Code
 super + F2
@@ -70,234 +63,175 @@ super + F12
 super + shift F12
     google-chrome-stable --profile-directory='Profile 1'
 
-#################################################################
-# SUPER + KEYS
-#################################################################
+##---------- Keybindings for bspwm ----------##
 
-# terminal emulator
+# Terminal (alacritty)
 super + Return
-    rofi-sensible-terminal
+	bspterm
 
-# program launcher
-super + slash
-	rofi -modi drun -show drun -line-padding 4 \
-	-columns 2 -padding 20 -hide-scrollbar -terminal rofi-sensible-terminal \
-	-show-icons -icon-theme "Papirus" -font "Iosevka Regular 11"
-
-# program launcher
-super + backslash
-	rofi -modi run -show run -line-padding 4 \
-    -columns 2 -padding 20 -hide-scrollbar -terminal rofi-sensible-terminal \
-    -show-icons -run-icon-theme "Papirus" -font "Iosevka Regular 11"
-
-# show open window
-super + ctrl + d
-	rofi -modi drun -show window -line-padding 4 \
-    -columns 2 -padding 20 -hide-scrollbar -terminal rofi-sensible-terminal \
-    -show-icons -drun-icon-theme "Papirus" -font "Iosevka Regular 11"
-
-# show ssh sesssions
-super + shift + slash
-	rofi -modi drun -show ssh -line-padding 4 \
-	-columns 2 -padding 20 -hide-scrollbar -terminal XTerm \
-	-show-icons -drun-icon-theme "Papirus" -font "Iosevka Regular 11"
-
-#arcolinux-logout
-super + x
-    arcolinux-logout
-
-#Rofi theme selector
-super + r
-    rofi-theme-selector
-
-# power-menu
-super + shift + e
-     ~/.config/bspwm/rofi/bin/powermenu.sh
-
-#arcolinux-logout
-ctrl + alt + k
-     arcolinux-logout
-
-#arcolinux-logout
-ctrl + alt + l
-    arcolinux-logout
-
-#Xkill
-super + Escape
-    xkill
-
-
-#################################################################
-# SUPER + SHIFT KEYS
-#################################################################
-
-#File-Manager
+# File Manager
 super + shift + Return
 	thunar
 
-#reload sxhkd:
-super + shift + s
-	pkill -USR1 -x sxhkd
+# Terminal (fullscreen)
+super + t
+	bspterm -s
 
-#
-# bspwm hotkeys
-#
+##---------- Rofi Launcher & Menus ----------##
 
-# quit/restart bspwm
-super + alt + {q,r}
-	bspc {quit,wm -r}
+# Rofi App Launcher
+super + slash
+	sh ~/.config/bspwm/rofi/bin/launcher
 
-# close and kill
-super + {_,shift + }q
+# Rofi Term Launcher
+super + backslash
+	sh ~/.config/bspwm/rofi/bin/launcher-term
+
+# Rofi Network Menu
+super + n
+	nmd
+
+# Rofi Themes Menu
+ctrl + alt + t
+	sh ~/.config/bspwm/rofi/bin/themes
+
+# Rofi Menus/Applets
+super + {w,m,x,r,s,i}
+	sh ~/.config/bspwm/rofi/bin/{windows,mpd,powermenu,asroot,screenshot,network}
+
+##---------- Applications ----------##
+
+# Launch Apps
+super + shift + {f,w,e}
+	{thunar,firefox,geany}
+
+# Terminal Apps
+ctrl + alt + {v,n,r,h,b}
+	alacritty --config-file ~/.config/bspwm/alacritty/alacritty.yml -e {vim,nvim,ranger,htop,bashtop}
+
+# Color Picker
+super + p
+	color-gpick
+
+# Lockscreen
+ctrl + alt + l
+    bsplock
+
+##---------- System Keys ----------##
+
+# Take a screenshot
+Print
+	takeshot --now
+
+# Take screenshot in 5 second
+alt + Print
+	takeshot --in5
+
+# Take screenshot in 10 second
+shift + Print
+	takeshot --in10
+
+# Take screenshot of active window
+ctrl + Print
+	takeshot --win
+
+# Take screenshot of area
+ctrl + alt + Print
+	takeshot --area
+
+# Brighness control
+XF86MonBrightness{Up,Down}
+	brightness{ --inc, --dec}
+
+# Volume control
+XF86Audio{RaiseVolume,LowerVolume}
+	volume{ --inc, --dec}
+
+XF86AudioMute
+	volume --toggle
+
+# Music control
+XF86Audio{Next,Prev,Play,Stop}
+	mpc {next,prev,toggle,stop}
+
+##---------- Bspwm ----------##
+
+# Close App
+super + {_,shift + }c
 	bspc node -{c,k}
 
-# alternate between the tiled and monocle layout
-super + m
-	bspc desktop -l next
+# Reload Keybindings
+super + Escape
+	pkill -USR1 -x sxhkd
 
-# send the newest marked node to the newest preselected node
-super + y
-	bspc node newest.marked.local -n newest.!automatic.local
+# kill window
+ctrl + alt + Escape
+    xkill
 
-# swap the current node and the biggest window
-super + g
-	bspc node -s biggest.window
+# Quit/Restart bspwm
+ctrl + shift + {q,r}
+	bspc {quit,wm -r}
 
-#
-# state/flags
-#
+# Split horizontal, vertical or cancel
+super + {h,v,q}
+	bspc node -p {east,south,cancel}
 
-# set the window state
-super + {t,shift + t,s,f}
-	bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
-
-# set the node flags
-super + ctrl + {m,x,y,z}
-	bspc node -g {marked,locked,sticky,private}
-
-#
-# focus/swap
-#
-
-# focus the node in the given direction
-super + {_,shift + }{h,j,k,l}
-	bspc node -{f,s} {west,south,north,east}
-
-# focus the node for the given path jump
-super + {p,b,comma,period}
-	bspc node -f @{parent,brother,first,second}
-
-# focus the next/previous window in the current desktop
-super + {_,shift + }c
-	bspc node -f {prev,next}.local.!hidden.window
-
-# Move focused window to other monitor
-super + shift + {comma,period}
-	bspc node -m {prev,next} --follow
-
-# focus the next/previous desktop current monitor
-super + bracket{left,right}
-	bspc desktop -f {prev,next}.local
-
-# focus the next/previous desktop all monitors
-super + {Prior,Next}
-	bspc desktop -f {prev,next}
-
-# move focused window to next/previous desktop in the current monitor
-super + shift + bracket{left,right}
-	bspc node --to-desktop {prev,next} --follow
-
-# Swap windows by direction
-super + shift + {Prior,Next}
-	bspc node -d {prev,next} --follow
-
-ctrl + alt + {Left,Right}
-	bspc desktop -f {prev,next}.occupied
-
-# focus the last node/desktop
-super + {grave,Tab}
-	bspc {node,desktop} -f last
-
-# focus the older or newer node in the focus history
-super + {o,i}
-	bspc wm -h off; \
-	bspc node {older,newer} -f; \
-	bspc wm -h on
-
-# focus or send to the given desktop
-super + {_,shift + }{1-9,0}
-	bspc {desktop -f,node -d} '^{1-9,10}'
-
-#
-# preselect
-#
-
-# preselect the direction
-super + ctrl + {h,j,k,l}
-	bspc node -p {west,south,north,east}
-
-# preselect the ratio
+# Preselect the ratio
 super + ctrl + {1-9}
 	bspc node -o 0.{1-9}
 
-# cancel the preselection for the focused node
-super + ctrl + space
-	bspc node -p cancel
+# Fullscreen or Monocle
+super + f
+#	bspc desktop -l next
+    bspc node -t "~"fullscreen
 
-# cancel the preselection for the focused desktop
-super + ctrl + shift + space
-	bspc query -N -d | xargs -I id -n 1 bspc node id -p cancel
+# Toggle beetwen floating & tiled
+super + space
+    bspc node -t "~"{floating,tiled}
 
-#
-# move/resize
-#
+# Pseudo Tiled & tiled mode
+super + shift + space
+#super + {p,t}
+    bspc node -t "~"{pseudo_tiled,tiled}
 
-# expand a window by moving one of its side outward
-super + alt + {h,j,k,l}
-	bspc node -z {left -20 0,bottom 0 20,top 0 -20,right 20 0}
+# Set the node flags
+super + ctrl + {m,x,y,z}
+	bspc node -g {marked,locked,sticky,private}
 
-# contract a window by moving one of its side inward
-super + alt + shift + {h,j,k,l}
-	bspc node -z {right -20 0,top 0 20,bottom 0 -20,left 20 0}
+# Send the window to another edge of the screen
+super + {_,shift + }{Left,Down,Up,Right}
+	bspc node -{f,s} {west,south,north,east}
 
-# move a floating window
-super + {Left,Down,Up,Right}
+# Change focus to next window, including floating window
+alt + {_,shift + }Tab
+	bspc node -f {next.local,prev.local}
+
+# Switch workspace
+ctrl + alt + {Left,Right}
+	bspc desktop -f {prev.local,next.local}
+
+# Switch to last opened workspace
+super + {Tab,grave}
+	bspc {node,desktop} -f last
+
+# Send focused window to another workspace
+super + {_,shift + }{1-8}
+	bspc {desktop -f,node -d} '^{1-8}'
+
+# Expanding windows
+super + control + {Left,Right,Up,Down}
+	bspc node -z {left -20 0,right 20 0,top 0 -20,bottom 0 20}
+
+## Shrinking windows
+super + alt + {Left,Right,Up,Down}
+	bspc node -z {left 20 0,right -20 0,top 0 20,bottom 0 -20}
+
+## Move floating windows
+alt + shift + {Left,Down,Up,Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
 
-#
-# Special hotkeys
-#
+# Hide/Unhide Window
+super + shift + i
+	winmask
 
-# Multimedia keys
-XF86AudioRaiseVolume
-  amixer -q set Master 5%+ unmute
-
-# Still muøltimedia
-XF86AudioLowerVolume
-  amixer -q set Master 5%- unmute
-
-# still
-XF86AudioMute
-  amixer -D pulse sset Master toggle-mute
-
-# amixer -q set Master toggle
-# Simple amixer command seems to have problems unmuting device
-
-# Brightness up
-XF86MonBrightnessUp
-  xbacklight -inc 5
-
-# And brightness down
-XF86MonBrightnessDown
-  xbacklight -dec 5
-
-# Screenshot
-Print
-  scrot ~/Pictures/Screenshot-$(date +%F_%T).png
-
-super+Print
-  ~/.config/bspwm/scripts/screenshot.sh
-
-# Shortcuts
-super + w
-  	firefox-developer-edition
+##---------- EOF ----------##
