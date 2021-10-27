@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+## Copyright (C) 2020-2021 Aditya Shakya <adi1090x@gmail.com>
+## Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
+
 ## Apply themes in Bspwm
 
 CFG="$HOME/.config"
@@ -9,7 +12,7 @@ XRES="$HOME/.Xresources.d"
 ## Set Style
 set_style () {
 	# apply wallpaper
-	feh --bg-scale "$BSP"/wallpapers/${1}
+	feh --bg-fill /usr/share/backgrounds/${1}
 	
 	# apply color-scheme
 	cat "$BSP"/themes/${2} > "$XRES"/colors

@@ -5,11 +5,11 @@
 
 # Code
 super + F2
-	code
+	atom
 
 # Atom
 super + shift + F2
-	atom
+	code
 
 #Inkscape
 super + F3
@@ -198,7 +198,7 @@ super + shift + space
 super + ctrl + {m,x,y,z}
 	bspc node -g {marked,locked,sticky,private}
 
-# Send the window to another edge of the screen
+# focus send the node in the given direction
 super + {_,shift + }{Left,Down,Up,Right}
 	bspc node -{f,s} {west,south,north,east}
 
@@ -208,11 +208,23 @@ alt + {_,shift + }Tab
 
 # Switch workspace
 ctrl + alt + {Left,Right}
-	bspc desktop -f {prev.local,next.local}
+	bspc desktop -f {prev,next}.occupied
 
 # Switch to last opened workspace
 super + {Tab,grave}
 	bspc {node,desktop} -f last
+
+# Move focused window to other monitor
+super + shift + {comma,period}
+	bspc node -m {prev,next} --follow
+
+# focus the next/previous desktop all monitors
+super + {Prior,Next}
+	bspc desktop -f {prev,next}
+
+# Swap windows by direction
+super + shift + {Prior,Next}
+	bspc node -d {prev,next} --follow
 
 # Send focused window to another workspace
 super + {_,shift + }{1-8}

@@ -1,4 +1,7 @@
 ! -----------------------------------------------------------------------------
+! Copyright (C) 2020-2021 Aditya Shakya <adi1090x@gmail.com>
+! Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
+!
 ! Rick color scheme
 ! -----------------------------------------------------------------------------
 
@@ -6,7 +9,7 @@
 *background:        #0d0e0d
 
 ! Colors 0-15.
-*color0:  #0d0e0d
+*color0:  #232323
 *color1:  #388D53
 *color2:  #448E52
 *color3:  #53AD9F

@@ -1,4 +1,7 @@
 ! -----------------------------------------------------------------------------
+! Copyright (C) 2020-2021 Aditya Shakya <adi1090x@gmail.com>
+! Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
+!
 ! Groot color scheme
 ! -----------------------------------------------------------------------------
 
@@ -6,7 +9,7 @@
 *background:        #0f1318
 
 ! Colors 0-15.
-*color0:  #0f1318
+*color0:  #23282D
 *color1:  #916738
 *color2:  #98764A
 *color3:  #699553
