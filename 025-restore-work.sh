@@ -10,15 +10,16 @@ echo "################################################################"
 echo "###############       DEFAULT Config      ######################"
 echo "################################################################"
 
-cp ./skel/config/i3/config $HOME/.config/i3/
-cp ./skel/config/i3/i3status-* $HOME/.config/i3/
-cp -r ./skel/config/rofi $HOME/.config/
-cp -r ./skel/config/sxhkd $HOME/.config/
-cp ./skel/.bashrc* $HOME/
-cp ./skel/.xprofile $HOME/
-cp ./skel/.Xresources $HOME/
-cp ./skel/.face $HOME/
-cp ./skel/.jwmrc $HOME/
+cp -rf ./skel-home/.config $HOME/
+cp -rf ./skel-home/.themes $HOME/
+cp -rf ./skel-home/.fonts $HOME/
+cp -rf ./skel-home/.xmonad $HOME/
+cp -rf ./skel-home/.Xresources.d $HOME/
+cp ./skel-home/.bash* $HOME/
+cp ./skel-home/.Xresources $HOME/
+cp ./skel-home/.face $HOME/
+cp ./skel-home/.jwmrc $HOME/
+cp ./skel-home/.zshrc $HOME/
 
 echo "################################################################"
 echo "#########   Config has been copied and loaded   ################"

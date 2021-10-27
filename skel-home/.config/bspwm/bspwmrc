@@ -23,8 +23,8 @@ getcolors () {
 getcolors
 
 ## Configurations -------------------------------#
-bspc monitor DP-4 -d 1 2 3 4 5
-bspc monitor DP-0 -d 6 7 8 9 10
+bspc monitor DP-5 -d 1 2 3 4 5
+bspc monitor DP-7 -d 6 7 8 9 10
 #bspc monitor -d 'I' 'II' 'III' 'IV' 'V' 'VI' 'VII' 'VIII'
 
 bspc config border_width 1
