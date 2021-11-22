@@ -1,45 +1,3 @@
-sudo apt install -f regolith-desktop-standard
-sudo apt install regolith-desktop-standard
-i3 --moreversion
-i3 --moreversion
-sudo apt install picom
-clear
-upall
-cleanup
-xrandr --listmonitors
-i3 --moreversion
-i3 --moreverion
-i3 --moreversion
-htop
-xprop
-xprop
-xprop
-sudo apt purge firefox
-y
-git commit -m "tweak for regolith"
-git commit -m 'tweak for regolith'
-cd ..
-sudo rm -r deb-dots/
-git clone git@github.com:fitzland/deb-dots.git
-dots
-ls
-nano 010-backup-skel.sh 
-./010-backup-skel.sh 
-git status
-git add .
-git commit -m 'add regolith config'
-./git-v1.sh 
-nano ./git-v1.sh 
-exit
-upall
-cleanup
-exit
-sudo apt install libreoffice
-xprop
-exit
-exit
-htop
-upall
 cleanup
 exit
 cd /etc/apt/sources.list.d
@@ -497,4 +455,46 @@ upall
 exit
 sudo pacman -Rns xfce-terminal
 sudo pacman -Rns xfce4-terminal
+exit
+yay -Syyu
+git
+yay git
+sudo pacman -S git
+alias
+eba
+eb
+eba
+yay libreoffice
+eba
+yay xreader
+yay dropbox
+cd /etc/i3/
+cp config ~/.config/i3/backup/config-default
+cp config ~/.config/i3/backups/config-default
+upall
+cleanup
+dots
+yay paru
+ls
+nano 010-backup-home.sh 
+./010-backup-home.sh 
+git commit -m 'adding i3 config backups'
+git pull
+git add .
+git commit -m 'work on bspwmrc'
+git status
+git push
+exit
+git push
+yay xev
+xev
+cleanup
+upall
+clear
+exit
+upall
+exit
+dots
+ls
+yay lightdm
 exit

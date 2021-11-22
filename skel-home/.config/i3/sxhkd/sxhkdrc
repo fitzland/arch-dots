@@ -63,36 +63,14 @@ super + F12
 super + shift F12
     google-chrome-stable --profile-directory='Profile 1'
 
-##---------- Keybindings for bspwm ----------##
-
-# Terminal (alacritty)
-super + Return
-	rofi-sensible-terminal
-
-# File Manager
-super + shift + Return
-	thunar
-
 ##---------- Rofi Launcher & Menus ----------##
-
-# Rofi App Launcher
-super + slash
-	sh ~/.config/rofi/bin/launcher
-
-# Rofi Term Launcher
-super + backslash
-	sh ~/.config/rofi/bin/launcher-term
-
-# Rofi Network Menu
-super + n
-	nmd
 
 # Rofi Themes Menu
 ctrl + alt + t
 	sh ~/.config/rofi/bin/themes
 
 # Rofi Menus/Applets
-super + {w,m,x,r,s,i}
-	sh ~/.config/rofi/bin/{windows,mpd,powermenu-archcraft,asroot,screenshot,network}
+super + {m,x,s}
+	sh ~/.config/i3/rofi/bin/{mpd,powermenu,screenshot}
 
 ##---------- EOF ----------##
