@@ -33,7 +33,7 @@ super + F7
 
 #Spotify
 super + F8
-    com.spotify.Client
+    thunar
 
 #Typora
 super + F9
@@ -49,11 +49,11 @@ super + shift + F10
 
 #Microsoft Edge
 super + F11
-    microsoft-edge-beta --profile-directory='Default'
+    microsoft-edge-stable --profile-directory='Default'
 
 #Microsoft Edge
 super + shift + F11
-    microsoft-edge-beta --profile-directory='Profile 1'
+    microsoft-edge-stable --profile-directory='Profile 1'
 
 #Chrome Primary
 super + F12
@@ -67,15 +67,11 @@ super + shift F12
 
 # Terminal (alacritty)
 super + Return
-	bspterm
+	rofi-sensible-terminal
 
 # File Manager
 super + shift + Return
 	thunar
-
-# Terminal (fullscreen)
-super + t
-	bspterm -s
 
 ##---------- Rofi Launcher & Menus ----------##
 
@@ -97,13 +93,9 @@ ctrl + alt + t
 
 # Rofi Menus/Applets
 super + {w,m,x,r,s,i}
-	sh ~/.config/bspwm/rofi/bin/{windows,mpd,powermenu,asroot,screenshot,network}
+	sh ~/.config/bspwm/rofi/bin/{windows,mpd,powermenu-archcraft,asroot,screenshot,network}
 
 ##---------- Applications ----------##
-
-# Launch Apps
-super + shift + {f,w,e}
-	{thunar,firefox,geany}
 
 # Terminal Apps
 ctrl + alt + {v,n,r,h,b}
@@ -207,7 +199,7 @@ alt + {_,shift + }Tab
 	bspc node -f {next.local,prev.local}
 
 # Switch workspace
-ctrl + alt + {Left,Right}
+super + alt + {Left,Right}
 	bspc desktop -f {prev,next}.occupied
 
 # Switch to last opened workspace

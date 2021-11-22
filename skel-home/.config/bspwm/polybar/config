@@ -14,70 +14,6 @@ include-file = ~/.config/bspwm/polybar/colors
 include-file = ~/.config/bspwm/polybar/modules
 
 [bar/main]
-monitor = DP-4
-monitor-strict = false
-override-redirect = false
-
-bottom = false
-fixed-center = true
-
-width = 100%
-height = 24
-offset-x = 0
-offset-y = 0
-
-background = ${color.BACKGROUND}
-foreground = ${color.FOREGROUND}
-
-radius-top = 0.0
-radius-bottom = 0.0
-
-line-size = 2
-line-color = ${color.BLUE}
-
-border-size = 4
-border-color = ${color.BACKGROUND}
-
-padding = 1
-module-margin-left = 0
-module-margin-right = 0
-
-font-0 = "Iosevka Nerd Font:size=10;3"
-font-1 = "Iosevka Nerd Font:size=12;3"
-font-2 = "google\-mdi:size=12;3"
-font-3 = "Iosevka:style=bold:"size=12;3"
-
-modules-left = bspwm sep mod sep title
-modules-center = kernel sep network-localip sep network-ipinfo
-modules-right = volume sep ethernet sep time
-
-separator =
-spacing = 0
-
-dim-value = 1.0
-
-wm-name = bspwm
-locale =
-
-tray-position = right
-tray-detached = false
-tray-maxsize = 16
-tray-transparent = false
-tray-background = ${color.BACKGROUND}
-tray-offset-x = 0
-tray-offset-y = 0
-tray-padding = 0
-tray-scale = 1.0
-
-wm-restack = bspwm
-
-enable-ipc = true
-
-; bspwm
-scroll-up = bspc desktop -f prev.local
-scroll-down = bspc desktop -f next.local
-
-[bar/extra]
 monitor = DP-0
 monitor-strict = false
 override-redirect = false
@@ -112,8 +48,72 @@ font-2 = "google\-mdi:size=12;3"
 font-3 = "Iosevka:style=bold:"size=12;3"
 
 modules-left = bspwm sep mod sep title
-modules-center = mpd
-modules-right = arch-updates sep date
+modules-center = kernel sep 
+modules-right = volume sep time
+
+separator =
+spacing = 0
+
+dim-value = 1.0
+
+wm-name = bspwm
+locale =
+
+tray-position = right
+tray-detached = false
+tray-maxsize = 16
+tray-transparent = false
+tray-background = ${color.BACKGROUND}
+tray-offset-x = 0
+tray-offset-y = 0
+tray-padding = 0
+tray-scale = 1.0
+
+wm-restack = bspwm
+
+enable-ipc = true
+
+; bspwm
+scroll-up = bspc desktop -f prev.local
+scroll-down = bspc desktop -f next.local
+
+[bar/extra]
+monitor = DP-2
+monitor-strict = false
+override-redirect = false
+
+bottom = false
+fixed-center = true
+
+width = 100%
+height = 24
+offset-x = 0
+offset-y = 0
+
+background = ${color.BACKGROUND}
+foreground = ${color.FOREGROUND}
+
+radius-top = 0.0
+radius-bottom = 0.0
+
+line-size = 2
+line-color = ${color.BLUE}
+
+border-size = 4
+border-color = ${color.BACKGROUND}
+
+padding = 1
+module-margin-left = 0
+module-margin-right = 0
+
+font-0 = "Iosevka Nerd Font:size=10;3"
+font-1 = "Iosevka Nerd Font:size=12;3"
+font-2 = "google\-mdi:size=12;3"
+font-3 = "Iosevka:style=bold:"size=12;3"
+
+modules-left = bspwm sep mod sep title
+modules-center = network-localip sep network-ipinfo
+modules-right = ethernet sep date
 
 separator =
 spacing = 0

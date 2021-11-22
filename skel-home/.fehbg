@@ -1,2 +1,2 @@
 #!/bin/sh
-feh --no-fehbg --bg-fill '/usr/share/backgrounds/nordic.jpg' 
+feh --no-fehbg --bg-scale '/usr/share/endeavouros/backgrounds/endeavouros-wallpaper.png' 

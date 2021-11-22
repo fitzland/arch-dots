@@ -3,13 +3,13 @@
 
 ##---------- Keybindings for apps ----------##
 
-# Code
-super + F2
-	code
-
 # Atom
-super + shift + F2
+super + F2
 	atom
+
+# Code
+super + shift + F2
+	code
 
 #Inkscape
 super + F3

@@ -28,13 +28,13 @@ cp -r $HOME/.config/Kvantum ./skel-home/.config/
 cp -r $HOME/.config/neofetch ./skel-home/.config/
 cp -r $HOME/.config/nitrogen ./skel-home/.config/
 cp -r $HOME/.config/pamac ./skel-home/.config/
-cp -r $HOME/.config/paru ./skel-home/.config/
+#cp -r $HOME/.config/paru ./skel-home/.config/
 cp -r $HOME/.config/picom ./skel-home/.config/
 cp -r $HOME/.config/polybar ./skel-home/.config/
 cp -r $HOME/.config/qt5ct ./skel-home/.config/
 cp -r $HOME/.config/rofi ./skel-home/.config/
 cp -r $HOME/.config/sxhkd ./skel-home/.config/
-cp -r $HOME/.xmonad/ ./skel-home/.xmonad/
+cp -r $HOME/.xmonad/ ./skel-home/
 cp -r $HOME/.Xresources.d ./skel-home/
 cp -r $HOME/.fonts ./skel-home/
 cp -r $HOME/.themes ./skel-home/

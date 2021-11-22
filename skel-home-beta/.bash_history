@@ -1,500 +1,500 @@
-cleanup
-exit
-fc-cache -vf
-fc-cache -vf
-gucharmap 
+sudo apt install -f regolith-desktop-standard
+sudo apt install regolith-desktop-standard
+i3 --moreversion
+i3 --moreversion
+sudo apt install picom
+clear
 upall
 cleanup
-git
-dots
+xrandr --listmonitors
+i3 --moreversion
+i3 --moreverion
+i3 --moreversion
+htop
+xprop
+xprop
+xprop
+sudo apt purge firefox
+y
+git commit -m "tweak for regolith"
+git commit -m 'tweak for regolith'
 cd ..
-cd fitzland/arch-dots/
-nano 010-backup-home.sh 
-./010-backup-home.sh 
+sudo rm -r deb-dots/
+git clone git@github.com:fitzland/deb-dots.git
+dots
+ls
+nano 010-backup-skel.sh 
+./010-backup-skel.sh 
+git status
 git add .
-git commit -m "font work on polybar"
-git push
-ls
-git status
-exit
-git commit -m "font work on polybar"
-dots
-ls
-rm -r fonts/
-git add .
-gts
-git commit -m "remove duplicate font files"
-git status
-git push
-exit
-rm -r fonts/
-gts
-git commit -m "remove duplicate font files"
-dots
-./010-backup-home.sh 
-git add .
-git commit -m "change to polybar colors"
-git push
-ls
-git status
-exit
-git commit -m "change to polybar colors"
-dots
-ls
-nano 015-restore-home.sh 
-git add .
-git commit -m "fix restore script"
-git status
-git push
-exit
-dots
-nano 010-backup-home.sh 
-exit
-upall
-htop
-cleanup
-exit
-htop
-cleanup
-dots
-ls
-./010-backup-home.sh 
-git add .
-git commit -m "font work on polybar"
-git push
-git status
-upall
-exit
-upall
-exit
-dots
-git status
-git pull
+git commit -m 'add regolith config'
+./git-v1.sh 
+nano ./git-v1.sh 
 exit
 upall
 cleanup
 exit
-cd .config/bspwm/polybar/scripts/
-ls
-./network-ipinfo.sh 
-sh network-ipinfo.sh 
-exit
-yay jq
-exit
-curl -sf "https://ipinfo.io/json
-q
-exit
-yay curl
-exit
-yay curl
-papirus-folders -l --theme Papirus-Dark
-cd git/
-cd papirus-folders/
-ls
-./papirus-folders -l --theme Papirus-Dark
-./papirus-folders -C orange --theme Papirus-Dark
-exit
-yay curl
-upall
-cd git/
-cd papirus-folders/
-ls
-nano README.md 
-./papirus-folders -C deeporange --theme Papirus-Dark
-exit
-upall
-cleanup
-exit
-yay regolith
-exit
-upall
-exit
-upall
-cleanup
-exit
-upall
-cleanup
-exit
-cd .config/
-ls
-cd dwm/
-sudo make clean install
-exit
-cd config
-cd dwm/
-sudo make clean install
-exit
-upall
-cleanup
-et
-exit
-yay tumbler
-sudo pacman -S libgsf ffmpegthumbnailer
-exit
-yay master pdf editor
-exit
-upall
-exit
-upall
-cleanup
-exit
-upall
-sudo pacman -Ss gnome
-cleanup
-exit
-arcolinux-tweak-tool 
-exit
-upall
-dots
-ls
-git status
-exit
-yay tweak-tool
-exit
-upall
-exit
-upall
-cleanup
-yay gnucash
-sudo pacman -S perl-date-manip perl-finance-quote
-exit
-upall
-exit
-yay numlockx
-exit
-sudo pacman -Rns numlockx
-exit
-upall
-cleanup
-exit
-upall
-sudo pacman -Rns chromium
-cleanup
-exit
+sudo apt install libreoffice
 xprop
 exit
+exit
+htop
 upall
-exit
-yay mfc 2690
-exit
-yay simple screen 
-exit
 cleanup
-upall
-sudo pacman -Rns chromium
-cleanup
+exit
+cd /etc/apt/sources.list.d
+ls
+nano dropbox.list
+sudo apt full-upgrade
+exit
+sudo apt install libreoffice
 xprop
+htop
 upall
-yay mfc 2690
-yay simple screen 
-ranger
-lf
-cd templates
-cd OpenDocument/
-cd Publications/
+cleanup
+cd /etc/apt/sources.list.d
+nano dropbox.list
+sudo apt full-upgrade
+sudo add-apt-repository ppa:oguzhaninan/stacer -y
+sudo apt update
+dots
+git push
 cd ..
-cd Personnel/
+git clone git@github.com:fitzland/ub-dots.git
 ls
-lowriter time-sheet.ott 
-exit
-lowriter time-sheet.ott 
-cd downloads
-cd tarballs/
-ls
-sudo ./PDFStudio_2021_linux64.sh 
-exit
-upall
-exit
-upall
-exit
-upall
-cleanup
-sudo pacman -S expac
-rip
-exit
-rip
-dotsd
-dots
-ls
+cd ub-dots/
+git add .
+gst
 git status
+git commit -m 'added backup and restore scripts'
+export GPG_TTY=$(tty)
+eb
 exit
-killall jwm
-exit
-alias
-nfstab
-mv /opt /opt-bak
-sudo mv /opt /opt-bak
-sudo cp -Ra /opt-bak/ /dev/sdc2
-sudo cp -Ra /opt-bak/ /dev/sdc2/opt
-mkdir /dev/sdc2/opt
-sudo mkdir /dev/sdc2/opt
-cd /dev/sdc2
-sudo mount -t ext4 /dev/sdc2 /opt
-exit
-lsblk
-blkid
-yay blkid
-mkdir /dev/sdc2/opt
-sudo mkdir /dev/sdc2/opt
-cd /dev/sdc2
-sudo mount -t ext4 /dev/sdc2 /opt
-lsblk
-blkid
-yay blkid
-sudo cp -Ra /opt-bak /opt
-rm -r opt-bak/
-sudo rm -r opt-bak/
-cd /opt-bak/
-sudo cp -Ra * /opt/
-cd /opt
-ls
-exit
-upall
-exit
-cd /opt
-upall
+dots
 cd ..
-sudo rm -r opt-bak/
 ls
+cd ub-dots/
+git status
+git commit -m 'added backup and restore scripts'
 exit
-upall
-exit
-blkid
-lsblk
-mkswap /dev/sdc3
-sudo mkswap /dev/sdc3
-sudo mkswap -L swap /dev/sdc3
-nfstab
-exit
-lsblk --discard
-nfstab
-exit
-yay ukui
-sudo pacman -S ukui
-sudo pacman -S wmname
-nano ~/.config/bspwm/bspwmrc 
-exit
-clear
-clear
-cd downloads
-cd tarballs/
-ls
-sudo ./PDFStudio_2021_linux64.sh 
-exit
-sudo pacman -Rns ukui
-cleanup
-exit
-sudo pacman -Rns jwm
-exit
-cleanup
-sudo pacman -Rns jwm
-dots
-ls
-./010-backup-home.sh 
+cd /etc/apt/sources.list.d
+nano dropbox.list
+sudo apt full-upgrade
+sudo add-apt-repository ppa:oguzhaninan/stacer -y
+sudo apt update
+cd ..
+git clone git@github.com:fitzland/ub-dots.git
 git add .
-git commit -m "fix to JVM gray blob"
-git push
-git status
-exit
-upall
-exit
-yay upd72020
-exit
-yay microsoft-edge
-exit
-upall
-exit
-git push
-git status
-yay upd72020
-yay microsoft-edge
-yay reflector
-yay rsync
-mirror
-upall
-cleanup
-exit
-upall
-exit
-timedatectl set-local-rtc 1 --adjust-system-clock
-timedatectl
-exit
-upall
-exit
-ip link
-exit
-ip route
-exit
-ip route
-upall
-exit
-ping 192.168.1.103
-ping 192.168.1.107
-exit
-upall
-cleanup
-exit
-upall
-exit
-upall
-cleanup
-exit
-cleanup
-upall
-alias
-yay rdesktop
-echo-go
-ip route
-exit
-yay rdesktop
-echo-go
-ip route
+gst
+export GPG_TTY=$(tty)
+cd ..
+eb
+git config --global gpg.program gpg2
+echo "test" | gpg2 --clearsign
+sudo apt install gnupg2
 dots
-ls
-chface
-./010-backup-home.sh 
-git add .
-git commit -m "work on autostart for bspwm"
+cd .. 
+cd ub-dots/
+git commit -m 'added backup and restore scripts'
 git push
 git status
-exit
-upall
-cleanup
-exit
-upall
-cleanup
-exit
-upall
-cleanup
-exit
-cleanup
+mkdir skel-delta
+mkdir skel-beta
+nano 010-backup-skel.sh 
+./010-backup-skel.sh 
+cd
+ls
+ls -la
 eba
-merge
-chface
 exit
-merge
-chface
-unlock
-upfc
+cd /etc/apt/sources.list.d
+nano dropbox.list
+sudo apt full-upgrade
+sudo add-apt-repository ppa:oguzhaninan/stacer -y
+sudo apt update
+git clone git@github.com:fitzland/ub-dots.git
+gst
+export GPG_TTY=$(tty)
+eb
+git config --global gpg.program gpg2
+echo "test" | gpg2 --clearsign
+sudo apt install gnupg2
+cd .. 
+cd ub-dots/
+git commit -m 'added backup and restore scripts'
+mkdir skel-delta
+mkdir skel-beta
+cd
+exrr
+eri3
+cd skel
+ls -la
+git commit -m 'added backup files'
+cd ..
+cd deb-dots/
+nano 010-backup-skel.sh 
+./010-backup-skel.sh 
+git add .
+git commit -m 'fix to backup script and files'
+git push
+git status
+dots
+ls
+eba
+exit
+eba
+eri3
+erxr
+exit
+eri3
+erxr
+exit
+git commit -m 'added backup files'
+cd ..
+cd deb-dots/
+nano 010-backup-skel.sh 
+git commit -m 'fix to backup script and files'
+eba
+eba
+erxr
+git add .
+git commit -m 'change launcher keybindings'
+git push
+git status
+mkdir -p ~/.config/regolith/.Xresources.d
+cd ~/.config/regolith/
+ls -la
+dots
+./010-backup-skel.sh 
+cd /etc/apt/sources.list.d
+sudo rm oguzhaninan-ubuntu-stacer-impish.list 
+ls
+upall
 cleanup
+xprop
+eri3
+exit
+upall
+xprop
+eri3
+exit
+upall
+xprop
+eri3
+cd /etc/regolith/i3xrocks/
+cd conf.d/
+mkdir -p ~/.config/regolith/i3xrocks/conf.d
+cp ./* ~/.config/regolith/i3xrocks/conf.d/
+cd ~/.config/regolith/i3xrocks/conf.d/
+ls
+dots
+./010-backup-skel.sh 
+git add .
+git commit -m 'add i3xrocks config files'
+git push
+git status
+cleanup
+exit
+cd .local/share/applications/
+ls
+nano mimeapps.list 
+nano mimeinfo.cache 
+sudo apt search gnome-tweaks
+sudo apt install gnome-tweaks
+cleanup
+exit
+cleanup
+exit
+erxr
+eri3
+exit
+erxr
+eri3
+cd /etc/apt/
+cd sources.list.d
+ls
+nano regolith-linux-ubuntu-release-impish.list
+upall
+cleanup
+cd
+exit
+sudo apt install gnucharmap
+exit
+sudo apt install gnucharmap
+dots
+ls
+./010-backup-skel.sh 
+git add .
+git commit -m 'tweak to keybindings'
+git push
+git status
 upall
 exit
-sudo pacman -S rofi
-yay alacritty
-yay rofi
-yay thunar
-yay tumbler
-sudo pacman -S ffmpegthumbnailer libgsf
-yay google-chrome
-sudo pacman -S google-chrome
-sudo pacman -S google-chrome
-sudo pacman -S dmenu
-cd .config
-cd bspwm/
-nano autostart.sh 
-mv autostart.sh autostart.bak
-bspwm exit
-dots
-cd bspwm-scripts/
-./200-software-arch-linux.sh 
-./300-software-arcolinux-3thparty.sh 
-./400-software-arcolinux-xlarge.sh 
-./500-software-distro-specific.sh 
-./600-additional-arcolinux-software.sh 
-./140-printers.sh 
-cd ..
-cd arch-dots/
-ls
-./015-restore-home.sh 
-killall bspwm
-sudo pacman -S sxhkd
+sudo apt install mpv
+cleanup
 exit
-./140-printers.sh 
-cd ..
-cd arch-dots/
-./015-restore-home.sh 
-killall bspwm
-sudo pacman -S sxhkd
-cd /opt/
-sudo pacman -Rns google-chrome
-sudo rm -r google/
-sudo pacman -Rns sublime-text
-sudo pacman -Rns sublime-text-4 
-sudo pacman -Rns discord 
-sudo pacman -Rns microsoft/
-sudo rm -r microsoft/
-yay google-chrome
-yay microsoft-edge
-sudo pacman -Rns chromium
+sudo apt install keepassxc
+sudo apt install -f keepassxc
+upall
+cleanup
+exit
+upall
+exit
+hotp
+htop
+exit
+upall
+cleanup
+exit
+bootctl status
+sudo bootctl status
+exit
+cd downloads
+cd iso/
 ls
-sudo rm -r dropbox/
+sudo dd if=ubuntu-21.10-live-server-amd64.iso of=/dev/sdd bs=4M && sync
+exit
+exit
+cd downloads
+cd iso/
+sudo dd if=ubuntu-21.10-live-server-amd64.iso of=/dev/sdd bs=4M && sync
+exit
+sudo apt install neofetch
+sudo apt install bspwm
+sudo apt install polybar
+sudo apt install rofi
+sudo apt install i3-gaps
+sudo apt install i3-wm
+sudo apt update
+sudo apt upgrade
+upall
+cleanup
+sudo apt install keepassxc
+sudo apt install thunar
+sudo apt install alacritty
+sudo apt install dmenu
+
+cd git/
+cd fitzland/
+cd deb-dots/
+./100-display-manager-and-desktop.sh 
+./110-development-software.sh 
+./120-install-sound.sh 
+./130-bluetooth.sh
+./140-printers.sh 
+ls
+nano 200-software-arch-linux.sh
+./200-software-arch-linux.sh
+sudo apt install inkscape
+sudo apt install sddm
+reboot
+sudo apt install nvidia
+cd /etc/apt/sources.list.d/
+ls
+ls -la
+cd ..
+sudo nano sources.list
+exit
+sudo apt install synaptic
+exit
+sudo pacman -Syyu
+cd git
+ls
+cd fitzland/
+ls
+cd arch-dots/
+ls
+cd ..
+ls
+cd ..
+ls
+cd endeavouros/
+ls
+cd bspwm/
+ls
+ls
+cd ..
+ls
+cd ..
+ls
+cd dubois/
+ls
+cd arco-bspwm/
+ls
+./100-display-manager-and-desktop.sh 
+ls
+./110-development-software.sh 
+ls
+./120-sound.sh 
+./130-bluetooth.sh 
+ls
+./140-printers.sh 
+ls
+./200-software-arch-linux.sh 
+ls
+./500-software-distro-specific.sh 
+ls
+ls
+cd ..
+ls
+cd ..
+ls
+cd fitzland/
+ls
+cd bspwm-scripts/
+ls
+./100-display-manager-and-desktop.sh 
+ls
+./110-development-software.sh 
+ls
+./120-sound.sh 
+./130-bluetooth.sh 
+ls
 yay dropbox
+yay dropbox
+yay google-chrome
+reboot
+yay sddm
+sudo pacman -S --needed os-prober
+ls
+cd /etc/default/
+sudo nano grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+reboot
+xrandr
+exit
+exit
+exit
+sudo pacman Rns xfce4-terminal
+eixt
+eba
+eb
+exit
+exit
+exit
+sudo pacman -Rns rxvt-unicode
+rip
+xterm
+exit
+sudo pacman -S ranger
+ranger
+yay micro
+yay alacrity
+yay alacritty
+exit
+exit
+upall
+sudo pacman -Syyu
+yay jetbrains
+exit
+exit
+ls
+exit
+yay i3-gaps
+yay dmenu
+exit
+yay git
+exit
+exit
+exit
+exit
+yay rofi
+exit
+exit
+yay pamac
+exit
+yay polkit
+exit
+exit
+exit
+sudo pacman -Rns alacritty
+sudo pacman -S nvidia-settings
+exit
+sudo pacman -Rns xterm
+exit
+exit
+exit
+yay atom
+exit
+yay i3status
+yay google-chrome
+yay keepassxc
+exit
+yay st
+yay suckless
+exit
+exit
+yay alacritty
+sudo pacman -Rns Xfce4-terminal
+sudo pacman -Rns xfce-terminal
+sudo pacman -Rns terminal
+exit
+exit
+exit
+upall
+yay -syyu
+yay -Syyu
+exit
+exit
+exit
+exit
+exit
+cd /usr/bin
+ls
+thunar --new-window
+thunar --help
+exit
+yay alacrityy
+yay alacritty
+exit
+sudo pacman -Rns xfce-terminal
+exit
+--help
+help
+xprop
 exit
 yay iosevka
+fc-cache -vf
+exit
+exit
+exit
+htop
 exit
 upall
+yay -Syyu
 exit
-cd downloads/tarballs/
-ls
-sudo ./PDFStudio_2021_linux64.sh 
-yay master pdf editor
 exit
-upall
-cleanup
-yay wd7
-yay aic
-yay xhci
-yay xhci_pci
-yay xhci pci
+git
+yay git
+sudo pacman -S git
 exit
-sudo pacman -Rns bibata-cursor-theme-bin 
-sudo pacman -Rns surfn-icons-git 
-cleanup
 exit
-sudo pacman -Rns bibata-cursor-theme-bin 
-sudo pacman -Rns surfn-icons-git 
-cleanup
-cd .config
-git clone git@github.com:fitzland/dwm.git
-cd dwm/
-sudo make clean install
+exit
+exit
 alias
-xd
-cd /usr/share/xsessions/
-ls
-sudo cp bspwm.desktop dwm.desktop
-sudo nano dwm.desktop 
+eba
+eb
 exit
-killall bspwm
-cd images/wallpapers/
-ls
-cd system/
-sudo cp wide-* /usr/share/backgrounds/
+upall
+eba
 exit
-yay slstatus
-exit
-yay gnucash
-exit
-yay gnucash
-timedatectl set-local-rtc 1
-timedatectl set-local-rtc 1 --adjust-system-clock
-timedatectl
-exit
-timedatectl
+upall
 cleanup
-upall
 exit
-upall
-exit
-timedatectl status
-sudo timedatectl | grep Time
-exit
-upall
+yay libreoffice
 dots
-git status
-cleanup
+eba
 exit
-cd downloads/iso/
+dots
 ls
-sudo dd if=archcraft-2021.10.05-x86_64.iso of=/dev/sdd bs=4M && sync
+git status
+exit
+yay xreader
+exit
+yay dropbox
+exit
+upall
+exit
+sudo pacman -Rns xfce-terminal
+sudo pacman -Rns xfce4-terminal
 exit

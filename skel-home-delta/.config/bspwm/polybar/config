@@ -113,7 +113,7 @@ font-3 = "Iosevka:style=bold:"size=12;3"
 
 modules-left = bspwm sep mod sep title
 modules-center = mpd
-modules-right = arch-updates sep ethernet sep date
+modules-right = arch-updates sep date
 
 separator =
 spacing = 0

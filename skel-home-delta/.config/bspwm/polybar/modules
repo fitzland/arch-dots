@@ -251,8 +251,9 @@ time = %a, %d %b %Y
 time-alt = %I:%M %p
 
 format = <label>
-format-prefix = " "
+format-prefix = ""
 format-prefix-font = 3
+format-prefix-padding = 2
 format-prefix-foreground = ${color.RED}
 
 label = %time%
@@ -269,8 +270,9 @@ time = %I:%M %p
 time-alt = %a, %d %b %Y
 
 format = <label>
-format-prefix = " "
+format-prefix = ""
 format-prefix-font = 3
+format-prefix-padding = 2
 format-prefix-foreground = ${color.RED}
 
 label = %time%

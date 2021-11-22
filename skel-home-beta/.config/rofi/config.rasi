@@ -6,3 +6,4 @@ configuration {
   hide-scrollbar:     true;
   disable-history:    false;
 }
+@theme "/usr/share/rofi/themes/android_notification.rasi"

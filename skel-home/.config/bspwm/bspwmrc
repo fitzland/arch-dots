@@ -39,8 +39,8 @@ getcolors
 #}
 #workspaces
 
-bspc monitor DP-4 -d 1 2 3 4 5
-bspc monitor DP-0 -d 6 7 8 9 10
+bspc monitor DP-0 -d 1 2 3 4 5
+bspc monitor DP-2 -d 6 7 8 9 10
 #bspc monitor -d 'I' 'II' 'III' 'IV' 'V' 'VI' 'VII' 'VIII'
 
 bspc config border_width 1
@@ -64,38 +64,39 @@ bspc config focus_follows_pointer true
 bspc rule -r *:*
 
 # 1 > terminal
-bspc rule -a Alacritty desktop='^1' follow=on focus=on
-bspc rule -a Xfce4-terminal desktop='^1' follow=on focus=on
+declare -a term=(Alacritty Xfce4-terminal Gnome-terminal)
+for i in ${term[@]}; do
+   bspc rule -a $i desktop='^1' follow=on focus=on; done
 
-# 2 > web
-bspc rule -a firefox desktop='^2' follow=on focus=on
-bspc rule -a firefoxdeveloperedition desktop='^2' follow=on focus=on
-bspc rule -a chromium desktop='^2' follow=on focus=on
-
-# 3 > grfx
-declare -a grfx=(Inkscape Gimp-2.10)
-for i in ${grfx[@]}; do
-   bspc rule -a $i desktop='^3' follow=on focus=on; done
-
-# 4 > code
-declare -a code=(Atom Code Geany code-oss)
+# 2 > code
+declare -a code=(Atom Code Gedit Geany Meld code-oss)
 for i in ${code[@]}; do
-   bspc rule -a $i desktop='^4' follow=on focus=on; done
+  bspc rule -a $i desktop='^2' follow=on focus=on; done
 
-# 5 > office and docs
+# 3 > office and docs
 declare -a office=(Gucharmap Atril Evince \
 libreoffice-writer libreoffice-calc libreoffice-impress \
 libreoffice-startcenter libreoffice Soffice *:libreofficedev *:soffice)
 for i in ${office[@]}; do
-   bspc rule -a $i desktop='^5' follow=on focus=on; done
+ bspc rule -a $i desktop='^3' follow=on focus=on; done
 
-# 6 > Communication
+# 4 > grfx
+declare -a grfx=(Inkscape Gimp-2.10)
+for i in ${grfx[@]}; do
+   bspc rule -a $i desktop='^4' follow=on focus=on; done
+
+# 5 > web
+bspc rule -a firefox desktop='^5' follow=on focus=on
+bspc rule -a firefoxdeveloperedition desktop='^5' follow=on focus=on
+bspc rule -a chromium desktop='^5' follow=on focus=on
+
+# 6 > home
 declare -a comm=(Google-chrome Microsoft-edge-beta Thunderbird TelegramDesktop Hexchat)
 for i in ${comm[@]}; do
    bspc rule -a $i desktop='^6' follow=on focus=on; done
 
 # 7 > files
-declare -a files=(Thunar Meld)
+declare -a files=(Thunar Nautilus)
 for i in ${files[@]}; do
    bspc rule -a $i desktop='^7' follow=on focus=on; done
 
@@ -111,7 +112,7 @@ for i in ${settings[@]}; do
 # 9 > media
 declare -a media=(Audacity Music MPlayer Lxmusic obs)
 for i in ${media[@]}; do
-  bspc rule -a $i desktop='^7' state=floating follow=on focus=on; done
+  bspc rule -a $i desktop='^9' state=floating follow=on focus=on; done
 
 # special rules
 declare -a floating=(alacritty-float Onboard Yad 'Firefox:Places' \
@@ -141,9 +142,13 @@ xsettingsd &
 dex -a -s /etc/xdg/autostart/:~/.config/autostart/
 
 # polkit agent
-if [[ ! `pidof xfce-polkit` ]]; then
-	/usr/lib/xfce-polkit/xfce-polkit &
+#if [[ ! `pidof xfce-polkit` ]]; then
+#	/usr/lib/xfce-polkit/xfce-polkit &
+#fi
+if [[ ! `pidof lxpolkit` ]]; then
+	/usr/bin/lxpolkit &
 fi
+
 
 # Lauch keybindings daemon
 sxhkd -c $HOME/.config/bspwm/sxhkd/sxhkdrc &
@@ -153,7 +158,10 @@ ksuperkey -e 'Super_L=Alt_L|F1' &
 ksuperkey -e 'Super_R=Alt_L|F1' &
 
 # Enable power management
-xfce4-power-manager &
+#xfce4-power-manager &
+
+# Network Applet
+nm-applet &
 
 # Fix cursor
 xsetroot -cursor_name left_ptr
@@ -165,10 +173,11 @@ setxkbmap -option compose:rctrl &
 blueberry-tray &
 
 # Restore wallpaper
-bash $HOME/.fehbg
+#bash $HOME/.fehbg
+nitrogen --restore
 
 # Start mpd
-exec mpd &
+#exec mpd &
 
 # Start dropbox
 exec dropbox &
