@@ -26,11 +26,6 @@ getcolors() {
 }
 getcolors
 
-<<<<<<< HEAD
-## Configurations -------------------------------#
-bspc monitor DP-5 -d 1 2 3 4 5
-bspc monitor DP-7 -d 6 7 8 9 10
-=======
 ## Configurations --------------------------------------------#
 #workspaces() {
 #	name=1
@@ -44,14 +39,8 @@ bspc monitor DP-7 -d 6 7 8 9 10
 #}
 #workspaces
 
-<<<<<<< HEAD
 bspc monitor DP-0 -d 1 2 3 4 5
 bspc monitor DP-2 -d 6 7 8 9 10
-=======
-bspc monitor DP-4 -d 1 2 3 4 5
-bspc monitor DP-0 -d 6 7 8 9 10
->>>>>>> 52ccdbb80b56c961c76cd3626222e319e0685fc9
->>>>>>> 6abbd9ab8b0dc185b79dd2f4ca8144a5239f67de
 #bspc monitor -d 'I' 'II' 'III' 'IV' 'V' 'VI' 'VII' 'VIII'
 
 bspc config border_width 1
