@@ -18,7 +18,7 @@ logout=""
 
 # Variable passed to rofi
 #options="$shutdown\n$reboot\n$lock\n$suspend\n$logout"
-options="$shutdown\n$reboot\n$lock\n$logout"
+options="$shutdown\n$reboot\n$lock\n$suspend\n$logout"
 _msg="Options  -  yes / y / no / n"
 
 chosen="$(echo -e "$options" | $rofi_command -p "UP - $uptime" -dmenu -selected-row 2)"
@@ -44,7 +44,7 @@ case $chosen in
         fi
         ;;
     $lock)
-        bsplock
+        i3lock -i  ~/.config/i3/lockscreen.png -p default|win -t
         ;;
     $suspend)
 		ans=$($HOME/.config/i3/rofi/bin/confirm)

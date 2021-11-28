@@ -1,192 +1,3 @@
-cleanup
-exit
-cd /etc/apt/sources.list.d
-ls
-nano dropbox.list
-sudo apt full-upgrade
-exit
-sudo apt install libreoffice
-xprop
-htop
-upall
-cleanup
-cd /etc/apt/sources.list.d
-nano dropbox.list
-sudo apt full-upgrade
-sudo add-apt-repository ppa:oguzhaninan/stacer -y
-sudo apt update
-dots
-git push
-cd ..
-git clone git@github.com:fitzland/ub-dots.git
-ls
-cd ub-dots/
-git add .
-gst
-git status
-git commit -m 'added backup and restore scripts'
-export GPG_TTY=$(tty)
-eb
-exit
-dots
-cd ..
-ls
-cd ub-dots/
-git status
-git commit -m 'added backup and restore scripts'
-exit
-cd /etc/apt/sources.list.d
-nano dropbox.list
-sudo apt full-upgrade
-sudo add-apt-repository ppa:oguzhaninan/stacer -y
-sudo apt update
-cd ..
-git clone git@github.com:fitzland/ub-dots.git
-git add .
-gst
-export GPG_TTY=$(tty)
-cd ..
-eb
-git config --global gpg.program gpg2
-echo "test" | gpg2 --clearsign
-sudo apt install gnupg2
-dots
-cd .. 
-cd ub-dots/
-git commit -m 'added backup and restore scripts'
-git push
-git status
-mkdir skel-delta
-mkdir skel-beta
-nano 010-backup-skel.sh 
-./010-backup-skel.sh 
-cd
-ls
-ls -la
-eba
-exit
-cd /etc/apt/sources.list.d
-nano dropbox.list
-sudo apt full-upgrade
-sudo add-apt-repository ppa:oguzhaninan/stacer -y
-sudo apt update
-git clone git@github.com:fitzland/ub-dots.git
-gst
-export GPG_TTY=$(tty)
-eb
-git config --global gpg.program gpg2
-echo "test" | gpg2 --clearsign
-sudo apt install gnupg2
-cd .. 
-cd ub-dots/
-git commit -m 'added backup and restore scripts'
-mkdir skel-delta
-mkdir skel-beta
-cd
-exrr
-eri3
-cd skel
-ls -la
-git commit -m 'added backup files'
-cd ..
-cd deb-dots/
-nano 010-backup-skel.sh 
-./010-backup-skel.sh 
-git add .
-git commit -m 'fix to backup script and files'
-git push
-git status
-dots
-ls
-eba
-exit
-eba
-eri3
-erxr
-exit
-eri3
-erxr
-exit
-git commit -m 'added backup files'
-cd ..
-cd deb-dots/
-nano 010-backup-skel.sh 
-git commit -m 'fix to backup script and files'
-eba
-eba
-erxr
-git add .
-git commit -m 'change launcher keybindings'
-git push
-git status
-mkdir -p ~/.config/regolith/.Xresources.d
-cd ~/.config/regolith/
-ls -la
-dots
-./010-backup-skel.sh 
-cd /etc/apt/sources.list.d
-sudo rm oguzhaninan-ubuntu-stacer-impish.list 
-ls
-upall
-cleanup
-xprop
-eri3
-exit
-upall
-xprop
-eri3
-exit
-upall
-xprop
-eri3
-cd /etc/regolith/i3xrocks/
-cd conf.d/
-mkdir -p ~/.config/regolith/i3xrocks/conf.d
-cp ./* ~/.config/regolith/i3xrocks/conf.d/
-cd ~/.config/regolith/i3xrocks/conf.d/
-ls
-dots
-./010-backup-skel.sh 
-git add .
-git commit -m 'add i3xrocks config files'
-git push
-git status
-cleanup
-exit
-cd .local/share/applications/
-ls
-nano mimeapps.list 
-nano mimeinfo.cache 
-sudo apt search gnome-tweaks
-sudo apt install gnome-tweaks
-cleanup
-exit
-cleanup
-exit
-erxr
-eri3
-exit
-erxr
-eri3
-cd /etc/apt/
-cd sources.list.d
-ls
-nano regolith-linux-ubuntu-release-impish.list
-upall
-cleanup
-cd
-exit
-sudo apt install gnucharmap
-exit
-sudo apt install gnucharmap
-dots
-ls
-./010-backup-skel.sh 
-git add .
-git commit -m 'tweak to keybindings'
-git push
-git status
-upall
 exit
 sudo apt install mpv
 cleanup
@@ -497,4 +308,193 @@ exit
 dots
 ls
 yay lightdm
+exit
+git commit -m 'adding i3 config backups'
+git pull
+git commit -m 'work on bspwmrc'
+yay xev
+xev
+upall
+clear
+upall
+yay lightdm
+dots
+git commit -m 'work on powermenu script'
+git status
+cleanup
+ls
+./010-backup-home.sh 
+git add .
+git commit -m 'work on i3 theme selector
+'
+git puhs
+git push
+gts
+exit
+cd images
+cd wallpapers/system/
+ls
+sudo cp dracula.png /usr/share/backgrounds
+sudo cp beach.jpg /usr/share/backgrounds 
+sudo cp blade.jpg /usr/share/backgrounds 
+sudo cp bouquet.jpg /usr/share/backgrounds 
+exit
+cd .themes/
+ls
+sudo cp -r Dracula /usr/share/themes/
+sudo cp -r Blade /usr/share/themes/
+sudo cp -r ./* /usr/share/themes/
+exit
+yay gnome-disk-utility
+exit
+cd downloads/iso/
+ls
+sudo dd if=archcraft-2021.10.05-x86_64.iso of=/dev/sdd bs=4M && sync
+upall
+yay aic9
+yay wd7
+yay upd720
+exit
+yay gimp
+yay inkscape
+sudo pacman -S python-lxml scour python-numpy
+exit
+sudo pacman -S --needed os-prober
+sudo nano /etc/default/grub
+exit
+./010-backup-home.sh 
+git add .
+git commit -m 'work on i3 theme selector
+'
+git puhs
+git push
+gts
+cd images
+cd wallpapers/system/
+sudo cp dracula.png /usr/share/backgrounds
+sudo cp beach.jpg /usr/share/backgrounds 
+sudo cp blade.jpg /usr/share/backgrounds 
+sudo cp bouquet.jpg /usr/share/backgrounds 
+cd .themes/
+sudo cp -r Dracula /usr/share/themes/
+sudo cp -r Blade /usr/share/themes/
+sudo cp -r ./* /usr/share/themes/
+yay gnome-disk-utility
+cd downloads/iso/
+sudo dd if=archcraft-2021.10.05-x86_64.iso of=/dev/sdd bs=4M && sync
+upall
+yay aic9
+yay wd7
+yay upd720
+yay gimp
+yay inkscape
+sudo pacman -S python-lxml scour python-numpy
+sudo pacman -S --needed os-prober
+sudo nano /etc/default/grub
+yay lightdm
+yay sddm
+dots
+cd dubois/
+cd
+cd git/dubois/
+cd arcolinux-spices/
+cd /usr/
+cd /share
+cd local/
+cd share/
+cd ..
+ls
+exit
+yay gimp
+yay inkscape
+sudo pacman -S python-lxml scour python-numpy
+sudo pacman -S --needed os-prober
+sudo nano /etc/default/grub
+yay lightdm
+dots
+cd
+cd git/dubois/
+cd /usr/
+cd /share
+cd local/
+cd git/
+cd dubois/
+cd arco-i3/
+cd ArchWay/
+cd .
+cd ..
+ls -la
+cd usr/
+cd share/
+cd arcolinux-spices/
+cd scripts/
+ls
+./get-the-keys-and-repos.sh 
+upall
+yay sddm
+exit
+yay sddm
+cd git/dubois/
+cd arco-i3/
+ls
+./100-display-manager-and-desktop.sh 
+exit
+yay sddm
+exit
+sudo sddm-config-editor 
+exit
+yay lxpolkit
+yay lxsession
+exit
+exit
+neofetch
+sudo pacman -Rns xfce4-terminal
+exit
+eb
+eba
+exit
+upall
+cleanup
+yay dropbox
+exit
+upall
+cleanup
+yay mfc 2690lw
+yay 2690lw
+yay l2690w
+yay 2690
+yay brother
+yay brother mfc
+yay l2700
+exit
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+exit
+yay master pdf
+cd downloads/tarballs/
+ls
+sudo ./PDFStudio_2021_linux64.sh 
+yay wmname
+exit
+cd downloads/tarballs/
+ls
+sudo ./PDFStudio_2021_linux64.sh 
+exit
+upall
+cleanup
+exit
+cd Dropbox/church/media/newsletter/12-newsletter-dec/images/
+./wmf2svg 
+exit
+yay minecraft
+exit
+upall
+cleanup
+exit
+upall
+cleanup
+ip link
+exit
+exit
+upall
+cleanup
 exit

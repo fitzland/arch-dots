@@ -19,7 +19,7 @@ window {
     border:                  		1px;
     border-color:                  	@selected;
     border-radius:                  0px;
-    width:                          416px;
+    width:                          300px;
     location:                       center;
     anchor:                         center;
     x-offset:                       0;
@@ -39,7 +39,7 @@ prompt {
 
 textbox-prompt-colon {
 	expand: 						false;
-	str: 							"";
+	str: 							"";
     border-radius:                  0px;
     background-color:               @selected;
     text-color:                     @background;
@@ -63,7 +63,7 @@ inputbar {
     spacing:                        0;
     background-color:               @background;
     text-color:                     @foreground;
-    border:                  		0px 0px 1px 0px;
+    border:                  		1px 1px 1px 0px;
     border-radius:                  0px;
     border-color:                  	@selected;
     expand:                         false;
@@ -83,10 +83,10 @@ listview {
     background-color:               @background;
     columns:                        1;
     lines:							5;
-    spacing:                        10px;
+    spacing:                        4px;
     cycle:                          true;
     dynamic:                        true;
-    layout:                         horizontal;
+    layout:                         vertical;
 }
 
 mainbox {
@@ -100,10 +100,8 @@ element {
     background-color:               @background;
     text-color:                     @foreground;
     orientation:                    horizontal;
-    border:                  		1px;
     border-radius:                  0px;
-    border-color:                  	@selected;
-    padding:                        23.5px 25px 23.5px 25px;
+    padding:                        5px;
 }
 
 element-icon {
@@ -118,11 +116,10 @@ element-icon {
 element-text {
     background-color: 				inherit;
     text-color:       				inherit;
-	font:							"feather 14";
     expand:                         true;
-    horizontal-align:               0.5;
+    horizontal-align:               0;
     vertical-align:                 0.5;
-    margin:                         0px 0px 0px 0px;
+    margin:                         2px 0px 2px 2px;
 }
 
 element selected {
