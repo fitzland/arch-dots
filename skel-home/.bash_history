@@ -1,267 +1,3 @@
-exit
-sudo apt install mpv
-cleanup
-exit
-sudo apt install keepassxc
-sudo apt install -f keepassxc
-upall
-cleanup
-exit
-upall
-exit
-hotp
-htop
-exit
-upall
-cleanup
-exit
-bootctl status
-sudo bootctl status
-exit
-cd downloads
-cd iso/
-ls
-sudo dd if=ubuntu-21.10-live-server-amd64.iso of=/dev/sdd bs=4M && sync
-exit
-exit
-cd downloads
-cd iso/
-sudo dd if=ubuntu-21.10-live-server-amd64.iso of=/dev/sdd bs=4M && sync
-exit
-sudo apt install neofetch
-sudo apt install bspwm
-sudo apt install polybar
-sudo apt install rofi
-sudo apt install i3-gaps
-sudo apt install i3-wm
-sudo apt update
-sudo apt upgrade
-upall
-cleanup
-sudo apt install keepassxc
-sudo apt install thunar
-sudo apt install alacritty
-sudo apt install dmenu
-
-cd git/
-cd fitzland/
-cd deb-dots/
-./100-display-manager-and-desktop.sh 
-./110-development-software.sh 
-./120-install-sound.sh 
-./130-bluetooth.sh
-./140-printers.sh 
-ls
-nano 200-software-arch-linux.sh
-./200-software-arch-linux.sh
-sudo apt install inkscape
-sudo apt install sddm
-reboot
-sudo apt install nvidia
-cd /etc/apt/sources.list.d/
-ls
-ls -la
-cd ..
-sudo nano sources.list
-exit
-sudo apt install synaptic
-exit
-sudo pacman -Syyu
-cd git
-ls
-cd fitzland/
-ls
-cd arch-dots/
-ls
-cd ..
-ls
-cd ..
-ls
-cd endeavouros/
-ls
-cd bspwm/
-ls
-ls
-cd ..
-ls
-cd ..
-ls
-cd dubois/
-ls
-cd arco-bspwm/
-ls
-./100-display-manager-and-desktop.sh 
-ls
-./110-development-software.sh 
-ls
-./120-sound.sh 
-./130-bluetooth.sh 
-ls
-./140-printers.sh 
-ls
-./200-software-arch-linux.sh 
-ls
-./500-software-distro-specific.sh 
-ls
-ls
-cd ..
-ls
-cd ..
-ls
-cd fitzland/
-ls
-cd bspwm-scripts/
-ls
-./100-display-manager-and-desktop.sh 
-ls
-./110-development-software.sh 
-ls
-./120-sound.sh 
-./130-bluetooth.sh 
-ls
-yay dropbox
-yay dropbox
-yay google-chrome
-reboot
-yay sddm
-sudo pacman -S --needed os-prober
-ls
-cd /etc/default/
-sudo nano grub
-sudo grub-mkconfig -o /boot/grub/grub.cfg
-reboot
-xrandr
-exit
-exit
-exit
-sudo pacman Rns xfce4-terminal
-eixt
-eba
-eb
-exit
-exit
-exit
-sudo pacman -Rns rxvt-unicode
-rip
-xterm
-exit
-sudo pacman -S ranger
-ranger
-yay micro
-yay alacrity
-yay alacritty
-exit
-exit
-upall
-sudo pacman -Syyu
-yay jetbrains
-exit
-exit
-ls
-exit
-yay i3-gaps
-yay dmenu
-exit
-yay git
-exit
-exit
-exit
-exit
-yay rofi
-exit
-exit
-yay pamac
-exit
-yay polkit
-exit
-exit
-exit
-sudo pacman -Rns alacritty
-sudo pacman -S nvidia-settings
-exit
-sudo pacman -Rns xterm
-exit
-exit
-exit
-yay atom
-exit
-yay i3status
-yay google-chrome
-yay keepassxc
-exit
-yay st
-yay suckless
-exit
-exit
-yay alacritty
-sudo pacman -Rns Xfce4-terminal
-sudo pacman -Rns xfce-terminal
-sudo pacman -Rns terminal
-exit
-exit
-exit
-upall
-yay -syyu
-yay -Syyu
-exit
-exit
-exit
-exit
-exit
-cd /usr/bin
-ls
-thunar --new-window
-thunar --help
-exit
-yay alacrityy
-yay alacritty
-exit
-sudo pacman -Rns xfce-terminal
-exit
---help
-help
-xprop
-exit
-yay iosevka
-fc-cache -vf
-exit
-exit
-exit
-htop
-exit
-upall
-yay -Syyu
-exit
-exit
-git
-yay git
-sudo pacman -S git
-exit
-exit
-exit
-exit
-alias
-eba
-eb
-exit
-upall
-eba
-exit
-upall
-cleanup
-exit
-yay libreoffice
-dots
-eba
-exit
-dots
-ls
-git status
-exit
-yay xreader
-exit
-yay dropbox
-exit
 upall
 exit
 sudo pacman -Rns xfce-terminal
@@ -495,6 +231,270 @@ cleanup
 ip link
 exit
 exit
+upall
+cleanup
+exit
+cd Dropbox/church/media/newsletter/12-newsletter-dec/images/
+./wmf2svg 
+exit
+yay minecraft
+exit
+exit
+ip link
+exit
+exit
+exit
+dots
+./010-backup-home.sh 
+git commit -m 'work on i3 config'
+rm 020-backup-work.sh 
+cp 010-backup-home.sh 020-backup-work.sh
+ls
+nano 020-backup-work.sh 
+git add .
+git commit -m 'edit to work backup script'
+git push
+git status
+gts
+upall
+cleanup
+sr
+yay spotify
+cleanup
+clear
+htop
+exit
+killall spotify
+exit
+upall
+exit
+htop
+killall spotify
+upall
+cd downloads
+cd iso/
+rm ubuntu-21.10-live-server-amd64.iso 
+rm ubuntu-21.10-desktop-amd64.iso 
+rm arcolinuxd-v21.09.11-x86_64.iso 
+ls
+yay transmission
+exit
+htop
+killall spotify
+upall
+htop
+killall spotify
+upall
+cd downloads
+cd iso/
+rm ubuntu-21.10-live-server-amd64.iso 
+rm ubuntu-21.10-desktop-amd64.iso 
+rm arcolinuxd-v21.09.11-x86_64.iso 
+yay transmission
+cd downloads/iso/
+sudo dd if=archcraft-2021.10.05-x86_64.iso of=/dev/sdd bs=4M && sync
+sudo dd if=archlinux-2021.11.01-x86_64.iso of=/dev/sdd bs=4M && sync
+ls -la
+ll
+ls -lah
+lh
+cd ..
+la
+ls
+upfc
+clear
+eba
+eb
+alias
+exit
+upall
+cleanup
+exit
+ls -la
+ll
+ls -lah
+la
+upfc
+clear
+eba
+eb
+alias
+upall
+cleanup
+cd git/Qogir-icon-theme/
+gts
+cd Qogir-icon-theme/
+./install.sh -t all -c dark -l arch 
+./install.sh -theme all -c dark -l arch 
+./install.sh -c dark -l arch 
+lh
+git pull
+cd ..
+sudo rm -r Qogir-icon-theme/
+git clone git@github.com:vinceliuice/Qogir-theme.git
+cd Qogir-theme/
+sudo ./install.sh -c dark -t all -l arch
+./install.sh -c dark -t all -l arch
+cd ~/.themes/
+ls
+exit
+sudo dd if=archlinux-2021.11.01-x86_64.iso of=/dev/sdd bs=4M && sync
+ls -la
+ll
+ls -lah
+la
+upfc
+eba
+eb
+alias
+cd downloads/iso/
+rm archlinux-2021.09.01-x86_64.iso 
+rm *.torrent
+rm archlinux-gui-bspwm-2021.10-b-x86_64.iso 
+sudo dd if=arcolinuxd-v21.11.05-x86_64.iso of=/dev/sdd bs=4M && sync
+cd ..
+cd ~/git/
+cd papirus-folders/
+git pull
+lh
+gts
+ls
+./install.sh -C deeporange Papirus-Dark
+clear
+exit
+sudo pacman -Rns firefox
+exit
+yay firefox developer
+sudo pacman -S hunspell-en_US
+exit
+lh
+gts
+./install.sh -C deeporange Papirus-Dark
+clear
+sudo pacman -Rns firefox
+yay firefox developer
+sudo pacman -S hunspell-en_US
+cd .local/
+cd share/
+cd applications/
+nano firefox_dev.desktop 
+cd ..
+cd themes/
+ls
+ls -la
+exit
+upall
+yay steam
+exit
+upall
+exit
+yay minecraft
+exit
+yay amidst
+exit
+upall
+exit
+upall
+yay grub config
+yay grub
+exit
+upall
+yay grub config
+yay grub
+yay efiboot
+help
+sudo efibootmgr -b 0002 -B
+sudo efibootmgr -b 0003 -B
+sudo efibootmgr -b 0006 -B
+sudo efibootmgr -b 0007 -B
+sudo efibootmgr -b 0009 -B
+sudo efibootmgr -b 000A -B
+sudo efibootmgr -b 000D -B
+sudo efibootmgr -b 000E -B
+sudo efibootmgr -b 0004 -B
+efibootmgr
+efibootmgr --help
+efibootmgr -o 0001,0008,0000
+sudo efibootmgr -o 0001,0008,0000
+exit
+yay leftwm
+exit
+upall
+exit
+upall
+cleanup
+exit
+upall
+cleanup
+exit
+htop
+exit
+htop
+exit
+upall
+cd .config/leftwm/themes/
+ls
+lh
+exit
+upall
+exit
+exit
+yay leftwm
+leftwm-theme update
+leftwm-theme install forest
+leftwm-theme apply "forest"
+upall
+exit
+yay mozilla
+mozillavpn 
+upall
+cleanup
+exit
+mozillavpn 
+upall
+cleanup
+leftwm update
+leftwm-update
+leftwm --update
+leftwm-theme install smooth
+leftwm-theme apply "smooth"
+leftwm-theme install space
+leftwm-theme apply "space"
+leftwm-theme install parker
+leftwm-theme apply "parker"
+leftwm-theme install material
+leftwm-theme apply "material"
+leftwm-theme update
+leftwm-theme install 
+leftwm-theme 
+leftwm-theme apply "candy"
+exit
+htop
+exit
+lh
+exit
+keepassxc --help
+exit
++upall
+ducks4uc3
+upall
+cleanup
+exit
+cd .config/bspwm/rofi/bin/
+ls
+./powermenu-endeavour 
+./powermenu-archcraft 
+yay color gpick
+exit
+yay i3lock
+exit
+upall
+yay betterlock
+exit
+yay betterlock
+exit
+upall
+mozillavpn 
 upall
 cleanup
 exit

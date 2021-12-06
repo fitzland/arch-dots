@@ -1,2 +1,2 @@
 #!/bin/sh
-feh --no-fehbg --bg-scale '/usr/share/endeavouros/backgrounds/endeavouros-wallpaper.png' 
+feh --no-fehbg --bg-fill '/home/jeff/.config/leftwm/themes/candy/background.jpg' 
