@@ -28,6 +28,7 @@ fi
 alias ls='ls --color=auto'
 alias la='ls -a'
 alias ll='ls -la'
+alias lh='ls -lah'
 alias l='ls'
 alias l.="ls -A | egrep '^\.'"
 

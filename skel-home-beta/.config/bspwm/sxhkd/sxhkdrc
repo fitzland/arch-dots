@@ -3,6 +3,10 @@
 
 ##---------- Keybindings for apps ----------##
 
+# Search
+super + F1
+	catfish
+
 # Code
 super + F2
 	atom
@@ -11,35 +15,39 @@ super + F2
 super + shift + F2
 	code
 
-#Inkscape
+# Inkscape
 super + F3
     inkscape
 
-#Gimp
+# Gimp
 super + F4
     gimp
 
-#Meld
+# Meld
 super + F5
     meld
 
-#GnuCash
+# GnuCash
 super + F6
     gnucash
 
-#KeePassXC
+# KeePassXC
 super + F7
-    keepassxc
+    keepassxc home.kdbx
 
-#Spotify
+# KeePassXC
+super + shift + F7
+    keepassxc work.kdbx
+
+# File Manager
 super + F8
     thunar
 
-#Typora
+# Typora
 super + F9
     typora
 
-#Firefox
+# Firefox
 super + F10
     firefox-developer-edition
 
@@ -84,8 +92,8 @@ super + backslash
 	sh ~/.config/bspwm/rofi/bin/launcher-cmd
 
 # Rofi Network Menu
-super + n
-	nmd
+ctrl + alt + n
+	sh ~/.config/bspwm/rofi/bin/network
 
 # Rofi Themes Menu
 ctrl + alt + t
@@ -101,13 +109,9 @@ super + {w,m,x,r,s,i}
 ctrl + alt + {v,n,r,h,b}
 	alacritty --config-file ~/.config/bspwm/alacritty/alacritty.yml -e {vim,nvim,ranger,htop,bashtop}
 
-# Color Picker
-super + p
-	color-gpick
-
 # Lockscreen
 ctrl + alt + l
-    bsplock
+    sh /home/$USER/.config/bspwm/bin/i3lock-fancy/i3lock-fancy.sh
 
 ##---------- System Keys ----------##
 

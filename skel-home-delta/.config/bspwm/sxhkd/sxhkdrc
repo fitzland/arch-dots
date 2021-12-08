@@ -77,11 +77,11 @@ super + shift + Return
 
 # Rofi App Launcher
 super + slash
-	sh ~/.config/bspwm/rofi/bin/launcher
+	sh ~/.config/bspwm/rofi/bin/launcher-app
 
 # Rofi Term Launcher
 super + backslash
-	sh ~/.config/bspwm/rofi/bin/launcher-term
+	sh ~/.config/bspwm/rofi/bin/launcher-cmd
 
 # Rofi Network Menu
 super + n
@@ -93,7 +93,7 @@ ctrl + alt + t
 
 # Rofi Menus/Applets
 super + {w,m,x,r,s,i}
-	sh ~/.config/bspwm/rofi/bin/{windows,mpd,powermenu-archcraft,asroot,screenshot,network}
+	sh ~/.config/bspwm/rofi/bin/{windows,mpd,powermenu,asroot,screenshot,network}
 
 ##---------- Applications ----------##
 

@@ -1,33 +1,3 @@
-upall
-exit
-sudo pacman -Rns xfce-terminal
-sudo pacman -Rns xfce4-terminal
-exit
-yay -Syyu
-git
-yay git
-sudo pacman -S git
-alias
-eba
-eb
-eba
-yay libreoffice
-eba
-yay xreader
-yay dropbox
-cd /etc/i3/
-cp config ~/.config/i3/backup/config-default
-cp config ~/.config/i3/backups/config-default
-upall
-cleanup
-dots
-yay paru
-ls
-nano 010-backup-home.sh 
-./010-backup-home.sh 
-git commit -m 'adding i3 config backups'
-git pull
-git add .
 git commit -m 'work on bspwmrc'
 git status
 git push
@@ -495,6 +465,36 @@ yay betterlock
 exit
 upall
 mozillavpn 
+upall
+cleanup
+exit
+upall
+yay betterlock
+yay betterlock
+upall
+mozillavpn 
+upall
+dots
+./010-backup-home.sh 
+git add .
+git commit -m 'work on rofi'
+git pull
+ls
+git push
+gts
+cleanup
+clear
+exit
+yay source
+exit
+fc-cache -vf
+exit
+upall
+cleanup
+exit
+upall
+cleanup
+exit
 upall
 cleanup
 exit
