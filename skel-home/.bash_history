@@ -1,56 +1,3 @@
-cd images
-cd wallpapers/system/
-ls
-sudo cp dracula.png /usr/share/backgrounds
-sudo cp beach.jpg /usr/share/backgrounds 
-sudo cp blade.jpg /usr/share/backgrounds 
-sudo cp bouquet.jpg /usr/share/backgrounds 
-exit
-cd .themes/
-ls
-sudo cp -r Dracula /usr/share/themes/
-sudo cp -r Blade /usr/share/themes/
-sudo cp -r ./* /usr/share/themes/
-exit
-yay gnome-disk-utility
-exit
-cd downloads/iso/
-ls
-sudo dd if=archcraft-2021.10.05-x86_64.iso of=/dev/sdd bs=4M && sync
-upall
-yay aic9
-yay wd7
-yay upd720
-exit
-yay gimp
-yay inkscape
-sudo pacman -S python-lxml scour python-numpy
-exit
-sudo pacman -S --needed os-prober
-sudo nano /etc/default/grub
-exit
-./010-backup-home.sh 
-git add .
-git commit -m 'work on i3 theme selector
-'
-git puhs
-git push
-gts
-cd images
-cd wallpapers/system/
-sudo cp dracula.png /usr/share/backgrounds
-sudo cp beach.jpg /usr/share/backgrounds 
-sudo cp blade.jpg /usr/share/backgrounds 
-sudo cp bouquet.jpg /usr/share/backgrounds 
-cd .themes/
-sudo cp -r Dracula /usr/share/themes/
-sudo cp -r Blade /usr/share/themes/
-sudo cp -r ./* /usr/share/themes/
-yay gnome-disk-utility
-cd downloads/iso/
-sudo dd if=archcraft-2021.10.05-x86_64.iso of=/dev/sdd bs=4M && sync
-upall
-yay aic9
 yay wd7
 yay upd720
 yay gimp
@@ -497,4 +444,57 @@ cleanup
 htop
 exit
 exo-open --help
+exit
+dots
+ls
+./010-backup-home.sh 
+./git-v1.sh 
+gts
+exit
+exo-open --help
+dots
+./010-backup-home.sh 
+./git-v1.sh 
+cd git
+cd endeavouros/
+cd bspwm/
+git pull
+ls
+gts
+exit
+nano toazerty.sh 
+cp toazerty.sh base-shell-script.sh
+nano base-shell-script.sh 
+./base-shell-script.sh 
+dots
+gts
+yay arcolinux logout
+which arcolinux-logout
+nano /usr/local/bin/arcolinux-logout 
+nano /usr/share/arcologout/arcologout.py 
+upall
+cleanup
+htop
+exo-open --help
+dots
+./010-backup-home.sh 
+gts
+exo-open --help
+dots
+./010-backup-home.sh 
+cd endeavouros/
+cd bspwm/
+gts
+cd git
+cd dubois/
+cd arcolinux-spices/
+cd arco-bspwm/
+cd arco-dwm/
+./git-v1.sh 
+cd arco-i3/
+cd ..
+cd archcraft/
+ls
+cd archcraft-style-bspwm/
+git pull
 exit

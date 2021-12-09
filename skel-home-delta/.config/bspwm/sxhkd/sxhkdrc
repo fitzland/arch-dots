@@ -91,6 +91,10 @@ super + slash
 super + backslash
 	sh ~/.config/bspwm/rofi/bin/launcher-cmd
 
+#dmenu
+super + shift + d
+	dmenu_run
+
 # Rofi Network Menu
 ctrl + alt + n
 	sh ~/.config/bspwm/rofi/bin/network

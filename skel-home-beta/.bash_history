@@ -1,42 +1,3 @@
-git commit -m 'work on bspwmrc'
-git status
-git push
-exit
-git push
-yay xev
-xev
-cleanup
-upall
-clear
-exit
-upall
-exit
-dots
-ls
-yay lightdm
-exit
-git commit -m 'adding i3 config backups'
-git pull
-git commit -m 'work on bspwmrc'
-yay xev
-xev
-upall
-clear
-upall
-yay lightdm
-dots
-git commit -m 'work on powermenu script'
-git status
-cleanup
-ls
-./010-backup-home.sh 
-git add .
-git commit -m 'work on i3 theme selector
-'
-git puhs
-git push
-gts
-exit
 cd images
 cd wallpapers/system/
 ls
@@ -497,4 +458,43 @@ cleanup
 exit
 upall
 cleanup
+exit
+upall
+cleanup
+dots
+ls
+git pull
+nano git-v1.sh 
+./010-backup-home.sh 
+./git-v1.sh 
+gts
+exit
+upall
+sr
+nano git-v1.sh 
+./010-backup-home.sh 
+upall
+sr
+cd .config/
+cd leftwm/
+cd scripts/
+nano toazerty.sh 
+cp toazerty.sh base-shell-script.sh
+nano base-shell-script.sh 
+./base-shell-script.sh 
+dots
+ls
+./git-v1.sh 
+gts
+yay arcolinux logout
+exit
+which arcolinux-logout
+nano /usr/local/bin/arcolinux-logout 
+nano /usr/share/arcologout/arcologout.py 
+exit
+upall
+cleanup
+htop
+exit
+exo-open --help
 exit

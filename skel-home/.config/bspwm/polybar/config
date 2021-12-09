@@ -48,7 +48,7 @@ font-2 = "google\-mdi:size=12;3"
 font-3 = "Iosevka:style=bold:"size=12;3"
 
 modules-left = bspwm sep mod sep title
-modules-center = kernel sep 
+modules-center = kernel sep
 modules-right = volume sep time
 
 separator =
