@@ -251,7 +251,7 @@ time = %a, %d %b %Y
 time-alt = %I:%M %p
 
 format = <label>
-format-prefix = ""
+format-prefix = ""
 format-prefix-font = 3
 format-prefix-padding = 2
 format-prefix-foreground = ${color.RED}
@@ -332,7 +332,7 @@ accumulate-stats = true
 unknown-as-up = true
 
 format-connected = <label-connected>
-format-connected-prefix = " "
+format-connected-prefix = " "
 format-connected-prefix-font = 3
 format-connected-prefix-foreground = ${color.CYAN}
 

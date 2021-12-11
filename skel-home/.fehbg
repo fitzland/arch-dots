@@ -1,2 +1,2 @@
 #!/bin/sh
-feh --no-fehbg --bg-fill '/home/jeff/.config/leftwm/themes/candy/background.jpg' 
+feh --no-fehbg --bg-scale --no-xinerama '/usr/share/backgrounds/pastel.png' 

@@ -209,6 +209,10 @@ alt + {_,shift + }Tab
 super + alt + {Left,Right}
 	bspc desktop -f {prev,next}.occupied
 
+# Switch workspace
+ctrl + alt + {Left,Right}
+	bspc desktop -f {prev,next}
+
 # Switch to last opened workspace
 super + {Tab,grave}
 	bspc {node,desktop} -f last
