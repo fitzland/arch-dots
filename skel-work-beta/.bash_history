@@ -1,500 +1,500 @@
-cleanup
+polybar main -c ~/.config/polybar/nordic/config.ini
 exit
-upall
-cd bin
-./echo-rdp.sh 
-exit
-./echo-3470.sh
-cd bi
-./echo-rdp.sh 
-./echo-rdp.sh 
 upall
 cleanup
-cd bing
-cd bin
-nano led-rdp.sh 
-./led-rdp.sh 
-nano echo-rdp.sh 
-mv echo-rdp.sh foxtrot-rdp.sh
-rm server-rdp.sh 
 ls
 exit
-cd bin
-nano led-rdp.sh 
-./led-rdp.sh 
-nano echo-rdp.sh 
-mv echo-rdp.sh foxtrot-rdp.sh
-rm server-rdp.sh 
-cd git/
-cd fitzland/
-la
-cd arch-dots/
-testparm
-cd
-sudo cp smb.conf /etc/samba/
-sudo nano /etc/samba/smb.conf
-dots
-ls
-./150-samba.sh 
+polybar main -c ~/.config/bspwm/polybar/config
 exit
-cd bin
-ls
-./led-rdp.sh 
+polybar main -c ~/.config/bspwm/polybar/config
 exit
-cd bin
-ls
-./led-rdp.sh 
-exit
-cd bin
-ls
-./foxtrot-rdp.sh 
-exit
-testparm
-cd
-sudo cp smb.conf /etc/samba/
-sudo nano /etc/samba/smb.conf
-dots
-./150-samba.sh 
-cd bin
-mv foxtrot-rdp.sh slides-rdp.sh
-upall
-ls
-./slides-rdp.sh 
-nano led-rdp.sh 
-./led-rdp.sh 
-exit
-yay microsoft edge
-exit
-sudo apt install screenfetch
-exit
-curl -sSL https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
-sudo apt-add-repository https://packages.microsoft.com/ubuntu/20.04/prod
-sudo apt-get update
-curl -sSL https://packages.microsoft.com/config/ubuntu/20.04/prod.list | sudo tee /etc/apt/sources.list.d/microsoft-prod.list
-sudo apt update
-sudo apt search edge
-exit
-sudo apt install hydrapaper
-sudo apt install screenfetch
-sudo apt install gnome-tweak
-sudo apt install tweak
-exit
-sudo apt install rofi
-exit
-sudo apt install rofi
-sudo apt install hydrapaper
-sudo apt upgrade
-sudo apt autoclean
-sudo apt autoremove
-sudo apt full-upgrade
-sudo apt update
-exit
-sudo apt install gnucash
-sudo sudo apt install gimp
-exit
-cd downloads/tarballs/
-ls
-sudo ./PDFStudio_2020_linux64.sh 
-exit
-sudo apt install gnucash
-sudo sudo apt install gimp
-exit
-cd downloads/tarballs/
-sudo ./PDFStudio_2020_linux64.sh 
-exit
-wget -qO - https://typora.io/linux/public-key.asc | sudo apt-key add -
-sudo add-apt-repository 'deb https://typora.io/linux ./'
-sudo apt update
-sudo apt install typora
-cd /etc/apt/
-cd sources.list.d/
-sudo nano google-chrome.list
-sudo nano microsoft-prod.list
-cd ..
-sudo nano sources.list
-sudo apt autoclean
-sudo apt autoremove
-sudo apt upgrade
-sudo apt install rdesktop
-cd
-cd bin
-ls
-nano slides-rdp.sh 
-./slides-rdp.sh 
-./led-rdp.sh 
-cd bin
-ls
-./led-rdp.sh 
-exit
-cd bin
-ls
-./led-rdp.sh 
-exit
-cd downloads
-cd iso/
-ls
-sudo dd if=archlinux-2021.04.01-x86_64.iso of=/dev/sdc bs=4M && sync
-lsblk
-sudo apt upgrade
-sudo apt install rdesktop
-cd
-cd bin
-nano slides-rdp.sh 
-./slides-rdp.sh 
-./led-rdp.sh 
-cd bin
-./led-rdp.sh 
-cd bin
-./led-rdp.sh 
-cd downloads
-cd iso/
-sudo dd if=archlinux-2021.04.01-x86_64.iso of=/dev/sdc bs=4M && sync
-lsblk
-sudo pacman -S screenfetch
-dots
-./100-display-manager-and-desktop.sh 
-./110-development-software.sh 
-./120-sound.sh 
-./130-bluetooth.sh 
-./140-printers.sh 
-./170-network-discovery.sh 
-./200-software-arch-linux.sh 
-./500-software-distro-specific.sh 
-cd arco-scripts/
-sudo ./trust-key.sh 
-./add-keyservers-for-key-importing.sh 
-./add-arcolinux-repo-to-pacman-conf.sh 
-cd ..
-yay paru
-sudo pacman -S paru
-yay aic
-yay wd71
-ls
-exit
-yay alacritty
-exit
-yay rofi
-sudo pacman -S rofi
-ei3
-exit
-sudo pacman -Rns lxterminal
-exit
-yay alacritty
-yay rofi
-sudo pacman -S rofi
-sudo pacman -Rns lxterminal
-ei3
-yay pamac
-cd /opt/
-sudo rm -r microsoft/
-sudo rm -r google/
-yay microsoft-edge
-yay google-chrome
-ls
-sudo pacman -S gnucash
-cp /usr/share/doc/alacritty/example/alacritty.yml ~/.config/alacritty/
-nano ~/.config/alacritty/alacritty.yml 
-exit
-sudo pacman -S i3status
-ei3
+yay terminus
 exit
 upall
-yay rofi
-yay tweak
-yay tweak
-cd /opt/
-ls
-sudo rm -r dropbox/
-yay dropbox
-sudo pacman -S rofi
 exit
-dots
-ls
-exit
-ls
-ls -la
-sudo chown -R jfitzhugh:jfitzhugh ~.config
-sudo chown -R jfitzhugh:jfitzhugh ~.config
-sudo chown -R jfitzhugh:jfitzhugh ~/.config
-cd .config
-ls -la
-upall
-cleanup
-exit
-yay libreoffice-still
+fc-cache -vf
 exit
 upall
 cleanup
 exit
+yay hyphen en-US
+yay hyphen
+exit
+upall
 cleanup
-cd bin
-ls
-sudo pacman -S rdesktop
-./led-rdp.sh 
-cd
-lsblk
-sudo pacman -S parted
-sudo parted /dev/sdd --script -- mklabel msdos
-sudo parted /dev/sdd --script -- mkpart primary fat32 1MiB 100%
-sudo mkfs.vfat -F32 /dev/sdd1
-sudo parted /dev/sdd --script print
-exit
-cd downloads/tarballs/
-ls
-sudo ./PDFStudio_2020_linux64.sh 
-exit
-cd bin
-sudo pacman -S rdesktop
-./led-rdp.sh 
-cd
-lsblk
-sudo pacman -S parted
-sudo parted /dev/sdd --script -- mklabel msdos
-sudo parted /dev/sdd --script -- mkpart primary fat32 1MiB 100%
-sudo mkfs.vfat -F32 /dev/sdd1
-sudo parted /dev/sdd --script print
-cd downloads/tarballs/
-sudo ./PDFStudio_2020_linux64.sh 
-ls ~/.ssh/
-ssh-keygen -t ed25519 -C "f1tzl4nd@gmail.com"
-cd ~/.ssh/
-eval "$(ssh-agent -s)"
-ssh-add ~/.ssh/id_ed25519
-sudo rm -r arch-dots/
-git remote set-url origin git@github.com
-ssh -T git@github.com
-git clone git@github.com:fitzland/arco-dots.git
-git clone git@github.com:fitzland/arch-dots.git
-cd arch-dots/
-cd ..
-dots
-./200-software-arch-linux.sh 
-./500-software-distro-specific.sh 
-nano 600-additional-arcolinux-software.sh 
-./700-installing-fonts.sh 
-ls
-exit
-cd /etc/
-nano locale.conf 
-exit
-ei3
-upall
-sudo pacman -Rns st
-exit
-cd ~/.ssh/
-eval "$(ssh-agent -s)"
-ssh-add ~/.ssh/id_ed25519
-sudo rm -r arch-dots/
-git remote set-url origin git@github.com
-ssh -T git@github.com
-git clone git@github.com:fitzland/arco-dots.git
-git clone git@github.com:fitzland/arch-dots.git
-cd arch-dots/
-nano 600-additional-arcolinux-software.sh 
-./700-installing-fonts.sh 
-cd /etc/
-nano locale.conf 
-ei3
-sudo pacman -Rns st
-ls -la
-sudo rm -r .config-att-2021-0*
-cd bin
-./led-rdp.sh 
-dots
-cd dubois/
-git clone git@github.com:arcolinuxd/arco-xfce.git
-sudo rm -r arco-i3/
-sudo rm -r arco-bspwm/
-git clone git@github.com:arcolinuxd/arco-i3.git
-git clone git@github.com:arcolinuxd/arco-dwm.git
-cd arco-dwm/
-./200-software-arch-linux.sh 
-./500-software-distro-specific.sh 
-upall
-cd ..
-cd arco-xfce/
-ls
-exit
-./led-rdp.sh 
-git clone git@github.com:arcolinuxd/arco-xfce.git
-sudo rm -r arco-i3/
-sudo rm -r arco-bspwm/
-git clone git@github.com:arcolinuxd/arco-i3.git
-git clone git@github.com:arcolinuxd/arco-dwm.git
-cd arco-dwm/
-upall
-dots
-cd ..
-cd dubois/
-cd arco-xfce/
-sudo pacman -Rns i3lock
-sudo pacman -S i3lock-color
-./100-display-manager-and-desktop.sh 
-./200-software-arch-linux.sh 
-./500-software-distro-specific.sh 
-ls
 exit
 upall
-ducks4ucf3
-upall
-sudo pacman -Syyu
-locale
-localedef --list-archive
-localectl set-locale LANG=en_US.UTF-8
-locale
-nano /etc/locale.conf
-UNSET LANG
-unset LANG
-source /etc/profile.d/locale.sh
-export LANG=en_US.UTF-8
-exot
 exit
-htop
+cleanup
+exit
+cleanup
 sudo pacman -S htop
+clear
 htop
-upall
-ducks4uc3
-exit
-lsblk
-exit
-ls
-cd git/
-ls
-cd fitzland/
-ls
-cd arch-dots/
-ls
-./100-display-manager-and-desktop.sh 
-ls
-./110-development-software.sh 
-ls
-./120-sound.sh 
-ls
-./130-bluetooth.sh 
-ls
-./140-printers.sh 
-nano 140-printers.sh 
-sudo systemctl enable cups
-ls
-./170-network-discovery.sh 
-ls
-./200-software-arch-linux.sh 
-ls
-./500-software-distro-specific.sh 
-ls
-./700-installing-fonts.sh 
-ls
 exit
 upall
-sudo pacman -Syyu
+exit
+fc-list
+exit
+yay route
+exit
+yay net-tools
+exit
+cd Dropbox/
+ls
+touch test.sh
+exit
+yay jq
+exit
+yay charmap
+exit
+fc-cache -vf
+exit
+xrandr -q | grep " connected" | cut -d ' ' -f1
+exit
+fc-list
+exit
+yay charmap
+exitg
+yay font awesome
+ls
+yay tamsyn
+ibm plex
+yay ibm plex
+fc-cache -vf
+exit
+yay font view
+exit
+fc-cache -vf
+exit
+fc-cache -vf
+exit
+gucharmap 
+exit
+upall
 cleanup
 exit
-./500-software-distro-specific.sh 
-./700-installing-fonts.sh 
-sudo pacman -Syyu
+fc-cache -vf
+fc-cache -vf
+gucharmap 
+upall
+cleanup
+git
 dots
-cd arco-scripts/
-sudo ./trust-key.sh 
-./add-arcolinux-repo-to-pacman-conf.sh 
+cd ..
+cd fitzland/arch-dots/
+nano 010-backup-home.sh 
+./010-backup-home.sh 
+git add .
+git commit -m "font work on polybar"
+git push
 ls
-./add-keyservers-for-key-importing.sh 
+git status
+exit
+git commit -m "font work on polybar"
+dots
+ls
+rm -r fonts/
+git add .
+gts
+git commit -m "remove duplicate font files"
+git status
+git push
+exit
+cleanup
+upall
+dots
+git pull
+git status
+ls
+./015-restore-home.sh 
+cd
+mkdir ~/.themes
+mkdir ~/.fonts
+exit
+alias
+ex
+xd
+exit
+upall
+cleanup
+yay terminus
+exit
+upall
+cd .fonts
+ls
+fc-cache -vf
+exit
+if link
+ip link
+exit
+ip link
+yay qogir
+dots
+ls
+git pull
+git status
+exit
 upall
 cleanup
 exit
+upall
+cleanup
+exit
+dots
+git status
+git pull
+nano 020-backup-work.sh 
+exit
+upall
+cleanup
+exit
+upall
+cleanup
+exit
+upall
+cleanup
+exit
+upall
+exit
+upall
+yay gnome-disk
+yay gparted
+exit
+yay gparted
+upall
+cd downloads
+cd iso/
+ls
+sudo dd if=pmagic_2015_09_29.iso of=/dev/sdc bs=4M && sync
+exit
+upall
+cleanup
+exit
+yta-wav https://www.youtube.com/watch?v=n3F1dX9sT30
+ls
+mv What\ to\ Do\ When\ Life\ Crashes-n3F1dX9sT30.wav airdate-211010-210912-fbccana-worship-reeves.wav
+yay audacity
+audacity airdate-211010-210912-fbccana-worship-reeves.wav 
+exit
+audacity airdate-211010-210912-fbccana-worship-reeves.wav 
+yay pulseaudio
+exit
+alias
+yay mpv
+mpv airdate-211010-210912-fbccana-worship-reeves.wav 
+yay audacity
+cleanup
+exit
+yay simple screen
+exit
+upall
+cleanup
+exit
+yay inkscape
+exit
+upall
+ping 192.168.2.12
+exit
+upall
+cleanup
+exit
+upall
+exit
+upall
+ip link 
+ip link enp0s31f6 down
+ip link help
+ip link set enp0s31f6 down
+sudo ip link set enp0s31f6 down
+sudo ip link set enp0s31f6 up
+ip link
+ip route
+exit
+dots
+git pull
+exit
+yay wmname
+exit
+upall
+exit
+upall
+cleanup
+sr
+exit
+upall
+cleanup
+exit
+sudo nvidia-settings 
+exit
+upall
+exit
+upall
+dots
+git status
+git pull
+ls
+exit
+upall
+exit
+upall
+cleanup
+exit
+sudo pacman -Rns rxvt-unicode
+exit
+upall
+exit
+ip route
+exit
+ping 192.168.0.223
+exit
+ping 192.168.0.1
+ping 192.168.2.1
+ip route
+ping 192.168.0.198
+exit
+ping 192.168.0.232
+ip route
+exit
+ip route
+ping 192.168.0.100
+exit
+ping 192.168.0.1
+exit
+upall
+exit
+yay wmname
+yay jq
+exit
+sudo pacman -Rns xfce4-terminal
+exit
+upall
+cleanup
+exi
+exit
+upall
+cleanup
+exit
+cleanup
+cd .config/dwm/
+git pull
+git status
+git branch
+git add .
+git commit -m "work config"
+git push
+ls
+nano config.h 
+sudo make clean install
+exit
+cd .config/dwm/
+sudo make clean install
+exit
+ip route
+exit
+ping 192.168.20.40
+clear
+exit
+ping 192.168.30.1
+ping 192.168.20.40
+exit
+ping 192.168.20.30
+exit
+ip route
+ping 192.168.20.1
+yay typora
+upall
+exit
+ping 192.168.20.1
+yay typora
+upall
+cd downloads
+cd is
+rm archcraft-2021.06.06-x86_64.iso 
+rm arcolinuxd-v21.09.8-x86_64.iso 
+ls
+sudo dd if=archcraft-2021.10.05-x86_64.iso of=/dev/sdc bs=4M && sync
+exit
+su -
+sudo apt update
+exit
+sudo apt update
 eb
-eba
+sudo apt install neofetch
+sudo apt full-upgrade
+sudo add-apt-repository ppa:regolith-linux/release
+sudo apt -f install
+sudo apt auotremove
+sudo apt autoremove
+sudo apt install regolith-desktop-standard
 exit
-sudo pacman -S neofetch
-yay paru
-sudo pacman -S paru
+sudo apt install regolith-desktop-standard
+sudo apt install regolith-look-pop-os
+sudo apt search regolith-look
+sudo apt install regolith-look-{dracula,gruvbox,nord}
+sudo apt install regolith-look-{dracula,gruvbox}
 exit
-yay google-chrome
-ls
-yay dropbox
+sudo apt install thunar
 exit
-yay dropbox
-exit
-yay pamac
-yay aic
-yay wd7
-upall
-yay google-chrome
-exit
-yay google-chrome
-cd /opt/
-sudo rm -r google/
-ls
-exit
-yay google-chrome
-exit
-cd /opt/
-ls
-sudo rm -r dropbox/
-yay dropbox
-exit
-sudo pacman -S libreoffice-still
-yay microsoft edge
-exit
-yay tumbler
-exit
-yay tumbler
-yay odf
-yay thumbnail
-cp /etc/paru.conf ~/.config/paru/
-exit
-yay thumbnail
-exit
-cp /etc/paru.conf ~/.config/paru/
-yay thumbnail
-upall
+sudo apt install inkscape gimp libreoffice
 dots
-./700-installing-fonts.sh 
-cd fonts/
-ls
-fc-cache -vf
+eba
+merge
 exit
-fc-cache -vf
+sudo add-apt-repository ppa:regolith-linux/release
+sudo apt auotremove
+sudo apt autoremove
+sudo apt install regolith-desktop-standard
+sudo apt install regolith-desktop-standard
+sudo apt install regolith-look-pop-os
+sudo apt search regolith-look
+sudo apt install regolith-look-{dracula,gruvbox,nord}
+sudo apt install regolith-look-{dracula,gruvbox}
+sudo apt install thunar
+sudo apt install inkscape gimp libreoffice
+dots
+eba
+merge
+upall
+sudo apt install gnucash
+sudo apt install keepassxc
+sudo apt install meld
+whereis wmctl
+sudo apt install lxsession
+sudo apt purge lxsession
+cd downloads/tarballs/
+sudo apt install dropbox_2020.03.04_amd64.deb 
+sudo apt code_1.48.2-1598353430_amd64.deb 
+sudo apt install code_1.48.2-1598353430_amd64.deb 
+sudo apt microsoft-edge-stable_95.0.1020.44-1_amd64.deb 
+sudo apt install microsoft-edge-stable_95.0.1020.44-1_amd64.deb 
+cleanup
+sudo dpkg -i google-chrome-stable_current_amd64.deb 
+sudo dpkg -i atom-amd64.deb 
+sudo dpkg -i dropbox_2020.03.04_amd64.deb 
+sudo dpkg -i microsoft-edge-stable_95.0.1020.44-1_amd64.deb 
+sudo apt install python3-gpg
+sudo apt -f install
+sudo dpkg -i code_1.48.2-1598353430_amd64.deb 
+cd master-pdf-editor-5
+ls
+sudo apt search masterpdf
+exit
+sudo apt search masterpdf
+cd downloads/tarballs/
+sudo dpkg -i master-pdf-editor-5.8.20-qt5.x86_64.deb 
+sudo apt -f install
+ls
+cleanup
+exit
+cleanup
 cd downloads
 cd tarballs/
 ls
-sudo ./PDFStudio_2020_linux64.sh 
+sudo dpkg -i google-chrome-stable_current_amd64.deb 
+exit
+sudo apt purge openbox
+exit
+sudo apt install synaptic
+exit
+cp /etc/regolith/styles/root ~/.Xresources-regolith
+nano ~/.Xresources-regolith 
+exit
+xprop
+xrandr --listoutputs
+xrandr --list
+xrandr --help
+xrandr --listmonitors
 exit
 upall
-yay xkill
+cleanup
 exit
-yay xkill
-cd .bin/
+upall
+clear
+cd .config/regolith/sxhkd/
+nano sxhkdrc 
+exit
+sudo apt install nitrogen
+exit
+upall
+cleanup
+sudo apt install nitrogen
+exit
+upall
+cleanup
+exit
+dots
+cd ..
 ls
-sudo pacman -S rdesktop
-./led-rdp.sh 
-exit
+git clone git@github.com:fitzland/ub-dots.git
+cd ub-dots/
+git status
 upall
 exit
-yay microsoft-edge
-exit
-yay gnucash
-exit
-yay youtube-dl
-youtube-dl -F https://www.youtube.com/watch?v=otgsDJejFao
-youtube-dl -f 22 https://www.youtube.com/watch?v=otgsDJejFao
-upall
 cleanup
 exit
 upall
-ei3
-upall
-cleanup
+sudo apt install lxappearance
 exit
-sudo pacman -S nitrogen
+eri3
+eba
+exit
+eri3
+upall
 exit
 upall
 cleanup
 exit
-cleanup
-sudo pacman -S nitrogen
-cleanup
-cd bin
+sudo apt install gparted
+exit
+sudo apt install gparted
+cd /media/jfitzhugh/CAP1214/BW/
+cp *.jpg /media/jfitzhugh/SS-CDR200/Dec-14/
+cp *.wmf /media/jfitzhugh/SS-CDR200/Dec-14/
 ls
-./led-rdp.sh 
+cd ..
+cd /media/jfitzhugh/CAP1215/
+exit
+cd /media/jfitzhugh/CAP1215
+exit
+upalll
 upall
+cleanup
+exit
+cd /media/jfitzhugh/CAP1214/BW/
+cp *.jpg /media/jfitzhugh/SS-CDR200/Dec-14/
+cp *.wmf /media/jfitzhugh/SS-CDR200/Dec-14/
+cd ..
+cd /media/jfitzhugh/CAP1215/
+cd /media/jfitzhugh/CAP1215
+upalll
+upall
+cleanup
+cd /media/jfitzhugh/CAP1216/
+cd BW/
+cp *.jpg ~/Dropbox/church/media/ChurchArtPro/December/
+cp *.wmf ~/Dropbox/church/media/ChurchArtPro/December/
+cd ~/Dropbox/church/media/ChurchArtPro/December/
+./wmf2svg 
+sudo chmod 700 *.jpg
+ls 0la
+sudo chmod 654 *.jpg
+sudo chmod 6654 *.jpg
+sudo chmod 665 *.jpg
+ls
+sudo chmod 664 *.jpg
+cd ../November/
+sudo chmod *.svg 664
+sudo chmod 664 *.svg
+ls -la
+exit
+eri3
+erxr
+exit
+upall
+cleanup
+exit
+cd downloads/iso/
+ls
+sudo dd if=archcraft-2021.10.05-x86_64.iso of=/dev/sdc bs=4M && sync
 exit

@@ -50,7 +50,7 @@ case $chosen in
         bash ${I3}/set-theme  'cyberpunk.jpg' 'cyberpunk' 'Cyberpunk' 'Archcraft-Dark' 'LyraB'
         ;;
     $theme_5)
-        bash ${I3}/set-theme  'dracula.png' 'dracula' 'Dracula' 'Nordic-Folders' 'Sweet'
+        bash ${I3}/set-theme  'dracula.png' 'dracula' 'Qogir-ubuntu-dark' 'Quogir-ubuntu-dark' 'Sweet'
         ;;
     $theme_6)
         bash ${I3}/set-theme  'flowers.jpg' 'flowers' 'Kripton' 'Zafiro' 'Fluent-dark'
