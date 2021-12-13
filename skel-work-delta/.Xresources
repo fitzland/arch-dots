@@ -1,246 +1,41 @@
-!! basescheme - adapta-nokto
-
-! special
-*.foreground:   #CFD8DC
-*.background:   #222D32
-*.cursorbase:   #CFD8DC
-*.cursorColor:  #d8dee9
-*fading: 35
-*fadeColor: #4c566a
-
-! black
-*.color0:       #1C2124
-*.color8:       #28343A
-
-! red
-*.color1:       #b64d4c
-*.color9:       #cd8d8c
-
-! green
-*.color2:       #609960
-*.color10:      #99dd99
-
-! yellow
-*.color3:       #b6ac4d
-*.color11:      #cdc88d
-
-! blue
-*.color4:       #183048
-*.color12:      #527BA3
-
-! magenta
-*.color5:       #303060
-*.color13:      #606099
-
-! cyan
-*.color6:       #184848
-*.color14:      #189090
-
-! white
-*.color7:       #828C91
-*.color15:      #CFD8DC
-
-
 ! ------------------------------------------------------------------------------
-! URxvt standard arcolinux theme - Reload with xrdb -merge ~/.Xresources
-! or alias merge
+! Copyright (C) 2020-2021 Aditya Shakya <adi1090x@gmail.com>
+! Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
 ! ------------------------------------------------------------------------------
 
+#include ".Xresources.d/colors"
+#include ".Xresources.d/fonts"
+#include ".Xresources.d/rxvt-unicode"
+#include ".Xresources.d/styles"
 
-! general settings
-URxvt*saveLines:        50000
-URxvt*termName:         xterm-256color
-URxvt*urgentOnBell:     false
-URxvt*visualBell:       false
-URxvt*iso14755:         false
-URxvt*iso14755_52:      false
-URxvt*meta8:            false
-URxvt*metaSendsEscape:  true
-URxvt*iconFile:  		/usr/share/icons/Sardi-Mono/scalable/apps/terminal.svg
-URxvt*urlLauncher:      firefox
-URxvt*underlineURLs:    true
-URxvt*urlButton:        1
+i3-wm.gaps.inner.size: 10
 
-! appearance
-URxvt*geometry: 		100x30
-URxvt*depth:             32
-!URxvt*transparent:      true
-URxvt*shading:           80
-!URxvt*background:       rgba:2222/2222/2222/AAAA
-!URxvt*background:       [80]#404552
-!URxvt*background:       [70]#3F424A
-URxvt*background:        [80]#222222
-URxvt*foreground:        #F9F9F9
-URxvt*underlineColor:    #4682B4
-URxvt*highlightColor:    #666666
-URxvt*throughColor:      #4682B4
-URxvt*cursorColor:       #c8c8c8
-URxvt*scrollBar:         false
-URxvt*scrollTtyOutput:   false
-URxvt*scrollWithBuffer:  true
-URxvt*scrollTtyKeypress: true
-URxvt*internalBorder:    0
-URxvt*externalBorder:    0
-URxvt*colorIT:      	 #4682B4
-URxvt*colorBD:      	 #F9F9F9
-URxvt*colorUL:      	 #87afd7
+i3-wm.binding.launcher.app: slash
+i3-wm.binding.launcher.cmd: backslash
+i3-wm.program.files: /usr/bin/thunar
 
+i3-wm.bar.position: top
+i3-wm.monitor.01.name: DP-0
+i3-wm.monitor.02.name: DP-2
 
-! colors
-URxvt*color0: #3f3f3f
-URxvt*color1: #cc0000
-URxvt*color2: #4e9a06
-URxvt*color3: #c4a000
-URxvt*color4: #3465a4
-URxvt*color5: #ad6ab8
-URxvt*color6: #06989a
-URxvt*color7: #dcdccc
-URxvt*color8: #545454
-URxvt*color9: #fc5454
-URxvt*color10: #8ae234
-URxvt*color11: #fce94f
-URxvt*color12: #94bff3
-URxvt*color13: #dc95e8
-URxvt*color14: #93e0e3
-URxvt*color15: #ffffff
+i3-wm.workspace.01.name: "1:mret|"
 
-! fonts
-URxvt*letterSpace: 	    		-1
-URxvt*font:                 	xft:IBM Plex Mono:regular:size=11
-URxvt*imFont:               	xft:IBM Plex Mono:regular:size=11
-URxvt*italicFont:           	xft:IBM Plex Mono:italic:size=11
-URxvt*boldFont:             	xft:IBM Plex Mono:bold:size=11
-URxvt*boldItalicFont:     		xft:IBM Plex Mono:regular:size=11
-! run :.!fc-list | grep <font-name>
+i3-wm.bar.workspace.focused.background.color: #ffb86c
+i3-wm.bar.workspace.focused.border.color: #ffb86c
+i3-wm.bar.workspace.focused.text.color: #282a36
 
-! perl extensions
-! You can install extra perl extensions you should add them here
-URxvt*perl-ext-common:  default,clipboard,url-select,keyboard-select,fullscreen,resize-font
-!URxvt*perl-ext-common:  default,clipboard,url-select,keyboard-select,tabbed
+i3-wm.client.focused.color.border: #ffb86c
+i3-wm.client.focused.color.indicator: #ffb86c
 
-! macros for resize-font - sudo pacman -S urxvt-resize-font-git
-URxvt.resize-font.step:   1
-URxvt.keysym.C-minus:     resize-font:smaller
-URxvt.keysym.C-plus:      resize-font:bigger
-URxvt.keysym.C-equal:     resize-font:reset
-URxvt.keysym.C-question:  resize-font:show
-URxvt.keysym.C-Down:      resize-font:smaller
-URxvt.keysym.C-Up:        resize-font:bigger
+i3-wm.bar.workspace.active.background.color: #6272a4
+i3-wm.bar.workspace.active.border.color: #6272a4
+i3-wm.bar.workspace.active.text.color: #282a36
 
-! macros for clipboard and selection
-URxvt*copyCommand:      xclip -i -selection clipboard
-URxvt*pasteCommand:     xclip -o -selection clipboard
-URxvt*keysym.M-c:       perl:clipboard:copy
-URxvt*keysym.m-v:       perl:clipboard:paste
-URxvt*keysym.M-C-v:     perl:clipboard:paste_escaped
-URxvt*keysym.M-Escape:  perl:keyboard-select:activate
-URxvt*keysym.M-s:       perl:keyboard-select:search
-URxvt*keysym.M-u:       perl:url-select:select_next
+i3-wm.client.focused_inactive.color.border: #6272a4
 
-! fullscreen - sudo pacman -S urxvt-fullscreen
-urxvt*keysym.F11:       perl:fullscreen:switch
+i3-wm.bar.workspace.inactive.background.color: #44475a
+i3-wm.bar.workspace.inactive.border.color: #44475a
+i3-wm.bar.workspace.inactive.text.color: #282a36
 
-! tabbed
-URxvt*tabbed.tabbar-fg: 4
-URxvt*tabbed.tabbar-bg: 16
-URxvt*tabbed.tab-fg:    15
-URxvt*tabbed.tab-bg:    4
-URxvt*buffered:         false
-
-! clipboard
-URxvt*keysym.Control-Shift-C: perl:clipboard:copy
-URxvt*keysym.Control-Shift-V: perl:clipboard:paste
-
-
-! ------------------------------------------------------------------------------
-! xterm standard arcolinux theme
-! ------------------------------------------------------------------------------
-
-xterm*faceName: Monospace
-xterm*faceSize: 11
-xterm*loginShell: true
-xterm*vt100*geometry: 100x30
-xterm*saveLines: 50000
-xterm*charClass: 33:48,35:48,37:48,43:48,45-47:48,64:48,95:48,126:48
-xterm*termName: xterm-color
-xterm*eightBitInput: false
-xterm*foreground: rgb:f9/f9/f9
-xterm*background: rgb:22/22/22
-xterm*color0: rgb:3f/3f/3f
-xterm*color1: rgb:cc/00/00
-xterm*color2: rgb:4e/9a/06
-xterm*color3: rgb:c4/a0/00
-xterm*color4: rgb:34/65/a4
-xterm*color5: rgb:ad/6a/b8
-xterm*color6: rgb:06/98/9a
-xterm*color7: rgb:dc/dc/cc
-xterm*color8: rgb:54/54/54
-xterm*color9: rgb:fc/54/54
-xterm*color10: rgb:8a/e2/34
-xterm*color11: rgb:fc/e9/4f
-xterm*color12: rgb:94/bf/f3
-xterm*color13: rgb:dc/95/e8
-xterm*color14: rgb:93/e0/e3
-xterm*color15: rgb:ff/ff/ff
-xterm*boldMode: false
-xterm*colorBDMode: true
-xterm*colorBD: rgb:ff/ff/ff
-
-
-
-
-! ------------------------------------------------------------------------------
-! UXTerm standard arcolinux theme
-! ------------------------------------------------------------------------------
-
-! termtype
-UXTerm*termName: xterm-256color
-
-
-UXTerm*cursorColor:        #c8c8c8
-UXTerm*VT100.geometry:     100x30
-UXTerm*font:               Monospace
-UXTerm*faceSize:		   11
-UXTerm*dynamicColors:      true
-UXTerm*utf8:               2
-UXTerm*eightBitInput:      true
-UXTerm*saveLines:          50000
-UXTerm*scrollKey:          true
-UXTerm*scrollTtyOutput:    false
-UXTerm*scrollBar:          false
-UXTerm*rightScrollBar:     false
-UXTerm*jumpScroll:         true
-UXTerm*multiScroll:        true
-UXTerm*toolBar:            false
-
-! fix colors
-UXTerm*background: rgb:63/63/63
-UXTerm*foreground: rgb:00/00/00
-UXTerm*color0: rgb:3f/3f/3f
-UXTerm*color1: rgb:cc/00/00
-UXTerm*color2: rgb:4e/9a/06
-UXTerm*color3: rgb:c4/a0/00
-UXTerm*color4: rgb:34/65/a4
-UXTerm*color5: rgb:ad/6a/b8
-UXTerm*color6: rgb:06/98/9a
-UXTerm*color7: rgb:dc/dc/cc
-UXTerm*color8: rgb:54/54/54
-UXTerm*color9: rgb:fc/54/54
-UXTerm*color10: rgb:8a/e2/34
-UXTerm*color11: rgb:fc/e9/4f
-UXTerm*color12: rgb:94/bf/f3
-UXTerm*color13: rgb:dc/95/e8
-UXTerm*color14: rgb:93/e0/e3
-UXTerm*color15: rgb:ff/ff/ff
-
-UXTerm*boldMode: false
-UXTerm*colorBDMode: true
-UXTerm*colorBD: rgb:ff/ff/ff
-
-!! Common Keybinds for Navigations
-URxvt.keysym.Shift-Up: command:\033]720;1\007
-URxvt.keysym.Shift-Down: command:\033]721;1\007
-URxvt.keysym.Control-Up: \033[1;5A
-URxvt.keysym.Control-Down: \033[1;5B
-URxvt.keysym.Control-Right: \033[1;5C
-URxvt.keysym.Control-Left: \033[1;5D
+i3-wm.program.1: "sxhkd -c $HOME/.config/regolith/sxhkd/sxhkdrc"
+i3-wm.program.2: "nitrogen --restore"

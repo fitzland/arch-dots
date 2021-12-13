@@ -1,500 +1,500 @@
-polybar main -c ~/.config/polybar/nordic/config.ini
-exit
-upall
-cleanup
-ls
-exit
-polybar main -c ~/.config/bspwm/polybar/config
-exit
-polybar main -c ~/.config/bspwm/polybar/config
-exit
-yay terminus
-exit
-upall
-exit
-fc-cache -vf
-exit
-upall
-cleanup
-exit
-yay hyphen en-US
-yay hyphen
-exit
-upall
-cleanup
-exit
-upall
-exit
-cleanup
-exit
-cleanup
-sudo pacman -S htop
-clear
-htop
-exit
-upall
-exit
-fc-list
-exit
-yay route
-exit
-yay net-tools
-exit
-cd Dropbox/
-ls
-touch test.sh
-exit
-yay jq
-exit
-yay charmap
-exit
-fc-cache -vf
-exit
-xrandr -q | grep " connected" | cut -d ' ' -f1
-exit
-fc-list
-exit
-yay charmap
-exitg
-yay font awesome
-ls
-yay tamsyn
-ibm plex
-yay ibm plex
-fc-cache -vf
-exit
-yay font view
-exit
-fc-cache -vf
-exit
-fc-cache -vf
-exit
-gucharmap 
-exit
-upall
-cleanup
-exit
-fc-cache -vf
-fc-cache -vf
-gucharmap 
-upall
-cleanup
-git
+yay lightdm
 dots
-cd ..
-cd fitzland/arch-dots/
-nano 010-backup-home.sh 
-./010-backup-home.sh 
-git add .
-git commit -m "font work on polybar"
-git push
-ls
-git status
-exit
-git commit -m "font work on polybar"
-dots
-ls
-rm -r fonts/
-git add .
-gts
-git commit -m "remove duplicate font files"
-git status
-git push
-exit
-cleanup
-upall
-dots
-git pull
-git status
-ls
-./015-restore-home.sh 
 cd
-mkdir ~/.themes
-mkdir ~/.fonts
-exit
-alias
-ex
-xd
-exit
-upall
-cleanup
-yay terminus
-exit
-upall
-cd .fonts
+cd git/dubois/
+cd /usr/
+cd /share
+cd local/
+cd git/
+cd dubois/
+cd arco-i3/
+cd ArchWay/
+cd .
+cd ..
+ls -la
+cd usr/
+cd share/
+cd arcolinux-spices/
+cd scripts/
 ls
-fc-cache -vf
+./get-the-keys-and-repos.sh 
+upall
+yay sddm
 exit
-if link
-ip link
-exit
-ip link
-yay qogir
-dots
+yay sddm
+cd git/dubois/
+cd arco-i3/
 ls
-git pull
-git status
+./100-display-manager-and-desktop.sh 
+exit
+yay sddm
+exit
+sudo sddm-config-editor 
+exit
+yay lxpolkit
+yay lxsession
+exit
+exit
+neofetch
+sudo pacman -Rns xfce4-terminal
+exit
+eb
+eba
 exit
 upall
 cleanup
+yay dropbox
 exit
 upall
 cleanup
+yay mfc 2690lw
+yay 2690lw
+yay l2690w
+yay 2690
+yay brother
+yay brother mfc
+yay l2700
 exit
-dots
-git status
-git pull
-nano 020-backup-work.sh 
+sudo grub-mkconfig -o /boot/grub/grub.cfg
 exit
-upall
-cleanup
-exit
-upall
-cleanup
-exit
-upall
-cleanup
-exit
-upall
-exit
-upall
-yay gnome-disk
-yay gparted
-exit
-yay gparted
-upall
-cd downloads
-cd iso/
+yay master pdf
+cd downloads/tarballs/
 ls
-sudo dd if=pmagic_2015_09_29.iso of=/dev/sdc bs=4M && sync
-exit
-upall
-cleanup
-exit
-yta-wav https://www.youtube.com/watch?v=n3F1dX9sT30
-ls
-mv What\ to\ Do\ When\ Life\ Crashes-n3F1dX9sT30.wav airdate-211010-210912-fbccana-worship-reeves.wav
-yay audacity
-audacity airdate-211010-210912-fbccana-worship-reeves.wav 
-exit
-audacity airdate-211010-210912-fbccana-worship-reeves.wav 
-yay pulseaudio
-exit
-alias
-yay mpv
-mpv airdate-211010-210912-fbccana-worship-reeves.wav 
-yay audacity
-cleanup
-exit
-yay simple screen
-exit
-upall
-cleanup
-exit
-yay inkscape
-exit
-upall
-ping 192.168.2.12
-exit
-upall
-cleanup
-exit
-upall
-exit
-upall
-ip link 
-ip link enp0s31f6 down
-ip link help
-ip link set enp0s31f6 down
-sudo ip link set enp0s31f6 down
-sudo ip link set enp0s31f6 up
-ip link
-ip route
-exit
-dots
-git pull
-exit
+sudo ./PDFStudio_2021_linux64.sh 
 yay wmname
 exit
-upall
+cd downloads/tarballs/
+ls
+sudo ./PDFStudio_2021_linux64.sh 
 exit
+upall
+cleanup
+exit
+cd Dropbox/church/media/newsletter/12-newsletter-dec/images/
+./wmf2svg 
+exit
+yay minecraft
+exit
+upall
+cleanup
+exit
+upall
+cleanup
+ip link
+exit
+exit
+upall
+cleanup
+exit
+cd Dropbox/church/media/newsletter/12-newsletter-dec/images/
+./wmf2svg 
+exit
+yay minecraft
+exit
+exit
+ip link
+exit
+exit
+exit
+dots
+./010-backup-home.sh 
+git commit -m 'work on i3 config'
+rm 020-backup-work.sh 
+cp 010-backup-home.sh 020-backup-work.sh
+ls
+nano 020-backup-work.sh 
+git add .
+git commit -m 'edit to work backup script'
+git push
+git status
+gts
 upall
 cleanup
 sr
-exit
-upall
+yay spotify
 cleanup
-exit
-sudo nvidia-settings 
-exit
-upall
-exit
-upall
-dots
-git status
-git pull
-ls
-exit
-upall
-exit
-upall
-cleanup
-exit
-sudo pacman -Rns rxvt-unicode
-exit
-upall
-exit
-ip route
-exit
-ping 192.168.0.223
-exit
-ping 192.168.0.1
-ping 192.168.2.1
-ip route
-ping 192.168.0.198
-exit
-ping 192.168.0.232
-ip route
-exit
-ip route
-ping 192.168.0.100
-exit
-ping 192.168.0.1
-exit
-upall
-exit
-yay wmname
-yay jq
-exit
-sudo pacman -Rns xfce4-terminal
-exit
-upall
-cleanup
-exi
-exit
-upall
-cleanup
-exit
-cleanup
-cd .config/dwm/
-git pull
-git status
-git branch
-git add .
-git commit -m "work config"
-git push
-ls
-nano config.h 
-sudo make clean install
-exit
-cd .config/dwm/
-sudo make clean install
-exit
-ip route
-exit
-ping 192.168.20.40
 clear
+htop
 exit
-ping 192.168.30.1
-ping 192.168.20.40
+killall spotify
 exit
-ping 192.168.20.30
-exit
-ip route
-ping 192.168.20.1
-yay typora
 upall
 exit
-ping 192.168.20.1
-yay typora
+htop
+killall spotify
 upall
 cd downloads
-cd is
-rm archcraft-2021.06.06-x86_64.iso 
-rm arcolinuxd-v21.09.8-x86_64.iso 
+cd iso/
+rm ubuntu-21.10-live-server-amd64.iso 
+rm ubuntu-21.10-desktop-amd64.iso 
+rm arcolinuxd-v21.09.11-x86_64.iso 
 ls
-sudo dd if=archcraft-2021.10.05-x86_64.iso of=/dev/sdc bs=4M && sync
+yay transmission
 exit
-su -
-sudo apt update
-exit
-sudo apt update
+htop
+killall spotify
+upall
+htop
+killall spotify
+upall
+cd downloads
+cd iso/
+rm ubuntu-21.10-live-server-amd64.iso 
+rm ubuntu-21.10-desktop-amd64.iso 
+rm arcolinuxd-v21.09.11-x86_64.iso 
+yay transmission
+cd downloads/iso/
+sudo dd if=archcraft-2021.10.05-x86_64.iso of=/dev/sdd bs=4M && sync
+sudo dd if=archlinux-2021.11.01-x86_64.iso of=/dev/sdd bs=4M && sync
+ls -la
+ll
+ls -lah
+lh
+cd ..
+la
+ls
+upfc
+clear
+eba
 eb
-sudo apt install neofetch
-sudo apt full-upgrade
-sudo add-apt-repository ppa:regolith-linux/release
-sudo apt -f install
-sudo apt auotremove
-sudo apt autoremove
-sudo apt install regolith-desktop-standard
-exit
-sudo apt install regolith-desktop-standard
-sudo apt install regolith-look-pop-os
-sudo apt search regolith-look
-sudo apt install regolith-look-{dracula,gruvbox,nord}
-sudo apt install regolith-look-{dracula,gruvbox}
-exit
-sudo apt install thunar
-exit
-sudo apt install inkscape gimp libreoffice
-dots
-eba
-merge
-exit
-sudo add-apt-repository ppa:regolith-linux/release
-sudo apt auotremove
-sudo apt autoremove
-sudo apt install regolith-desktop-standard
-sudo apt install regolith-desktop-standard
-sudo apt install regolith-look-pop-os
-sudo apt search regolith-look
-sudo apt install regolith-look-{dracula,gruvbox,nord}
-sudo apt install regolith-look-{dracula,gruvbox}
-sudo apt install thunar
-sudo apt install inkscape gimp libreoffice
-dots
-eba
-merge
-upall
-sudo apt install gnucash
-sudo apt install keepassxc
-sudo apt install meld
-whereis wmctl
-sudo apt install lxsession
-sudo apt purge lxsession
-cd downloads/tarballs/
-sudo apt install dropbox_2020.03.04_amd64.deb 
-sudo apt code_1.48.2-1598353430_amd64.deb 
-sudo apt install code_1.48.2-1598353430_amd64.deb 
-sudo apt microsoft-edge-stable_95.0.1020.44-1_amd64.deb 
-sudo apt install microsoft-edge-stable_95.0.1020.44-1_amd64.deb 
-cleanup
-sudo dpkg -i google-chrome-stable_current_amd64.deb 
-sudo dpkg -i atom-amd64.deb 
-sudo dpkg -i dropbox_2020.03.04_amd64.deb 
-sudo dpkg -i microsoft-edge-stable_95.0.1020.44-1_amd64.deb 
-sudo apt install python3-gpg
-sudo apt -f install
-sudo dpkg -i code_1.48.2-1598353430_amd64.deb 
-cd master-pdf-editor-5
-ls
-sudo apt search masterpdf
-exit
-sudo apt search masterpdf
-cd downloads/tarballs/
-sudo dpkg -i master-pdf-editor-5.8.20-qt5.x86_64.deb 
-sudo apt -f install
-ls
-cleanup
-exit
-cleanup
-cd downloads
-cd tarballs/
-ls
-sudo dpkg -i google-chrome-stable_current_amd64.deb 
-exit
-sudo apt purge openbox
-exit
-sudo apt install synaptic
-exit
-cp /etc/regolith/styles/root ~/.Xresources-regolith
-nano ~/.Xresources-regolith 
-exit
-xprop
-xrandr --listoutputs
-xrandr --list
-xrandr --help
-xrandr --listmonitors
+alias
 exit
 upall
 cleanup
 exit
-upall
+ls -la
+ll
+ls -lah
+la
+upfc
 clear
-cd .config/regolith/sxhkd/
-nano sxhkdrc 
-exit
-sudo apt install nitrogen
-exit
-upall
-cleanup
-sudo apt install nitrogen
-exit
-upall
-cleanup
-exit
-dots
-cd ..
-ls
-git clone git@github.com:fitzland/ub-dots.git
-cd ub-dots/
-git status
-upall
-exit
-cleanup
-exit
-upall
-sudo apt install lxappearance
-exit
-eri3
 eba
-exit
-eri3
-upall
-exit
+eb
+alias
 upall
 cleanup
-exit
-sudo apt install gparted
-exit
-sudo apt install gparted
-cd /media/jfitzhugh/CAP1214/BW/
-cp *.jpg /media/jfitzhugh/SS-CDR200/Dec-14/
-cp *.wmf /media/jfitzhugh/SS-CDR200/Dec-14/
-ls
+cd git/Qogir-icon-theme/
+gts
+cd Qogir-icon-theme/
+./install.sh -t all -c dark -l arch 
+./install.sh -theme all -c dark -l arch 
+./install.sh -c dark -l arch 
+lh
+git pull
 cd ..
-cd /media/jfitzhugh/CAP1215/
-exit
-cd /media/jfitzhugh/CAP1215
-exit
-upalll
-upall
-cleanup
-exit
-cd /media/jfitzhugh/CAP1214/BW/
-cp *.jpg /media/jfitzhugh/SS-CDR200/Dec-14/
-cp *.wmf /media/jfitzhugh/SS-CDR200/Dec-14/
-cd ..
-cd /media/jfitzhugh/CAP1215/
-cd /media/jfitzhugh/CAP1215
-upalll
-upall
-cleanup
-cd /media/jfitzhugh/CAP1216/
-cd BW/
-cp *.jpg ~/Dropbox/church/media/ChurchArtPro/December/
-cp *.wmf ~/Dropbox/church/media/ChurchArtPro/December/
-cd ~/Dropbox/church/media/ChurchArtPro/December/
-./wmf2svg 
-sudo chmod 700 *.jpg
-ls 0la
-sudo chmod 654 *.jpg
-sudo chmod 6654 *.jpg
-sudo chmod 665 *.jpg
+sudo rm -r Qogir-icon-theme/
+git clone git@github.com:vinceliuice/Qogir-theme.git
+cd Qogir-theme/
+sudo ./install.sh -c dark -t all -l arch
+./install.sh -c dark -t all -l arch
+cd ~/.themes/
 ls
-sudo chmod 664 *.jpg
-cd ../November/
-sudo chmod *.svg 664
-sudo chmod 664 *.svg
+exit
+sudo dd if=archlinux-2021.11.01-x86_64.iso of=/dev/sdd bs=4M && sync
+ls -la
+ll
+ls -lah
+la
+upfc
+eba
+eb
+alias
+cd downloads/iso/
+rm archlinux-2021.09.01-x86_64.iso 
+rm *.torrent
+rm archlinux-gui-bspwm-2021.10-b-x86_64.iso 
+sudo dd if=arcolinuxd-v21.11.05-x86_64.iso of=/dev/sdd bs=4M && sync
+cd ..
+cd ~/git/
+cd papirus-folders/
+git pull
+lh
+gts
+ls
+./install.sh -C deeporange Papirus-Dark
+clear
+exit
+sudo pacman -Rns firefox
+exit
+yay firefox developer
+sudo pacman -S hunspell-en_US
+exit
+lh
+gts
+./install.sh -C deeporange Papirus-Dark
+clear
+sudo pacman -Rns firefox
+yay firefox developer
+sudo pacman -S hunspell-en_US
+cd .local/
+cd share/
+cd applications/
+nano firefox_dev.desktop 
+cd ..
+cd themes/
+ls
 ls -la
 exit
-eri3
-erxr
+upall
+yay steam
+exit
+upall
+exit
+yay minecraft
+exit
+yay amidst
+exit
+upall
+exit
+upall
+yay grub config
+yay grub
+exit
+upall
+yay grub config
+yay grub
+yay efiboot
+help
+sudo efibootmgr -b 0002 -B
+sudo efibootmgr -b 0003 -B
+sudo efibootmgr -b 0006 -B
+sudo efibootmgr -b 0007 -B
+sudo efibootmgr -b 0009 -B
+sudo efibootmgr -b 000A -B
+sudo efibootmgr -b 000D -B
+sudo efibootmgr -b 000E -B
+sudo efibootmgr -b 0004 -B
+efibootmgr
+efibootmgr --help
+efibootmgr -o 0001,0008,0000
+sudo efibootmgr -o 0001,0008,0000
+exit
+yay leftwm
+exit
+upall
 exit
 upall
 cleanup
 exit
-cd downloads/iso/
+upall
+cleanup
+exit
+htop
+exit
+htop
+exit
+upall
+cd .config/leftwm/themes/
 ls
-sudo dd if=archcraft-2021.10.05-x86_64.iso of=/dev/sdc bs=4M && sync
+lh
+exit
+upall
+exit
+exit
+yay leftwm
+leftwm-theme update
+leftwm-theme install forest
+leftwm-theme apply "forest"
+upall
+exit
+yay mozilla
+mozillavpn 
+upall
+cleanup
+exit
+mozillavpn 
+upall
+cleanup
+leftwm update
+leftwm-update
+leftwm --update
+leftwm-theme install smooth
+leftwm-theme apply "smooth"
+leftwm-theme install space
+leftwm-theme apply "space"
+leftwm-theme install parker
+leftwm-theme apply "parker"
+leftwm-theme install material
+leftwm-theme apply "material"
+leftwm-theme update
+leftwm-theme install 
+leftwm-theme 
+leftwm-theme apply "candy"
+exit
+htop
+exit
+lh
+exit
+keepassxc --help
+exit
++upall
+ducks4uc3
+upall
+cleanup
+exit
+cd .config/bspwm/rofi/bin/
+ls
+./powermenu-endeavour 
+./powermenu-archcraft 
+yay color gpick
+exit
+yay i3lock
+exit
+upall
+yay betterlock
+exit
+yay betterlock
+exit
+upall
+mozillavpn 
+upall
+cleanup
+exit
+upall
+yay betterlock
+yay betterlock
+upall
+mozillavpn 
+upall
+dots
+./010-backup-home.sh 
+git add .
+git commit -m 'work on rofi'
+git pull
+ls
+git push
+gts
+cleanup
+clear
+exit
+yay source
+exit
+fc-cache -vf
+exit
+upall
+cleanup
+exit
+upall
+cleanup
+exit
+upall
+cleanup
+exit
+upall
+cleanup
+dots
+ls
+git pull
+nano git-v1.sh 
+./010-backup-home.sh 
+./git-v1.sh 
+gts
+exit
+upall
+sr
+nano git-v1.sh 
+./010-backup-home.sh 
+upall
+sr
+cd .config/
+cd leftwm/
+cd scripts/
+nano toazerty.sh 
+cp toazerty.sh base-shell-script.sh
+nano base-shell-script.sh 
+./base-shell-script.sh 
+dots
+ls
+./git-v1.sh 
+gts
+yay arcolinux logout
+exit
+which arcolinux-logout
+nano /usr/local/bin/arcolinux-logout 
+nano /usr/share/arcologout/arcologout.py 
+exit
+upall
+cleanup
+htop
+exit
+exo-open --help
+exit
+dots
+ls
+./010-backup-home.sh 
+./git-v1.sh 
+gts
+exit
+exo-open --help
+dots
+./010-backup-home.sh 
+./git-v1.sh 
+cd git
+cd endeavouros/
+cd bspwm/
+git pull
+ls
+gts
+exit
+nano toazerty.sh 
+cp toazerty.sh base-shell-script.sh
+nano base-shell-script.sh 
+./base-shell-script.sh 
+dots
+gts
+yay arcolinux logout
+which arcolinux-logout
+nano /usr/local/bin/arcolinux-logout 
+nano /usr/share/arcologout/arcologout.py 
+upall
+cleanup
+htop
+exo-open --help
+dots
+./010-backup-home.sh 
+gts
+exo-open --help
+dots
+./010-backup-home.sh 
+cd endeavouros/
+cd bspwm/
+gts
+cd git
+cd dubois/
+cd arcolinux-spices/
+cd arco-bspwm/
+cd arco-dwm/
+./git-v1.sh 
+cd arco-i3/
+cd ..
+cd archcraft/
+ls
+cd archcraft-style-bspwm/
+git pull
+exit
+upall
+dots
+ls
+./010-backup-home.sh 
+./git-v1.sh 
+gts
+exit
+exut
+exit
+upall
+./010-backup-home.sh 
+./git-v1.sh 
+gts
+exit
+cd ~/.config/bspwm/rofi/
+cd bin/
+./powermenu-endeavour 
+dots
+cd ..
+cd endeavouros/
+cd bspwm/.config/rofi/
+ls
+./powermenu.sh 
+exit
+zsh
 exit
