@@ -1,29 +1,3 @@
-yay wd7
-yay upd720
-yay gimp
-yay inkscape
-sudo pacman -S python-lxml scour python-numpy
-sudo pacman -S --needed os-prober
-sudo nano /etc/default/grub
-yay lightdm
-yay sddm
-dots
-cd dubois/
-cd
-cd git/dubois/
-cd arcolinux-spices/
-cd /usr/
-cd /share
-cd local/
-cd share/
-cd ..
-ls
-exit
-yay gimp
-yay inkscape
-sudo pacman -S python-lxml scour python-numpy
-sudo pacman -S --needed os-prober
-sudo nano /etc/default/grub
 yay lightdm
 dots
 cd
@@ -497,4 +471,30 @@ cd archcraft/
 ls
 cd archcraft-style-bspwm/
 git pull
+exit
+upall
+dots
+ls
+./010-backup-home.sh 
+./git-v1.sh 
+gts
+exit
+exut
+exit
+upall
+./010-backup-home.sh 
+./git-v1.sh 
+gts
+exit
+cd ~/.config/bspwm/rofi/
+cd bin/
+./powermenu-endeavour 
+dots
+cd ..
+cd endeavouros/
+cd bspwm/.config/rofi/
+ls
+./powermenu.sh 
+exit
+zsh
 exit

@@ -82,8 +82,8 @@ super + backslash
 	sh ~/.config/bspwm/rofi/bin/launcher-cmd
 
 #dmenu
-super + shift + d
-	dmenu_run
+super + p
+	dmenu_run -b -m 1 -p dmenu: -nb '#282a36' -nf '#f8f8f2' -sb '#6272a4' -sf '#f8f8f2'
 
 # Rofi Network Menu
 ctrl + alt + n
