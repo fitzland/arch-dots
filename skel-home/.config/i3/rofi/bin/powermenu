@@ -18,54 +18,26 @@ logout=""
 
 # Variable passed to rofi
 #options="$shutdown\n$reboot\n$lock\n$suspend\n$logout"
-options="$shutdown\n$reboot\n$lock\n$suspend\n$logout"
+options="$shutdown\n$reboot\n$logout\n$lock\n$suspend"
 _msg="Options  -  yes / y / no / n"
 
 chosen="$(echo -e "$options" | $rofi_command -p "UP - $uptime" -dmenu -selected-row 2)"
 case $chosen in
     $shutdown)
-		ans=$($HOME/.config/i3/rofi/bin/confirm)
-		if [[ $ans == "yes" ]] || [[ $ans == "YES" ]] || [[ $ans == "y" ]]; then
-        systemctl poweroff
-		elif [[ $ans == "no" ]] || [[ $ans == "NO" ]] || [[ $ans == "n" ]]; then
-        exit
-        else
-        rofi -theme ~/.config/i3/rofi/themes/askpass.rasi -e "$_msg"
-        fi
-        ;;
+		systemctl poweroff
+		;;
     $reboot)
-		ans=$($HOME/.config/i3/rofi/bin/confirm)
-		if [[ $ans == "yes" ]] || [[ $ans == "YES" ]] || [[ $ans == "y" ]]; then
-        systemctl reboot
-		elif [[ $ans == "no" ]] || [[ $ans == "NO" ]] || [[ $ans == "n" ]]; then
-        exit
-        else
-        rofi -theme ~/.config/i3/rofi/themes/askpass.rasi -e "$_msg"
-        fi
-        ;;
+		systemctl reboot
+		;;
     $lock)
         i3lock -i  ~/.config/i3/lockscreen.png -p default|win -t
         ;;
     $suspend)
-		ans=$($HOME/.config/i3/rofi/bin/confirm)
-		if [[ $ans == "yes" ]] || [[ $ans == "YES" ]] || [[ $ans == "y" ]]; then
-        mpc -q pause
+		mpc -q pause
         amixer set Master mute
         betterlockscreen --suspend
-		elif [[ $ans == "no" ]] || [[ $ans == "NO" ]] || [[ $ans == "n" ]]; then
-        exit
-        else
-        rofi -theme ~/.config/i3/rofi/themes/askpass.rasi -e "$_msg"
-        fi
-        ;;
+		;;
     $logout)
-		ans=$($HOME/.config/bspwm/rofi/bin/confirm)
-		if [[ $ans == "yes" ]] || [[ $ans == "YES" ]] || [[ $ans == "y" ]]; then
-        i3-msg exit
-		elif [[ $ans == "no" ]] || [[ $ans == "NO" ]] || [[ $ans == "n" ]]; then
-        exit
-        else
-        rofi -theme ~/.config/i3/rofi/themes/askpass.rasi -e "$_msg"
-        fi
-        ;;
+		i3-msg exit
+		;;
 esac

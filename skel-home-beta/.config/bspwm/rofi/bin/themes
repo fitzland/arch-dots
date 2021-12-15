@@ -39,7 +39,7 @@ options="$theme_1\n$theme_2\n$theme_3\n$theme_4\n$theme_5\
 chosen="$(echo -e "$options" | $rofi_command -p "Available themes : (21)" -dmenu -selected-row 0)"
 case $chosen in
     $theme_1)
-        bash ${BSP}/set-theme  'beach.jpg' 'beach' 'Arc-Lighter' 'Arc-Circle' 'Fluent'
+        bash ${BSP}/set-theme  'beach.jpg' 'beach' 'Adwaita-dark' 'Luna-Dark' 'Fluent'
         ;;
     $theme_2)
         bash ${BSP}/set-theme  'blade.jpg' 'blade' 'Blade' 'Zafiro-Dark' 'LyraS'
@@ -72,7 +72,7 @@ case $chosen in
         bash ${BSP}/set-theme  'keyboards.jpg' 'keyboards' 'Sweet-Dark' 'Zafiro-Purple' 'Sweet'
         ;;
     $theme_12)
-        bash ${BSP}/set-theme  'light.jpg' 'light' 'White' 'Arc-Circle' 'Fluent-dark'
+        bash ${BSP}/set-theme  'light.jpg' 'light' 'Kripton' 'Zafiro-Dark' 'Fluent-dark'
         ;;
     $theme_13)
         bash ${BSP}/set-theme  'manhattan.jpg' 'manhattan' 'Manhattan' 'Luv-Folders-Dark' 'Vimix-dark'

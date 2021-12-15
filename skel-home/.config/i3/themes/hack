@@ -2,40 +2,40 @@
 ! Copyright (C) 2020-2021 Aditya Shakya <adi1090x@gmail.com>
 ! Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
 !
-! Pastel color scheme
+! Hack color scheme
 ! -----------------------------------------------------------------------------
 
-*background: #222D57
-*foreground: #EBDDEB
+*background: #01161b
+*foreground: #66FFFF
 
 ! Black + DarkGrey
-*color0:  #36416B
-*color8:  #414B75
+*color0:  #142A2F
+*color8:  #142A2F
 
 ! DarkRed + Red
-*color1:  #f0719b
-*color9:  #f02e6e
+*color1:  #007b82
+*color9:  #007b82
 
 ! DarkGreen + Green
-*color2:  #5af7b0
-*color10: #2ce592
+*color2:  #028c94
+*color10: #028c94
 
 ! DarkYellow + Yellow
-*color3:  #ffa56b
-*color11: #ff8537
+*color3:  #039ca4
+*color11: #039ca4
 
 ! DarkBlue + Blue
-*color4:  #57c7ff
-*color12: #1da0e2
+*color4:  #04acb5
+*color12: #04acb5
 
 ! DarkMagenta + Magenta
-*color5:  #c792ea
-*color13: #a742ea
+*color5:  #05bbc5
+*color13: #05bbc5
 
 ! DarkCyan + Cyan
-*color6:  #89ddff
-*color14: #47bae8
+*color6:  #06ccd7
+*color14: #06ccd7
 
 ! LightGrey + White
-*color7:  #eeffff
-*color15: #dee6e7
+*color7:  #a3b5b8
+*color15: #a3b5b8

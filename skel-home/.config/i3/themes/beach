@@ -2,40 +2,40 @@
 ! Copyright (C) 2020-2021 Aditya Shakya <adi1090x@gmail.com>
 ! Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
 !
-! Pastel color scheme
+! Beach color scheme
 ! -----------------------------------------------------------------------------
 
-*background: #222D57
-*foreground: #EBDDEB
+*background: #141c21
+*foreground: #93a1a1
 
 ! Black + DarkGrey
-*color0:  #36416B
-*color8:  #414B75
+*color0:  #263640
+*color8:  #4a697d
 
 ! DarkRed + Red
-*color1:  #f0719b
-*color9:  #f02e6e
+*color1:  #d12f2c
+*color9:  #fa3935
 
 ! DarkGreen + Green
-*color2:  #5af7b0
-*color10: #2ce592
+*color2:  #819400
+*color10: #a4bd00
 
 ! DarkYellow + Yellow
-*color3:  #ffa56b
-*color11: #ff8537
+*color3:  #b08500
+*color11: #d9a400
 
 ! DarkBlue + Blue
-*color4:  #57c7ff
-*color12: #1da0e2
+*color4:  #2587cc
+*color12: #2ca2f5
 
 ! DarkMagenta + Magenta
-*color5:  #c792ea
-*color13: #a742ea
+*color5:  #696ebf
+*color13: #8086e8
 
 ! DarkCyan + Cyan
-*color6:  #89ddff
-*color14: #47bae8
+*color6:  #289c93
+*color14: #33c5ba
 
 ! LightGrey + White
-*color7:  #eeffff
-*color15: #dee6e7
+*color7:  #bfbaac
+*color15: #fdf6e3

@@ -2,40 +2,40 @@
 ! Copyright (C) 2020-2021 Aditya Shakya <adi1090x@gmail.com>
 ! Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
 !
-! Pastel color scheme
+! Gruvbox color scheme
 ! -----------------------------------------------------------------------------
 
-*background: #222D57
-*foreground: #EBDDEB
+*background: #282828
+*foreground: #ebdbb2
 
 ! Black + DarkGrey
-*color0:  #36416B
-*color8:  #414B75
+*color0:  #3C3C3C
+*color8:  #928374
 
 ! DarkRed + Red
-*color1:  #f0719b
-*color9:  #f02e6e
+*color1:  #cc241d
+*color9:  #fb4934
 
 ! DarkGreen + Green
-*color2:  #5af7b0
-*color10: #2ce592
+*color2:  #98971a
+*color10: #b8bb26
 
 ! DarkYellow + Yellow
-*color3:  #ffa56b
-*color11: #ff8537
+*color3:  #d79921
+*color11: #fabd2f
 
 ! DarkBlue + Blue
-*color4:  #57c7ff
-*color12: #1da0e2
+*color4:  #458588
+*color12: #83a598
 
 ! DarkMagenta + Magenta
-*color5:  #c792ea
-*color13: #a742ea
+*color5:  #b16286
+*color13: #d3869b
 
 ! DarkCyan + Cyan
-*color6:  #89ddff
-*color14: #47bae8
+*color6:  #689d6a
+*color14: #8ec07c
 
 ! LightGrey + White
-*color7:  #eeffff
-*color15: #dee6e7
+*color7:  #a89984
+*color15: #ebdbb2

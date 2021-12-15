@@ -65,9 +65,17 @@ super + shift F12
 
 ##---------- Rofi Launcher & Menus ----------##
 
+# Rofi App CMD Launcher
+super + {slash,backslash}
+	sh ~/.config/i3/rofi/bin/{launcher-app,launcher-cmd}
+
+# Rofi Window Menu
+super + shift + backslash
+	sh ~/.config/i3/rofi/bin/windows
+
 # Rofi Themes Menu
 ctrl + alt + t
-	sh ~/.config/rofi/bin/themes
+	sh ~/.config/i3/rofi/bin/themes
 
 # Rofi Menus/Applets
 super + {m,x,s}
