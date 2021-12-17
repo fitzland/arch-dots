@@ -15,6 +15,7 @@ include-file = ~/.config/bspwm/polybar/modules
 
 [bar/main]
 monitor = DP-0
+monitor-fallback = DP-5
 monitor-strict = false
 override-redirect = false
 
@@ -48,7 +49,7 @@ font-2 = "google\-mdi:size=12;3"
 font-3 = "Iosevka:style=bold:"size=12;3"
 
 modules-left = bspwm sep mod sep title
-modules-center = kernel
+modules-center = mpd sep kernel
 modules-right = volume sep time
 
 separator =
@@ -79,6 +80,7 @@ scroll-down = bspc desktop -f next.local
 
 [bar/extra]
 monitor = DP-2
+monitor-fallback = DP-7
 monitor-strict = false
 override-redirect = false
 

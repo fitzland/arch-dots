@@ -27,14 +27,12 @@ getcolors() {
 getcolors
 
 ## Configurations --------------------------------------------#
- #workspaces() {
+#workspaces() {
 #	name=1
 #	for monitor in `bspc query -M`; do
 #		bspc monitor ${monitor} -n "$name" -d 'I' 'II' 'III' 'IV' 'V'
 		#bspc monitor ${monitor} -n "$name" -d '' '' '' ''
 #		let name++
-		#bspc monitor ${monitor} -n "$name" -d '' '' '' ''
-#		bspc monitor ${monitor} -n "$name" -d 'VI' 'VII' 'VIII' 'IX' 'X'
 #	done
 #}
 #workspaces
@@ -44,7 +42,7 @@ bspc monitor DP-0 -d '' '' '' '' ''
 bspc monitor DP-2 -d '' '' '' '' ''
 #bspc monitor -d 'I' 'II' 'III' 'IV' 'V' 'VI' 'VII' 'VIII'
 
-bspc config border_width 1
+bspc config border_width 2
 bspc config window_gap 10
 bspc config split_ratio 0.50
 
@@ -104,7 +102,7 @@ for i in ${files[@]}; do
 # 8 > settings
 bspc rule -a 'VirtualBox Manager' desktop='^8' follow=on focus=on
 bspc rule -a GParted desktop='^8' follow=on focus=on
-declare -a settings=(Lxappearance Lxtask Lxrandr Arandr \
+declare -a settings=(Lxtask Lxrandr Arandr \
 System-config-printer.py Pavucontrol Exo-helper-1 \
 Xfce4-power-manager-settings)
 for i in ${settings[@]}; do
@@ -138,9 +136,6 @@ dunst \
 
 # Lauch xsettingsd daemon
 xsettingsd &
-
-# Dex
-dex -a -s /etc/xdg/autostart/:~/.config/autostart/
 
 # polkit agent
 #if [[ ! `pidof xfce-polkit` ]]; then

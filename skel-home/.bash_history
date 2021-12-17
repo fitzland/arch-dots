@@ -1,429 +1,3 @@
-yay lightdm
-dots
-cd
-cd git/dubois/
-cd /usr/
-cd /share
-cd local/
-cd git/
-cd dubois/
-cd arco-i3/
-cd ArchWay/
-cd .
-cd ..
-ls -la
-cd usr/
-cd share/
-cd arcolinux-spices/
-cd scripts/
-ls
-./get-the-keys-and-repos.sh 
-upall
-yay sddm
-exit
-yay sddm
-cd git/dubois/
-cd arco-i3/
-ls
-./100-display-manager-and-desktop.sh 
-exit
-yay sddm
-exit
-sudo sddm-config-editor 
-exit
-yay lxpolkit
-yay lxsession
-exit
-exit
-neofetch
-sudo pacman -Rns xfce4-terminal
-exit
-eb
-eba
-exit
-upall
-cleanup
-yay dropbox
-exit
-upall
-cleanup
-yay mfc 2690lw
-yay 2690lw
-yay l2690w
-yay 2690
-yay brother
-yay brother mfc
-yay l2700
-exit
-sudo grub-mkconfig -o /boot/grub/grub.cfg
-exit
-yay master pdf
-cd downloads/tarballs/
-ls
-sudo ./PDFStudio_2021_linux64.sh 
-yay wmname
-exit
-cd downloads/tarballs/
-ls
-sudo ./PDFStudio_2021_linux64.sh 
-exit
-upall
-cleanup
-exit
-cd Dropbox/church/media/newsletter/12-newsletter-dec/images/
-./wmf2svg 
-exit
-yay minecraft
-exit
-upall
-cleanup
-exit
-upall
-cleanup
-ip link
-exit
-exit
-upall
-cleanup
-exit
-cd Dropbox/church/media/newsletter/12-newsletter-dec/images/
-./wmf2svg 
-exit
-yay minecraft
-exit
-exit
-ip link
-exit
-exit
-exit
-dots
-./010-backup-home.sh 
-git commit -m 'work on i3 config'
-rm 020-backup-work.sh 
-cp 010-backup-home.sh 020-backup-work.sh
-ls
-nano 020-backup-work.sh 
-git add .
-git commit -m 'edit to work backup script'
-git push
-git status
-gts
-upall
-cleanup
-sr
-yay spotify
-cleanup
-clear
-htop
-exit
-killall spotify
-exit
-upall
-exit
-htop
-killall spotify
-upall
-cd downloads
-cd iso/
-rm ubuntu-21.10-live-server-amd64.iso 
-rm ubuntu-21.10-desktop-amd64.iso 
-rm arcolinuxd-v21.09.11-x86_64.iso 
-ls
-yay transmission
-exit
-htop
-killall spotify
-upall
-htop
-killall spotify
-upall
-cd downloads
-cd iso/
-rm ubuntu-21.10-live-server-amd64.iso 
-rm ubuntu-21.10-desktop-amd64.iso 
-rm arcolinuxd-v21.09.11-x86_64.iso 
-yay transmission
-cd downloads/iso/
-sudo dd if=archcraft-2021.10.05-x86_64.iso of=/dev/sdd bs=4M && sync
-sudo dd if=archlinux-2021.11.01-x86_64.iso of=/dev/sdd bs=4M && sync
-ls -la
-ll
-ls -lah
-lh
-cd ..
-la
-ls
-upfc
-clear
-eba
-eb
-alias
-exit
-upall
-cleanup
-exit
-ls -la
-ll
-ls -lah
-la
-upfc
-clear
-eba
-eb
-alias
-upall
-cleanup
-cd git/Qogir-icon-theme/
-gts
-cd Qogir-icon-theme/
-./install.sh -t all -c dark -l arch 
-./install.sh -theme all -c dark -l arch 
-./install.sh -c dark -l arch 
-lh
-git pull
-cd ..
-sudo rm -r Qogir-icon-theme/
-git clone git@github.com:vinceliuice/Qogir-theme.git
-cd Qogir-theme/
-sudo ./install.sh -c dark -t all -l arch
-./install.sh -c dark -t all -l arch
-cd ~/.themes/
-ls
-exit
-sudo dd if=archlinux-2021.11.01-x86_64.iso of=/dev/sdd bs=4M && sync
-ls -la
-ll
-ls -lah
-la
-upfc
-eba
-eb
-alias
-cd downloads/iso/
-rm archlinux-2021.09.01-x86_64.iso 
-rm *.torrent
-rm archlinux-gui-bspwm-2021.10-b-x86_64.iso 
-sudo dd if=arcolinuxd-v21.11.05-x86_64.iso of=/dev/sdd bs=4M && sync
-cd ..
-cd ~/git/
-cd papirus-folders/
-git pull
-lh
-gts
-ls
-./install.sh -C deeporange Papirus-Dark
-clear
-exit
-sudo pacman -Rns firefox
-exit
-yay firefox developer
-sudo pacman -S hunspell-en_US
-exit
-lh
-gts
-./install.sh -C deeporange Papirus-Dark
-clear
-sudo pacman -Rns firefox
-yay firefox developer
-sudo pacman -S hunspell-en_US
-cd .local/
-cd share/
-cd applications/
-nano firefox_dev.desktop 
-cd ..
-cd themes/
-ls
-ls -la
-exit
-upall
-yay steam
-exit
-upall
-exit
-yay minecraft
-exit
-yay amidst
-exit
-upall
-exit
-upall
-yay grub config
-yay grub
-exit
-upall
-yay grub config
-yay grub
-yay efiboot
-help
-sudo efibootmgr -b 0002 -B
-sudo efibootmgr -b 0003 -B
-sudo efibootmgr -b 0006 -B
-sudo efibootmgr -b 0007 -B
-sudo efibootmgr -b 0009 -B
-sudo efibootmgr -b 000A -B
-sudo efibootmgr -b 000D -B
-sudo efibootmgr -b 000E -B
-sudo efibootmgr -b 0004 -B
-efibootmgr
-efibootmgr --help
-efibootmgr -o 0001,0008,0000
-sudo efibootmgr -o 0001,0008,0000
-exit
-yay leftwm
-exit
-upall
-exit
-upall
-cleanup
-exit
-upall
-cleanup
-exit
-htop
-exit
-htop
-exit
-upall
-cd .config/leftwm/themes/
-ls
-lh
-exit
-upall
-exit
-exit
-yay leftwm
-leftwm-theme update
-leftwm-theme install forest
-leftwm-theme apply "forest"
-upall
-exit
-yay mozilla
-mozillavpn 
-upall
-cleanup
-exit
-mozillavpn 
-upall
-cleanup
-leftwm update
-leftwm-update
-leftwm --update
-leftwm-theme install smooth
-leftwm-theme apply "smooth"
-leftwm-theme install space
-leftwm-theme apply "space"
-leftwm-theme install parker
-leftwm-theme apply "parker"
-leftwm-theme install material
-leftwm-theme apply "material"
-leftwm-theme update
-leftwm-theme install 
-leftwm-theme 
-leftwm-theme apply "candy"
-exit
-htop
-exit
-lh
-exit
-keepassxc --help
-exit
-+upall
-ducks4uc3
-upall
-cleanup
-exit
-cd .config/bspwm/rofi/bin/
-ls
-./powermenu-endeavour 
-./powermenu-archcraft 
-yay color gpick
-exit
-yay i3lock
-exit
-upall
-yay betterlock
-exit
-yay betterlock
-exit
-upall
-mozillavpn 
-upall
-cleanup
-exit
-upall
-yay betterlock
-yay betterlock
-upall
-mozillavpn 
-upall
-dots
-./010-backup-home.sh 
-git add .
-git commit -m 'work on rofi'
-git pull
-ls
-git push
-gts
-cleanup
-clear
-exit
-yay source
-exit
-fc-cache -vf
-exit
-upall
-cleanup
-exit
-upall
-cleanup
-exit
-upall
-cleanup
-exit
-upall
-cleanup
-dots
-ls
-git pull
-nano git-v1.sh 
-./010-backup-home.sh 
-./git-v1.sh 
-gts
-exit
-upall
-sr
-nano git-v1.sh 
-./010-backup-home.sh 
-upall
-sr
-cd .config/
-cd leftwm/
-cd scripts/
-nano toazerty.sh 
-cp toazerty.sh base-shell-script.sh
-nano base-shell-script.sh 
-./base-shell-script.sh 
-dots
-ls
-./git-v1.sh 
-gts
-yay arcolinux logout
-exit
-which arcolinux-logout
-nano /usr/local/bin/arcolinux-logout 
-nano /usr/share/arcologout/arcologout.py 
-exit
-upall
-cleanup
-htop
-exit
-exo-open --help
-exit
-dots
-ls
-./010-backup-home.sh 
-./git-v1.sh 
-gts
 exit
 exo-open --help
 dots
@@ -497,4 +71,430 @@ ls
 ./powermenu.sh 
 exit
 zsh
+exit
+upall
+ls
+sudo pacman -Syyu
+exit
+cd /etc/skel/.config/bspwm/
+ls
+nano bspwmrc 
+cd
+cd .config/bspwm-
+ls
+cd .config/
+ls
+cp bspwm-fitzland/ bspwm
+cp -r bspwm-fitzland/ bspwm
+exit
+cd /usr/
+ls
+cd share/
+ls
+cd xsessions/
+ls
+exit
+sudo mkdir -p /usr/share/backgrounds
+ls
+cd images/wallpapers/system/
+sudo cp *.jpg /usr/share/backgrounds/
+sudo cp *.png /usr/share/backgrounds/
+exit
+yay net-tools
+cd images/wallpapers/system/
+ls
+cp *.jpg /usr/share/backgrounds
+sudo cp *.jpg /usr/share/backgrounds
+cd
+cd git/
+ls
+cd dubois/
+ls
+cd arcolinux-spices/
+ls
+cd usr/
+ls
+cd share/
+ls
+cd arcolinux-spices/
+ls
+cd scripts/
+ls
+./get-the-keys-and-repos.sh 
+sudo pacman -Syyu
+exit
+cd /etc/
+ls
+cd pacman.d/
+ls
+nano arcolinux-mirrorlist 
+cd ..
+nano pacman.conf 
+sudo nano pacman.conf 
+cd pacman.d/
+ls -la
+cd
+cd git/fitzland/
+ls
+cd pacman.d/
+ls
+sudo cp *-mirrorlist /etc/pacman.d/
+cd /etc/pacman.d/
+ls
+sudo pacman Syyu
+sudo pacman Sy
+ls
+cd gnupg/
+ls -la
+yay google-chrome
+cd ..
+ls
+cd ..
+ls
+sudo nano pacman.conf 
+sudo pacman -Syyu
+yay aic
+yay wd7
+yay wmname
+yay upd7
+ls
+exit
+neofetch
+exit
+yay google-chrome
+yay microsoft edge
+exit
+yay zafiro
+yay keepassxc
+sudo nano /etc/pacman.conf 
+sudo pacman -Sy
+exit
+cd git/archcraft/
+git clone git@github.com:archcraft-os/archcraft-dwm.git
+cd archcraft-dwm/
+git pull
+ls
+exit
+cd git/archcraft/
+ls
+git clone git@github.com:archcraft-os/archcraft-i3wm.git
+ls
+cd archcraft-i3wm/
+ls
+cd ..
+ls
+exit
+cd git/archcraft/
+git clone git@github.com:archcraft-os/archcraft-icons.git
+ls
+cd archcraft-dwm/
+ls
+./build.sh 
+./build.sh -f
+exit
+cd git/
+ls
+cd archcraft/
+ls
+git clone git@github.com:archcraft-os/archcraft-themes.git
+ls
+cd archcraft-themes/
+ls
+./build.sh 
+cd ..
+ls
+git clone git@github.com:archcraft-os/archcraft-packages.git
+ls
+cd archcraft-packages/
+ls
+./build.sh 
+sudo pacman -Sy
+exit
+cd /etc/skel/
+ls
+ls -la
+cd .config/
+ls
+cp -r bspwm/ ~/.config/bspwm-endeavor
+cp -r rofi/ ~/.config/rofi-endeavor
+cp -r sxhkd/ ~/.config/sxhkd-endeavor
+cp -r polybar/ ~/.config/polybar-endeavor
+cp -r dunst/ ~/.config/dunst-endeavor
+cd ..
+ls
+cd .local/
+ls
+cd share/
+ls
+ls -la
+cd fonts/
+ls
+cp IosevkaTermNerdFontComplete.ttf ~/.fonts/
+neofetch
+exit
+zafiro
+yay zafiro
+exit
+yay juno
+cd git/
+ls
+git clone git@github.com:EliverLara/Kripton.git
+git clone git@github.com:EliverLara/Juno.git
+mkdir theme
+ls
+sudo rm -r Juno/
+sudo rm -r Kripton/
+ls
+sudo rm -r Qogir-theme/
+ls
+cd theme/
+git clone git@github.com:EliverLara/Kripton.git
+git clone git@github.com:EliverLara/Juno.git
+git clone git@github.com:EliverLara/Nordic.git
+git clone git@github.com:EliverLara/Otis.git
+ls
+cd Otis/
+ls
+cd ..
+ls
+cp -r Juno/ ~/.themes/
+cp -r Kripton/ ~/.themes/
+cp -r Nordic/ ~/.themes/
+cp -r Otis/ ~/.themes/
+exit
+cd git/
+ls
+cd archcraft/
+ls
+cd archcraft-
+cd archcraft-themes/
+ls
+git pull
+exit
+ots
+dots
+ls
+cd git/
+ls
+cd fitzland/
+ls
+cd arch-dots/
+ls
+nano 040-themes.sh 
+exit
+exit
+exit
+cd git/
+cd archcraft/
+ls
+cd archcraft-themes/
+git pull
+ls
+exit
+exit
+sudo reboot
+ls
+cd .config
+ls
+cd bspwm/
+ls
+nano bspwmrc 
+cd ..
+ls
+cd sxhkd/
+ls
+nano sxhkdrc 
+exit
+exit
+yay net-tools
+exit
+cd images/wallpapers/system/
+ls
+mkdir -p /usr/share/backgrounds
+sudo mkdir -p /usr/share/backgrounds
+ls
+cp *.jpg /usr/share/backgrounds/
+sudo cp *.jpg /usr/share/backgrounds/
+sudo cp *.png /usr/share/backgrounds/
+exit
+yay alacritty
+exit
+cd git/fitzland/arch-dots/
+ls
+cd skel-home
+ls
+ls -la
+cd .config/
+ls
+cp -r bspwm/ ~/.config/bspwm-fitzland
+exit
+upall
+exit
+htop
+exit
+yay google-chrome
+cd git
+ls
+cd dubois/
+ls
+cd arcolinux-spices/
+ls
+cd usr/
+ls
+cd share/
+ls
+cd arcolinux-spices/
+ls
+cd scripts/
+ls
+./get-the-keys-and-repos.sh 
+sudo pacman -Syy
+sudo pacman -Syyu
+yay google-chrome
+yay microsoft edge
+yay keepassxc
+exit
+yay dropbox
+yay gnucash
+yay gimp inkscape
+yay gimp
+yay inkscape
+sudo pacman -S python-lxml python-numpy scour
+yay typora
+yay atom
+yay visual studio code
+yay mozillavpn
+exit
+sudo pacman -Rns leafpad
+sudo pacman -Rns pcmanfm
+sudo pacman -Rns openbox
+exit
+cd images/wallpapers/system/
+ls
+sudo cp cubic.jpg /usr/share/backgrounds/
+sudo cp groot.png /usr/share/backgrounds/
+exit
+exit
+sudo pacman -Rns xfce4-terminal 
+sudo pacman -Rns xfce4-terminal endeavouros-xfce4-terminal-colors 
+exit
+upall
+exit
+exit
+xfce4-terminal 
+exit
+sudo pacman -Rns xterm
+exit
+neofetch
+cd images/wallpapers/system/
+ls
+sudo cp blade-alt.jpg /usr/share/backgrounds/
+exit
+cd images
+cd wallpapers/system/
+ls
+sudo cp blade-alt.jpg /usr/share/backgrounds/blade.jpg 
+exit
+ls
+sudo cp blade-alt.jpg /usr/share/backgrounds/blade.jpg 
+sudo pacman -S expac
+yay upd7
+yay wd7
+yay aic
+upall
+cleanup
+rip
+yay libreoffice-still
+sudo pacman -S pstoedit
+wall
+wp
+eba
+merge
+exit
+wp
+ls
+sudo cp blade.png /usr/share/backgrounds/
+sudo cp blade-alt.jpg /usr/share/backgrounds/blade.jpg 
+sudo pacman -S expac
+yay upd7
+yay wd7
+yay aic
+upall
+cleanup
+rip
+yay libreoffice-still
+sudo pacman -S pstoedit
+wall
+wp
+eba
+merge
+wp
+sudo cp blade.png /usr/share/backgrounds/
+yay lyra
+dots
+cd archcraft/
+git clone git@github.com:archcraft-os/archcraft-cursors.git
+cd archcraft-cursors/
+cd archcraft-cursor-lyra/
+sudo pacman -U archcraft-cursor-lyra-1.0-1-any.pkg.tar.zst 
+cd archcraft-cursor-qogirr/
+makepkg -sri
+sudo pacman -U archcraft-cursor-qogirr-1.0-1-any.pkg.tar.zst 
+yay oh my zsh
+cd ..
+cd archcraft-cursor-sweet/
+makepkg -sir
+ls
+sudo pacman -U archcraft-cursor-sweet-1.0-1-any.pkg.tar.zst 
+exit
+sudo cp blade.png /usr/share/backgrounds/
+yay lyra
+dots
+cd archcraft/
+git clone git@github.com:archcraft-os/archcraft-cursors.git
+cd archcraft-cursors/
+cd archcraft-cursor-lyra/
+sudo pacman -U archcraft-cursor-lyra-1.0-1-any.pkg.tar.zst 
+cd archcraft-cursor-qogirr/
+sudo pacman -U archcraft-cursor-qogirr-1.0-1-any.pkg.tar.zst 
+yay oh my zsh
+cd archcraft-cursor-sweet/
+makepkg -sir
+sudo pacman -U archcraft-cursor-sweet-1.0-1-any.pkg.tar.zst 
+cd git/archcraft/
+git clone git@github.com:archcraft-os/archcraft-icons.git
+cd archcraft-icons/
+cd archcraft-icons-qogir/
+sudo pacman -U archcraft-icons-qogir-1.0-1-any.pkg.tar.zst 
+cd archcraft-icons-zafiro/
+sudo pacman -U archcraft-icons-zafiro-1.0-1-any.pkg.tar.zst 
+cd archcraft-icons-papirus/
+sudo pacman -U archcraft-icons-papirus-1.0-1-any.pkg.tar.zst 
+cd ..
+ls
+cd archcraft-icons-nordic/
+makepkg -sri
+sudo pacman -U archcraft-icons-nordic-1.0-1-any.pkg.tar.zst 
+exit
+cd /usr/share/backgrounds/
+ls
+sudo rm blade.jpg 
+exit
+yay pamac
+cleanup
+exit
+yay pamac
+exit
+yay lxsession
+exit
+root
+su -
+exit
+su -
+upall
+zsh
+exit
+nano .zshrc 
+zsh
+sudo chsh jeff -s /bin/zsh
 exit

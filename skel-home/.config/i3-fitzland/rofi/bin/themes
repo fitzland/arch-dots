@@ -1,0 +1,79 @@
+#!/usr/bin/env bash
+
+## Copyright (C) 2020-2021 Aditya Shakya <adi1090x@gmail.com>
+## Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
+
+DIR="$HOME/.config/i3"
+I3="$HOME/.config/i3/themes"
+rofi_command="rofi -theme $DIR/rofi/themes/themes.rasi"
+
+# Themes
+theme_1=" Beach"
+theme_2=" Blade"
+theme_3=" Bouquet"
+theme_4=" Cubic"
+theme_5=" Cyberpunk"
+theme_6=" Dracula"
+theme_7=" Flowers"
+theme_8=" Forest"
+theme_9=" Groot"
+theme_10=" Gruvbox"
+theme_11=" Hack"
+theme_12=" Keyboards"
+theme_13=" Nordic"
+theme_14=" Tealize"
+theme_15=" Wave"
+
+# Variable passed to rofi
+options="$theme_1\n$theme_2\n$theme_3\n$theme_4\n$theme_5\
+\n$theme_6\n$theme_7\n$theme_8\n$theme_9\n$theme_10\
+\n$theme_11\n$theme_12\n$theme_13\n$theme_14\n$theme_15\"
+
+chosen="$(echo -e "$options" | $rofi_command -p "Available themes : (15)" -dmenu -selected-row 0)"
+case $chosen in
+    $theme_1)
+        bash ${I3}/set-theme  'beach.jpg' 'beach' 'Adwaita-dark' 'Luna-Dark' 'Fluent'
+        ;;
+    $theme_2)
+        bash ${I3}/set-theme  'blade.jpg' 'blade' 'Blade' 'Zafiro-Dark' 'LyraS'
+        ;;
+    $theme_3)
+        bash ${I3}/set-theme  'bouquet.jpg' 'bouquet' 'Juno-mirage' 'Luna-Dark' 'Future-dark'
+        ;;
+    $theme_4)
+        bash ${I3}/set-theme  'cubic.jpg' 'cubic' 'Windows-10-Dark' 'Zafiro-Purple-Dark' 'Vimix-dark'
+        ;;
+    $theme_5)
+        bash ${I3}/set-theme  'cyberpunk.jpg' 'cyberpunk' 'Cyberpunk' 'Zafiro-Purple-Dark' 'LyraB'
+        ;;
+    $theme_6)
+        bash ${I3}/set-theme  'dracula.png' 'dracula' 'Dracula' 'Qogir-ubuntu-dark' 'Sweet'
+        ;;
+    $theme_7)
+        bash ${I3}/set-theme  'flowers.jpg' 'flowers' 'Kripton' 'Zafiro' 'Fluent-dark'
+        ;;
+    $theme_8)
+        bash ${I3}/set-theme  'forest.jpg' 'forest' 'Adapta-Nokto' 'Zafiro-Green-Dark' 'Vimix-dark'
+        ;;
+    $theme_9)
+        bash ${I3}/set-theme  'groot.png' 'groot' 'Groot' 'Luna-Dark' 'Pear'
+        ;;
+    $theme_10)
+        bash ${I3}/set-theme  'gruvbox.jpg' 'gruvbox' 'Gruvbox' 'Luna-Dark' 'Future-dark'
+        ;;
+    $theme_11)
+        bash ${I3}/set-theme  'hack.jpg' 'hack' 'Hack' 'Hack' 'LyraB'
+        ;;
+    $theme_12)
+        bash ${I3}/set-theme  'keyboards.jpg' 'keyboards' 'Sweet-Dark' 'Zafiro-Purple' 'Sweet'
+        ;;
+    $theme_13)
+        bash ${I3}/set-theme  'nordic.jpg' 'nord' 'Nordic' 'Nordic-Folders' 'Qogirr-dark'
+        ;;
+    $theme_14)
+        bash ${I3}/set-theme  'tealize.png' 'tealize' 'Juno-palenight' 'Luv-Folders-Dark' 'Vimix-dark'
+        ;;
+    $theme_15)
+        bash ${I3}/set-theme  'wave.jpg' 'wave' 'Wave' 'Luv-Folders-Dark' 'Vimix-dark'
+        ;;
+esac

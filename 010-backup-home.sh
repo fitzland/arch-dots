@@ -18,11 +18,11 @@ mv ./skel-home skel-home-beta
 mkdir ./skel-home
 cp -r $HOME/.config/alacritty/ ./skel-home/.config/
 cp -r $HOME/.config/autostart ./skel-home/.config/
-cp -r $HOME/.config/bspwm ./skel-home/.config/
+cp -r $HOME/.config/bspwm* ./skel-home/.config/
 cp -r $HOME/.config/gtk-2.0 ./skel-home/.config/
 cp -r $HOME/.config/gtk-3.0 ./skel-home/.config/
 cp -r $HOME/.config/gtk-4.0 ./skel-home/.config/
-cp -r $HOME/.config/i3 ./skel-home/.config/
+cp -r $HOME/.config/i3* ./skel-home/.config/
 cp -r $HOME/.config/keepassxc ./skel-home/.config/
 cp -r $HOME/.config/Kvantum ./skel-home/.config/
 cp -r $HOME/.config/neofetch ./skel-home/.config/

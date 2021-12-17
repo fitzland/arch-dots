@@ -7,13 +7,9 @@
 super + F1
 	catfish
 
-# Code
-super + F2
-	atom
-
-# Atom
-super + shift + F2
-	code
+# Editor
+super + {_,shift} + F2
+	{atom,code}
 
 # Inkscape
 super + F3
@@ -86,8 +82,8 @@ super + p
 	dmenu_run -b -m 1 -p dmenu: -nb '#282a36' -nf '#f8f8f2' -sb '#6272a4' -sf '#f8f8f2'
 
 # Rofi Network Menu
-ctrl + alt + n
-	sh ~/.config/bspwm/rofi/bin/network
+super + n
+	nmd
 
 # Rofi Themes Menu
 ctrl + alt + t
@@ -106,6 +102,10 @@ super + Return
 # File Manager
 super + shift + Return
 	exo-open --working-directory $HOME --launch FileManager
+
+# Launch Apps
+super + shift + {f,w,e}
+	{thunar,firefox,xed}
 
 # Terminal Apps
 ctrl + alt + {v,r,h}
@@ -211,7 +211,7 @@ super + alt + {Left,Right}
 
 # Switch workspace
 ctrl + alt + {Left,Right}
-	bspc desktop -f {prev,next}
+	bspc desktop -f {prev,next}.local
 
 # Switch to last opened workspace
 super + {Tab,grave}
@@ -225,7 +225,7 @@ super + shift + {comma,period}
 super + {Prior,Next}
 	bspc desktop -f {prev,next}
 
-# Send node to next/previous workspace global
+# Send node to next/previous workspace
 super + shift + {Prior,Next}
 	bspc node -d {prev,next} --follow
 
