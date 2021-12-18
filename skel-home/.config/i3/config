@@ -33,8 +33,8 @@ gaps outer 0
 
 ##-- Colors ------------------------------
 
-# class                 border  backgr. text    indicator child_border
-client.focused          #DA6E89 #DA6E89 #FFFFFF #98C379   #DA6E89
+# class                 border      background  text       indicator     child_border
+client.focused          #98C379 #98C379 #FFFFFF #DA6E89   #DA6E89
 client.focused_inactive #61AFEF #61AFEF #1E222A #98C379   #61AFEF
 client.unfocused        #2C3038 #2C3038 #FFFFFF #98C379   #2C3038
 client.urgent           #C678DD #C678DD #FFFFFF #98C379   #C678DD
@@ -50,13 +50,13 @@ exec_always --no-startup-id 	~/.config/i3/bin/autostart.sh
 
 # -- Terminal --
 bindsym $mod+Return 			exec --no-startup-id ~/.config/i3/bin/i3term.sh
-bindsym $mod+Shift+Return 		exec --no-startup-id ~/.config/i3/bin/i3term.sh -f
-bindsym $mod+t 					exec --no-startup-id ~/.config/i3/bin/i3term.sh -s
+bindsym $mod+Shift+Return 		exec --no-startup-id thunar
+bindsym $mod+t 				exec --no-startup-id ~/.config/i3/bin/i3term.sh -s
 
 # -- Apps --
 bindsym $mod+Shift+f 			exec --no-startup-id thunar
-bindsym $mod+Shift+e 			exec --no-startup-id geany
-bindsym $mod+Shift+w 			exec --no-startup-id firefox
+bindsym $mod+Shift+e 			exec --no-startup-id xed
+bindsym $mod+Shift+w 			exec --no-startup-id firefox-developer-edition
 bindsym $alt+Control+v 			exec --no-startup-id "alacritty --config-file ~/.config/i3/alacritty/alacritty.yml -e vim"
 bindsym $alt+Control+n 			exec --no-startup-id "alacritty --config-file ~/.config/i3/alacritty/alacritty.yml -e nvim"
 bindsym $alt+Control+r 			exec --no-startup-id "alacritty --config-file ~/.config/i3/alacritty/alacritty.yml -e ranger"
@@ -65,13 +65,15 @@ bindsym $alt+Control+b 			exec --no-startup-id "alacritty --config-file ~/.confi
 
 # -- Rofi --
 bindsym $alt+F1 				exec --no-startup-id ~/.config/i3/rofi/bin/launcher
+bindsym $mod+slash 				exec --no-startup-id ~/.config/i3/rofi/bin/launcher-app
+bindsym $mod+backslash 				exec --no-startup-id ~/.config/i3/rofi/bin/launcher-cmd
 bindsym $mod+n 					exec --no-startup-id ~/.config/i3/rofi/bin/network_menu
 bindsym $mod+x 					exec --no-startup-id ~/.config/i3/rofi/bin/powermenu
 bindsym $mod+m 					exec --no-startup-id ~/.config/i3/rofi/bin/mpd
 bindsym $mod+i 					exec --no-startup-id ~/.config/i3/rofi/bin/network
 bindsym $mod+s 					exec --no-startup-id ~/.config/i3/rofi/bin/screenshot
 bindsym $mod+r 					exec --no-startup-id ~/.config/i3/rofi/bin/asroot
-bindsym $mod+w 					exec --no-startup-id ~/.config/i3/rofi/bin/windows
+bindsym $mod+Shift+backslash			exec --no-startup-id ~/.config/i3/rofi/bin/windows
 
 # -- Function keys --
 bindsym XF86MonBrightnessUp 	exec --no-startup-id "brightness --inc"
@@ -121,11 +123,17 @@ bindsym $mod+Shift+k move down
 bindsym $mod+Shift+l move up
 bindsym $mod+Shift+semicolon move right
 
-# alternatively, you can use the cursor keys:
+## Modify // Window Position // <><Shift> ↑ ↓ ← → ##
 bindsym $mod+Shift+Left move left
 bindsym $mod+Shift+Down move down
 bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
+
+## Modify // Containing Workspace // <><Ctrl><Shift> ↑ ↓ ← → ##
+bindsym $mod+Ctrl+Shift+Left move workspace to output left
+bindsym $mod+Ctrl+Shift+Down move workspace to output down
+bindsym $mod+Ctrl+Shift+Up move workspace to output up
+bindsym $mod+Ctrl+Shift+Right move workspace to output right
 
 # split in horizontal orientation
 bindsym $mod+h split h
@@ -157,16 +165,19 @@ bindsym $mod+d focus child
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
-set $ws1 "1"
-set $ws2 "2"
-set $ws3 "3"
-set $ws4 "4"
-set $ws5 "5"
-set $ws6 "6"
-set $ws7 "7"
-set $ws8 "8"
-set $ws9 "9"
-set $ws10 "10"
+set $ws1 "1:term|"
+set $ws2 "2:edit|"
+set $ws3 "3:ofc|"
+set $ws4 "4:grfx|"
+set $ws5 "5:misc|"
+set $ws6 "6:home|"
+set $ws7 "7:file|"
+set $ws8 "8:util|"
+set $ws9 "9:media|"
+set $ws0 "10:web|"
+
+set $firstMonitor DP-0
+set $secondMonitor DP-2
 
 # switch to workspace
 bindsym $mod+1 workspace number $ws1
@@ -178,9 +189,9 @@ bindsym $mod+6 workspace number $ws6
 bindsym $mod+7 workspace number $ws7
 bindsym $mod+8 workspace number $ws8
 bindsym $mod+9 workspace number $ws9
-bindsym $mod+0 workspace number $ws10
+bindsym $mod+0 workspace number $ws0
 
-# move focused container to workspace
+## Modify // Move Window to Workspace 1 - 10 // <><Shift> 0..9 ##
 bindsym $mod+Shift+1 move container to workspace number $ws1
 bindsym $mod+Shift+2 move container to workspace number $ws2
 bindsym $mod+Shift+3 move container to workspace number $ws3
@@ -190,7 +201,26 @@ bindsym $mod+Shift+6 move container to workspace number $ws6
 bindsym $mod+Shift+7 move container to workspace number $ws7
 bindsym $mod+Shift+8 move container to workspace number $ws8
 bindsym $mod+Shift+9 move container to workspace number $ws9
-bindsym $mod+Shift+0 move container to workspace number $ws10
+bindsym $mod+Shift+0 move container to workspace number $ws0
+
+# move focused container to workspace, move to workspace
+## Modify // Carry Window to Workspace 1 - 10// <><Alt> 0..9 ##
+bindsym $mod+$alt+1 move container to workspace number $ws1; workspace number $ws1
+bindsym $mod+$alt+2 move container to workspace number $ws2; workspace number $ws2
+bindsym $mod+$alt+3 move container to workspace number $ws3; workspace number $ws3
+bindsym $mod+$alt+4 move container to workspace number $ws4; workspace number $ws4
+bindsym $mod+$alt+5 move container to workspace number $ws5; workspace number $ws5
+bindsym $mod+$alt+6 move container to workspace number $ws6; workspace number $ws6
+bindsym $mod+$alt+7 move container to workspace number $ws7; workspace number $ws7
+bindsym $mod+$alt+8 move container to workspace number $ws8; workspace number $ws8
+bindsym $mod+$alt+9 move container to workspace number $ws9; workspace number $ws9
+bindsym $mod+$alt+0 move container to workspace number $ws0; workspace number $ws0
+
+## Navigate // Next Workspace // <><Alt> → ##
+bindsym $mod+$alt+Right workspace next
+
+## Navigate // Previous Workspace // <><Alt> ← ##
+bindsym $mod+$alt+Left workspace prev
 
 # reload the configuration file
 bindsym Control+Shift+c reload
@@ -271,11 +301,43 @@ mode "$mode_gaps" {
 
 bindsym $mod+Shift+g mode "$mode_gaps"
 
-##-- Workspace Rules ------------------------
-assign [class="Lxappearance|Nitrogen"] 6
-assign [class="Pavucontrol|Xfce4-power-manager-settings"] 6
+###############################################################################
+# User Settings with i3
+###############################################################################
 
-##-- Window Rules ------------------------
+# use workspaces on different displays:
+workspace $ws1 output $firstMonitor
+workspace $ws2 output $firstMonitor
+workspace $ws3 output $firstMonitor
+workspace $ws4 output $firstMonitor
+workspace $ws5 output $firstMonitor
+workspace $ws6 output $secondMonitor
+workspace $ws7 output $secondMonitor
+workspace $ws8 output $secondMonitor
+workspace $ws9 output $secondMonitor
+workspace $ws0 output $secondMonitor
+
+# bind program to workspace and focus to them on startup:
+assign [class="Gnome-terminal"] $ws1
+assign [class="Alacritty"] $ws1
+assign [class="Atom"] $ws2
+assign [class="Code"] $ws2
+assign [class="soffice"] $ws3
+assign [class="(?i)libreoffice"] $ws3
+assign [class="Gnucash"] $ws3
+assign [class="Gimp"] $ws4
+assign [class="Inkscape"] $ws4
+assign [class="KeePassXC"] $ws5
+assign [class="Synaptic"] $ws5
+assign [class="TelegramDesktop"] $ws5
+assign [class="(?i)firefox"] $ws5
+assign [class="Google-chrome"] $ws6
+assign [class="Thunar"] $ws7
+assign [class="Nautilus"] $ws7
+assign [class="Lxappearance|Nitrogen"] $ws8
+assign [class="Pavucontrol|Xfce4-power-manager-settings"] $ws8
+
+# automatic set focus new window if it opens on another workspace then the current:
 for_window [window_role="pop-up"] floating enable
 for_window [window_role="task_dialog"] floating enable
 for_window [class="alacritty-float"] floating enable
@@ -285,3 +347,17 @@ for_window [class="Pavucontrol|Xfce4-power-manager-settings|Nm-connection-editor
 for_window [class="feh|Viewnior|Gpicview|Gimp|MPlayer"] floating enable
 for_window [class="Kvantum Manager|qt5ct"] floating enable
 for_window [class="VirtualBox Manager|qemu|Qemu-system-x86_64"] floating enable
+for_window [class=Alacritty] focus
+for_window [class=Atom] focus
+for_window [class=Code] focus
+for_window [class=(?i)firefox] focus
+for_window [class=Gimp] focus
+for_window [class=Gnome-terminal] focus
+for_window [class=Gnucash] focus
+for_window [class=Google-chrome] focus
+for_window [class=Inkscape] focus
+for_window [class=KeePassXC] focus
+for_window [class=Nautilus] focus
+for_window [class=Synaptic] focus
+for_window [class=Thunar] focus
+#for_window [class=TelegramDesktop] focus
