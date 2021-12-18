@@ -52,7 +52,7 @@ case $chosen in
         bash ${BSP}/set-theme  'bouquet.jpg' 'bouquet' 'Juno-mirage' 'Zafiro-Yellow' 'Paper'
         ;;
     $theme_cubic)
-        bash ${BSP}/set-theme  'cubic.jpg' 'cubic' 'Graphite-Dark' 'Paper-Mono-Dark' 'Adwaita'
+        bash ${BSP}/set-theme  'cubic.jpg' 'cubic' 'Hash' 'Qogir-Dark' 'Adwaita'
         ;;
     $theme_cyberpunk)
         bash ${BSP}/set-theme  'cyberpunk.jpg' 'cyberpunk' 'Cyberpunk' 'Paper-Mono-Dark' 'LyraP'

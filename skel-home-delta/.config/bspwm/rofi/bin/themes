@@ -1,0 +1,108 @@
+#!/usr/bin/env bash
+
+## Copyright (C) 2020-2021 Aditya Shakya <adi1090x@gmail.com>
+## Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
+
+DIR="$HOME/.config/bspwm"
+BSP="$HOME/.config/bspwm/themes"
+rofi_command="rofi -theme $DIR/rofi/themes/themes.rasi"
+
+# Themes
+theme_adaptive=" Adaptive"
+theme_beach=" Beach"
+theme_blade=" Blade"
+theme_bouquet=" Bouquet"
+theme_cubic=" Cubic"
+theme_cyberpunk=" Cyberpunk"
+theme_dracula=" Dracula"
+theme_flowers=" Flowers"
+theme_forest=" Forest"
+theme_groot=" Groot"
+theme_gruvbox=" Gruvbox"
+theme_hack=" Hack"
+theme_keyboards=" Keyboards"
+theme_light=" Light"
+theme_manhattan=" Manhattan"
+theme_nord=" Nord"
+theme_nordic=" Nordic"
+theme_pastel=" Pastel"
+theme_rick=" Rick"
+theme_spark=" Spark"
+theme_tealize=" Tealize"
+theme_wave=" Wave"
+
+# Variable passed to rofi
+options="$theme_adaptive\n$theme_beach\n$theme_blade\n$theme_bouquet\n$theme_cubic\n$theme_cyberpunk\
+\n$theme_dracula\n$theme_flowers\n$theme_forest\n$theme_groot\n$theme_gruvbox\n$theme_hack\
+\n$theme_keyboards\n$theme_light\n$theme_manhattan\n$theme_nord\n$theme_nordic\
+\n$theme_pastel\n$theme_rick\n$theme_spark\n$theme_tealize\n$theme_wave"
+
+chosen="$(echo -e "$options" | $rofi_command -p "Available themes: " -dmenu -selected-row 0)"
+case $chosen in
+    $theme_adaptive)
+        bash ${BSP}/set-theme  'adaptive.jpg' 'hack' 'Adapta-Nokto' 'Zafiro-Green' 'Paper'
+        ;;
+    $theme_beach)
+        bash ${BSP}/set-theme  'beach.jpg' 'beach' 'Groot' 'Zafiro-Blue' 'Paper'
+        ;;
+    $theme_blade)
+        bash ${BSP}/set-theme  'blade.png' 'blade' 'Blade' 'Nordic-Folders' 'LyraS'
+        ;;
+    $theme_bouquet)
+        bash ${BSP}/set-theme  'bouquet.jpg' 'bouquet' 'Juno-mirage' 'Zafiro-Yellow' 'Paper'
+        ;;
+    $theme_cubic)
+        bash ${BSP}/set-theme  'cubic.jpg' 'cubic' 'Graphite-Dark' 'Paper-Mono-Dark' 'Adwaita'
+        ;;
+    $theme_cyberpunk)
+        bash ${BSP}/set-theme  'cyberpunk.jpg' 'cyberpunk' 'Cyberpunk' 'Paper-Mono-Dark' 'LyraP'
+        ;;
+    $theme_dracula)
+        bash ${BSP}/set-theme  'dracula.png' 'dracula' 'Dracula' 'Qogir-ubuntu-dark' 'Qogir-ubuntu-dark'
+        ;;
+    $theme_flowers)
+        bash ${BSP}/set-theme  'flowers.jpg' 'flowers' 'Kripton' 'Zafiro' 'Paper'
+        ;;
+    $theme_forest)
+        bash ${BSP}/set-theme  'forest.jpg' 'forest' 'Adapta-Nokto' 'Zafiro-Green' 'Qogir-manjaro-dark'
+        ;;
+    $theme_groot)
+        bash ${BSP}/set-theme  'groot.png' 'groot' 'Groot' 'Zafiro-Yellow' 'Adwaita'
+        ;;
+    $theme_gruvbox)
+        bash ${BSP}/set-theme  'gruvbox.jpg' 'gruvbox' 'Gruvbox' 'Zafiro-Yellow' 'LyraF'
+        ;;
+    $theme_hack)
+        bash ${BSP}/set-theme  'hack.jpg' 'hack' 'Hack' 'Hack' 'LyraB'
+        ;;
+    $theme_keyboards)
+        bash ${BSP}/set-theme  'keyboards.jpg' 'keyboards' 'Sweet-Dark' 'Zafiro-Purple' 'Sweet'
+        ;;
+    $theme_light)
+        bash ${BSP}/set-theme  'light.jpg' 'light' 'White' 'Arc-Circle' 'Fluent-dark'
+        ;;
+    $theme_manhattan)
+        bash ${BSP}/set-theme  'manhattan.jpg' 'manhattan' 'Manhattan' 'Luv-Folders-Dark' 'Vimix-dark'
+        ;;
+    $theme_nord)
+        bash ${BSP}/set-theme  'nord.jpg' 'nord' 'Arc-Dark' 'Arc-Circle' 'Qogirr'
+        ;;
+    $theme_nordic)
+        bash ${BSP}/set-theme  'nordic.jpg' 'nord' 'Nordic' 'Nordic-Folders' 'Qogirr-dark'
+        ;;
+    $theme_pastel)
+        bash ${BSP}/set-theme  'pastel.png' 'pastel' 'White' 'Qogir' 'Qogirr-dark'
+        ;;
+    $theme_rick)
+        bash ${BSP}/set-theme  'rick.jpg' 'rick' 'Rick' 'Zafiro' 'Vimix-dark'
+        ;;
+    $theme_spark)
+        bash ${BSP}/set-theme  'spark.jpg' 'spark' 'Spark' 'Luv-Folders' 'Vimix'
+        ;;
+    $theme_tealize)
+        bash ${BSP}/set-theme  'tealize.png' 'tealize' 'Juno-palenight' 'Luv-Folders-Dark' 'Vimix'
+        ;;
+    $theme_wave)
+        bash ${BSP}/set-theme  'wave.jpg' 'wave' 'Wave' 'Luv-Folders-Dark' 'Vimix'
+        ;;
+esac

@@ -38,8 +38,8 @@ getcolors
 #workspaces
 
 bspc monitor DP-0 -d '' '' '' '' ''
-#bspc monitor DP-0 -d '' '' '' '' '' ''
-bspc monitor DP-2 -d '' '' '' '' ''
+#bspc monitor DP-0 -d '' '' '' '' '' ''
+bspc monitor DP-2 -d '' '' '' '' ''
 #bspc monitor -d 'I' 'II' 'III' 'IV' 'V' 'VI' 'VII' 'VIII'
 
 bspc config border_width 2
@@ -68,7 +68,7 @@ for i in ${term[@]}; do
    bspc rule -a $i desktop='^1' follow=on focus=on; done
 
 # 2 > code
-declare -a code=(Atom Code Gedit Geany Meld code-oss)
+declare -a code=(Atom Code Gedit Geany Meld code-oss Xed)
 for i in ${code[@]}; do
   bspc rule -a $i desktop='^2' follow=on focus=on; done
 
@@ -102,6 +102,7 @@ for i in ${files[@]}; do
 # 8 > settings
 bspc rule -a 'VirtualBox Manager' desktop='^8' follow=on focus=on
 bspc rule -a GParted desktop='^8' follow=on focus=on
+bspc rule -a Pamac-manager desktop='^8' follow=on focus=on
 declare -a settings=(Lxtask Lxrandr Arandr \
 System-config-printer.py Pavucontrol Exo-helper-1 \
 Xfce4-power-manager-settings)
@@ -114,7 +115,7 @@ for i in ${media[@]}; do
   bspc rule -a $i desktop='^9' state=floating follow=on focus=on; done
 
 # special rules
-declare -a floating=(alacritty-float Onboard Yad 'Firefox:Places' \
+declare -a floating=(Onboard Yad 'Firefox:Places' \
 Viewnior feh Nm-connection-editor)
 for i in ${floating[@]}; do
    bspc rule -a $i state=floating follow=on focus=on; done

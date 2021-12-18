@@ -115,7 +115,7 @@ font-3 = "Iosevka:style=bold:"size=12;3"
 
 modules-left = bspwm sep mod sep title
 modules-center = network-localip sep network-ipinfo
-modules-right = ethernet sep date
+modules-right = networkspeeddown networkspeedup sep date
 
 separator =
 spacing = 0
