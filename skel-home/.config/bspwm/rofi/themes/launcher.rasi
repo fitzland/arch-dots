@@ -21,7 +21,7 @@ configuration {
 @import "colors.rasi"
 
 * {
-    font:                           "Iosevka 10";
+    font:                           "JetBrains Mono Medium 10";
     background-color:             	@background;
 }
 
@@ -83,8 +83,8 @@ mainbox {
 }
 
 listview {
-    lines:							7;
-    columns:						1;
+    lines:						8;
+    columns:						2;
     fixed-height: 					0;
     border: 						0px;
     border-color: 					@foreground;
