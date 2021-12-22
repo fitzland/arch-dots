@@ -1,5 +1,3 @@
-exit
-exo-open --help
 dots
 ./010-backup-home.sh 
 ./git-v1.sh 
@@ -497,4 +495,6 @@ exit
 nano .zshrc 
 zsh
 sudo chsh jeff -s /bin/zsh
+exit
+alias
 exit
