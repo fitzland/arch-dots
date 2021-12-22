@@ -91,13 +91,13 @@ case $chosen in
         bash ${BSP}/set-theme  'nordic.jpg' 'nord' 'Nordic' 'Nordic-Folders' 'Qogirr-dark'
         ;;
     $theme_pastel)
-        bash ${BSP}/set-theme  'pastel.png' 'pastel' 'White' 'Qogir' 'Qogirr-dark'
+        bash ${BSP}/set-theme  'pastel.png' 'pastel' 'Juno-mirage' 'Qogir' 'Qogirr-dark'
         ;;
     $theme_rick)
-        bash ${BSP}/set-theme  'rick.jpg' 'rick' 'Rick' 'Zafiro' 'Vimix-dark'
+        bash ${BSP}/set-theme  'rick.png' 'rick' 'Pop-dark' 'Zafiro' 'Vimix-dark'
         ;;
     $theme_spark)
-        bash ${BSP}/set-theme  'spark.jpg' 'spark' 'Spark' 'Luv-Folders' 'Vimix'
+        bash ${BSP}/set-theme  'spark.png' 'spark' 'Kripton' 'Qogir-manjaro-dark' 'Qogir-manjaro-dark'
         ;;
     $theme_tealize)
         bash ${BSP}/set-theme  'tealize.png' 'tealize' 'Juno-palenight' 'Luv-Folders-Dark' 'Vimix'
