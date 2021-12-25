@@ -35,8 +35,8 @@ pamac-tray &
 #xfce4-power-manager &
 
 # Enable Super Keys For Menu
-ksuperkey -e 'Super_L=Alt_L|F1' &
-ksuperkey -e 'Super_R=Alt_L|F1' &
+#ksuperkey -e 'Super_L=Alt_L|F1' &
+#ksuperkey -e 'Super_R=Alt_L|F1' &
 
 # Restore wallpaper
 hsetroot -cover ~/.config/i3/wallpapers/default.png

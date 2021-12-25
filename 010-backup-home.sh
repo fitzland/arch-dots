@@ -28,8 +28,7 @@ cp -r $HOME/.config/Kvantum ./skel-home/.config/
 cp -r $HOME/.config/neofetch ./skel-home/.config/
 cp -r $HOME/.config/nitrogen ./skel-home/.config/
 cp -r $HOME/.config/pamac ./skel-home/.config/
-#cp -r $HOME/.config/paru ./skel-home/.config/
-cp -r $HOME/.config/picom ./skel-home/.config/
+cp -r $HOME/.config/paru ./skel-home/.config/
 cp -r $HOME/.config/polybar ./skel-home/.config/
 cp -r $HOME/.config/qt5ct ./skel-home/.config/
 cp -r $HOME/.config/rofi ./skel-home/.config/

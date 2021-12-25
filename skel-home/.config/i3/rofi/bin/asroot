@@ -29,7 +29,7 @@ case $chosen in
         "$DIR"/bin/apps_as_root.sh 'dbus-run-session thunar'
         ;;
     $editor)
-        "$DIR"/bin/apps_as_root.sh geany
+        "$DIR"/bin/apps_as_root.sh xed
         ;;
     $clifm)
         "$DIR"/bin/apps_as_root.sh 'alacritty --class alacritty-float,alacritty-float --config-file /root/.config/alacritty/alacritty.yml -e ranger'
