@@ -89,13 +89,12 @@ super + shift + {f,w,e}
 	{thunar,firefox,xed}
 
 # Terminal Apps
-ctrl + alt + {v,r,h}
-	alacritty --config-file ~/.config/bspwm/alacritty/alacritty.yml -e {vim,ranger,htop}
+ctrl + alt + {r,h}
+	alacritty --config-file ~/.config/bspwm/alacritty/alacritty.yml -e {ranger,htop}
 
 # Lockscreen
 ctrl + alt + k
-	sh $HOME/$USER/.config/bspwm/bin/i3lock-fancy/i3lock-fancy.sh
-	#betterlockscreen -l dim -- --time-str="%H:%M"
+	sh ~/.config/bspwm/bin/bsplock
 
 ##---------- System Keys ----------##
 
@@ -138,7 +137,7 @@ super + {_,shift + }c
 	bspc node -{c,k}
 
 # Reload Keybindings
-super + Escape
+super + shift + s
 	pkill -USR1 -x sxhkd
 
 # kill window

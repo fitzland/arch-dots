@@ -1,5 +1,6 @@
-## Copyright (C) 2020-2021 Aditya Shakya <adi1090x@gmail.com>
-## Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
+#################################################################
+# KEYBOARD BINDINGS FOR BSPWM
+#################################################################
 
 ##---------- Keybindings for apps ----------##
 
@@ -9,7 +10,7 @@ super + F1
 
 # Editor
 super + {_,shift} + F2
-	{atom,code}
+	{code,atom}
 
 # Inkscape
 super + F3
@@ -29,13 +30,13 @@ super + F6
 
 # KeePassXC
 super + {_,shift} + F7
-    keepassxc {~/Dropbox/journal/home.kdbx,keepassxc ~/Dropbox/journal/work.kdbx}
+    keepassxc {$HOME/Dropbox/journal/home.kdbx,keepassxc $HOME/Dropbox/journal/work.kdbx}
 
 # File Manager
 super + {_,shift} + F8
     {thunar,alacritty --config-file ~/.config/bspwm/alacritty/alacritty.yml -e ranger}
 
-# Typora
+# Markdown Editor
 super + {_,shift} + F9
     {ghostwriter,typora}
 
@@ -81,7 +82,7 @@ super + {m,x,r,s,i}
 
 # Terminal and File Manager
 super + {_,shift} + Return
-	{rofi-sensible-terminal,thunar}
+	{bspterm,thunar}
 
 # Launch Apps
 super + shift + {f,w,e}
@@ -92,7 +93,7 @@ ctrl + alt + {v,r,h}
 	alacritty --config-file ~/.config/bspwm/alacritty/alacritty.yml -e {vim,ranger,htop}
 
 # Lockscreen
-ctrl + alt + l
+ctrl + alt + k
 	sh $HOME/$USER/.config/bspwm/bin/i3lock-fancy/i3lock-fancy.sh
 	#betterlockscreen -l dim -- --time-str="%H:%M"
 
@@ -118,9 +119,6 @@ ctrl + Print
 ctrl + alt + Print
 	takeshot --area
 
-# Brighness control
-XF86MonBrightness{Up,Down}
-	brightness{ --inc, --dec}
 
 # Volume control
 XF86Audio{RaiseVolume,LowerVolume}

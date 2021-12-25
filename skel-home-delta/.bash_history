@@ -1,9 +1,3 @@
-dots
-./010-backup-home.sh 
-./git-v1.sh 
-cd git
-cd endeavouros/
-cd bspwm/
 git pull
 ls
 gts
@@ -496,5 +490,11 @@ nano .zshrc
 zsh
 sudo chsh jeff -s /bin/zsh
 exit
+alias
+exit
+tosddm
+alias
+exit
+xd
 alias
 exit

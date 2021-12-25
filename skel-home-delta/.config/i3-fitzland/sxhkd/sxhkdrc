@@ -3,65 +3,53 @@
 
 ##---------- Keybindings for apps ----------##
 
-# Code
-super + F2
-	atom
+# Search
+super + F1
+	catfish
 
-# Atom
-super + shift + F2
-	code
+# Editor
+super + {_,shift} + F2
+	{atom,code}
 
-#Inkscape
+# Inkscape
 super + F3
     inkscape
 
-#Gimp
+# Gimp
 super + F4
     gimp
 
-#Meld
+# Meld
 super + F5
     meld
 
-#GnuCash
+# GnuCash
 super + F6
     gnucash
 
-#KeePassXC
-super + F7
-    keepassxc
+# KeePassXC
+super + {_,shift} + F7
+    keepassxc {~/Dropbox/journal/home.kdbx,keepassxc ~/Dropbox/journal/work.kdbx}
 
-#Spotify
-super + F8
-    thunar
+# File Manager
+super + {_,shift} + F8
+    {thunar,alacritty --config-file ~/.config/i3/alacritty/alacritty.yml -e ranger}
 
-#Typora
-super + F9
-    typora
+# Typora
+super + {_,shift} + F9
+    {ghostwriter,typora}
 
-#Firefox
-super + F10
-    firefox
-
-#Firefox
-super + shift + F10
-    firefox --private-window
+# Firefox
+super + {_,shift} + F10
+    {firefox-developer-edition,firefox-developer-edition --private-window}
 
 #Microsoft Edge
-super + F11
-    microsoft-edge-stable --profile-directory='Default'
-
-#Microsoft Edge
-super + shift + F11
-    microsoft-edge-stable --profile-directory='Profile 1'
+super + {_,shift} + F11
+    {microsoft-edge-stable --profile-directory='Default',microsoft-edge-stable --profile-directory='Profile 1'}
 
 #Chrome Primary
-super + F12
-    google-chrome-stable --profile-directory='Default'
-
-#Chrome Secondary
-super + shift F12
-    google-chrome-stable --profile-directory='Profile 1'
+super + {_,shift} + F12
+    {google-chrome-stable --profile-directory='Default',google-chrome-stable --profile-directory='Profile 1'}
 
 ##---------- Rofi Launcher & Menus ----------##
 
@@ -73,7 +61,7 @@ super + {slash,backslash}
 super + shift + backslash
 	sh ~/.config/i3/rofi/bin/windows
 
-# Rofi Themes Menu
+# Rofi Themes Menu (currently not working)
 ctrl + alt + t
 	sh ~/.config/i3/rofi/bin/themes
 

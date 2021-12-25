@@ -85,7 +85,7 @@ for i in ${grfx[@]}; do
    bspc rule -a $i desktop='^4' follow=on focus=on; done
 
 # 5 > chat
-declare -a chat=(firefox firefoxdeveloperedition Thunderbird TelegramDesktop Hexchat)
+declare -a chat=(firefox firefoxdeveloperedition KeePassXC Thunderbird TelegramDesktop Hexchat)
 for i in ${chat[@]}; do
 bspc rule -a $i desktop='^5' follow=on focus=on; done
 
@@ -139,9 +139,6 @@ dunst \
 xsettingsd &
 
 # polkit agent
-#if [[ ! `pidof xfce-polkit` ]]; then
-#	/usr/lib/xfce-polkit/xfce-polkit &
-#fi
 if [[ ! `pidof lxpolkit` ]]; then
 	/usr/bin/lxpolkit &
 fi
@@ -151,8 +148,8 @@ fi
 sxhkd -c $HOME/.config/bspwm/sxhkd/sxhkdrc &
 
 # Enable Super Keys For Menu
-ksuperkey -e 'Super_L=Alt_L|F1' &
-ksuperkey -e 'Super_R=Alt_L|F1' &
+#ksuperkey -e 'Super_L=Alt_L|F1' &
+#ksuperkey -e 'Super_R=Alt_L|F1' &
 
 # Enable power management
 #xfce4-power-manager &

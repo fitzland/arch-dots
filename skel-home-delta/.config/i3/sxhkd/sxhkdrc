@@ -33,7 +33,7 @@ super + {_,shift} + F7
 
 # File Manager
 super + {_,shift} + F8
-    {thunar,alacritty --config-file ~/.config/bspwm/alacritty/alacritty.yml -e ranger}
+    {thunar,alacritty --config-file ~/.config/i3/alacritty/alacritty.yml -e ranger}
 
 # Typora
 super + {_,shift} + F9
