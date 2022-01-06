@@ -40,13 +40,13 @@ options="$theme_adaptive\n$theme_beach\n$theme_blade\n$theme_bouquet\n$theme_cub
 chosen="$(echo -e "$options" | $rofi_command -p "Available themes: " -dmenu -selected-row 0)"
 case $chosen in
     $theme_adaptive)
-        bash ${BSP}/set-theme  'adaptive.jpg' 'hack' 'Adapta-Nokto' 'Zafiro-Green' 'Paper'
+        bash ${BSP}/set-theme  'adaptive.png' 'forest' 'Adapta-Nokto' 'Zafiro-Purple' 'Qogir-manjaro'
         ;;
     $theme_beach)
-        bash ${BSP}/set-theme  'beach.jpg' 'beach' 'Groot' 'Zafiro-Blue' 'Paper'
+        bash ${BSP}/set-theme  'beach.png' 'beach' 'Groot' 'Zafiro-Blue' 'Paper'
         ;;
     $theme_blade)
-        bash ${BSP}/set-theme  'blade.png' 'blade' 'Blade' 'Nordic-Folders' 'LyraS'
+        bash ${BSP}/set-theme  'blade.jpg' 'blade' 'Blade' 'Nordic-Folders' 'LyraS'
         ;;
     $theme_bouquet)
         bash ${BSP}/set-theme  'bouquet.jpg' 'bouquet' 'Juno-mirage' 'Zafiro-Yellow' 'Paper'
@@ -73,7 +73,7 @@ case $chosen in
         bash ${BSP}/set-theme  'gruvbox.jpg' 'gruvbox' 'Gruvbox' 'Zafiro-Yellow' 'LyraF'
         ;;
     $theme_hack)
-        bash ${BSP}/set-theme  'hack.jpg' 'hack' 'Hack' 'Hack' 'LyraB'
+        bash ${BSP}/set-theme  'hack.png' 'hack' 'Sweet-Dark' 'Qogir-manjaro' 'Sweet'
         ;;
     $theme_keyboards)
         bash ${BSP}/set-theme  'keyboards.jpg' 'keyboards' 'Sweet-Dark' 'Zafiro-Purple' 'Sweet'
@@ -82,7 +82,7 @@ case $chosen in
         bash ${BSP}/set-theme  'light.jpg' 'light' 'White' 'Arc-Circle' 'Fluent-dark'
         ;;
     $theme_manhattan)
-        bash ${BSP}/set-theme  'manhattan.jpg' 'manhattan' 'Manhattan' 'Luv-Folders-Dark' 'Vimix-dark'
+        bash ${BSP}/set-theme  'manhattan.png' 'manhattan' 'Manhattan' 'Luv-Folders-Dark' 'Vimix-dark'
         ;;
     $theme_nord)
         bash ${BSP}/set-theme  'nord.jpg' 'nord' 'Arc-Dark' 'Arc-Circle' 'Qogirr'
@@ -103,6 +103,6 @@ case $chosen in
         bash ${BSP}/set-theme  'tealize.png' 'tealize' 'Juno-palenight' 'Luv-Folders-Dark' 'Vimix'
         ;;
     $theme_wave)
-        bash ${BSP}/set-theme  'wave.jpg' 'wave' 'Wave' 'Luv-Folders-Dark' 'Vimix'
+        bash ${BSP}/set-theme  'wave.png' 'wave' 'Wave' 'Luv-Folders-Dark' 'Vimix'
         ;;
 esac

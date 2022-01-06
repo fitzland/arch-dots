@@ -28,6 +28,7 @@ theme_nordic=" Nordic"
 theme_pastel=" Pastel"
 theme_rick=" Rick"
 theme_spark=" Spark"
+theme_sweet=" Sweet"
 theme_tealize=" Tealize"
 theme_wave=" Wave"
 
@@ -35,7 +36,7 @@ theme_wave=" Wave"
 options="$theme_adaptive\n$theme_beach\n$theme_blade\n$theme_bouquet\n$theme_cubic\n$theme_cyberpunk\
 \n$theme_dracula\n$theme_flowers\n$theme_forest\n$theme_groot\n$theme_gruvbox\n$theme_hack\
 \n$theme_keyboards\n$theme_light\n$theme_manhattan\n$theme_nord\n$theme_nordic\
-\n$theme_pastel\n$theme_rick\n$theme_spark\n$theme_tealize\n$theme_wave"
+\n$theme_pastel\n$theme_rick\n$theme_spark\n$theme_sweet\n$theme_tealize\n$theme_wave"
 
 chosen="$(echo -e "$options" | $rofi_command -p "Available themes: " -dmenu -selected-row 0)"
 case $chosen in
@@ -43,7 +44,7 @@ case $chosen in
         bash ${BSP}/set-theme  'adaptive.png' 'forest' 'Adapta-Nokto' 'Zafiro-Purple' 'Qogir-manjaro'
         ;;
     $theme_beach)
-        bash ${BSP}/set-theme  'beach.png' 'beach' 'Groot' 'Zafiro-Blue' 'Paper'
+        bash ${BSP}/set-theme  'beach-alt.png' 'beach' 'Groot' 'Zafiro-Blue' 'Paper'
         ;;
     $theme_blade)
         bash ${BSP}/set-theme  'blade.jpg' 'blade' 'Blade' 'Nordic-Folders' 'LyraS'
@@ -55,7 +56,7 @@ case $chosen in
         bash ${BSP}/set-theme  'cubic.jpg' 'cubic' 'Hash' 'Qogir-Dark' 'Adwaita'
         ;;
     $theme_cyberpunk)
-        bash ${BSP}/set-theme  'cyberpunk.jpg' 'cyberpunk' 'Cyberpunk' 'Paper-Mono-Dark' 'LyraP'
+        bash ${BSP}/set-theme  'cyberpunk.jpg' 'cyberpunk' 'Cyberpunk' 'Papirus-Dark' 'LyraP'
         ;;
     $theme_dracula)
         bash ${BSP}/set-theme  'dracula.png' 'dracula' 'Dracula' 'Qogir-ubuntu-dark' 'Qogir-ubuntu-dark'
@@ -70,7 +71,7 @@ case $chosen in
         bash ${BSP}/set-theme  'groot.png' 'groot' 'Groot' 'Zafiro-Yellow' 'Adwaita'
         ;;
     $theme_gruvbox)
-        bash ${BSP}/set-theme  'gruvbox.jpg' 'gruvbox' 'Gruvbox' 'Zafiro-Yellow' 'LyraF'
+        bash ${BSP}/set-theme  'gruvbox.jpg' 'gruvbox' 'Gruvbox' 'Zafiro' 'LyraF'
         ;;
     $theme_hack)
         bash ${BSP}/set-theme  'hack.png' 'hack' 'Sweet-Dark' 'Qogir-manjaro' 'Sweet'
@@ -98,6 +99,9 @@ case $chosen in
         ;;
     $theme_spark)
         bash ${BSP}/set-theme  'spark.png' 'spark' 'Kripton' 'Qogir-manjaro-dark' 'Qogir-manjaro-dark'
+        ;;
+    $theme_sweet)
+        bash ${BSP}/set-theme  'hack.png' 'sweet' 'Sweet-Dark' 'Qogir-manjaro' 'Sweet'
         ;;
     $theme_tealize)
         bash ${BSP}/set-theme  'tealize.png' 'tealize' 'Juno-palenight' 'Luv-Folders-Dark' 'Vimix'

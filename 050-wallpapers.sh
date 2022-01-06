@@ -20,6 +20,9 @@ sudo mkdir -p /usr/share/backgrounds
 sudo rm /usr/share/backgrounds/*.png
 sudo rm /usr/share/backgrounds/*.jpg
 
+sudo chmod 644 $HOME/images/wallpapers/system/*.png
+sudo chmod 644 $HOME/images/wallpapers/system/*.jpg
+
 sudo cp $HOME/images/wallpapers/system/*.png /usr/share/backgrounds/
 sudo cp $HOME/images/wallpapers/system/*.jpg /usr/share/backgrounds/
 
