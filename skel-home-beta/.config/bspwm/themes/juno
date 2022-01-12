@@ -1,0 +1,41 @@
+! -----------------------------------------------------------------------------
+! Copyright (C) 2020-2021 Aditya Shakya <adi1090x@gmail.com>
+! Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
+!
+! Bouquet color scheme
+! -----------------------------------------------------------------------------
+
+*background: #192024
+*foreground: #6F7678
+
+! Black + DarkGrey
+*color0:  #13181b
+*color8:  #444b4e
+
+! DarkRed + Red
+*color1:  #c72240
+*color9:  #FF5370
+
+! DarkGreen + Green
+*color2:  #61c766
+*color10: #C3E88D
+
+! DarkYellow + Yellow
+*color3:  #f4663c
+*color11: #F78C6C
+
+! DarkBlue + Blue
+*color4:  #42a5f5
+*color12: #89DDFF
+
+! DarkMagenta + Magenta
+*color5:  #ba68c8
+*color13: #C792EA
+
+! DarkCyan + Cyan
+*color6:  #007673
+*color14: #00A9A5
+
+! LightGrey + White
+*color7:  #a3a8aa
+*color15: #fefefe

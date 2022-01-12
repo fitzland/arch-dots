@@ -37,9 +37,9 @@ getcolors
 #}
 #workspaces
 
-bspc monitor DP-0 -d '' '' '' '' ''
+bspc monitor DP-0 -d '' '' '' '' ''
 #bspc monitor DP-0 -d '' '' '' '' '' ''
-bspc monitor DP-2 -d '' '' '' '' ''
+bspc monitor DP-2 -d '' '' '' '' ''
 #bspc monitor -d 'I' 'II' 'III' 'IV' 'V' 'VI' 'VII' 'VIII'
 
 bspc config border_width 2
@@ -80,39 +80,39 @@ for i in ${office[@]}; do
  bspc rule -a $i desktop='^3' follow=on focus=on; done
 
 # 4 > grfx
-declare -a grfx=(Inkscape Gimp-2.10)
+declare -a grfx=(Inkscape Gimp-2.10 Viewnior)
 for i in ${grfx[@]}; do
    bspc rule -a $i desktop='^4' follow=on focus=on; done
 
-# 5 > chat
-declare -a chat=(firefox firefoxdeveloperedition KeePassXC Thunderbird TelegramDesktop Hexchat)
-for i in ${chat[@]}; do
-bspc rule -a $i desktop='^5' follow=on focus=on; done
+# 5 > settings
+bspc rule -a 'VirtualBox Manager' desktop='^5' follow=on focus=on
+bspc rule -a GParted desktop='^5' follow=on focus=on
+bspc rule -a Pamac-manager desktop='^5' follow=on focus=on
+declare -a settings=(KeePassXC Lxtask Lxrandr Arandr \
+System-config-printer.py Pavucontrol Exo-helper-1 \
+Xfce4-power-manager-settings)
+for i in ${settings[@]}; do
+   bspc rule -a $i desktop='^5' follow=on focus=on; done
 
 # 6 > web
 declare -a web=(Google-chrome Microsoft-edge)
 for i in ${web[@]}; do
    bspc rule -a $i desktop='^6' follow=on focus=on; done
 
-# 7 > files
+# 7 > chat
+declare -a chat=(firefox firefoxdeveloperedition Thunderbird TelegramDesktop Hexchat)
+for i in ${chat[@]}; do
+bspc rule -a $i desktop='^7' follow=on focus=on; done
+
+# 8 > files
 declare -a files=(Thunar Nautilus)
 for i in ${files[@]}; do
-   bspc rule -a $i desktop='^7' follow=on focus=on; done
+   bspc rule -a $i desktop='^8' follow=on focus=on; done
 
-# 8 > settings
-bspc rule -a 'VirtualBox Manager' desktop='^8' follow=on focus=on
-bspc rule -a GParted desktop='^8' follow=on focus=on
-bspc rule -a Pamac-manager desktop='^8' follow=on focus=on
-declare -a settings=(Lxtask Lxrandr Arandr \
-System-config-printer.py Pavucontrol Exo-helper-1 \
-Xfce4-power-manager-settings)
-for i in ${settings[@]}; do
-   bspc rule -a $i desktop='^8' state=floating follow=on focus=on; done
-
-# 9 > media
-declare -a media=(Audacity Music MPlayer Lxmusic obs)
+# 0 > media
+declare -a media=(Audacity Music MPlayer Lxmusic obs Spotify)
 for i in ${media[@]}; do
-  bspc rule -a $i desktop='^9' state=floating follow=on focus=on; done
+  bspc rule -a $i desktop='^10' follow=on focus=on; done
 
 # special rules
 declare -a floating=(Onboard Yad 'Firefox:Places' \
@@ -146,10 +146,6 @@ fi
 
 # Launch keybindings daemon
 sxhkd -c $HOME/.config/bspwm/sxhkd/sxhkdrc &
-
-# Enable Super Keys For Menu
-#ksuperkey -e 'Super_L=Alt_L|F1' &
-#ksuperkey -e 'Super_R=Alt_L|F1' &
 
 # Enable power management
 #xfce4-power-manager &
