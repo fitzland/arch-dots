@@ -27,7 +27,7 @@ getcolors() {
 getcolors
 
 ## Configurations --------------------------------------------#
-#workspaces() {
+ #workspaces() {
 #	name=1
 #	for monitor in `bspc query -M`; do
 #		bspc monitor ${monitor} -n "$name" -d 'I' 'II' 'III' 'IV' 'V'
@@ -39,8 +39,9 @@ getcolors
 #}
 #workspaces
 
-bspc monitor DP-5 -d 1 2 3 4 5
-bspc monitor DP-7 -d 6 7 8 9 10
+bspc monitor DP-5 -d '' '' '' '' ''
+#bspc monitor DP-0 -d '' '' '' '' '' ''
+bspc monitor DP-7 -d '' '' '' '' ''
 #bspc monitor -d 'I' 'II' 'III' 'IV' 'V' 'VI' 'VII' 'VIII'
 
 bspc config border_width 1
@@ -91,7 +92,7 @@ bspc rule -a firefoxdeveloperedition desktop='^5' follow=on focus=on
 bspc rule -a chromium desktop='^5' follow=on focus=on
 
 # 6 > home
-declare -a comm=(Google-chrome Microsoft-edge-beta Thunderbird TelegramDesktop Hexchat)
+declare -a comm=(Google-chrome Microsoft-edge Thunderbird TelegramDesktop Hexchat)
 for i in ${comm[@]}; do
    bspc rule -a $i desktop='^6' follow=on focus=on; done
 
@@ -130,7 +131,7 @@ killall -9 xsettingsd sxhkd dunst ksuperkey xfce4-power-manager
 
 # Lauch notification daemon
 dunst \
--geom "280x50-10+42" -frame_width "1" -font "Iosevka Custom 9" \
+-geom "280x50-10+42" -frame_width "1" -font "Iosevka Custom 10" \
 -lb "$BACKGROUND" -lf "$FOREGROUND" -lfr "$BLUE" \
 -nb "$BACKGROUND" -nf "$FOREGROUND" -nfr "$BLUE" \
 -cb "$BACKGROUND" -cf "$RED" -cfr "$RED" &
@@ -150,7 +151,7 @@ if [[ ! `pidof lxpolkit` ]]; then
 fi
 
 
-# Lauch keybindings daemon
+# Launch keybindings daemon
 sxhkd -c $HOME/.config/bspwm/sxhkd/sxhkdrc &
 
 # Enable Super Keys For Menu
@@ -172,9 +173,12 @@ setxkbmap -option compose:rctrl &
 # start blueberry app for managing bluetooth devices from tray:
 blueberry-tray &
 
+# Pamac-stalonetray
+pamac-tray &
+
 # Restore wallpaper
-#bash $HOME/.fehbg
-nitrogen --restore
+bash $HOME/.fehbg
+#nitrogen --restore
 
 # Start mpd
 #exec mpd &
@@ -187,6 +191,3 @@ bspcolors
 bspbar
 bspcomp
 bspfloat &
-
-# Fix non-parenting windows
-wmname LG3D

@@ -14,7 +14,8 @@ include-file = ~/.config/bspwm/polybar/colors
 include-file = ~/.config/bspwm/polybar/modules
 
 [bar/main]
-monitor = DP-5
+monitor = DP-0
+monitor-fallback = DP-5
 monitor-strict = false
 override-redirect = false
 
@@ -78,7 +79,8 @@ scroll-up = bspc desktop -f prev.local
 scroll-down = bspc desktop -f next.local
 
 [bar/extra]
-monitor = DP-7
+monitor = DP-2
+monitor-fallback = DP-7
 monitor-strict = false
 override-redirect = false
 
