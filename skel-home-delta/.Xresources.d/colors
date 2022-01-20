@@ -1,43 +1,41 @@
-! ------------------------------------------------------------------------------
+! -----------------------------------------------------------------------------
 ! Copyright (C) 2020-2021 Aditya Shakya <adi1090x@gmail.com>
 ! Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
 !
-! Cubic color scheme
-! ------------------------------------------------------------------------------
+! Sweet color scheme
+! -----------------------------------------------------------------------------
 
-! special
-*.foreground:   #c5c8c6
-*.background:   #1d1f21
-*.cursorColor:  #c5c8c6
+*background: #161925
+*foreground: #C3C7D1
 
-! black
-*.color0:       #1d1f21
-*.color8:       #969896
+! Black + DarkGrey
+*color0:  #0c0e15
+*color8:  #181b28
 
-! red
-*.color1:       #cc6666
-*.color9:       #cc6666
+! DarkRed + Red
+*color1:  #e6133e 
+*color9:  #ef3d61
 
-! green
-*.color2:       #b5bd68
-*.color10:      #b5bd68
+! DarkGreen + Green
+*color2:  #00f17d
+*color10: #71f79f
 
-! yellow
-*.color3:       #f0c674
-*.color11:      #f0c674
+! DarkYellow + Yellow
+*color3:  #cc5500
+*color11: #ff6a00
 
-! blue
-*.color4:       #81a2be
-*.color12:      #81a2be
+! DarkBlue + Blue
+*color4:  #0096b1
+*color12: #00c1e4
 
-! magenta
-*.color5:       #b294bb
-*.color13:      #b294bb
+! DarkMagenta + Magenta
+*color5:  #db10ea
+*color13: #C50ED2
 
-! cyan
-*.color6:       #8abeb7
-*.color14:      #8abeb7
+! DarkCyan + Cyan
+*color6:  #00e8c6
+*color14: #00f7d2
 
-! white
-*.color7:       #c5c8c6
-*.color15:      #ffffff
+! LightGrey + White
+*color7:  #fefefe
+*color15: #C3C7D1

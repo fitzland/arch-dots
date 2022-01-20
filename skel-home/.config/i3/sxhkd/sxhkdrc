@@ -51,22 +51,5 @@ super + {_,shift} + F11
 super + {_,shift} + F12
     {google-chrome-stable --profile-directory='Default',google-chrome-stable --profile-directory='Profile 1'}
 
-##---------- Rofi Launcher & Menus ----------##
-
-# Rofi App CMD Launcher
-super + {slash,backslash}
-	sh ~/.config/i3/rofi/bin/{launcher-app,launcher-cmd}
-
-# Rofi Window Menu
-super + shift + backslash
-	sh ~/.config/i3/rofi/bin/windows
-
-# Rofi Themes Menu (currently not working)
-ctrl + alt + t
-	sh ~/.config/i3/rofi/bin/themes
-
-# Rofi Menus/Applets
-super + {m,x,s}
-	sh ~/.config/i3/rofi/bin/{mpd,powermenu,screenshot}
 
 ##---------- EOF ----------##

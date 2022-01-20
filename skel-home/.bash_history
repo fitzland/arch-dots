@@ -1,134 +1,3 @@
-git pull
-ls
-gts
-exit
-nano toazerty.sh 
-cp toazerty.sh base-shell-script.sh
-nano base-shell-script.sh 
-./base-shell-script.sh 
-dots
-gts
-yay arcolinux logout
-which arcolinux-logout
-nano /usr/local/bin/arcolinux-logout 
-nano /usr/share/arcologout/arcologout.py 
-upall
-cleanup
-htop
-exo-open --help
-dots
-./010-backup-home.sh 
-gts
-exo-open --help
-dots
-./010-backup-home.sh 
-cd endeavouros/
-cd bspwm/
-gts
-cd git
-cd dubois/
-cd arcolinux-spices/
-cd arco-bspwm/
-cd arco-dwm/
-./git-v1.sh 
-cd arco-i3/
-cd ..
-cd archcraft/
-ls
-cd archcraft-style-bspwm/
-git pull
-exit
-upall
-dots
-ls
-./010-backup-home.sh 
-./git-v1.sh 
-gts
-exit
-exut
-exit
-upall
-./010-backup-home.sh 
-./git-v1.sh 
-gts
-exit
-cd ~/.config/bspwm/rofi/
-cd bin/
-./powermenu-endeavour 
-dots
-cd ..
-cd endeavouros/
-cd bspwm/.config/rofi/
-ls
-./powermenu.sh 
-exit
-zsh
-exit
-upall
-ls
-sudo pacman -Syyu
-exit
-cd /etc/skel/.config/bspwm/
-ls
-nano bspwmrc 
-cd
-cd .config/bspwm-
-ls
-cd .config/
-ls
-cp bspwm-fitzland/ bspwm
-cp -r bspwm-fitzland/ bspwm
-exit
-cd /usr/
-ls
-cd share/
-ls
-cd xsessions/
-ls
-exit
-sudo mkdir -p /usr/share/backgrounds
-ls
-cd images/wallpapers/system/
-sudo cp *.jpg /usr/share/backgrounds/
-sudo cp *.png /usr/share/backgrounds/
-exit
-yay net-tools
-cd images/wallpapers/system/
-ls
-cp *.jpg /usr/share/backgrounds
-sudo cp *.jpg /usr/share/backgrounds
-cd
-cd git/
-ls
-cd dubois/
-ls
-cd arcolinux-spices/
-ls
-cd usr/
-ls
-cd share/
-ls
-cd arcolinux-spices/
-ls
-cd scripts/
-ls
-./get-the-keys-and-repos.sh 
-sudo pacman -Syyu
-exit
-cd /etc/
-ls
-cd pacman.d/
-ls
-nano arcolinux-mirrorlist 
-cd ..
-nano pacman.conf 
-sudo nano pacman.conf 
-cd pacman.d/
-ls -la
-cd
-cd git/fitzland/
-ls
-cd pacman.d/
 ls
 sudo cp *-mirrorlist /etc/pacman.d/
 cd /etc/pacman.d/
@@ -497,4 +366,135 @@ alias
 exit
 xd
 alias
+exit
+neofetch
+upall
+exit
+yay spotify
+dots
+cd git/
+ls
+cd fitzland/
+ll
+cd ..
+ls
+cd dubois/
+ll
+cd arcolinux-spices/
+ll
+cd /usr/
+ll
+cd 
+cd git/dubois/arcolinux-spices/
+ll
+cd usr/
+ll
+cd share/
+ll
+cd arcolinux-spices/
+ll
+cd scripts/
+ll
+./get-the-keys-and-repos.sh 
+sudo pacman -Syyu
+/
+exit
+ls
+cd /etc/skel/
+ll
+cd .config/
+ls
+cd ..
+ls
+ll
+cp -r .config ~/
+killall bspwm
+xkill
+yay lxsession
+exit
+cd /usr/bin/lxpolkit
+cd /usr/bin/
+ll
+exit
+exit
+exit
+neofetch
+nano .Xresources
+ll
+cd .Xresources.d/
+ll
+nano fonts 
+exit
+nano .Xresources
+exit
+yay dropbox
+exit
+nano .Xresources.d/fonts 
+merge
+exit
+exit
+yay visual studio code
+yay terminus
+exit
+exit
+yay google-chrome
+  yay microsoft edge
+merge
+exit
+yay keepassxc
+yay alacritty
+exit
+sudo pacman -Rns xterm
+sudo pacman -Rns xfce4-terminal
+sudo pacman -Rns xfce4-terminal endeavouros-xfce4-terminal-colors 
+exit
+neofetch
+yay inkscape
+yay gimp
+yay meld
+yay libreoffice-still
+sudo pacman -S pstoedit libmythes 
+yay zsh
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+yay Otis
+cd git/
+ls
+cd endeavouros/
+ll
+cd ..
+ls
+cd fitzland/
+ll
+cd Otis/
+ll
+gst
+cd ../Sweet/
+ll
+yay sweet
+yay catfish
+exit
+mkdir ~/.config/environment.d
+echo "QT_QPA_PLATFORMTHEME=qt5ct" > ~/.config/environment.d/qt-theme.conf
+sudo pacman -S kvantum-qt5 qt5ct
+exit
+yay pamac
+yay zsh
+sudo pacman -S zsh-completions zsh-syntax-highlighting arcolinux-zsh-git oh-my-zsh-git 
+cd /etc/skel/
+ll
+cp .zshrc ~/
+nano .bashrc 
+exit
+alias
+eb
+eba
+exit
+tozsh
 exit
