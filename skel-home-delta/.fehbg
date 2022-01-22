@@ -1,2 +1,2 @@
 #!/bin/sh
-feh --no-fehbg --bg-scale '/usr/share/endeavouros/backgrounds/endeavouros-wallpaper.png' 
+feh --no-fehbg --bg-scale --no-xinerama '/usr/share/backgrounds/otis.png' 
