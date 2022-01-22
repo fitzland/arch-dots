@@ -1,7 +1,14 @@
-#! /bin/sh
+#!/usr/bin/env bash
 
-# Launch keybindings daemon
-pgrep -x sxhkd > /dev/null || sxhkd -c $HOME/.config/bspwm/sxhkd/sxhkdrc &
+## Copyright (C) 2020-2021 Aditya Shakya <adi1090x@gmail.com>
+## Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
+
+## Environtment
+export PATH="${PATH}:$HOME/.config/bspwm/bin"
+
+# Set display from arandr saved script
+sh ~/.screenlayout/monitor.sh &
+
 
 ## Get colors from .Xresources -------------------------------#
 xrdb ~/.Xresources
@@ -19,26 +26,34 @@ getcolors() {
 }
 getcolors
 
-# Workspaces -------------------------------------------------#
-# Names are set here - Icons are set in polybar config
-bspc monitor DP-0 -d I II III IV V
-bspc monitor DP-2 -d VI VII VIII IX X
+## Configurations --------------------------------------------#
+
+#workspaces
+bspc monitor DP-0 -d '' '' '' '' ''
+#bspc monitor DP-0 -d '' '' '' '' '' ''
+bspc monitor DP-2 -d '' '' '' '' ''
+#bspc monitor -d 'I' 'II' 'III' 'IV' 'V' 'VI' 'VII' 'VIII'
 
 bspc config border_width 2
 bspc config window_gap 10
+bspc config split_ratio 0.50
 
-bspc config split_ratio 0.55
+bspc config focused_border_color "$GREEN"
+bspc config normal_border_color "$BLACK"
+bspc config active_border_color "$BLUE"
+bspc config presel_feedback_color "$GREEN"
+
 bspc config borderless_monocle true
 bspc config gapless_monocle true
 bspc config paddingless_monocle true
-
-bspc config pointer_follows_focus false
+bspc config single_monocle false
 bspc config focus_follows_pointer true
 
 ## Window rules ----------------------------------------------#
 
 # remove all rules first
 bspc rule -r *:*
+bspc rule -a \* state=tiled
 
 # 1 > terminal
 declare -a term=(Alacritty Xfce4-terminal Gnome-terminal)
@@ -48,71 +63,53 @@ for i in ${term[@]}; do
 # 2 > code
 declare -a code=(Atom Code Gedit Geany Meld code-oss Xed)
 for i in ${code[@]}; do
-  bspc rule -a $i desktop='^2' follow=on focus=on; done
+  bspc rule -a $i desktop='^2' state=tiled follow=on focus=on; done
 
 # 3 > office and docs
 declare -a office=(Gucharmap Atril Evince \
 libreoffice-writer libreoffice-calc libreoffice-impress \
 libreoffice-startcenter libreoffice Soffice *:libreofficedev *:soffice)
 for i in ${office[@]}; do
- bspc rule -a $i desktop='^3' follow=on focus=on; done
+ bspc rule -a $i desktop='^3' state=tiled follow=on focus=on; done
 
 # 4 > grfx
 declare -a grfx=(Inkscape Gimp-2.10 Viewnior)
 for i in ${grfx[@]}; do
-   bspc rule -a $i desktop='^4' follow=on focus=on; done
+   bspc rule -a $i desktop='^4' state=tiled follow=on focus=on; done
 
 # 5 > settings
-bspc rule -a 'VirtualBox Manager' desktop='^5' follow=on focus=on
 bspc rule -a GParted desktop='^5' follow=on focus=on
 bspc rule -a Pamac-manager desktop='^5' follow=on focus=on
 declare -a settings=(Catfish KeePassXC Lxtask Lxrandr Arandr \
 System-config-printer.py Pavucontrol Exo-helper-1 \
 Xfce4-power-manager-settings)
 for i in ${settings[@]}; do
-   bspc rule -a $i desktop='^5' follow=on focus=on; done
+   bspc rule -a $i desktop='^5' state=tiled follow=on focus=on; done
 
 # 6 > web
 declare -a web=(Google-chrome Microsoft-edge)
 for i in ${web[@]}; do
-   bspc rule -a $i desktop='^6' follow=on focus=on; done
+   bspc rule -a $i desktop='^6' state=tiled follow=on focus=on; done
 
 # 7 > chat
 declare -a chat=(firefox firefoxdeveloperedition Thunderbird TelegramDesktop Hexchat)
 for i in ${chat[@]}; do
-bspc rule -a $i desktop='^7' follow=on focus=on; done
+bspc rule -a $i desktop='^7' state=tiled follow=on focus=on; done
 
 # 8 > files
 declare -a files=(Thunar Nautilus)
 for i in ${files[@]}; do
-   bspc rule -a $i desktop='^8' follow=on focus=on; done
+   bspc rule -a $i desktop='^8' state=tiled follow=on focus=on; done
 
 # 0 > media
 declare -a media=(Audacity Music MPlayer Lxmusic obs Spotify)
 for i in ${media[@]}; do
-  bspc rule -a $i desktop='^10' follow=on focus=on; done
+  bspc rule -a $i desktop='^10' state=tiled follow=on focus=on; done
 
-# special rules
-declare -a floating=(Onboard Yad 'Firefox:Places' \
-Viewnior feh Nm-connection-editor)
-for i in ${floating[@]}; do
-   bspc rule -a $i state=floating follow=on focus=on; done
+## Autostart -------------------------------------------------#
 
-# Border
-bspc config focused_border_color        "$GREEN"
-bspc config normal_border_color         "$BLACK"
-bspc config active_border_color         "$BLUE"
-bspc config presel_feedback_color 		"$GREEN"
-
-#
-# Autostart
-#
-
-# Set display from arandr saved script
-sh ~/.screenlayout/monitor.sh &
-
-# Bar
-~/.config/bspwm/polybar/launch.sh &
+# Kill if already running
+killall -9 xsettingsd sxhkd dunst ksuperkey xfce4-power-manager
 
 # Lauch notification daemon
 dunst \
@@ -121,33 +118,49 @@ dunst \
 -nb "$BACKGROUND" -nf "$FOREGROUND" -nfr "$BLUE" \
 -cb "$BACKGROUND" -cf "$RED" -cfr "$RED" &
 
+# Lauch xsettingsd daemon
+xsettingsd &
+
 # polkit agent
 if [[ ! `pidof lxpolkit` ]]; then
 	/usr/bin/lxpolkit &
 fi
 
-# Wallpaper
-nitrogen --restore &
-#bash $HOME/.fehbg
+# Launch keybindings daemon
+sxhkd -c $HOME/.config/bspwm/sxhkd/sxhkdrc &
 
-# Dex
-dex -a -s /etc/xdg/autostart/:~/.config/autostart/  
-
-# Picom
-picom -CGb &
+# Enable power management
+#xfce4-power-manager &
 
 # Network Applet
-nm-applet --indicator &
+nm-applet &
 
-# Cursor
-xsetroot -cursor_name left_ptr &
+# Fix cursor
+xsetroot -cursor_name left_ptr
 
 # Set Compose key
 setxkbmap -option compose:rctrl &
 
+# start blueberry app for managing bluetooth devices from tray:
+blueberry-tray &
+
+# Pamac-stalonetray
+pamac-tray &
+
+# Restore wallpaper
+bash $HOME/.fehbg
+#nitrogen --restore
+
+# Start mpd
+#exec mpd &
+
 # Start dropbox
 exec dropbox &
 
+# Start bspwm scripts
+bspcolors
+bspbar
+bspcomp
+
 # Fix non-parenting windows
 wmname LG3D
-

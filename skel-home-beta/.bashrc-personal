@@ -11,10 +11,7 @@ alias eba='nano $HOME/.bashrc-personal'
 alias df='df -h'
 
 alias exr='code $HOME/.Xresources'
-#alias exrr='code $HOME/.Xresources-regolith'
 alias ei3='code $HOME/.config/i3/config'
-#alias eri3='code $HOME/.config/regolith/i3/config'
-#alias erxr='code $HOME/.config/regolith/Xresources'
 
 #hardware info --short
 alias hw="hwinfo --short"
@@ -111,6 +108,10 @@ alias nsamba="sudo nano /etc/samba/smb.conf"
 
 #systeminfo
 alias probe="sudo -E hw-probe -all -upload"
+
+# change shell
+alias tozsh="sudo chsh $USER -s /bin/zsh && echo 'Now log out.'"
+alias tobash="sudo chsh $USER -s /bin/bash && echo 'Now log out.'"
 
 #shutdown or reboot
 alias ssn="sudo shutdown now"

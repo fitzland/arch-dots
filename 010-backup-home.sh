@@ -33,6 +33,8 @@ cp -r $HOME/.config/polybar ./skel-home/.config/
 cp -r $HOME/.config/qt5ct ./skel-home/.config/
 cp -r $HOME/.config/rofi ./skel-home/.config/
 cp -r $HOME/.config/sxhkd ./skel-home/.config/
+cp -r $HOME/.icons ./skel-home/
+cp -r $HOME/.themes ./skel-home/
 cp -r $HOME/.xmonad/ ./skel-home/
 cp -r $HOME/.Xresources.d ./skel-home/
 cp -r $HOME/.fonts ./skel-home/
