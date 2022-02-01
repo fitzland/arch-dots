@@ -2,10 +2,12 @@
 /* Everyone is permitted to copy and distribute copies of this file under GNU-GPL3 */
 
 configuration {
-    font:                           "Iosevka 10";
+    font:                           "JetBrains Mono Medium 10";
     show-icons:                     false;
+    display-drun: 					"";
+    drun-display-format:            "{icon} {name}";
     display-window: 				"Windows :";
-    window-format: 					"{w}  ·  {c}  ·  {t}";
+    window-format: 					" {w}  ·  {c}  ·  {t}";
     disable-history:                false;
 	click-to-exit: 					true;
 }
@@ -16,10 +18,10 @@ window {
     transparency:                   "real";
     background-color:               @background;
     text-color:                     @foreground;
-    border:                  		1px;
+    border:                  		0px;
     border-color:                  	@selected;
-    border-radius:                  0px;
-    width:                          500px;
+    border-radius:                  12px;
+    width:                          450px;
     location:                       center;
     anchor:                         center;
     x-offset:                       0;
@@ -32,7 +34,7 @@ prompt {
     padding:    					6px 0px 6px 0px;
 	background-color: 				@background;
 	text-color: 					@foreground;
-    border:                  		0px 0px 1px 0px;
+    border:                  		0px 0px 0px 0px;
     border-color:                  	@selected;
     border-radius:                  0px;
 }
@@ -40,7 +42,7 @@ prompt {
 textbox-prompt-colon {
 	expand: 						false;
 	str: 							"";
-    border-radius:                  0px;
+    border-radius:                  10px;
     background-color:               @highlight;
     text-color:                     @background;
     padding:    					6px 10px 6px 10px;
@@ -49,23 +51,23 @@ textbox-prompt-colon {
 
 entry {
     background-color:               @background;
-    text-color:                     @foreground;
-    border:                  		0px 0px 1px 0px;
-    border-radius:                  0px;
-    border-color:                  	@selected;
-    placeholder-color:              @foreground;
-    placeholder:                    "Find...";
+    text-color:                     @background;
+    placeholder-color:              @background;
+    placeholder:                    "";
     expand:                         true;
     horizontal-align:               0;
-    blink:                          true;
+    blink:                          false;
     padding:                        6px;
 }
 
 inputbar {
-	children: 						[ textbox-prompt-colon, prompt, entry ];
+	children: 						[ textbox-prompt-colon, prompt ];
     spacing:                        0;
     background-color:               @background;
     text-color:                     @foreground;
+    border:                  		0px;
+    border-radius:                  0px;
+    border-color:                  	@selected;
     expand:                         false;
     margin:                         0px 0px 0px 0px;
     padding:                        0px;
@@ -82,8 +84,8 @@ case-indicator {
 listview {
     background-color:               @background;
     columns:                        1;
-    lines:							7;
-    spacing:                        5px;
+    lines:							6;
+    spacing:                        4px;
     cycle:                          true;
     dynamic:                        true;
     layout:                         vertical;
@@ -93,7 +95,7 @@ mainbox {
     background-color:               @background;
     children:                       [ inputbar, listview ];
     spacing:                       	10px;
-    padding:                        10px;
+    padding:                        20px;
 }
 
 element {
@@ -118,7 +120,7 @@ element-text {
     text-color:       				inherit;
     expand:                         true;
     horizontal-align:               0;
-    vertical-align:                 0;
+    vertical-align:                 0.5;
     margin:                         2px 0px 2px 2px;
 }
 
@@ -126,7 +128,7 @@ element selected {
     background-color:               @selected;
     text-color:                     @background;
     border:                  		0px;
-    border-radius:                  0px;
+    border-radius:                  10px;
     border-color:                  	@selected;
 }
 
@@ -135,6 +137,7 @@ element.selected.urgent {
   background-color: @on;
   text-color: @background;
   border-color: @on;
+  border-radius: 10px;
 }
 
 element.selected.urgent {
@@ -146,6 +149,7 @@ element.selected.active {
   background-color: @off;
   text-color: @background;
   border-color: @off;
+  border-radius: 10px;
 }
 
 element.selected.active {

@@ -5,8 +5,8 @@
 ! Forest color scheme
 ! -----------------------------------------------------------------------------
 
-*foreground:  #C4C7C5
 *background:  #222D32
+*foreground:  #C4C7C5
 *cursor:  #afbfbf
 
 !black
