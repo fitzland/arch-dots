@@ -19,9 +19,9 @@ ZSH_THEME="gentoo"
 # a theme from this variable instead of looking in ~/.oh-my-zsh/themes/
 # If set to an empty array, this variable will have no effect.
 
-ZSH_THEME_RANDOM_CANDIDATES=( "afowler" "eastwood" "fishy" "xiong-chiamiov-plus" "risto" "gentoo" )
+# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
 
-ZSH_THEME_RANDOM_IGNORED=(3den apple avit candy dogenpunk dstufft fino fletcherm itchy jnrowe kiwi miloshadzic mlh norm pygmalion refined rixius sammy simple suvash tjkirch_mod)
+# ZSH_THEME_RANDOM_IGNORED=(pygmalion tjkirch_mod)
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"

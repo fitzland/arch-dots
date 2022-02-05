@@ -2,40 +2,40 @@
 ! Copyright (C) 2020-2021 Aditya Shakya <adi1090x@gmail.com>
 ! Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
 !
-! Otis color scheme
+! Sweet color scheme
 ! -----------------------------------------------------------------------------
 
-*background: #2a3344
-*foreground: #d8dee9
+*background: #161925
+*foreground: #C3C7D1
 
 ! Black + DarkGrey
-*color0:  #1a1a1a
-*color8:  #4d4d4d
+*color0:  #0c0e15
+*color8:  #181b28
 
 ! DarkRed + Red
-*color1:  #bc245d
-*color9:  #f4679d
+*color1:  #e6133e 
+*color9:  #ef3d61
 
 ! DarkGreen + Green
-*color2:  #2eb398
-*color10: #63d4bd
+*color2:  #00f17d
+*color10: #71f79f
 
 ! DarkYellow + Yellow
-*color3:  #d48e15
-*color11: #ffe16b
+*color3:  #cc5500
+*color11: #ff6a00
 
 ! DarkBlue + Blue
-*color4:  #3689e6
-*color12: #64baff
+*color4:  #0096b1
+*color12: #00c1e4
 
 ! DarkMagenta + Magenta
-*color5:  #bf59ad
-*color13: #cd7ebf
+*color5:  #db10ea
+*color13: #C50ED2
 
 ! DarkCyan + Cyan
-*color6:  #0e9a83
-*color14: #43d6b5
+*color6:  #00e8c6
+*color14: #00f7d2
 
 ! LightGrey + White
-*color7:  #abacae
-*color15: #d4d4d4
+*color7:  #fefefe
+*color15: #C3C7D1

@@ -47,6 +47,8 @@ bspc config borderless_monocle true
 bspc config gapless_monocle true
 bspc config paddingless_monocle true
 bspc config single_monocle false
+
+bspc config pointer_follows_focus false
 bspc config focus_follows_pointer true
 
 ## Window rules ----------------------------------------------#
@@ -102,7 +104,7 @@ for i in ${files[@]}; do
    bspc rule -a $i desktop='^8' state=tiled follow=on focus=on; done
 
 # 0 > media
-declare -a media=(Audacity Music MPlayer Lxmusic obs Spotify)
+declare -a media=(Audacity Music MPlayer Lxmusic obs spotify Spotify)
 for i in ${media[@]}; do
   bspc rule -a $i desktop='^10' state=tiled follow=on focus=on; done
 
