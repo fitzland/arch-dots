@@ -210,9 +210,9 @@ super + shift + {Prior,Next}
 super + alt + {Prior,Next}
 	bspc node -d {prev,next}.local --follow
 
-# focus / send node to another workspace
-super + {_,shift + }{1-8}
-	bspc {desktop -f,node -d} '^{1-8}'
+# focus or send to the given desktop
+super + {_,shift + }{1-9,0}
+	bspc {desktop -f,node -d} '^{1-9,10}'
 
 # Expanding windows
 #super + control + {Left,Right,Up,Down}
