@@ -3,6 +3,55 @@
 
 ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 
+[module/pulseaudio]
+type = internal/pulseaudio
+
+; Sink to be used, if it exists (find using `pacmd list-sinks`, name field)
+; If not, uses default sink
+; sink = alsa_output.pci-0000_12_00.3.analog-stereo
+; sink = alsa_output.pci-0000_00_1b.0.analog-stereo
+
+; Use PA_VOLUME_UI_MAX (~153%) if true, or PA_VOLUME_NORM (100%) if false
+; Default: true
+use-ui-max = false
+
+; Interval for volume increase/decrease (in percent points)
+; Default: 5
+interval = 5
+
+; Available tags:
+;   <label-volume> (default)
+;   <ramp-volume>
+;   <bar-volume>
+format-volume = <label-volume>
+
+; Available tags:
+;   <label-muted> (default)
+;   <ramp-volume>
+;   <bar-volume>
+format-muted = <label-muted>
+
+; Available tokens:
+;   %percentage% (default)
+;   %decibels% (unreleased)
+label-volume = %{T1}%{T-} %{T2}%percentage%%%{T-}
+label-volume-foreground = ${color.CYAN}
+
+; Available tokens:
+;   %percentage% (default)
+;   %decibels% (unreleased)
+label-muted = %{T1}%{T-} %{T2}shhh!%{T-}
+label-muted-foreground = ${color.CYAN}
+
+; Only applies if <ramp-volume> is used
+ramp-volume-0 = %{T1}%{T-}
+ramp-volume-1 = %{T1}奔%{T-}
+ramp-volume-2 = %{T1}墳%{T-}
+
+; Right and Middle click (unreleased)
+click-right = pavucontrol &
+; click-middle =
+
 [module/volume]
 type = internal/pulseaudio
 
@@ -40,7 +89,7 @@ ramp-volume-7 = 墳
 ramp-volume-8 = 墳
 ramp-volume-9 = 墳
 ramp-volume-font = 2
-ramp-volume-foreground = ${color.BLUE}
+ramp-volume-foreground = ${color.CYAN}
 
 ramp-headphones-0 = 
 ramp-headphones-1 = 
@@ -55,100 +104,6 @@ content-prefix = 
 content-prefix-font = 2
 content-prefix-foreground = ${color.RED}
 content-padding = 0
-
-;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
-
-[module/backlight]
-type = internal/xbacklight
-
-card = intel_backlight
-
-format = <ramp> <label>
-
-label = %percentage%%
-
-ramp-0 = 
-ramp-1 = 
-ramp-2 = 
-ramp-3 = 
-ramp-4 = 
-ramp-5 = 
-ramp-6 = 
-ramp-7 = 
-ramp-8 = 
-ramp-9 = 
-ramp-font = 2
-ramp-foreground = ${color.MAGENTA}
-
-;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
-
-[module/brightness]
-type = internal/backlight
-
-card = ${system.graphics_card}
-
-enable-scroll = true
-
-format = <ramp> <label>
-
-label = %percentage%%
-
-ramp-0 = 
-ramp-1 = 
-ramp-2 = 
-ramp-3 = 
-ramp-4 = 
-ramp-5 = 
-ramp-6 = 
-ramp-7 = 
-ramp-8 = 
-ramp-9 = 
-ramp-font = 2
-ramp-foreground = ${color.MAGENTA}
-
-;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
-
-[module/battery]
-type = internal/battery
-
-full-at = 99
-
-battery = ${system.battery}
-adapter = ${system.adapter}
-
-poll-interval = 2
-time-format = %H:%M
-
-format-charging = <animation-charging> <label-charging>
-format-charging-prefix =
-
-format-discharging = <ramp-capacity> <label-discharging>
-
-format-full = <label-full>
-format-full-prefix = " "
-format-full-prefix-font = 2
-format-full-prefix-foreground = ${color.RED}
-
-label-charging = %percentage%%
-label-discharging = %percentage%%
-label-full = %percentage%%
-
-ramp-capacity-0 = 
-ramp-capacity-1 = 
-ramp-capacity-2 = 
-ramp-capacity-3 = 
-ramp-capacity-4 = 
-ramp-capacity-font = 2
-ramp-capacity-foreground = ${color.YELLOW}
-
-animation-charging-0 = 
-animation-charging-1 = 
-animation-charging-2 = 
-animation-charging-3 = 
-animation-charging-4 = 
-animation-charging-font = 2
-animation-charging-foreground = ${color.GREEN}
-animation-charging-framerate = 750
 
 ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 
@@ -386,7 +341,7 @@ type = custom/text
 content = ◆
 
 content-background = ${color.BACKGROUND}
-content-foreground = ${color.BLACK}
+content-foreground = ${color.ALTBLUE}
 content-padding = 2
 
 [module/arch-updates]

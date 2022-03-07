@@ -47,13 +47,14 @@ bspc config borderless_monocle true
 bspc config gapless_monocle true
 bspc config paddingless_monocle true
 bspc config single_monocle false
+
+bspc config pointer_follows_focus false
 bspc config focus_follows_pointer true
 
 ## Window rules ----------------------------------------------#
 
 # remove all rules first
 bspc rule -r *:*
-bspc rule -a \* state=tiled
 
 # 1 > terminal
 declare -a term=(Alacritty Xfce4-terminal Gnome-terminal)
@@ -102,9 +103,15 @@ for i in ${files[@]}; do
    bspc rule -a $i desktop='^8' state=tiled follow=on focus=on; done
 
 # 0 > media
-declare -a media=(Audacity Music MPlayer Lxmusic obs Spotify)
+declare -a media=(Audacity Music MPlayer Lxmusic obs spotify Spotify)
 for i in ${media[@]}; do
   bspc rule -a $i desktop='^10' state=tiled follow=on focus=on; done
+
+# special rules
+declare -a floating=(Onboard Yad 'Firefox:Places' \
+Viewnior feh Nm-connection-editor)
+for i in ${floating[@]}; do
+   bspc rule -a $i state=floating follow=on focus=on; done
 
 ## Autostart -------------------------------------------------#
 

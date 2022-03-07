@@ -71,12 +71,12 @@ declare -a office=(Gucharmap Atril Evince \
 libreoffice-writer libreoffice-calc libreoffice-impress \
 libreoffice-startcenter libreoffice Soffice *:libreofficedev *:soffice)
 for i in ${office[@]}; do
- bspc rule -a $i desktop='^3' state=tiled follow=on focus=on; done
+ bspc rule -a $i desktop='^3' follow=on focus=on; done
 
 # 4 > grfx
 declare -a grfx=(Inkscape Gimp-2.10 Viewnior)
 for i in ${grfx[@]}; do
-   bspc rule -a $i desktop='^4' state=tiled follow=on focus=on; done
+   bspc rule -a $i desktop='^4' follow=on focus=on; done
 
 # 5 > settings
 bspc rule -a GParted desktop='^5' follow=on focus=on
@@ -85,33 +85,36 @@ declare -a settings=(Catfish KeePassXC Lxtask Lxrandr Arandr \
 System-config-printer.py Pavucontrol Exo-helper-1 \
 Xfce4-power-manager-settings)
 for i in ${settings[@]}; do
-   bspc rule -a $i desktop='^5' state=tiled follow=on focus=on; done
+   bspc rule -a $i desktop='^5' follow=on focus=on; done
 
 # 6 > web
 declare -a web=(Google-chrome Microsoft-edge)
 for i in ${web[@]}; do
-   bspc rule -a $i desktop='^6' state=tiled follow=on focus=on; done
+   bspc rule -a $i desktop='^6' follow=on focus=on; done
 
 # 7 > chat
 declare -a chat=(firefox firefoxdeveloperedition Thunderbird TelegramDesktop Hexchat)
 for i in ${chat[@]}; do
-bspc rule -a $i desktop='^7' state=tiled follow=on focus=on; done
+	bspc rule -a $i desktop='^7' follow=on focus=on; done
 
 # 8 > files
 declare -a files=(Thunar Nautilus)
 for i in ${files[@]}; do
-   bspc rule -a $i desktop='^8' state=tiled follow=on focus=on; done
+   bspc rule -a $i desktop='^8' follow=on focus=on; done
 
 # 0 > media
 declare -a media=(Audacity Music MPlayer Lxmusic obs spotify Spotify)
 for i in ${media[@]}; do
-  bspc rule -a $i desktop='^10' state=tiled follow=on focus=on; done
+  bspc rule -a $i desktop='^10' follow=on focus=on; done
 
 # special rules
 declare -a floating=(Onboard Yad 'Firefox:Places' \
 Viewnior feh Nm-connection-editor)
 for i in ${floating[@]}; do
    bspc rule -a $i state=floating follow=on focus=on; done
+
+# spotify rule
+	bspc config external_rules_command "$HOME/.config/bspwm/bin/spotify.sh"
 
 ## Autostart -------------------------------------------------#
 
@@ -158,11 +161,11 @@ pamac-tray &
 bash $HOME/.fehbg
 #nitrogen --restore
 
-# Start mpd
-#exec mpd &
-
 # Start dropbox
 exec dropbox &
+
+# Start spotify
+wmctrl -r Spotify -t 9
 
 # Start bspwm scripts
 bspcolors

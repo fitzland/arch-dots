@@ -8,7 +8,6 @@ import XMonad.Hooks.ManageDocks
 import XMonad.Hooks.EwmhDesktops
 import XMonad.Hooks.ManageHelpers(doFullFloat, doCenterFloat, isFullscreen, isDialog)
 import XMonad.Config.Desktop
-import XMonad.Config.Azerty
 import XMonad.Util.Run(spawnPipe)
 import XMonad.Actions.SpawnOn
 import XMonad.Util.EZConfig (additionalKeys, additionalMouseBindings)
@@ -41,7 +40,7 @@ import qualified DBus.Client as D
 
 
 myStartupHook = do
-    spawn "$HOME/.xmonad/scripts/autostart.sh"
+    spawn "$HOME/.xmonad/bin/autostart.sh"
     setWMName "LG3D"
 
 -- colours
@@ -60,9 +59,9 @@ myModMask = mod4Mask
 encodeCChar = map fromIntegral . B.unpack
 myFocusFollowsMouse = True
 myBorderWidth = 2
-myWorkspaces    = ["\61461","\61899","\61947","\61635","\61502","\61612","\61564","\61705","\62150","\61872"]
+--myWorkspaces    = ["\61612","\61899","\61947","\61635","\61502","\61501","\61705","\61564","\62150","\61872"]
 --myWorkspaces    = ["1","2","3","4","5","6","7","8","9","10"]
---myWorkspaces    = ["I","II","III","IV","V","VI","VII","VIII","IX","X"]
+myWorkspaces    = ["I","II","III","IV","V","VI","VII","VIII","IX","X"]
 
 myBaseConfig = desktopConfig
 
@@ -73,16 +72,16 @@ myManageHook = composeAll . concat $
     , [title =? t --> doFloat | t <- myTFloats]
     , [resource =? r --> doFloat | r <- myRFloats]
     , [resource =? i --> doIgnore | i <- myIgnores]
-    -- , [(className =? x <||> title =? x <||> resource =? x) --> doShiftAndGo "\61461" | x <- my1Shifts]
-    , [(className =? x <||> title =? x <||> resource =? x) --> doShiftAndGo "\61899" | x <- my2Shifts]
-    , [(className =? x <||> title =? x <||> resource =? x) --> doShiftAndGo "\61947" | x <- my3Shifts]
-    , [(className =? x <||> title =? x <||> resource =? x) --> doShiftAndGo "\61635" | x <- my4Shifts]
-    , [(className =? x <||> title =? x <||> resource =? x) --> doShiftAndGo "\61502" | x <- my5Shifts]
-    , [(className =? x <||> title =? x <||> resource =? x) --> doShiftAndGo "\61612" | x <- my6Shifts]
-    , [(className =? x <||> title =? x <||> resource =? x) --> doShiftAndGo "\61564" | x <- my7Shifts]
-    , [(className =? x <||> title =? x <||> resource =? x) --> doShiftAndGo "\61705" | x <- my8Shifts]
-    , [(className =? x <||> title =? x <||> resource =? x) --> doShiftAndGo "\62150" | x <- my9Shifts]
-    -- , [(className =? x <||> title =? x <||> resource =? x) --> doShiftAndGo "\61872" | x <- my10Shifts]
+    , [(className =? x <||> title =? x <||> resource =? x) --> doShiftAndGo "I" | x <- my1Shifts]
+    , [(className =? x <||> title =? x <||> resource =? x) --> doShiftAndGo "II" | x <- my2Shifts]
+    , [(className =? x <||> title =? x <||> resource =? x) --> doShiftAndGo "III" | x <- my3Shifts]
+    -- , [(className =? x <||> title =? x <||> resource =? x) --> doShiftAndGo "\61635" | x <- my4Shifts]
+    , [(className =? x <||> title =? x <||> resource =? x) --> doShiftAndGo "V" | x <- my5Shifts]
+    , [(className =? x <||> title =? x <||> resource =? x) --> doShiftAndGo "VI" | x <- my6Shifts]
+    -- , [(className =? x <||> title =? x <||> resource =? x) --> doShiftAndGo "\61705" | x <- my7Shifts]
+    , [(className =? x <||> title =? x <||> resource =? x) --> doShiftAndGo "VIII" | x <- my8Shifts]
+    -- , [(className =? x <||> title =? x <||> resource =? x) --> doShiftAndGo "\62150" | x <- my9Shifts]
+    , [(className =? x <||> title =? x <||> resource =? x) --> doShiftAndGo "X" | x <- my10Shifts]
     ]
     where
     doShiftAndGo = doF . liftM2 (.) W.greedyView W.shift
@@ -90,16 +89,16 @@ myManageHook = composeAll . concat $
     myTFloats = ["Downloads", "Save As..."]
     myRFloats = []
     myIgnores = ["desktop_window"]
-    -- my1Shifts = ["Chromium", "Vivaldi-stable", "Firefox"]
-    my2Shifts = ["Atom", "Code"]
-    my3Shifts = ["Soffice"]
-    my4Shifts = ["Inkscape", "Gimp"]
-    my5Shifts = []
-    my6Shifts = ["google-chrome-stable", "microsoft-edge-beta"]
-    my7Shifts = ["Thunar"]
-    my8Shifts = ["keepassxc"]
-    my9Shifts = []
-    -- my10Shifts = ["discord"]
+    my1Shifts = ["Alacritty", "Termite", "Firefox"]
+    my2Shifts = ["Code", "Atom"]
+    my3Shifts = ["Inkscape", "Gimp"]
+    -- my4Shifts = []
+    my5Shifts = ["Navigator"]
+    my6Shifts = ["Google-chrome"]
+    -- my7Shifts = ["Virtualbox"]
+    my8Shifts = ["Thunar"]
+    -- my9Shifts = []
+    my10Shifts = ["Spotify", "vlc", "mpv"]
 
 
 
@@ -130,7 +129,7 @@ myMouseBindings (XConfig {XMonad.modMask = modMask}) = M.fromList $
 
 myKeys conf@(XConfig {XMonad.modMask = modMask}) = M.fromList $
   ----------------------------------------------------------------------
-  -- SUPER + FUNCTION KEYS
+  -- SUPER + ALPHA KEYS
 
   [ ((modMask, xK_e), spawn $ "atom" )
   , ((modMask, xK_c), spawn $ "conky-toggle" )
@@ -139,35 +138,56 @@ myKeys conf@(XConfig {XMonad.modMask = modMask}) = M.fromList $
   , ((modMask, xK_m), spawn $ "pragha" )
   , ((modMask, xK_q), kill )
   , ((modMask, xK_r), spawn $ "rofi-theme-selector" )
-  , ((modMask, xK_t), spawn $ "urxvt" )
+  , ((modMask, xK_t), spawn $ "alacritty" )
   , ((modMask, xK_v), spawn $ "pavucontrol" )
   , ((modMask, xK_y), spawn $ "polybar-msg cmd toggle" )
   , ((modMask, xK_x), spawn $ "arcolinux-logout" )
   , ((modMask, xK_Escape), spawn $ "xkill" )
-  , ((modMask, xK_Return), spawn $ "urxvt" )
-  , ((modMask, xK_F1), spawn $ "code" )
-  , ((modMask, xK_F2), spawn $ "atom" )
+  , ((modMask, xK_Return), spawn $ "alacritty" )
+  , ((modMask, xK_slash), spawn $ "sh ~/.xmonad/rofi/bin/launcher-app" )
+  , ((modMask, xK_backslash), spawn $ "sh ~/.xmonad/rofi/bin/launcher-cmd" )
+
+  -- SUPER + SHIFT + ALPHA KEYS
+  , ((modMask .|. shiftMask, xK_backslash), spawn $ "sh ~/.xmonad/rofi/bin/windows" )
+
+  -- SUPER + FUNCTION KEYS
+  , ((modMask, xK_F1), spawn $ "catfish" )
+  , ((modMask, xK_F2), spawn $ "code" )
   , ((modMask, xK_F3), spawn $ "inkscape" )
   , ((modMask, xK_F4), spawn $ "gimp" )
   , ((modMask, xK_F5), spawn $ "meld" )
   , ((modMask, xK_F6), spawn $ "gnucash" )
-  , ((modMask, xK_F7), spawn $ "keepassxc" )
+  , ((modMask, xK_F7), spawn $ "keepassxc $HOME/Dropbox/journal/home.kdbx" )
   , ((modMask, xK_F8), spawn $ "thunar" )
-  , ((modMask, xK_F9), spawn $ "evolution" )
-  , ((modMask, xK_F10), spawn $ "spotify" )
-  , ((modMask, xK_F11), spawn $ "rofi -show drun -fullscreen" )
-  , ((modMask, xK_F12), spawn $ "rofi -show drun" )
+  , ((modMask, xK_F9), spawn $ "ghostwriter" )
+  , ((modMask, xK_F10), spawn $ "firefox-developer-edition" )
+  , ((modMask, xK_F11), spawn $ "microsoft-edge-stable --profile-directory='Default'" )
+  , ((modMask, xK_F12), spawn $ "google-chrome-stable --profile-directory='Default'" )
+
+  -- SUPER + SHIFT + FUNCTION KEYS
+  , ((modMask .|. shiftMask, xK_F1), spawn $ "catfish" )
+  , ((modMask .|. shiftMask, xK_F2), spawn $ "atom" )
+  , ((modMask .|. shiftMask, xK_F3), spawn $ "inkscape" )
+  , ((modMask .|. shiftMask, xK_F4), spawn $ "gimp" )
+  , ((modMask .|. shiftMask, xK_F5), spawn $ "meld" )
+  , ((modMask .|. shiftMask, xK_F6), spawn $ "gnucash" )
+  , ((modMask .|. shiftMask, xK_F7), spawn $ "keepassxc $HOME/Dropbox/journal/work.kdbx" )
+  , ((modMask .|. shiftMask, xK_F8), spawn $ "alacritty --config-file ~/.config/bspwm/alacritty/alacritty.yml -e ranger" )
+  , ((modMask .|. shiftMask, xK_F9), spawn $ "typora" )
+  , ((modMask .|. shiftMask, xK_F10), spawn $ "firefox-developer-edition --private-window" )
+  , ((modMask .|. shiftMask, xK_F11), spawn $ "microsoft-edge-stable --profile-directory='Profile 1'" )
+  , ((modMask .|. shiftMask, xK_F12), spawn $ "google-chrome-stable --profile-directory='Profile 1'" )
 
   -- FUNCTION KEYS
   , ((0, xK_F12), spawn $ "xfce4-terminal --drop-down" )
 
   -- SUPER + SHIFT KEYS
 
-  , ((modMask .|. shiftMask , xK_Return ), spawn $ "thunar")
-  , ((modMask .|. shiftMask , xK_d ), spawn $ "dmenu_run -b -i -nb '#282c34' -nf '#DEE3E0' -sb '#5e81ac' -sf '#282c34' -fn 'NotoMonoRegular:bold:pixelsize=14'")
-  , ((modMask .|. shiftMask , xK_r ), spawn $ "xmonad --recompile && xmonad --restart")
-  , ((modMask .|. shiftMask , xK_q ), kill)
-  -- , ((modMask .|. shiftMask , xK_x ), io (exitWith ExitSuccess))
+  , ((modMask .|. shiftMask, xK_Return ), spawn $ "thunar")
+  , ((modMask .|. shiftMask, xK_d ), spawn $ "dmenu_run -i -nb '#191919' -nf '#fea63c' -sb '#fea63c' -sf '#191919' -fn 'NotoMonoRegular:bold:pixelsize=14'")
+  , ((modMask .|. shiftMask, xK_r ), spawn $ "xmonad --recompile && xmonad --restart")
+  , ((modMask .|. shiftMask, xK_q ), kill)
+  -- , ((modMask .|. shiftMask, xK_x ), io (exitWith ExitSuccess))
 
   -- CONTROL + ALT KEYS
 
@@ -187,14 +207,15 @@ myKeys conf@(XConfig {XMonad.modMask = modMask}) = M.fromList $
   , ((controlMask .|. mod1Mask , xK_p ), spawn $ "pamac-manager")
   , ((controlMask .|. mod1Mask , xK_r ), spawn $ "rofi-theme-selector")
   , ((controlMask .|. mod1Mask , xK_s ), spawn $ "spotify")
-  , ((controlMask .|. mod1Mask , xK_t ), spawn $ "urxvt")
+  , ((controlMask .|. mod1Mask , xK_t ), spawn $ "alacritty")
   , ((controlMask .|. mod1Mask , xK_u ), spawn $ "pavucontrol")
   , ((controlMask .|. mod1Mask , xK_v ), spawn $ "vivaldi-stable")
   , ((controlMask .|. mod1Mask , xK_w ), spawn $ "arcolinux-welcome-app")
-  , ((controlMask .|. mod1Mask , xK_Return ), spawn $ "urxvt")
+  , ((controlMask .|. mod1Mask , xK_Return ), spawn $ "alacritty")
 
   -- ALT + ... KEYS
 
+  , ((mod1Mask, xK_r), spawn $ "xmonad --restart" )
   , ((mod1Mask, xK_F2), spawn $ "xfce4-appfinder --collapsed" )
   , ((mod1Mask, xK_F3), spawn $ "xfce4-appfinder" )
 
@@ -207,7 +228,7 @@ myKeys conf@(XConfig {XMonad.modMask = modMask}) = M.fromList $
   , ((0, xK_Print), spawn $ "scrot 'ArcoLinux-%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f $$(xdg-user-dir PICTURES)'")
   , ((controlMask, xK_Print), spawn $ "xfce4-screenshooter" )
   , ((controlMask .|. shiftMask , xK_Print ), spawn $ "gnome-screenshot -i")
-
+  , ((controlMask .|. modMask , xK_Print ), spawn $ "flameshot gui")
 
   --MULTIMEDIA KEYS
 
@@ -225,6 +246,14 @@ myKeys conf@(XConfig {XMonad.modMask = modMask}) = M.fromList $
 
   -- Decrease brightness
   , ((0, xF86XK_MonBrightnessDown), spawn $ "xbacklight -dec 5")
+
+  -- Alternative to increase brightness
+
+  -- Increase brightness
+  -- , ((0, xF86XK_MonBrightnessUp),  spawn $ "brightnessctl s 5%+")
+
+  -- Decrease brightness
+  -- , ((0, xF86XK_MonBrightnessDown), spawn $ "brightnessctl s 5%-")
 
 --  , ((0, xF86XK_AudioPlay), spawn $ "mpc toggle")
 --  , ((0, xF86XK_AudioNext), spawn $ "mpc next")
@@ -305,22 +334,18 @@ myKeys conf@(XConfig {XMonad.modMask = modMask}) = M.fromList $
   --qwerty users use this line
    | (i, k) <- zip (XMonad.workspaces conf) [xK_1,xK_2,xK_3,xK_4,xK_5,xK_6,xK_7,xK_8,xK_9,xK_0]
 
-  --French Azerty users use this line
-  -- | (i, k) <- zip (XMonad.workspaces conf) [xK_ampersand, xK_eacute, xK_quotedbl, xK_apostrophe, xK_parenleft, xK_minus, xK_egrave, xK_underscore, xK_ccedilla , xK_agrave]
-
-  --Belgian Azerty users use this line
-  -- | (i, k) <- zip (XMonad.workspaces conf) [xK_ampersand, xK_eacute, xK_quotedbl, xK_apostrophe, xK_parenleft, xK_section, xK_egrave, xK_exclam, xK_ccedilla, xK_agrave]
-
-      , (f, m) <- [(W.greedyView, 0), (W.shift, shiftMask)
+        , (f, m) <- [(W.greedyView, 0), (W.shift, shiftMask)
       , (\i -> W.greedyView i . W.shift i, shiftMask)]]
 
   ++
-  -- ctrl-{w,e,r}, Switch to physical/Xinerama screens 1, 2, or 3
   -- ctrl-shift-{w,e,r}, Move client to screen 1, 2, or 3
-  [((m .|. controlMask, key), screenWorkspace sc >>= flip whenJust (windows . f))
-      | (key, sc) <- zip [xK_w, xK_e] [0..]
-      , (f, m) <- [(W.view, 0), (W.shift, shiftMask)]]
+  -- [((m .|. controlMask, key), screenWorkspace sc >>= flip whenJust (windows . f))
+  --    | (key, sc) <- zip [xK_w, xK_e] [0..]
+  --    , (f, m) <- [(W.view, 0), (W.shift, shiftMask)]]
 
+  [((m .|. modMask, key), screenWorkspace sc >>= flip whenJust (windows . f))
+      | (key, sc) <- zip [xK_Left, xK_Right] [0..]
+      , (f, m) <- [(W.view, 0), (W.shift, shiftMask)]]
 
 main :: IO ()
 main = do
@@ -335,10 +360,6 @@ main = do
   --Keyboard layouts
   --qwerty users use this line
             myBaseConfig
-  --French Azerty users use this line
-            --myBaseConfig { keys = azertyKeys <+> keys azertyConfig }
-  --Belgian Azerty users use this line
-            --myBaseConfig { keys = belgianKeys <+> keys belgianConfig }
 
                 {startupHook = myStartupHook
 , layoutHook = gaps [(U,35), (D,5), (R,5), (L,5)] $ myLayout ||| layoutHook myBaseConfig
