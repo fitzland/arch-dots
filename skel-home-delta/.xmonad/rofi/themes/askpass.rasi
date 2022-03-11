@@ -10,10 +10,10 @@
 }
 
 window {
-    width:      			240px;
+    width:      			250px;
     padding:    			20px;
     border:					1px;
-    border-radius:          8px;
+    border-radius:          0px;
     border-color:           @selected;
     location:               center;
     x-offset:               0;

@@ -1,47 +1,45 @@
->#!/usr/bin/env bash
+#!/bin/bash
 
-## Copyright (C) 2020-2021 Aditya Shakya <adi1090x@gmail.com>
-## Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
-## Autostart Programs
+function run {
+  if ! pgrep $1 ;
+  then
+    $@&
+  fi
+}
 
-# Kill already running process
-_ps=(picom dunst ksuperkey mpd lxpolkit xfce4-power-manager)
-for _prs in "${_ps[@]}"; do
-	if [[ `pidof ${_prs}` ]]; then
-		killall -9 ${_prs}
-	fi
-done
+#Set your native resolution IF it does not exist in xrandr
+#More info in the script
+#xrandr --output HDMI2 --mode 1920x1080 --pos 1920x0 --rotate normal --output HDMI1 --primary --mode 1920x1080 --pos 0x0 --rotate normal --output VIRTUAL1 --off
 
-# Launch keybindings daemon
-#sxhkd -c $HOME/.xmonad/sxhkd/sxhkdrc &
+# Set display from arandr saved script
+sh ~/.screenlayout/monitor.sh &
 
-# Fix cursor
-xsetroot -cursor_name left_ptr
+# Lauch xsettingsd daemon
+xsettingsd &
+
+#cursor active at boot
+xsetroot -cursor_name left_ptr &
 
 # Set Compose key
 setxkbmap -option compose:rctrl &
 
-# start blueberry app for managing bluetooth devices from tray:
-blueberry-tray &
-
-# Pamac-stalonetray
-pamac-tray &
-
-# Polkit agent
-/usr/bin/lxpolkit &
-
-# Enable power management
-xfce4-power-manager &
-
-# Enable Super Keys For Menu
-#ksuperkey -e 'Super_L=Alt_L|F1' &
-#ksuperkey -e 'Super_R=Alt_L|F1' &
-
 # Restore wallpaper
 hsetroot -cover ~/.xmonad/wallpaper.png
-#bash $HOME/.fehbg
-#nitrogen --restore 
 
+#starting utility applications at boot time
+#run variety &
+run nm-applet &
+run pamac-tray &
+#run xfce4-power-manager &
+run volumeicon &
+numlockx on &
+blueberry-tray &
+picom --config $HOME/.xmonad/scripts/picom.conf &
+
+# polkit agent
+if [[ ! `pidof lxpolkit` ]]; then
+	/usr/bin/lxpolkit &
+fi
 
 # Lauch notification daemon
 ~/.xmonad/bin/xmodunst.sh
@@ -52,5 +50,16 @@ hsetroot -cover ~/.xmonad/wallpaper.png
 # Lauch compositor
 ~/.xmonad/bin/xmocomp.sh
 
-# Start mpd
-#exec mpd &
+#starting user applications at boot time
+#run caffeine &
+#run vivaldi-stable &
+#run firefox &
+#run thunar &
+#run spotify &
+#run atom &
+
+#run telegram-desktop &
+#run discord &
+run dropbox &
+#run insync start &
+#run ckb-next -b &

@@ -18,8 +18,8 @@ window {
     text-color:                     @foreground;
     border:                  		1px;
     border-color:                  	@selected;
-    border-radius:                  10px;
-    width:                          380px;
+    border-radius:                  0px;
+    width:                          335px;
     location:                       center;
     anchor:                         center;
     x-offset:                       0;
@@ -40,11 +40,9 @@ prompt {
 textbox-prompt-colon {
 	expand: 						false;
 	str: 							"﬉";
-    border:                  		1px;
-    border-radius:                  8px;
-    border-color:                  	@selected;
-    background-color:               @background;
-    text-color:                     @foreground;
+    border-radius:                  0px;
+    background-color:               @selected;
+    text-color:                     @background;
     padding:    					6px 10px 6px 10px;
 	font:							"Iosevka Nerd Font 10";
 }
@@ -65,7 +63,7 @@ inputbar {
     spacing:                        0;
     background-color:               @background;
     text-color:                     @foreground;
-    border:                  		0px;
+    border:                  		0px 0px 1px 0px;
     border-radius:                  0px;
     border-color:                  	@selected;
     expand:                         false;
@@ -83,19 +81,19 @@ case-indicator {
 
 listview {
     background-color:               @background;
-    columns:                        4;
-    lines:							1;
-    spacing:                        12px;
+    columns:                        1;
+    lines:							5;
+    spacing:                        10px;
     cycle:                          true;
     dynamic:                        true;
-    layout:                         vertical;
+    layout:                         horizontal;
 }
 
 mainbox {
     background-color:               @background;
     children:                       [ inputbar, listview ];
     spacing:                       	10px;
-    padding:                        20px;
+    padding:                        10px;
 }
 
 element {
@@ -103,9 +101,9 @@ element {
     text-color:                     @foreground;
     orientation:                    horizontal;
     border:                  		1px;
-    border-radius:                  8px;
+    border-radius:                  0px;
     border-color:                  	@selected;
-    padding:                        25px;
+    padding:                        23.5px 25px 23.5px 25px;
 }
 
 element-icon {
@@ -120,18 +118,18 @@ element-icon {
 element-text {
     background-color: 				inherit;
     text-color:       				inherit;
-	font:							"feather 16";
+	font:							"feather 14";
     expand:                         true;
     horizontal-align:               0.5;
     vertical-align:                 0.5;
-    margin:                         0px;
+    margin:                         0px 0px 0px 0px;
 }
 
 element selected {
     background-color:               @selected;
     text-color:                     @background;
     border:                  		0px;
-    border-radius:                  8px;
+    border-radius:                  0px;
     border-color:                  	@selected;
 }
 
@@ -140,7 +138,6 @@ element.selected.urgent {
   background-color: @on;
   text-color: @background;
   border-color: @on;
-  border-radius: 8px;
 }
 
 element.selected.urgent {
@@ -152,7 +149,6 @@ element.selected.active {
   background-color: @off;
   text-color: @background;
   border-color: @off;
-  border-radius: 8px;
 }
 
 element.selected.active {

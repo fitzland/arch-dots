@@ -7,7 +7,7 @@ configuration {
     show-icons: 					false;
     sidebar-mode: 					true;
     scroll-method: 					1;
-    window-format: 					"{w} · {c} · {t}";
+    window-format: 					"[{w}] ··· {c} ···   {t}";
     click-to-exit: 					true;
     combi-hide-mode-prefix: 		false;
     display-window: 				"";
@@ -21,24 +21,23 @@ configuration {
 @import "colors.rasi"
 
 * {
-    font:                           "Iosevka 10";
+    font:                           "JetBrains Mono Medium 10";
     background-color:             	@background;
 }
 
 window {
     border: 						1px;
     border-color: 					@selected;
-    border-radius: 					10px;
-    width: 							400px;
+    border-radius: 					0px;
+    width: 							500px;
     height: 						0px;
 }
 
 prompt {
     spacing: 						0;
-    border: 						1px;
-    border-radius: 					8px;
-    border-color: 					@selected;
-    text-color: 					@foreground;
+    border: 						0;
+    background-color:             	@highlight;
+    text-color: 					@background;
     padding:    					6px 10px 6px 10px;
 }
 
@@ -57,7 +56,7 @@ entry {
     placeholder-color:              @FG;
     placeholder:                    "Search...";
     padding:    					6px 2px 6px 2px;
-    border: 						0px 0px 0px 0px;
+    border: 						0px 0px 1px 0px;
     border-color: 					@selected;
     border-radius: 					0px;
 }
@@ -79,13 +78,13 @@ inputbar {
 mainbox {
     border: 						0px;
     border-color: 					@selected;
-    spacing: 						10px;
-    padding: 						20px;
+    spacing: 						6px;
+    padding: 						10px;
 }
 
 listview {
-    lines:							7;
-    columns:						1;
+    lines:						8;
+    columns:						2;
     fixed-height: 					0;
     border: 						0px;
     border-color: 					@foreground;
@@ -116,10 +115,9 @@ element normal.active {
     text-color:       				@on;
 }
 element selected.normal {
-    background-color: 				@background;
-    text-color:       				@foreground;
-    border: 						1px;
-    border-radius: 					8px;
+    background-color: 				@selected;
+    text-color:       				@background;
+    border: 						0px;
     border-color: 					@selected;
 }
 element selected.urgent {
@@ -150,14 +148,13 @@ sidebar {
 }
 
 button {
-    margin: 						5px 10px 0px 10px;
+    margin: 						5px 0px 0px 0px;
     horizontal-align:               0.5;
     vertical-align:                 0.5;
     padding: 						7px;
-    background-color:             	@background-alt;
     text-color: 					@foreground;
     border: 						0px;
-    border-radius: 					8px;
+    border-radius: 					0px;
     border-color: 					@selected;
 }
 
@@ -165,7 +162,7 @@ button selected {
     background-color:             	@selected;
     text-color: 					@background;
     border: 						0px;
-    border-radius: 					8px;
+    border-radius: 					0px;
     border-color: 					@selected;
 }
 

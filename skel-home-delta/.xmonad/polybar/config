@@ -137,8 +137,8 @@ font-1 = "Iosevka Nerd Font:pixelsize=12;4"
 ;   modules-right = ipc clock
 
 modules-left = spacer workspaces sep2 title 
-modules-center = mpd sep2 wired-network
-modules-right = pulseaudio sep network sep time spacer
+modules-center = mpd
+modules-right = pulseaudio sep date spacer
 
 ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 
@@ -353,7 +353,7 @@ font-1 = "Iosevka Nerd Font:pixelsize=12;4"
 
 modules-left = spacer workspaces sep2 title 
 modules-center = cpu sep memory sep filesystem
-modules-right = pulseaudio sep date spacer
+modules-right = speed sep date spacer
 
 ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 

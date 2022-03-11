@@ -3,7 +3,7 @@
 ## Copyright (C) 2020-2021 Aditya Shakya <adi1090x@gmail.com>
 ## Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
 
-DIR="$HOME/.xmonad"
+DIR="$HOME/.config/bspwm"
 rofi_command="rofi -theme $DIR/rofi/themes/screenshot.rasi"
 
 time=`date +%Y-%m-%d-%I-%M-%S`
@@ -18,12 +18,10 @@ window=""
 infive=""
 inten=""
 
-# notify and view screenshot
-notify_view () {
-	dunstify -u low --replace=699 -i /usr/share/archcraft/icons/dunst/picture.png "Copied to clipboard."
-	viewnior ${dir}/"$file"
+# notify
+notify_user () {
 	if [[ -e "$dir/$file" ]]; then
-		dunstify -u low --replace=699 -i /usr/share/archcraft/icons/dunst/picture.png "Screenshot Saved."
+		dunstify -u low --replace=699 -i /usr/share/archcraft/icons/dunst/picture.png "Saved in $dir"
 	else
 		dunstify -u low --replace=699 -i /usr/share/archcraft/icons/dunst/picture.png "Screenshot Deleted."
 	fi
@@ -39,30 +37,30 @@ countdown () {
 
 # take shots
 shotnow () {
-	cd ${dir} && sleep 0.5 && maim -u -f png | tee "$file" | xclip -selection clipboard -t image/png
-	notify_view
+	cd ${dir} && sleep 0.5 && maim -u -f png "$file" && viewnior ${dir}/"$file"
+	notify_user
 }
 
 shot5 () {
 	countdown '5'
-	sleep 1 && cd ${dir} && maim -u -f png | tee "$file" | xclip -selection clipboard -t image/png
-	notify_view
+	sleep 1 && cd ${dir} && maim -u -f png "$file" && viewnior ${dir}/"$file"
+	notify_user
 }
 
 shot10 () {
 	countdown '10'
-	sleep 1 && cd ${dir} && maim -u -f png | tee "$file" | xclip -selection clipboard -t image/png
-	notify_view
+	sleep 1 && cd ${dir} && maim -u -f png "$file" && viewnior ${dir}/"$file"
+	notify_user
 }
 
 shotwin () {
-	cd ${dir} && maim -u -f png -i `xdotool getactivewindow` | tee "$file" | xclip -selection clipboard -t image/png
-	notify_view
+	cd ${dir} && maim -u -f png -i `xdotool getactivewindow` "$file" && viewnior ${dir}/"$file"
+	notify_user
 }
 
 shotarea () {
-	cd ${dir} && maim -u -f png -s -b 2 -c 0.35,0.55,0.85,0.25 -l | tee "$file" | xclip -selection clipboard -t image/png
-	notify_view
+	cd ${dir} && maim -u -f png -s -b 2 -c 0.35,0.55,0.85,0.25 -l "$file" && viewnior ${dir}/"$file"
+	notify_user
 }
 
 if [[ ! -d "$dir" ]]; then

@@ -52,4 +52,44 @@ super + {_,shift} + F12
     {google-chrome-stable --profile-directory='Default',google-chrome-stable --profile-directory='Profile 1'}
 
 
+##---------- Rofi Launcher & Menus ----------##
+
+# Rofi App Launcher
+super + slash
+	sh ~/.config/i3/rofi/bin/launcher-app
+
+# Rofi Term Launcher
+super + {_,shift} + backslash
+	sh ~/.config/i3/rofi/bin/{launcher-cmd,windows}
+
+#dmenu
+super + p
+	dmenu_run -b -m 1 -p dmenu:
+
+# Rofi Themes Menu
+ctrl + alt + t
+	sh ~/.config/i3/rofi/bin/themes
+
+# Rofi Menus/Applets
+super + {m,x,r,s,n}
+	sh ~/.config/i3/rofi/bin/{mpd,powermenu,asroot,screenshot,network}
+
+##---------- Applications ----------##
+
+# Terminal and File Manager
+super + {_,shift} + Return
+	{sh ~/.config/i3/bin/i3term.sh,thunar}
+
+# Launch Apps
+super + shift + {f,w,e}
+	{thunar,firefox-developer-editon,xed}
+
+# Terminal Apps
+ctrl + alt + {r,h}
+	alacritty --config-file ~/.config/i3/alacritty/alacritty.yml -e {ranger,htop}
+
+# Lockscreen
+ctrl + alt + k
+	sh ~/.config/i3/bin/i3lock.sh
+
 ##---------- EOF ----------##
