@@ -64,12 +64,12 @@ client.background         $background
 # (plus the system information i3status finds out, if available)
 bar {
 		id bar-0
-                font pango:JetBrains Mono Medium 10, FontAwesome 12
+                font pango:IBM Plex Mono Regular 12, google-mdi 12
 #		status_command i3blocks -c ~/.config/i3/i3blocks-primary.conf
                 status_command i3status -c ~/.config/i3/i3status-primary.conf
 	    	position top
                 output DP-0
-                workspace_min_width 70
+                workspace_min_width 80
                 strip_workspace_numbers yes
                 ##strip_workspace_name no
 
@@ -84,21 +84,21 @@ bar {
 		    background         $background
 		    statusline         $white
 #                          		border 		bg		txt		indicator
-		focused_workspace	$green	   	$green		$background	$cyan
-		active_workspace	$blue      	$blue	        $background	$cyan
-		inactive_workspace	$magenta   	$magenta        $background     $cyan
-		urgent_workspace	$red	    	$red    	$background	$cyan
+		focused_workspace	$green	   	$green		$background	$magenta
+		active_workspace	$cyan      	$cyan	        $background	$magenta
+		inactive_workspace	$blue   	$blue           $background     $magenta
+		urgent_workspace	$red	    	$red    	$background	$magenta
 	}
 }
 
 bar {
 		id bar-1
-                font pango:JetBrains Mono Medium 10, FontAwesome 12
+                font pango:IBM Plex Mono Regular 12, google-mdi 12
 #		status_command i3blocks -c ~/.config/i3/i3blocks-secondary.conf
                 status_command i3status -c ~/.config/i3/i3status-secondary.conf
 	    	position top
                 output DP-2
-                workspace_min_width 70
+                workspace_min_width 80
                 strip_workspace_numbers yes
                 ##strip_workspace_name no
 
@@ -113,10 +113,10 @@ bar {
 		    background         $background
 		    statusline         $white
 #                          		border 		        bg		txt		indicator
-		focused_workspace	$green	   	$green		$background	$cyan
-		active_workspace	$blue      	$blue	        $background	$cyan
-		inactive_workspace	$magenta   	$magenta        $background     $cyan
-		urgent_workspace	$red	    	$red    	$background	$cyan
+		focused_workspace	$green	   	$green		$background	$magenta
+		active_workspace	$cyan      	$cyan	        $background	$magenta
+		inactive_workspace	$blue   	$blue           $background     $magenta
+		urgent_workspace	$red	    	$red    	$background	$magenta
 	}
 }
 
@@ -160,24 +160,12 @@ bindsym $mod+q kill
 bindsym $mod+c kill
 
 # change focus
-bindsym $mod+j focus left
-bindsym $mod+k focus down
-bindsym $mod+l focus up
-bindsym $mod+semicolon focus right
-
-# alternatively, you can use the cursor keys:
 bindsym $mod+Left focus left
 bindsym $mod+Down focus down
 bindsym $mod+Up focus up
 bindsym $mod+Right focus right
 
 # move focused window
-bindsym $mod+Shift+j move left
-bindsym $mod+Shift+k move down
-bindsym $mod+Shift+l move up
-bindsym $mod+Shift+semicolon move right
-
-# alternatively, you can use the cursor keys:
 bindsym $mod+Shift+Left move left
 bindsym $mod+Shift+Down move down
 bindsym $mod+Shift+Up move up
@@ -221,6 +209,12 @@ bindsym $mod+$alt+Left workspace prev
 bindsym $mod+$alt+Next move container to workspace next; workspace next
 bindsym $mod+$alt+Prior move container to workspace prev; workspace prev
 
+# Make the currently focused window a scratchpad
+bindsym $mod+Shift+minus move scratchpad
+
+# Show the first scratchpad window
+bindsym $mod+minus scratchpad show
+
 ##-- Workspaces ---------------------
 
 # Define names for default workspaces for which we configure key bindings later on.
@@ -228,8 +222,8 @@ bindsym $mod+$alt+Prior move container to workspace prev; workspace prev
 set $ws1 "1:term|"
 set $ws2 "2:code|"
 set $ws3 "3:ofc|"
-set $ws4 "4:grfx|"
-set $ws5 "5:util|"
+set $ws4 "4:grfx|🎨"
+set $ws5 "5:util|"
 set $ws6 "6:web|"
 set $ws7 "7:chat|"
 set $ws8 "8:file|"
@@ -265,8 +259,10 @@ bindsym $mod+Shift+0 move container to workspace number $ws0; workspace $ws0
 
 # reload the configuration file
 bindsym Control+Shift+c reload
+
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym Control+Shift+r restart
+
 # quit i3 session
 bindsym Control+Shift+q exit
 
@@ -367,14 +363,12 @@ workspace $ws9 output $secondMonitor
 workspace $ws0 output $secondMonitor
 
 # bind program to workspace and focus to them on startup:
-assign [class="Gnome-terminal"] $ws1
-assign [class="Alacritty"] $ws1
-assign [class="Atom"] $ws2
-assign [class="Code"] $ws2
-assign [class="soffice"] $ws3
-assign [class="(?i)libreoffice"] $ws3
+assign [class="Gnome-terminal|Alacritty"] $ws1
+assign [class="Atom|Code"] $ws2
+assign [class="Xed"] $ws2
+assign [class="Soffice"] $ws3
 assign [class="Gnucash"] $ws3
-assign [class="Gimp"] $ws4
+assign [class="Gimp*"] $ws4
 assign [class="Inkscape"] $ws4
 assign [class="KeePassXC"] $ws5
 assign [class="Synaptic"] $ws5
@@ -387,8 +381,9 @@ assign [class="TelegramDesktop"] $ws5
 
 # automatic set focus new window if it opens on another workspace then the current:
 for_window [class=Alacritty] focus
-for_window [class=Atom] focus
-for_window [class=Code] focus
+for_window [class=Atom|Code] focus
+for_window [class=Xed] focus
+for_window [class="^(?i)libreoffice-*"] focus
 for_window [class=(?i)firefox] focus
 for_window [class=Gimp] focus
 for_window [class=Gnome-terminal] focus
@@ -403,3 +398,5 @@ for_window [class=Thunar] focus
 
 for_window [class="Lxappearance|Nitrogen"] floating enable
 for_window [class="Kvantum Manager|qt5ct"] floating enable
+
+for_window [all] title_window_icon on

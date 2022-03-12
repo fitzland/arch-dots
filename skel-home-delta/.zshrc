@@ -13,6 +13,7 @@ export ZSH=/usr/share/oh-my-zsh/
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 # if you installed the package oh-my-zsh-powerline-theme-git then you type here "powerline" as zsh theme
+#ZSH_THEME="mikeh"
 ZSH_THEME="random"
 
 # Set list of themes to pick from when loading at random
@@ -20,9 +21,9 @@ ZSH_THEME="random"
 # a theme from this variable instead of looking in ~/.oh-my-zsh/themes/
 # If set to an empty array, this variable will have no effect.
 
-# ZSH_THEME_RANDOM_CANDIDATES=( "agnoster" "funky" "gentoo")
+ZSH_THEME_RANDOM_CANDIDATES=( "agnoster" "funky" "gentoo" "candy" "mikeh")
 
-ZSH_THEME_RANDOM_IGNORED=(pygmalion tjkirch_mod simonoff kolo sorin robbyrussell)
+ZSH_THEME_RANDOM_IGNORED=(pygmalion tjkirch_mod simonoff kolo sorin robbyrussell rixius pygmalion-virtualenv wedisagree steeef peepcode miloshadzic lambda fwalch doegenpunk)
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"

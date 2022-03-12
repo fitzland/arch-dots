@@ -2,7 +2,7 @@
 /* Everyone is permitted to copy and distribute copies of this file under GNU-GPL3 */
 
 configuration {
-    font:                           "Iosevka 10";
+    font:                           "JetBrainsMono Nerd Font 11";
     show-icons:                     false;
     display-window: 				"Windows :";
     window-format: 					"{w}  ·  {c}  ·  {t}";
@@ -39,7 +39,7 @@ prompt {
 
 textbox-prompt-colon {
 	expand: 						false;
-	str: 							"";
+	str: 							"?";
     border-radius:                  0px;
     background-color:               @highlight;
     text-color:                     @background;
