@@ -28,9 +28,9 @@ case $chosen in
 	    systemctl reboot
     	;;
     $lock)
-#       /home/$USER/.config/bspwm/bin/i3lock-fancy/i3lock-fancy.sh
+        $HOME/.config/bspwm/bin/i3lock-fancy/i3lock-fancy.sh
         #bsplock
-        betterlockscreen -l dim -- --time-str="%H:%M"
+        #betterlockscreen -l dim -- --time-str="%H:%M"
         ;;
     $suspend)
 	    mpc -q pause
