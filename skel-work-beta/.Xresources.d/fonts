@@ -9,3 +9,5 @@ URxvt.font: xft:Terminus:regular:size=11
 URxvt.boldFont: xft:Terminus:bold:size=11
 URxvt.italicFont: xft:Terminus:italic:size=11
 URxvt.boldItalicfont: xft:Terminus:boldItalic:size=11
+
+xterm*font:     *-fixed-*-*-*-18-*

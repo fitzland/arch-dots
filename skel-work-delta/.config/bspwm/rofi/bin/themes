@@ -8,97 +8,101 @@ BSP="$HOME/.config/bspwm/themes"
 rofi_command="rofi -theme $DIR/rofi/themes/themes.rasi"
 
 # Themes
-theme_1=" Beach"
-theme_2=" Blade"
-theme_3=" Bouquet"
-theme_4=" Cyberpunk"
-theme_5=" Dracula"
-theme_6=" Flowers"
-theme_7=" Forest"
-theme_8=" Groot"
-theme_9=" Gruvbox"
-theme_10=" Hack"
-theme_11=" Keyboards"
-theme_12=" Light"
-theme_13=" Manhattan"
-theme_14=" Nord"
-theme_15=" Nordic"
-theme_16=" Pastel"
-theme_17=" Rick"
-theme_18=" Spark"
-theme_19=" Tealize"
-theme_20=" Wave"
-theme_21=" Cubic"
+theme_adaptive=" Adaptive"
+theme_beach=" Beach"
+theme_blade=" Blade"
+theme_bouquet=" Bouquet"
+theme_cubic=" Cubic"
+theme_cyberpunk=" Cyberpunk"
+theme_dracula=" Dracula"
+theme_flowers=" Flowers"
+theme_forest=" Forest"
+theme_groot=" Groot"
+theme_gruvbox=" Gruvbox"
+theme_hack=" Hack"
+theme_keyboards=" Keyboards"
+theme_light=" Light"
+theme_manhattan=" Manhattan"
+theme_nord=" Nord"
+theme_nordic=" Nordic"
+theme_pastel=" Pastel"
+theme_rick=" Rick"
+theme_spark=" Spark"
+theme_tealize=" Tealize"
+theme_wave=" Wave"
 
 # Variable passed to rofi
-options="$theme_1\n$theme_2\n$theme_3\n$theme_4\n$theme_5\
-\n$theme_6\n$theme_7\n$theme_8\n$theme_9\n$theme_10\
-\n$theme_11\n$theme_12\n$theme_13\n$theme_14\n$theme_15\
-\n$theme_16\n$theme_17\n$theme_18\n$theme_19\n$theme_20\n$theme_21"
+options="$theme_adaptive\n$theme_beach\n$theme_blade\n$theme_bouquet\n$theme_cubic\n$theme_cyberpunk\
+\n$theme_dracula\n$theme_flowers\n$theme_forest\n$theme_groot\n$theme_gruvbox\n$theme_hack\
+\n$theme_keyboards\n$theme_light\n$theme_manhattan\n$theme_nord\n$theme_nordic\
+\n$theme_pastel\n$theme_rick\n$theme_spark\n$theme_tealize\n$theme_wave"
 
-chosen="$(echo -e "$options" | $rofi_command -p "Available themes : (21)" -dmenu -selected-row 0)"
+chosen="$(echo -e "$options" | $rofi_command -p "Available themes: " -dmenu -selected-row 0)"
 case $chosen in
-    $theme_1)
-        bash ${BSP}/set-theme  'beach.jpg' 'beach' 'Adwaita-dark' 'Luna-Dark' 'Fluent'
+    $theme_adaptive)
+        bash ${BSP}/set-theme  'adaptive.png' 'forest' 'Adapta-Nokto' 'Zafiro-Purple' 'Qogir-manjaro'
         ;;
-    $theme_2)
-        bash ${BSP}/set-theme  'blade.jpg' 'blade' 'Blade' 'Zafiro-Dark' 'LyraS'
+    $theme_beach)
+        bash ${BSP}/set-theme  'beach.png' 'beach' 'Groot' 'Zafiro-Blue' 'Paper'
         ;;
-    $theme_3)
-        bash ${BSP}/set-theme  'bouquet.jpg' 'bouquet' 'Juno-mirage' 'Luna-Dark' 'Future-dark'
+    $theme_blade)
+        bash ${BSP}/set-theme  'blade.jpg' 'blade' 'Blade' 'Nordic-Folders' 'LyraS'
         ;;
-    $theme_4)
-        bash ${BSP}/set-theme  'cyberpunk.jpg' 'cyberpunk' 'Cyberpunk' 'Zafiro-Purple-Dark' 'LyraB'
+    $theme_bouquet)
+        bash ${BSP}/set-theme  'bouquet.jpg' 'bouquet' 'Juno-mirage' 'Zafiro-Yellow' 'Paper'
         ;;
-    $theme_5)
-        bash ${BSP}/set-theme  'dracula.png' 'dracula' 'Dracula' 'Qogir-ubuntu-dark' 'Sweet'
+    $theme_cubic)
+        bash ${BSP}/set-theme  'cubic.jpg' 'cubic' 'Hash' 'Qogir-Dark' 'Adwaita'
         ;;
-    $theme_6)
-        bash ${BSP}/set-theme  'flowers.jpg' 'flowers' 'Kripton' 'Zafiro' 'Fluent-dark'
+    $theme_cyberpunk)
+        bash ${BSP}/set-theme  'cyberpunk.jpg' 'cyberpunk' 'Cyberpunk' 'Paper-Mono-Dark' 'LyraP'
         ;;
-    $theme_7)
-        bash ${BSP}/set-theme  'forest.jpg' 'forest' 'Adapta-Nokto' 'Zafiro-Green-Dark' 'Vimix-dark'
+    $theme_dracula)
+        bash ${BSP}/set-theme  'dracula.png' 'dracula' 'Dracula' 'Qogir-ubuntu-dark' 'Qogir-ubuntu-dark'
         ;;
-    $theme_8)
-        bash ${BSP}/set-theme  'groot.png' 'groot' 'Groot' 'Luna-Dark' 'Pear'
+    $theme_flowers)
+        bash ${BSP}/set-theme  'flowers.jpg' 'flowers' 'Kripton' 'Zafiro' 'Paper'
         ;;
-    $theme_9)
-        bash ${BSP}/set-theme  'gruvbox.jpg' 'gruvbox' 'Gruvbox' 'Luna-Dark' 'Future-dark'
+    $theme_forest)
+        bash ${BSP}/set-theme  'forest.jpg' 'forest' 'Adapta-Nokto' 'Zafiro-Green' 'Qogir-manjaro-dark'
         ;;
-    $theme_10)
-        bash ${BSP}/set-theme  'hack.jpg' 'hack' 'Hack' 'Hack' 'LyraB'
+    $theme_groot)
+        bash ${BSP}/set-theme  'groot.png' 'groot' 'Groot' 'Zafiro-Yellow' 'Adwaita'
         ;;
-    $theme_11)
+    $theme_gruvbox)
+        bash ${BSP}/set-theme  'gruvbox.jpg' 'gruvbox' 'Gruvbox' 'Zafiro-Yellow' 'LyraF'
+        ;;
+    $theme_hack)
+        bash ${BSP}/set-theme  'hack.png' 'hack' 'Sweet-Dark' 'Qogir-manjaro' 'Sweet'
+        ;;
+    $theme_keyboards)
         bash ${BSP}/set-theme  'keyboards.jpg' 'keyboards' 'Sweet-Dark' 'Zafiro-Purple' 'Sweet'
         ;;
-    $theme_12)
-        bash ${BSP}/set-theme  'light.jpg' 'light' 'Kripton' 'Zafiro-Dark' 'Fluent-dark'
+    $theme_light)
+        bash ${BSP}/set-theme  'light.jpg' 'light' 'White' 'Arc-Circle' 'Fluent-dark'
         ;;
-    $theme_13)
-        bash ${BSP}/set-theme  'manhattan.jpg' 'manhattan' 'Manhattan' 'Luv-Folders-Dark' 'Vimix-dark'
+    $theme_manhattan)
+        bash ${BSP}/set-theme  'manhattan.png' 'manhattan' 'Manhattan' 'Luv-Folders-Dark' 'Vimix-dark'
         ;;
-    $theme_14)
+    $theme_nord)
         bash ${BSP}/set-theme  'nord.jpg' 'nord' 'Arc-Dark' 'Arc-Circle' 'Qogirr'
         ;;
-    $theme_15)
+    $theme_nordic)
         bash ${BSP}/set-theme  'nordic.jpg' 'nord' 'Nordic' 'Nordic-Folders' 'Qogirr-dark'
         ;;
-    $theme_16)
-        bash ${BSP}/set-theme  'pastel.png' 'pastel' 'Juno-palenight' 'Zafiro-Blue-Dark' 'Qogirr-dark'
+    $theme_pastel)
+        bash ${BSP}/set-theme  'pastel.png' 'pastel' 'Juno-mirage' 'Qogir' 'Qogirr-dark'
         ;;
-    $theme_17)
-        bash ${BSP}/set-theme  'rick.jpg' 'rick' 'Rick' 'Zafiro' 'Vimix-dark'
+    $theme_rick)
+        bash ${BSP}/set-theme  'rick.png' 'rick' 'Pop-dark' 'Zafiro' 'Vimix-dark'
         ;;
-    $theme_18)
-        bash ${BSP}/set-theme  'spark.jpg' 'spark' 'Spark' 'Luv-Folders' 'Vimix'
+    $theme_spark)
+        bash ${BSP}/set-theme  'spark.png' 'spark' 'Kripton' 'Qogir-manjaro-dark' 'Qogir-manjaro-dark'
         ;;
-    $theme_19)
-        bash ${BSP}/set-theme  'tealize.png' 'tealize' 'Juno-palenight' 'Luv-Folders-Dark' 'Vimix-dark'
+    $theme_tealize)
+        bash ${BSP}/set-theme  'tealize.png' 'tealize' 'Juno-palenight' 'Luv-Folders-Dark' 'Vimix'
         ;;
-    $theme_20)
-        bash ${BSP}/set-theme  'wave.jpg' 'wave' 'Wave' 'Luv-Folders-Dark' 'Vimix-dark'
-        ;;
-    $theme_21)
-        bash ${BSP}/set-theme  'cubic.jpg' 'cubic' 'Windows-10-Dark' 'Zafiro-Purple-Dark' 'Vimix-dark'
+    $theme_wave)
+        bash ${BSP}/set-theme  'wave.png' 'wave' 'Wave' 'Luv-Folders-Dark' 'Vimix'
         ;;
 esac

@@ -1,4 +1,13 @@
-# Default Archcraft Dark Theme
+# This file is part of adapta-gtk-theme
+#
+# Copyright (C) 2016-2018 Tista <tista.gma500@gmail.com>
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+#
+
 
 # Fonts
 window.active.label.text.font:shadow=n
@@ -10,19 +19,19 @@ menu.title.text.justify: center
 
 
 # Width and height
-padding.width: 5
-padding.height: 6
+padding.width: 7
+padding.height: 5
 
-border.width: 0
-menu.border.width: 8
-osd.border.width: 4
+border.width: 2
+menu.border.width: 1
+osd.border.width: 1
 
 window.handle.width: 0
 window.client.padding.width: 0
 
-menu.separator.width: 0
+menu.separator.width: 1
 menu.separator.padding.width: 0
-menu.separator.padding.height: 2
+menu.separator.padding.height: 4
 
 
 # Active window
@@ -49,17 +58,17 @@ window.active.button.unpressed.bg.color: #222D32
 window.active.button.unpressed.image.color: #B8C1C6
 
 window.active.button.hover.bg: flat solid
-window.active.button.hover.bg.color: #222D32
-window.active.button.hover.image.color: #4DD0E1
+window.active.button.hover.bg.color: #364146
+window.active.button.hover.image.color: #CFD8DC
 
 window.active.button.pressed.bg: flat solid
-window.active.button.pressed.bg.color: #222D32
-window.active.button.pressed.image.color: #EC407A
+window.active.button.pressed.bg.color: #4C575C
+window.active.button.pressed.image.color: #CFD8DC
 
 window.active.button.toggled.bg: flat solid
 window.active.button.toggled.bg.color: #222D32
 window.active.button.toggled.image.color: #B8C1C6
-window.active.button.toggled.hover.image.color: #4DD0E1
+window.active.button.toggled.hover.image.color: #CFD8DC
 
 window.active.button.disabled.bg: flat solid
 window.active.button.disabled.bg.color: #222D32
@@ -77,7 +86,7 @@ window.inactive.title.bg.highlight: 0
 window.inactive.title.bg.shadow: 0
 
 window.inactive.label.bg: parentrelative
-window.inactive.label.text.color: #677277
+window.inactive.label.text.color: #555F64
 
 window.inactive.handle.bg: flat solid
 window.inactive.handle.bg.color: #222D32
@@ -87,20 +96,20 @@ window.inactive.grip.bg.color: #222D32
 
 window.inactive.button.unpressed.bg: flat solid
 window.inactive.button.unpressed.bg.color: #222D32
-window.inactive.button.unpressed.image.color: #677277
+window.inactive.button.unpressed.image.color: #555F64
 
 window.inactive.button.hover.bg: flat solid
-window.inactive.button.hover.bg.color: #222D32
-window.inactive.button.hover.image.color: #CFD8DC
+window.inactive.button.hover.bg.color: #283237
+window.inactive.button.hover.image.color: #788286
 
 window.inactive.button.pressed.bg: flat solid
-window.inactive.button.pressed.bg.color: #222D32
-window.inactive.button.pressed.image.color: #CFD8DC
+window.inactive.button.pressed.bg.color: #2A393E
+window.inactive.button.pressed.image.color: #788286
 
 window.inactive.button.toggled.bg: flat solid
 window.inactive.button.toggled.bg.color: #222D32
-window.inactive.button.toggled.image.color: #677277
-window.inactive.button.toggled.hover.image.color: #CFD8DC
+window.inactive.button.toggled.image.color: #555F64
+window.inactive.button.toggled.hover.image.color: #788286
 
 window.inactive.button.disabled.bg: flat solid
 window.inactive.button.disabled.bg.color: #222D32
@@ -108,23 +117,22 @@ window.inactive.button.disabled.image.color: #3B464B
 
 
 # Menu
-menu.overlap.x: -10
 menu.border.color: #212B30
 
 menu.title.bg: flat solid
-menu.title.bg.color: #212B30
-menu.title.text.color: #4DD0E1
+menu.title.bg.color: #28343A
+menu.title.text.color: #828C91
 
 menu.items.bg: flat solid
-menu.items.bg.color: #212B30
-menu.items.text.color: #C4C7C5
+menu.items.bg.color: #28343A
+menu.items.text.color: #B9C2C7
 menu.items.disabled.text.color: #566067
 
 menu.items.active.bg: flat solid
-menu.items.active.bg.color: #212B30
-menu.items.active.text.color: #EC407A
+menu.items.active.bg.color: #384449
+menu.items.active.text.color: #CFD8DC
 
-menu.separator.color: #212B30
+menu.separator.color: #222D32
 
 
 # OSD
@@ -136,14 +144,14 @@ osd.label.text.color: #CFD8DC
 
 osd.active.label.bg: flat solid
 osd.active.label.bg.color: #222D32
-osd.active.label.text.color: #4DD0E1
+osd.active.label.text.color: #8DCDC8
 
 osd.inactive.label.bg: flat solid
 osd.inactive.label.bg.color: #222D32
 osd.inactive.label.text.color: #677176
 
 osd.hilight.bg: flat solid
-osd.hilight.bg.color: #4DD0E1
+osd.hilight.bg.color: #4DB6AC
 
 osd.unhilight.bg: flat solid
 osd.unhilight.bg.color: #323D42

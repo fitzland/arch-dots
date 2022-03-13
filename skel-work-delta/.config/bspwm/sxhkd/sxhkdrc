@@ -1,5 +1,6 @@
-## Copyright (C) 2020-2021 Aditya Shakya <adi1090x@gmail.com>
-## Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
+#################################################################
+# KEYBOARD BINDINGS FOR BSPWM
+#################################################################
 
 ##---------- Keybindings for apps ----------##
 
@@ -7,13 +8,9 @@
 super + F1
 	catfish
 
-# Code
-super + F2
-	atom
-
-# Atom
-super + shift + F2
-	code
+# Editor
+super + {_,shift} + F2
+	{code,atom}
 
 # Inkscape
 super + F3
@@ -32,44 +29,28 @@ super + F6
     gnucash
 
 # KeePassXC
-super + F7
-    keepassxc home.kdbx
-
-# KeePassXC
-super + shift + F7
-    keepassxc work.kdbx
+super + {_,shift} + F7
+    keepassxc {$HOME/Dropbox/journal/home.kdbx,keepassxc $HOME/Dropbox/journal/work.kdbx}
 
 # File Manager
-super + F8
-    thunar
+super + {_,shift} + F8
+    {thunar,alacritty --config-file ~/.config/bspwm/alacritty/alacritty.yml -e ranger}
 
-# Typora
-super + F9
-    typora
+# Markdown Editor
+super + {_,shift} + F9
+    {ghostwriter,typora}
 
 # Firefox
-super + F10
-    firefox-developer-edition
-
-#Firefox
-super + shift + F10
-    firefox-developer-edition --private-window
+super + {_,shift} + F10
+    {firefox-developer-edition,firefox-developer-edition --private-window}
 
 #Microsoft Edge
-super + F11
-    microsoft-edge-stable --profile-directory='Default'
-
-#Microsoft Edge
-super + shift + F11
-    microsoft-edge-stable --profile-directory='Profile 1'
+super + {_,shift} + F11
+    {microsoft-edge-stable --profile-directory='Default',microsoft-edge-stable --profile-directory='Profile 1'}
 
 #Chrome Primary
-super + F12
-    google-chrome-stable --profile-directory='Default'
-
-#Chrome Secondary
-super + shift F12
-    google-chrome-stable --profile-directory='Profile 1'
+super + {_,shift} + F12
+    {google-chrome-stable --profile-directory='Default',google-chrome-stable --profile-directory='Profile 1'}
 
 ##---------- Rofi Launcher & Menus ----------##
 
@@ -78,43 +59,42 @@ super + slash
 	sh ~/.config/bspwm/rofi/bin/launcher-app
 
 # Rofi Term Launcher
-super + backslash
-	sh ~/.config/bspwm/rofi/bin/launcher-cmd
+super + {_,shift} + backslash
+	sh ~/.config/bspwm/rofi/bin/{launcher-cmd,windows}
 
 #dmenu
 super + p
 	dmenu_run -b -m 1 -p dmenu: -nb '#282a36' -nf '#f8f8f2' -sb '#6272a4' -sf '#f8f8f2'
 
 # Rofi Network Menu
-ctrl + alt + n
-	sh ~/.config/bspwm/rofi/bin/network
+super + n
+	nmd
 
 # Rofi Themes Menu
 ctrl + alt + t
 	sh ~/.config/bspwm/rofi/bin/themes
 
 # Rofi Menus/Applets
-super + {w,m,x,r,s,i}
-	sh ~/.config/bspwm/rofi/bin/{windows,mpd,powermenu,asroot,screenshot,network}
+super + {m,x,r,s,i}
+	sh ~/.config/bspwm/rofi/bin/{mpd,powermenu,asroot,screenshot,network}
 
 ##---------- Applications ----------##
 
-# Terminal (alacritty)
-super + Return
-	rofi-sensible-terminal
+# Terminal and File Manager
+super + {_,shift} + Return
+	{bspterm,thunar}
 
-# File Manager
-super + shift + Return
-	exo-open --working-directory $HOME --launch FileManager
+# Launch Apps
+super + shift + {f,w,e}
+	{thunar,firefox,xed}
 
 # Terminal Apps
-ctrl + alt + {v,r,h}
-	alacritty --config-file ~/.config/bspwm/alacritty/alacritty.yml -e {vim,ranger,htop}
+ctrl + alt + {r,h}
+	alacritty --config-file ~/.config/bspwm/alacritty/alacritty.yml -e {ranger,htop}
 
 # Lockscreen
-ctrl + alt + l
-#   sh /home/$USER/.config/bspwm/bin/i3lock-fancy/i3lock-fancy.sh
-	betterlockscreen -l dim -- --time-str="%H:%M"
+ctrl + alt + k
+	sh ~/.config/bspwm/bin/bsplock
 
 ##---------- System Keys ----------##
 
@@ -138,9 +118,6 @@ ctrl + Print
 ctrl + alt + Print
 	takeshot --area
 
-# Brighness control
-XF86MonBrightness{Up,Down}
-	brightness{ --inc, --dec}
 
 # Volume control
 XF86Audio{RaiseVolume,LowerVolume}
@@ -160,7 +137,7 @@ super + {_,shift + }c
 	bspc node -{c,k}
 
 # Reload Keybindings
-super + Escape
+super + shift + s
 	pkill -USR1 -x sxhkd
 
 # kill window
@@ -211,7 +188,7 @@ super + alt + {Left,Right}
 
 # Switch workspace
 ctrl + alt + {Left,Right}
-	bspc desktop -f {prev,next}
+	bspc desktop -f {prev,next}.local
 
 # Switch to last opened workspace
 super + {Tab,grave}
@@ -225,7 +202,7 @@ super + shift + {comma,period}
 super + {Prior,Next}
 	bspc desktop -f {prev,next}
 
-# Send node to next/previous workspace global
+# Send node to next/previous workspace
 super + shift + {Prior,Next}
 	bspc node -d {prev,next} --follow
 

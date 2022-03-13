@@ -1,126 +1,3 @@
-yay lightdm
-dots
-cd
-cd git/dubois/
-cd /usr/
-cd /share
-cd local/
-cd git/
-cd dubois/
-cd arco-i3/
-cd ArchWay/
-cd .
-cd ..
-ls -la
-cd usr/
-cd share/
-cd arcolinux-spices/
-cd scripts/
-ls
-./get-the-keys-and-repos.sh 
-upall
-yay sddm
-exit
-yay sddm
-cd git/dubois/
-cd arco-i3/
-ls
-./100-display-manager-and-desktop.sh 
-exit
-yay sddm
-exit
-sudo sddm-config-editor 
-exit
-yay lxpolkit
-yay lxsession
-exit
-exit
-neofetch
-sudo pacman -Rns xfce4-terminal
-exit
-eb
-eba
-exit
-upall
-cleanup
-yay dropbox
-exit
-upall
-cleanup
-yay mfc 2690lw
-yay 2690lw
-yay l2690w
-yay 2690
-yay brother
-yay brother mfc
-yay l2700
-exit
-sudo grub-mkconfig -o /boot/grub/grub.cfg
-exit
-yay master pdf
-cd downloads/tarballs/
-ls
-sudo ./PDFStudio_2021_linux64.sh 
-yay wmname
-exit
-cd downloads/tarballs/
-ls
-sudo ./PDFStudio_2021_linux64.sh 
-exit
-upall
-cleanup
-exit
-cd Dropbox/church/media/newsletter/12-newsletter-dec/images/
-./wmf2svg 
-exit
-yay minecraft
-exit
-upall
-cleanup
-exit
-upall
-cleanup
-ip link
-exit
-exit
-upall
-cleanup
-exit
-cd Dropbox/church/media/newsletter/12-newsletter-dec/images/
-./wmf2svg 
-exit
-yay minecraft
-exit
-exit
-ip link
-exit
-exit
-exit
-dots
-./010-backup-home.sh 
-git commit -m 'work on i3 config'
-rm 020-backup-work.sh 
-cp 010-backup-home.sh 020-backup-work.sh
-ls
-nano 020-backup-work.sh 
-git add .
-git commit -m 'edit to work backup script'
-git push
-git status
-gts
-upall
-cleanup
-sr
-yay spotify
-cleanup
-clear
-htop
-exit
-killall spotify
-exit
-upall
-exit
-htop
 killall spotify
 upall
 cd downloads
@@ -496,5 +373,128 @@ cd bspwm/.config/rofi/
 ls
 ./powermenu.sh 
 exit
+zsh
+exit
+yay google-chrome
+exit
+exit
+yay net-tools
+yay wd7
+cd git/
+ls
+cd fitzland/
+ls
+dots
+cd arch-dots/
+ls
+git pull
+ls
+ls
+./get-al-arcolinux-repos.sh 
+sudo pacma -Syy
+sudo pacman -Syy
+ls
+./get-ac-archcraft-repos.sh 
+cd ..
+ls
+cd ..
+ls
+mkdir archcraft
+ls
+yay keepassxc
+ls
+cd archcraft/
+ls
+git clone git@github.com:archcraft-os/packages.git
+ls
+cd packages/
+ls
+cd x86_64/
+ls
+sudo pacman -U archcraft-
+sudo pacman -U chaotic-keyring.pkg.tar.zst 
+sudo pacman -U chaotic-mirrorlist.pkg.tar.zst 
+sudo pacman -Syy
+sudo pacman -Syy
+ls
+sudo pacman -U archcraft-mirrorlist-1.0-1-any.pkg.tar.zst 
+exit
+yay pamac
+sudo pacman -S lxsession
+yay wd7
+yay upd7
+yay aic
+ls
+cd git/
+cd archcraft/
+ls
+cd packages/
+ls
+cd x86_64/
+ls
+eixt
+exit
+cd images
+alias
+cd wallpapers/
+ls
+cd system/
+ls
+sudo cp *.jpg /usr/share/backgrounds
+cd git
+cd 
+cd git/archcraft/
+ls
+cd packages/
+ls
+cd x86_64/
+ls
+sudo pacman -U archcraft-mirrorlist-1.0-1-any.pkg.tar.zst 
+sudo pacman -Syyu
+sudo pacman -Syy
+exit
+cd git/archcraft/
+ls
+git clone git@github.com:archcraft-os/core-packages.git
+ls
+cd core-packages/
+ls
+cd archcraft-mirrorlist/
+makepkg -sri
+ls
+sudo pacman -U archcraft-mirrorlist-1.0-1-any.pkg.tar.zst 
+exit
+cd git/archcraft/core-packages/
+ls
+cd archcraft-mirrorlist/
+ls
+nano archcraft-mirrorlist
+cd ..
+ls
+cd /etc/pacman.d/
+ls
+nano archcraft-mirrorlist 
+exit
+cd /etc/pacman.conf
+sudo nano /etc/pacman.conf
+sudo pacman -Syy
+exit
+exit
+cd /usr/share/backgrounds/
+ls
+exit
+exit
+cd images/wallpapers/system/
+sudo cp *.jpg /usr/share/backgrounds/
+sudo cp *.png /usr/share/backgrounds/
+exit
+exit
+yay oh my
+sudo pacman -S zah
+sudo pacman -S zsh
+chsh -s /bin/zsh jfitzhugh
+exit
+ls
+cd images
 zsh
 exit
