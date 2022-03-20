@@ -9,7 +9,7 @@ super + F1
 
 # Editor
 super + {_,shift} + F2
-	{atom,code}
+	{code,alacritty --config-file ~/.config/i3/alacritty/alacritty.yml -e nano}
 
 # Inkscape
 super + F3

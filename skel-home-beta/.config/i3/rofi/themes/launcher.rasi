@@ -21,7 +21,7 @@ configuration {
 @import "colors.rasi"
 
 * {
-    font:                           "JetBrainsMono Nerd Font 11";
+    font:                           "Iosevka 11";
     background-color:             	@background;
 }
 
