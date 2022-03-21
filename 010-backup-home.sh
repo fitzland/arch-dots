@@ -31,6 +31,7 @@ cp -r $HOME/.config/nitrogen ./skel-home/.config/
 cp -r $HOME/.config/polybar ./skel-home/.config/
 cp -r $HOME/.config/qt5ct ./skel-home/.config/
 cp -r $HOME/.config/rofi ./skel-home/.config/
+cp -r $HOME/.config/qtile ./skel-home/.config/
 cp -r $HOME/.config/sxhkd ./skel-home/.config/
 cp -r $HOME/.dwm ./skel-home/
 cp -r $HOME/.icons ./skel-home/

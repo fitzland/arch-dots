@@ -43,10 +43,11 @@ bspc config normal_border_color "$BLACK"
 bspc config active_border_color "$BLUE"
 bspc config presel_feedback_color "$GREEN"
 
-bspc config borderless_monocle true
+bspc config single_monocle true
 bspc config gapless_monocle true
+bspc config borderless_monocle true
 bspc config paddingless_monocle true
-bspc config single_monocle false
+
 
 bspc config pointer_follows_focus false
 bspc config focus_follows_pointer true
@@ -128,7 +129,7 @@ dunst \
 -nb "$BACKGROUND" -nf "$FOREGROUND" -nfr "$BLUE" \
 -cb "$BACKGROUND" -cf "$RED" -cfr "$RED" &
 
-# Lauch xsettingsd daemon
+# Launch xsettingsd daemon
 xsettingsd &
 
 # polkit agent

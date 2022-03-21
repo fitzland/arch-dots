@@ -21,7 +21,7 @@ ZSH_THEME="random"
 # a theme from this variable instead of looking in ~/.oh-my-zsh/themes/
 # If set to an empty array, this variable will have no effect.
 
-ZSH_THEME_RANDOM_CANDIDATES=( "funky" "gentoo" "candy" "mikeh")
+ZSH_THEME_RANDOM_CANDIDATES=( "gentoo" "candy")
 
 ZSH_THEME_RANDOM_IGNORED=(pygmalion tjkirch_mod simonoff kolo sorin robbyrussell rixius pygmalion-virtualenv wedisagree steeef peepcode miloshadzic lambda fwalch doegenpunk)
 
