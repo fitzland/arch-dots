@@ -11,10 +11,10 @@ configuration {
     click-to-exit: 					true;
     combi-hide-mode-prefix: 		false;
     display-window: 				"win";
-    display-windowcd: 				"";
+    display-windowcd: 				"win";
     display-run: 					"run";
     display-ssh: 					"ssh";
-    display-drun: 					"drun";
+    display-drun: 				    "drun";
     display-combi: 					"";
 }
 
@@ -26,9 +26,9 @@ configuration {
 }
 
 window {
-    border: 						2px;
-    border-color: 					@border;
-    border-radius: 					10px;
+    border: 						1px;
+    border-color: 					@selected;
+    border-radius: 					0px;
     width: 							500px;
     height: 						0px;
 }
@@ -36,10 +36,9 @@ window {
 prompt {
     spacing: 						0;
     border: 						0;
-    border-radius: 					8px;
-    background-color:             	@on;
+    background-color:             	@highlight;
     text-color: 					@background;
-    padding:    					6px 14px 6px 10px;
+    padding:    					6px 10px 6px 10px;
 }
 
 textbox-prompt-colon {
@@ -57,7 +56,7 @@ entry {
     placeholder-color:              @FG;
     placeholder:                    "Search...";
     padding:    					6px 2px 6px 2px;
-    border: 						0px 0px 0px 0px;
+    border: 						0px 0px 1px 0px;
     border-color: 					@selected;
     border-radius: 					0px;
 }
@@ -79,41 +78,29 @@ inputbar {
 mainbox {
     border: 						0px;
     border-color: 					@selected;
-    spacing: 						10px;
-    padding: 						20px;
+    spacing: 						6px;
+    padding: 						10px;
 }
 
 listview {
-    lines:							6;
-    columns:						1;
+    lines:						8;
+    columns:						2;
     fixed-height: 					0;
     border: 						0px;
     border-color: 					@foreground;
-    spacing: 						5px;
+    spacing: 						2px;
     scrollbar: 						false;
     padding: 						4px 0px 0px;
 }
 
-element-icon {
-    background-color: 				inherit;
-    text-color:       				inherit;
-    horizontal-align:               0.5;
-    vertical-align:                 0.5;
-    size:                           24px;
-}
-
-element-text {
-    background-color: 				inherit;
-    text-color:       				inherit;
-    expand:                         true;
-    horizontal-align:               0;
-    vertical-align:                 0.5;
-    margin:                         0px 0px 0px 5px;
+element-text, element-icon {
+    background-color: inherit;
+    text-color:       inherit;
 }
 
 element {
     border: 						0px;
-    padding: 						5px;
+    padding: 						7px;
 }
 element normal.normal {
     background-color: 				@background;
@@ -131,7 +118,6 @@ element selected.normal {
     background-color: 				@selected;
     text-color:       				@background;
     border: 						0px;
-    border-radius: 					8px;
     border-color: 					@selected;
 }
 element selected.urgent {
@@ -165,19 +151,18 @@ button {
     margin: 						5px 0px 0px 0px;
     horizontal-align:               0.5;
     vertical-align:                 0.5;
-    padding: 						8px;
-    background-color:             	@background;
+    padding: 						7px;
     text-color: 					@foreground;
     border: 						0px;
-    border-radius: 					8px;
+    border-radius: 					0px;
     border-color: 					@selected;
 }
 
 button selected {
-    background-color:             	@on;
+    background-color:             	@selected;
     text-color: 					@background;
     border: 						0px;
-    border-radius: 					8px;
+    border-radius: 					0px;
     border-color: 					@selected;
 }
 

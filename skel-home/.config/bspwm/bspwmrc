@@ -19,9 +19,6 @@ getcolors() {
 }
 getcolors
 
-# Launch keybindings daemon
-pgrep -x sxhkd > /dev/null || sxhkd -c $HOME/.config/bspwm/sxhkd/sxhkdrc &
-
 #workspaces
 bspc monitor DP-0 -d '' '' '' '' ''
 #bspc monitor DP-0 -d '' '' '' '' '' ''
@@ -93,7 +90,7 @@ for i in ${files[@]}; do
    bspc rule -a $i desktop='^8' follow=on focus=on; done
 
 # 0 > media
-declare -a media=(Audacity Music MPlayer Lxmusic obs spotify Spotify)
+declare -a media=(Audacity Music MPlayer Lxmusic obs Quodlibet spotify Spotify)
 for i in ${media[@]}; do
   bspc rule -a $i desktop='^10' follow=on focus=on; done
 
@@ -112,6 +109,27 @@ for i in ${floating[@]}; do
 #
 # Set display from arandr saved script
 sh ~/.screenlayout/monitor.sh &
+
+# Kill if already running
+killall -9 xsettingsd sxhkd dunst
+
+# Lauch notification daemon
+dunst \
+-geom "280x50-10+42" -frame_width "1" -font "Iosevka Custom 10" \
+-lb "$BACKGROUND" -lf "$FOREGROUND" -lfr "$BLUE" \
+-nb "$BACKGROUND" -nf "$FOREGROUND" -nfr "$BLUE" \
+-cb "$BACKGROUND" -cf "$RED" -cfr "$RED" &
+
+# Launch xsettingsd daemon
+xsettingsd &
+
+# polkit agent
+if [[ ! `pidof lxpolkit` ]]; then
+	/usr/bin/lxpolkit &
+fi
+
+# Launch keybindings daemon
+sxhkd -c $HOME/.config/bspwm/sxhkd/sxhkdrc &
 
 # Network Applet
 nm-applet &

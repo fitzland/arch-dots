@@ -1,14 +1,7 @@
-#!/usr/bin/env bash
-
-## Copyright (C) 2020-2021 Aditya Shakya <adi1090x@gmail.com>
-## Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
+#! /bin/sh
 
 ## Environtment
 export PATH="${PATH}:$HOME/.config/bspwm/bin"
-
-# Set display from arandr saved script
-sh ~/.screenlayout/monitor.sh &
-
 
 ## Get colors from .Xresources -------------------------------#
 xrdb ~/.Xresources
@@ -26,7 +19,8 @@ getcolors() {
 }
 getcolors
 
-## Configurations --------------------------------------------#
+# Launch keybindings daemon
+pgrep -x sxhkd > /dev/null || sxhkd -c $HOME/.config/bspwm/sxhkd/sxhkdrc &
 
 #workspaces
 bspc monitor DP-0 -d '' '' '' '' ''
@@ -34,10 +28,10 @@ bspc monitor DP-0 -d '' '' '' '' ''
 bspc monitor DP-2 -d '' '' '' '' ''
 #bspc monitor -d 'I' 'II' 'III' 'IV' 'V' 'VI' 'VII' 'VIII'
 
-bspc config border_width 2
-bspc config window_gap 10
-bspc config split_ratio 0.50
+bspc config border_width         2
+bspc config window_gap          10
 
+# Border
 bspc config focused_border_color "$GREEN"
 bspc config normal_border_color "$BLACK"
 bspc config active_border_color "$BLUE"
@@ -48,14 +42,9 @@ bspc config gapless_monocle true
 bspc config borderless_monocle true
 bspc config paddingless_monocle true
 
-
-bspc config pointer_follows_focus false
+bspc config split_ratio          0.52
+bspc config pointer_follows_focus true
 bspc config focus_follows_pointer true
-
-## Window rules ----------------------------------------------#
-
-# remove all rules first
-bspc rule -r *:*
 
 # 1 > terminal
 declare -a term=(Alacritty Xfce4-terminal Gnome-terminal)
@@ -117,31 +106,12 @@ for i in ${floating[@]}; do
 # spotify rule
 	bspc config external_rules_command "$HOME/.config/bspwm/bin/spotify.sh"
 
-## Autostart -------------------------------------------------#
 
-# Kill if already running
-killall -9 xsettingsd sxhkd dunst
-
-# Lauch notification daemon
-dunst \
--geom "280x50-10+42" -frame_width "1" -font "Iosevka Custom 10" \
--lb "$BACKGROUND" -lf "$FOREGROUND" -lfr "$BLUE" \
--nb "$BACKGROUND" -nf "$FOREGROUND" -nfr "$BLUE" \
--cb "$BACKGROUND" -cf "$RED" -cfr "$RED" &
-
-# Launch xsettingsd daemon
-xsettingsd &
-
-# polkit agent
-if [[ ! `pidof lxpolkit` ]]; then
-	/usr/bin/lxpolkit &
-fi
-
-# Launch keybindings daemon
-sxhkd -c $HOME/.config/bspwm/sxhkd/sxhkdrc &
-
-# Enable power management
-#xfce4-power-manager &
+#
+# Autostart
+#
+# Set display from arandr saved script
+sh ~/.screenlayout/monitor.sh &
 
 # Network Applet
 nm-applet &
@@ -151,6 +121,12 @@ xsetroot -cursor_name left_ptr
 
 # Set Compose key
 setxkbmap -option compose:rctrl &
+
+# Dex
+dex -a -s /etc/xdg/autostart/:~/.config/autostart/  
+
+# Network Applet
+nm-applet --indicator &
 
 # start blueberry app for managing bluetooth devices from tray:
 blueberry-tray &
@@ -175,3 +151,4 @@ bspcomp
 
 # Fix non-parenting windows
 wmname LG3D
+
