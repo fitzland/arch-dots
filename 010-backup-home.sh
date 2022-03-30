@@ -38,8 +38,6 @@ cp -r $HOME/.icons ./skel-home/
 cp -r $HOME/.themes ./skel-home/
 cp -r $HOME/.xmonad/ ./skel-home/
 cp -r $HOME/.Xresources.d ./skel-home/
-cp -r $HOME/.fonts ./skel-home/
-cp -r $HOME/.themes ./skel-home/
 cp $HOME/.bash* ./skel-home/
 cp $HOME/.Xresources ./skel-home/
 cp $HOME/.face* ./skel-home/
