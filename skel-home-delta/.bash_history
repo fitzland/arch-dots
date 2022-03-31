@@ -1,139 +1,219 @@
 ls
-sudo cp *-mirrorlist /etc/pacman.d/
+cd ..
+ls
+cd ../..
+ls
+cd arcolinux-spices/
+ls
+./setup-our-git-credentials.sh 
+ls
+cd usr/share/arcolinux-spices/scripts/
+ls
+./get-the-keys-and-repos.sh 
+sudo pacman -Sy
 cd /etc/pacman.d/
 ls
-sudo pacman Syyu
-sudo pacman Sy
-ls
-cd gnupg/
-ls -la
-yay google-chrome
+cd /etc/pacman.conf
 cd ..
-ls
-cd ..
-ls
+nano pacman.conf 
 sudo nano pacman.conf 
-sudo pacman -Syyu
-yay aic
-yay wd7
-yay wmname
-yay upd7
+sudo pacman -Sy
+sudo pacman-key --refresh-keys
+cd
+cd git/dubois/
 ls
-exit
-neofetch
-exit
-yay google-chrome
-yay microsoft edge
-exit
-yay zafiro
-yay keepassxc
+cd arcolinux-spices/
+git pull
+cd ..
+sudo rm -r arcolinux-spices/
+paru github cli
+gh
+ls
+git clone https://github.com/arcolinux/arcolinux-spices.git
+ls
+cd arcolinux-spices/
+ls
+./setup-our-git-credentials.sh 
+cd /usr/share/
+ls
+cd 
+cd git/dubois/arcolinux-spices/usr/share/arcolinux-spices/scripts/
+ls
+./get-the-keys-and-repos.sh 
+sudo ./get-the-keys-and-repos.sh 
+cd ..
+cd ..
+cd ..
+cd ..
+ls
+cd usr/share/arcolinux-spices/scripts/
+ls
+sudo ./get-the-keys-and-repos.sh 
 sudo nano /etc/pacman.conf 
 sudo pacman -Sy
-exit
-cd git/archcraft/
-git clone git@github.com:archcraft-os/archcraft-dwm.git
-cd archcraft-dwm/
+sudo pacman -Syyu
+sudo nano /etc/pacman.conf 
+sudo pacman -Syyu
+cd ..
+cd ..
+cd ..
+cd ..
+cd ..
+cd ..
+cd dubois/
+ls
+cd arco-bspwm/
+ls
+cd ArchWay/
+ls
+ls
+cd ..
+ls
+sudo ./setup-our-git-credentials.sh 
+sudo ./setup-our-git-credentials.sh 
+sudo ./setup-our-git-credentials.sh 
+sudo pacman -Syu
+sudo pacman -Syu
+sudo ./setup-our-git-credentials.sh 
+sudo pacman -Syu
+ls
+cd ..
+ls
+cd arco-xmonad/
+ls
+cd ArchWay/
+ls
+nano README 
+cd 
+cd downloads/tarballs/
+ls
+sudo pacman -Rns tint2
+paru file-roller
+paru file-roller
+ls
+tar --help
+tar -xf arcolinux-spices-git-22.03-01-any.pkg.tar.zst 
+ls
+cd usr/share/arcolinux
+ls
+cd ..
+ls
+cd arcolinux-spices/
+ls
+cd scripts/
+ls
+sudo ./get-the-keys-and-repos.sh 
+sudo nano /etc/pacman.conf 
+sudo pacman -Syyu
+cd
+cd git/fitzland/
+ls
+cd themes/
+ls
+cd sweet-theme/
 git pull
 ls
+cd ~/.themes/
+ls
+cd 
+cd .themes/
+ls
+rm -r Sweet{,-Ambar-Blue,-Ambar}
+ls
+rm Sweet-Ambar*
+ls
+rm Sweet.zip 
+ls
+rm Sweet-Dark.zip 
+rm Sweet-mars
+rm Sweet-mars.zip 
+ls
 exit
-cd git/archcraft/
+cd git/dubois/
 ls
-git clone git@github.com:archcraft-os/archcraft-i3wm.git
+sudo pacman -U arcolinux-keyring-20230919-6-any.pkg.tar.zst 
+exit
+sudo pacman -Syyu
+# rm -R /etc/pacman.d/gnupg/
+sudo rm -R /etc/pacman.d/gnupg/
+sudo rm -R /root/.gnupg/
+sudo gpg --refresh-keys
+sudo pacman-key --init && pacman-key --populate archlinux
+sudo pacman-key --init && sudo pacman-key --populate archlinux
+sudo pacman-key --refresh-keys
+cd git/dubois/
 ls
-cd archcraft-i3wm/
+sudo pacman -U arcolinux-keyring-20230919-6-any.pkg.tar.zst 
+sudo pacman-key --populate arcolinux
 ls
-cd ..
+rm arcolinux-keyring-20230919-6-any.pkg.tar.zst 
+ls
+touch keys
+nano keys 
+sh keys
+sudo pacman -Syyu
 ls
 exit
-cd git/archcraft/
-git clone git@github.com:archcraft-os/archcraft-icons.git
-ls
-cd archcraft-dwm/
-ls
-./build.sh 
-./build.sh -f
+paru neofetch
 exit
-cd git/
-ls
-cd archcraft/
-ls
-git clone git@github.com:archcraft-os/archcraft-themes.git
-ls
-cd archcraft-themes/
-ls
-./build.sh 
-cd ..
-ls
-git clone git@github.com:archcraft-os/archcraft-packages.git
-ls
-cd archcraft-packages/
-ls
-./build.sh 
-sudo pacman -Sy
+nano .bashrc
+exit
 exit
 cd /etc/skel/
 ls
 ls -la
-cd .config/
-ls
-cp -r bspwm/ ~/.config/bspwm-endeavor
-cp -r rofi/ ~/.config/rofi-endeavor
-cp -r sxhkd/ ~/.config/sxhkd-endeavor
-cp -r polybar/ ~/.config/polybar-endeavor
-cp -r dunst/ ~/.config/dunst-endeavor
-cd ..
-ls
-cd .local/
-ls
-cd share/
-ls
-ls -la
-cd fonts/
-ls
-cp IosevkaTermNerdFontComplete.ttf ~/.fonts/
-neofetch
+cp .bashrc_garuda ~/
+cp .zshrc ~/.zshrc_garuda
+cd
+cp .bashrc_garuda .bashrc
 exit
-zafiro
-yay zafiro
+upall
+paru yay
+paru yay
 exit
-yay juno
-cd git/
-ls
-git clone git@github.com:EliverLara/Kripton.git
-git clone git@github.com:EliverLara/Juno.git
-mkdir theme
-ls
-sudo rm -r Juno/
-sudo rm -r Kripton/
-ls
-sudo rm -r Qogir-theme/
-ls
-cd theme/
-git clone git@github.com:EliverLara/Kripton.git
-git clone git@github.com:EliverLara/Juno.git
-git clone git@github.com:EliverLara/Nordic.git
-git clone git@github.com:EliverLara/Otis.git
-ls
-cd Otis/
-ls
-cd ..
-ls
-cp -r Juno/ ~/.themes/
-cp -r Kripton/ ~/.themes/
-cp -r Nordic/ ~/.themes/
-cp -r Otis/ ~/.themes/
+upd
 exit
-cd git/
-ls
-cd archcraft/
-ls
-cd archcraft-
-cd archcraft-themes/
-ls
-git pull
 exit
-ots
-dots
+upall
+cleanup
+sudo pacman -Rns xfce4-notifyd xfce4-power-manager mousepad 
+yay lxpolkit
+ranger
+yay ranger
+ranger
+exit
+where lxpolkit
+systemctl status polkit
+sudo systemctl enable polkit
+sudo pacman -Rns lxpolkit
+yay lxsession
+exit
+exit
+yay spotify
+cleanup
+exit
+exit
+exit
+ls
+cd /home/
+ls
+cd jeff/
+ls
+dnf update
+sudo dnf update
+sudo dnf install bspwm
+sudo dnf install i3
+sudo dnf install gnome
+sudo dnf install gnome-desktop
+sudo dnf search bspwm
+sudo dnf search gnome
+sudo dnf search alacritty
+sudo dnf install gdm
+ls
+sudo usermod -d /home/jeff jeff
+sudo reboot
+ls
+rm -r liveuser/
 ls
 cd git/
 ls
@@ -141,61 +221,188 @@ cd fitzland/
 ls
 cd arch-dots/
 ls
-nano 040-themes.sh 
-exit
-exit
-exit
-cd git/
-cd archcraft/
-ls
-cd archcraft-themes/
-git pull
-ls
-exit
-exit
-sudo reboot
-ls
-cd .config
-ls
-cd bspwm/
-ls
-nano bspwmrc 
 cd ..
 ls
-cd sxhkd/
+cd bspwm-scripts/
 ls
-nano sxhkdrc 
+./100-display-manager-and-desktop.sh 
+nano 100-display-manager-and-desktop.sh 
+./100-display-manager-and-desktop.sh 
+ls
+./110-development-software.sh 
+ls
+./130-bluetooth.sh 
+ls
+./200-software-arch-linux.sh 
+ls
+./500-software-distro-specific.sh 
+ls
+yay lightdm-
+cp /etc/skel/.config/bspwm ~/.config/
+cp -r /etc/skel/.config/bspwm ~/.config/
 exit
-exit
+yay route
 yay net-tools
-exit
-cd images/wallpapers/system/
-ls
-mkdir -p /usr/share/backgrounds
-sudo mkdir -p /usr/share/backgrounds
-ls
-cp *.jpg /usr/share/backgrounds/
-sudo cp *.jpg /usr/share/backgrounds/
-sudo cp *.png /usr/share/backgrounds/
+yay jq
 exit
 yay alacritty
 exit
+yay neofetch
+exit
+yay google-chrome
+exit
+cd downloads/iso/
+ls
+sudo dd if=Fedora-Workstation-Live-x86_64-35-1.2.iso of=/dev/sdd bs=4M && sync
+yay gnome
+sudo pacman -S gnome
+cd 
+cd .config/
+ls
+mkdir -p ./fontconfig
+ls
+cd fontconfig/
+ls
+touch fonts.conf
+yay micro
+micro fonts.conf 
+exit
+sudo pacman -Rns firefox
+exit
+upall
+sudo pacman -Syyu
+exit
+yay tweak tool
+exit
+exit
+ls
+sudo dnf install thuanr
+sudo dnf install thunar
+sudo dnf install bspwm
+sudo dnf install rofi
+sudo dnf install sxhkd
+sudo dnf install dunst
+sudo dnf install libreoffice
+yay meld
+sudo dnf install meld
+sudo dnf install micro
+sudo dnf install jq
+sudo dnf install net-tools
+sudo dnf install i3
+exit
+sudo dnf install polybar
+exit
+sudo dnf update
+sudo dnf autoclean
+exit
+arandr
+sudo dnf install arandr
+arandr
+cd 
+cd .config/i3/
+ls
+micro config 
+exit
+ls
+sudo dnf install google-chrome
+exit
+sudo usermod -d /home/jeff jeff
+usermod
+usermod -d /home/jeff
+usermod -d /home/jeff jeff
+exit
+ls
+su -
+sudo usermod -d /home/jeff/ jeff
+exit
+ls
+exit
+ls
+sudo usermod -d /home/jeff/ jeff
+l
+exit
+cd downloads/iso/
+ls
+sudo dd if=archlinux-gui-i3-2022.03-x86_64.iso of=/dev/sdd bs=4M && sync
+exit
+killall bspwm
+cd dots
 cd git/fitzland/arch-dots/
+ls
+cd ..
+ls
+cd bspwm-scripts/
+ls
+nano 170-network-discovery.sh 
+./170-network-discovery.sh 
+cd git/fitzland/bspwm-scripts/
+ls
+./git-v1.sh 
+ls
+nano 200-software-arch-linux.sh 
+./200-software-arch-linux.sh 
+ls
+nano 500-software-distro-specific.sh 
+./500-software-distro-specific.sh 
+ls
+nano 170-network-discovery.sh 
+nano 110-development-software.sh 
+nano 100
+nano 100-display-manager-and-desktop.sh 
+./100-display-manager-and-desktop.sh 
+exit
+yay firefox developer
+yay xsetting
+yay visual studio code
+yay atom
+yay alacritty
+exit
+neofetch
+exit
+cd git/fitzland/arch-dots/
+ls
+./git-v1.sh 
+gst
+git status
+alias
 ls
 cd skel-home
 ls
-ls -la
-cd .config/
+ls -lah
+cp .bashrc* ~/
+exit
+alias
+exit
+cd git/fitzland/arch-dots/
 ls
-cp -r bspwm/ ~/.config/bspwm-fitzland
-exit
-upall
-exit
-htop
-exit
-yay google-chrome
-cd git
+cd ..
+cd bspwm-scripts/
 ls
+nano 100-display-manager-and-desktop.sh 
+./100-display-manager-and-desktop.sh 
+yay xrandr
+ls
+nano 100-display-manager-and-desktop.sh 
+./100-display-manager-and-desktop.sh 
+nano 100-display-manager-and-desktop.sh 
+./100-display-manager-and-desktop.sh 
+exit
+sudo pacman -Syyu
+yay upd7
+yay aic
+yay wd7
+exit
+cd git/fitzland/arch-dots/
+ls
+cd ../bspwm-scripts/
+ls
+cd ArchWay/
+ls
+nano Link\ to\ ArcoLinux\ Spices\ tool.desktop 
+cd ..
+ls
+cd ..
+cd ..
 cd dubois/
 ls
 cd arcolinux-spices/
@@ -207,294 +414,87 @@ ls
 cd arcolinux-spices/
 ls
 cd scripts/
+ls
+cd ..
+ls
+cd scripts/
+ls
+nano get-the-keys-and-repos.sh 
+cd ..
+cd ..
+cd ..
+cd ..
+ls
+git pull
+exit
+yay lightdm
+sudo pacman -Rns lightdm lightdm-slick-greeter 
+ls
+yay sddm
+cd /etc/sddm.conf.d/
+ls
+nano 10-endeavouros.conf 
+exit
+yay wmname
+cd git/fitzland/bspwm-scripts/
+ls
+nano 500-software-distro-specific.sh 
+./500-software-distro-specific.sh 
+exit
+cd git/fitzland/bspwm-scripts/
+ls
+nano 200-software-arch-linux.sh 
+./200-software-arch-linux.sh 
+ls
+./git-v1.sh 
+exit
+yay google-chrome
+echo $SHELL
+yay zsh
+zsh
+zsh
+alias
+nb
+zsh
+exit
+cd git/dubois/
+ls
+sudo rm -r arcolinux-spices/
+git clone f1tzl4nd@gmail.com
+git clone git@github.com:arcolinux/arcolinux-spices.git
+ls
+cd arcolinux-spices/
+ls
+cd usr/share/arcolinux-spices/scripts/
 ls
 ./get-the-keys-and-repos.sh 
 sudo pacman -Syy
 sudo pacman -Syyu
+zsh
+exit
 yay google-chrome
-yay microsoft edge
-yay keepassxc
-exit
-yay dropbox
-yay gnucash
-yay gimp inkscape
-yay gimp
-yay inkscape
-sudo pacman -S python-lxml python-numpy scour
-yay typora
-yay atom
-yay visual studio code
-yay mozillavpn
-exit
-sudo pacman -Rns leafpad
-sudo pacman -Rns pcmanfm
-sudo pacman -Rns openbox
-exit
-cd images/wallpapers/system/
+cd git/fitzland/bspwm-scripts/
 ls
-sudo cp cubic.jpg /usr/share/backgrounds/
-sudo cp groot.png /usr/share/backgrounds/
-exit
-exit
+cd cd ArchWay/
+ls
+cd ArchWay/
+ls
+nano Link\ to\ ArcoLinux\ Spices\ tool.desktop 
+cd
+sudo pacman pacman-key --recv-key FBA220DFC880C036 --keyserver keyserver.ubuntu.com
+sudo pacman-key --recv-key FBA220DFC880C036 --keyserver keyserver.ubuntu.com
+sudo pacman-key --lsign-key FBA220DFC880C036
+sudo pacman -U 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-keyring.pkg.tar.zst' 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-mirrorlist.pkg.tar.zst'
+sudo nano /etc/pacman.conf 
+sudo pacman -Syy
+yay google-chrome
+yay visual studio code
+yay microsoft-edge
+yay oh-my
+zsh
 sudo pacman -Rns xfce4-terminal 
 sudo pacman -Rns xfce4-terminal endeavouros-xfce4-terminal-colors 
 exit
-upall
-exit
-exit
-xfce4-terminal 
-exit
-sudo pacman -Rns xterm
-exit
-neofetch
-cd images/wallpapers/system/
-ls
-sudo cp blade-alt.jpg /usr/share/backgrounds/
-exit
-cd images
-cd wallpapers/system/
-ls
-sudo cp blade-alt.jpg /usr/share/backgrounds/blade.jpg 
-exit
-ls
-sudo cp blade-alt.jpg /usr/share/backgrounds/blade.jpg 
-sudo pacman -S expac
-yay upd7
-yay wd7
-yay aic
-upall
-cleanup
-rip
-yay libreoffice-still
-sudo pacman -S pstoedit
-wall
-wp
-eba
-merge
-exit
-wp
-ls
-sudo cp blade.png /usr/share/backgrounds/
-sudo cp blade-alt.jpg /usr/share/backgrounds/blade.jpg 
-sudo pacman -S expac
-yay upd7
-yay wd7
-yay aic
-upall
-cleanup
-rip
-yay libreoffice-still
-sudo pacman -S pstoedit
-wall
-wp
-eba
-merge
-wp
-sudo cp blade.png /usr/share/backgrounds/
-yay lyra
-dots
-cd archcraft/
-git clone git@github.com:archcraft-os/archcraft-cursors.git
-cd archcraft-cursors/
-cd archcraft-cursor-lyra/
-sudo pacman -U archcraft-cursor-lyra-1.0-1-any.pkg.tar.zst 
-cd archcraft-cursor-qogirr/
-makepkg -sri
-sudo pacman -U archcraft-cursor-qogirr-1.0-1-any.pkg.tar.zst 
-yay oh my zsh
-cd ..
-cd archcraft-cursor-sweet/
-makepkg -sir
-ls
-sudo pacman -U archcraft-cursor-sweet-1.0-1-any.pkg.tar.zst 
-exit
-sudo cp blade.png /usr/share/backgrounds/
-yay lyra
-dots
-cd archcraft/
-git clone git@github.com:archcraft-os/archcraft-cursors.git
-cd archcraft-cursors/
-cd archcraft-cursor-lyra/
-sudo pacman -U archcraft-cursor-lyra-1.0-1-any.pkg.tar.zst 
-cd archcraft-cursor-qogirr/
-sudo pacman -U archcraft-cursor-qogirr-1.0-1-any.pkg.tar.zst 
-yay oh my zsh
-cd archcraft-cursor-sweet/
-makepkg -sir
-sudo pacman -U archcraft-cursor-sweet-1.0-1-any.pkg.tar.zst 
-cd git/archcraft/
-git clone git@github.com:archcraft-os/archcraft-icons.git
-cd archcraft-icons/
-cd archcraft-icons-qogir/
-sudo pacman -U archcraft-icons-qogir-1.0-1-any.pkg.tar.zst 
-cd archcraft-icons-zafiro/
-sudo pacman -U archcraft-icons-zafiro-1.0-1-any.pkg.tar.zst 
-cd archcraft-icons-papirus/
-sudo pacman -U archcraft-icons-papirus-1.0-1-any.pkg.tar.zst 
-cd ..
-ls
-cd archcraft-icons-nordic/
-makepkg -sri
-sudo pacman -U archcraft-icons-nordic-1.0-1-any.pkg.tar.zst 
-exit
-cd /usr/share/backgrounds/
-ls
-sudo rm blade.jpg 
-exit
-yay pamac
-cleanup
-exit
-yay pamac
-exit
-yay lxsession
-exit
-root
-su -
-exit
-su -
-upall
 zsh
 exit
-nano .zshrc 
-zsh
-sudo chsh jeff -s /bin/zsh
-exit
-alias
-exit
-tosddm
-alias
-exit
-xd
-alias
-exit
-neofetch
-upall
-exit
-yay spotify
-dots
-cd git/
-ls
-cd fitzland/
-ll
-cd ..
-ls
-cd dubois/
-ll
-cd arcolinux-spices/
-ll
-cd /usr/
-ll
-cd 
-cd git/dubois/arcolinux-spices/
-ll
-cd usr/
-ll
-cd share/
-ll
-cd arcolinux-spices/
-ll
-cd scripts/
-ll
-./get-the-keys-and-repos.sh 
-sudo pacman -Syyu
-/
-exit
-ls
-cd /etc/skel/
-ll
-cd .config/
-ls
-cd ..
-ls
-ll
-cp -r .config ~/
-killall bspwm
-xkill
-yay lxsession
-exit
-cd /usr/bin/lxpolkit
-cd /usr/bin/
-ll
-exit
-exit
-exit
-neofetch
-nano .Xresources
-ll
-cd .Xresources.d/
-ll
-nano fonts 
-exit
-nano .Xresources
-exit
-yay dropbox
-exit
-nano .Xresources.d/fonts 
-merge
-exit
-exit
-yay visual studio code
-yay terminus
-exit
-exit
-yay google-chrome
-  yay microsoft edge
-merge
-exit
-yay keepassxc
-yay alacritty
-exit
-sudo pacman -Rns xterm
-sudo pacman -Rns xfce4-terminal
-sudo pacman -Rns xfce4-terminal endeavouros-xfce4-terminal-colors 
-exit
-neofetch
-yay inkscape
-yay gimp
-yay meld
-yay libreoffice-still
-sudo pacman -S pstoedit libmythes 
-yay zsh
-exit
-exit
-exit
-exit
-exit
-exit
-exit
-exit
-yay Otis
-cd git/
-ls
-cd endeavouros/
-ll
-cd ..
-ls
-cd fitzland/
-ll
-cd Otis/
-ll
-gst
-cd ../Sweet/
-ll
-yay sweet
-yay catfish
-exit
-mkdir ~/.config/environment.d
-echo "QT_QPA_PLATFORMTHEME=qt5ct" > ~/.config/environment.d/qt-theme.conf
-sudo pacman -S kvantum-qt5 qt5ct
-exit
-yay pamac
-yay zsh
-sudo pacman -S zsh-completions zsh-syntax-highlighting arcolinux-zsh-git oh-my-zsh-git 
-cd /etc/skel/
-ll
-cp .zshrc ~/
-nano .bashrc 
-exit
-alias
-eb
-eba
-exit
-tozsh
 exit

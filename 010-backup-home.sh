@@ -15,6 +15,9 @@ rm -r skel-home-delta
 mv ./skel-home-beta skel-home-delta
 mv ./skel-home skel-home-beta
 
+cp -r $HOME/.config/bspwm $HOME/.config/bspwm-bak
+cp -r $HOME/.config/i3 $HOME/.config/i3-bak
+
 mkdir ./skel-home
 cp -r $HOME/.config/alacritty/ ./skel-home/.config/
 cp -r $HOME/.config/autostart ./skel-home/.config/
