@@ -21,16 +21,6 @@ title_align center
 # Uncomment this to disable title bars
 for_window [class=".*"] border pixel 2
 
-# Gaps (Outer gaps are added to the inner gaps)
-gaps inner 8
-gaps outer 0
-
-# Only enable gaps on a workspace when there is at least one container
-smart_gaps on
-
-# Activate smart borders (always)
-smart_borders on
-
 ##-- Colors ------------------------------
 
 # Define colors variables:
@@ -165,11 +155,23 @@ bindsym $mod+Down focus down
 bindsym $mod+Up focus up
 bindsym $mod+Right focus right
 
+# change focus
+bindsym $mod+j focus left
+bindsym $mod+l focus down
+bindsym $mod+h focus up
+bindsym $mod+k focus right
+
 # move focused window
 bindsym $mod+Shift+Left move left
 bindsym $mod+Shift+Down move down
 bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
+
+# move focused window
+bindsym $mod+Shift+j move left
+bindsym $mod+Shift+l move down
+bindsym $mod+Shift+h move up
+bindsym $mod+Shift+k move right
 
 # workspace back and forth (with/without active container)
 workspace_auto_back_and_forth yes
@@ -177,7 +179,7 @@ bindsym $mod+b workspace back_and_forth
 bindsym $mod+Shift+b move container to workspace back_and_forth; workspace back_and_forth
 
 # split orientation
-bindsym $mod+h split h;exec notify-send 'tile horizontally'
+bindsym $mod+r split h;exec notify-send 'tile horizontally'
 bindsym $mod+v split v;exec notify-send 'tile vertically'
 bindsym $mod+y split toggle
 
@@ -202,12 +204,12 @@ bindsym $mod+a focus parent
 bindsym $mod+d focus child
 
 #navigate workspaces next / previous
-bindsym $mod+$alt+Right workspace next
-bindsym $mod+$alt+Left workspace prev
+bindsym $mod+o workspace next
+bindsym $mod+i workspace prev
 
 #navigate workspaces next / previous
-bindsym $mod+$alt+Next move container to workspace next; workspace next
-bindsym $mod+$alt+Prior move container to workspace prev; workspace prev
+bindsym $mod+Shift+o move container to workspace next; workspace next
+bindsym $mod+Shift+i move container to workspace prev; workspace prev
 
 # Make the currently focused window a scratchpad
 bindsym $mod+Shift+minus move scratchpad
@@ -300,45 +302,6 @@ mode "Move" {
         bindsym $mod+m mode "default"
 }
 bindsym $mod+Shift+m mode "Move"
-
-set $mode_gaps Gaps: (o)uter, (i)nner
-set $mode_gaps_outer Outer Gaps: +|-|0 (local), Shift + +|-|0 (global)
-set $mode_gaps_inner Inner Gaps: +|-|0 (local), Shift + +|-|0 (global)
-
-mode "$mode_gaps_outer" {
-        bindsym plus  gaps outer current plus 5
-        bindsym minus gaps outer current minus 5
-        bindsym 0     gaps outer current set 0
-
-        bindsym Shift+plus  gaps outer all plus 5
-        bindsym Shift+minus gaps outer all minus 5
-        bindsym Shift+0     gaps outer all set 0
-
-        bindsym Return mode "$mode_gaps"
-        bindsym Escape mode "default"
-}
-
-mode "$mode_gaps_inner" {
-        bindsym plus  gaps inner current plus 5
-        bindsym minus gaps inner current minus 5
-        bindsym 0     gaps inner current set 0
-
-        bindsym Shift+plus  gaps inner all plus 5
-        bindsym Shift+minus gaps inner all minus 5
-        bindsym Shift+0     gaps inner all set 0
-
-        bindsym Return mode "$mode_gaps"
-        bindsym Escape mode "default"
-}
-
-mode "$mode_gaps" {
-        bindsym o      mode "$mode_gaps_outer"
-        bindsym i      mode "$mode_gaps_inner"
-        bindsym Return mode "$mode_gaps"
-        bindsym Escape mode "default"
-}
-
-bindsym $mod+Shift+g mode "$mode_gaps"
 
 ###############################################################################
 # User Settings with i3
