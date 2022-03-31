@@ -5,22 +5,22 @@
 font:
   # Normal (roman) font face
   normal:
-    family: "Cascadia Code"
+    family: "Iosevka"
     #style: Regular
 
   # Bold font face
   bold:
-    family: "Cascadia Code"
+    family: "Iosevka"
     #style: Bold
 
   # Italic font face
   italic:
-    family: "Cascadia Code"
+    family: "Iosevka"
     #style: Italic
 
   # Bold italic font face
   bold_italic:
-    family: "Cascadia Code"
+    family: "Iosevka"
     #style: Bold Italic
 
   # Point size

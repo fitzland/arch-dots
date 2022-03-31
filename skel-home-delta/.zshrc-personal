@@ -9,13 +9,28 @@
 # cd $brainstormr
 #
 
+#hardware info --short
+alias hw="hwinfo --short"
+
 ## Colorize the grep command output for ease of use (good for log files)##
 alias grep='grep --color=auto'
-alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
 
 #readable output
 alias df='df -h'
+
+#free
+alias free="free -mt"
+
+#continue download
+alias wget="wget -c"
+
+#userlist
+alias userlist="cut -d: -f1 /etc/passwd"
+
+# merge new settings
+alias merge="xrdb -merge ~/.Xresources"
 
 # Aliases for software managment
 # pacman or pm
@@ -26,12 +41,13 @@ alias update='sudo pacman -Syyu'
 alias unlock="sudo rm /var/lib/pacman/db.lck"
 alias rmpacmanlock="sudo rm /var/lib/pacman/db.lck"
 
-# merge new settings
-alias merge="xrdb -merge ~/.Xresources"
-
 # yay as aur helper - updates everything
 alias pksyua="yay -Syu --noconfirm"
 alias upall="yay -Syu --noconfirm"
+
+#ps
+alias psa="ps auxf"
+alias psgrep="ps aux | grep -v grep | grep -i -e VSZ -e"
 
 # grub update
 alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
@@ -45,13 +61,21 @@ alias mci='make && sudo make clean install'
 alias cleangit='make clean && rm -f config.h && git reset --hard origin/main'
 alias trimgit='make clean && rm -f config.h && git push --set-upstream origin'
 
-#switch between bash and zsh
+#copy shell configs
+alias cb='cp /etc/skel/.bashrc ~/.bashrc && echo "Copied."'
+alias cz='cp /etc/skel/.zshrc ~/.zshrc && exec zsh'
+alias cf='cp /etc/skel/.config/fish/config.fish ~/.config/fish/config.fish && echo "Copied."'
+
+#switch between bash and zsh and fish
 alias tobash="sudo chsh $USER -s /bin/bash && echo 'Now log out.'"
 alias tozsh="sudo chsh $USER -s /bin/zsh && echo 'Now log out.'"
+alias tofish="sudo chsh $USER -s /bin/fish && echo 'Now log out.'"
 
 #switch between lightdm and sddm
 alias tolightdm="sudo pacman -S lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings --noconfirm --needed ; sudo systemctl enable lightdm.service -f ; echo 'Lightm is active - reboot now'"
 alias tosddm="sudo pacman -S sddm --noconfirm --needed ; sudo systemctl enable sddm.service -f ; echo 'Sddm is active - reboot now'"
+alias togdm="sudo pacman -S gdm --noconfirm --needed ; sudo systemctl enable gdm.service -f ; echo 'Gdm is active - reboot now'"
+alias tolxdm="sudo pacman -S lxdm --noconfirm --needed ; sudo systemctl enable lxdm.service -f ; echo 'Lxdm is active - reboot now'"
 
 # go to git folder
 alias dots='cd $HOME/git/fitzland/arch-dots'
@@ -64,6 +88,8 @@ alias flx='cd $HOME/.config/fitzland/xmonad'
 # Recent Installed Packages
 alias rip="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -200 | nl"
 alias riplong="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -3000 | nl"
+alias big="expac -H M '%m\t%n' | sort -h | nl"              # Sort installed packages according to size in MB (expac must be installed)
+alias gitpkg='pacman -Q | grep -i "\-git" | wc -l'			# List amount of -git packages
 
 # Cleanup orphaned packages
 alias cleanup='sudo pacman -Rns $(pacman -Qtdq)'
@@ -81,7 +107,9 @@ alias nnsswitch="sudo $EDITOR /etc/nsswitch.conf"
 alias nsamba="sudo $EDITOR /etc/samba/smb.conf"
 alias ngnupgconf="sudo nano /etc/pacman.d/gnupg/gpg.conf"
 alias nb="$EDITOR ~/.bashrc"
+alias nbp="$EDITOR ~/.bashrc-personal"
 alias nz="$EDITOR ~/.zshrc"
+alias nzp="$EDITOR ~/.zshrc-personal"
 
 alias xd='ls /usr/share/xsessions'
 
@@ -93,10 +121,6 @@ alias mirror="sudo reflector -f 30 -l 30 --number 10 --verbose --save /etc/pacma
 alias mirrord="sudo reflector --latest 30 --number 10 --sort delay --save /etc/pacman.d/mirrorlist"
 alias mirrors="sudo reflector --latest 30 --number 10 --sort score --save /etc/pacman.d/mirrorlist"
 alias mirrora="sudo reflector --latest 30 --number 10 --sort age --save /etc/pacman.d/mirrorlist"
-#our experimental - best option for the moment
-alias mirrorx="sudo reflector --age 6 --latest 20  --fastest 20 --threads 5 --sort rate --protocol https --save /etc/pacman.d/mirrorlist"
-alias mirrorxx="sudo reflector --age 6 --latest 20  --fastest 20 --threads 20 --sort rate --protocol https --save /etc/pacman.d/mirrorlist"
-alias ram='rate-mirrors --allow-root arch | sudo tee /etc/pacman.d/mirrorlist'
 
 #youtube-dl
 alias yta-aac="youtube-dl --extract-audio --audio-format aac "
@@ -107,5 +131,14 @@ alias yta-mp3="youtube-dl --extract-audio --audio-format mp3 "
 alias yta-opus="youtube-dl --extract-audio --audio-format opus "
 alias yta-vorbis="youtube-dl --extract-audio --audio-format vorbis "
 alias yta-wav="youtube-dl --extract-audio --audio-format wav "
-
 alias ytv-best="youtube-dl -f bestvideo+bestaudio "
+
+alias skelbin='meld $HOME/.bin /etc/skel/.bin'
+alias skelxr='meld $HOME/.Xresources /etc/skel/.Xresources'
+alias skelocal='meld $HOME/.local /etc/skel/.local'
+alias skelcfg='meld $HOME/.config /etc/skel/.config'
+#alias skelbspwm='meld $HOME/.config/bspwm /etc/skel/.config/bspwm'
+alias skeli3='meld $HOME/.config/i3 /etc/skel/.config/i3'
+
+alias chface='cp $HOME/.face-bak .face'
+alias mcserver='ssh jeff@192.168.1.127'
