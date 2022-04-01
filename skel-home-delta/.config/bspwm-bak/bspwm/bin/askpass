@@ -3,6 +3,9 @@
 ## Copyright (C) 2020-2021 Aditya Shakya <adi1090x@gmail.com>
 ## Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
 
-DIR="$HOME/.config/i3"
-
-rofi -no-lazy-grab -show window -theme $DIR/rofi/themes/window-square.rasi
+rofi -dmenu\
+     -password\
+     -i\
+     -no-fixed-num-lines\
+     -p "User Password: "\
+     -theme ~/.config/bspwm/rofi/themes/askpass.rasi
