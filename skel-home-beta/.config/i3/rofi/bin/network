@@ -5,7 +5,7 @@
 
 DIR="$HOME/.config/i3"
 
-rofi_command="rofi -theme $DIR/rofi/themes/network.rasi"
+rofi_command="rofi -theme $DIR/rofi/themes/network-square.rasi"
 
 ## Get info
 IFACE="$(nmcli | grep -i interface | awk '/interface/ {print $2}')"

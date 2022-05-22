@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-## Copyright (C) 2020-2021 Aditya Shakya <adi1090x@gmail.com>
+## Copyright (C) 2020-2022 Aditya Shakya <adi1090x@gmail.com>
 ## Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
 ## Autostart Programs
 
@@ -18,14 +18,14 @@ done
 # Lauch xsettingsd daemon
 xsettingsd &
 
-# Polkit agent
-/usr/bin/lxpolkit &
+# Set Compose key
+setxkbmap -option compose:rctrl &
 
 # Fix cursor
 xsetroot -cursor_name left_ptr
 
-# Set Compose key
-setxkbmap -option compose:rctrl &
+# Polkit agent
+/usr/bin/lxpolkit &
 
 # Launch keybindings daemon
 sxhkd -c $HOME/.config/i3/sxhkd/sxhkdrc &
@@ -35,6 +35,9 @@ blueberry-tray &
 
 # Pamac-stalonetray
 pamac-tray &
+
+# Start dropbox
+exec dropbox &
 
 # Restore wallpaper
 #hsetroot -cover ~/.config/i3/wallpaper.png
@@ -47,7 +50,7 @@ bash $HOME/.fehbg
 ~/.config/i3/bin/i3dunst.sh
 
 # Lauch polybar
-#~/.config/i3/bin/i3bar.sh
+~/.config/i3/bin/i3bar.sh
 
 # Lauch compositor
 ~/.config/i3/bin/i3comp.sh
