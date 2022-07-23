@@ -4,17 +4,15 @@
 ## Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
 
 DIR="$HOME/.config/i3"
-
-rofi_command="rofi -theme $DIR/rofi/themes/powermenu-square.rasi"
-
+rofi_command="rofi -theme $DIR/rofi/themes/powermenu.rasi"
 uptime=$(uptime -p | sed -e 's/up //g')
 
 # Options
 shutdown=""
 reboot=""
+logout=""
 lock=""
 suspend=""
-logout=""
 
 # Variable passed to rofi
 options="$shutdown\n$reboot\n$logout\n$lock\n$suspend"

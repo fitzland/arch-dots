@@ -197,6 +197,10 @@ super + {Tab,grave}
 super + shift + {comma,period}
 	bspc node -m {prev,next} --follow
 
+# focus on other monitor
+super + {comma,period}
+	bspc node -f {prev,next} --follow
+
 # focus the next/previous desktop all monitors
 super + {i,o}
 	bspc desktop -f {prev,next}.occupied

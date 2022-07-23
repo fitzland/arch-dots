@@ -5,7 +5,7 @@
 
 DIR="$HOME/.config/i3"
 
-rofi_command="rofi -theme $DIR/rofi/themes/powermenu.rasi"
+rofi_command="rofi -theme $DIR/rofi/themes/powermenu-square.rasi"
 
 uptime=$(uptime -p | sed -e 's/up //g')
 

@@ -124,9 +124,9 @@ dunst \
 xsettingsd &
 
 # polkit agent
-if [[ ! `pidof lxpolkit` ]]; then
-	/usr/bin/lxpolkit &
-fi
+#if [[ ! `pidof lxpolkit` ]]; then
+#	/usr/bin/lxpolkit &
+#fi
 
 # Launch keybindings daemon
 sxhkd -c $HOME/.config/bspwm/sxhkd/sxhkdrc &

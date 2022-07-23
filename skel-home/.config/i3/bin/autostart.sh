@@ -8,15 +8,12 @@
 sh ~/.screenlayout/monitor.sh &
 
 # Kill already running process
-_ps=(xsettingsd picom dunst lxpolkit)
+_ps=(picom dunst ksuperkey mpd xfce-polkit xfce4-power-manager)
 for _prs in "${_ps[@]}"; do
 	if [[ `pidof ${_prs}` ]]; then
 		killall -9 ${_prs}
 	fi
 done
-
-# Lauch xsettingsd daemon
-xsettingsd &
 
 # Set Compose key
 setxkbmap -option compose:rctrl &
@@ -25,26 +22,23 @@ setxkbmap -option compose:rctrl &
 xsetroot -cursor_name left_ptr
 
 # Polkit agent
-/usr/bin/lxpolkit &
+/usr/lib/xfce-polkit/xfce-polkit &
 
 # Launch keybindings daemon
-sxhkd -c $HOME/.config/i3/sxhkd/sxhkdrc &
+sxhkd -c $HOME/.config/i3/sxhkdrc &
 
-# start blueberry app for managing bluetooth devices from tray:
-blueberry-tray &
+# Enable power management
+xfce4-power-manager &
 
-# Pamac-stalonetray
-pamac-tray &
+# Enable Super Keys For Menu
+#ksuperkey -e 'Super_L=Alt_L|F1' &
+#ksuperkey -e 'Super_R=Alt_L|F1' &
 
 # Start dropbox
 exec dropbox &
 
 # Restore wallpaper
-#hsetroot -cover ~/.config/i3/wallpaper.png
-#bash $HOME/.config/i3/wallpaper.png
-bash $HOME/.fehbg
-#nitrogen --restore
-
+hsetroot -cover ~/.config/i3/wallpapers/default.png
 
 # Lauch notification daemon
 ~/.config/i3/bin/i3dunst.sh
@@ -56,4 +50,4 @@ bash $HOME/.fehbg
 ~/.config/i3/bin/i3comp.sh
 
 # Start mpd
-#exec mpd &
+# exec mpd &

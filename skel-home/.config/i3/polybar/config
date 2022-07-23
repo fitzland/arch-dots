@@ -19,10 +19,11 @@ margin-top = 0
 ;; File Inclusion
 ; include an external file, like module file, etc.
 
+include-file = ~/.config/i3/polybar/system
+
 include-file = ~/.config/i3/polybar/colors
 include-file = ~/.config/i3/polybar/modules
 include-file = ~/.config/i3/polybar/decor
-include-file = ~/.config/i3/polybar/system
 
 ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 
@@ -138,7 +139,12 @@ font-4 = "archcraft:size=14;4"
 # Default
 modules-left = menu dot LD i3 RD dot LD mpd RD sep song
 modules-center = 
-modules-right = volume dot ethernet dot LD time RD dot sysmenu
+modules-right = volume dot ethernet dot LD clock RD dot sysmenu
+
+# Alternate
+;modules-left = openbox 2LD cpu 3LD memory 4LD filesystem 5LD
+;modules-center = mpd
+;modules-right = 2RD volume 3RD brightness 4RD battery 5RD ethernet 6RD date sep
 
 ; The separator will be inserted between the output of each module
 separator =
@@ -169,7 +175,7 @@ locale =
 ;   center
 ;   right
 ;   none
-tray-position = right
+tray-position = none
 
 ; If true, the bar will not shift its
 ; contents when the tray changes
@@ -239,6 +245,12 @@ cursor-click =
 cursor-scroll = 
 
 ;; WM Workspace Specific
+
+; bspwm
+;;scroll-up = bspwm-desknext
+;;scroll-down = bspwm-deskprev
+;;scroll-up = bspc desktop -f prev.local
+;;scroll-down = bspc desktop -f next.local
 
 ;i3
 ;;scroll-up = i3wm-wsnext
@@ -348,6 +360,7 @@ font-0 = "JetBrains Mono:bold:size=10;3"
 font-1 = "Iosevka Nerd Font:size=12;3"
 font-2 = "Iosevka Nerd Font:size=15;4"
 font-3 = "Iosevka Nerd Font:bold:size=12;4"
+font-4 = "archcraft:size=14;4"
 
 ; Modules are added to one of the available blocks
 ;   modules-left = cpu ram
@@ -355,9 +368,14 @@ font-3 = "Iosevka Nerd Font:bold:size=12;4"
 ;   modules-right = ipc clock
 
 # Default
-modules-left = dot i3 dot LD mpd RD sep song
-modules-center = cpu dot memory dot temperature
-modules-right = dot wired-network dot LD date RD dot 
+modules-left = menu dot LD i3 RD dot LD mpd RD sep song
+modules-center = 
+modules-right = cpu dot memory dot LD date RD dot sysmenu
+
+# Alternate
+;modules-left = openbox 2LD cpu 3LD memory 4LD filesystem 5LD
+;modules-center = mpd
+;modules-right = 2RD volume 3RD brightness 4RD battery 5RD ethernet 6RD date sep
 
 ; The separator will be inserted between the output of each module
 separator =

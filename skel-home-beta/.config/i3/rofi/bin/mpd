@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 
-## Copyright (C) 2020-2021 Aditya Shakya <adi1090x@gmail.com>
+## Copyright (C) 2020-2022 Aditya Shakya <adi1090x@gmail.com>
 ## Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
 
 DIR="$HOME/.config/i3"
 
-rofi_command="rofi -theme $DIR/rofi/themes/mpd.rasi"
+rofi_command="rofi -theme $DIR/rofi/themes/mpd-square.rasi"
 
 button_music=''
 button_play=''

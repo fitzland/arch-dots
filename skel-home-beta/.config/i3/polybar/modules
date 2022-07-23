@@ -1,4 +1,4 @@
-## Copyright (C) 2020-2021 Aditya Shakya <adi1090x@gmail.com>
+## Copyright (C) 2020-2022 Aditya Shakya <adi1090x@gmail.com>
 ## Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
 
 ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
@@ -16,7 +16,7 @@ pin-workspaces = true
 
 ; This will split the workspace name on ':'
 ; Default: false
-strip-wsnumbers = true
+strip-wsnumbers = false
 
 ; Sort the workspaces by index instead of the default
 ; sorting that groups the workspaces by output
@@ -49,15 +49,15 @@ fuzzy-match = true
 ; ws-icon-[0-9]+ = label;icon
 ; NOTE: The label needs to match the name of the i3 workspace
 ws-icon-0 = 1;
-ws-icon-1 = 2;
-ws-icon-2 = 3;
-ws-icon-3 = 4;
-ws-icon-4 = 5;
-ws-icon-5 = 6;漣
-ws-icon-6 = 7;
-ws-icon-7 = 8;
-ws-icon-8 = 9;
-ws-icon-9 = 10;ﳴ
+ws-icon-1 = 2;
+ws-icon-2 = 3;
+ws-icon-3 = 4;
+ws-icon-4 = 5;漣
+ws-icon-5 = 6;
+ws-icon-6 = 7;
+ws-icon-7 = 8;
+ws-icon-8 = 9;
+ws-icon-9 = 0;露
 ws-icon-default = 
 ; NOTE: You cannot skip icons, e.g. to get a ws-icon-6
 ; you must also define a ws-icon-5.
@@ -82,9 +82,9 @@ label-mode-foreground = ${color.BGL}
 ;   %index%
 ;   %output%
 ; Default: %icon%  %name%
-label-focused = %icon%
+label-focused = %index% %icon%
 label-focused-foreground = ${color.BGL}
-label-focused-background = ${color.BLUE}
+label-focused-background = ${color.GREEN}
 
 ; Available tokens:
 ;   %name%
@@ -92,7 +92,7 @@ label-focused-background = ${color.BLUE}
 ;   %index%
 ;   %output%
 ; Default: %icon%  %name%
-label-unfocused = %icon%
+label-unfocused = %index% %icon%
 label-unfocused-foreground = ${color.FG}
 label-unfocused-background = ${color.BGL}
 
@@ -102,17 +102,17 @@ label-unfocused-background = ${color.BGL}
 ;   %index%
 ;   %output%
 ; Default: %icon%  %name%
-label-visible = %icon%
+label-visible = %index% %icon%
 label-visible-foreground = ${color.BGL}
-label-visible-background = ${color.GREEN}
+label-visible-background = ${color.BLUE}
 
 ; Available tokens:
 ;   %name%
 ;   %icon%
 ;   %index%
 ;   %output%
-; Default: %icon%  %name%
-label-urgent = %icon%
+; Default: %index% %icon%
+label-urgent = %index% %icon%
 label-urgent-foreground = ${color.BGL}
 label-urgent-background = ${color.RED}
 
@@ -188,7 +188,7 @@ time-alt = %I:%M %p
 ;   <label> (default)
 
 format = <label>
-format-prefix = " "
+format-prefix = " "
 format-prefix-font = 2
 format-prefix-foreground = ${color.CYAN}
 format-background = ${color.BGL}
@@ -467,6 +467,34 @@ label-song-ellipsis = true
 
 ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 
+; If you use both a wired and a wireless network, Add both modules in config.ini
+[module/ethernet]
+type = internal/network
+interface = ${system.network_interface}
+
+interval = 1.0
+accumulate-stats = true
+unknown-as-up = true
+
+format-connected = <label-connected>
+format-connected-prefix = " "
+format-connected-prefix-foreground = ${color.PURPLE}
+format-connected-prefix-font = 2
+format-connected-background = ${color.BG}
+format-connected-padding = 1
+
+format-disconnected = <label-disconnected>
+format-disconnected-prefix = "轢 "
+format-disconnected-prefix-font = 2
+format-disconnected-foreground = ${color.FGA}
+format-disconnected-background = ${color.BG}
+format-disconnected-padding = 1
+
+label-connected = "%{A1:~/.config/i3/rofi/bin/network_menu &:}%downspeed%, %upspeed%%{A}"
+label-disconnected = "%{A1:~/.config/i3/rofi/bin/network_menu &:}Offline%{A}"
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
 ; If you use both a wired and a wireless network, just add 2 module definitions. For example
 [module/wired-network]
 type = internal/network
@@ -722,8 +750,10 @@ ramp-foreground = ${color.YELLOW}
 [module/menu]
 type = custom/text
 
-content = " "
-content-font = 3
+content = " "
+content-font = 5
+;content = " "
+;content-font = 3
 content-foreground = ${color.GREEN}
 content-padding = 0
 

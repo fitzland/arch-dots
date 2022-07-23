@@ -10,11 +10,11 @@ configuration {
     window-format: 					"[{w}] ··· {c} ···   {t}";
     click-to-exit: 					true;
     combi-hide-mode-prefix: 		false;
-    display-window: 				"";
+    display-window: 				"win";
     display-windowcd: 				"";
-    display-run: 					"";
-    display-ssh: 					"";
-    display-drun: 					"";
+    display-run: 					"run";
+    display-ssh: 					"ssh";
+    display-drun: 					"drun";
     display-combi: 					"";
 }
 
