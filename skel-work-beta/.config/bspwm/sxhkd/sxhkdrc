@@ -64,21 +64,21 @@ super + {_,shift} + backslash
 
 #dmenu
 super + p
-	dmenu_run -b -m 1 -p dmenu: -nb '#282a36' -nf '#f8f8f2' -sb '#6272a4' -sf '#f8f8f2'
-
-# Rofi Network Menu
-super + n
-	nmd
+	dmenu_run -b -m 1 -p dmenu:
 
 # Rofi Themes Menu
 ctrl + alt + t
 	sh ~/.config/bspwm/rofi/bin/themes
 
 # Rofi Menus/Applets
-super + {m,x,r,s,i}
+super + {m,x,r,s,n}
 	sh ~/.config/bspwm/rofi/bin/{mpd,powermenu,asroot,screenshot,network}
 
 ##---------- Applications ----------##
+
+# Scratchpad
+super + u
+    sh ~/.config/bspwm/bin/scratchpad.sh dropdown
 
 # Terminal and File Manager
 super + {_,shift} + Return
@@ -86,7 +86,7 @@ super + {_,shift} + Return
 
 # Launch Apps
 super + shift + {f,w,e}
-	{thunar,firefox,xed}
+	{thunar,firefox-developer-editon,xed}
 
 # Terminal Apps
 ctrl + alt + {r,h}
@@ -171,12 +171,12 @@ super + shift + space
     bspc node -t "~"{pseudo_tiled,tiled}
 
 # Set the node flags
-super + ctrl + {m,x,y,z}
+super + ctrl + {m,k,y,z}
 	bspc node -g {marked,locked,sticky,private}
 
 # focus or send the node in the given direction
 super + {_,shift + }{Left,Down,Up,Right}
-	bspc node -{f,s} {west,south,north,east}
+	bspc node -{f,s} {west,south,north,east} --follow
 
 # Change focus to next window, including floating window
 alt + {_,shift + }Tab
@@ -210,9 +210,9 @@ super + shift + {Prior,Next}
 super + alt + {Prior,Next}
 	bspc node -d {prev,next}.local --follow
 
-# focus / send node to another workspace
-super + {_,shift + }{1-8}
-	bspc {desktop -f,node -d} '^{1-8}'
+# focus or send to the given desktop
+super + {_,shift + }{1-9,0}
+	bspc {desktop -f,node -d} '^{1-9,10}'
 
 # Expanding windows
 #super + control + {Left,Right,Up,Down}

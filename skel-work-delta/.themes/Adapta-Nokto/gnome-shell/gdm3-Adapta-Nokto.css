@@ -1307,17 +1307,17 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active { backg
 
 .main-box StScrollView.apps-menu StIcon { icon-size: 16px; }
 
-.gnomenu-user-group-box, .gnomenu-view-mode-box { border-color: #212B30; background-color: #2f3d44; }
+.gnomenu-view-mode-box, .gnomenu-user-group-box { border-color: #212B30; background-color: #2f3d44; }
 
-.gnomenu-user-group-button:first-child, .gnomenu-user-group-button:last-child, .gnomenu-view-mode-button:first-child, .gnomenu-view-mode-button:last-child { padding: 7px 0.8em 8px; border-color: #212B30; background-color: #2f3d44 !important; color: rgba(207, 216, 220, 0.87); box-shadow: 0 0 transparent; font-weight: 500; }
+.gnomenu-view-mode-button:first-child, .gnomenu-view-mode-button:last-child, .gnomenu-user-group-button:first-child, .gnomenu-user-group-button:last-child { padding: 7px 0.8em 8px; border-color: #212B30; background-color: #2f3d44 !important; color: rgba(207, 216, 220, 0.87); box-shadow: 0 0 transparent; font-weight: 500; }
 
-.gnomenu-user-group-button:hover:first-child, .gnomenu-user-group-button:hover:last-child, .gnomenu-view-mode-button:hover:first-child, .gnomenu-view-mode-button:hover:last-child, .gnomenu-user-group-button:focus:first-child, .gnomenu-user-group-button:focus:last-child, .gnomenu-view-mode-button:focus:first-child, .gnomenu-view-mode-button:focus:last-child { background-color: #425056 !important; color: #CFD8DC; }
+.gnomenu-view-mode-button:hover:first-child, .gnomenu-view-mode-button:hover:last-child, .gnomenu-user-group-button:hover:first-child, .gnomenu-user-group-button:hover:last-child, .gnomenu-view-mode-button:focus:first-child, .gnomenu-view-mode-button:focus:last-child, .gnomenu-user-group-button:focus:first-child, .gnomenu-user-group-button:focus:last-child { background-color: #425056 !important; color: #CFD8DC; }
 
-.gnomenu-user-group-button:active:first-child, .gnomenu-user-group-button:active:last-child, .gnomenu-view-mode-button:active:first-child, .gnomenu-view-mode-button:active:last-child { background-color: #57646a !important; color: #CFD8DC; }
+.gnomenu-view-mode-button:active:first-child, .gnomenu-view-mode-button:active:last-child, .gnomenu-user-group-button:active:first-child, .gnomenu-user-group-button:active:last-child { background-color: #57646a !important; color: #CFD8DC; }
 
-.gnomenu-user-group-button:checked:first-child, .gnomenu-user-group-button:checked:last-child, .gnomenu-view-mode-button:checked:first-child, .gnomenu-view-mode-button:checked:last-child, .gnomenu-user-group-button:checked:hover:first-child, .gnomenu-user-group-button:checked:hover:last-child, .gnomenu-view-mode-button:checked:hover:first-child, .gnomenu-view-mode-button:checked:hover:last-child { background-color: #00BCD4 !important; color: #FFFFFF !important; }
+.gnomenu-view-mode-button:checked:first-child, .gnomenu-view-mode-button:checked:last-child, .gnomenu-user-group-button:checked:first-child, .gnomenu-user-group-button:checked:last-child { background-color: #00BCD4 !important; color: #FFFFFF !important; }
 
-.gnomenu-user-group-button:insensitive:first-child, .gnomenu-user-group-button:insensitive:last-child, .gnomenu-view-mode-button:insensitive:first-child, .gnomenu-view-mode-button:insensitive:last-child { background-color: #2f3d44; color: rgba(207, 216, 220, 0.28); }
+.gnomenu-view-mode-button:insensitive:first-child, .gnomenu-view-mode-button:insensitive:last-child, .gnomenu-user-group-button:insensitive:first-child, .gnomenu-user-group-button:insensitive:last-child { background-color: #2f3d44; color: rgba(207, 216, 220, 0.28); }
 
 #gnomenuMenuMainbox, #gnomenuMenuMainbox > * { transition-duration: 0s; }
 
