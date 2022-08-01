@@ -1,7 +1,8 @@
-/** Basic config file **/
-
 configuration {
   show-icons:         true;
-  icon-theme:         "candy-icons";
+  icon-theme:         "Numix-Apps";
+  terminal:           "alacritty";
+  cycle:              false;
+  hide-scrollbar:     true;
+  disable-history:    false;
 }
-@theme "/usr/share/rofi/themes/android_notification.rasi"

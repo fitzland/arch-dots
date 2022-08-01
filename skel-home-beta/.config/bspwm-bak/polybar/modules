@@ -99,14 +99,13 @@ label-monitor = %name%
 ; If any values for label-dimmed-N are defined, the workspace/mode
 ; colors will get overridden with those values if the monitor is out of focus
 ; To only override workspaces in a specific state, use:
-label-dimmed-focused-foreground = ${color.BLUE}
-label-dimmed-focused-underline = ${color.BLUE}
+;   label-dimmed-focused
 ;   label-dimmed-occupied
 ;   label-dimmed-urgent
 ;   label-dimmed-empty
-;label-dimmed-foreground = ${color.FOREGROUND}
-;label-dimmed-underline = ${color.YELLOW}
-;label-dimmed-focused-background = ${color.BACKGROUND}
+label-dimmed-focused-foreground = ${color.BLUE}
+label-dimmed-focused-underline = ${color.BLUE}
+label-dimmed-focused-background = ${color.BACKGROUND}
 
 label-focused = %name%
 label-focused-foreground = ${color.GREEN}
@@ -141,8 +140,9 @@ label-separator-foreground = ${color.ALTBLACK}
 type = internal/bspwm
 
 format = <label-mode>
-format-background = ${color.YELLOW}
-format-foreground = ${color.BACKGROUND}
+format-background = ${color.BACKGROUND}
+format-foreground = ${color.YELLOW}
+format-underline = ${color.YELLOW}
 format-padding = 1
 
 label-monocle = "Monocle"
@@ -158,6 +158,24 @@ label-private = " | Private"
 
 ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 
+[module/clock]
+type = internal/date
+
+interval = 1.0
+
+time = %I:%M %p
+time-alt = %A, %d %B %Y
+
+format = <label>
+format-prefix = " "
+format-prefix-font = 3
+format-prefix-foreground = ${color.RED}
+
+label = %time%
+label-font = 4
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
 [module/date]
 type = internal/date
 
@@ -167,28 +185,8 @@ time = %a, %d %b %Y
 time-alt = %I:%M %p
 
 format = <label>
-format-prefix = ""
+format-prefix = " "
 format-prefix-font = 3
-format-prefix-padding = 1
-format-prefix-foreground = ${color.MAGENTA}
-
-label = %time%
-label-font = 4
-
-;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
-
-[module/time]
-type = internal/date
-
-interval = 1.0
-
-time = %I:%M %p
-time-alt = %a, %d %b %Y
-
-format = <label>
-format-prefix = ""
-format-prefix-font = 3
-format-prefix-padding = 1
 format-prefix-foreground = ${color.MAGENTA}
 
 label = %time%
@@ -241,22 +239,20 @@ icon-next-foreground = ${color.CYAN}
 ; If you use both a wired and a wireless network, add both modules in config.
 [module/ethernet]
 type = internal/network
-interface = ${system.network_interface}
+interface = ${system.sys_network_interface}
 
 interval = 1.0
 accumulate-stats = true
 unknown-as-up = true
 
 format-connected = <label-connected>
-format-connected-prefix = ""
+format-connected-prefix = " "
 format-connected-prefix-font = 3
-format-connected-prefix-padding = 1
 format-connected-prefix-foreground = ${color.CYAN}
 
 format-disconnected = <label-disconnected>
-format-disconnected-prefix = ""
+format-disconnected-prefix = " "
 format-disconnected-prefix-font = 3
-format-disconnected-prefix-padding = 1
 format-disconnected-prefix-foreground = ${color.RED}
 
 label-connected = "%{A1:networkmanager_dmenu &:}%downspeed% | %upspeed%%{A}"
@@ -266,7 +262,7 @@ label-disconnected = "%{A1:networkmanager_dmenu &:}Offline%{A}"
 
 [module/network]
 type = internal/network
-interface = ${system.network_interface}
+interface = ${system.sys_network_interface}
 
 interval = 1.0
 
@@ -301,7 +297,7 @@ type = custom/text
 content = ◆
 
 content-background = ${color.BACKGROUND}
-content-foreground = ${color.ALTBLUE}
+content-foreground = ${color.BLACK}
 content-padding = 2
 
 [module/arch-updates]
@@ -412,7 +408,6 @@ interval = 60
 type = custom/script
 exec = ~/.config/bspwm/polybar/scripts/network-ipinfo.sh
 interval = 120
-
 
 ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 ;;	    __________  ______

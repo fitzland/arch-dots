@@ -4,17 +4,15 @@
 ## Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
 
 DIR="$HOME/.config/bspwm"
-
 rofi_command="rofi -theme $DIR/rofi/themes/powermenu.rasi"
-
 uptime=$(uptime -p | sed -e 's/up //g')
 
 # Options
 shutdown=""
 reboot=""
-lock=""
-suspend=""
 logout=""
+suspend=""
+lock=""
 
 # Variable passed to rofi
 options="$shutdown\n$reboot\n$logout\n$lock\n$suspend"
@@ -28,9 +26,9 @@ case $chosen in
 	    systemctl reboot
     	;;
     $lock)
-        $HOME/.config/bspwm/bin/i3lock-fancy/i3lock-fancy.sh
+        #$HOME/.config/bspwm/bin/i3lock-fancy/i3lock-fancy.sh
         #bsplock
-        #betterlockscreen -l dim -- --time-str="%H:%M"
+        betterlockscreen -l dim -- --time-str="%H:%M"
         ;;
     $suspend)
 	    mpc -q pause

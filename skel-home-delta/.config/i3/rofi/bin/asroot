@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-## Copyright (C) 2020-2021 Aditya Shakya <adi1090x@gmail.com>
+## Copyright (C) 2020-2022 Aditya Shakya <adi1090x@gmail.com>
 ## Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
 
 DIR="$HOME/.config/i3"
@@ -16,7 +16,7 @@ lpad=" Leafpad"
 vim=" Vim"
 
 # Variable passed to rofi
-options="$terminal\n$files\n$editor\n$clifm\n$lpad\n$vim"
+options="$terminal\n$files\n$editor\n$clifm\n$vim"
 
 # Functions
 

@@ -1,500 +1,500 @@
 ls
-cd ..
+cd deb-dots/
 ls
-cd ../..
+nano 100-display-manager-and-desktop.sh 
+nano 100-display-manager-and-desktop.sh 
+./100-display-manager-and-desktop.sh 
 ls
-cd arcolinux-spices/
-ls
-./setup-our-git-credentials.sh 
-ls
-cd usr/share/arcolinux-spices/scripts/
-ls
-./get-the-keys-and-repos.sh 
-sudo pacman -Sy
-cd /etc/pacman.d/
-ls
-cd /etc/pacman.conf
-cd ..
-nano pacman.conf 
-sudo nano pacman.conf 
-sudo pacman -Sy
-sudo pacman-key --refresh-keys
-cd
-cd git/dubois/
-ls
-cd arcolinux-spices/
-git pull
-cd ..
-sudo rm -r arcolinux-spices/
-paru github cli
-gh
-ls
-git clone https://github.com/arcolinux/arcolinux-spices.git
-ls
-cd arcolinux-spices/
-ls
-./setup-our-git-credentials.sh 
-cd /usr/share/
-ls
-cd 
-cd git/dubois/arcolinux-spices/usr/share/arcolinux-spices/scripts/
-ls
-./get-the-keys-and-repos.sh 
-sudo ./get-the-keys-and-repos.sh 
-cd ..
-cd ..
-cd ..
-cd ..
-ls
-cd usr/share/arcolinux-spices/scripts/
-ls
-sudo ./get-the-keys-and-repos.sh 
-sudo nano /etc/pacman.conf 
-sudo pacman -Sy
-sudo pacman -Syyu
-sudo nano /etc/pacman.conf 
-sudo pacman -Syyu
-cd ..
-cd ..
-cd ..
-cd ..
-cd ..
-cd ..
-cd dubois/
-ls
-cd arco-bspwm/
-ls
-cd ArchWay/
-ls
+nano 200-software-arch-linux.sh
+./200-software-arch-linux.sh
 ls
 cd ..
 ls
-sudo ./setup-our-git-credentials.sh 
-sudo ./setup-our-git-credentials.sh 
-sudo ./setup-our-git-credentials.sh 
-sudo pacman -Syu
-sudo pacman -Syu
-sudo ./setup-our-git-credentials.sh 
-sudo pacman -Syu
+cd bspwm-scripts/
 ls
-cd ..
+cp 100-display-manager-and-desktop.sh ../deb-dots/101-display-manager-and-desktop.sh 
+cp 200-software-arch-linux.sh ../deb-dots/201-software-arch-linux.sh
+cp 500-software-distro-specific.sh ../deb-dots/501-software-distro-specific.sh 
+cd ../deb-dots/
 ls
-cd arco-xmonad/
+nano 101-display-manager-and-desktop.sh 
+sudo apt install meld
+sudo apt search bspwm
+sudo apt search xdo
+sudo apt search awesome-terminal
+sudo apt search awesome
+sudo apt search polybar
+sudo apt search xorg-xrandr
+sudo apt search xrandr
+sudo apt search catfish
+sudo apt search keepassxc
+sudo apt search screenkey
+sudo apt search atom
+sudo apt search viewnior
+sudo apt search firefox-developer
+sudo apt search transmission
+sudo apt search tigervnc
+sudo apt search mpv
+sudo apt search quodlibet
+sudo apt search libreoffice-fresh
+sudo apt search libreoffice
+sudo apt search gnucash
+sudo apt search zim
+sudo apt search gnome-disk
+sudo apt search expac
+sudo apt search dconf-editor
+sudo apt search papirus
+sudo apt search paper-icon
+sudo apt search zsh
+sudo apt search adapta
+sudo apt search jq
+sudo apt search lxsession
+micro
+sudo apt search micro
+sudo apt search net-tools
+ttf-font-awesome
+sudo apt search font-awesome
+sudo apt search wmname
+sudo apt search xsettingsd
+sudo apt search w3m
 ls
-cd ArchWay/
+./101-display-manager-and-desktop.sh 
+./201-software-arch-linux.sh 
+nano 201-software-arch-linux.sh 
 ls
-nano README 
-cd 
-cd downloads/tarballs/
-ls
-sudo pacman -Rns tint2
-paru file-roller
-paru file-roller
-ls
-tar --help
-tar -xf arcolinux-spices-git-22.03-01-any.pkg.tar.zst 
-ls
-cd usr/share/arcolinux
-ls
-cd ..
-ls
-cd arcolinux-spices/
-ls
-cd scripts/
-ls
-sudo ./get-the-keys-and-repos.sh 
-sudo nano /etc/pacman.conf 
-sudo pacman -Syyu
-cd
-cd git/fitzland/
-ls
-cd themes/
-ls
-cd sweet-theme/
-git pull
-ls
-cd ~/.themes/
-ls
-cd 
-cd .themes/
-ls
-rm -r Sweet{,-Ambar-Blue,-Ambar}
-ls
-rm Sweet-Ambar*
-ls
-rm Sweet.zip 
-ls
-rm Sweet-Dark.zip 
-rm Sweet-mars
-rm Sweet-mars.zip 
-ls
+./501-software-distro-specific.sh 
+sudo apt search volumeicon
+sudo apt search murrine
 exit
-cd git/dubois/
-ls
-sudo pacman -U arcolinux-keyring-20230919-6-any.pkg.tar.zst 
-exit
-sudo pacman -Syyu
-# rm -R /etc/pacman.d/gnupg/
-sudo rm -R /etc/pacman.d/gnupg/
-sudo rm -R /root/.gnupg/
-sudo gpg --refresh-keys
-sudo pacman-key --init && pacman-key --populate archlinux
-sudo pacman-key --init && sudo pacman-key --populate archlinux
-sudo pacman-key --refresh-keys
-cd git/dubois/
-ls
-sudo pacman -U arcolinux-keyring-20230919-6-any.pkg.tar.zst 
-sudo pacman-key --populate arcolinux
-ls
-rm arcolinux-keyring-20230919-6-any.pkg.tar.zst 
-ls
-touch keys
-nano keys 
-sh keys
-sudo pacman -Syyu
-ls
-exit
-paru neofetch
-exit
-nano .bashrc
+sudo dpkg-reconfigure sddm
+sudo apt install sddm
+sudo apt update
+chsh -s $(which zsh)
+sudo chsh -s /bin/zsh jeff
+sudo chsh -s usr/bin/zsh jeff
+sudo chsh -s /usr/bin/zsh jeff
+which zsh
+whence zsh
+sudo apt install zsh
+
+./501-software-distro-specific.sh 
+sudo chsh -s /usr/bin/zsh jeff
 exit
 exit
-cd /etc/skel/
+sudo apt update
+sudo apt autoclean
+sudo apt autoremove
+update-fc
+sudo apt search terminal
+sudo purge tilda
+sudo apt purge tilda
+sudo apt purge stterm
+sudo lxappearance
+exit
+sudo apt update
+sudo apt upgrade
+cd git/fitzland/deb-dots/
 ls
-ls -la
-cp .bashrc_garuda ~/
-cp .zshrc ~/.zshrc_garuda
-cd
-cp .bashrc_garuda .bashrc
-exit
-upall
-paru yay
-paru yay
-exit
-upd
-exit
-exit
-upall
-cleanup
-sudo pacman -Rns xfce4-notifyd xfce4-power-manager mousepad 
-yay lxpolkit
-ranger
-yay ranger
-ranger
-exit
-where lxpolkit
-systemctl status polkit
-sudo systemctl enable polkit
-sudo pacman -Rns lxpolkit
-yay lxsession
-exit
-exit
-yay spotify
-cleanup
-exit
-exit
-exit
+./101-display-manager-and-desktop.sh 
+sudo dpkg-reconfigure sddm
+sudo pacman -S sddm
+sudo apt install sddm
 ls
-cd /home/
+./110-development-software.sh 
+./130-bluetooth.sh 
 ls
-cd jeff/
+./140-printers.sh 
 ls
-dnf update
-sudo dnf update
-sudo dnf install bspwm
-sudo dnf install i3
-sudo dnf install gnome
-sudo dnf install gnome-desktop
-sudo dnf search bspwm
-sudo dnf search gnome
-sudo dnf search alacritty
-sudo dnf install gdm
+./201-software-arch-linux.sh 
 ls
-sudo usermod -d /home/jeff jeff
-sudo reboot
+./301-software-visual-studio-code.sh 
 ls
-rm -r liveuser/
+./501-software-distro-specific.sh 
 ls
+./302-software-google-chrome.sh 
+ls
+./303-software-spotify.sh 
+sudo apt search sddm
+sr
+dots
 cd git/
 ls
 cd fitzland/
 ls
-cd arch-dots/
+cd deb-dots/
 ls
-cd ..
-ls
-cd bspwm-scripts/
-ls
-./100-display-manager-and-desktop.sh 
 nano 100-display-manager-and-desktop.sh 
 ./100-display-manager-and-desktop.sh 
+sudo apt install thunar
+sudo apt install i3-wm 
+./100-display-manager-and-desktop.sh 
+sudo apt install suckless-tools
+sudo apt install rofi
+tasksel --list-tasks
+sudo apt install tasksel
+tasksel --list-tasks
+sudo tasksel instlal ssh-server
+sudo tasksel install ssh-server
 ls
-./110-development-software.sh 
+cp 301-software-visual-studio-code.sh 306-software-grub-customizer
+nano 306-software-grub-customizer 
 ls
-./130-bluetooth.sh 
+./306-software-grub-customizer 
+sudo apt install lxterminal
+sudo apt install lxpolkit
+sudo apt install polybar
+sudo apt install feh
+sudo apt istall xrandr
+sudo apt install xrandr
+sudo apt install x11-xserver-utils
+ls
+cd git/fitzland/deb-dots/
+ls
+nano 100-display-manager-and-desktop.sh 
 ls
 ./200-software-arch-linux.sh 
+sudo reboot
+sudo apt install i3status
+cd /usr/share/backgrounds/
 ls
-./500-software-distro-specific.sh 
+cd
 ls
-yay lightdm-
-cp /etc/skel/.config/bspwm ~/.config/
-cp -r /etc/skel/.config/bspwm ~/.config/
+sudo apt install restricted-extras
+sudo add-apt-repository multiverse
+sudo apt update
+sudo apt install restricted-extras
+sudo apt install ubuntu-restricted-extras
+sudo ubuntu-drivers autoinstall
 exit
-yay route
-yay net-tools
-yay jq
+tasksel --list-tasks
+sudo tasksel install xfce-desktop
+sudo ubuntu-drivers autoinstall
+lxterminal --help
 exit
-yay alacritty
 exit
-yay neofetch
-exit
-yay google-chrome
-exit
-cd downloads/iso/
+sudo apt install bspwm
+cd git/
+cd fitzland/
 ls
-sudo dd if=Fedora-Workstation-Live-x86_64-35-1.2.iso of=/dev/sdd bs=4M && sync
-yay gnome
-sudo pacman -S gnome
-cd 
-cd .config/
+cd deb-dots/
 ls
-mkdir -p ./fontconfig
-ls
-cd fontconfig/
-ls
-touch fonts.conf
-yay micro
-micro fonts.conf 
+nano 101-display-manager-and-desktop.sh 
+nano 200-software-arch-linux.sh 
+nano 500-software-distro-specific.sh 
+nano 501-software-distro-specific.sh 
+./501-software-distro-specific.sh 
+sudo apt install nitrogen
+sudo apt install wmname
+sudo apt install net-tools
 exit
-sudo pacman -Rns firefox
+sudo apt install xdo
+sudo apt install xorg-xrandr
+sudo apt install thunar-archive-plugin
+sudo apt install polybar
+sudo apt install catfish
+sudo apt install keepassxc
+sudo apt install meld
+sudo apt install gimp
+sudo apt install inkscape
+sudo apt install viewnior
+sudo apt install transmission-gtk
+sudo apt install mpv quodlibet ghostwriter gnucash zim gnome-disk-utility gparted
+sudo apt install zsh
+sudo apt install zsh-syntax-highlighting
+sudo apt install paper-icon-theme
+sudo apt install papirus-icon-theme adapta-gtk-theme
 exit
 upall
-sudo pacman -Syyu
+tozsh
+alias
+sudo apt autoremove
+sudo apt autoclena
+sudo apt autoclean
 exit
-yay tweak tool
+upall
+update
 exit
+sudo lxappearance
+sudo apt install lxappearance
+sudo lxappearance
 exit
+cd git/fitzland/
 ls
-sudo dnf install thuanr
-sudo dnf install thunar
-sudo dnf install bspwm
-sudo dnf install rofi
-sudo dnf install sxhkd
-sudo dnf install dunst
-sudo dnf install libreoffice
-yay meld
-sudo dnf install meld
-sudo dnf install micro
-sudo dnf install jq
-sudo dnf install net-tools
-sudo dnf install i3
-exit
-sudo dnf install polybar
-exit
-sudo dnf update
-sudo dnf autoclean
-exit
-arandr
-sudo dnf install arandr
-arandr
-cd 
-cd .config/i3/
+alias
+cd deb-dots/
 ls
-micro config 
-exit
+cd /etc/netplan/
 ls
-sudo dnf install google-chrome
+sudo netplan apply
+sudo nano 00-installer-config
+sudo systemctl disable systemd-networkd-wait-online.service
 exit
-sudo usermod -d /home/jeff jeff
-usermod
-usermod -d /home/jeff
-usermod -d /home/jeff jeff
 exit
+chsh -s $(which zsh)
+exit
+exit
+sudo apt search dropbox
+exit
+upall
+sudo apt update
+sudo apt upgrade
+cd downloads/tarballs/
 ls
-su -
-sudo usermod -d /home/jeff/ jeff
+sudo sudo dpkg -i dropbox_2020.03.04_amd64.deb 
+sudo apt -f install
 exit
+timedatectl set-local-rtc 1 --adjust-system-clock
+timedatectl
+cd git/fitzland/deb-dots/
 ls
+cp 303-software-spotify.sh 702-set-to-local-time.sh
+nano 702-set-to-local-time.sh 
+./702-set-to-local-time.sh 
+nano 702-set-to-local-time.sh 
+./702-set-to-local-time.sh 
 exit
-ls
-sudo usermod -d /home/jeff/ jeff
-l
+sudo apt search efi
+efibootmgr
+sudo efibootmgr -o 0001,0002,0003,0000,0006
+sudo efibootmgr --delete-bootnum --bootnum 0
+sudo efibootmgr --delete-bootnum --bootnum 6
+exit
+xprop
+sudo dpkg-reconfigure lightdm
+exit
 exit
 cd downloads/iso/
 ls
-sudo dd if=archlinux-gui-i3-2022.03-x86_64.iso of=/dev/sdd bs=4M && sync
+rm pop-os_22.04_amd64_nvidia_5.iso 
+ls
+sudo dd if=pop-os_22.04_amd64_nvidia_6.iso of=/dev/sdd bs=4M && sync
 exit
-killall bspwm
-cd dots
-cd git/fitzland/arch-dots/
+sudo apt update
+sudo apt upgrade
+exit
+exit
+sudo apt update
+sudo apt upgrade
+sudo apt full-upgrade
+cleanup
+exit
+cd git/fitzland/
 ls
-cd ..
+cd deb-dots/
 ls
-cd bspwm-scripts/
+nano 100-display-manager-and-desktop.sh 
+nano 100-display-manager-and-desktop.sh 
+exit
+cd git/fitzland/
+cd deb-dots/
 ls
-nano 170-network-discovery.sh 
-./170-network-discovery.sh 
-cd git/fitzland/bspwm-scripts/
-ls
-./git-v1.sh 
-ls
-nano 200-software-arch-linux.sh 
-./200-software-arch-linux.sh 
-ls
-nano 500-software-distro-specific.sh 
-./500-software-distro-specific.sh 
-ls
-nano 170-network-discovery.sh 
-nano 110-development-software.sh 
-nano 100
 nano 100-display-manager-and-desktop.sh 
 ./100-display-manager-and-desktop.sh 
-exit
-yay firefox developer
-yay xsetting
-yay visual studio code
-yay atom
-yay alacritty
-exit
-neofetch
-exit
-cd git/fitzland/arch-dots/
+sudo apt install i3 suckless-tools thunar
+./100-display-manager-and-desktop.sh 
+sudo apt install i3status thunar-volman
 ls
-./git-v1.sh 
-gst
-git status
+nano 201-software-arch-linux.sh 
+sudo apt install inkscape
+sudo apt install gimp
+exit
+sudo apt install polybar
+sudo apt install dunst
+exit
+exit
+sudo apt install rofi
+exit
+sudo apt install rofi
+sudo apt install sxhkd
+exit
+sudo apt install feh
+sudo apt install nitrogen
+sudo apt install lxppearance
+sudo apt install lxappearance
+exit
+exit
+upall
+sudo apt update
+cd git/fitzland/deb-dots/
+ls
+./501-software-distro-specific.sh 
+sudo apt install alacritty
+exit
+exit
+sudo apt install keepassxc
+exit
+killall i3
+sudo apt install synaptic
+sudo apt search lxpolkit
+sudo apt install lxpolkit
+exit
+sudo apt update
+sudo apt upgrade
+exit
+sudo apt update
 alias
-ls
-cd skel-home
-ls
-ls -lah
-cp .bashrc* ~/
 exit
-alias
-exit
-cd git/fitzland/arch-dots/
+cd git/fitzland/
 ls
 cd ..
-cd bspwm-scripts/
 ls
-nano 100-display-manager-and-desktop.sh 
-./100-display-manager-and-desktop.sh 
-yay xrandr
-ls
-nano 100-display-manager-and-desktop.sh 
-./100-display-manager-and-desktop.sh 
-nano 100-display-manager-and-desktop.sh 
-./100-display-manager-and-desktop.sh 
-exit
-sudo pacman -Syyu
-yay upd7
-yay aic
-yay wd7
-exit
-cd git/fitzland/arch-dots/
-ls
-cd ../bspwm-scripts/
-ls
-cd ArchWay/
-ls
-nano Link\ to\ ArcoLinux\ Spices\ tool.desktop 
-cd ..
-ls
-cd ..
-cd ..
 cd dubois/
 ls
-cd arcolinux-spices/
+cd arco-i3/
 ls
-cd usr/
-ls
-cd share/
-ls
-cd arcolinux-spices/
-ls
-cd scripts/
 ls
 cd ..
 ls
-cd scripts/
+cd ..
+cd fitzland/deb-dots/
 ls
-nano get-the-keys-and-repos.sh 
-cd ..
-cd ..
-cd ..
-cd ..
-ls
-git pull
+nano 200-software-arch-linux.sh 
+TERM=alacritty
+nano 200-software-arch-linux.sh 
+infocmp alacritty
+sudo tic -xe alacritty,alacritty-direct extra/alacritty.info
 exit
-yay lightdm
-sudo pacman -Rns lightdm lightdm-slick-greeter 
+cd git/fitzland/
 ls
-yay sddm
-cd /etc/sddm.conf.d/
-ls
-nano 10-endeavouros.conf 
-exit
-yay wmname
-cd git/fitzland/bspwm-scripts/
-ls
-nano 500-software-distro-specific.sh 
-./500-software-distro-specific.sh 
-exit
-cd git/fitzland/bspwm-scripts/
+cd deb-dots/
 ls
 nano 200-software-arch-linux.sh 
 ./200-software-arch-linux.sh 
-ls
-./git-v1.sh 
+sudo apt install alacritty
+sudo apt purge alacritty
+sudo apt install alacritty
 exit
-yay google-chrome
-echo $SHELL
-yay zsh
-zsh
-zsh
-alias
-nb
-zsh
+cd git/fitzland/deb-dots/
+ls
+nano 200-software-arch-linux.sh 
 exit
-cd git/dubois/
+cd downloads/iso/
 ls
-sudo rm -r arcolinux-spices/
-git clone f1tzl4nd@gmail.com
-git clone git@github.com:arcolinux/arcolinux-spices.git
+sudo dd if=EndeavourOS_Apollo_22_1.iso of=/dev/sdd bs=4M && sync
+exit
+killall bspwm
+dots
+cd git/fitzland/arch-dots/
 ls
-cd arcolinux-spices/
-ls
-cd usr/share/arcolinux-spices/scripts/
-ls
-./get-the-keys-and-repos.sh 
+./get-ac-archcraft-repos.sh 
 sudo pacman -Syy
+upall
 sudo pacman -Syyu
-zsh
-exit
-yay google-chrome
-cd git/fitzland/bspwm-scripts/
 ls
-cd cd ArchWay/
+./get-al-arcolinux-repos.sh 
+sudo pacman -Syyu
+cd ..
 ls
-cd ArchWay/
+cd bspwm-scripts/
 ls
-nano Link\ to\ ArcoLinux\ Spices\ tool.desktop 
-cd
-sudo pacman pacman-key --recv-key FBA220DFC880C036 --keyserver keyserver.ubuntu.com
-sudo pacman-key --recv-key FBA220DFC880C036 --keyserver keyserver.ubuntu.com
-sudo pacman-key --lsign-key FBA220DFC880C036
-sudo pacman -U 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-keyring.pkg.tar.zst' 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-mirrorlist.pkg.tar.zst'
+./110-development-software.sh 
 sudo nano /etc/pacman.conf 
 sudo pacman -Syy
+./110-development-software.sh 
+ls
+./200-software-arch-linux.sh 
+ls
+./100-display-manager-and-desktop.sh 
+ls
+./500-software-distro-specific.sh 
+ls
+./810-arcolinux-keys-repos.sh 
+sudo pacman -Syy
+ls
+cd ..
+ls
+cd ..
+ls
+cd archcraft/
+ls
+exit
+exit
+upall
 yay google-chrome
-yay visual studio code
-yay microsoft-edge
-yay oh-my
-zsh
-sudo pacman -Rns xfce4-terminal 
-sudo pacman -Rns xfce4-terminal endeavouros-xfce4-terminal-colors 
 exit
-zsh
+cd archcraft/
+yay google-chrome
+upall
+dots
+cd ..
+ls
+nz
+nb
+yay dropbox
+sudo rm /etc/skel/.config/gtk-3.0/gtk.css 
+sudo rm /etc/skel/.config/gtk-3.0/settings.ini 
+sudo rm -r /etc/skel/.config
+yay i3
+cp -r /etc/skel/.config/i3 ~/.config/
 exit
+yay i3
+cp -r /etc/skel/.config/i3 ~/.config/
+dots
+cd ..
+cd bspwm-scripts/
+ls
+./140-printers.sh 
+exit
+upall
+cleanup
+exit
+yay pamac
+exit
+thunar
+exit
+eixt
+exit
+sudo pacman -Rns xfce-terminal
+exit
+upall
+exit
+sudo pacman -Rns xfce-terminal
+upall
+cd /etc/skel/
+ls -la
+cd .config/
+cd i3/
+cd bin/
+ls
+nano i3bar.sh 
+exit
+tolightdm 
+exit
+yay grub-customizer
+exit
+yay spotify
+cleanup
+exit
+upall
+yay wd719
+yay aic
+cleanup
+yay upd7
+upall
+exit
+upall
+cleanup
+exit
+upall
+exit
+upall
+cleanup
+exit
+upall
+cleanup
+exit
+upall
+exit
+cleanup
+exit
+upall
+cleanup
+exit
+upall
+yay brscan
+sudo brsaneconfig4 -a name="Brother" model="mfc-l2690dw" ip=192.168.1.147
+yay l2690dw
+cleanup
+exit
+yay tweak-tool
 exit
