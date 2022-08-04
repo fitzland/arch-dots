@@ -38,8 +38,9 @@ alias merge="xrdb -merge ~/.Xresources"
 
 # Aliases for software managment
 # pacman or pm
-alias pacman='sudo pacman --color auto'
-alias update='sudo pacman -Syyu'
+#alias pacman='sudo pacman --color auto'
+#alias update='sudo pacman -Syyu'
+alias update='sudo apt update && sudo apt upgrade'
 
 # pacman unlock
 alias unlock="sudo rm /var/lib/pacman/db.lck"

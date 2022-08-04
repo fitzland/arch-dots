@@ -56,104 +56,59 @@ client.placeholder        $black        $black          $foreground     $yellow 
 
 client.background         $background
 
-############################################
-# bar settings (input comes from i3blocks) #
-############################################
-
-# Start i3bar to display a workspace bar
-# (plus the system information i3status finds out, if available)
-#bar {
-#		id bar-0
-#                font pango:Iosevka Term Regular 12, google-mdi 12
-#		status_command i3blocks -c ~/.config/i3/i3blocks-primary.conf
-#            status_command i3status -c ~/.config/i3/i3status-primary.conf
-#	    	position top
-#            output DP-0
-#            workspace_min_width 80
-#            strip_workspace_numbers yes
-#            ##strip_workspace_name no
-
-#	    	i3bar_command i3bar --transparency
-# it could be that you have no primary display set: set one (xrandr --output <output> --primary)
-# reference: https://i3wm.org/docs/userguide.html#_tray_output
-#                tray_output primary
-#		tray_padding 0
-
-#		    colors {
-#		    separator          $forground
-#		    background         $background
-#		    statusline         $white
-#                          		border 		bg		txt		indicator
-#		focused_workspace	$green	   	$green		$background	$magenta
-#		active_workspace	$cyan      	$cyan	        $background	$magenta
-#		inactive_workspace	$blue   	$blue           $background     $magenta
-#		urgent_workspace	$red	    	$red    	$background	$magenta
-#	}
-#}
-
-#bar {
-#		id bar-1
-#                font pango:Iosevka Term Regular 12, google-mdi 12
-#		status_command i3blocks -c ~/.config/i3/i3blocks-secondary.conf
-#                status_command i3status -c ~/.config/i3/i3status-secondary.conf
-#	    	position top
-#                output DP-2
-#                workspace_min_width 80
-#                strip_workspace_numbers yes
-
-#	    	i3bar_command i3bar --transparency
-# it could be that you have no primary display set: set one (xrandr --output <output> --primary)
-# reference: https://i3wm.org/docs/userguide.html#_tray_output
-#                tray_output primary
-#		tray_padding 0
-
-#		    colors {
-#		    separator          $forground
-#		    background         $background
-#		    statusline         $white
-#                          		border 		        bg		txt		indicator
-#		focused_workspace	$green	   	$green		$background	$magenta
-#		active_workspace	$cyan      	$cyan	        $background	$magenta
-#		inactive_workspace	$blue   	$blue           $background     $magenta
-#		urgent_workspace	$red	    	$red    	$background	$magenta
-#	}
-#}
-
-
 ##-- Autostart ---------------------------
 
-exec_always --no-startup-id ~/.config/i3/bin/autostart.sh
-
-# set powersavings for display:
-exec --no-startup-id xset s 480 dpms 600 600 600
-
-# disable power saving (for example if using xscreensaver)
-#exec --no-startup-id xset -dpms
+exec_always --no-startup-id 	~/.config/i3/bin/autostart.sh
 
 ##-- Key Bindings ------------------------
 
+# -- Terminal --
+#bindsym $mod+Return 			exec --no-startup-id ~/.config/i3/bin/i3term.sh
+#bindsym $mod+Shift+Return 		exec --no-startup-id thunar
+bindsym $mod+t 				exec --no-startup-id ~/.config/i3/bin/i3term.sh --full
+
+# -- Apps --
+#bindsym $mod+Shift+f 			exec --no-startup-id thunar
+#bindsym $mod+Shift+e 			exec --no-startup-id geany
+#bindsym $mod+Shift+w 			exec --no-startup-id firefox
+#bindsym $alt+Control+v 			exec --no-startup-id "alacritty --config-file ~/.config/i3/alacritty/alacritty.yml -e vim"
+#bindsym $alt+Control+n 			exec --no-startup-id "alacritty --config-file ~/.config/i3/alacritty/alacritty.yml -e nvim"
+#bindsym $alt+Control+r 			exec --no-startup-id "alacritty --config-file ~/.config/i3/alacritty/alacritty.yml -e ranger"
+#bindsym $alt+Control+h 			exec --no-startup-id "alacritty --config-file ~/.config/i3/alacritty/alacritty.yml -e htop"
+#bindsym $alt+Control+b 			exec --no-startup-id "alacritty --config-file ~/.config/i3/alacritty/alacritty.yml -e bashtop"
+
+# -- Rofi --
+#bindsym $mod+slash 				exec --no-startup-id ~/.config/i3/rofi/bin/launcher
+#bindsym $mod+n 					exec --no-startup-id ~/.config/i3/rofi/bin/network_menu
+#bindsym $mod+x 					exec --no-startup-id ~/.config/i3/rofi/bin/powermenu
+#bindsym $mod+m 					exec --no-startup-id ~/.config/i3/rofi/bin/mpd
+#bindsym $mod+s 					exec --no-startup-id ~/.config/i3/rofi/bin/screenshot
+#bindsym $mod+r 					exec --no-startup-id ~/.config/i3/rofi/bin/asroot
+#bindsym $mod+w 					exec --no-startup-id ~/.config/i3/rofi/bin/windows
+
 # -- Function keys --
-bindsym XF86MonBrightnessUp 	exec --no-startup-id "brightness --inc"
-bindsym XF86MonBrightnessDown 	exec --no-startup-id "brightness --dec"
-bindsym XF86AudioRaiseVolume exec --no-startup-id "amixer -D pulse sset Master '5%+'"
-bindsym XF86AudioLowerVolume exec --no-startup-id "amixer -D pulse sset Master '5%-'"
-bindsym XF86AudioMute exec --no-startup-id "amixer -D pulse set Master toggle"
-bindsym XF86AudioPlay exec --no-startup-id playerctl play-pause
-bindsym XF86AudioNext exec --no-startup-id playerctl next
-bindsym XF86AudioPrev exec --no-startup-id playerctl previous
-bindsym XF86AudioStop exec --no-startup-id playerctl stop
+bindsym XF86MonBrightnessUp 	        exec --no-startup-id "brightness --inc"
+bindsym XF86MonBrightnessDown 	        exec --no-startup-id "brightness --dec"
+bindsym XF86AudioRaiseVolume 	        exec --no-startup-id "volume --inc"
+bindsym XF86AudioLowerVolume 	        exec --no-startup-id "volume --dec"
+bindsym XF86AudioMute 			exec --no-startup-id "volume --toggle"
+bindsym XF86AudioMicMute 		exec --no-startup-id "volume --toggle-mic"
+bindsym XF86AudioNext 			exec --no-startup-id playerctl next
+bindsym XF86AudioPrev 			exec --no-startup-id playerctl prev
+bindsym XF86AudioPlay 			exec --no-startup-id playerctl toggle
+bindsym XF86AudioStop 			exec --no-startup-id playerctl stop
 
 # -- Screenshots --
-bindsym Print 			exec --no-startup-id "takeshot --now"
-bindsym $mod+Print 		exec --no-startup-id "takeshot --in5"
-bindsym Shift+Print 		exec --no-startup-id "takeshot --in10"
-bindsym Control+Print 		exec --no-startup-id "takeshot --win"
-bindsym $mod+Control+Print 	exec --no-startup-id "takeshot --area"
+bindsym Print 				exec --no-startup-id "takeshot --now"
+bindsym $mod+Print 			exec --no-startup-id "takeshot --in5"
+bindsym Shift+Print 			exec --no-startup-id "takeshot --in10"
+bindsym Control+Print 			exec --no-startup-id "takeshot --win"
+bindsym $mod+Control+Print 		exec --no-startup-id "takeshot --area"
 
 # -- i3wm --
 
 # Lockscreen
-bindsym $alt+Control+l 	exec --no-startup-id "betterlockscreen --lock"
+bindsym $alt+Control+k 			exec --no-startup-id "betterlockscreen --lock"
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -216,7 +171,7 @@ bindsym $mod+d focus child
 bindsym $mod+o workspace next
 bindsym $mod+i workspace prev
 
-#navigate workspaces next / previous
+#move workspaces next / previous
 bindsym $mod+Shift+o move container to workspace next; workspace next
 bindsym $mod+Shift+i move container to workspace prev; workspace prev
 
@@ -232,19 +187,31 @@ bindsym $mod+minus scratchpad show
 # We use variables to avoid repeating the names in multiple places.
 set $ws1 "1:term|"
 set $ws2 "2:code|"
-set $ws3 "3:ofc|"
-set $ws4 "4:grfx|🎨"
-set $ws5 "5:util|"
-set $ws6 "6:web|"
+set $ws3 "3:ofc|"
+set $ws4 "4:grfx|"
+set $ws5 "5:util|漣"
+set $ws6 "6:web|"
 set $ws7 "7:chat|"
 set $ws8 "8:file|"
-set $ws9 "9:misc|"
-set $ws0 "10:media|"
+set $ws9 "9:misc|"
+set $ws0 "10:media|露"
 
 set $firstMonitor DP-0
 #set $firstMonitor DP-5
 set $secondMonitor DP-2
 #set $secondMonitor DP-7
+
+# use workspaces on different displays:
+workspace $ws1 output $firstMonitor
+workspace $ws2 output $firstMonitor
+workspace $ws3 output $firstMonitor
+workspace $ws4 output $firstMonitor
+workspace $ws5 output $firstMonitor
+workspace $ws6 output $secondMonitor
+workspace $ws7 output $secondMonitor
+workspace $ws8 output $secondMonitor
+workspace $ws9 output $secondMonitor
+workspace $ws0 output $secondMonitor
 
 # switch to workspace
 bindsym $mod+1 workspace number $ws1
@@ -259,23 +226,21 @@ bindsym $mod+9 workspace number $ws9
 bindsym $mod+0 workspace number $ws0
 
 # move focused container to workspace
-bindsym $mod+Shift+1 move container to workspace number $ws1; workspace $ws1
-bindsym $mod+Shift+2 move container to workspace number $ws2; workspace $ws2
-bindsym $mod+Shift+3 move container to workspace number $ws3; workspace $ws3
-bindsym $mod+Shift+4 move container to workspace number $ws4; workspace $ws4
-bindsym $mod+Shift+5 move container to workspace number $ws5; workspace $ws5
-bindsym $mod+Shift+6 move container to workspace number $ws6; workspace $ws6
-bindsym $mod+Shift+7 move container to workspace number $ws7; workspace $ws7
-bindsym $mod+Shift+8 move container to workspace number $ws8; workspace $ws8
-bindsym $mod+Shift+9 move container to workspace number $ws9; workspace $ws9
-bindsym $mod+Shift+0 move container to workspace number $ws0; workspace $ws0
+bindsym $mod+Shift+1 move container to workspace number $ws1
+bindsym $mod+Shift+2 move container to workspace number $ws2
+bindsym $mod+Shift+3 move container to workspace number $ws3
+bindsym $mod+Shift+4 move container to workspace number $ws4
+bindsym $mod+Shift+5 move container to workspace number $ws5
+bindsym $mod+Shift+6 move container to workspace number $ws6
+bindsym $mod+Shift+7 move container to workspace number $ws7
+bindsym $mod+Shift+8 move container to workspace number $ws8
+bindsym $mod+Shift+9 move container to workspace number $ws9
+bindsym $mod+Shift+0 move container to workspace number $ws0
 
 # reload the configuration file
-bindsym Control+Shift+c reload
-
+bindsym Control+$alt+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym Control+Shift+r restart
-
 # quit i3 session
 bindsym Control+Shift+q exit
 
@@ -358,18 +323,13 @@ assign [class="Pavucontrol|Xfce4-power-manager-settings"] 6
 ##-- Window Rules ------------------------
 for_window [window_role="pop-up"] floating enable
 for_window [window_role="task_dialog"] floating enable
-
-# use workspaces on different displays:
-workspace $ws1 output $firstMonitor
-workspace $ws2 output $firstMonitor
-workspace $ws3 output $firstMonitor
-workspace $ws4 output $firstMonitor
-workspace $ws5 output $firstMonitor
-workspace $ws6 output $secondMonitor
-workspace $ws7 output $secondMonitor
-workspace $ws8 output $secondMonitor
-workspace $ws9 output $secondMonitor
-workspace $ws0 output $secondMonitor
+for_window [class="alacritty-float"] floating enable
+for_window [class="Pcmanfm|Onboard|Yad"] floating enable
+for_window [class="Lxappearance|Nitrogen"] floating enable
+for_window [class="Pavucontrol|Xfce4-power-manager-settings|Nm-connection-editor"] floating enable
+for_window [class="feh|Viewnior|Gpicview|Gimp|MPlayer"] floating enable
+for_window [class="Kvantum Manager|qt5ct"] floating enable
+for_window [class="VirtualBox Manager|qemu|Qemu-system-x86_64"] floating enable
 
 # bind program to workspace and focus to them on startup:
 assign [class="Gnome-terminal|Alacritty"] $ws1

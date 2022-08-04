@@ -5,7 +5,7 @@
 
 DIR="$HOME/.config/i3"
 
-rofi_command="rofi -theme $DIR/rofi/themes/mpd-square.rasi"
+rofi_command="rofi -theme $DIR/rofi/themes/mpd.rasi"
 
 button_music=''
 button_play=''

@@ -26,7 +26,7 @@ options="$theme_adapta\n$theme_cubic\n$theme_dracula\n$theme_forest\n$theme_otis
 set_style() {
 	# apply color-scheme
 	cat "$THEMEDIR"/${1}.bash > "$THEMEDIR"/current.bash
-	echo -e "\n# Don't Delete This File" >> "$THEMEDIR"/current.bash
+	echo "\n# Don't Delete This File" >> "$THEMEDIR"/current.bash
 	
 	# set gtk theme, icons and cursor
 	if [[ `pidof xsettingsd` ]]; then

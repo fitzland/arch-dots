@@ -1,7 +1,9 @@
 ## Copyright (C) 2020-2021 Aditya Shakya <adi1090x@gmail.com>
 ## Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
 
-##---------- Keybindings for apps ----------##
+###############################################
+##----- Keybindings for Function Keys -------##
+###############################################
 
 # Search
 super + F1
@@ -51,8 +53,9 @@ super + {_,shift} + F11
 super + {_,shift} + F12
     {google-chrome-stable --profile-directory='Default',google-chrome-stable --profile-directory='Profile 1'}
 
-
+###############################################
 ##---------- Rofi Launcher & Menus ----------##
+###############################################
 
 # Rofi App Launcher
 super + slash
@@ -74,7 +77,9 @@ ctrl + alt + t
 super + {m,x,r,s,n}
 	sh ~/.config/i3/rofi/bin/{mpd,powermenu,asroot,screenshot,network}
 
-##---------- Applications ----------##
+###############################################
+##---------- Applications -------------------##
+###############################################
 
 # Terminal and File Manager
 super + {_,shift} + Return

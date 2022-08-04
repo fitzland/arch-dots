@@ -1,126 +1,3 @@
-ls
-cd deb-dots/
-ls
-nano 100-display-manager-and-desktop.sh 
-nano 100-display-manager-and-desktop.sh 
-./100-display-manager-and-desktop.sh 
-ls
-nano 200-software-arch-linux.sh
-./200-software-arch-linux.sh
-ls
-cd ..
-ls
-cd bspwm-scripts/
-ls
-cp 100-display-manager-and-desktop.sh ../deb-dots/101-display-manager-and-desktop.sh 
-cp 200-software-arch-linux.sh ../deb-dots/201-software-arch-linux.sh
-cp 500-software-distro-specific.sh ../deb-dots/501-software-distro-specific.sh 
-cd ../deb-dots/
-ls
-nano 101-display-manager-and-desktop.sh 
-sudo apt install meld
-sudo apt search bspwm
-sudo apt search xdo
-sudo apt search awesome-terminal
-sudo apt search awesome
-sudo apt search polybar
-sudo apt search xorg-xrandr
-sudo apt search xrandr
-sudo apt search catfish
-sudo apt search keepassxc
-sudo apt search screenkey
-sudo apt search atom
-sudo apt search viewnior
-sudo apt search firefox-developer
-sudo apt search transmission
-sudo apt search tigervnc
-sudo apt search mpv
-sudo apt search quodlibet
-sudo apt search libreoffice-fresh
-sudo apt search libreoffice
-sudo apt search gnucash
-sudo apt search zim
-sudo apt search gnome-disk
-sudo apt search expac
-sudo apt search dconf-editor
-sudo apt search papirus
-sudo apt search paper-icon
-sudo apt search zsh
-sudo apt search adapta
-sudo apt search jq
-sudo apt search lxsession
-micro
-sudo apt search micro
-sudo apt search net-tools
-ttf-font-awesome
-sudo apt search font-awesome
-sudo apt search wmname
-sudo apt search xsettingsd
-sudo apt search w3m
-ls
-./101-display-manager-and-desktop.sh 
-./201-software-arch-linux.sh 
-nano 201-software-arch-linux.sh 
-ls
-./501-software-distro-specific.sh 
-sudo apt search volumeicon
-sudo apt search murrine
-exit
-sudo dpkg-reconfigure sddm
-sudo apt install sddm
-sudo apt update
-chsh -s $(which zsh)
-sudo chsh -s /bin/zsh jeff
-sudo chsh -s usr/bin/zsh jeff
-sudo chsh -s /usr/bin/zsh jeff
-which zsh
-whence zsh
-sudo apt install zsh
-
-./501-software-distro-specific.sh 
-sudo chsh -s /usr/bin/zsh jeff
-exit
-exit
-sudo apt update
-sudo apt autoclean
-sudo apt autoremove
-update-fc
-sudo apt search terminal
-sudo purge tilda
-sudo apt purge tilda
-sudo apt purge stterm
-sudo lxappearance
-exit
-sudo apt update
-sudo apt upgrade
-cd git/fitzland/deb-dots/
-ls
-./101-display-manager-and-desktop.sh 
-sudo dpkg-reconfigure sddm
-sudo pacman -S sddm
-sudo apt install sddm
-ls
-./110-development-software.sh 
-./130-bluetooth.sh 
-ls
-./140-printers.sh 
-ls
-./201-software-arch-linux.sh 
-ls
-./301-software-visual-studio-code.sh 
-ls
-./501-software-distro-specific.sh 
-ls
-./302-software-google-chrome.sh 
-ls
-./303-software-spotify.sh 
-sudo apt search sddm
-sr
-dots
-cd git/
-ls
-cd fitzland/
-ls
 cd deb-dots/
 ls
 nano 100-display-manager-and-desktop.sh 
@@ -498,3 +375,126 @@ cleanup
 exit
 yay tweak-tool
 exit
+sudo apt install neofetch
+sudo apt update
+sudo apt upgrade
+sudo apt autoclean
+sudo apt autoremove
+exit
+sudo apt update
+sudo apt upgrade
+sudo apt full-upgrade
+sudo apt autoremove
+sudo apt autoclean
+sudo apt install libreoffice
+sudo apt install sddm
+sudo apt install bspwm
+sudo apt install sxhkd
+sudo apt install rofi
+sudo apt install thunar
+reboot
+sudo apt update
+sudo apt upgrade
+sudo apt autoremove
+sudo apt autoclean
+exit
+sudo apt install neofetch
+sudo apt install thunar
+sudo apt install rofi
+wget -qO - https://regolith-desktop.io/regolith.key | gpg --dearmor | sudo tee /usr/share/keyrings/regolith-archive-keyring.gpg > /dev/null
+echo deb "[arch=amd64 signed-by=/usr/share/keyrings/regolith-archive-keyring.gpg] \
+https://regolith-desktop.io/release-ubuntu-jammy-amd64 jammy main" | sudo tee /etc/apt/sources.list.d/regolith.list
+sudo apt update
+sudo apt install regolith-desktop
+sudo apt upgrade
+sudo apt install regolith-look-*
+echo deb "[arch=amd64 signed-by=/usr/share/keyrings/regolith-archive-keyring.gpg] \
+https://regolith-desktop.io/release-ubuntu-jammy-amd64 jammy main" | sudo tee /etc/apt/sources.list.d/regolith.list
+exit
+sudo apt install lxappearance
+sudo apt install lxappearance3
+exit
+sudo apt install synaptic
+sudo apt install bspwm
+sudo apt install rofi
+sudo apt install thunar
+sudo apt install alacritty
+exit
+sudo apt install keepassxc
+exit
+sudo apt install rofi
+sudo apt install thunar
+sudo apt install alacritty
+sudo apt install keepassxc
+sudo apt install i3xrocks-focused-window-name i3xrocks-rofication i3xrocks-info i3xrocks-app-launcher i3xrocks-memory
+cd ~/.config/regolith2/
+mkdir -p config.d
+mkdir -p i3
+mv config.d/ ./i3/
+cd i3/
+ls
+cp /usr/share/regolith/i3/config.d/40_workspace-config ~/.config/regolith2/i3/config.d/
+sudo apt remove regolith-i3-workspace-config
+exit
+sudo apt search regolith-*
+sudo apt remove regolith-i3-navigation
+sudo apt remove regolith-i3-default-style
+sudo apt remove regolith-i3-base-launchers
+exit
+sudo cp ~/images/wallpapers/system/* /usr/share/backgrounds/
+cd /usr/share/backgrounds/
+ls
+exit
+cp /usr/share/regolith/i3/config.d/40_workspace-config ~/.config/regolith2/i3/config.d/
+sudo apt remove regolith-i3-workspace-config
+sudo apt search regolith-*
+sudo apt remove regolith-i3-navigation
+sudo apt remove regolith-i3-default-style
+sudo apt remove regolith-i3-base-launchers
+cd git/fitzland/
+cd arch-dots/
+nano base-shell-script.sh 
+cd bspwm-scripts/
+nano 100-display-manager-and-desktop.sh 
+cd ..
+cd deb-dots/
+ls
+exit
+echo "regolith.wallpaper.file: /usr/share/backgrounds/dwm.png" >> ~/.config/regolith2/Xresources
+echo "regolith.wallpaper.options: zoom" >> ~/.config/regolith2/Xresources
+cd ~/.config/regolith2/
+ls
+nano Xresources 
+exit
+regolith-look refresh
+exit
+mkdir -p ~/.config/regolith2/i3xrocks/conf.d
+cd /usr/share/i3xrocks/conf.d/
+ls
+cp 01_setup ~/.config/regolith2/i3xrocks/conf.d/
+cp 10_focused-window-name ~/.config/regolith2/i3xrocks/conf.d/
+cp 10_app-launcher ~/.config/regolith2/i3xrocks/conf.d/
+cp 20_info ~/.config/regolith2/i3xrocks/conf.d/
+cp 30_net-traffic ~/.config/regolith2/i3xrocks/conf.d/
+cp 40_cpu-usage ~/.config/regolith2/i3xrocks/conf.d/
+cp 50_memory ~/.config/regolith2/i3xrocks/conf.d/
+cp 80_rofication ~/.config/regolith2/i3xrocks/conf.d/
+cp 90_time ~/.config/regolith2/i3xrocks/conf.d/
+regolith-look refresh
+exit
+cp 80_rofication ~/.config/regolith2/i3xrocks/conf.d/
+cp 90_time ~/.config/regolith2/i3xrocks/conf.d/
+regolith-look refresh
+exit
+regolith-look set solarized-dark
+regolith-look set gruvbox
+regolith-look set blackhole
+regolith-look set nevil
+regolith-look list
+regolith-look nord
+regolith-look set nord
+cd downloads/iso/
+ls
+sudo dd if=Fedora-i3-Live-x86_64-36-1.5.iso of=/dev/sdd bs=4M && sync
+sudo dd if=EndeavourOS_Artemis-22_6.iso of=/dev/sdd bs=4M && sync
+sudo dd if=archcraft-2022.07.18-x86_64.iso of=/dev/sdd bs=4M && sync

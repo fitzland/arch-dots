@@ -1,6 +1,16 @@
-#! /bin/sh
+#!/usr/bin/env bash
 
-## Environtment
+## Copyright (C) 2020-2022 Aditya Shakya <adi1090x@gmail.com>
+## Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
+##
+## BSPWM config file for Archcraft
+
+## General ---------------------------------------------------#
+
+## Bspwm config directory
+BSPDIR="$HOME/.config/bspwm"
+
+## Export bspwm/bin dir to PATH
 export PATH="${PATH}:$HOME/.config/bspwm/bin"
 
 ## Get colors from .Xresources -------------------------------#
@@ -51,10 +61,10 @@ for i in ${term[@]}; do
 # 2 > code
 declare -a code=(Atom Code Gedit Geany Meld code-oss Xed)
 for i in ${code[@]}; do
-  bspc rule -a $i desktop='^2' state=tiled follow=on focus=on; done
+  bspc rule -a $i desktop='^2' follow=on focus=on; done
 
 # 3 > office and docs
-declare -a office=(Gucharmap Atril Evince \
+declare -a office=(Gnucash Gucharmap Atril Evince \
 libreoffice-writer libreoffice-calc libreoffice-impress \
 libreoffice-startcenter libreoffice Soffice *:libreofficedev *:soffice)
 for i in ${office[@]}; do
@@ -87,7 +97,7 @@ for i in ${chat[@]}; do
 # 8 > files
 declare -a files=(Thunar Nautilus)
 for i in ${files[@]}; do
-   bspc rule -a $i desktop='^8' follow=on focus=on; done
+   bspc rule -a $i desktop='^8' state=tiled follow=on focus=on; done
 
 # 0 > media
 declare -a media=(Audacity Music MPlayer Lxmusic obs Quodlibet spotify Spotify)
@@ -103,10 +113,8 @@ for i in ${floating[@]}; do
 # spotify rule
 	bspc config external_rules_command "$HOME/.config/bspwm/bin/spotify.sh"
 
+## Autostart -------------------------------------------------#
 
-#
-# Autostart
-#
 # Set display from arandr saved script
 sh ~/.screenlayout/monitor.sh &
 
@@ -124,12 +132,12 @@ dunst \
 xsettingsd &
 
 # polkit agent
-#if [[ ! `pidof lxpolkit` ]]; then
-#	/usr/bin/lxpolkit &
-#fi
+if [[ ! `pidof lxpolkit` ]]; then
+	/usr/bin/lxpolkit &
+fi
 
-# Launch keybindings daemon
-sxhkd -c $HOME/.config/bspwm/sxhkd/sxhkdrc &
+# Lauch keybindings daemon
+sxhkd -c "$BSPDIR"/sxhkdrc &
 
 # Network Applet
 nm-applet &
@@ -166,7 +174,5 @@ wmctrl -r Spotify -t 9
 bspcolors
 bspbar
 bspcomp
-
-# Fix non-parenting windows
-wmname LG3D
-
+bspdunst
+bspfloat &

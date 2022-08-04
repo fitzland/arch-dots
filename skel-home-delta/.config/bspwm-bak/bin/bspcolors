@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-## Copyright (C) 2020-2021 Aditya Shakya <adi1090x@gmail.com>
+## Copyright (C) 2020-2022 Aditya Shakya <adi1090x@gmail.com>
 ## Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
 
 ## A script to get colours from xrdb & deploy it to polybar, alacritty & rofi.
@@ -29,6 +29,7 @@ getcolors () {
 	ALTWHITE="$(xrdb -query | grep 'color15:'| awk '{print $NF}')"
 }
 
+## Write polybar colors file with current theme colors
 bspbar () {
 	cat > $DIR/polybar/colors <<- EOF	
 	[color]
@@ -54,6 +55,7 @@ bspbar () {
 	EOF
 }
 
+## Write alacritty colors.yml file with current theme colors
 bspterm () {
 	cat > "$DIR"/alacritty/colors.yml <<- _EOF_
 		## Colors configuration
@@ -87,25 +89,52 @@ bspterm () {
 	_EOF_
 }
 
+## Write rofi colors.rasi file with current theme colors
 bsprofi () {
 	cat > $DIR/rofi/themes/colors.rasi <<- EOF	
 	* {
-		background:			${BACKGROUND};
+		background:		${BACKGROUND};
 		foreground:			${FOREGROUND};
 		selected:			${BLUE};
 		highlight:			${YELLOW};
 		urgent:				${RED};
 		on:					${GREEN};
-		off:				${RED};
+		off:					${RED};
 	}
 	EOF
 }
 
+## Write dunstrc file with current theme colors
+bspdunst () {
+	sed -i '/urgency_low/Q' "$DIR"/dunstrc
+	cat >> "$DIR"/dunstrc <<- _EOF_
+		[urgency_low]
+		timeout = 2
+		background = "${BACKGROUND}"
+		foreground = "${FOREGROUND}"
+		frame_color = "${BLUE}"
+
+		[urgency_normal]
+		timeout = 5
+		background = "${BACKGROUND}"
+		foreground = "${FOREGROUND}"
+		frame_color = "${BLUE}"
+
+		[urgency_critical]
+		timeout = 0
+		background = "${BACKGROUND}"
+		foreground = "${FOREGROUND}"
+		frame_color = "${RED}"
+	_EOF_
+}
+
+## Execute functions and run main 
 main () {
 	getcolors
 	bspbar
 	bspterm
 	bsprofi
+	bspdunst
 }
 
 main
