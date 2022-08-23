@@ -1,20 +1,3 @@
-exit
-yay spotify
-cleanup
-exit
-upall
-yay wd719
-yay aic
-cleanup
-yay upd7
-upall
-exit
-upall
-cleanup
-exit
-upall
-exit
-upall
 cleanup
 exit
 upall
@@ -497,4 +480,21 @@ upall
 exit
 upall
 cleanup
+exit
+dots
+ls
+./010-backup-home.sh 
+./git-v1.sh 
+exit
+upall
+cleanup
+exit
+cd downloads/tarballs/
+ls
+sudo ./PDFStudio_2021_linux64.sh 
+exit
+upall
+cleanup
+exit
+upall
 exit

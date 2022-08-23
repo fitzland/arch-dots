@@ -8,12 +8,15 @@
 sh ~/.screenlayout/monitor.sh &
 
 # Kill already running process
-_ps=(picom dunst ksuperkey mpd xfce-polkit xfce4-power-manager)
+_ps=(picom dunst mpd xfce4-power-manager)
 for _prs in "${_ps[@]}"; do
 	if [[ `pidof ${_prs}` ]]; then
 		killall -9 ${_prs}
 	fi
 done
+
+# num lock activated
+exec --no-startup-id numlockx on
 
 # Set Compose key
 setxkbmap -option compose:rctrl &
@@ -21,8 +24,10 @@ setxkbmap -option compose:rctrl &
 # Fix cursor
 xsetroot -cursor_name left_ptr
 
-# Polkit agent
-/usr/lib/xfce-polkit/xfce-polkit &
+# polkit agent
+if [[ ! `pidof xfce-polkit` ]]; then
+	/usr/lib/xfce-polkit/xfce-polkit &
+fi
 
 # Launch keybindings daemon
 sxhkd -c $HOME/.config/i3/sxhkdrc &
@@ -30,21 +35,20 @@ sxhkd -c $HOME/.config/i3/sxhkdrc &
 # Enable power management
 xfce4-power-manager &
 
-# Enable Super Keys For Menu
-#ksuperkey -e 'Super_L=Alt_L|F1' &
-#ksuperkey -e 'Super_R=Alt_L|F1' &
-
 # Start dropbox
 exec dropbox &
 
-# Restore wallpaper
-hsetroot -cover ~/.config/i3/wallpapers/default.png
+# set wallpaper
+exec --no-startup-id sleep 2 && nitrogen --restore
+#exec --no-startup-id feh --bg-fill /usr/share/endeavouros/backgrounds/endeavouros_i3.png
+#hsetroot -cover ~/.config/i3/wallpapers/default.png
+feh --no-xinerama --no-fehbg --bg-scale /usr/share/backgrounds/endeavouros-hal.png
 
 # Lauch notification daemon
 ~/.config/i3/bin/i3dunst.sh
 
 # Lauch polybar
-~/.config/i3/bin/i3bar.sh
+#~/.config/i3/bin/i3bar.sh
 
 # Lauch compositor
 ~/.config/i3/bin/i3comp.sh

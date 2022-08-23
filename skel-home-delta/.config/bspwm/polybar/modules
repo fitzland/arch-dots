@@ -384,7 +384,7 @@ type = custom/text
 content = ◆
 
 content-background = ${color.BACKGROUND}
-content-foreground = ${color.BLACK}
+content-foreground = ${color.ALTBLACK}
 content-padding = 2
 
 [module/arch-updates]

@@ -1,14 +1,3 @@
-cleanup
-exit
-upall
-cleanup
-exit
-upall
-exit
-cleanup
-exit
-upall
-cleanup
 exit
 upall
 yay brscan
@@ -497,4 +486,15 @@ upall
 cleanup
 exit
 upall
+exit
+dots
+ls
+./010-backup-home.sh 
+alias
+tozsh
+exit
+yay zsh
+exit
+dots
+./git-v1.sh 
 exit

@@ -50,7 +50,7 @@ font-3 = "Iosevka:style=bold:"size=12;3"
 
 modules-left = bspwm sep mod sep title
 modules-center = kernel
-modules-right = volume sep ethernet sep clock
+modules-right = volume sep mpd sep clock
 
 separator =
 spacing = 0

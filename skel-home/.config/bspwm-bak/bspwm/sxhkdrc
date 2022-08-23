@@ -20,8 +20,8 @@ super + F3
     inkscape
 
 # Gimp
-super + F4
-    gimp
+super + {_,shift} +F4
+    {gimp,shotwell}
 
 # Meld
 super + F5
