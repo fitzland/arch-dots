@@ -1,26 +1,3 @@
-cd contest/
-cd. 
-cd ..
-ls
-exit
-sudo apt search qogir
-exit
-sudo apt install bspwm
-sudo apt install wmname -y
-exit
-sudo apt install jq -y
-exit
-sudo apt install net-tools -y
-exit
-sudo apt install libreoffice
-exit
-sudo add-apt-repository ppa:mozillacorp/mozillavpn
-sudo apt update
-sudo apt install mozillavpn
-cd /etc/xdg/
-cd autostart/
-cd menus/
-cd
 $HOME/.fehbg
 sudo apt install gnome-sushi -y
 upall
@@ -497,4 +474,27 @@ yay reader
 yay x-app
 exit
 upall
+exit
+./windows 
+./mpd 
+./asroot 
+yay dropbox
+yay reader
+yay x-app
+upall
+dots
+ls
+nano 010-backup-home.sh 
+./010-backup-home.sh 
+./git-v1.sh 
+exit
+yay route
+exit
+yay net-tools
+yay wd7
+yay upd7
+yay aic
+exit
+yay libreoffice
+yay libmythes
 exit

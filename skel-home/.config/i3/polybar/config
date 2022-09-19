@@ -132,13 +132,13 @@ font-3 = "Inconsolata Nerd Font:Regular:size=14;3"
 
 ; Modules are added to one of the available blocks
 ;   modules-left = cpu ram
-;   modules-center = title
+;   modules-center = title 
 ;   modules-right = ipc clock
 
 # Default
-modules-left = dot i3 dot 
-modules-center = xwindow
-modules-right = volume dot wired-network dot clock dot
+modules-left = dot i3 dot xwindow 
+modules-center = network-localip dot network-ipinfo 
+modules-right = volume dot networkspeedup networkspeeddown dot clock dot
 
 # Alternate
 ;modules-left = openbox 2LD cpu 3LD memory 4LD filesystem 5LD
@@ -363,9 +363,9 @@ font-3 = "Inconsolata Nerd Font:Regular:size=12;4"
 ; Modules are added to one of the available blocks
 
 # Default
-modules-left = dot i3 dot
-modules-center = xwindow
-modules-right = wireless-network dot cpu dot memory dot date dot
+modules-left = dot i3 dot xwindow
+modules-center = kernel dot arch-updates
+modules-right = cpu dot memory dot date dot
 
 # Alternate
 ;modules-left = openbox 2LD cpu 3LD memory 4LD filesystem 5LD

@@ -131,6 +131,27 @@ label-separator-background = ${color.BACKGROUND}
 
 ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 
+[module/mod]
+type = internal/bspwm
+
+format = <label-mode>
+format-background = ${color.BACKGROUND}
+format-foreground = ${color.YELLOW}
+format-underline = ${color.YELLOW}
+format-padding = 1
+
+label-monocle = "Monocle"
+label-tiled = "Tiled"
+
+label-floating = ", Float"
+label-pseudotiled = ", Pseudo"
+label-fullscreen = ", Full"
+
+label-locked = " | Locked"
+label-sticky = " | Sticky"
+label-private = " | Private"
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 
 [module/cpu]
 type = internal/cpu
@@ -615,6 +636,95 @@ ramp-signal-font = 2
 ;;animation-packetloss-1-foreground = #000000
 ; Framerate in milliseconds
 ;;animation-packetloss-framerate = 500
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+[module/arch-updates]
+type = custom/script
+exec = ~/.config/i3/polybar/scripts/check-arch-updates.sh
+interval = 1000
+label = %output%
+format-foreground = ${color.FOREGROUND}
+format-background = ${color.BACKGROUND}
+format-prefix = "Arch: "
+format-prefix-foreground = ${color.MAGENTA}
+
+
+[module/aur-updates]
+type = custom/script
+exec = ~/.config/i3/polybar/scripts/check-aur-updates.sh
+interval = 1000
+label = Aur: %output%
+format-foreground = ${color.FOREGROUND}
+format-background = ${color.BACKGROUND}
+format-prefix = "AUR: "
+format-prefix-foreground = ${color.ALTMAGENTA}
+;;format-underline = ${color.ALTMAGENTA}
+
+
+[module/kernel]
+type = custom/script
+exec = uname -r
+tail = false
+interval = 1024
+
+format-foreground = ${color.FOREGROUND}
+format-background = ${color.BACKGROUND}
+format-prefix = ""
+format-prefix-font = 3
+format-prefix-padding = 1
+format-prefix-foreground = ${color.ALTBLACK}
+;format-underline = ${color.ALTBLACK}
+
+################################################################################
+
+[module/networkspeedup]
+;https://github.com/jaagr/polybar/wiki/Module:-network
+type = internal/network
+;interface = wlp3s0
+interface = enp2s0
+;interface = enp0s31f6
+;interface = enp3s0
+label-connected = "%upspeed:8%"
+format-connected = <label-connected>
+format-connected-prefix = ""
+format-connected-prefix-padding = 1
+format-connected-prefix-foreground = ${color.RED}
+format-connected-foreground = ${color.FOREGROUND}
+format-connected-background = ${color.BACKGROUND}
+;format-connected-underline = ${color.ALTRED}
+
+################################################################################
+
+[module/networkspeeddown]
+;https://github.com/jaagr/polybar/wiki/Module:-network
+type = internal/network
+;interface = wlp3s0
+interface = enp2s0
+;interface = enp0s31f6
+;interface = enp3s0
+label-connected = "%downspeed:8%"
+format-connected = <label-connected>
+format-connected-prefix = ""
+format-connected-prefix-padding = 1
+format-connected-prefix-foreground = ${color.GREEN}
+format-connected-foreground = ${color.FOREGROUND}
+format-connected-background = ${color.BACKGROUND}
+;format-connected-underline = ${color.ALTGREEN}
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+[module/network-localip]
+type = custom/script
+exec = ~/.config/i3/polybar/scripts/network-localip.sh
+interval = 60
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+[module/network-ipinfo]
+type = custom/script
+exec = ~/.config/i3/polybar/scripts/network-ipinfo.sh
+interval = 120
 
 ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 
