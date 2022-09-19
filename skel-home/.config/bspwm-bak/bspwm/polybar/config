@@ -14,7 +14,7 @@ include-file = ~/.config/bspwm/polybar/colors
 include-file = ~/.config/bspwm/polybar/modules
 
 [bar/main]
-monitor = DP-0
+monitor = DP-4
 monitor-fallback = DP-5
 monitor-strict = false
 override-redirect = false

@@ -4,7 +4,7 @@
 ## Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
 
 DIR="$HOME/.config/i3"
-rofi_command="rofi -theme $DIR/rofi/themes/powermenu.rasi"
+rofi_command="rofi -theme $DIR/rofi/themes/powermenu-square.rasi"
 uptime=$(uptime -p | sed -e 's/up //g')
 
 # Options
@@ -26,7 +26,8 @@ case $chosen in
 			systemctl reboot
         ;;
     $lock)
-        betterlockscreen --lock
+        i3lock -i ~/.config/i3/wallpapers/i3-lock-screen.png -p default|win -t
+        #betterlockscreen --lock
         ;;
     $suspend)
 			mpc -q pause

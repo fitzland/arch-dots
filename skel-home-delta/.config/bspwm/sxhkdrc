@@ -1,9 +1,11 @@
 ## Copyright (C) 2020-2022 Aditya Shakya <adi1090x@gmail.com>
 ## Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
 ##
-## Keybindings config for Archcraft's BSPWM
+## Keybindings config for BSPWM
 
-##---------- Keybindings for bspwm ----------##
+########################################
+##---------- Keys for Apps -----------##
+########################################
 
 # Search
 super + F1
@@ -18,8 +20,8 @@ super + F3
     inkscape
 
 # Gimp
-super + F4
-    gimp
+super + {_,shift} +F4
+    {gimp,shotwell}
 
 # Meld
 super + F5
@@ -53,7 +55,9 @@ super + {_,shift} + F11
 super + {_,shift} + F12
     {google-chrome-stable --profile-directory='Default',google-chrome-stable --profile-directory='Profile 1'}
 
-##---------- Rofi Launcher & Menus ----------##
+##########################################
+##---------- Launcher & Menus ----------##
+##########################################
 
 # Rofi App Launcher
 super + {_,shift} + slash
@@ -65,7 +69,7 @@ super + {_,shift} + backslash
 
 # Terminal (alacritty)
 super + {_,shift} + Return
-	{i3-sensible-terminal,thunar}
+	{rofi-sensible-terminal,thunar}
 
 # Terminal (fullscreen)
 super + t
@@ -85,7 +89,9 @@ ctrl + alt + t
 super + {w,m,x,r,s}
 	sh ~/.config/bspwm/rofi/bin/{windows,mpd,powermenu,asroot,screenshot}
 
-##---------- Applications ----------##
+##########################################
+##---------- Applications --------------##
+##########################################
 
 # Launch Apps
 super + shift + {f,w,e}
@@ -103,7 +109,9 @@ super + p
 ctrl + alt + k
     betterlockscreen --lock
 
-##---------- System Keys ----------##
+##########################################
+##------ Screenshots -------------------##
+##########################################
 
 # Take a screenshot
 Print
@@ -125,25 +133,31 @@ ctrl + Print
 ctrl + alt + Print
 	takeshot --area
 
+##########################################
+##------ Multimedia Keys ---------------##
+##########################################
+
 # Brighness control
 XF86MonBrightness{Up,Down}
 	brightness{ --inc, --dec}
 	
 # Volume control
 XF86Audio{RaiseVolume,LowerVolume}
-	volume{ --inc, --dec}
+	amixer {-D pulse sset Master 5%+,-D pulse sset Master 5%-}
 
 XF86AudioMute
-	volume --toggle
+	amixer sset Master toggle
 
 XF86AudioMicMute
 	volume --toggle-mic
 	
 # Music control
-XF86Audio{Next,Prev,Play,Stop}
-	playerctl {next,prev,toggle,stop}
+XF86Audio{Next,Prev,Play,Pause}
+	playerctl {next,previous,play,pause}
 
-##---------- Bspwm ----------##
+##########################################
+##------ System Config -----------------##
+##########################################
 
 # Close App
 super + {_,shift + }c
@@ -169,6 +183,10 @@ super + {h,v,q}
 super + ctrl + {1-9}
 	bspc node -o 0.{1-9}
 
+##########################################
+##------ Window States -----------------##
+##########################################
+
 # Fullscreen or Monocle
 super + f
 #	bspc desktop -l next
@@ -187,50 +205,6 @@ super + shift + space
 super + ctrl + {m,x,y,z}
 	bspc node -g {marked,locked,sticky,private}
 
-# Send the window to another edge of the screen
-super + {_,shift + }{Left,Down,Up,Right}
-	bspc node -{f,s} {west,south,north,east} --follow
-
-# Change focus to next window, including floating window
-alt + {_,shift + }Tab
-	bspc node -f {next.local,prev.local}
-
-# Switch workspace
-ctrl + alt + {Left,Right}
-	bspc desktop -f {prev,next}.local
-
-# Switch workspace
-ctrl + alt + {i,o}
-	bspc desktop -f {prev,next}.occupied
-
-# Switch to last opened workspace
-super + {Tab,grave}
-	bspc {node,desktop} -f last
-
-# focus on / move focused window to / other monitor
-super + {_,shift} + {comma,period}
-	bspc node -{f,m} {prev,next} --follow
-
-# focus the next/previous desktop all monitors
-super + {i,o}
-	bspc desktop -f {prev,next}
-
-# Send node to next/previous workspace
-super + shift + {i,o}
-	bspc node -d {prev,next} --follow
-
-# Send node to next/previous workspace local
-super + alt + {i,o}
-	bspc node -d {prev,next}.occupied --follow
-
-# Send node to next/previous workspace local
-super + alt + {Prior,Next}
-	bspc node -d {prev,next}.local --follow
-
-# focus or send to the given desktop
-super + {_,shift + }{1-9,0}
-	bspc {desktop -f,node -d} '^{1-9,10}'
-
 # Expanding windows
 super + control + {Left,Right,Up,Down}
 	bspc node -z {left -20 0,right 20 0,top 0 -20,bottom 0 20}
@@ -243,8 +217,58 @@ super + alt + {Left,Right,Up,Down}
 alt + shift + {Left,Down,Up,Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
 
+##########################################
+##------ Navigation --------------------##
+##########################################
+
+# Send the window to another edge of the screen
+super + {_,shift + }{Left,Down,Up,Right}
+	bspc node -{f,s} {west,south,north,east} --follow
+
+# Change focus to next window, including floating window
+alt + {_,shift + }Tab
+	bspc node -f {next.local,prev.local}
+
+# focus the next/previous desktop all monitors
+ctrl + alt + {Left,Right}
+	bspc desktop -f {prev,next}
+
+# focus the next/previous desktop OCCUPIED
+super + {i,o}
+	bspc desktop -f {prev,next}.occupied
+
+# focus the next/previous desktop LOCAL (current monitor)
+super + alt + {i,o}
+	bspc desktop -f {prev,next}.local
+
+# Send node to next/previous workspace
+super + shift + {i,o}
+	bspc node -d {prev,next} --follow
+
+# Send node to next/previous workspace OCCUPIED
+super + ctrl + {i,o}
+	bspc node -d {prev,next}.occupied --follow
+
+# Send node to next/previous workspace local
+super + ctrl + {Prior,Next}
+	bspc node -d {prev,next}.local --follow
+
+# Switch to last opened workspace
+super + {Tab,grave}
+	bspc {node,desktop} -f last
+
+# focus on / move focused window to / other monitor
+super + {_,shift} + {comma,period}
+	bspc node -{f,m} {prev,next} --follow
+
+# focus or send to the given desktop
+super + {_,shift + }{1-9,0}
+	bspc {desktop -f,node -d} '^{1-9,10}'
+
 # Hide/Unhide Window
 super + shift + h
 	winmask		
 
-##---------- EOF ----------##
+##########################################
+##---------- EOF -----------------------##
+##########################################

@@ -68,7 +68,7 @@ CURRENT_SRATIO='0.50'
 #	done
 #}
 #workspaces
-bspc monitor DP-0 -d '' '' '' '' ''
+bspc monitor DP-4 -d '' '' '' '' ''
 #bspc monitor DP-0 -d '' '' '' '' '' ''
 bspc monitor DP-2 -d '' '' '' '' ''
 #bspc monitor -d 'I' 'II' 'III' 'IV' 'V' 'VI' 'VII' 'VIII'
@@ -138,7 +138,7 @@ for i in ${web[@]}; do
    bspc rule -a $i desktop='^6' follow=on focus=on; done
 
 ## 7 > communication (always open communication apps on workspace-7)
-declare -a chat=(chromium firefox firefoxdeveloperedition Thunderbird TelegramDesktop Hexchat)
+declare -a chat=(chromium firefox-aurora Navigator Thunderbird TelegramDesktop Hexchat)
 for i in ${chat[@]}; do
 	bspc rule -a $i desktop='^7' follow=on focus=on; done
 
@@ -152,7 +152,7 @@ bspc rule -a 'VirtualBox Manager' desktop='^9' follow=on focus=on
 bspc rule -a 'Mozilla VPN' desktop='^9' follow=on focus=on
 
 ## 10 > media (always open media apps on workspace-10)
-declare -a media=(Audacity Music MPlayer Lxmusic obs)
+declare -a media=(Audacity Music MPlayer Lxmusic obs spotify)
 for i in ${media[@]}; do
    bspc rule -a $i desktop='^10' state=floating follow=on focus=on; done
 
@@ -186,7 +186,7 @@ xsettingsd --config="$BSPDIR"/xsettingsd &
 #	/usr/lib/xfce-polkit/xfce-polkit &
 #fi
 
-# Lauch keybindings daemon
+# Launch keybindings daemon
 sxhkd -c "$BSPDIR"/sxhkdrc &
 
 # Enable power management
@@ -208,7 +208,7 @@ nm-applet --indicator &
 blueberry-tray &
 
 # Pamac-stalonetray
-pamac-tray &
+#pamac-tray &
 
 # Restore wallpaper
 feh --no-xinerama --no-fehbg --bg-scale "$CURRENT_WALLPAPER"

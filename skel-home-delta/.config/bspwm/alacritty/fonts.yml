@@ -5,26 +5,31 @@
 font:
   # Normal (roman) font face
   normal:
-    family: "Source Code Pro"
+    #family: "Space Mono"
+    family: "Iosevka Term"
+    #family: "Source Code Pro"
     #style: Regular
 
   # Bold font face
   bold:
-    family: "Source Code Pro"
+    #family: "Space Mono"
+    family: "Iosevka Term"
     #style: Bold
 
   # Italic font face
   italic:
-    family: "Source Code Pro"
+    #family: "Space Mono"
+    family: "Iosevka Term"
     #style: Italic
 
   # Bold italic font face
   bold_italic:
-    family: "Source Code Pro"
+    #family: "Space Mono"
+    family: "Iosevka Term"
     #style: Bold Italic
 
   # Point size
-  size: 13
+  size: 12
 
   # Offset
   #offset:
