@@ -1,2 +1,2 @@
 #!/bin/sh
-feh --no-fehbg --bg-scale --no-xinerama '/usr/share/backgrounds/adapta.png' 
+feh --no-fehbg --bg-scale --no-xinerama '/usr/share/backgrounds/cubic.png' 

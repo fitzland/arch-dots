@@ -16,16 +16,14 @@ func_install() {
     	echo "###############################################################################"
     	echo
     	tput sgr0
-    	sudo apt install -y $1 
+    	sudo dnf install -y $1 
 }
 
 ###############################################################################
-echo "Installation of Visual Studio Code"
+echo "Installation of Micorsoft Edge Stable"
 ###############################################################################
 
 list=(
-software-properties-common
-apt-transport-https
 curl
 )
 
@@ -37,13 +35,13 @@ for name in "${list[@]}" ; do
 	func_install $name
 done
 
-curl -sSL https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
+sudo dnf upgrade --refresh
 
-sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
+sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
 
-sudo apt update
+sudo dnf config-manager --add-repo https://packages.microsoft.com/yumrepos/edge
 
-sudo apt install -y code
+sudo dnf install microsoft-edge-stable
 
 ###############################################################################
 

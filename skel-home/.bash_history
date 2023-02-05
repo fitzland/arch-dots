@@ -1,500 +1,500 @@
-$HOME/.fehbg
-sudo apt install gnome-sushi -y
+sudo rm -r arcolinux-nemesis/
+cd ../fitzland/
+git pull https://github.com/fitzland/arcolinux-nemesis.git
+git clone git@github.com:fitzland/arcolinux-nemesis.git
+cd arcolinux-nemesis/
+nano 110-install-arcolinux-software.sh 
+nano 120-install-core-software.sh 
+ls
+exit
 upall
-update
+exit
+upall
+exit
+upall
 cleanup
-sudo apt search route
-eb
-cd /etc/
-cp i3status.conf ~/.config/i3/
-cd
-cd .config/
-cd
-cd .config/
-cd /usr/share/backgrounds/
-cd contest/
-cd. 
-sudo apt search qogir
-sudo apt install bspwm
-sudo apt install wmname -y
-sudo apt install jq -y
-sudo apt install net-tools -y
-sudo apt install libreoffice
-eba
-dots
-cd ../deb-dots/
-./git-v1.sh 
-git status
-mkdir local
-mkdir -p .local/share
-mv .local/ local
-cd local/
-./010-backup-skel.sh 
-cd skel
-cd config/
-cd .Xresources 
-cd ..
-nano 010-backup-skel.sh 
-cd skel/config/
+exit
+upall
+cleanup
+exit
+upall
+exit
+upall
+cleanup
+exit
+upall
+cleanup
+exit
+ping google.com
+exit
+upall
+cleanup
+exit
+upall
+cleanup
+exit
+ping 192.168.1.1
+192.168.1.137
+ping192.168.1.137
+ping 192.168.1.137
+192.168.1.147
+ping 192.168.1.147
+192.168.1.122
+ping 192.168.1.122
+exit
+upall
+cleanup
+exit
+upall
+cleanup
+exit
+yay gnome-keyring
+exit
+upall
+exit
+upall
+cleanup
+exit
+yay gnome-keyring
+upall
+cd /efi/loader/
+cd entries/
+ls
+cleanup
+exit
+upall
+ls
 ls -la
-cd .Xresources.d/
-ls
+rm .bashrc
+cp .bashrc.bak .bashrc
 exit
-cd config/
-cd .Xresources 
-nano 010-backup-skel.sh 
-cd skel/config/
+sudo rm arcolinux-nemesis/
+sudo rm -d arcolinux-nemesis/
+sudo rm -r arcolinux-nemesis/
+cd ../fitzland/
+git pull https://github.com/fitzland/arcolinux-nemesis.git
+git clone git@github.com:fitzland/arcolinux-nemesis.git
+nano 110-install-arcolinux-software.sh 
+nano 120-install-core-software.sh 
+cleanup
+cleanup
+cleanup
+cleanup
+ping google.com
+cleanup
+cleanup
+ping 192.168.1.1
+192.168.1.137
+ping192.168.1.137
+ping 192.168.1.137
+192.168.1.147
+ping 192.168.1.147
+192.168.1.122
+ping 192.168.1.122
+cleanup
+cleanup
+cleanup
+cd /efi/loader/
+cd entries/
+cleanup
 ls -la
-cd .Xresources.d/
-cd ~/.config/i3
-cd ..
-sudo chmod +x i3-xwindow.sh 
-mv i3-xwindow.sh ./bin/
-cd bin/
-ls
-./i3-xwindow.sh 
-exit
-i3-msg workspace $(($(i3-msg -t get_workspaces | tr , '\n' | grep '"num":' | cut -d : -f 2 | sort -rn | head -1) + 1))
-exit
-sudo apt update
-sudo apt upgrade
-exit
-sudo apt install i3blocks
-exit
-sudo apt install blueberry-tray
-sudo apt install blueberry
-sudo apt search blueberry
-exit
-sudo apt search volumeicon
-sudo apt install volumeicon-alsa
-sudo apt purge volumeicon-alsa
-exit
-git clone https://github.com/madhat2r/polybar-i3-window.git ~/.config/polybar/scripts/polybar-i3-window
-ls
-pip install i3ipc
-pip install python3-pip
-sudo apt install python3-pip
-exit
-sudo apt install tasksel
-tasksel --help
-tasksel --list-tasks
-sudo tasksel
-sudo apt install nautilus-dropbox
-exit
-sudo apt remove gnome-terminal
-exit
-sudo apt remove gnome-terminal
-cd git
-dots
-ls
-./010-backup-skel.sh 
-git status
-./git-v1.sh 
-exit
-./git-v1.sh 
-update
-sudo apt search lightdm
-sudo apt install lightdm-settings -y
-cleanup
-exit
-lightdm-settings 
-sudo lightdm-settings 
-exit
-sudo lightdm-settings 
-sudo apt purge xfce4
-sudo apt remove xfce4-*
-update
-sudo apt install thunar
-sudo apt install lightdm
-sudo apt install sddm
-sudo apt purge sddm
-cleanup
-sudo apt install lightdm-settings
-exit
-sudo apt install lightdm
-sudo lightdm-settings
-sudo apt install lightdm-settings
-exit
-xfontsel
-nano ~/.Xresources
-cd ./.Xresources.d/
-ls
-nano fonts 
-exit
-wzir
-exit
-update
-cleanup
-exit
-sudo apt install catfish
-update-fc
-exit
-cd .Xresources.d/
-ls
-nano colors 
-cd
-nano .Xresources
-exit
-dots
-ls
-./010-backup-skel.sh 
-./git-v1.sh 
-exit
-merge
-exr
-exit
-sudo apt install guake
-exit
-sudo apt update
-sudo apt upgrade
-cleanup
-exit
-update
-exit
-sudo apt update
-eba
-update
-sudo apt upgrade
-cleanup
-exit
-cleanup
-update
-sudo apt update
-eba
-update
-sudo apt upgrade
-cleanup
-sudo apt install python3-zunclient
-Run `ls -1 /sys/class/backlight/` to list available graphics cards.
-ip link | awk '/state UP/ {print $2}' | tr -d :
-ls -1 /sys/class/backlight/
-lspci | grep VGA
-cd /sys/class/
-cd ../backlight/
-cd ..
-cdls
-cd graphics/
-ls
-exit
-xprop
-exit
-cd graphics/
-xprop
-./010-backup-skel.sh 
-.git/
-dots
-ls
-./git-v1.sh 
-exit
-dots
-./git-v1.sh 
-exit
-dots
-git status
-exit
-efibootmgr
-efibootmgr --help
-efibootmgr -B
-efibootmgr -B 0000
-efibootmgr -B -b 0000
-sudo efibootmgr -B -b 0000
-exit
-update-fc
-exit
-xprop
-exit
-sudo apt install kvantum
-sudo apt install qt5ct
-exit
-sudo apt search materia
-sudo apt install materia-gtk-theme
-exit
-sudo apt install catfish -y
-cleanup
-exit
-sudo apt install playerctl
-exit
-update-fc
-exit
-dots
-ls
-./010-backup-skel.sh 
-./git-v1.sh 
-exit
-update
-cleanup
-sudo apt purge guake
-exit
-sudo apt install kwrite
-sudo apt purge kate
-exit
-update
-cleanup
-exit
-cleanup
+rm .bashrc
+cp .bashrc.bak .bashrc
 cd git/
-cd fitzland/
-git clone https://github.com/fitzland/archcraft-bspwm.git
-ls
-exit
-git clone https://github.com/fitzland/archcraft-bspwm.git
-cd downloads/iso/
-rm EndeavourOS_Artemis_neo_22_8.iso 
-sudo dd if=EndeavourOS_Artemis_nova_22_9.iso of=/dev/sdd bs=4M && sync
-ls
-sudo dd if=arcolinuxb-i3-v22.06.07-x86_64.iso of=/dev/sdd bs=4M && sync
-sudo dd if=MX-21.2_KDE_x64.iso of=/dev/sdd bs=4M && sync
-sudo dd if=debian-11.5.0-amd64-netinst.iso of=/dev/sdd bs=4M && sync
-exit
-cd images/wallpapers/system/
-ls
-sudo cp *.jpg /usr/share/backgrounds/
-sudo cp *.png /usr/share/backgrounds/
-exit
-sudo apt install git
-exit
-sudo apt install git
-cd images/wallpapers/system/
-sudo cp *.jpg /usr/share/backgrounds/
-sudo cp *.png /usr/share/backgrounds/
-cd /usr/share/backgrounds/
-ls
-exit
-sudo apt install feh
-sudo apt install picom
-exit
-cd images/wallpapers/system/
-cd images/wallpapers/system/
-mogrify -format png *.jpg
-rm *.jpg
-sudo cp *.png /usr/share/backgrounds/
-cd /usr/share/backgrounds/
-ls
-exit
-update
-cleanup
-exit
-update-fc
-exit
-cd images/wallpapers/system/
-ls
-sudo cp nord*.png /usr/share/backgrounds/
-exit
-sudo apt install lxappearance
-exit
-./010-backup-skel.sh 
-./git-v1.sh 
-update
-cleanup
-sudo apt purge guake
-sudo apt install kwrite
-sudo apt purge kate
-update
-cleanup
-cleanup
-git clone https://github.com/fitzland/archcraft-bspwm.git
-git clone https://github.com/fitzland/archcraft-bspwm.git
-cd downloads/iso/
-rm EndeavourOS_Artemis_neo_22_8.iso 
-sudo dd if=EndeavourOS_Artemis_nova_22_9.iso of=/dev/sdd bs=4M && sync
-sudo dd if=arcolinuxb-i3-v22.06.07-x86_64.iso of=/dev/sdd bs=4M && sync
-sudo dd if=MX-21.2_KDE_x64.iso of=/dev/sdd bs=4M && sync
-sudo dd if=debian-11.5.0-amd64-netinst.iso of=/dev/sdd bs=4M && sync
-cd images/wallpapers/system/
-sudo cp *.jpg /usr/share/backgrounds/
-sudo cp *.png /usr/share/backgrounds/
-sudo apt install git
-sudo apt install git
-cd images/wallpapers/system/
-sudo cp *.jpg /usr/share/backgrounds/
-sudo cp *.png /usr/share/backgrounds/
-cd /usr/share/backgrounds/
-sudo apt install feh
-sudo apt install picom
-cd images/wallpapers/system/
-cd images/wallpapers/system/
-mogrify -format png *.jpg
-rm *.jpg
-sudo cp *.png /usr/share/backgrounds/
-cd /usr/share/backgrounds/
-update
-cleanup
-update-fc
-cd images/wallpapers/system/
-sudo cp nord*.png /usr/share/backgrounds/
-sudo apt install lxappearance
-cd git/
-cd archcraft/
-cd alacritty/
-cd fitzland/
-cd themes/
-cd dracula-theme/
-git status
-cd otis-theme/
-cd nordic-theme/
-cd matcha-theme/
-cd arc-theme/
-cd adapta-gtk-theme/
-git clone https://github.com/fitzland/Kripton.git
-mv Kripton/ kripton-theme
-cd kripton-theme/
-git pull
+cd dubois/
+less keys
+cd usr/
+cd share/
+cd arcolinux-spices/
+cd scripts/
+./get-the-keys-and-repos.sh 
+yay polybar
+dots
+./get-ac-archcraft-repos.sh 
+cd arcolinux-nemesis/
 cd ..
-cd sweet-theme/
+cd bspwm-scripts/
+./100-display-manager-and-desktop.sh 
+./110-development-software.sh 
+nano 110-development-software.sh 
+sudo pacman -Rns micro
+sudo pacman -Rns atom
+./120-sound.sh 
+./130-bluetooth.sh 
+./140-printers.sh 
+./200-software-arch-linux.sh 
+yay gnome-keyrink
+yay gnome-keyring
+yay pamac
+nano 300-software-arcolinux-3thparty.sh 
+./300-software-arcolinux-3thparty.sh 
+./400-software-arcolinux-xlarge.sh 
+./500-software-distro-specific.sh 
+./600-additional-arcolinux-software.sh 
 ls
-nano README.md 
-ls -la
+upall
 exit
-cd sweet-theme/
-nano README.md 
-ls -la
-cd /etc/apt/
-cd sources.list.d/
-nano mx.list 
-nano google-chrome.list 
-nano debian.list 
-cd ..
-nano sources.list
-nano trusted.gpg
-cd trusted.gpg.d/
-ls
-exit
+./600-additional-arcolinux-software.sh 
+upall
 dots
 ls
-./010-backup-skel.sh 
-git status
-./git-v1.sh 
+nano 050-wallpapers.sh 
+./050-wallpapers.sh 
 exit
-eba
-sudo pacman -Syyu
-sudo pacman -S neofetch
-exit
-neofetch
-sudo pacman -S polybar
-exit
-cd images/wallpapers/system/
-cd /usr/share/
-ls
-sudo mkdir -p /usr/share/backgrounds
-cd
-cd images/wallpapers/system/
-sudo cp *.png /usr/share/backgrounds/
-exit
-sudo pacman -S feh
-exit
-exit
-yay alacritty
-exit
-yay microsoft visual studo code
-yay visual studio
-yay microsoft edge
-exit
-yay microsoft edge
-exit
+upall
 yay picom
 exit
-cd /etc/skel/
-ls
-ls -la
-nano .Xresources 
-nxr
-eba
-exr
+upall
+cleanup
 exit
-yay picom
-cd /etc/skel/
-ls -la
-nano .Xresources 
-nxr
-eba
-exr
-cd /etc/pacman.d/
-nano arcolinux-mirrorlist 
-cd ..
-ls
-sudo pacman -Syyu
-yay keyring
-nano pacman.conf 
-sudo nano pacman.conf 
-update
-exit
-nxr
-eba
-exr
-yay spotify
-dots
-sudo pacman -Syy
-ls
-nano base-shell-script.sh 
-nano get-al-arcolinux-repos.sh 
-./get-al-arcolinux-repos.sh 
-update
+yay minecraft
 exit
 yay google-chrome
-yay microsoft edge
-yay firefox-developer edition
 exit
-sudo pacman -Rns firefox
+upall
 exit
-sudo pacman -Rns xfce4-terminal
-sudo pacman -Rns xfce4-terminal endeavouros-xfce4-terminal-colors 
-exit
-update
-exit
-update
+eb
+eba
+tosddm
+tosddm
+cd /etc/skel/
+ls -la
+nano set_once.sh 
+nano .Xresources 
+nano .profile 
+nano .bashrc 
+cd ..
+ls
+upall
 cleanup
+expac
+alias
+microcode
+rip
+att
 exit
-yay i3lock
+alias
+eb
+eba
+exit
+tozsh
+exit
+sudo dnf neofetch
+sudo dnf install neofetch
+sudo dnf update
+ping google.com
+exit
+eb
+exit
+eb
+dots
+cd ..
+ls
+exit
+tozsh
+sudo dnf neofetch
+sudo dnf install neofetch
+ping google.com
+eb
+sudo dnf update
+sudo dnf install gnucash
+sudo dnf install keepassxc
+sudo dnf install ghostwriter
+cd ..
+mv arch-dots my-dots
+ls
+eba
+dots
+exit
+sudo dnf install neofetch
+ping google.com
+eb
+sudo dnf install gnucash
+sudo dnf install keepassxc
+sudo dnf install ghostwriter
+mv arch-dots my-dots
+dots
+mkdir install
+mkdir fedora
+mkdir arch
+mkdir deb
+cd ..
+./git-v1.sh 
+git status
+cd install/
+cd fedora/
+ls
+nano 305-software-microsoft-edge.sh
+sudo dnf install microsoft-edge
+sudo dnf install microsoft-edge-stable
+sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+sudo dnf config-manager --add-repo https://packages.microsoft.com/yumrepos/edge
+sudo dnf updat
+./305-software-microsoft-edge.sh 
+eba
+exit
+sudo dnf install microsoft-edge-stable
+sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+sudo dnf config-manager --add-repo https://packages.microsoft.com/yumrepos/edge
+sudo dnf updat
+./305-software-microsoft-edge.sh 
+eba
+dots
+cd install/
+cd fedora/
+./301-software-visual-studio-code.sh 
+sudo dnf install inkscape
+sudo dnf install ffmpeg -y
+dnf repolist | grep rpmfusion
+sudo nano /etc/dnf/dnf.conf 
 update
+sudo dnf install gimp
+nano 302-software-google-chrome.sh 
+./302-software-google-chrome.sh 
+ls
+cp 301-software-visual-studio-code.sh 306-software-ms-fonts.sh
+./306-software-ms-fonts.sh 
+nano 306-software-ms-fonts.sh 
+nano 301-software-visual-studio-code.sh 
+cp 306-software-ms-fonts.sh 307-software-nvidia-drivers.sh
+nano 307-software-nvidia-drivers.sh 
+./307-software-nvidia-drivers.sh 
+sudo dnf install lpf-spotify-client
+sudo usermod -a -G pkg-build $USER
+exit
+update
+lpf approve spotify-client
+sudo -u pkg-build lpf build spotify-client
+sudo dnf install /var/lib/lpf/rpms/spotify-client/spotify-client-*.rpm
+sudo dnf search i3
+sudo dnf search bspwm
+sudo dnf install bspwm
+exit
+yay dnf install polybar
+sudo dnf install polybar
+exit
+update
+exit
+sudo dnf install rofi
+sudo dnf install rofi -y
+sudo dnf install feh
+sudo dnf install feh -y
+exit
+sudo dnf search cursors
+sudo dnf search libreoffice
+exit
+sudo dnf search efibootmgr
+sudo dnf install efibootmgr -y
+efibootmgr 
+sudo efibootmgr -b 0000 -B
+sudo efibootmgr -b 0001 -B
+sudo efibootmgr -o 0006,0003,0002,0005
+exit
+sudo dnf install lxappearance -y
+exit
+lxappearance
+exit
+sudo dnf install dropbox -y
+sudo dnf search dropbox
+exit
+lxappearance
+exit
+efibootmgr
+sudo efibootmgr -b 0005 -B
+sudo efibootmgr -b 0002 -B
+exit
+cd /usr/bin/
+ls
+exit
+update
+sudo dnf install gnome-tweaks gnome-extensions-app
+sudo dnf copr enable kwizart/fedy
+sudo dnf install fedy -y
+exit
+efibootmgr
+sudo efibootmgr -b 0005 -B
+sudo efibootmgr -b 0002 -B
+cd /usr/bin/
+update
+sudo dnf install gnome-tweaks gnome-extensions-app
+sudo dnf copr enable kwizart/fedy
+sudo dnf install fedy -y
+cd downloads/ppd/
+gunzip linux-brprinter-installer-2.2.3-1.gz
+gunzip linux-brprinter-installer-2.2.3-1
+ls -la
+cd brother/
+gunzip linux-brprinter-installer-2.2.3-1.gz 
+cd l2690dw/
+cd ..
+ls
+sudo bash linux-brprinter-installer-2.2.3-1 
+exit
+sudo fwupdmgr refresh --force
+sudo fwupdmgr get-update
+sudo fwupdmgr get-updates
+sudo fwupdmgr update
+exity
+exit
+update
+exit
+update
+sudo dnf install akmod-nvidia xorg-x11-drv-nvidia-cuda
+lsmod | grep nvidia
+sudo dnf remove *nvidia*
+sudo dnf purge *nvidia*
+sudo akmods --force
+sudo dnf install xorg-x11-drv-nvidia-cuda.x86_64
+nvidia-smi
+exit
+sudo akmods --force
+sudo dnf install xorg-x11-drv-nvidia-cuda.x86_64
+nvidia-smi
+cd downloads/
+cd is
+l
+rm debian-11.5.0-amd64-netinst.iso 
+rm archcraft-2022.07.18-x86_64.iso 
+ls
+sudo dd if=cldx-23-x86_64.iso of=/dev/sdc bs=4M && sync
+sudo dd if=linuxmint-21.1-xfce-64bit.iso of=/dev/sdc bs=4M && sync
+sudo dd if=pop-os_22.04_amd64_nvidia_20.iso of=/dev/sdc bs=4M && sync
+exit
+sudo dd if=pop-os_22.04_amd64_nvidia_20.iso of=/dev/sdc bs=4M && sync
+sudo dnf upgrade
+sudo dnf update
+exit
+update
+exit
+sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+sudo sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/vscode.repo'
+dnf check-update
+sudo dnf install code
+sudo dnf install google-chrome -y
+sudo dnf install google-chrome-stable -y
+cd downloads/tarballs/
+ls
+sudo ./PDFStudio_v2021_2_1_linux64.sh 
+sudo dnf search dropbox
+sudo dnf install nautilus-dropbox
+exit
+sudo dnf search qtile
+sudo dnf search i3
+sudo dnf install sway -y
+sudo dnf search awesome
+sudo dnf search bspwm
+sudo dnf install bspwm -y
+sudo dnf install rofi -y
+sudo dnf install polybar -y
+sudo dnf install alacritty -y
+exit
+sudo dnf install bspwm -y
+sudo dnf install rofi -y
+sudo dnf install polybar -y
+sudo dnf install alacritty -y
+cd downloads/iso/
+sudo dd if=EndeavourOS_Cassini_22_12.iso of=/dev/sdc bs=4M && sync
+rm archcraft-2023.01.01-x86_64.iso 
+sudo dd if=archcraft-2023.01.20-x86_64.iso of=/dev/sdc bs=4M && sync
+rm arcolinuxd-v22.04.02-x86_64.iso 
+rm pop-os_22.04_amd64_nvidia_20.iso 
+ls
+sudo dd if=arcolinuxd-v23.01.03-x86_64.iso of=/dev/sdc bs=4M && sync
+exit
+sudo dd if=arcolinuxd-v23.01.03-x86_64.iso of=/dev/sdc bs=4M && sync
+exit
+dots
+cd install/
+cd arch/
+ls
+./110-development-software.sh 
+upall
+rm pop-os_22.04_amd64_nvidia_20.iso 
+sudo dd if=arcolinuxd-v23.01.03-x86_64.iso of=/dev/sdc bs=4M && sync
+sudo dd if=arcolinuxd-v23.01.03-x86_64.iso of=/dev/sdc bs=4M && sync
+./110-development-software.sh 
+upall
+dots
+cd install/
+cd arch/
+./120-sound.sh 
+./130-bluetooth.sh 
+nano 200-software-arch-linux.sh 
+./200-software-arch-linux.sh 
+nano 500-software-distro-specific.sh 
+./500-software-distro-specific.sh 
+ls
+nano 600-additional-arcolinux-software.sh 
+tozsh
+exit
+yay dropbox
+yay dropbox
+cd git/fitzland/
+cd my-dots/
+ls
+./050-wallpapers.sh 
+exit
+sudo pacman -Rns geany
+exit
+./110-development-software.sh 
+cd install/
+cd arch/
+./120-sound.sh 
+./130-bluetooth.sh 
+nano 200-software-arch-linux.sh 
+./200-software-arch-linux.sh 
+nano 500-software-distro-specific.sh 
+./500-software-distro-specific.sh 
+nano 600-additional-arcolinux-software.sh 
+tozsh
+yay dropbox
+yay dropbox
+cd git/fitzland/
+cd my-dots/
+./050-wallpapers.sh 
+sudo pacman -Rns geany
+dots
+./get-al-arcolinux-repos.sh 
+./get-ed-endeavour-repos.sh 
+npacman
+cd ..
+cd dubois/
+cd usr/
+cd share/
+cd arcolinux-spices/
+cd scripts/
+ls
+./get-the-keys-and-repos.sh 
+upall
+cleanup
+yay pamac
+exit
+yay lxsession
 exit
 yay spotify
 exit
-yay keepassxc
-yay gnucash
-dots
 ls
-yay chaotic
-update
-sudo pacman -Syy
-exit
-sudo pacman -Fy
-exit
-sudo pacman -Fy
-cd ~/.config/i3/rofi/
-cd bin/
-ls
-./network_menu 
-./windows 
-./mpd 
-./asroot 
-exit
-yay dropbox
-exit
-yay reader
-yay x-app
+upall
+cleanup
 exit
 upall
 exit
-./windows 
-./mpd 
-./asroot 
-yay dropbox
-yay reader
-yay x-app
 upall
-dots
+cleanup
+exit
+yay gnucash-docs
+exit
+yay gnucash-docs
+cd downloads
+cd tarballs/
 ls
-nano 010-backup-home.sh 
-./010-backup-home.sh 
-./git-v1.sh 
+sudo ./PDFStudio_v2021_2_1_linux64.sh 
 exit
-yay route
+cd /dev/sdc 
 exit
-yay net-tools
-yay wd7
-yay upd7
-yay aic
+yay brother mfcl2690dw
 exit
-yay libreoffice
-yay libmythes
+upall
+exit
+tozsh
 exit

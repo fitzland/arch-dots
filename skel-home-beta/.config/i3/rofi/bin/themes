@@ -95,10 +95,10 @@ case $chosen in
         set_style  'flowers' 'Kripton' 'Zafiro' 'Fluent-dark'
         ;;
     $theme_8)
-        set_style  'groot' 'Groot' 'Luna-Dark' 'Pear'
+        set_style  'groot' 'Groot' 'Zafiro' 'Qogir'
         ;;
     $theme_9)
-        set_style  'gruvbox' 'Gruvbox' 'Luna-Dark' 'Future-dark'
+        set_style  'gruvbox' 'Gruvbox' 'Luna-Dark' 'Nordic-cursors'
         ;;
     $theme_11)
         set_style  'keyboards' 'Sweet-Dark' 'Zafiro-Purple' 'Sweet'
@@ -128,7 +128,7 @@ case $chosen in
         set_style  'wave' 'Wave' 'Luv-Folders-Dark' 'Vimix'
         ;;
     $theme_adapta)
-        set_style  'adapta' 'Matcha-dark-sea' 'Qogir-manjaro-dark' 'Qogir-manjaro-dark'
+        set_style  'adapta' 'Juno-palenight' 'Zafiro-Green' 'Qogir-manjaro-dark'
         ;;
     $theme_cubic)
         set_style  'cubic' 'Hash' 'Paper' 'Adwaita'
@@ -137,7 +137,7 @@ case $chosen in
         set_style  'dracula' 'Dracula' 'Dracula' 'Qogir-ubuntu-dark'
         ;;
     $theme_forest)
-        set_style  'forest' 'Otis-forest' 'Nordic-green' 'Qogir-manjaro-dark'
+        set_style  'forest' 'Otis-forest' 'Zafiro-Green' 'Qogir-manjaro-dark'
         ;;
     $theme_otis)
         set_style  'otis' 'Otis' 'Qogir-manjaro-dark' 'Qogir-manjaro-dark'

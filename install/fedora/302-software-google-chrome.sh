@@ -35,11 +35,11 @@ for name in "${list[@]}" ; do
 	func_install $name
 done
 
-wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo rpm --import https://dl.google.com/linux/linux_signing_key.pub
 
-sudo apt install ./google-chrome-stable_current_amd64.deb
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
 
-sudo rm google-chrome-stable_current_amd64.deb
+sudo dnf install google-chrome-stable_current_x86_64.rpm -y
 
 ###############################################################################
 

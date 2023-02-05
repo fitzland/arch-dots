@@ -34,7 +34,7 @@ include-file = ~/.config/i3/polybar/decor
 ; If unspecified, the application will pick the first one it finds.
 ; $ polybar -m | cut -d ':' -f 1
 ; $ xrandr -q | grep " connected" | cut -d ' ' -f1
-monitor = DP-4
+monitor = DP-2
 
 ; Use the specified monitor as a fallback if the main one is not found.
 monitor-fallback = DP-5
@@ -126,19 +126,19 @@ module-margin-right = 0
 ; See the Fonts wiki page for more details
 
 font-0 = "Iosevka Nerd Font Mono:size=12;3"
-font-1 = "JetBrainsMono Nerd Font:size=14;4"
-font-2 = "SpaceMono Nerd Font:size=14;3"
-font-3 = "Inconsolata Nerd Font:Regular:size=14;3"
+font-1 = "JetBrainsMono Nerd Font:size=14;3"
+font-2 = "SpaceMono Nerd Font:size=8;3"
+font-3 = "Inconsolata Nerd Font:Regular:size=12;4"
 
 ; Modules are added to one of the available blocks
 ;   modules-left = cpu ram
-;   modules-center = title
+;   modules-center = title 
 ;   modules-right = ipc clock
 
 # Default
-modules-left = dot i3 dot 
-modules-center = xwindow
-modules-right = volume dot wired-network dot clock dot
+modules-left = dot i3 dot xwindow 
+modules-center = network-localip dot network-ipinfo 
+modules-right = volume dot networkspeedup networkspeeddown dot clock dot
 
 # Alternate
 ;modules-left = openbox 2LD cpu 3LD memory 4LD filesystem 5LD
@@ -264,7 +264,7 @@ cursor-scroll =
 ; If unspecified, the application will pick the first one it finds.
 ; $ polybar -m | cut -d ':' -f 1
 ; $ xrandr -q | grep " connected" | cut -d ' ' -f1
-monitor = DP-2
+monitor = DP-4
 
 ; Use the specified monitor as a fallback if the main one is not found.
 monitor-fallback = DP-7
@@ -356,16 +356,16 @@ module-margin-right = 0
 ; See the Fonts wiki page for more details
 
 font-0 = "Iosevka Nerd Font Mono:size=12;3"
-font-1 = "JetBrainsMono Nerd Font:size=14;1"
+font-1 = "JetBrainsMono Nerd Font:size=14;3"
 font-2 = "SpaceMono Nerd Font:size=8;3"
 font-3 = "Inconsolata Nerd Font:Regular:size=12;4"
 
 ; Modules are added to one of the available blocks
 
 # Default
-modules-left = dot i3 dot
-modules-center = xwindow
-modules-right = wireless-network dot cpu dot memory dot date dot
+modules-left = dot i3 dot xwindow
+modules-center = kernel dot arch-updates
+modules-right = cpu dot memory dot date dot
 
 # Alternate
 ;modules-left = openbox 2LD cpu 3LD memory 4LD filesystem 5LD
