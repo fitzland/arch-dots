@@ -1,4 +1,4 @@
-/* Copyright (C) 2020-2021 Aditya Shakya <adi1090x@gmail.com> */
+/* Copyright (C) 2020-2022 Aditya Shakya <adi1090x@gmail.com> */
 /* Everyone is permitted to copy and distribute copies of this file under GNU-GPL3 */
 
 configuration {
@@ -101,7 +101,7 @@ element {
     text-color:                     @foreground;
     orientation:                    horizontal;
     border-radius:                  100%;
-    padding:                        25px;
+    padding:                        22.5px 25px 22.5px 25px;
 }
 
 element-icon {

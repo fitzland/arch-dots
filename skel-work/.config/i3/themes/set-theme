@@ -3,10 +3,10 @@
 ## Copyright (C) 2020-2021 Aditya Shakya <adi1090x@gmail.com>
 ## Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
 
-## Apply themes in i3
+## Apply themes in i3wm
 
 CFG="$HOME/.config"
-WMT="$HOME/.config/i3"
+WM="$HOME/.config/i3"
 XRES="$HOME/.Xresources.d"
 
 ## Set Style
@@ -15,7 +15,8 @@ set_style () {
 	feh --bg-scale --no-xinerama /usr/share/backgrounds/${1}
 
 	# apply color-scheme
-	cat "$WMT"/themes/${2} > "$XRES"/colors
+	cat "$WM"/themes/${2} > "$XRES"/colors
+	cat "$WM"/themes/${6} > "$WM"/polybar/colors
 
 	# set gtk theme, icons and cursor
 	if [[ `pidof xsettingsd` ]]; then
@@ -37,8 +38,7 @@ set_style () {
 	fi
 
 	# reload config
-	xrdb ~/.Xresources
-	i3-msg reload
+	i3-msg restart
 }
 
-set_style "${1}" "${2}" "${3}" "${4}" "${5}"
+set_style "${1}" "${2}" "${3}" "${4}" "${5}" "${6}"

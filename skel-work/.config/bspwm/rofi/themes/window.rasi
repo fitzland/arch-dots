@@ -1,15 +1,15 @@
-/* Copyright (C) 2020-2021 Aditya Shakya <adi1090x@gmail.com> */
+/* Copyright (C) 2020-2022 Aditya Shakya <adi1090x@gmail.com> */
 /* Everyone is permitted to copy and distribute copies of this file under GNU-GPL3 */
 
 configuration {
-    font:                           "JetBrainsMono Nerd Font 11";
     show-icons:                     false;
     display-window: 				"Windows :";
-    window-format: 					"{w}  ·  {c}  ·  {t}";
+    window-format: 					"{w} · {c} · {t}";
     disable-history:                false;
 	click-to-exit: 					true;
 }
 
+@import "font.rasi"
 @import "colors.rasi"
 
 window {
@@ -39,7 +39,7 @@ prompt {
 
 textbox-prompt-colon {
 	expand: 						false;
-	str: 							"?";
+	str: 							"";
     border-radius:                  0px;
     background-color:               @highlight;
     text-color:                     @background;

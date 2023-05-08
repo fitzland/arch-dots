@@ -1,56 +1,54 @@
 #!/usr/bin/env bash
 
-## Copyright (C) 2020-2021 Aditya Shakya <adi1090x@gmail.com>
+## Copyright (C) 2020-2022 Aditya Shakya <adi1090x@gmail.com>
 ## Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
 ## Autostart Programs
 
-# Set display from arandr saved script
-sh ~/.screenlayout/monitor.sh &
-
 # Kill already running process
-_ps=(xsettingsd picom dunst lxpolkit)
+_ps=(picom dunst lxpolkit mpd)
 for _prs in "${_ps[@]}"; do
 	if [[ `pidof ${_prs}` ]]; then
 		killall -9 ${_prs}
 	fi
 done
 
-# Lauch xsettingsd daemon
-xsettingsd &
+# polkit agent
+if [[ ! `pidof lxpolkit` ]]; then
+	/usr/bin/lxpolkit &
+fi
 
-# Polkit agent
-/usr/bin/lxpolkit &
-
-# Fix cursor
-xsetroot -cursor_name left_ptr
+# num lock activated
+exec --no-startup-id numlockx on
 
 # Set Compose key
 setxkbmap -option compose:rctrl &
 
+# Fix cursor
+xsetroot -cursor_name left_ptr
+
+# Set display from arandr saved script
+sh ~/.screenlayout/monitor.sh &
+
 # Launch keybindings daemon
-sxhkd -c $HOME/.config/i3/sxhkd/sxhkdrc &
+#sxhkd -c $HOME/.config/i3/sxhkdrc &
 
-# start blueberry app for managing bluetooth devices from tray:
-blueberry-tray &
+# Start dropbox
+exec dropbox start &
 
-# Pamac-stalonetray
-pamac-tray &
+# Start bluetooth
+exec --no-startup-id sleep 2 && blueman-applet &
 
-# Restore wallpaper
-#hsetroot -cover ~/.config/i3/wallpaper.png
-#bash $HOME/.config/i3/wallpaper.png
-bash $HOME/.fehbg
-#nitrogen --restore
+# set wallpaper
+#exec --no-startup-id sleep 2 && nitrogen --restore
 
+# Launch colors
+~/.config/i3/bin/i3colors.sh
 
-# Lauch notification daemon
+# Launch notification daemon
 ~/.config/i3/bin/i3dunst.sh
 
-# Lauch polybar
-#~/.config/i3/bin/i3bar.sh
+# Launch polybar
+~/.config/i3/bin/i3bar.sh
 
-# Lauch compositor
+# Launch compositor
 ~/.config/i3/bin/i3comp.sh
-
-# Start mpd
-#exec mpd &

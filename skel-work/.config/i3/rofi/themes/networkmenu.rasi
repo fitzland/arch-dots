@@ -1,4 +1,4 @@
-/* Copyright (C) 2020-2021 Aditya Shakya <adi1090x@gmail.com> */
+/* Copyright (C) 2020-2022 Aditya Shakya <adi1090x@gmail.com> */
 /* Everyone is permitted to copy and distribute copies of this file under GNU-GPL3 */
 
 configuration {
@@ -20,6 +20,7 @@ window {
     border-color:                  	@selected;
     border-radius:                  12px;
     width:                          450px;
+    height:                         400px;
     location:                       center;
     anchor:                         center;
     x-offset:                       0;
@@ -59,7 +60,7 @@ entry {
 }
 
 inputbar {
-	children: 						[ textbox-prompt-colon, prompt ];
+	children: 						[ textbox-prompt-colon, prompt, entry ];
     spacing:                        0;
     background-color:               @background;
     text-color:                     @foreground;

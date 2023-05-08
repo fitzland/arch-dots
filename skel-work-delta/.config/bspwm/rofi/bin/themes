@@ -27,7 +27,7 @@ case $chosen in
         bash ${BSP}/set-theme  'dracula.png' 'dracula' 'Dracula' 'Dracula' 'Qogir-ubuntu-dark'
         ;;
     $theme_forest)
-        bash ${BSP}/set-theme  'forest.jpg' 'forest' 'Adapta-Nokto' 'Qogir-manjaro-dark' 'Qogir-manjaro-dark'
+        bash ${BSP}/set-theme  'forest.jpg' 'forest' 'Matcha-dark-sea' 'Qogir-manjaro-dark' 'Qogir-manjaro-dark'
         ;;
     $theme_otis)
         bash ${BSP}/set-theme  'otis.png' 'otis' 'Otis' 'Qogir-manjaro-dark' 'Qogir-manjaro-dark'

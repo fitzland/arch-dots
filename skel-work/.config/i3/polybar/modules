@@ -1,4 +1,4 @@
-## Copyright (C) 2020-2021 Aditya Shakya <adi1090x@gmail.com>
+## Copyright (C) 2020-2022 Aditya Shakya <adi1090x@gmail.com>
 ## Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
 
 ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
@@ -16,12 +16,12 @@ pin-workspaces = true
 
 ; This will split the workspace name on ':'
 ; Default: false
-strip-wsnumbers = true
+strip-wsnumbers = false
 
 ; Sort the workspaces by index instead of the default
 ; sorting that groups the workspaces by output
 ; Default: false
-index-sort = true
+index-sort = false
 
 ; Create click handler used to focus workspace
 ; Default: true
@@ -49,15 +49,15 @@ fuzzy-match = true
 ; ws-icon-[0-9]+ = label;icon
 ; NOTE: The label needs to match the name of the i3 workspace
 ws-icon-0 = 1;
-ws-icon-1 = 2;
-ws-icon-2 = 3;
-ws-icon-3 = 4;
-ws-icon-4 = 5;
-ws-icon-5 = 6;漣
-ws-icon-6 = 7;
-ws-icon-7 = 8;
-ws-icon-8 = 9;
-ws-icon-9 = 10;ﳴ
+ws-icon-1 = 2;
+ws-icon-2 = 3;
+ws-icon-3 = 4;
+ws-icon-4 = 5;漣
+ws-icon-5 = 6;
+ws-icon-6 = 7;
+ws-icon-7 = 8;
+ws-icon-8 = 9;
+ws-icon-9 = 10;露
 ws-icon-default = 
 ; NOTE: You cannot skip icons, e.g. to get a ws-icon-6
 ; you must also define a ws-icon-5.
@@ -65,16 +65,17 @@ ws-icon-default = 
 ; Available tags:
 ;   <label-state> (default) - gets replaced with <label-(focused|unfocused|visible|urgent)>
 ;   <label-mode> (default)
-format = <label-state><label-mode>
-format-background = ${color.BGL}
+format = <label-state> <label-mode>
+format-background = ${color.BACKGROUND}
+
 
 ; Available tokens:
 ;   %mode%
 ; Default: %mode%
 label-mode = %mode%
-label-mode-padding = 1
+label-mode-padding = 
 label-mode-background = ${color.YELLOW}
-label-mode-foreground = ${color.BGL}
+label-mode-foreground = ${color.BACKGROUND}
 
 ; Available tokens:
 ;   %name%
@@ -82,9 +83,9 @@ label-mode-foreground = ${color.BGL}
 ;   %index%
 ;   %output%
 ; Default: %icon%  %name%
-label-focused = %icon%
-label-focused-foreground = ${color.BGL}
-label-focused-background = ${color.BLUE}
+label-focused = %name%
+label-focused-foreground = ${color.BACKGROUND}
+label-focused-background = ${color.ALTGREEN}
 
 ; Available tokens:
 ;   %name%
@@ -92,9 +93,9 @@ label-focused-background = ${color.BLUE}
 ;   %index%
 ;   %output%
 ; Default: %icon%  %name%
-label-unfocused = %icon%
-label-unfocused-foreground = ${color.FG}
-label-unfocused-background = ${color.BGL}
+label-unfocused = %name%
+label-unfocused-foreground = ${color.ALTBLUE}
+label-unfocused-background = ${color.BACKGROUND}
 
 ; Available tokens:
 ;   %name%
@@ -102,9 +103,9 @@ label-unfocused-background = ${color.BGL}
 ;   %index%
 ;   %output%
 ; Default: %icon%  %name%
-label-visible = %icon%
-label-visible-foreground = ${color.BGL}
-label-visible-background = ${color.GREEN}
+label-visible = %name%
+label-visible-foreground = ${color.BACKGROUND}
+label-visible-background = ${color.ALTBLUE}
 
 ; Available tokens:
 ;   %name%
@@ -112,9 +113,9 @@ label-visible-background = ${color.GREEN}
 ;   %index%
 ;   %output%
 ; Default: %icon%  %name%
-label-urgent = %icon%
-label-urgent-foreground = ${color.BGL}
-label-urgent-background = ${color.RED}
+label-urgent = %name%
+label-urgent-foreground = ${color.BACKGROUND}
+label-urgent-background = ${color.ALTRED}
 
 ; Paddings
 label-focused-padding = 1
@@ -123,10 +124,32 @@ label-visible-padding = 1
 label-urgent-padding = 1
 
 ; Separator in between workspaces
-label-separator = |
+label-separator =
 label-separator-padding = 0
-label-separator-foreground = ${color.BGL}
-label-separator-background = ${color.BGL}
+label-separator-foreground = ${color.BACKGROUND}
+label-separator-background = ${color.BACKGROUND}
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+[module/mod]
+type = internal/bspwm
+
+format = <label-mode>
+format-background = ${color.BACKGROUND}
+format-foreground = ${color.YELLOW}
+format-underline = ${color.YELLOW}
+format-padding = 1
+
+label-monocle = "Monocle"
+label-tiled = "Tiled"
+
+label-floating = ", Float"
+label-pseudotiled = ", Pseudo"
+label-fullscreen = ", Full"
+
+label-locked = " | Locked"
+label-sticky = " | Sticky"
+label-private = " | Private"
 
 ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 
@@ -135,7 +158,7 @@ type = internal/cpu
 
 ; Seconds to sleep between updates
 ; Default: 1
-interval = 0.5
+interval = 1
 
 ; Available tags:
 ;   <label> (default)
@@ -144,8 +167,8 @@ interval = 0.5
 ;   <ramp-coreload>
 ;;format = <label> <ramp-coreload>
 format = <label>
-format-prefix = 
-format-prefix-font = 2
+format-prefix = ""
+format-prefix-font = 3
 format-prefix-foreground = ${color.YELLOW}
 
 ; Available tokens:
@@ -153,7 +176,7 @@ format-prefix-foreground = ${color.YELLOW}
 ;   %percentage-sum% - Cumulative load on all cores
 ;   %percentage-cores% - load percentage for each core
 ;   %percentage-core[1-9]% - load percentage for specific core
-label = " %percentage%%"
+label = "  %percentage%%"
 
 ; Spacing between individual per-core ramps
 ;;ramp-coreload-spacing = 1
@@ -162,6 +185,57 @@ label = " %percentage%%"
 ;;ramp-coreload-2 = 
 ;;ramp-coreload-3 = 
 ;;ramp-coreload-4 = 
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+[module/xwindow]
+;https://github.com/jaagr/polybar/wiki/Module:-xwindow
+type = internal/xwindow
+
+; Available tokens:
+;   %title%
+; Default: %title%
+label = %title%
+label-maxlen = 50
+label-ellipsis = true
+
+format-foreground = ${color.FOREGROUND}
+format-background = ${color.BACKGROUND}
+
+
+[module/clock]
+type = internal/date
+
+; Seconds to sleep between updates
+interval = 1.0
+
+; See "http://en.cppreference.com/w/cpp/io/manip/put_time" for details on how to format the date string
+; NOTE: if you want to use syntax tags here you need to use %%{...}
+;;date = %Y-%m-%d%
+
+; Optional time format
+time = %I:%M %p
+
+; if `date-alt` or `time-alt` is defined, clicking
+; the module will toggle between formats
+;;date-alt = %A, %d %B %Y
+#time-alt = %d/%m/%Y%
+time-alt = %b %d, %G
+
+; Available tags:
+;   <label> (default)
+
+format = <label>
+format-prefix = ""
+format-prefix-font = 4
+format-prefix-foreground = ${color.MAGENTA}
+
+; Available tokens:
+;   %date%
+;   %time%
+; Default: %date%
+label = "  %time%"
+label-margin = 0px
 
 ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 
@@ -188,56 +262,16 @@ time-alt = %I:%M %p
 ;   <label> (default)
 
 format = <label>
-format-prefix = " "
-format-prefix-font = 2
-format-prefix-foreground = ${color.CYAN}
-format-background = ${color.BGL}
+format-prefix = ""
+format-prefix-font = 4
+format-prefix-foreground = ${color.MAGENTA}
 
 ; Available tokens:
 ;   %date%
 ;   %time%
 ; Default: %date%
-label = %time%
-label-font = 4
-label-foreground = ${color.CYAN}
-
-;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
-
-[module/time]
-type = internal/date
-
-; Seconds to sleep between updates
-interval = 1.0
-
-; See "http://en.cppreference.com/w/cpp/io/manip/put_time" for details on how to format the date string
-; NOTE: if you want to use syntax tags here you need to use %%{...}
-;;date = %Y-%m-%d%
-
-; Optional time format
-time = %I:%M %p
-
-; if `date-alt` or `time-alt` is defined, clicking
-; the module will toggle between formats
-;;date-alt = %A, %d %B %Y
-#time-alt = %d/%m/%Y%
-time-alt = %b %d, %G
-
-; Available tags:
-;   <label> (default)
-
-format = <label>
-format-prefix = " "
-format-prefix-font = 2
-format-prefix-foreground = ${color.CYAN}
-format-background = ${color.BGL}
-
-; Available tokens:
-;   %date%
-;   %time%
-; Default: %date%
-label = %time%
-label-font = 4
-label-foreground = ${color.CYAN}
+label = "  %time%"
+label-margin = 0px
 
 ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 
@@ -317,10 +351,12 @@ interval = 3
 ;   <ramp-swap-used>
 ;   <ramp-swap-free>
 format = <label>
+; format-foreground = ${color.CYAN}
 
-format-prefix = 
-format-prefix-font = 2
+format-prefix = "﬙"
+format-prefix-font = 4
 format-prefix-foreground = ${color.CYAN}
+
 
 ; Available tokens:
 ;   %percentage_used% (default)
@@ -340,7 +376,7 @@ format-prefix-foreground = ${color.CYAN}
 ;   %gb_swap_free%
 ;   %gb_swap_used%
 
-label = " %mb_used%"
+label = "  %gb_used%"
 
 ; Only applies if <ramp-used> is used
 ;;ramp-used-0 = 
@@ -394,7 +430,7 @@ format-online = <icon-prev> <toggle> <icon-next>
 ;;format-online-prefix = " "
 ;;format-online-prefix-font = 2
 ;;format-online-prefix-foreground = ${color.GREEN}
-format-online-background = ${color.BGL}
+format-online-background = ${color.BACKGROUND}
 
 format-playing = ${self.format-online}
 format-paused = ${self.format-online}
@@ -404,7 +440,7 @@ format-stopped = ${self.format-online}
 ;   <label-offline>
 format-offline = <label-offline>
 format-offline-prefix = " "
-format-offline-background = ${color.BGL}
+format-offline-background = ${color.BACKGROUND}
 
 ; Available tokens:
 ;   %artist%
@@ -467,19 +503,47 @@ label-song-ellipsis = true
 
 ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 
+; If you use both a wired and a wireless network, Add both modules in config.ini
+[module/ethernet]
+type = internal/network
+interface = ${system.sys_wired_interface}
+
+interval = 1.0
+accumulate-stats = true
+unknown-as-up = true
+
+format-connected = <label-connected>
+format-connected-prefix = " "
+format-connected-prefix-foreground = ${color.PURPLE}
+format-connected-prefix-font = 4
+format-connected-background = ${color.BG}
+format-connected-margin = 0
+
+format-disconnected = <label-disconnected>
+format-disconnected-prefix = " "
+format-disconnected-prefix-font = 4
+format-disconnected-foreground = ${color.FOREGROUND}
+format-disconnected-background = ${color.BACKGROUND}
+format-disconnected-padding = 0
+
+label-connected = "%{A1:~/.config/i3/rofi/bin/network_menu &:}%downspeed%, %upspeed%%{A}"
+label-disconnected = "%{A1:~/.config/i3/rofi/bin/network_menu &:}Offline%{A}"
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
 ; If you use both a wired and a wireless network, just add 2 module definitions. For example
 [module/wired-network]
 type = internal/network
-interface = ${system.network_interface}
+interface = ${system.sys_wired_interface}
 
 [module/wireless-network]
 type = internal/network
-interface = ${system.network_interface}
+interface = ${system.sys_wireless_interface}
 
 ; Normal Module
 [module/network]
 type = internal/network
-interface = ${system.network_interface}
+interface = ${system.sys_network_interface}
 
 ; Seconds to sleep between updates
 ; Default: 1
@@ -517,7 +581,7 @@ format-connected = <ramp-signal> <label-connected>
 format-disconnected = <label-disconnected>
 format-disconnected-prefix = "睊 "
 format-disconnected-prefix-font = 2
-format-disconnected-foreground = ${color.FGA}
+format-disconnected-foreground = ${color.YELLOW}
 
 ; Available tags:
 ;   <label-connected> (default)
@@ -535,8 +599,8 @@ format-disconnected-foreground = ${color.FGA}
 ;   %downspeed% [wireless+wired]
 ;   %linkspeed% [wired]
 ; Default: %ifname% %local_ip%
-;label-connected = "%essid%  %downspeed%"
-label-connected = "%{A1:~/.config/i3/rofi/bin/network_menu &:}%essid%%{A}"
+label-connected = "%essid%  %downspeed%"
+;label-connected = "%{A1:~/.config/i3/rofi/bin/network_menu &:}%essid%%{A}"
 
 ; Available tokens:
 ;   %ifname%    [wireless+wired]
@@ -575,6 +639,97 @@ ramp-signal-font = 2
 
 ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 
+[module/arch-updates]
+type = custom/script
+exec = ~/.config/i3/polybar/scripts/check-arch-updates.sh
+interval = 1000
+label = %output%
+format-foreground = ${color.FOREGROUND}
+format-background = ${color.BACKGROUND}
+format-prefix = "Arch: "
+format-prefix-foreground = ${color.MAGENTA}
+
+
+[module/aur-updates]
+type = custom/script
+exec = ~/.config/i3/polybar/scripts/check-aur-updates.sh
+interval = 1000
+label = Aur: %output%
+format-foreground = ${color.FOREGROUND}
+format-background = ${color.BACKGROUND}
+format-prefix = "AUR: "
+format-prefix-foreground = ${color.ALTMAGENTA}
+;;format-underline = ${color.ALTMAGENTA}
+
+
+[module/kernel]
+type = custom/script
+exec = uname -r
+tail = false
+interval = 1024
+
+format-foreground = ${color.FOREGROUND}
+format-background = ${color.BACKGROUND}
+format-prefix = ""
+format-prefix-font = 3
+format-prefix-padding = 1
+format-prefix-foreground = ${color.ALTBLACK}
+;format-underline = ${color.ALTBLACK}
+
+################################################################################
+
+[module/networkspeedup]
+;https://github.com/jaagr/polybar/wiki/Module:-network
+type = internal/network
+;interface = wlp3s0
+;interface = enp2s0
+interface = enp0s31f6
+;interface = enp3s0
+label-connected = "%upspeed:4%"
+format-connected = <label-connected>
+format-connected-prefix = "▲"
+format-connected-prefix-padding = 2
+format-connected-prefix-font = 4
+format-connected-prefix-foreground = ${color.RED}
+format-connected-foreground = ${color.FOREGROUND}
+format-connected-background = ${color.BACKGROUND}
+;format-connected-underline = ${color.ALTRED}
+
+################################################################################
+
+[module/networkspeeddown]
+;https://github.com/jaagr/polybar/wiki/Module:-network
+type = internal/network
+;interface = wlp3s0
+;interface = enp2s0
+interface = enp0s31f6
+;interface = enp3s0
+label-connected = "%downspeed:6%"
+format-connected = <label-connected>
+format-connected-prefix = "▼"
+format-connected-prefix-font = 4
+format-connected-prefix-padding = 2
+format-connected-prefix-foreground = ${color.GREEN}
+format-connected-foreground = ${color.FOREGROUND}
+format-connected-background = ${color.BACKGROUND}
+;format-connected-underline = ${color.ALTGREEN}
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+[module/network-localip]
+type = custom/script
+exec = ~/.config/i3/polybar/scripts/network-localip.sh
+interval = 60
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+[module/network-ipinfo]
+type = custom/script
+exec = ~/.config/i3/polybar/scripts/network-ipinfo.sh
+interval = 120
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
 [module/volume]
 type = internal/pulseaudio
 
@@ -594,15 +749,16 @@ interval = 5
 ;   <label-volume> (default)
 ;   <ramp-volume>
 ;   <bar-volume>
-format-volume = <ramp-volume> <bar-volume>
+format-volume = <ramp-volume> <label-volume>
 
 ; Available tags:
 ;   <label-muted> (default)
 ;   <ramp-volume>
 ;   <bar-volume>
 format-muted = <label-muted>
-format-muted-prefix = 
-format-muted-prefix-font = 2
+format-muted-prefix = 婢
+format-muted-prefix-font = 4
+format-muted-foreground = ${color.BLUE}
 
 ; Available tokens:
 ;   %percentage% (default)
@@ -611,41 +767,25 @@ format-muted-prefix-font = 2
 ; Available tokens:
 ;   %percentage% (default)
 label-muted = " Mute"
-label-muted-foreground = ${color.FGA}
-
-; Only applies if <bar-volume> is used
-bar-volume-width = 10
-bar-volume-gradient = false
-
-bar-volume-indicator = 雷
-bar-volume-indicator-font = 2
-bar-volume-indicator-foreground = ${color.BLUE}
-
-bar-volume-fill = 絛
-bar-volume-fill-font = 3
-bar-volume-foreground-0 = ${color.BLUE}
-bar-volume-foreground-1 = ${color.BLUE}
-bar-volume-foreground-2 = ${color.BLUE}
-bar-volume-foreground-3 = ${color.BLUE}
-bar-volume-foreground-4 = ${color.BLUE}
-
-bar-volume-empty = 絛
-bar-volume-empty-font = 3
-bar-volume-empty-foreground = ${color.BGL}
+label-muted-foreground = ${color.FOREGROUND}
 
 ; Only applies if <ramp-volume> is used
-ramp-volume-0 = 
-ramp-volume-1 = 
-ramp-volume-2 = 
-ramp-volume-3 = 
-ramp-volume-4 = 
-ramp-volume-5 = 
-ramp-volume-6 = 
-ramp-volume-7 = 
-ramp-volume-8 = 
-ramp-volume-9 = 
-ramp-volume-font = 2
+ramp-volume-0 = 奄
+ramp-volume-1 = 奄
+ramp-volume-2 = 奄
+ramp-volume-3 = 奔
+ramp-volume-4 = 奔
+ramp-volume-5 = 奔
+ramp-volume-6 = 墳
+ramp-volume-7 = 墳
+ramp-volume-8 = 墳
+ramp-volume-9 = ﰝ
+ramp-volume-font = 4
 ramp-volume-foreground = ${color.BLUE}
+
+; Right and Middle click
+click-right = pavucontrol
+; click-middle = 
 
 ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 
@@ -722,12 +862,14 @@ ramp-foreground = ${color.YELLOW}
 [module/menu]
 type = custom/text
 
-content = " "
-content-font = 3
+content = " "
+content-font = 5
+;content = " "
+;content-font = 3
 content-foreground = ${color.GREEN}
 content-padding = 0
 
-click-left = ~/.config/i3/rofi/bin/launcher-app
+click-left = ~/.config/i3/rofi/bin/launcher
 ;;click-middle = path_to_script
 ;;click-right = path_to_script
 

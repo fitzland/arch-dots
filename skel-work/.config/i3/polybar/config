@@ -1,4 +1,4 @@
-## Copyright (C) 2020-2021 Aditya Shakya <adi1090x@gmail.com>
+## Copyright (C) 2020-2022 Aditya Shakya <adi1090x@gmail.com>
 ## Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
 
 ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
@@ -19,10 +19,11 @@ margin-top = 0
 ;; File Inclusion
 ; include an external file, like module file, etc.
 
+include-file = ~/.config/i3/polybar/system
+
 include-file = ~/.config/i3/polybar/colors
 include-file = ~/.config/i3/polybar/modules
 include-file = ~/.config/i3/polybar/decor
-include-file = ~/.config/i3/polybar/system
 
 ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 
@@ -33,7 +34,7 @@ include-file = ~/.config/i3/polybar/system
 ; If unspecified, the application will pick the first one it finds.
 ; $ polybar -m | cut -d ':' -f 1
 ; $ xrandr -q | grep " connected" | cut -d ' ' -f1
-monitor = DP-0
+monitor = DP-1
 
 ; Use the specified monitor as a fallback if the main one is not found.
 monitor-fallback = DP-5
@@ -67,10 +68,10 @@ offset-x = 0%
 offset-y = 0%
 
 ; Background ARGB color (e.g. #f00, #ff992a, #ddff1023)
-background = ${color.BG}
+background = ${color.BACKGROUND}
 
 ; Foreground ARGB color (e.g. #f00, #ff992a, #ddff1023)
-foreground = ${color.FG}
+foreground = ${color.FOREGROUND}
 
 ; Background gradient (vertical steps)
 ;   background-[0-9]+ = #aarrggbb
@@ -102,8 +103,8 @@ line-color = ${color.BLUE}
 ; the border is placed withing this area. So you effectively only have the
 ; following horizontal space on the bar:
 ;   width - border-right-size - border-left-size
-border-size = 6
-border-color = ${color.BG}
+border-size = 2
+border-color = ${color.BACKGROUND}
 
 ; Number of spaces to add at the beginning/end of the bar
 ; Individual side values can be defined using:
@@ -124,20 +125,25 @@ module-margin-right = 0
 ;   font-3 = FontAwesome:size=10
 ; See the Fonts wiki page for more details
 
-font-0 = "JetBrains Mono:bold:size=10;3"
-font-1 = "Iosevka Nerd Font:size=12;3"
-font-2 = "Iosevka Nerd Font:size=15;4"
-font-3 = "Iosevka Nerd Font:bold:size=12;4"
+font-0 = "Iosevka Nerd Font Mono:size=12;3"
+font-1 = "JetBrainsMono Nerd Font:size=14;4"
+font-2 = "SpaceMono Nerd Font:size=14;3"
+font-3 = "Inconsolata Nerd Font:Regular:size=14;3"
 
 ; Modules are added to one of the available blocks
 ;   modules-left = cpu ram
-;   modules-center = xwindow xbrightness
+;   modules-center = title 
 ;   modules-right = ipc clock
 
 # Default
-modules-left = menu dot i3 dot LD mpd RD sep song
-modules-center = 
-modules-right = volume dot LD time RD dot sysmenu
+modules-left = dot i3 dot xwindow 
+modules-center = network-localip dot network-ipinfo 
+modules-right = networkspeedup networkspeeddown dot volume dot clock dot
+
+# Alternate
+;modules-left = openbox 2LD cpu 3LD memory 4LD filesystem 5LD
+;modules-center = secondary-i3-window
+;modules-right = 2RD volume 3RD brightness 4RD battery 5RD ethernet 6RD date sep
 
 ; The separator will be inserted between the output of each module
 separator =
@@ -168,7 +174,7 @@ locale =
 ;   center
 ;   right
 ;   none
-tray-position = right
+tray-position = none
 
 ; If true, the bar will not shift its
 ; contents when the tray changes
@@ -187,7 +193,7 @@ tray-maxsize = 16
 ; ARGB color (e.g. #f00, #ff992a, #ddff1023)
 ; By default the tray container will use the bar
 ; background color.
-tray-background = ${color.BG}
+tray-background = ${color.BACKGROUND}
 
 ; Tray offset defined as pixel value (e.g. 35) or percentage (e.g. 50%)
 tray-offset-x = 0
@@ -239,6 +245,12 @@ cursor-scroll =
 
 ;; WM Workspace Specific
 
+; bspwm
+;;scroll-up = bspwm-desknext
+;;scroll-down = bspwm-deskprev
+;;scroll-up = bspc desktop -f prev.local
+;;scroll-down = bspc desktop -f next.local
+
 ;i3
 ;;scroll-up = i3wm-wsnext
 ;;scroll-down = i3wm-wsprev
@@ -252,7 +264,7 @@ cursor-scroll =
 ; If unspecified, the application will pick the first one it finds.
 ; $ polybar -m | cut -d ':' -f 1
 ; $ xrandr -q | grep " connected" | cut -d ' ' -f1
-monitor = DP-2
+monitor = DP-3
 
 ; Use the specified monitor as a fallback if the main one is not found.
 monitor-fallback = DP-7
@@ -286,10 +298,10 @@ offset-x = 0%
 offset-y = 0%
 
 ; Background ARGB color (e.g. #f00, #ff992a, #ddff1023)
-background = ${color.BG}
+background = ${color.BACKGROUND}
 
 ; Foreground ARGB color (e.g. #f00, #ff992a, #ddff1023)
-foreground = ${color.FG}
+foreground = ${color.FOREGROUND}
 
 ; Background gradient (vertical steps)
 ;   background-[0-9]+ = #aarrggbb
@@ -321,8 +333,8 @@ line-color = ${color.BLUE}
 ; the border is placed withing this area. So you effectively only have the
 ; following horizontal space on the bar:
 ;   width - border-right-size - border-left-size
-border-size = 6
-border-color = ${color.BG}
+border-size = 2
+border-color = ${color.BACKGROUND}
 
 ; Number of spaces to add at the beginning/end of the bar
 ; Individual side values can be defined using:
@@ -343,23 +355,25 @@ module-margin-right = 0
 ;   font-3 = FontAwesome:size=10
 ; See the Fonts wiki page for more details
 
-font-0 = "JetBrains Mono:bold:size=10;3"
-font-1 = "Iosevka Nerd Font:size=12;3"
-font-2 = "Iosevka Nerd Font:size=15;4"
-font-3 = "Iosevka Nerd Font:bold:size=12;4"
+font-0 = "Iosevka Nerd Font Mono:size=12;3"
+font-1 = "JetBrainsMono Nerd Font:size=12;2"
+font-2 = "SpaceMono Nerd Font:size=8;3"
+font-3 = "Inconsolata Nerd Font:Regular:size=12;4"
 
 ; Modules are added to one of the available blocks
-;   modules-left = cpu ram
-;   modules-center = xwindow xbrightness
-;   modules-right = ipc clock
 
 # Default
-modules-left = dot i3 dot LD mpd RD sep song
-modules-center = cpu dot memory dot temperature
-modules-right = dot wired-network dot LD date RD dot 
+modules-left = dot i3 dot xwindow
+modules-center = kernel
+modules-right = cpu dot memory dot date dot
+
+# Alternate
+;modules-left = openbox 2LD cpu 3LD memory 4LD filesystem 5LD
+;modules-center = mpd
+;modules-right = 2RD volume 3RD brightness 4RD battery 5RD ethernet 6RD date sep
 
 ; The separator will be inserted between the output of each module
-separator =
+separator = 
 
 ; This value is used to add extra spacing between elements
 ; @deprecated: This parameter will be removed in an upcoming version
@@ -406,7 +420,7 @@ tray-maxsize = 16
 ; ARGB color (e.g. #f00, #ff992a, #ddff1023)
 ; By default the tray container will use the bar
 ; background color.
-tray-background = ${color.BG}
+tray-background = ${color.BACKGROUND}
 
 ; Tray offset defined as pixel value (e.g. 35) or percentage (e.g. 50%)
 tray-offset-x = 0

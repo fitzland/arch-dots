@@ -175,7 +175,7 @@ super + ctrl + {m,k,y,z}
 	bspc node -g {marked,locked,sticky,private}
 
 # focus or send the node in the given direction
-super + {_,shift + }{Left,Down,Up,Right}
+super + {_,shift + }{comma,Down,Up,period}
 	bspc node -{f,s} {west,south,north,east} --follow
 
 # Change focus to next window, including floating window
@@ -183,11 +183,11 @@ alt + {_,shift + }Tab
 	bspc node -f {next.local,prev.local}
 
 # Switch workspace
-super + alt + {Left,Right}
+super + {i,o}
 	bspc desktop -f {prev,next}.occupied
 
 # Switch workspace
-ctrl + alt + {Left,Right}
+super + alt + {i,o}
 	bspc desktop -f {prev,next}.local
 
 # Switch to last opened workspace
@@ -199,11 +199,11 @@ super + shift + {comma,period}
 	bspc node -m {prev,next} --follow
 
 # focus the next/previous desktop all monitors
-super + {Prior,Next}
+ctrl + alt + {i,o}
 	bspc desktop -f {prev,next}
 
 # Send node to next/previous workspace
-super + shift + {Prior,Next}
+super + shift + {i,o}
 	bspc node -d {prev,next} --follow
 
 # Send node to next/previous workspace local

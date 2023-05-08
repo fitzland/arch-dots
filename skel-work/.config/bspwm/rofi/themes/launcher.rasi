@@ -1,4 +1,4 @@
-/* Copyright (C) 2020-2021 Aditya Shakya <adi1090x@gmail.com> */
+/* Copyright (C) 2020-2022 Aditya Shakya <adi1090x@gmail.com> */
 /* Everyone is permitted to copy and distribute copies of this file under GNU-GPL3 */
 
 configuration {
@@ -11,17 +11,17 @@ configuration {
     click-to-exit: 					true;
     combi-hide-mode-prefix: 		false;
     display-window: 				"";
-    display-windowcd: 				"";
-    display-run: 					"";
+    display-windowcd: 				"";
+    display-run: 					"";
     display-ssh: 					"";
     display-drun: 					"";
     display-combi: 					"";
 }
 
+@import "font.rasi"
 @import "colors.rasi"
 
 * {
-    font:                           "JetBrains Mono Medium 10";
     background-color:             	@background;
 }
 
@@ -83,8 +83,8 @@ mainbox {
 }
 
 listview {
-    lines:						8;
-    columns:						2;
+    lines:							7;
+    columns:						1;
     fixed-height: 					0;
     border: 						0px;
     border-color: 					@foreground;

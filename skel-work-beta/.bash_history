@@ -194,3 +194,10 @@ cleanup
 exit
 yay lxsession
 exit
+cd Dropbox/church/media/ChurchArtPro/June/
+ls
+./wmf2svg
+sudo ./wmf2svg
+exit
+tozsh
+exit

@@ -1,20 +1,18 @@
 #!/usr/bin/env bash
 
-## Copyright (C) 2020-2021 Aditya Shakya <adi1090x@gmail.com>
+## Copyright (C) 2020-2022 Aditya Shakya <adi1090x@gmail.com>
 ## Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
 
 DIR="$HOME/.config/i3"
-
-rofi_command="rofi -theme $DIR/rofi/themes/powermenu.rasi"
-
+rofi_command="rofi -theme $DIR/rofi/themes/powermenu-square.rasi"
 uptime=$(uptime -p | sed -e 's/up //g')
 
 # Options
 shutdown=""
 reboot=""
+logout=""
 lock=""
 suspend=""
-logout=""
 
 # Variable passed to rofi
 options="$shutdown\n$reboot\n$logout\n$lock\n$suspend"
@@ -28,7 +26,8 @@ case $chosen in
 			systemctl reboot
         ;;
     $lock)
-        ~/.config/i3/bin/i3lock.sh
+        i3lock -i ~/.config/i3/wallpapers/i3-lock-screen.png -p default|win -t
+        #betterlockscreen --lock
         ;;
     $suspend)
 			mpc -q pause

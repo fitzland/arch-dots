@@ -11,13 +11,13 @@ super + F1
 super + {_,shift} + F2
 	{atom,code}
 
-# Inkscape
-super + F3
-    inkscape
+# Writer/Calc
+super + {_,shift} + F3
+    {lowriter,localc}
 
-# Gimp
-super + F4
-    gimp
+# Inkscape/Gimp
+super + {_,shift} + F4
+    {inkscape,gimp}
 
 # Meld
 super + F5

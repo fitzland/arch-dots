@@ -16,7 +16,6 @@ mv ./skel-work-beta skel-work-delta
 mv ./skel-work skel-work-beta
 
 mkdir ./skel-work
-cp -r $HOME/.config/alacritty/ ./skel-work/.config/
 cp -r $HOME/.config/autostart ./skel-work/.config/
 cp -r $HOME/.config/bspwm ./skel-work/.config/
 cp -r $HOME/.config/gtk-2.0 ./skel-work/.config/
@@ -24,17 +23,9 @@ cp -r $HOME/.config/gtk-3.0 ./skel-work/.config/
 cp -r $HOME/.config/gtk-4.0 ./skel-work/.config/
 cp -r $HOME/.config/i3 ./skel-work/.config/
 cp -r $HOME/.config/keepassxc ./skel-work/.config/
-cp -r $HOME/.config/Kvantum ./skel-work/.config/
-cp -r $HOME/.config/neofetch ./skel-work/.config/
-cp -r $HOME/.config/nitrogen ./skel-work/.config/
-cp -r $HOME/.config/pamac ./skel-work/.config/
-#cp -r $HOME/.config/paru ./skel-work/.config/
-cp -r $HOME/.config/picom ./skel-work/.config/
 cp -r $HOME/.config/polybar ./skel-work/.config/
 cp -r $HOME/.config/qt5ct ./skel-work/.config/
 cp -r $HOME/.config/rofi ./skel-work/.config/
-cp -r $HOME/.config/sxhkd ./skel-work/.config/
-cp -r $HOME/.xmonad/ ./skel-work/
 cp -r $HOME/.Xresources.d ./skel-work/
 cp -r $HOME/.fonts ./skel-work/
 cp -r $HOME/.themes ./skel-work/

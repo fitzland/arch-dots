@@ -1,4 +1,4 @@
-/* Copyright (C) 2020-2021 Aditya Shakya <adi1090x@gmail.com> */
+/* Copyright (C) 2020-2022 Aditya Shakya <adi1090x@gmail.com> */
 /* Everyone is permitted to copy and distribute copies of this file under GNU-GPL3 */
 
 configuration {
@@ -10,18 +10,18 @@ configuration {
     window-format: 					"[{w}] ··· {c} ···   {t}";
     click-to-exit: 					true;
     combi-hide-mode-prefix: 		false;
-    display-window: 				"";
-    display-windowcd: 				"﩯";
-    display-run: 					"";
-    display-ssh: 					"";
-    display-drun: 					"";
+    display-window: 				"";
+    display-windowcd: 				"";
+    display-run: 					"";
+    display-ssh: 					"";
+    display-drun: 					"";
     display-combi: 					"";
 }
 
 @import "colors.rasi"
 
 * {
-    font:                           "JetBrainsMono Nerd Font 11";
+    font:                           "JetBrains Mono Medium 10";
     background-color:             	@background;
 }
 
@@ -54,7 +54,7 @@ entry {
     expand:                         true;
     horizontal-align:               0;
     text-color: 					@foreground;
-    placeholder-color:              @FG;
+    placeholder-color:              @foreground;
     placeholder:                    "Search...";
     padding:    					6px 2px 6px 2px;
     border: 						0px 0px 0px 0px;
