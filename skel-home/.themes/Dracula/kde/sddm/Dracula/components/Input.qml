@@ -10,12 +10,12 @@ TextField {
     font.family: config.font
     background: Rectangle {
         color: "#3B3D48"
-        radius: parent.width / 2
-        height: 30
+        radius: 10
         width: parent.width
-        opacity: 0.7
+        height: width / 9
+        opacity: 1
         border.width: 1
-        border.color: "#16171d"
+        border.color: parent.focus ? config.selected_color : "#16171d"
         anchors.centerIn: parent
     }
 }
