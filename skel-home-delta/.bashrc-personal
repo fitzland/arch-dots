@@ -42,7 +42,7 @@ alias merge="xrdb -merge ~/.Xresources"
 #alias update='sudo pacman -Syyu'
 alias update='sudo dnf upgrade --refresh'
 #alias update='sudo apt update && sudo apt upgrade'
-#alias update='sudo dnf update && sudo dnf upgrade'
+alias upgrade='sudo dnf update && sudo dnf upgrade'
 
 # pacman unlock
 alias unlock="sudo rm /var/lib/pacman/db.lck"
@@ -145,6 +145,7 @@ alias gtl='git log --oneline'
 alias gts='git status'
 alias gtdwm='cd $HOME/.config/dwm'
 
+alias myfedora='cd $HOME/git/fitzland/install-scripts/fedora'
 alias dots='cd $HOME/git/fitzland/my-dots'
 #alias dots='cd $HOME/git/fitzland/deb-dots'
 #alias dots='cd $HOME/git/fitzland/ub-dots'

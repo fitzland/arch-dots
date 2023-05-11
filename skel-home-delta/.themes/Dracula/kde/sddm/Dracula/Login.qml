@@ -47,6 +47,8 @@ SessionManagementScreen {
     Input {
         id: userNameInput
         Layout.fillWidth: true
+        Layout.topMargin: 10
+        Layout.bottomMargin: 10
         text: lastUserName
         visible: showUsernamePrompt
         focus: showUsernamePrompt && !lastUserName //if there's a username prompt it gets focus first, otherwise password does
@@ -104,8 +106,9 @@ SessionManagementScreen {
 
         Layout.topMargin: 10
         Layout.bottomMargin: 10
-        Layout.fillWidth: true
-        
+        Layout.preferredWidth: 150
+        Layout.alignment: Qt.AlignHCenter | Qt.AlignVCenter
+                
         font.pointSize: config.fontSize
         font.family: config.font
 

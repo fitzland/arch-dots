@@ -118,16 +118,14 @@ module-margin-right = 0
 
 ; Fonts are defined using <font-name>;<vertical-offset>
 ; Font names are specified using a fontconfig pattern.
-;   font-0 = "Iosevka Nerd Font:size=10;3"
+;   font-0 = NotoSans-Regular:size=8;2
 ;   font-1 = MaterialIcons:size=10
 ;   font-2 = Termsynu:size=8;-1
 ;   font-3 = FontAwesome:size=10
 ; See the Fonts wiki page for more details
 
-font-0 = "Iosevka Nerd Font Mono:size=12;3"
-font-1 = "JetBrainsMono Nerd Font:size=14;4"
-font-2 = "SpaceMono Nerd Font:size=14;3"
-font-3 = "Inconsolata Nerd Font:Regular:size=14;3"
+font-0 = "Iosevka Nerd Font:size=11;4"
+font-1 = "feather:size=10;3"
 
 ; Modules are added to one of the available blocks
 ;   modules-left = cpu ram
@@ -137,7 +135,7 @@ font-3 = "Inconsolata Nerd Font:Regular:size=14;3"
 # Default
 modules-left = dot i3 dot xwindow 
 modules-center = network-localip dot network-ipinfo 
-modules-right = networkspeedup networkspeeddown dot volume dot clock dot
+modules-right = cpu dot memory dot volume dot clock dot
 
 # Alternate
 ;modules-left = openbox 2LD cpu 3LD memory 4LD filesystem 5LD
@@ -348,16 +346,14 @@ module-margin-right = 0
 
 ; Fonts are defined using <font-name>;<vertical-offset>
 ; Font names are specified using a fontconfig pattern.
-;   font-0 = "Iosevka Nerd Font:size=10;3"
+;   font-0 = NotoSans-Regular:size=8;2
 ;   font-1 = MaterialIcons:size=10
 ;   font-2 = Termsynu:size=8;-1
 ;   font-3 = FontAwesome:size=10
 ; See the Fonts wiki page for more details
 
-font-0 = "Iosevka Nerd Font Mono:size=12;3"
-font-1 = "JetBrainsMono Nerd Font:size=12;2"
-font-2 = "SpaceMono Nerd Font:size=8;3"
-font-3 = "Inconsolata Nerd Font:Regular:size=12;4"
+font-0 = "Iosevka Nerd Font:size=11;4"
+font-1 = "feather:size=10;3"
 
 ; Modules are added to one of the available blocks
 ;   modules-left = cpu ram
@@ -367,7 +363,7 @@ font-3 = "Inconsolata Nerd Font:Regular:size=12;4"
 # Default
 modules-left = dot i3 dot xwindow
 modules-center = kernel dot arch-updates
-modules-right = cpu dot memory dot date dot
+modules-right = networkspeedup dot networkspeeddown dot date dot
 
 # Alternate
 ;modules-left = openbox 2LD cpu 3LD memory 4LD filesystem 5LD

@@ -533,7 +533,8 @@ exec --no-startup-id dex --autostart --environment i3
 #exec --no-startup-id setxkbmap -option compose:rctrl &
 
 ## Set wallpaper
-exec --no-startup-id feh --no-xinerama --no-fehbg --bg-scale $i3-wm.wallpaper
+#exec --no-startup-id feh --no-xinerama --no-fehbg --bg-scale $i3-wm.wallpaper
+exec --no-startup-id ~/.fehbg &
 #hsetroot -cover ~/.config/i3/wallpapers/default.png
 
 # set powersavings for display:

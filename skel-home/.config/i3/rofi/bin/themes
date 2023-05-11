@@ -80,34 +80,34 @@ set_style() {
 chosen="$(echo -e "$options" | $rofi_command -p "Available themes: " -dmenu -selected-row 0)"
 case $chosen in
     $theme_1)
-        set_style  'beach' 'Arc-Lighter' 'Arc-Circle' 'Paper'
+        set_style  'beach' 'Juno' 'Nordic-bluish' 'Paper'
         ;;
     $theme_2)
-        set_style  'blade' 'Sweet-mars' 'Qogir-ubuntu-dark' 'Paper'
+        set_style  'blade' 'Juno-ocean' 'Paper' 'Paper'
         ;;
     $theme_3)
-        set_style  'bouquet' 'Juno-mirage' 'Luna-Dark' 'Paper'
+        set_style  'bouquet' 'Juno-mirage' 'Nordic-darker' 'Paper'
         ;;
     $theme_4)
         set_style  'cyberpunk' 'Juno-ocean' 'Qogir-ubuntu-dark' 'Paper'
         ;;
     $theme_6)
-        set_style  'flowers' 'Kripton' 'Zafiro' 'Fluent-dark'
+        set_style  'flowers' 'Kripton' 'Paper' 'Paper'
         ;;
     $theme_8)
-        set_style  'groot' 'Groot' 'Zafiro' 'Qogir'
+        set_style  'groot' 'Groot' 'Paper' 'Qogir'
         ;;
     $theme_9)
-        set_style  'gruvbox' 'Gruvbox' 'Luna-Dark' 'Nordic-cursors'
+        set_style  'gruvbox' 'Gruvbox' 'Paper' 'Nordic-cursors'
         ;;
     $theme_11)
-        set_style  'keyboards' 'Sweet-Dark' 'Zafiro-Purple' 'Sweet'
+        set_style  'keyboards' 'Sweet-Dark' 'Nordic-darker' 'Sweet-cursors'
         ;;
     $theme_12)
         set_style  'light' 'White' 'Arc-Circle' 'Fluent-dark'
         ;;
     $theme_13)
-        set_style  'manhattan' 'Manhattan' 'Luv-Folders-Dark' 'Vimix-dark'
+        set_style  'manhattan' 'Otis-forest' 'Paper' 'Paper'
         ;;
     $theme_15)
         set_style  'pastel' 'White' 'Qogir' 'Qogir-dark'
@@ -137,7 +137,7 @@ case $chosen in
         set_style  'dracula' 'Dracula' 'Dracula' 'Qogir-ubuntu-dark'
         ;;
     $theme_forest)
-        set_style  'forest' 'Otis-forest' 'Nordic-Green' 'Qogir-manjaro-dark'
+        set_style  'forest' 'Matcha-dark-sea' 'Nordic-green' 'Qogir-manjaro-dark'
         ;;
     $theme_otis)
         set_style  'otis' 'Otis' 'Qogir-manjaro-dark' 'Qogir-manjaro-dark'

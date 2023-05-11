@@ -1,41 +1,18 @@
-# You can put files here to add functionality separated per file, which
-# will be ignored by git.
-# Files on the custom/ directory will be automatically loaded by the init
-# script, in alphabetical order.
-
-# For example: add yourself some shortcuts to projects you often work on.
 #
-# brainstormr=~/Projects/development/planetargon/brainstormr
-# cd $brainstormr
+# ~/.zshrc
 #
 
-#hardware info --short
-alias hw="hwinfo --short"
+# collection of personal aliases
 
-## Colorize the grep command output for ease of use (good for log files)##
-alias grep='grep --color=auto'
-alias fgrep='fgrep --color=auto'
-alias egrep='egrep --color=auto'
-
-#readable output
-alias df='df -h'
-
-#free
-alias free="free -mt"
-
-#continue download
-alias wget="wget -c"
-
-#userlist
-alias userlist="cut -d: -f1 /etc/passwd"
-
-# merge new settings
-alias merge="xrdb -merge ~/.Xresources"
+# Change to Directory
+alias dots='cd $HOME/git/fitzland/my-dots'
 
 # Aliases for software managment
 # pacman or pm
 alias pacman='sudo pacman --color auto'
 alias update='sudo pacman -Syyu'
+#alias update='sudo apt update && sudo apt upgrade'
+#alias update='sudo dnf update --refresh && sudo dnf upgrade'
 
 # pacman unlock
 alias unlock="sudo rm /var/lib/pacman/db.lck"
@@ -44,22 +21,6 @@ alias rmpacmanlock="sudo rm /var/lib/pacman/db.lck"
 # yay as aur helper - updates everything
 alias pksyua="yay -Syu --noconfirm"
 alias upall="yay -Syu --noconfirm"
-
-#ps
-alias psa="ps auxf"
-alias psgrep="ps aux | grep -v grep | grep -i -e VSZ -e"
-
-# grub update
-alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
-
-# add new fonts
-alias update-fc='sudo fc-cache -fv'
-
-# git commands
-alias clb='make clean && rm -f config.h'
-alias mci='make && sudo make clean install'
-alias cleangit='make clean && rm -f config.h && git reset --hard origin/main'
-alias trimgit='make clean && rm -f config.h && git push --set-upstream origin'
 
 #copy shell configs
 alias cb='cp /etc/skel/.bashrc ~/.bashrc && echo "Copied."'
@@ -77,14 +38,6 @@ alias tosddm="sudo pacman -S sddm --noconfirm --needed ; sudo systemctl enable s
 alias togdm="sudo pacman -S gdm --noconfirm --needed ; sudo systemctl enable gdm.service -f ; echo 'Gdm is active - reboot now'"
 alias tolxdm="sudo pacman -S lxdm --noconfirm --needed ; sudo systemctl enable lxdm.service -f ; echo 'Lxdm is active - reboot now'"
 
-# go to git folder
-alias dots='cd $HOME/git/fitzland/my-dots'
-alias fl='cd $HOME/.config/fitzland'
-alias flb='cd $HOME/.config/fitzland/bspwm'
-alias fld='cd $HOME/.config/fitzland/dwm'
-alias fli='cd $HOME/.config/fitzland/i3'
-alias flx='cd $HOME/.config/fitzland/xmonad'
-
 # Recent Installed Packages
 alias rip="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -200 | nl"
 alias riplong="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -3000 | nl"
@@ -93,6 +46,11 @@ alias gitpkg='pacman -Q | grep -i "\-git" | wc -l'			# List amount of -git packa
 
 # Cleanup orphaned packages
 alias cleanup='sudo pacman -Rns $(pacman -Qtdq)'
+#alias cleanup='sudo apt autoremove && sudo apt autoclean'
+#alias cleanup='sudo dnf autoremove && sudo dnf autoclean'
+
+#get the error messages from journalctl
+alias jctl="journalctl -p 3 -xb"
 
 # nano for important configuration files
 alias nlightdm="sudo nano /etc/lightdm/lightdm.conf"
@@ -106,6 +64,7 @@ alias nfstab="sudo $EDITOR /etc/fstab"
 alias nnsswitch="sudo $EDITOR /etc/nsswitch.conf"
 alias nsamba="sudo $EDITOR /etc/samba/smb.conf"
 alias ngnupgconf="sudo nano /etc/pacman.d/gnupg/gpg.conf"
+
 alias nb="$EDITOR ~/.bashrc"
 alias nbp="$EDITOR ~/.bashrc-personal"
 alias nz="$EDITOR ~/.zshrc"
@@ -113,8 +72,11 @@ alias nzp="$EDITOR ~/.zshrc-personal"
 
 alias xd='ls /usr/share/xsessions'
 
-# check vulnerabilities microcode
-alias microcode='grep . /sys/devices/system/cpu/vulnerabilities/*'
+#systeminfo
+alias probe="sudo -E hw-probe -all -upload"
+
+#hardware info --short
+alias hw="hwinfo --short"
 
 #get fastest mirrors in your neighborhood
 alias mirror="sudo reflector -f 30 -l 30 --number 10 --verbose --save /etc/pacman.d/mirrorlist"

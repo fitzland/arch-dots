@@ -147,12 +147,6 @@ alias l.="ls -A | egrep '^\.'"
 #fix obvious typo's
 alias cd..='cd ..'
 alias pdw='pwd'
-alias udpate='sudo pacman -Syyu'
-alias upate='sudo pacman -Syyu'
-alias updte='sudo pacman -Syyu'
-alias updqte='sudo pacman -Syyu'
-alias upqll='paru -Syu --noconfirm'
-alias upal='paru -Syu --noconfirm'
 
 ## Colorize the grep command output for ease of use (good for log files)##
 alias grep='grep --color=auto'
@@ -195,7 +189,7 @@ alias update='sudo pacman -Syyu'
 
 # paru as aur helper - updates everything
 alias pksyua="paru -Syu --noconfirm"
-alias upall="paru -Syu --noconfirm"
+alias upall="yay -Syu --noconfirm"
 
 #ps
 alias psa="ps auxf"
@@ -319,8 +313,10 @@ alias nsamba="sudo $EDITOR /etc/samba/smb.conf"
 alias ngnupgconf="sudo nano /etc/pacman.d/gnupg/gpg.conf"
 alias nhosts="sudo $EDITOR /etc/hosts"
 alias nb="$EDITOR ~/.bashrc"
+alias nbp="$EDITOR ~/.bashrc-personal"
 alias nz="$EDITOR ~/.zshrc"
-alias nf="EDITOR ~/.config/fish/config.fish"
+alias nzp="$EDITOR ~/.zshrc-personal"
+alias nf="$EDITOR ~/.config/fish/config.fish"
 
 #gpg
 #verify signature for isos
