@@ -119,6 +119,8 @@ bindsym $mod+s layout stacking; exec notify-send 'container layout stacking'
 bindsym $mod+w layout tabbed; exec notify-send 'container layout tabbed'
 bindsym $mod+e layout toggle split
 
+workspace_layout tabbed
+
 ## toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
 
@@ -176,9 +178,9 @@ set_from_resource $ws0 i3-wm.workspace.10.name "10:media"
 ###############################################################################
 
 #set $firstMonitor DP-4
-set $firstMonitor DP-2
+set $firstMonitor DP-1
 #set $secondMonitor DP-2
-set $secondMonitor DP-4
+set $secondMonitor DP-2
 
 
 # use workspaces on different displays:

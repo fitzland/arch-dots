@@ -27,6 +27,8 @@ cp -r $HOME/.config/keepassxc ./skel-home/.config/
 cp -r $HOME/.config/Kvantum ./skel-home/.config/
 cp -r $HOME/.config/polybar ./skel-home/.config/
 cp -r $HOME/.config/qt5ct ./skel-home/.config/
+cp -r $HOME/.config/sway ./skel-home/.config/
+cp -r $HOME/.config/waybar ./skel-home/.config/
 cp -r $HOME/.themes ./skel-home/
 cp -r $HOME/.Xresources.d ./skel-home/
 cp $HOME/.bash* ./skel-home/

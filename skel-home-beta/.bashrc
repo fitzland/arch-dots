@@ -88,7 +88,7 @@ alias update='sudo pacman -Syyu'
 
 # paru as aur helper - updates everything
 alias pksyua="paru -Syu --noconfirm"
-alias upall="paru -Syu --noconfirm"
+alias upall="yay -Syu --noconfirm"
 
 #ps
 alias psa="ps auxf"

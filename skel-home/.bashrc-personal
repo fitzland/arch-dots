@@ -10,9 +10,9 @@ alias dots='cd $HOME/git/fitzland/my-dots
 # Aliases for software managment
 # pacman or pm
 alias pacman='sudo pacman --color auto'
-alias update='sudo pacman -Syyu'
+#alias update='sudo pacman -Syyu'
 #alias update='sudo apt update && sudo apt upgrade'
-#alias update='sudo dnf update --refresh && sudo dnf upgrade'
+alias update='sudo dnf update --refresh && sudo dnf upgrade'
 
 # pacman unlock
 alias unlock="sudo rm /var/lib/pacman/db.lck"
@@ -41,13 +41,9 @@ alias tolxdm="sudo pacman -S lxdm --noconfirm --needed ; sudo systemctl enable l
 # Recent Installed Packages
 alias rip="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -200 | nl"
 alias riplong="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -3000 | nl"
-alias big="expac -H M '%m\t%n' | sort -h | nl"              # Sort installed packages according to size in MB (expac must be installed)
-alias gitpkg='pacman -Q | grep -i "\-git" | wc -l'			# List amount of -git packages
 
 # Cleanup orphaned packages
-alias cleanup='sudo pacman -Rns $(pacman -Qtdq)'
-#alias cleanup='sudo apt autoremove && sudo apt autoclean'
-#alias cleanup='sudo dnf autoremove && sudo dnf autoclean'
+alias cleanup="sudo pacman -Rns $(pacman -Qtdq)"
 
 #get the error messages from journalctl
 alias jctl="journalctl -p 3 -xb"
@@ -70,7 +66,7 @@ alias nbp="$EDITOR ~/.bashrc-personal"
 alias nz="$EDITOR ~/.zshrc"
 alias nzp="$EDITOR ~/.zshrc-personal"
 
-alias xd='ls /usr/share/xsessions'
+alias xd="ls /usr/share/xsessions"
 
 #systeminfo
 alias probe="sudo -E hw-probe -all -upload"
@@ -95,12 +91,3 @@ alias yta-vorbis="youtube-dl --extract-audio --audio-format vorbis "
 alias yta-wav="youtube-dl --extract-audio --audio-format wav "
 alias ytv-best="youtube-dl -f bestvideo+bestaudio "
 
-alias skelbin='meld $HOME/.bin /etc/skel/.bin'
-alias skelxr='meld $HOME/.Xresources /etc/skel/.Xresources'
-alias skelocal='meld $HOME/.local /etc/skel/.local'
-alias skelcfg='meld $HOME/.config /etc/skel/.config'
-#alias skelbspwm='meld $HOME/.config/bspwm /etc/skel/.config/bspwm'
-alias skeli3='meld $HOME/.config/i3 /etc/skel/.config/i3'
-
-alias chface='cp $HOME/.face-bak .face'
-alias mcserver='ssh jeff@192.168.1.127'

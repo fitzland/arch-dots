@@ -167,8 +167,8 @@ interval = 1
 ;   <ramp-coreload>
 ;;format = <label> <ramp-coreload>
 format = <label>
-format-prefix = ""
-format-prefix-font = 3
+format-prefix = ""
+format-prefix-font = 2
 format-prefix-foreground = ${color.YELLOW}
 
 ; Available tokens:
@@ -176,7 +176,7 @@ format-prefix-foreground = ${color.YELLOW}
 ;   %percentage-sum% - Cumulative load on all cores
 ;   %percentage-cores% - load percentage for each core
 ;   %percentage-core[1-9]% - load percentage for specific core
-label = "  %percentage%%"
+label = " %percentage%%"
 
 ; Spacing between individual per-core ramps
 ;;ramp-coreload-spacing = 1
@@ -220,21 +220,21 @@ time = %I:%M %p
 ; the module will toggle between formats
 ;;date-alt = %A, %d %B %Y
 #time-alt = %d/%m/%Y%
-time-alt = %b %d, %G
+time-alt = %H:%M:%S
 
 ; Available tags:
 ;   <label> (default)
 
 format = <label>
-format-prefix = ""
-format-prefix-font = 4
+format-prefix = ""
+format-prefix-font = 2
 format-prefix-foreground = ${color.MAGENTA}
 
 ; Available tokens:
 ;   %date%
 ;   %time%
 ; Default: %date%
-label = "  %time%"
+label = " %time%"
 label-margin = 0px
 
 ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
@@ -250,27 +250,27 @@ interval = 1.0
 ;;date = %Y-%m-%d%
 
 ; Optional time format
-time = %b %d, %G
+date = %b %d, %G
 
 ; if `date-alt` or `time-alt` is defined, clicking
 ; the module will toggle between formats
 ;;date-alt = %A, %d %B %Y
 #time-alt = %d/%m/%Y%
-time-alt = %I:%M %p
+date-alt = %a %d %b %G
 
 ; Available tags:
 ;   <label> (default)
 
 format = <label>
-format-prefix = ""
-format-prefix-font = 4
+format-prefix = ""
+format-prefix-font = 2
 format-prefix-foreground = ${color.MAGENTA}
 
 ; Available tokens:
 ;   %date%
 ;   %time%
 ; Default: %date%
-label = "  %time%"
+label = " %date%"
 label-margin = 0px
 
 ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
@@ -354,7 +354,7 @@ format = <label>
 ; format-foreground = ${color.CYAN}
 
 format-prefix = "﬙"
-format-prefix-font = 4
+format-prefix-font = 2
 format-prefix-foreground = ${color.CYAN}
 
 
@@ -515,13 +515,13 @@ unknown-as-up = true
 format-connected = <label-connected>
 format-connected-prefix = " "
 format-connected-prefix-foreground = ${color.PURPLE}
-format-connected-prefix-font = 4
+format-connected-prefix-font = 2
 format-connected-background = ${color.BG}
 format-connected-margin = 0
 
 format-disconnected = <label-disconnected>
 format-disconnected-prefix = " "
-format-disconnected-prefix-font = 4
+format-disconnected-prefix-font = 2
 format-disconnected-foreground = ${color.FOREGROUND}
 format-disconnected-background = ${color.BACKGROUND}
 format-disconnected-padding = 0
@@ -671,8 +671,8 @@ interval = 1024
 format-foreground = ${color.FOREGROUND}
 format-background = ${color.BACKGROUND}
 format-prefix = ""
-format-prefix-font = 3
-format-prefix-padding = 1
+;format-prefix-font = 2
+format-prefix-padding = 2
 format-prefix-foreground = ${color.ALTBLACK}
 ;format-underline = ${color.ALTBLACK}
 
@@ -687,8 +687,8 @@ interface = enp2s0
 ;interface = enp3s0
 label-connected = "%upspeed:8%"
 format-connected = <label-connected>
-format-connected-prefix = ""
-format-connected-prefix-padding = 1
+format-connected-prefix = ""
+;format-connected-prefix-padding = 1
 format-connected-prefix-foreground = ${color.RED}
 format-connected-foreground = ${color.FOREGROUND}
 format-connected-background = ${color.BACKGROUND}
@@ -705,8 +705,8 @@ interface = enp2s0
 ;interface = enp3s0
 label-connected = "%downspeed:8%"
 format-connected = <label-connected>
-format-connected-prefix = ""
-format-connected-prefix-padding = 1
+format-connected-prefix = ""
+;format-connected-prefix-padding = 1
 format-connected-prefix-foreground = ${color.GREEN}
 format-connected-foreground = ${color.FOREGROUND}
 format-connected-background = ${color.BACKGROUND}
@@ -754,8 +754,8 @@ format-volume = <ramp-volume> <label-volume>
 ;   <ramp-volume>
 ;   <bar-volume>
 format-muted = <label-muted>
-format-muted-prefix = 婢
-format-muted-prefix-font = 4
+format-muted-prefix = 
+format-muted-prefix-font = 2
 format-muted-foreground = ${color.BLUE}
 
 ; Available tokens:
@@ -768,17 +768,17 @@ label-muted = " Mute"
 label-muted-foreground = ${color.FOREGROUND}
 
 ; Only applies if <ramp-volume> is used
-ramp-volume-0 = 奄
-ramp-volume-1 = 奄
-ramp-volume-2 = 奄
-ramp-volume-3 = 奔
-ramp-volume-4 = 奔
-ramp-volume-5 = 奔
-ramp-volume-6 = 墳
-ramp-volume-7 = 墳
-ramp-volume-8 = 墳
-ramp-volume-9 = ﰝ
-ramp-volume-font = 4
+ramp-volume-0 = 
+ramp-volume-1 = 
+ramp-volume-2 = 
+ramp-volume-3 = 
+ramp-volume-4 = 
+ramp-volume-5 = 
+ramp-volume-6 = 
+ramp-volume-7 = 
+ramp-volume-8 = 
+ramp-volume-9 = 
+ramp-volume-font = 2
 ramp-volume-foreground = ${color.BLUE}
 
 ; Right and Middle click
@@ -861,9 +861,9 @@ ramp-foreground = ${color.YELLOW}
 type = custom/text
 
 content = " "
-content-font = 5
+content-font = 2
 ;content = " "
-;content-font = 3
+;content-font = 2
 content-foreground = ${color.GREEN}
 content-padding = 0
 
@@ -880,7 +880,7 @@ click-left = ~/.config/i3/rofi/bin/launcher
 type = custom/text
 
 content = " "
-content-font = 3
+content-font = 2
 content-foreground = ${color.RED}
 content-padding = 0
 

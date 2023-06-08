@@ -108,7 +108,7 @@ plugins=(git)
 ####   ARCOLINUX SETTINGS   ####
 export PAGER='most'
 
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 setopt GLOB_DOTS
 #share commands between terminal instances or not
@@ -147,12 +147,6 @@ alias l.="ls -A | egrep '^\.'"
 #fix obvious typo's
 alias cd..='cd ..'
 alias pdw='pwd'
-alias udpate='sudo pacman -Syyu'
-alias upate='sudo pacman -Syyu'
-alias updte='sudo pacman -Syyu'
-alias updqte='sudo pacman -Syyu'
-alias upqll='paru -Syu --noconfirm'
-alias upal='paru -Syu --noconfirm'
 
 ## Colorize the grep command output for ease of use (good for log files)##
 alias grep='grep --color=auto'
@@ -165,13 +159,6 @@ alias df='df -h'
 #keyboard
 alias give-me-azerty-be="sudo localectl set-x11-keymap be"
 alias give-me-qwerty-us="sudo localectl set-x11-keymap us"
-
-#pacman unlock
-alias unlock="sudo rm /var/lib/pacman/db.lck"
-alias rmpacmanlock="sudo rm /var/lib/pacman/db.lck"
-
-#arcolinux logout unlock
-alias rmlogoutlock="sudo rm /tmp/arcologout.lock"
 
 #which graphical card is working
 alias whichvga="/usr/local/bin/arcolinux-which-vga"
@@ -191,11 +178,11 @@ alias merge="xrdb -merge ~/.Xresources"
 # Aliases for software managment
 # pacman or pm
 alias pacman='sudo pacman --color auto'
-alias update='sudo pacman -Syyu'
+alias update='sudo dnf update && sudo dnf upgrade'
 
 # paru as aur helper - updates everything
 alias pksyua="paru -Syu --noconfirm"
-alias upall="paru -Syu --noconfirm"
+alias upall="yay -Syu --noconfirm"
 
 #ps
 alias psa="ps auxf"
@@ -212,22 +199,10 @@ alias skel='[ -d ~/.config ] || mkdir ~/.config && cp -Rf ~/.config ~/.config-ba
 #backup contents of /etc/skel to hidden backup folder in home/user
 alias bupskel='cp -Rf /etc/skel ~/.skel-backup-$(date +%Y.%m.%d-%H.%M.%S)'
 
-#copy shell configs
-alias cb='cp /etc/skel/.bashrc ~/.bashrc && echo "Copied."'
-alias cz='cp /etc/skel/.zshrc ~/.zshrc && exec zsh'
-alias cf='cp /etc/skel/.config/fish/config.fish ~/.config/fish/config.fish && echo "Copied."'
-
 #switch between bash and zsh
 alias tobash="sudo chsh $USER -s /bin/bash && echo 'Now log out.'"
 alias tozsh="sudo chsh $USER -s /bin/zsh && echo 'Now log out.'"
 alias tofish="sudo chsh $USER -s /bin/fish && echo 'Now log out.'"
-
-#switch between lightdm and sddm
-alias tolightdm="sudo pacman -S lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings --noconfirm --needed ; sudo systemctl enable lightdm.service -f ; echo 'Lightm is active - reboot now'"
-alias tosddm="sudo pacman -S sddm --noconfirm --needed ; sudo systemctl enable sddm.service -f ; echo 'Sddm is active - reboot now'"
-alias toly="sudo pacman -S ly --noconfirm --needed ; sudo systemctl enable ly.service -f ; echo 'Ly is active - reboot now'"
-alias togdm="sudo pacman -S gdm --noconfirm --needed ; sudo systemctl enable gdm.service -f ; echo 'Gdm is active - reboot now'"
-alias tolxdm="sudo pacman -S lxdm --noconfirm --needed ; sudo systemctl enable lxdm.service -f ; echo 'Lxdm is active - reboot now'"
 
 # kill commands
 # quickly kill conkies
@@ -289,9 +264,6 @@ alias riplong="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -3000 | n
 #iso and version used to install ArcoLinux
 alias iso="cat /etc/dev-rel | awk -F '=' '/ISO/ {print $2}'"
 
-#Cleanup orphaned packages
-alias cleanup='sudo pacman -Rns $(pacman -Qtdq)'
-
 #clear
 alias clean="clear; seq 1 $(tput cols) | sort -R | sparklines | lolcat"
 
@@ -319,8 +291,10 @@ alias nsamba="sudo $EDITOR /etc/samba/smb.conf"
 alias ngnupgconf="sudo nano /etc/pacman.d/gnupg/gpg.conf"
 alias nhosts="sudo $EDITOR /etc/hosts"
 alias nb="$EDITOR ~/.bashrc"
+alias nbp="$EDITOR ~/.bashrc-personal"
 alias nz="$EDITOR ~/.zshrc"
-alias nf="EDITOR ~/.config/fish/config.fish"
+alias nzp="$EDITOR ~/.zshrc-personal"
+alias nf="$EDITOR ~/.config/fish/config.fish"
 
 #gpg
 #verify signature for isos
@@ -392,36 +366,6 @@ ex ()
     echo "'$1' is not a valid file"
   fi
 }
-
-#btrfs aliases
-alias btrfsfs="sudo btrfs filesystem df /"
-alias btrfsli="sudo btrfs su li / -t"
-
-#snapper aliases
-alias snapcroot="sudo snapper -c root create-config /"
-alias snapchome="sudo snapper -c home create-config /home"
-alias snapli="sudo snapper list"
-alias snapcr="sudo snapper -c root create"
-alias snapch="sudo snapper -c home create"
-
-#Leftwm aliases
-alias lti="leftwm-theme install"
-alias ltu="leftwm-theme uninstall"
-alias lta="leftwm-theme apply"
-alias ltupd="leftwm-theme update"
-alias ltupg="leftwm-theme upgrade"
-
-#arcolinux applications
-alias att="archlinux-tweak-tool"
-alias adt="arcolinux-desktop-trasher"
-alias abl="arcolinux-betterlockscreen"
-alias agm="arcolinux-get-mirrors"
-alias amr="arcolinux-mirrorlist-rank-info"
-alias aom="arcolinux-osbeck-as-mirror"
-alias ars="arcolinux-reflector-simple"
-alias atm="arcolinux-tellme"
-alias avs="arcolinux-vbox-share"
-alias awa="arcolinux-welcome-app"
 
 #remove
 alias rmgitcache="rm -r ~/.cache/git"
