@@ -1,2 +1,2 @@
 #!/bin/sh
-feh --no-fehbg --bg-scale --no-xinerama '/usr/share/backgrounds/beach.png' 
+feh --no-fehbg --bg-scale --no-xinerama '/usr/share/backgrounds/dracula.png' 

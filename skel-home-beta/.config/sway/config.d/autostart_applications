@@ -15,7 +15,7 @@ exec setxkbmap -option compose:rctrl
 exec nm-applet --indicator
 
 # Dropbox
-exec dropbox start
+exec dropbox
 
 # Bluetooth
 exec blueman-applet

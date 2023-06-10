@@ -1,184 +1,3 @@
-sudo dnf install alacritty
-exit
-tozsh
-sudo dnf update
-sudo dnf install rofi
-sudo dnf install polybar
-sudo dnf install alacritty
-sudo nano /etc/dnf/dnf.conf 
-sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
-sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
-sudo dnf install gstreamer1-plugins-{bad-\*,good-\*,base} gstreamer1-plugin-openh264 gstreamer1-libav --exclude=gstreamer1-plugins-bad-free-devel
-dots
-cd ..
-cd install-scripts/
-cd fedora/
-ls
-cp 200-software-common.sh 100-base-configuration.sh
-nano 100-base-configuration.sh 
-./100-base-configuration.sh 
-exit
-sudo dnf install polybar
-sudo dnf install alacritty
-sudo nano /etc/dnf/dnf.conf 
-sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
-sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
-sudo dnf install gstreamer1-plugins-{bad-\*,good-\*,base} gstreamer1-plugin-openh264 gstreamer1-libav --exclude=gstreamer1-plugins-bad-free-devel
-cp 200-software-common.sh 100-base-configuration.sh
-nano 100-base-configuration.sh 
-./100-base-configuration.sh 
-dots
-cd ..
-cd install-scripts/
-cd fedora/
-./200-software-common.sh 
-./301-software-visual-studio-code.sh 
-./302-software-google-chrome.sh 
-./306-software-ms-fonts.sh 
-fc-cache -vf
-./305-software-microsoft-edge.sh 
-ls
-./050-wallpapers.sh 
-sudo dnf install -y git
-git status
-git add .
-git commit -m "tweak to install scripts"
-git pull
-git push origin main
-alias
-exit
-alias
-dots
-cd ..
-cd install-scripts/
-./git-v1.sh 
-ls
-gts
-exit
-sudo dnf search blue
-sudo dnf install -y blueberry
-sudo dnf install -y blueman
-exit
-sudo dnf remove xfce-terminal
-sudo dnf remove xfce4-terminal
-exit
-neofetcvh
-neofetch
-exit
-sudo dnf install -y blueman-tray
-exit
-blueman-tray 
-blueman-manager 
-exit
-update
-exit
-sudo dnf remove -y mousepad
-exit
-sudo dnf search lightdm
-sudo dnf install lightdm-settings -y
-exit
-sudo dnf install lxsession
-exit
-sudo lightdm-settings
-exit
-sudo dnf install xautolock
-sudo dnf search xss-lock
-exit
-cd /etc/skel/
-ls
-ll
-exit
-sudo dnf install lxsession
-exit
-/usr/lib/polkit-1/
-ls
-cd polkitd 
-sudo dnf search polkit
-sudo dnf install lxpolkit
-exit
-cd git/fitzland/install-scripts/
-exit
-dots
-ls
-cd ..
-eba
-exit
-myfedora
-ls
-nano 100-base-configuration.sh 
-exit
-dots
-eba
-myfedora
-nano 100-base-configuration.sh 
-./100-base-configuration.sh 
-cd ..
-./git-v1.sh 
-myfedora 
-ls
-exit
-update
-exit
-sudo dnf search lohit
-sudo dnf remove -y lohit-*
-sudo dnf remove -y google-notos-sans-cjk*
-sudo dnf remove -y google-noto-sans-cjk*
-exit
-sudo dnf search font
-sudo dnf search bleachbit
-sudo dnf install bleachbit
-exit
-sudo dnf search software
-exit
-sudo dnf search font
-sudo dnf search bleachbit
-sudo dnf install bleachbit
-sudo dnf search software
-sudo dnf remove -y vazirmatn*
-sudo dnf remove -y paktype*
-sudo dnf remove -y sil-mingzat*
-sudo dnf remove -y sil-nuosu*
-sudo dnf remove -y sil-padauk*
-sudo dnf remove -y google-noto
-sudo dnf remove -y google-noto*
-myfedora
-./200-software-common.sh 
-;s
-./100-base-configuration.sh 
-./500-software-i3.sh 
-ls
-sudo dnf install -y google-chrome-stable
-exit
-sudo nano /etc/dnf/dnf.conf 
-exit
-sudo dnf remove -y google-noto
-sudo dnf remove -y google-noto*
-;s
-./500-software-i3.sh 
-myfedora
-./050-wallpapers.sh 
-nano 100-base-configuration.sh 
-./100-base-configuration.sh 
-sudo dnf install -y google-chrome-stable
-ls
-./200-software-common.sh 
-exit
-myfedora
-ls
-exit
-./200-software-common.sh 
-myfedora
-./500-software-i3.sh 
-ls
-exit
-sudo dnf remove firefox
-ls
-sudo dnf install gnome-software
-sudo dnf search package manager
-exit
-sudo dnf remove xfce4-terminal
-exit
-fc-cache -vf
 exit
 update
 exit
@@ -631,3 +450,136 @@ sudo dnf install most
 exit
 ls
 exit
+nano ~/.bashrc-personal 
+exit
+nano ~/.bashrc-personal 
+exit
+nano ~/.bashrc-personal 
+exit
+nano ~/.bashrc-personal 
+yay i3
+exit
+nano ~/.bashrc
+exit
+dots
+exit
+nano ~/.bashrc-personal 
+yay i3
+nano ~/.bashrc
+dots
+cd git/fitzland/my-dots/
+cd ..
+cd install-scripts/
+cd arch/
+./200-software-arch-linux.sh 
+ls
+./500-software-distro-specific.sh 
+exit
+yay polybar
+exit
+./500-software-distro-specific.sh 
+yay polybar
+cd git/fitzland/
+cd my-dots/
+./050-wallpapers.sh 
+./get-ac-archcraft-repos.sh 
+upall
+cleanup
+./base-shell-script.sh 
+ls
+exit
+cd /usr/bin/
+ls
+exit
+nano ~/.profile 
+exit
+cd git/
+sl
+ls
+tozsh
+exit
+nano /etc/dnf/dnf.conf
+sudo nano /etc/dnf/dnf.conf
+exit
+cd ~/.config/sway/foot/
+ls
+nano foot.ini
+nano fonts.ini
+sudo dnf search jetbrains
+update
+nano ~/.bashrc
+exit
+sudo dnf search nerd font
+sudo dnf search jet brains
+sudo dnf install jetbrains-mono-fonts-all
+exit
+update
+exit
+cd ~/.config/sway/foot/fonts.ini
+nano ~/.config/sway/foot/fonts.ini
+exit
+update
+cd ~/.config/sway/foot/fonts.ini
+cd ~/.local/share/fonts/
+cd nerd-fonts/
+ls
+unzip JetBrainsMono.zip 
+update-fc
+nano ~/.config/sway/foot/fonts.ini
+exit
+nano ~/.config/sway/foot/fonts.ini
+exit
+nano ~/.config/sway/foot/fonts.ini
+neofetch
+sudo dnf install most
+man 5 waybar
+man 5 waybar-sway-workspaces
+exit
+nano ~/.config/sway/foot/fonts.ini
+update
+sudo dnf install xed
+cd git/fitzland/install-scripts/fedora/
+./050-wallpapers.sh 
+./100-base-configuration.sh 
+ls
+./200-software-common.sh 
+mv ~/git/fitzland/my-dots/skel-home/.config/sway ~/.config/sway-orig
+cp ~/.config/sway-orig ~/git/fitzland/my-dots/skel-home/.config/sway
+cp -r ~/.config/sway-orig ~/git/fitzland/my-dots/skel-home/.config/sway
+exit
+cp ~/.config/sway-orig ~/git/fitzland/my-dots/skel-home/.config/sway
+cp -r ~/.config/sway-orig ~/git/fitzland/my-dots/skel-home/.config/sway
+exit
+cd git/fitzland/install-scripts/fedora/
+./301-software-visual-studio-code.sh 
+./302-software-google-chrome.sh 
+./303-software-spotify.sh 
+ls
+./304-software-dropbox.sh 
+sudo dnf install meld
+exit
+exut
+exit
+xrandr
+arandr
+sudo dnf install arandr
+exit
+swaymsg -t get_outputs
+sudo dnf install lxappearance
+exit
+sudo dnf install steam
+update
+exit
+man 5 waybar
+exit
+man 5 waybar
+man 5 waybar-sway-workspaces
+exit
+sudo dnf search dropbox
+sudo dnf install dropbox
+exit
+sudo dnf install wofi
+exit
+sudo dnf search lxpolkit
+man 5 swaybar
+man 5 sway

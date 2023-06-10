@@ -25,7 +25,7 @@
     "modules-left": ["sway/workspaces", "sway/mode"],
     "modules-center": ["sway/window", "mpd"],
 	//"modules-center": ["custom/spotify"],
-    "modules-right": ["idle_inhibitor", "clock", "tray"],
+    "modules-right": ["idle_inhibitor", "clock", "custom/menu", "tray"],
 },
 
 {

@@ -37,16 +37,17 @@ set $wlogout ~/.config/sway/scripts/wlogout
 set $colorpicker ~/.config/sway/scripts/colorpicker
 set $files thunar
 set $editor xed
-set $browser firefox-developer-edition
+set $browser firefox
 
-set $rofi_launcher ~/.config/sway/scripts/rofi_launcher
+#set $rofi_launcher ~/.config/sway/scripts/rofi_launcher
+#set $rofi_runner ~/.config/sway/scripts/rofi_runner
 set $rofi_music ~/.config/sway/scripts/rofi_music
 set $rofi_powermenu ~/.config/sway/scripts/rofi_powermenu
-set $rofi_runner ~/.config/sway/scripts/rofi_runner
 set $rofi_screenshot ~/.config/sway/scripts/rofi_screenshot
 set $rofi_network ~/.config/sway/scripts/rofi_network
 
-set $wofi_menu ~/.config/sway/scripts/wofi_menu
+set $wofi_launcher ~/.config/sway/scripts/wofi_launcher
+set $wofi_runner ~/.config/sway/scripts/wofi_runner
 set $wofi_powermenu ~/.config/sway/scripts/wofi_powermenu
 
 ##-- Startup Programs --------------------
@@ -63,22 +64,18 @@ bindsym $mod+t 					exec $term -F
 
 # -- Apps --
 bindsym $mod+Shift+f 			exec $files
-bindsym $mod+Shift+e 			exec $editor
+bindsym $mod+Shift+e 			exec $wlogout
 bindsym $mod+Shift+w 			exec $browser
 
-# -- Rofi --
-bindsym $mod+slash 				exec $rofi_launcher
-bindsym $mod+backslash  		exec $rofi_runner
-bindsym $mod+d	 				exec $wofi_menu
-bindsym $mod+x 					exec $rofi_powermenu
 bindsym $mod+n 					exec $rofi_network
 bindsym $mod+Shift+m 			exec $rofi_music
 bindsym $mod+Shift+s 			exec $rofi_screenshot
 
 # -- Wofi --
-#bindsym $alt+F1 				exec $wofi_menu
-#bindsym $mod+d	 				exec $wofi_menu
-#bindsym $mod+x 				exec $wofi_powermenu
+bindsym $mod+slash 				exec $wofi_launcher
+bindsym $mod+backslash			exec $wofi_runner
+bindsym $mod+d	 				exec $wofi_menu
+bindsym $mod+x   				exec $wofi_powermenu
 
 # -- Misc --
 bindsym $mod+p 					exec $colorpicker

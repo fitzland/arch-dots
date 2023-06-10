@@ -2,32 +2,32 @@
 # Copyright (C) 2020-2022 Aditya Shakya <adi1090x@gmail.com>
 # Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
 #
-# Beach color scheme
+# Dracula color scheme
 # -----------------------------------------------------------------------------
 
 # Wallpaper
-wallpaper='/usr/share/backgrounds/beach.jpg'
+wallpaper='/usr/share/backgrounds/dracula.png'
 
 # Special
-background='#141c21'
-foreground='#93a1a1'
-cursor='#93a1a1'
+foreground='#F8F8F2'
+background='#282A36'
+cursor='#F8F8F2'
 
 # Colors
-color0='#263640'
-color1='#d12f2c'
-color2='#819400'
-color3='#b08500'
-color4='#2587cc'
-color5='#696ebf'
-color6='#289c93'
-color7='#bfbaac'
-color8='#4a697d'
-color9='#fa3935'
-color10='#a4bd00'
-color11='#d9a400'
-color12='#2ca2f5'
-color13='#8086e8'
-color14='#33c5ba'
-color15='#fdf6e3'
+color0='#3C3E4A'
+color1='#FF5555'
+color2='#50FA7B'
+color3='#F1FA8C'
+color4='#BD93F9'
+color5='#FF79C6'
+color6='#8BE9FD'
+color7='#BFBFBF'
+color8='#4D4D4D'
+color9='#FF6E67'
+color10='#5AF78E'
+color11='#F4F99D'
+color12='#CAA9FA'
+color13='#FF92D0'
+color14='#9AEDFE'
+color15='#E6E6E6'
 \n# Don't Delete This File

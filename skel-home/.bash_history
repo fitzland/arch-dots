@@ -583,3 +583,87 @@ exit
 sudo dnf search lxpolkit
 man 5 swaybar
 man 5 sway
+sudo dnf install wofi
+sudo dnf search lxpolkit
+man 5 swaybar
+man 5 sway
+cd git/fitzland/my-dots/
+./010-backup-home.sh 
+cd skel-home
+ls -la
+cd .config/
+cd sway/
+ls
+exit
+cd .config/
+cd sway/
+dots
+cd git/fitzland/my-dots/
+ls
+sudo dnf install git
+./git-v1.sh 
+git add .
+git status
+exit
+sudo dnf search mojave-ct
+sudo dnf search numix
+sudo dnf install numix
+sudo dnf install numix-icon-theme
+sudo dnf install numix-icon-theme-circle
+exit
+man 5 sway
+exit
+sudo dnf install numix-icon-theme-circle
+man 5 sway
+cd git/fitzland/install-scripts/
+cd fedora/
+nano 100-base-configuration.sh 
+./100-base-configuration.sh 
+ls
+nano 200-software-common.sh 
+nano 500-software-i3.sh 
+./500-software-i3.sh 
+exit
+sudo dnf install numix-icon-theme-circle
+man 5 sway
+cd downloads/
+cd tarballs/
+sudo dnf remove firefox
+tar -xvf firefox-115.0b3.tar.bz2 
+rm firefox-115.0b3.tar.bz2 
+ls
+sudo mv /home/jeff/downloads/tarballs/firefox /opt
+sudo ln -s /opt/firefox/firefox /usr/local/bin/firefox
+sudo touch /usr/share/applications/firefox-developer.desktop
+sudo nano /usr/share/applications/firefox-developer.desktop 
+chmod +x /usr/share/applications/firefox-developer.desktop 
+sudo chmod +x /usr/share/applications/firefox-developer.desktop 
+sudo dnf install ffmpeg
+exit
+sudo dnf install i3
+exit
+sudo chmod +x /usr/share/applications/firefox-developer.desktop 
+sudo dnf install ffmpeg
+sudo dnf install i3
+cd git/
+fitz
+cd fitzland/
+cd install-scripts/
+cd fedora/
+./200-software-common.sh 
+ls
+nano 100-base-configuration.sh 
+nano 500-software-i3.sh 
+./500-software-i3.sh 
+sudo dnf install awesome -y
+exit
+man 5 wofi
+man 7 wofi
+exit
+man 7 wofi
+sudo dnf install neofetch
+neofetch
+exit
+sudo dnf install rofi 
+sudo dnf install rofi --allowerasing -y
+exit

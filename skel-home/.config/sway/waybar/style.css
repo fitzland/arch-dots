@@ -80,23 +80,22 @@ window#waybar.geany {
 
 #workspaces button {
 	color: @foreground;
-	padding: 2px 6px;
+	padding: 4px 6px;
 }
 
 #workspaces button:hover {
 	background-color: @background;
 	color: @white;
 	border: 0px solid @background;
-	border-radius: 12px;
-	padding: 2px 6px;
+	padding: 4px 6px;
 }
 
 #workspaces button.visible {
-	background-image: linear-gradient(to right, @blue , @green);
+	background-image: linear-gradient(to right, @cyan , @blue);
 }
 
 #workspaces button.focused {
-	background-image: linear-gradient(to right, @red , @magenta);
+	background-image: linear-gradient(to right, @magenta , @red);
 }
 
 #workspaces button.urgent {
@@ -113,7 +112,7 @@ window#waybar.geany {
 #workspaces button.persistent {
 	color: @background;
 	border-radius: 12px;
-	padding: 2px 6px;
+	padding: 4px 6px;
 }
 
 #workspaces button.current_output {

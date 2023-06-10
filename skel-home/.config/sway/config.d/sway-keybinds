@@ -5,8 +5,8 @@
     bindsym $mod+Shift+F2 exec xed
 
 # Writer/Calc
-    bindsym $mod+F3 exec lowriter
-    bindsym $mod+Shift+F3 exec localc
+    bindsym $mod+F3 exec oowriter
+    bindsym $mod+Shift+F3 exec oocalc
 
 # Inkscape/Gimp
     bindsym $mod+F4 exec inkscape
