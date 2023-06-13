@@ -177,9 +177,8 @@ set_from_resource $ws0 i3-wm.workspace.10.name "10:media"
 ##  Output Labels  ----------------------------------------------------------##
 ###############################################################################
 
-#set $firstMonitor DP-4
-set $firstMonitor DP-1
-#set $secondMonitor DP-2
+set $firstMonitor DP-4
+#set $firstMonitor DP-1
 set $secondMonitor DP-2
 
 

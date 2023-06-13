@@ -168,7 +168,7 @@ interval = 1
 ;;format = <label> <ramp-coreload>
 format = <label>
 format-prefix = ""
-format-prefix-font = 2
+format-prefix-font = 1
 format-prefix-foreground = ${color.YELLOW}
 
 ; Available tokens:
@@ -353,8 +353,8 @@ interval = 3
 format = <label>
 ; format-foreground = ${color.CYAN}
 
-format-prefix = "﬙"
-format-prefix-font = 2
+format-prefix = ""
+format-prefix-font = 1
 format-prefix-foreground = ${color.CYAN}
 
 

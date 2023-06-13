@@ -173,7 +173,7 @@ bspc rule -a stalonetray state=floating manage=off
 ###############################################################
 
 # Set display from arandr saved script
-sh ~/.screenlayout/monitor.sh &
+sh ~/.screenlayout/monitor-arch.sh &
 
 # Kill if already running
 killall -9 xsettingsd sxhkd dunst xfce-polkit xfce4-power-manager
