@@ -1,0 +1,40 @@
+## Autostart Config
+
+#Auth with polkit-gnome:
+exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+#exec /usr/bin/lxpolkit
+
+# Fix cursor
+exec xsetroot -cursor_name left_ptr
+
+# Set Compose key
+exec setxkbmap -option compose:rctrl
+
+# Network Applet
+exec nm-applet --indicator
+
+# Dropbox
+exec dropbox
+
+# Bluetooth
+exec blueman-applet
+
+# GTK3 applications take a long time to start
+exec systemctl --user import-environment DISPLAY WAYLAND_DISPLAY SWAYSOCK
+exec hash dbus-update-activation-environment 2>/dev/null && \
+     dbus-update-activation-environment --systemd DISPLAY WAYLAND_DISPLAY SWAYSOCK
+     
+# Autotiling
+exec autotiling
+
+# Welcome App
+exec dex -a -s /etc/xdg/autostart/:~/.config/autostart/  
+
+# Gnome Keyring
+exec gnome-keyring-daemon --daemonize --start --components=gpg,pkcs11,secrets,ssh
+
+# Xdg DEsktop Portal
+exec /usr/libexec/xdg-desktop-portal
+
+# Sway Fader
+# exec python3 ~/.config/sway/scripts/swayfader.py      
