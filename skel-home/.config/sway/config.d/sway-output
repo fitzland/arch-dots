@@ -7,7 +7,7 @@
 
 # Multiheads
 #
-output DP-1 {
+output DP-3 {
     background ~/.config/sway/wallpapers/sway-wm-04.png fill #333333
     resolution 1920x1080 
     position 0,0

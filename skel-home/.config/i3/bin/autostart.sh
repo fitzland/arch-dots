@@ -19,7 +19,7 @@ xsetroot -cursor_name left_ptr
 setxkbmap -option compose:rctrl &
 
 # Set display from arandr saved script
-sh ~/.screenlayout/monitor-arch.sh &
+sh ~/.screenlayout/monitor-debian.sh &
 
 # Polkit agent
 #/usr/lib/xfce-polkit/xfce-polkit &

@@ -19,16 +19,15 @@ mkdir ./skel-home
 cp -r $HOME/.config/autostart ./skel-home/.config/
 cp -r $HOME/.config/awesome ./skel-home/.config/
 cp -r $HOME/.config/bspwm ./skel-home/.config/
-cp -r $HOME/.config/i3* ./skel-home/.config/
+cp -r $HOME/.config/hypr ./skel-home/.config/
+cp -r $HOME/.config/i3 ./skel-home/.config/
 cp -r $HOME/.config/gtk-2.0 ./skel-home/.config/
 cp -r $HOME/.config/gtk-3.0 ./skel-home/.config/
 cp -r $HOME/.config/gtk-4.0 ./skel-home/.config/
 cp -r $HOME/.config/keepassxc ./skel-home/.config/
 cp -r $HOME/.config/Kvantum ./skel-home/.config/
-cp -r $HOME/.config/polybar ./skel-home/.config/
 cp -r $HOME/.config/qt5ct ./skel-home/.config/
 cp -r $HOME/.config/sway ./skel-home/.config/
-cp -r $HOME/.config/waybar ./skel-home/.config/
 cp -r $HOME/.themes ./skel-home/
 cp -r $HOME/.Xresources.d ./skel-home/
 cp $HOME/.bash* ./skel-home/

@@ -54,25 +54,15 @@
 		"rotate": 0,
         //"timezone": "America/New_York",
         "tooltip-format": "<big>{:%B %Y}</big>\n<tt><small>{calendar}</small></tt>",
-        "format": " {:%I:%M %p}",
-        "format-alt": " {:%a %d-%b-%G}"
-    },
-
-    "clock#date": {
-		"interval": 60,
-		"align": 0,
-		"rotate": 0,
-        //"timezone": "America/New_York",
-        "tooltip-format": "<big>{:%B %Y}</big>\n<tt><small>{calendar}</small></tt>",
-        "format": " {:%a %d-%b-%G}",
-        "format-alt": " {:%I:%M %p}"
+        "format": " {:%I:%M %p}",
+        "format-alt": " {:%a %b %d, %G}"
     },
 
 	// waybar-cpu
 
 	// waybar-custom
     "custom/menu": {
-         "format": "",
+         "format": "menu",
          "tooltip": false,
          //"on-click": "$HOME/.config/sway/scripts/wofi_menu",
          "on-click": "$HOME/.config/sway/scripts/rofi_launcher",
@@ -80,7 +70,7 @@
     },
 
     "custom/power": {
-         "format": "襤",
+         "format": "1|0",
          "tooltip": false,
          //"on-click": "$HOME/.config/sway/scripts/wlogout",
          //"on-click": "$HOME/.config/sway/scripts/wofi_powermenu",
@@ -202,18 +192,17 @@
          "disable-scroll": false,
          "disable-click": false,
          "all-outputs": false,
-         "format": "{value}",
+         "format": "{name}",
          "format-icons": {
              "1": "",
-             "2": "",
-             "3": "",
-             "4": "",
-             "5": "",
-             "6": "",
-             "7": "",
-             "8": "",
-             "9": "",
-             "10": "",
+             "2": "",
+             "3": "",
+             "4": "",
+             "5": "",
+             "6": "漣",
+             "7": "",
+             "8": "",
+             "9": "",
              "10": "ﳴ",
              "urgent": "",
              "focused": "",

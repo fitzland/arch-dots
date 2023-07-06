@@ -7,17 +7,18 @@ set $mod Mod4
 set $alt Mod1
 
 ##-- Fonts (Global) ----------------------
-font pango:JetBrains Mono Medium 10
+font pango:JetBrains Mono Medium 12
 
 ##-- Config files ------------------------
 include ~/.config/sway/config.d/sway-idle
 include ~/.config/sway/config.d/sway-input
-include ~/.config/sway/config.d/sway-output
-include ~/.config/sway/config.d/sway-modes
-include ~/.config/sway/config.d/sway-theme
 include ~/.config/sway/config.d/sway-keybinds
+include ~/.config/sway/config.d/sway-modes
 include ~/.config/sway/config.d/sway-navigation
+include ~/.config/sway/config.d/sway-theme
+include ~/.config/sway/config.d/sway-output
 include ~/.config/sway/config.d/sway-workspaces
+include ~/.config/sway/config.d/sway-rules
 
 ##-- General Settings --------------------
 default_orientation horizontal
@@ -36,18 +37,17 @@ set $lockscreen ~/.config/sway/scripts/lockscreen
 set $wlogout ~/.config/sway/scripts/wlogout
 set $colorpicker ~/.config/sway/scripts/colorpicker
 set $files thunar
-set $editor xed
-set $browser firefox
+set $editor code
+set $browser firefox-developer-edition
 
-#set $rofi_launcher ~/.config/sway/scripts/rofi_launcher
-#set $rofi_runner ~/.config/sway/scripts/rofi_runner
+set $rofi_launcher ~/.config/sway/rofi/bin/launcher-app.sh
 set $rofi_music ~/.config/sway/scripts/rofi_music
 set $rofi_powermenu ~/.config/sway/scripts/rofi_powermenu
+set $rofi_runner ~/.config/sway/rofi/bin/launcher-cmd.sh
 set $rofi_screenshot ~/.config/sway/scripts/rofi_screenshot
 set $rofi_network ~/.config/sway/scripts/rofi_network
 
-set $wofi_launcher ~/.config/sway/scripts/wofi_launcher
-set $wofi_runner ~/.config/sway/scripts/wofi_runner
+set $wofi_menu ~/.config/sway/scripts/wofi_menu
 set $wofi_powermenu ~/.config/sway/scripts/wofi_powermenu
 
 ##-- Startup Programs --------------------
@@ -59,28 +59,32 @@ exec_always ~/.config/sway/scripts/startup
 # -- Terminal --
 bindsym $mod+Return 			exec $term
 bindsym $mod+Shift+Return 		exec $files
-bindsym $mod+$alt+Return 		exec $term -f
-bindsym $mod+t 					exec $term -F
+bindsym $mod+$alt+Return 		exec $term -s
+bindsym $mod+t 				exec $term -F
 
 # -- Apps --
 bindsym $mod+Shift+f 			exec $files
-bindsym $mod+Shift+e 			exec $wlogout
+bindsym $mod+Shift+e 			exec $editor
 bindsym $mod+Shift+w 			exec $browser
 
-bindsym $mod+n 					exec $rofi_network
+# -- Rofi --
+bindsym $mod+slash 			exec $rofi_launcher
+bindsym $mod+backslash			exec $rofi_runner
+#bindsym $mod+d	 			exec $rofi_launcher
+bindsym $mod+x 				exec $rofi_powermenu
+bindsym $mod+n 				exec $rofi_network
 bindsym $mod+Shift+m 			exec $rofi_music
 bindsym $mod+Shift+s 			exec $rofi_screenshot
 
 # -- Wofi --
-bindsym $mod+slash 				exec $wofi_launcher
-bindsym $mod+backslash			exec $wofi_runner
-bindsym $mod+d	 				exec $wofi_menu
-bindsym $mod+x   				exec $wofi_powermenu
+#bindsym $alt+F1 			exec $wofi_menu
+bindsym $mod+d	 			exec $wofi_menu
+#bindsym $mod+x 			exec $wofi_powermenu
 
 # -- Misc --
-bindsym $mod+p 					exec $colorpicker
-#bindsym $mod+n 				exec nm-connection-editor
-#bindsym $mod+x 				exec $wlogout
+bindsym $mod+p 				exec $colorpicker
+#bindsym $mod+n 			exec nm-connection-editor
+#bindsym $mod+x 			exec $wlogout
 
 # -- Function keys --
 bindsym XF86MonBrightnessUp 	exec "$backlight --inc"
@@ -103,11 +107,17 @@ bindsym $mod+Print 				exec "$screenshot --area"
 
 # -- Sway --
 # Lockscreen
-bindsym $alt+Control+l 			exec "$lockscreen"
-bindsym $mod+k      			exec "$lockscreen"
+bindsym $alt+Control+k 			exec "$lockscreen"
+
+# logout
+bindsym $alt+Control+l 			exit
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod normal
+
+# Switch to the last recently used window
+bindsym $mod+Tab exec swayr switch-to-urgent-or-lru-window
+
 
 # kill focused window
 bindsym $mod+q kill
@@ -121,3 +131,4 @@ bindsym $mod+Shift+q exit
 
 ##-- Misc --------------------------------
 include /etc/sway/config.d/*
+include /etc/sway/config.d/sway-autostart

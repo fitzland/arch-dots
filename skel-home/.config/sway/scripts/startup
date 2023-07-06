@@ -13,35 +13,15 @@ for _prs in "${_ps[@]}"; do
 done
 
 # Polkit agent
-#if [[ ! `pidof xfce-polkit` ]]; then
-#	/usr/lib/xfce-polkit/xfce-polkit &
-#fi
-
-# Simple Polkit agent
-if [[ ! `pidof lxpolkit` ]]; then
-	/usr/bin/lxpolkit &
+if [[ ! `pidof xfce-polkit` ]]; then
+	/usr/lib/xfce-polkit/xfce-polkit &
 fi
 
-# Fix cursor
-exec xsetroot -cursor_name left_ptr &
-
-# Set Compose key
-exec setxkbmap -option compose:rctrl &
-
-# Launch notification daemon (mako)
+# Lauch notification daemon (mako)
 ~/.config/sway/scripts/notifications &
 
-# Launch statusbar (waybar)
+# Lauch statusbar (waybar)
 ~/.config/sway/scripts/statusbar &
 
-# Start network manager applet
-nm-applet --indicator &
-
 # Start mpd
-exec mpd &
-
-# Dropbox
-exec dropbox start &
-
-# Bluetooth
-exec blueman-applet &
+#exec mpd &

@@ -1,12 +1,13 @@
 // Copyright (C) 2020-2023 Aditya Shakya <adi1090x@gmail.com>
 //
 // Waybar config file
-[{
+[
+{
     "include": "~/.config/sway/waybar/modules",
     "name": "main-bar", 			// Waybar name
     "id": "main-bar", 				// Waybar id
-    "output": "DP-1",
     "layer": "top", 				// Waybar at top layer
+    "output": "DP-3",
     //"mode": "dock", 				// Display mode (dock|hide|invisible|overlay)
     "exclusive": true, 				// Request an exclusive zone from the compositor
     "passthrough": false, 			// Pass any pointer events to the window under the bar
@@ -19,21 +20,21 @@
     "margin-bottom": 0, 			// Space below the bar
     "margin-left": 0, 				// Space to the left of the bar
     "margin-right": 0, 				// Space to the right of the bar
-    "fixed-center": false, 			// Center modules position
+    "fixed-center": true, 			// Center modules position
     "ipc": true, 					// Control waybar with `swaymsg bar` commands
     // Choose the order of the modules
-    "modules-left": ["sway/workspaces", "sway/mode"],
-    "modules-center": ["sway/window", "mpd"],
+    "modules-left": ["custom/menu", "sway/workspaces", "sway/mode", "sway/window"],
+    "modules-center": ["mpd", "network"],
 	//"modules-center": ["custom/spotify"],
-    "modules-right": ["idle_inhibitor", "clock", "custom/menu", "tray"],
-},
-
+    "modules-right": ["pulseaudio", "clock", "tray"],
+}
+,
 {
     "include": "~/.config/sway/waybar/modules",
     "name": "extra-bar", 			// Waybar name
     "id": "extra-bar", 				// Waybar id
-    "output": "DP-2",
     "layer": "top", 				// Waybar at top layer
+    "output": "DP-2",
     //"mode": "dock", 				// Display mode (dock|hide|invisible|overlay)
     "exclusive": true, 				// Request an exclusive zone from the compositor
     "passthrough": false, 			// Pass any pointer events to the window under the bar
@@ -46,11 +47,12 @@
     "margin-bottom": 0, 			// Space below the bar
     "margin-left": 0, 				// Space to the left of the bar
     "margin-right": 0, 				// Space to the right of the bar
-    "fixed-center": false, 			// Center modules position
+    "fixed-center": true, 			// Center modules position
     "ipc": true, 					// Control waybar with `swaymsg bar` commands
     // Choose the order of the modules
-    "modules-left": ["sway/workspaces", "sway/mode"],
-    "modules-center": ["sway/window", "mpd"],
-	//"modules-center": ["custom/spotify"],
-    "modules-right": ["pulseaudio", "network", "clock#date", "tray"],
-}]    
+    "modules-left": ["custom/power", "sway/workspaces", "sway/mode", "sway/window"],
+    //"modules-center": ["mpd"],
+	"modules-center": ["custom/spotify"],
+    "modules-right": ["idle_inhibitor", "pulseaudio", "clock", "tray"],
+}
+]

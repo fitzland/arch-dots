@@ -21,7 +21,7 @@ set $ws0 "10:media"
 ###############################################################################
 
 #set $firstMonitor DP-4
-set $firstMonitor DP-1
+set $firstMonitor DP-3
 #set $secondMonitor DP-2
 set $secondMonitor DP-2
 
@@ -113,6 +113,11 @@ bindcode $mod+Shift+90 	 move container to workspace  $ws0; workspace number $ws
 
 # Note: workspaces can have any name you want, not just numbers.
 # We just use 1-10 as the default.
+
+# move focused window to next/previous workspace
+bindsym $mod+comma move container to workspace prev; workspace prev
+bindsym $mod+period move container to workspace next; workspace next
+
 
 # -- Layout stuff --
 
