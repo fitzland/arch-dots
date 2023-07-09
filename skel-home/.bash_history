@@ -1,56 +1,3 @@
-cd /etc/yum.repos.d/
-cd 
-cd downloads/
-ls
-sudo cp risi-risiOS.repo /etc/yum.repos.d/
-sudo copr enable risi/risiOS
-sudo dnf copr enable risi/risiOS
-sudo dnf update
-sudo dnf install risi-tweaks
-sudo dnf search risi
-exit
-sudo fedy
-exit
-cd git/fitzland/install-scripts/fedora/
-ls
-./301-software-visual-studio-code.sh 
-exit
-sudo dnf install nvidia
-hyprctl monitors
-exit
-hyprctl monitors
-exit
-hyprctl monitors
-sudo dnf search lightd
-sudo dnf search gdm
-sudo dnf search sddm
-exit
-sudo dnf update
-sudo dnf install risi-tweaks
-sudo dnf search risi
-sudo fedy
-cd git/fitzland/install-scripts/fedora/
-./301-software-visual-studio-code.sh 
-sudo dnf install nvidia
-hyprctl monitors
-hyprctl monitors
-hyprctl monitors
-sudo dnf search lightd
-sudo dnf search gdm
-sudo dnf search sddm
-cd git/archcraft/
-cd fitzland/
-cd 
-cd downloads/
-cd tarballs/
-cd archcraft/
-cd iso/
-cd ac-wayland-source/
-cd files/
-ls -la
-cd ..
-cd localrepo/
-cd x86_64/
 ls
 exit
 systemctl status sddm
@@ -497,4 +444,57 @@ cd install-scripts/arch/
 ./130-bluetooth.sh 
 yay spotify
 ls
+exit
+tozsh
+killall river
+yay xed
+cd git/fitzland/my-dots/
+./get-ed-endeavour-repos.sh 
+sudo pacman -Syyu
+cd install-scripts/arch/
+./130-bluetooth.sh 
+yay spotify
+cd my-dots/
+./get-ac-archcraft-repos.sh 
+./050-wallpapers.sh 
+cd ..
+cd dubois/arcolinux-spices/usr/share/arcolinux-spices/scripts/
+git pull
+./get-the-keys-and-repos.sh 
+sudo pacman -Syy
+cd 
+cd git/fitzland/
+cd install-scripts/
+cd arch/
+./200-software-linux.sh 
+ls
+./500-software-distro-specific.sh 
+exit
+sudo pacman -Rns firefox
+exit
+sudo pacman -Rns firefox
+exit
+cd git/fitzland/my-dots/
+ls
+./get-ac-archcraft-repos.sh 
+sudo pacman -S paru
+su -
+upall
+yay paru
+sudo pacman -S paru
+upall
+cleanup
+ls
+yay polybar
+exit
+yay polybar
+cd git/fitzland/
+cd my-dots/
+ls
+./050-wallpapers.sh 
+yay tweak
+exit
+upall
+yay visual studio code
+yay pamac
 exit

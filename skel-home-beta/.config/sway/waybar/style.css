@@ -3,19 +3,25 @@
 */
 
 /** ********** Import Colors ********** **/
-@import "./colors.css";
+@import "./dracula.css";
 
 /** ********** Fonts ********** **/
 * {
-    font-family: "JetBrains Mono", "Iosevka Nerd Font", archcraft, sans-serif;
-    font-size: 12px;
+    font-family: "Iosevka Nerd Font", "JetBrains Mono", sans-serif;
+    font-size: 15px;
 }
 
 /** ********** Waybar Window ********** **/
-window#waybar {
+window#waybar.main-bar {
     background-color: @background;
-	color: @background;
-    border-bottom: 2px solid @background-alt;
+	color: @black;
+    transition-property: background-color;
+    transition-duration: .5s;
+}
+
+window#waybar.extra-bar {
+    background-color: @background;
+	color: @black;
     transition-property: background-color;
     transition-duration: .5s;
 }
@@ -67,52 +73,52 @@ window#waybar.geany {
 
 /** ********** Clock ********** **/
 #clock {
-	background-image: linear-gradient(to right, @cyan , @blue);
+	color: @blue;
+	background-color: @background-alt;
 }
 
 /** ********** Sway ********** **/
 #workspaces {
-	background-color: @background-alt;
 	color: @foreground;
-	border-radius: 0px 12px 0px 0px;
-	padding: 4px;
+	background-color: @background;
 }
 
 #workspaces button {
 	color: @foreground;
-	padding: 4px 6px;
+	border-radius: 8px;
+	padding: 2px 8px;
+	margin: 4px 4px;
 }
 
 #workspaces button:hover {
+	color: @green;
 	background-color: @background;
-	color: @white;
-	border: 0px solid @background;
-	padding: 4px 6px;
 }
 
 #workspaces button.visible {
-	background-image: linear-gradient(to right, @cyan , @blue);
+	color: @blue;
+	background-color: @background-alt;
 }
 
 #workspaces button.focused {
-	background-image: linear-gradient(to right, @magenta , @red);
+	color: @green;
+	background-color: @background-alt;
 }
 
 #workspaces button.urgent {
-	background-image: linear-gradient(to right, @red , @yellow);
+	color: @red;
+	background-color: @background-alt;
 }
 
 #workspaces button.persistent {
-	background-image: linear-gradient(to right, @yellow , @magenta);
+	color: @cyan;
+	background-color: @background;
 }
 
 #workspaces button.visible,
 #workspaces button.focused,
 #workspaces button.urgent,
 #workspaces button.persistent {
-	color: @background;
-	border-radius: 12px;
-	padding: 4px 6px;
 }
 
 #workspaces button.current_output {
@@ -137,8 +143,8 @@ window#waybar.geany {
 }
 
 #window {
+	color: @yellow;
 	background-color: @background-alt;
-	color: @white;
 }
 window#waybar.empty #window {
 	background-color: transparent;
@@ -147,8 +153,8 @@ window#waybar.empty #window {
 /** ********** Tray ********** **/
 #tray {
 	background-color: @background-alt;
-	border-radius: 12px 0px 0px 0px;
-	padding: 4px 6px;
+	border-radius: 10px 0px 0px 10px;
+	padding: 2px 12px;
 }
 #tray > .passive {
     -gtk-icon-effect: dim;
@@ -157,6 +163,22 @@ window#waybar.empty #window {
     -gtk-icon-effect: highlight;
 }
 #tray > .active {
+}
+
+/** ********** Menu ********** **/
+#custom-menu {
+	color: @foreground;
+	background-color: @background-alt;
+	border-radius: 0px 10px 10px 0px;
+	padding: 2px 12px;
+}
+
+/** ********** Power ********* **/
+#custom-power {
+	color: @foreground;
+	background-color: @background-alt;
+	border-radius: 0px 10px 10px 0px;
+	padding: 2px 12px;
 }
 
 /** ********** MPD ********** **/
@@ -224,35 +246,42 @@ window#waybar.empty #window {
 
 /** ********** Idle Inhibitor ********** **/
 #idle_inhibitor {
-	background-image: linear-gradient(to right, @yellow, @blue);
+	color: @blue;
+	background-color: @background-alt;
 }
 #idle_inhibitor.deactivated {
-	background-image: linear-gradient(to right, @red , @yellow);
+	color: @magenta;
+	background-color: @background-alt;
 }
 
 /** ********** Pulseaudio ********** **/
 #pulseaudio {
-	background-image: linear-gradient(to right, @blue , @green);
+	color: @green;
+	background-color: @background-alt;
 }
 
 #pulseaudio.bluetooth {
-	background-image: linear-gradient(to right, @green , @yellow);
+	color: @cyan;
+	background-color: @background-alt;
 }
 #pulseaudio.muted {
-	background-image: linear-gradient(to right, @red , @yellow);
+	color: @red;
+	background-color: @background-alt;
 }
 
 /** ********** Network ********** **/
 #network {
-	background-image: linear-gradient(to right, @magenta , @red);
+	color: @cyan;
+	background-color: @background-alt;
 }
 
 #network.disconnected {
-	background-image: linear-gradient(to right, @red , @yellow);
+	color: @magenta;
+	background-color: @background-alt;	
 }
 #network.disabled {
-	background-color: @red;
-	color: @white;
+	color: @red;
+	background-color: @background-alt;
 }
 #network.linked {
 }
@@ -272,7 +301,7 @@ window#waybar.empty #window {
 #custom-spotify,
 #pulseaudio,
 #network {
-	border-radius: 12px;
-	margin: 6px 0px;
-	padding: 2px 10px;
+	border-radius: 8px;
+	margin: 4px 8px;
+	padding: 0px 8px;
 }

@@ -19,11 +19,11 @@ wofi_command="wofi --show dmenu \
 uptime=$(uptime -p | sed -e 's/up //g')
 
 ## Entries
-logout=" logout"
-lock=" lock"
-reboot=" restart"
-shutdown=" shutdown"
-suspend=" sleep"
+shutdown=" Shutdown"
+reboot=" Restart"
+lock=" Lock"
+suspend=" Sleep"
+logout=" Logout"
 
 # Ask for confirmation
 cdialog () {
@@ -32,20 +32,17 @@ cdialog () {
 
 # Variable passed to rofi
 open_menu () {
-	options="$logout\n$reboot\n$lock\n$shutdown\n$suspend"
+	options="$lock\n$suspend\n$logout\n$reboot\n$shutdown"
 
 	chosen="$(echo -e "$options" | $wofi_command --prompt "UP - $uptime")"
 	case $chosen in
-		$logout)
+		$shutdown)
 			cdialog
 			if [[ "$?" == 0 ]]; then
-				swaymsg exit
+				systemctl poweroff
 			else
 				exit
 			fi
-			;;
-		$lock)
-			~/.config/sway/scripts/lockscreen
 			;;
 		$reboot)
 			cdialog
@@ -55,13 +52,8 @@ open_menu () {
 				exit
 			fi
 			;;
-		$shutdown)
-			cdialog
-			if [[ "$?" == 0 ]]; then
-				systemctl poweroff
-			else
-				exit
-			fi
+		$lock)
+			~/.config/sway/scripts/lockscreen
 			;;
 		$suspend)
 			cdialog
@@ -70,6 +62,14 @@ open_menu () {
 				pulsemixer --mute
 				~/.config/sway/scripts/lockscreen
 				systemctl suspend
+			else
+				exit
+			fi
+			;;
+		$logout)
+			cdialog
+			if [[ "$?" == 0 ]]; then
+				swaymsg exit
 			else
 				exit
 			fi

@@ -13,3 +13,5 @@ bindsym $mod+Shift+Down move down
 bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
+## Navigate // Urgent Workspace // <> u ##
+bindsym $mod+u [urgent=latest] focus

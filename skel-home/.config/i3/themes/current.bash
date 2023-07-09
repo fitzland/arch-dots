@@ -1,33 +1,33 @@
-# -----------------------------------------------------------------------------
-# Copyright (C) 2020-2022 Aditya Shakya <adi1090x@gmail.com>
+# ------------------------------------------------------------------------------
+# Copyright (C) 2020-2021 Aditya Shakya <adi1090x@gmail.com>
 # Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
 #
-# Bouquet color scheme
-# -----------------------------------------------------------------------------
+# Cubic color scheme
+# ------------------------------------------------------------------------------
 
 # Wallpaper
-wallpaper='/usr/share/backgrounds/bouquet.jpg'
+wallpaper='/usr/share/backgrounds/cubic.jpg'
 
 # Special
-background='#191D27'
-foreground='#767D8A'
-cursor='#767D8A'
+foreground='#c5c8c6'
+background='#1d1f21'
+cursor='#c5c8c6'
 
 # Colors
-color0='#27292D'
-color1='#ec7875'
-color2='#61c766'
-color3='#fdd835'
-color4='#42a5f5'
-color5='#ba68c8'
-color6='#4dd0e1'
-color7='#d8d8d8'
-color8='#3B3D41'
-color9='#fb8784'
-color10='#70d675'
-color11='#ffe744'
-color12='#51b4ff'
-color13='#c979d7'
-color14='#5cdff0'
-color15='#fdf6e3'
+color0='#1d1f21'
+color1='#cc6666'
+color2='#b5bd68'
+color3='#f0c674'
+color4='#81a2be'
+color5='#b294bb'
+color6='#8abeb7'
+color7='#c5c8c6'
+color8='#969896'
+color9='#cc6666'
+color10='#b5bd68'
+color11='#f0c674'
+color12='#81a2be'
+color13='#b294bb'
+color14='#8abeb7'
+color15='#ffffff'
 \n# Don't Delete This File

@@ -288,7 +288,7 @@ bindcode $mod+Shift+90 	 move container to workspace  $ws0
 set_from_resource $i3-wm.binding.ws_next i3-wm.binding.ws_next o
 bindsym $mod+$i3-wm.binding.ws_next workspace next
 
-## Navigate // move focsed container workspace next // <> <Shift> o ##
+## Navigate // move focused container workspace next // <> <Shift> o ##
 set_from_resource $i3-wm.binding.ws_next_move i3-wm.binding.ws_next_move Shift+o
 bindsym $mod+$i3-wm.binding.ws_next_move move container to workspace next; workspace next
 

@@ -7,27 +7,51 @@ titlebar_border_thickness 2
 titlebar_padding 6 6
 title_align center
 
-smart_gaps off
-gaps inner 5
+gaps inner 10
 gaps outer 0
 
-##-- Colors ------------------------------
+# Title format for windows
+for_window [shell="xdg_shell"] title_format "%title (%app_id)"
+for_window [shell="x_wayland"] title_format "%class - %title"
 
-client.background       	#1E2128
+# Define colors variables:
+set $background #282A36
+set $foreground #F8F8F2
+set $cursorColor #F8F8F2
 
-# class                 	border  backgr. text    indicator child_border
-client.focused          	#E06B74 #E06B74 #FFFFFF #98C379   #E06B74
-client.focused_inactive 	#62AEEF #62AEEF #1E222A #98C379   #62AEEF
-client.unfocused        	#2F333C #2F333C #FFFFFF #98C379   #2F333C
-client.urgent           	#C778DD #C778DD #FFFFFF #98C379   #C778DD
-client.placeholder      	#1E222A #1E222A #FFFFFF #98C379   #1E222A
+set $black #3C3E4A
+set $red #FF5555
+set $green #50FA7B
+set $yellow #F1FA8C
+set $blue #BD93F9
+set $magenta #FF79C6
+set $cyan #8BE9FD
+set $white #BFBFBF
+set $altblack #4D4D4D
+set $altred #FF6E67
+set $altgreen #5AF78E
+set $altyellow #F4F99D
+set $altblue #CAA9FA
+set $altmagenta #FF92D0
+set $altcyan #9AEDFE
+set $altwhite #E6E6E6
+
+
+# class                   border        background      text            indicator       child_border
+client.focused            $green        $green          $background     $yellow         $green
+client.focused_inactive   $blue         $blue           $background     $yellow         $blue
+client.unfocused          $magenta      $magenta        $background     $yellow         $magenta
+client.urgent             $red          $red            $background     $yellow         $red
+client.placeholder        $black        $black          $foreground     $yellow         $cyan
+
+client.background         $background
 
 ##-- Gtk themes ------------------------------
 set $gnome-schema org.gnome.desktop.interface
 
 exec_always {
-    gsettings set $gnome-schema gtk-theme 'Juno-ocean'
+    gsettings set $gnome-schema gtk-theme 'Dracula'
     gsettings set $gnome-schema icon-theme 'Dracula'
-    gsettings set $gnome-schema cursor-theme 'Qogir-ubuntu-dark'
+    gsettings set $gnome-schema cursor-theme 'Paper'
     gsettings set $gnome-schema font-name 'Noto Sans 10'
 }
