@@ -118,10 +118,10 @@ label-urgent-foreground = ${color.BACKGROUND}
 label-urgent-background = ${color.ALTRED}
 
 ; Paddings
-label-focused-padding = 1
-label-unfocused-padding = 1
-label-visible-padding = 1
-label-urgent-padding = 1
+label-focused-padding = 3
+label-unfocused-padding = 3
+label-visible-padding = 3
+label-urgent-padding = 3
 
 ; Separator in between workspaces
 label-separator =
@@ -131,27 +131,6 @@ label-separator-background = ${color.BACKGROUND}
 
 ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 
-[module/mod]
-type = internal/bspwm
-
-format = <label-mode>
-format-background = ${color.BACKGROUND}
-format-foreground = ${color.YELLOW}
-format-underline = ${color.YELLOW}
-format-padding = 1
-
-label-monocle = "Monocle"
-label-tiled = "Tiled"
-
-label-floating = ", Float"
-label-pseudotiled = ", Pseudo"
-label-fullscreen = ", Full"
-
-label-locked = " | Locked"
-label-sticky = " | Sticky"
-label-private = " | Private"
-
-;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 
 [module/cpu]
 type = internal/cpu
@@ -167,8 +146,8 @@ interval = 1
 ;   <ramp-coreload>
 ;;format = <label> <ramp-coreload>
 format = <label>
-format-prefix = ""
-format-prefix-font = 1
+format-prefix = "CPU"
+format-prefix-font = 4
 format-prefix-foreground = ${color.YELLOW}
 
 ; Available tokens:
@@ -176,7 +155,7 @@ format-prefix-foreground = ${color.YELLOW}
 ;   %percentage-sum% - Cumulative load on all cores
 ;   %percentage-cores% - load percentage for each core
 ;   %percentage-core[1-9]% - load percentage for specific core
-label = " %percentage%%"
+label = "  %percentage%%"
 
 ; Spacing between individual per-core ramps
 ;;ramp-coreload-spacing = 1
@@ -220,21 +199,21 @@ time = %I:%M %p
 ; the module will toggle between formats
 ;;date-alt = %A, %d %B %Y
 #time-alt = %d/%m/%Y%
-time-alt = %H:%M:%S
+time-alt = %b %d, %G
 
 ; Available tags:
 ;   <label> (default)
 
 format = <label>
-format-prefix = ""
-format-prefix-font = 2
+format-prefix = "󰥔 "
+format-prefix-font = 4
 format-prefix-foreground = ${color.MAGENTA}
 
 ; Available tokens:
 ;   %date%
 ;   %time%
 ; Default: %date%
-label = " %time%"
+label = "%time%"
 label-margin = 0px
 
 ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
@@ -256,14 +235,14 @@ date = %b %d, %G
 ; the module will toggle between formats
 ;;date-alt = %A, %d %B %Y
 #time-alt = %d/%m/%Y%
-date-alt = %a %d %b %G
+date-alt = %I:%M %p
 
 ; Available tags:
 ;   <label> (default)
 
 format = <label>
-format-prefix = ""
-format-prefix-font = 2
+format-prefix = "󰨲 "
+format-prefix-font = 4
 format-prefix-foreground = ${color.MAGENTA}
 
 ; Available tokens:
@@ -353,8 +332,8 @@ interval = 3
 format = <label>
 ; format-foreground = ${color.CYAN}
 
-format-prefix = ""
-format-prefix-font = 1
+format-prefix = "MEM"
+format-prefix-font = 4
 format-prefix-foreground = ${color.CYAN}
 
 
@@ -515,13 +494,13 @@ unknown-as-up = true
 format-connected = <label-connected>
 format-connected-prefix = " "
 format-connected-prefix-foreground = ${color.PURPLE}
-format-connected-prefix-font = 2
+format-connected-prefix-font = 4
 format-connected-background = ${color.BG}
 format-connected-margin = 0
 
 format-disconnected = <label-disconnected>
 format-disconnected-prefix = " "
-format-disconnected-prefix-font = 2
+format-disconnected-prefix-font = 4
 format-disconnected-foreground = ${color.FOREGROUND}
 format-disconnected-background = ${color.BACKGROUND}
 format-disconnected-padding = 0
@@ -639,152 +618,66 @@ ramp-signal-font = 2
 
 ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 
-[module/arch-updates]
-type = custom/script
-exec = ~/.config/i3/polybar/scripts/check-arch-updates.sh
-interval = 1000
-label = %output%
-format-foreground = ${color.FOREGROUND}
-format-background = ${color.BACKGROUND}
-format-prefix = "Arch: "
-format-prefix-foreground = ${color.MAGENTA}
-
-
-[module/aur-updates]
-type = custom/script
-exec = ~/.config/i3/polybar/scripts/check-aur-updates.sh
-interval = 1000
-label = Aur: %output%
-format-foreground = ${color.FOREGROUND}
-format-background = ${color.BACKGROUND}
-format-prefix = "AUR: "
-format-prefix-foreground = ${color.ALTMAGENTA}
-;;format-underline = ${color.ALTMAGENTA}
-
-
-[module/kernel]
-type = custom/script
-exec = uname -r
-tail = false
-interval = 1024
-
-format-foreground = ${color.FOREGROUND}
-format-background = ${color.BACKGROUND}
-format-prefix = ""
-;format-prefix-font = 2
-format-prefix-padding = 2
-format-prefix-foreground = ${color.ALTBLACK}
-;format-underline = ${color.ALTBLACK}
-
-################################################################################
-
-[module/networkspeedup]
-;https://github.com/jaagr/polybar/wiki/Module:-network
-type = internal/network
-;interface = wlp3s0
-interface = enp2s0
-;interface = enp0s31f6
-;interface = enp3s0
-label-connected = "%upspeed:8%"
-format-connected = <label-connected>
-format-connected-prefix = ""
-;format-connected-prefix-padding = 1
-format-connected-prefix-foreground = ${color.RED}
-format-connected-foreground = ${color.FOREGROUND}
-format-connected-background = ${color.BACKGROUND}
-;format-connected-underline = ${color.ALTRED}
-
-################################################################################
-
-[module/networkspeeddown]
-;https://github.com/jaagr/polybar/wiki/Module:-network
-type = internal/network
-;interface = wlp3s0
-interface = enp2s0
-;interface = enp0s31f6
-;interface = enp3s0
-label-connected = "%downspeed:8%"
-format-connected = <label-connected>
-format-connected-prefix = ""
-;format-connected-prefix-padding = 1
-format-connected-prefix-foreground = ${color.GREEN}
-format-connected-foreground = ${color.FOREGROUND}
-format-connected-background = ${color.BACKGROUND}
-;format-connected-underline = ${color.ALTGREEN}
-
-;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
-
-[module/network-localip]
-type = custom/script
-exec = ~/.config/i3/polybar/scripts/network-localip.sh
-interval = 60
-
-;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
-
-[module/network-ipinfo]
-type = custom/script
-exec = ~/.config/i3/polybar/scripts/network-ipinfo.sh
-interval = 120
-
-;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
-
 [module/volume]
 type = internal/pulseaudio
 
-; Sink to be used, if it exists (find using `pacmd list-sinks`, name field)
-; If not, uses default sink
-sink = alsa_output.pci-0000_12_00.3.analog-stereo
-
-; Use PA_VOLUME_UI_MAX (~153%) if true, or PA_VOLUME_NORM (100%) if false
-; Default: true
+; Sink to be used, if it exists (find using `pacmd list-sinks`, look for 'name: ...')
+; sink = alsa_output.pci-0000_00_1f.3.analog-stereo
+; Use default sink if uncommented sink is not found
 use-ui-max = false
-
-; Interval for volume increase/decrease (in percent points)
-; Default: 5
 interval = 5
 
+;; --- Display Format ---
 ; Available tags:
 ;   <label-volume> (default)
 ;   <ramp-volume>
 ;   <bar-volume>
 format-volume = <ramp-volume> <label-volume>
+format-volume-foreground = ${colors.MAGENTA} ; Use your theme's foreground color
+format-volume-padding = 1
+
+label-volume = %percentage%%
 
 ; Available tags:
 ;   <label-muted> (default)
 ;   <ramp-volume>
 ;   <bar-volume>
+; format-muted = <label-muted> <label-volume>
+; Or if you prefer hiding the volume when muted:
 format-muted = <label-muted>
-format-muted-prefix = 
-format-muted-prefix-font = 2
-format-muted-foreground = ${color.BLUE}
+format-muted-foreground = ${colors.ALTBLACK} ; Use a dimmed/disabled color from your theme
+format-muted-padding = 1
 
-; Available tokens:
-;   %percentage% (default)
-;label-volume = %percentage%%
+label-muted =  muted
+; Alternative icon using Font Awesome 4/5:  (fa-volume-mute) or  (fa-volume-off)
+label-muted-prefix = " " ; Optional: Add space before the muted label if needed
+label-muted-prefix-foreground = ${colors.ALTBLACK}
 
-; Available tokens:
-;   %percentage% (default)
-label-muted = " Mute"
-label-muted-foreground = ${color.FOREGROUND}
+;; --- Volume Icons/Ramps ---
+; Adjust icons based on your installed Nerd Font or Font Awesome
+; These examples use Nerd Font symbols
+ramp-volume-0 = 
+ramp-volume-1 = 
+ramp-volume-2 = 
+ramp-volume-foreground = ${colors.MAGENTA} ; Use your theme's foreground color
 
-; Only applies if <ramp-volume> is used
-ramp-volume-0 = 
-ramp-volume-1 = 
-ramp-volume-2 = 
-ramp-volume-3 = 
-ramp-volume-4 = 
-ramp-volume-5 = 
-ramp-volume-6 = 
-ramp-volume-7 = 
-ramp-volume-8 = 
-ramp-volume-9 = 
-ramp-volume-font = 2
-ramp-volume-foreground = ${color.BLUE}
+;; --- Mouse Actions ---
+; Left click - Open mixer (optional)
+click-left = pavucontrol &
 
-; Right and Middle click
-click-right = pavucontrol
-; click-middle = 
+; Right click - Toggle mute
+; We use pamixer here for simplicity
+click-right = pamixer --toggle-mute
 
+; Scrolling Up/Down adjusts volume automatically via the internal module.
+; You DON'T typically need to define scroll-up/scroll-down commands here
+; unless you want very specific behavior not covered by the internal handling.
+; If you did want to override:
+; scroll-up = pamixer --unmute --increase 5
+; scroll-down = pamixer --decrease 5
+
+; Middle click - Toggle mute (alternative)
+;click-middle = pamixer --toggle-mute
 ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 
 [module/temperature]
@@ -861,9 +754,9 @@ ramp-foreground = ${color.YELLOW}
 type = custom/text
 
 content = " "
-content-font = 2
+content-font = 5
 ;content = " "
-;content-font = 2
+;content-font = 3
 content-foreground = ${color.GREEN}
 content-padding = 0
 
@@ -880,7 +773,7 @@ click-left = ~/.config/i3/rofi/bin/launcher
 type = custom/text
 
 content = " "
-content-font = 2
+content-font = 3
 content-foreground = ${color.RED}
 content-padding = 0
 

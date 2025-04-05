@@ -13,7 +13,7 @@ export ZSH=/usr/share/oh-my-zsh/
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 # if you installed the package oh-my-zsh-powerline-theme-git then you type here "powerline" as zsh theme
-ZSH_THEME="gentoo"
+ZSH_THEME="random"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -514,3 +514,6 @@ neofetch
 #sysinfo-retro
 #cpufetch
 #colorscript random
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/home/jeff/.lmstudio/bin"

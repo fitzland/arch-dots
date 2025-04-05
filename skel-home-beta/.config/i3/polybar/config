@@ -1,4 +1,5 @@
-## Copyright (C) 2020-2023 Aditya Shakya <adi1090x@gmail.com>
+## Copyright (C) 2020-2022 Aditya Shakya <adi1090x@gmail.com>
+## Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
 
 ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 
@@ -33,10 +34,10 @@ include-file = ~/.config/i3/polybar/decor
 ; If unspecified, the application will pick the first one it finds.
 ; $ polybar -m | cut -d ':' -f 1
 ; $ xrandr -q | grep " connected" | cut -d ' ' -f1
-monitor = DP-4
+monitor = DP-2
 
 ; Use the specified monitor as a fallback if the main one is not found.
-monitor-fallback = DP-7
+monitor-fallback = DP-5
 
 ; Require the monitor to be in connected state
 ; XRandR sometimes reports my monitor as being disconnected (when in use)
@@ -118,21 +119,26 @@ module-margin-right = 0
 
 ; Fonts are defined using <font-name>;<vertical-offset>
 ; Font names are specified using a fontconfig pattern.
-;   font-0 = NotoSans-Regular:size=8;2
+;   font-0 = "Iosevka Nerd Font:size=10;3"
 ;   font-1 = MaterialIcons:size=10
 ;   font-2 = Termsynu:size=8;-1
 ;   font-3 = FontAwesome:size=10
 ; See the Fonts wiki page for more details
 
-font-0 = "Iosevka Nerd Font:size=11;4"
-font-1 = "feather:size=10;3"
-font-2 = "JetBrains Nerd Font:size=11;4"
+font-0 = "Iosevka Nerd Font Mono:size=12;3"
+font-1 = "JetBrainsMono Nerd Font:size=14;4"
+font-2 = "SpaceMono Nerd Font:size=14;3"
+font-3 = "Inconsolata Nerd Font:Regular:size=14;3"
 
 ; Modules are added to one of the available blocks
+;   modules-left = cpu ram
+;   modules-center = title
+;   modules-right = ipc clock
+
 # Default
-modules-left = dot i3 dot xwindow 
-modules-center = network-localip dot network-ipinfo 
-modules-right = cpu dot memory dot volume dot clock dot
+modules-left = dot i3 dot 
+modules-center = xwindow
+modules-right = volume dot wired-network dot clock dot
 
 # Alternate
 ;modules-left = openbox 2LD cpu 3LD memory 4LD filesystem 5LD
@@ -194,7 +200,7 @@ tray-offset-x = 0
 tray-offset-y = 0
 
 ; Pad the sides of each tray icon
-tray-padding = 2
+tray-padding = 0
 
 ; Scale factor for tray clients
 tray-scale = 1.0
@@ -258,7 +264,7 @@ cursor-scroll =
 ; If unspecified, the application will pick the first one it finds.
 ; $ polybar -m | cut -d ':' -f 1
 ; $ xrandr -q | grep " connected" | cut -d ' ' -f1
-monitor = DP-2
+monitor = DP-1
 
 ; Use the specified monitor as a fallback if the main one is not found.
 monitor-fallback = DP-7
@@ -333,7 +339,7 @@ border-color = ${color.BACKGROUND}
 ; Number of spaces to add at the beginning/end of the bar
 ; Individual side values can be defined using:
 ;   padding-{left,right}
-padding = 0
+padding = 2
 
 ; Number of spaces to add before/after each module
 ; Individual side values can be defined using:
@@ -343,29 +349,31 @@ module-margin-right = 0
 
 ; Fonts are defined using <font-name>;<vertical-offset>
 ; Font names are specified using a fontconfig pattern.
-;   font-0 = NotoSans-Regular:size=8;2
+;   font-0 = "Iosevka Nerd Font:size=10;3"
 ;   font-1 = MaterialIcons:size=10
 ;   font-2 = Termsynu:size=8;-1
 ;   font-3 = FontAwesome:size=10
 ; See the Fonts wiki page for more details
 
-font-0 = "Iosevka Nerd Font:size=11;4"
-font-1 = "feather:size=10;3"
-font-2 = "JetBrains Mono Nerd Font:size=11;4"
+font-0 = "Iosevka Nerd Font Mono:size=12;3"
+font-1 = "JetBrainsMono Nerd Font:size=14;1"
+font-2 = "SpaceMono Nerd Font:size=8;3"
+font-3 = "Inconsolata Nerd Font:Regular:size=12;4"
 
 ; Modules are added to one of the available blocks
+
 # Default
-modules-left = dot i3 dot xwindow
-modules-center = kernel
-modules-right = networkspeedup dot networkspeeddown dot date dot
+modules-left = dot i3 dot
+modules-center = xwindow
+modules-right = wireless-network dot cpu dot memory dot date dot
 
 # Alternate
 ;modules-left = openbox 2LD cpu 3LD memory 4LD filesystem 5LD
 ;modules-center = mpd
-;modules-right = 2RD volume 3RD brightness 4RD battery 5RD network 6RD date sep
+;modules-right = 2RD volume 3RD brightness 4RD battery 5RD ethernet 6RD date sep
 
 ; The separator will be inserted between the output of each module
-separator =
+separator = 
 
 ; This value is used to add extra spacing between elements
 ; @deprecated: This parameter will be removed in an upcoming version

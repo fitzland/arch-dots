@@ -1,500 +1,500 @@
-cd /etc/yum.repos.d/
-cd 
-cd downloads/
-ls
-sudo cp risi-risiOS.repo /etc/yum.repos.d/
-sudo copr enable risi/risiOS
-sudo dnf copr enable risi/risiOS
-sudo dnf update
-sudo dnf install risi-tweaks
-sudo dnf search risi
-exit
-sudo fedy
-exit
-cd git/fitzland/install-scripts/fedora/
-ls
-./301-software-visual-studio-code.sh 
-exit
-sudo dnf install nvidia
-hyprctl monitors
-exit
-hyprctl monitors
-exit
-hyprctl monitors
-sudo dnf search lightd
-sudo dnf search gdm
-sudo dnf search sddm
-exit
-sudo dnf update
-sudo dnf install risi-tweaks
-sudo dnf search risi
-sudo fedy
-cd git/fitzland/install-scripts/fedora/
-./301-software-visual-studio-code.sh 
-sudo dnf install nvidia
-hyprctl monitors
-hyprctl monitors
-hyprctl monitors
-sudo dnf search lightd
-sudo dnf search gdm
-sudo dnf search sddm
-cd git/archcraft/
-cd fitzland/
-cd 
-cd downloads/
-cd tarballs/
-cd archcraft/
-cd iso/
-cd ac-wayland-source/
-cd files/
-ls -la
+alias
+git commit -m "edit to some poor wording"
+micro about.md 
+git commit -m "edit details about kids"
+cd website/
+git commit -m "edit details about website workflow"
+mv website documentation
+git config --global user.name
+git config --global user.name "fitzland"
+git config --global user.email "f1tzl4nd@gmail.com"
+git config user.name
+git commit -m "edit change directory name"
+git status
+git commit -m "edit mkdocs.yml"
+git commit -m "edit markdown for code fence"
+cd documentation/
+git commit -m "edit again markdown for code block"
+mkdir journal
+git commit -m "new matt05-som-salt.md"
+micro matt05-som-salt.md
+git commit -m "edit matt05-som-salt.md"
+git commit -m "edit extra.css"
+micro mkdocs.yml 
+cd docs/
+cd .config/micro
+micro bindings.json 
+cd .config/micro
+micro bindings.json 
+nano ~/.config/micro/bindings.json 
+micro index.md 
+nano matt05-som-salt.md 
+cd stylesheets/
+micro extra.css 
+git add .
+git commit -m "edit css matt05"
+git push
+gws
+cd journal/
+micro matt05-som-salt.md 
+cd dubois/
+cd arco-i3/
+cp up.sh ../../fitzland/octo-potato/
+cd
+cd git/fitzland/octo-potato/
+micro up.sh 
+gs
+cd deb-dots/
+git pull
+cd octo-potato/
+cp up.sh ../bookworm-scripts/
+cd bookworm-scripts/
+./up.sh 
 cd ..
-cd localrepo/
-cd x86_64/
+cd bspwm-scripts/
+nano git-v1.sh 
+./git-v1.sh 
 ls
 exit
-systemctl status sddm
-sudo dnf search sddm
-sudo dnf install sddm-breeze -y
-exit
-sudo dnf install sddm-breeze -y
-cd .config/hypr/
-cd foot/
-ls
-nano fonts.ini 
-exit
-cd ~/.config/hypr/foot/
-ls
-nano foot.ini 
-nano fonts.ini 
-exit
-ls
-update
+git config --global commit.signingkey
+git config --global user.signingkey
+git config --global gpg.program
+gpg --list-secret-keys --keyid-format LONG 3A2DC2BD
+gpg --edit-key 3A2DC2BD
+gpgconf --kill gpg-agent
+eval $(gpg-agent --daemon)
+export GPG_TTY=$(tty)
+echo "Test message" | gpg --sign --default-key 3A2DC2BD
+git commit -m "edit to the index page - first edit"
+mkdir website
+cp index.md ./website/
+micro contact.md
+micro about.md
+git commit .
+git commit -m "add pages about, contact, edit index"
+git commit -m "fix debian 12 link"
+git commit -m "details related to crunchbang"
+micro /etc/hosts
 nb
-exit
-nano fonts.ini 
-update
 nb
-upd
-cd ~/.config/hypr/
-cd hypr
-cd ..
-ls
-nano hyprtheme.conf 
-nano hyprland.conf 
-exit
-sudo dnf search xdg-
-exit
-update
-upd
-exit
-sudo dnf search sddm
-exit
-eixt
-exit
-sudo dnf install kvantum
-exit
-sudo dnf search sddm
-sudo dnf install sddm-kcm
-exit
-sudo dnf install xed
-exit
-sudo dnf search xdg-desktop-portal
-sudo dnf install xdg-desktop-portal-wlr
-sudo dnf remove xdg-desktop-portal-gtk
-exit
-sudo dnf search xdg-desktop-portal
-sudo dnf remove xdg-desktop-portal*
-sudo dnf remove xdg-desktop-portal
-exit
-sudo dnf install dropbox-nautilus
-sudo dnf install dropbox
-exit
-systemctl status
-htop
-exit
-sudo dnf install spotify
-cd git/fitzland/install-scripts/fedora/
-ls
-./303-software-spotify.sh 
-./303-software-spotify.sh 
-sudo dnf install most
-man 5 sway
-exit
-update
-sudo dnf update
-sudo dnf install most
-man 5 sway
-update
-sudo dnf update
-sudo dnf search yt-dlp
-sudo dnf install yt-dlp
-yt-dlp -F https://youtu.be/nvKGbcX2fyI
-yt-dlp -f 136 https://youtu.be/nvKGbcX2fyI
-rm The\ Monkey™\ \[nvKGbcX2fyI\].mp4 
-yt-dlp -f 22 https://youtu.be/nvKGbcX2fyI
-mpv The\ Monkey™\ \[nvKGbcX2fyI\].mp4 
-mv The\ Monkey™\ \[nvKGbcX2fyI\].mp4 the-monkey.mp4
-yt-dlp -f 22 https://www.youtube.com/watch?v=ACJt5wwrDdI
-mv Church\ Clap\ by\ KB\ feat.\ Lecrae\ \(Lyric\ video\)\ \[ACJt5wwrDdI\].mp4 church-clap.mp4
-yt-dlp -f 22 https://www.youtube.com/watch?v=WuODF9Kbgnw
-mv Praise\ Ye\ The\ Lord\ Hallelujah\ \(NEW\ VERSION\)\ \[WuODF9Kbgnw\].mp4 praise-ye-the-lord.mp4
-mv praise-ye-the-lord.mp4 praise-ye-the-lord-new.mp4
-ls
-exit
-update
-sudo dnf update
-sudo dnf upgrade
-exit
-cd /usr/lib/rpm/redhat/redhat-hardened-ld 
-cd /usr/lib/rpm/redhat/
-ls
-cd
-exit
-sudo dnf install lpf-spotify-client -y
-cd /etc/dnf/
-sudo nano dnf.conf 
-sudo dnf install flatpak -y
-sudo flatpak install -y --from https://flathub.org/repo/appstream/com.spotify.Client.flatpakref
-sudo flatpak run com.spotify.Client
-sudo -i flatpak run com.spotify.Client
-sudo -i
-exit
-sudo dnf 
-sudo dnf --repo list
-sudo dnf config-manager
-sudo dnf config-manager --set-disabled 
-sudo dnf config-manager --set-disabled copr.fedorainfracloud.org:risi.risiOS
-cd /etc/
-ls
-sudo dnf update -y
-exit
-sudo dnf config-manager
-sudo dnf config-manager --set-disabled 
-sudo dnf config-manager --set-disabled copr.fedorainfracloud.org:risi.risiOS
-cd /etc/
-sudo dnf update -y
-sudo dnf check-update
-sudo dnf grouplist
-sudo dnf groupinfo LibreOffice
-sudo dnf groupinfo "Design Suite"
-sudo dnf repository-packages risiOS list installed
-sudo dnf config-manager --set-disabled copr.fedorainfracloud.org:risis:risisOS
-sudo dnf repolist --all
-cd /etc/yum.repos.d/
-sudo rm _copr\:copr.fedorainfracloud.org\:risi\:risiOS.repo 
-sudo dnf update
-sudo dnf autoremove
-cd
-cd downloads/iso/
-ls
-sudo dd if=Nobara-38-KDE-2023-06-25.iso of=/dev/sdc bs=4M && sync
-exit
-sudo dnf autoremove
-cd
-cd downloads/iso/
-sudo dd if=Nobara-38-KDE-2023-06-25.iso of=/dev/sdc bs=4M && sync
-exit
-sudo dnf remove desktop-file-utils
-cd /var/lib/lpf/
-cd rpmbuild/
-cd SOURCES/
-sudo rm spotify-make-62e266b.tar.gz 
-cd /var/tmp/
-sudo rm rpm-tmp.z48UMV 
-ls
-sudo dnf reinstall spotify
-sudo dnf install spotify
-sudo dnf lpf-spotify
-sudo dnf install lpf-spotify
-sudo dnf reinstall   https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm -y
-sudo dnf reinstall   https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm -y
-sudo dnf remove lpf-spotify-client
-sudo dnf install lpf-spotify-client
-sudo usermod -a -G pkg-build jeff
-exit
-ls
-sudo pacman -S plasma-desktop
-sudo pacman -S sddm
-sudo systemctl enable sddm
-sudo pacman -S sddm
-sudo systemctl enable sddm
+nb
+alias
+git commit -m "edit to some poor wording"
+micro about.md 
+git commit -m "edit details about kids"
+cd website/
+git commit -m "edit details about website workflow"
+mv website documentation
+git config --global user.name
+git config --global user.name "fitzland"
+git config --global user.email "f1tzl4nd@gmail.com"
+git config user.name
+git commit -m "edit change directory name"
+git status
+git commit -m "edit mkdocs.yml"
+git commit -m "edit markdown for code fence"
+cd documentation/
+micro index.md 
+git commit -m "edit again markdown for code block"
+mkdir journal
+git commit -m "new matt05-som-salt.md"
+micro matt05-som-salt.md
+git commit -m "edit matt05-som-salt.md"
+git commit -m "edit extra.css"
+cd docs/
+micro matt05-som-salt.md 
+cd .config/micro
+micro bindings.json 
+micro matt05-som-salt.md 
+micro index.md 
+cd .config/micro
+micro bindings.json 
+micro index.md 
+nano ~/.config/micro/bindings.json 
+micro index.md 
+nano ~/.config/micro/bindings.json 
+micro contact.md
+micro about.md
+git commit .
+git commit -m "add pages about, contact, edit index"
+git commit -m "fix debian 12 link"
+git commit -m "details related to crunchbang"
+micro /etc/hosts
+nb
+nb
+nb
+alias
+git commit -m "edit to some poor wording"
+micro about.md 
+git commit -m "edit details about kids"
+cd website/
+git commit -m "edit details about website workflow"
+mv website documentation
+git config --global user.name
+git config --global user.name "fitzland"
+git config --global user.email "f1tzl4nd@gmail.com"
+git config user.name
+git commit -m "edit change directory name"
+git status
+git commit -m "edit mkdocs.yml"
+git commit -m "edit markdown for code fence"
+cd documentation/
+git commit -m "edit again markdown for code block"
+mkdir journal
+git commit -m "new matt05-som-salt.md"
+micro matt05-som-salt.md
+git commit -m "edit matt05-som-salt.md"
+git commit -m "edit extra.css"
+cd docs/
+cd .config/micro
+micro bindings.json 
+cd .config/micro
+micro bindings.json 
+nano ~/.config/micro/bindings.json 
+micro index.md 
+nano matt05-som-salt.md 
+git commit -m "edit css matt05"
+micro matt05-som-salt.md 
+cd dubois/
+cd arco-i3/
+cp up.sh ../../fitzland/octo-potato/
+cd git/fitzland/octo-potato/
+micro up.sh 
+cd deb-dots/
+cd octo-potato/
+cp up.sh ../bookworm-scripts/
+cd bookworm-scripts/
+cd bspwm-scripts/
+nano git-v1.sh 
+sudo apt search g810
+sudo apt install g810-led
+kbled 60
+cd newt/
+cd matthew/
+cd som/
+mv matt05-som-salt.md matt05-som-light.md
+git commit -m "rename matt05-som"
+git push
+clear
+sudo apt install python3-pip
+pip install mkdocs
+which python
+sudo apt install python3
+which python3
+where python3
+pip --version
+pip install mkdocs-material
+cd stylesheets/
+micro extra.css 
+micro requirements.txt 
+git add .
+micro stylesheets/extra.css 
+code docs/documentation/index.md 
+code mkdocs.yml 
+micro renovate.json 
+micro cloudflare.yml
+gs
+rm cloudflare.yml 
+gpg --edit-key BCD4C7AE6EA1EC16FB45B10D95E86D233A2DC2BD
+git config --get gpg.program
+git config --get commit.gpgsign
+gpg --list-secret-keys --keyid-format long
 cd git/
-cd fitzland/install-scripts/arch/
-./200-software-linux.sh 
-ls
-./500-software-distro-specific.sh 
-eos-package --list
-eos-package-list --list
-yay eos-pack
-eos-packagelist --install "Sway Edition"
-eos-packagelist --list
-eos-packagelist --install "Desktop-Base + Common packages"
-yay alacritty
-yay sddm
-exit
-yay wayland
-exit
-yay hyprland
-yay sway
-yay sway xdg
-yay microsoft edge
-sudo pacman -R qt5ct
-sudo nano /etc/environment 
-yay packagekit-qt5
-exit
-sudo systemctl -f enable --now sddm
-exit
-yay xdg-desktop-portal
-sudo pacman -Rns xdg-desktop-portal-hyprland 
-exit
-yay plasma
-exit
-sudo pacman -Rns firefox
-exit
-sudo pacman -Rns xfce4-terminal
-sudo pacman -Rns xfce4-terminal endeavouros-xfce4-terminal-colors 
-exit
-yay foot
-exit
-sudo nano /etc/environment 
-yay packagekit-qt5
-sudo systemctl -f enable --now sddm
-yay xdg-desktop-portal
-sudo pacman -Rns xdg-desktop-portal-hyprland 
-yay plasma
-sudo pacman -Rns firefox
-sudo pacman -Rns xfce4-terminal
-sudo pacman -Rns xfce4-terminal endeavouros-xfce4-terminal-colors 
-yay foot
-yay spotify
-cd git/fitzland/my-dots/
-./050-wallpapers.sh 
-./get-ac-archcraft-repos.sh 
-cd ..
-cd dubois/
-cd arcolinux-spices/
-cd /usr/
-pw
-wd
-pwd
-cd 
-cd git/dubois/arcolinux-spices/usr/share/arcolinux-spices/scripts/
-ls
-./get-the-keys-and-repos.sh 
-sudo pacman -Syyu
-cleanup
-exit
-yay Dropbox/
-yay dropbox
-yay spotify
-exit
-yay google-chrome
-exit
-yay qogir
-exit
-yay nvidia
-exit
-yay bluetooth
-sudo pacman -Rns bluez
-sudo systemctl enable bluetooth
-exit
-sudo pacman -Rns bluez
-sudo systemctl enable bluetooth
-yay libxcb
-yay mesa libglvdnd
-yay mesa
-yay lib23-libglvnd
-yay egl-wayland
-sudo nano /etc/default/grub 
-sudo grub-mkconfig -o /boot/grub/grub.cfg
-yay os-prober
-sudo nano /etc/mkinitcpio.conf
-exit
-yay nouveau
-exit
-yay nouveau
-whereis lxpolkit
-sudo pacman -S most
-man swaybg
-man hyprland
-man hypr
-exit
-yay ly
-sudo systemctl enable ly
-sudo pacman -R sddm
-sudo pacman -R sddm eos-sddm-theme sddm-kcm 
-exit
-ly
-sudo pacman -R sddm eos-sddm-theme sddm-kcm 
-ly
-cd
-cd git/fitzland/
+cd fitzland/
 cd install-scripts/
-cd arch/
+git pull
+cd deb/
+nano 100-display-manager-and-desktop.sh 
+nano 101-display-manager-and-desktop.sh 
+mv 100-display-manager-and-desktop.sh 100-display-manager-lightdm.sh
+mv 101-display-manager-and-desktop.sh 101-display-manager-sddm.sh
+nano 110-development-software.sh 
+./110-development-software.sh 
+nano 120-install-sound.sh 
+nano 130-bluetooth.sh 
+nano 300-firewall.sh 
+nano 301-software-visual-studio-code.sh 
+nano 307-software-firefox-developer.sh 
+rm google-chrome-stable_current_x86_64.rpm*
+./git-v1.sh 
+cd fedora/
+cd
+cd .
+..
+mv -r assets/ ./docs/
+mv -R assets/ ./docs/
+micro mkdocs.yml 
+gws
+cd journal/
 ls
-./130-bluetooth.sh 
-exit
-yay tweak
-exit
-ly
-run-hyprland
-cd .config/hypr/
-./run-hyprland 
-ls
-./exit
-exit
-./run-hyprland 
-./exit
-exit
-cd .config/sway
-ls
-nano run-sway 
-./run-sway 
-sudo systemctl enable ly.service
-exit
-htop
-exit
-upall
-exit
-bspc kill
-bspc quit
-yay neofetch
-sudo pacman -S neofetch
-exit
-sudo pacman -S neofetch
-exit
-cd .config/sway
-nano run-sway 
-./run-sway 
-sudo systemctl enable ly.service
-htop
-upall
-bspc kill
-bspc quit
-yay neofetch
-sudo pacman -S neofetch
-sudo pacman -S neofetch
-sudo pacman -S rofi
-cd git/fitzland/install-scripts/
-cd arch/
-nano 200-software-linux.sh 
-./200-software-linux.sh 
-nano 500-software-distro-specific.sh 
-cd my-dots/
-./050-wallpapers.sh 
-./get-ac-archcraft-repos.sh 
-./get-ed-endeavour-repos.sh 
-sudo pacman -Syy
 cd ..
-cd dubois/
-cd arcolinux-spices/usr/share/arcolinux-spices/scripts/
+code .
+./up.sh 
+exit
+wsrv
+opsrv
+sksrv
+stsrv
+sudo apt update
+upgrade
+exit
+upgrade
+sudo apt install geany geany-plugin-git-changebar geany=plugin-overview geany-plugin-spellcheck geany-plugin-treebrowser geany-plugin-markdown
+sudo apt install geany-common geany-plugin-git-changebar geany=plugin-overview geany-plugin-spellcheck geany-plugin-treebrowser geany-plugin-markdown
+sudo apt install geany-common geany-plugin-git-changebar geany-plugin-overview geany-plugin-spellcheck geany-plugin-treebrowser geany-plugin-markdown
+sudo apt update
+sudo apt install pamixer
+pactl info
+sudo apt install pavucontrol
+sudo apt autoclean
+sudo apt autoremove
+exit
+nano 301-software-visual-studio-code.sh 
+nano 307-software-firefox-developer.sh 
+rm google-chrome-stable_current_x86_64.rpm*
+./git-v1.sh 
+cd fedora/
+cd
+cd .
+..
+mv -r assets/ ./docs/
+mv -R assets/ ./docs/
+micro mkdocs.yml 
+gws
+wsrv
+opsrv
+sksrv
+stsrv
+sudo apt update
+sudo apt install geany geany-plugin-git-changebar geany=plugin-overview geany-plugin-spellcheck geany-plugin-treebrowser geany-plugin-markdown
+sudo apt install geany-common geany-plugin-git-changebar geany=plugin-overview geany-plugin-spellcheck geany-plugin-treebrowser geany-plugin-markdown
+sudo apt install geany-common geany-plugin-git-changebar geany-plugin-overview geany-plugin-spellcheck geany-plugin-treebrowser geany-plugin-markdown
+sudo apt update
+sudo apt install pamixer
+pactl info
+sudo apt install pavucontrol
+sudo apt autoclean
+sudo apt autoremove
+update
+upgrade
+ip addr show
+sudo apt install nmap
+nmap -sn 192.168.1.0/24
+sudo apt install arp-scan
+sudo apr-scan --localhost
+sudo arp-scan --localhost
+nmap -sn $net_range
+ip route | grep 'kernel scope link src' | grep -v '169.254' | awk '{print $1}' | head -n1
+nmap -sn frange
+frange
+sudo arp-scan --localnet
+ssh jeff@192.168.1.131
+ssh jeff@192.168.1.136
+ssh jeff@192.168.1.106
+ssh jeff@192.168.1.134
+ssh jeff@192.168.1.168
+ssh jeff@192.168.1.172
+myip
+source ~/.bashrc
+clear
+export $NETWORK_RANGE 
+echo $NETWORK_RANGE 
+lanip
+alias
+nb
+reload
+update-fc
+lg
+cd journal/
+cd newt/matthew/som/
+code matt05-sotm-250406-righteousness.md
 ls
-./get-the-keys-and-repos.sh 
-sudo pacman -Syyu
-exit
-sudo pacman -S paru
-paru yay
-yay dropbox
-yay blueman
-yay blueman --recommends
-exit
-yay foot
-exit
-upall
-exit
-sudo pacman -R sddm*
-sudo pacman -R gdm*
-sudo pacman -R ly*
-sudo pacman -R lightdm*
-sudo pacman -R greetd*
-upall
-sudo pacman -R greet*
-exit
-sudo pacman -R gedit*
-sudo pacman -Rns gedit*
-exit
-sudo pacman -S gedit
-sudo pacman -R gedit*
-sudo pacman -R gedit
-sudo pacman -R gedit gedit-plugins
-yay xed
-sudo pacman -R eog
-sudo pacman -R micro
-sudo pacman -Rns lollypop
-exit
-yay hyprland
-exit
-yay arandr
-exit
-upall
-exit
-yay river
-exit
-sudo pacman -Syyu
-exit
-yay spotify
-yay google-chrome
-exit
-yay google-chrome
-cd /etc/modprobe.d/
-ls -la
+gw
 cd ..
-ls
+code .
+./up.sh 
 exit
+opsrv
+sksrv
+ssh jeff@skytech 
+nhosts
+exit
+lg
+cd journal/
+cd newt/matthew/som/
+code matt05-sotm-250406-righteousness.md
+arp
+gw
 cd ..
-cd downloads/iso/
-rm void-live-x86_64-20221001-xfce.iso 
-ls
+code .
+./up.sh 
+update
+ar
+arp scan --localnet
+ssh jeff@192.168.1.1118
+ssh jeff@192.168.1.118
+ssh jeff@optiplex
+ssh jeff@192.168.1.106
+ssh jeff@192.168.1.131
+ssh jeff@192.168.1.1014
+ssh jeff@192.168.1.104
+ssh jeff@192.168.1.187
+ssh jeff@192.168.1.189
+ssh jeff@192.168.1.198
+ssh jeff@192.168.1.137
+ssh jeff@192.168.1.223
+sudo arp-scan --localnet
+ssh jeff@192.168.1.221
+myip
+ssh jeff@192.168.1.168
+ssh jeff@192.168.1.229
+ssh jeff@192.168.1.172
+upgrade
+sudo apt autoclean
+sudo apt autoremove
 exit
-yay google-chrome
-yay google-chrome
-cd /etc/modprobe.d/
-ls -la
+myip
+ssh jeff@192.168.1.168
+ssh jeff@192.168.1.229
+ssh jeff@192.168.1.172
+sudo apt autoclean
+sudo apt autoremove
+update
+upgrade
+gws
+cd git/
+cd fitzland/
+cd octo-potato/
+ls
+gs
+code .
+.up
+./up.sh 
+exit
+myip
+ssh jeff@192.168.1.168
+ssh jeff@192.168.1.229
+ssh jeff@192.168.1.172
+sudo apt autoclean
+sudo apt autoremove
+update
+upgrade
+cd git/
+cd fitzland/
+cd octo-potato/
+gs
+.up
+gws
+cd journal/
+cd newt/
+cd matthew/sotm/
+cd extra/
+gw
+ls
+code .
 cd ..
-cd downloads/iso/
-rm archcraftwayland2023.05.06x8664.iso 
-rm Fedora-Sway-Live-x86_64-38-1.6.iso 
-rm Fedora-i3-Live-x86_64-38-1.6.iso 
-rm garuda-wayfire-linux-zen-230501.iso 
-rm Nobara-38-KDE-2023-06-25.iso 
-sudo dd if=archcraft-2023.05.01-x86_64.iso of=/dev/sdc bs=4M && sync
+./up.sh 
+exit
+gw
+code .
+..
 ls
-sudo dd if=arcolinuxb-sway-v23.05.04-x86_64.iso of=/dev/sdc bs=4M && sync
+./up.sh 
 exit
-cd /etc/greetd/
-ls
-nano environments 
-nano swayconfig 
-nano config.toml 
+update
+upgrade
+ssh jeff@skytech
+ssh jeff@optiplex
 exit
-tozsh
-exit
-killall river
-exit
-sudo pacman -Syyu
-tozsh
-exit
-rm Nobara-38-KDE-2023-06-25.iso 
-sudo dd if=archcraft-2023.05.01-x86_64.iso of=/dev/sdc bs=4M && sync
-sudo dd if=arcolinuxb-sway-v23.05.04-x86_64.iso of=/dev/sdc bs=4M && sync
-cd /etc/greetd/
-nano environments 
-nano swayconfig 
-nano config.toml 
-tozsh
-killall river
-yay xed
-cd git/fitzland/my-dots/
-./get-ac-archcraft-repos.sh 
-./get-ed-endeavour-repos.sh 
-sudo pacman -Syy
-sudo pacman -Syyu
-./050-wallpapers.sh 
+sudo apt autoremove
+cd git/
+cd fitzland/
+cd octo-potato/
+gs
+.up
+gws
+cd journal/
+cd newt/
+cd matthew/sotm/
+cd extra/
 cd ..
-cd install-scripts/arch/
-./200-software-linux.sh 
-./130-bluetooth.sh 
-yay spotify
+update
+upgrade
+sudo apt autoclean
+cleanup
+ssh jeff@optiplex
+scp ~/.bashrc jeff@skytech:/home/jeff/
+cd howto/
+cd 
+cd downloads/tarballs/
+sudo dpkg -i Minecraft.deb 
+sudo apt --fix-broken install
+sudo nano /etc/hosts
 ls
+scp server.jar jeff@skytech
+ssh jeff@skytech 
+gw
+code .
+..
+./up.sh 
+cd
+ssh jeff@skytech
+exit
+cd fitzland/
+cd octo-potato/
+gs
+.up
+gws
+cd journal/
+cd newt/
+cd matthew/sotm/
+cd extra/
+cd ..
+update
+upgrade
+sudo apt autoclean
+cleanup
+ssh jeff@optiplex
+scp ~/.bashrc jeff@skytech:/home/jeff/
+cd howto/
+cd 
+cd downloads/tarballs/
+sudo dpkg -i Minecraft.deb 
+sudo apt --fix-broken install
+sudo nano /etc/hosts
+scp server.jar jeff@skytech
+ssh jeff@skytech 
+cd
+ssh jeff@skytech
+sudo apt install pandoc
+pandoc ~/git/fitzland/octo-potato/docs/journal/newt/matthew/sotm/matt05-righteousness-250406.html matt05-righeousness-250406-test.md
+gw
+..
+ls
+code .
+./up.sh 
+exit
+update
+upgrade
+sudo apt autoclean
+sudo apt autoremove
+gw
+..
+code .
+./up.sh 
+cd
+ssh jeff@skytech
+nmap -sn $NETWORK_RANGE 
+ssh jeff@192.168.1.136
+exit
+cd
+ssh jeff@192.168.1.136
+nhosts
+update
+upgrade
+nmap -sn $NETWORK_RANGE 
+ssh jeff@skytech
+sudo apt install catfish
+exit
+sudo apt install sxhkd
 exit

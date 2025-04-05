@@ -1,500 +1,500 @@
-cd install-scripts/
-cd fedora/
-ls
-./307-software-nvidia-drivers.sh 
+update
+cleanup
 exit
-sudo dnf install steam
-dnf group list --available *desktop
-sudo dnf install @kde-desktop-environment
-sudo dnf install @kde-desktop-environment --allowerasing
+update
 exit
-swaymsg -t get_outputs
-sudo dnf install swaymsg
-sudo dnf search swaymsg
+update
+cleanup
 exit
-sudo dnf search sway
-sudo dnf install sway
-cd /etc/skel/
-ls
-ls -la
+update
 exit
-sudo dnf install neofetch
+update
 exit
-neofetch
+update
+yay tweakt
+yay tweak
 exit
-sudo dnf install wofi
+update
+cleanup
 exit
-man 5 sway
+yay rdesktop
+yay reminna
+yay remmina
 exit
-sudo dnf install waybar
+yay remmina
 exit
-sudo reboot -n
-rofi
-thunar
-sudo dnf install xed
-sudo dnf install xread
-sudo dnf install xreader
-sudo dnf install xviewer
+rdesktop -u f1tzl4nd@hotmail.com -k us 192.168.1.104
+sudo pacman -Rns remmina
+sudo pacman -Rns remmina remmina-plugin-rdesktop
 exit
-swaymsg -t get_outputs
-exit
-systemctl reboot
-exit
-systemctl reboot
-exit
-sudo dnf install wofi
-exit
-sudo dnf install @gnome-desktop-environment --allowerasing
-sudo dnf install gnome --allowerasing
-sudo dnf install gnome-desktop --allowerasing
-sudo dnf search gnome
-sudo dnf search xfce4
-exit
-sudo dnf group install -y "GNOME Desktop Environment"
-sudo dnf groupremove "KDE Plasma Workspaces"
-dnf grouplist
-sudo dnf groupinstall "Sway Desktop"
-exit
-sudo dnf groupinstall "Sway Desktop"
-nbp
-nano ~/.bashrc
-cd downloads/
-cd iso/
-ls
-sudo dd if=Fedora-Sway-Live-x86_64-38-1.6.iso of=/dev/sdc bs=4M && sync
-exit
-sudo nano /etc/dnf/dnf.conf 
-exit
-sudo nano /etc/dnf/dnf.conf 
-cd ~/.config/sway
-cd config
-cd config.d/
-ls
-nano default 
-exit
-cd iso/
-sudo dd if=Fedora-Sway-Live-x86_64-38-1.6.iso of=/dev/sdc bs=4M && sync
-nano ~/.bashrc-personal 
-dots
-nano ~/.bashrc
-cd git/fitzland/install-scripts/fedora/
-./500-software-i3.sh 
-./100-base-configuration.sh 
-ls
-./200-software-common.sh 
-exit
-tozsh
-exit
-man 5 mako
-sudo dnf install most
-exit
-ls
-exit
-nano ~/.bashrc-personal 
-exit
-nano ~/.bashrc-personal 
-exit
-nano ~/.bashrc-personal 
-exit
-nano ~/.bashrc-personal 
-yay i3
-exit
-nano ~/.bashrc
-exit
-dots
-exit
-nano ~/.bashrc-personal 
-yay i3
-nano ~/.bashrc
-dots
-cd git/fitzland/my-dots/
-cd ..
-cd install-scripts/
-cd arch/
-./200-software-arch-linux.sh 
-ls
-./500-software-distro-specific.sh 
-exit
-yay polybar
-exit
-./500-software-distro-specific.sh 
-yay polybar
-cd git/fitzland/
-cd my-dots/
-./050-wallpapers.sh 
-./get-ac-archcraft-repos.sh 
+sudo pacman -Rns remmina remmina-plugin-rdesktop
+rdesktop -u f1tzl4nd@hotmail.com -p nbZT5gSr9Qwf 192.168.1.104
+update
 upall
 cleanup
-./base-shell-script.sh 
-ls
 exit
-cd /usr/bin/
-ls
-exit
-nano ~/.profile 
-exit
-cd git/
-sl
-ls
-tozsh
-exit
-nano /etc/dnf/dnf.conf
-sudo nano /etc/dnf/dnf.conf
-exit
-cd ~/.config/sway/foot/
-ls
-nano foot.ini
-nano fonts.ini
-sudo dnf search jetbrains
 update
-nano ~/.bashrc
+sudo pacman -Rns pamac-aur 
+cleanup
+yay pamac
 exit
-sudo dnf search nerd font
-sudo dnf search jet brains
-sudo dnf install jetbrains-mono-fonts-all
+update
+cleanup
+sudo pacman -S kio
+sudo pacman -S plasma-desktop
+exit
+sudo pacman -S plasma-desktop
+yay htop
+htop
+exit
+rdesktop -u f1tzl4nd@hotmail.com -p ducks4uc3 -k us 192.168.1.105
+rdesktop -u f1tzl4nd@hotmail.com -p nbZT5gSr9Qwf -k us 192.168.1.105
+rdesktop --help
+rdesktop -u f1tzl4nd@hotmail.com -p nbZT5gSr9Qwf -k en-us -f 192.168.1.105
+update
+exit
+sudo pacman -Rns plasma-desktop 
+ls
+cleanup
 exit
 update
 exit
-cd ~/.config/sway/foot/fonts.ini
-nano ~/.config/sway/foot/fonts.ini
+rdesktop -u f1tzl4nd@hotmail.com -p nbZT5gSr9Qwf -k en-us -f 192.168.1.105
+update
+exit
+sudo pacman -Rns plasma-desktop 
+cleanup
 exit
 update
-cd ~/.config/sway/foot/fonts.ini
-cd ~/.local/share/fonts/
-cd nerd-fonts/
-ls
-unzip JetBrainsMono.zip 
-update-fc
-nano ~/.config/sway/foot/fonts.ini
 exit
-nano ~/.config/sway/foot/fonts.ini
-exit
-nano ~/.config/sway/foot/fonts.ini
-neofetch
-sudo dnf install most
-man 5 waybar
-man 5 waybar-sway-workspaces
-exit
-nano ~/.config/sway/foot/fonts.ini
-update
-sudo dnf install xed
-cd git/fitzland/install-scripts/fedora/
+sudo dnf install neofetch
+cd git/fitzland/
+cd install-scripts/
+cd fedora/
 ./050-wallpapers.sh 
-./100-base-configuration.sh 
-ls
 ./200-software-common.sh 
-mv ~/git/fitzland/my-dots/skel-home/.config/sway ~/.config/sway-orig
-cp ~/.config/sway-orig ~/git/fitzland/my-dots/skel-home/.config/sway
-cp -r ~/.config/sway-orig ~/git/fitzland/my-dots/skel-home/.config/sway
-exit
-cp ~/.config/sway-orig ~/git/fitzland/my-dots/skel-home/.config/sway
-cp -r ~/.config/sway-orig ~/git/fitzland/my-dots/skel-home/.config/sway
-exit
-cd git/fitzland/install-scripts/fedora/
 ./301-software-visual-studio-code.sh 
 ./302-software-google-chrome.sh 
-./303-software-spotify.sh 
-ls
 ./304-software-dropbox.sh 
-sudo dnf install meld
-exit
-exut
-exit
-xrandr
-arandr
-sudo dnf install arandr
-exit
-swaymsg -t get_outputs
-sudo dnf install lxappearance
-exit
-sudo dnf install steam
-update
-exit
-man 5 waybar
-exit
-man 5 waybar
-man 5 waybar-sway-workspaces
-exit
-sudo dnf search dropbox
-sudo dnf install dropbox
-exit
-sudo dnf install wofi
-exit
-sudo dnf search lxpolkit
-man 5 swaybar
-man 5 sway
-sudo dnf install wofi
-sudo dnf search lxpolkit
-man 5 swaybar
-man 5 sway
-cd git/fitzland/my-dots/
-./010-backup-home.sh 
-cd skel-home
-ls -la
-cd .config/
-cd sway/
+./500-software-i3.sh 
 ls
-exit
-cd .config/
-cd sway/
-dots
-cd git/fitzland/my-dots/
-ls
-sudo dnf install git
-./git-v1.sh 
-git add .
-git status
-exit
-sudo dnf search mojave-ct
-sudo dnf search numix
-sudo dnf install numix
-sudo dnf install numix-icon-theme
-sudo dnf install numix-icon-theme-circle
-exit
-man 5 sway
-exit
-sudo dnf install numix-icon-theme-circle
-man 5 sway
+./303-software-spotify.sh 
+./303-software-spotify.sh 
+sudo dnf upgrade --refresh
+sudo dnf install audacity
+sudo dnf group install "Cinnamon Desktop"
+sudo dnf group install "Cinnamon Desktop" --allowerasing
 cd git/fitzland/install-scripts/
 cd fedora/
-nano 100-base-configuration.sh 
-./100-base-configuration.sh 
 ls
-nano 200-software-common.sh 
-nano 500-software-i3.sh 
-./500-software-i3.sh 
+./306-software-ms-fonts.sh 
+sudo dnf install   https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm -y
+sudo dnf install   https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm -y
+sudo dnf install lpf-spotify-client
+sudo usermod -a -G pkg-build jeff
+alacritty --help
+sudo dnf purge spotify-client
+dnf --help
+update
 exit
-sudo dnf install numix-icon-theme-circle
-man 5 sway
-cd downloads/
-cd tarballs/
-sudo dnf remove firefox
-tar -xvf firefox-115.0b3.tar.bz2 
-rm firefox-115.0b3.tar.bz2 
+sudo nano /etc/dnf/dnf.conf 
+sudo dnf update && sudo dnf upgrade
+sudo dnf search dropbox
+sudo dnf install dropbox nemo-dropbox
+sudo fwupdmgr get-devices
+sudo fwupdmgr refresh --force
+sudo fwupdmgr get-updates
+sudo fwupdmgr update
+bash <(curl -s https://ultramarine-linux.org/migrate.sh)
+exit
+sudo dnf install stellar
+sudo dnf install akmod-nvidia
+sudo reboot
+update
+cleanup
+exit
+sudo dnf search nvidia
+sudo dnf search stellar
+exit
+sudo dnf group list
+sudo dnf groupinstall "i3 desktop"
+exit
+sudo dnf group list
+sudo dnf groupinstall "i3 desktop"
+yta-mp3 https://www.youtube.com/watch?v=RzI1_K4goac
+mv Words\ That\ Shook\ the\ World：\ Words\ of\ Grace\ \[-2iVFagaCeo\].mp3 fbccana-worship-grace.mp3
+mv Words\ That\ Shook\ the\ World：\ Words\ of\ Promise\ \[RzI1_K4goac\].mp3 fbccana-worship-promise.mp3
+rm Words\ That\ Shook\ the\ World：\ Words\ of\ Grace\ \[-2iVFagaCeo\].opus 
 ls
-sudo mv /home/jeff/downloads/tarballs/firefox /opt
-sudo ln -s /opt/firefox/firefox /usr/local/bin/firefox
-sudo touch /usr/share/applications/firefox-developer.desktop
-sudo nano /usr/share/applications/firefox-developer.desktop 
-chmod +x /usr/share/applications/firefox-developer.desktop 
-sudo chmod +x /usr/share/applications/firefox-developer.desktop 
-sudo dnf install ffmpeg
 exit
-sudo dnf install i3
+sudo dnf groupinstall "i3 desktop"
+sudo dnf install youtube-dl
+sudo dnf install yt-dlp
+yta-best https://www.youtube.com/watch?v=-2iVFagaCeo
+sudo yt-dlp -U
+ls
+alias
+yta-mp3 https://www.youtube.com/watch?v=-2iVFagaCeo
 exit
-sudo chmod +x /usr/share/applications/firefox-developer.desktop 
-sudo dnf install ffmpeg
-sudo dnf install i3
+sudo dnf install nvidia-settings
+exit
+flatpak remote-add --if-not-exists flathub
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+sudo flatpak update
+sudo dnf purge google-chrome
+sudo dnf purge google
+exit
+flatpak install flathub org.inkscape.Inkscape
+sudo flatpak install flathub org.inkscape.Inkscape
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+exit
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+exit
+cd downloads/iso/
+sudo dd if=Fedora-Workstation-Live-x86_64-39-1.5.iso of=/dev/sdc bs=$M && sync
+mv Fedora-Workstation-Live-x86_64-39-1.5.iso fedora-workstation-39.iso
+ls
+sudo dd if=fedora-workstation-39.iso of=/dev/sdc bs=4M && sync
+exit
+google-chrome-stable --profile-directory='Default'
+exit
+google-chrome
+exit
+sudo dnf install neofetch
+sudo dnf install rofi
+sudo dnf install alacritty
+exit
+google-chrome
+sudo dnf install neofetch
+sudo dnf install rofi
+sudo dnf install alacritty
+alacritty --help
+cd $XDG_CONFIG_HOME/alacritty/
+rm fbccana-worship-*
+rm ultramarine-migrate.log 
+cd .con
+cd .config/
+cd alacritty/
+ls
+ls -la
+exit
+sudo dnf update
+sudo dnf upgrade
+exit
+sudo dnf upgrade
+google-chrome-stable
+flatpak run org.libreoffice.LibreOffice
+cd /var/lib/flatpak/app/
+flatpak run com.google.Chrome
+flatpak run com.microsoft.Edge
+ls
+exit
+cd downloads/tarballs/
+ls
+sudo ./PDFStudio_linux64.sh
+sudo dnf install ffmpeg-free
+update
+cleanup
+flatpak install flathub com.anydesk.Anydesk
+sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
+sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+sudo dnf install akmod-nvidia
+exit
+flatpak install flathub com.anydesk.Anydesk
+flatpak install flathub com.anydesk.Anydesk
+sudo dnf remove nvidia* --allowerasing
+sudo dnf upgrade --refresh
+sudo dnf search nvidia
+cd /etc/yum.repos.d/
+sudo rm /etc/yum.repos.d/rpmfusion-nonfree-nvidia-driver.repo 
+ls
+lsmod | grep nvidia
+/sbin/lspci
+sudo dnf upgrade --refresh
+echo -e "blacklist nouveau\noptions nouveau modeset=0" | sudo tee /etc/modprobe.d/blacklist-nouveau.conf
+sudo dracut --force
+sudo systemctl set-default multi-user.target
+sudo reboot
+sudo reboot
+cd downloads/tarballs/
+ls
+sudo dnf install gcc
+sudo bash NVIDIA-Linux-x86_64-550.67.run 
+sudo systemctl set-default graphical.target
+reboot
+cd downloads/iso/
+ls
+sudo dd if=ubuntu-22.04.4-desktop-amd64.iso of=/dev/sdd bs=4M && sync
+sudo apt install neofetch
+sudo apt install neofethc
+sudo apt install neofetch
+sudo apt install inkscape
+sudo apt install alacritty
+sudo apt install ncurses-term
+sudo apt install gimp
+sudo apt install keepassxc
+package-select
+packsel
+alacritty
+sudo apt install libreoffice
+sudo apt install tweak
+sudo apt autoremove
+sudo apt search tweak
+sudo apt install yt-dlp gnome-tweaks
+sudo apt purge tweak
+exit
+sudo apt full-upgrade
+sudo apt dist-upgrade
+sudo apt autoclean
+sudo apt autoremove
+exit
+inkscape
+cd downloads/iso/
+ls
+sudo dd if=EndeavourOS_Galileo-Neo-2024.01.25.iso of=/dev/sdc bs=4M && sync
+yay neofetch
+yay feh
+yay eos
+yay alacritty
+exit
+wget https://mirror.cachyos.org/cachyos-repo.tar.xz
+tar xvf cachyos-repo.tar.xz && cd cachyos-repo
+sudo ./cachyos-repo.sh 
+sudo pacman -Syu
+nb
+upall
+exit
+yay octopi
+exit
+yay cinnamon
+sudo apt install ncurses-term
+sudo apt install gimp
+sudo apt install keepassxc
+package-select
+packsel
+alacritty
+sudo apt install libreoffice
+sudo apt install tweak
+sudo apt autoremove
+sudo apt search tweak
+sudo apt install yt-dlp gnome-tweaks
+sudo apt purge tweak
+sudo apt full-upgrade
+sudo apt dist-upgrade
+sudo apt autoclean
+sudo apt autoremove
+inkscape
+cd downloads/iso/
+sudo dd if=EndeavourOS_Galileo-Neo-2024.01.25.iso of=/dev/sdc bs=4M && sync
+yay neofetch
+yay feh
+yay eos
+yay alacritty
+wget https://mirror.cachyos.org/cachyos-repo.tar.xz
+tar xvf cachyos-repo.tar.xz && cd cachyos-repo
+sudo ./cachyos-repo.sh 
+sudo pacman -Syu
+nb
+yay octopi
+yay cinnamon
 cd git/
-fitz
 cd fitzland/
 cd install-scripts/
-cd fedora/
-./200-software-common.sh 
-ls
-nano 100-base-configuration.sh 
-nano 500-software-i3.sh 
-./500-software-i3.sh 
-sudo dnf install awesome -y
-exit
-man 5 wofi
-man 7 wofi
-exit
-man 7 wofi
-sudo dnf install neofetch
-neofetch
-exit
-sudo dnf install rofi 
-sudo dnf install rofi --allowerasing -y
-exit
-sudo dnf install rofi 
-sudo dnf install rofi --allowerasing -y
-dots
-cd git/fitzland/my-dots/
-ls
-./010-backup-home.sh 
-./git-v1.sh 
-git commit .
-git add
-git add .
-git commit -a
-git status
-exit
-sudo dnf install sddm
-sudo dnf install i3
-exit
-sudo dnf install feh -y
-sudo dnf install i3
-sudo dnf install feh -y
-cd downloads/iso/
-cd ac-wayland-source/
-cd ..
-ls
-sudo dd if=Fedora-i3-Live-x86_64-38-1.6.iso of=/dev/sdc bs=4M && sync
-exit
-sudo dnf install sddm
-sudo dnf install i3
-sudo dnf install feh -y
-sudo dnf install i3
-sudo dnf install feh -y
-cd downloads/iso/
-cd ac-wayland-source/
-cd ..
-sudo dd if=Fedora-i3-Live-x86_64-38-1.6.iso of=/dev/sdc bs=4M && sync
-cd git/fitzland/
-cd install-scripts/
-cd fedora/
-./100-base-configuration.sh 
-./050-wallpapers.sh 
-./200-software-common.sh 
-./301-software-visual-studio-code.sh 
-sudo nano /etc/dnf/dnf.conf 
-./302-software-google-chrome.sh 
-./303-software-spotify.sh 
-./305-software-microsoft-edge.sh 
-./306-software-ms-fonts.sh 
-ls
-./500-software-i3.sh 
-exit
-upall
-update
-exit
-sudo dnf search software
-update
-exit
-sudo dnf install blueman
-exit
-./500-software-i3.sh 
-upall
-update
-sudo dnf search software
-update
-sudo dnf install blueman
-cd downloads/is
-rm EndeavourOS_Cassini_Nova-03-2023_R1.iso 
-sudo dd if=Endeavouros_Cassini_Nova-03-2023_R2.iso of=/dev/sdc bs=4M && sync
-rm arcolinuxd-v23.04.03-x86_64.iso 
-sudo dd if=arcolinuxd-v23.06.02-x86_64.iso of=/dev/sdc bs=4M && sync
-efibootmgr
-efibootmgr --help
-cd
-cd git/fitzland/
-cd install-scripts/
-cd fedora/
-ls
-nano 303-software-spotify.sh 
-y
-./303-software-spotify.sh 
-exit
-y
-./303-software-spotify.sh 
-cd git/fitzland/install-scripts/
 cd arch/
-./200-software-arch-linux.sh 
-ls
-./500-software-distro-specific.sh 
-exit
-rm arcolinuxd-v23.04.03-x86_64.iso 
-sudo dd if=arcolinuxd-v23.06.02-x86_64.iso of=/dev/sdc bs=4M && sync
-efibootmgr
-efibootmgr --help
-cd
-cd git/fitzland/
-cd install-scripts/
-cd fedora/
-nano 303-software-spotify.sh 
-y
-./303-software-spotify.sh 
-y
-./303-software-spotify.sh 
-./200-software-arch-linux.sh 
-./500-software-distro-specific.sh 
-cd git/fitzland/install-scripts/
-cd arch/
-nano 130-bluetooth.sh 
-./130-bluetooth.sh 
-cd 
-dots
-cd git/fitzland/my-dots/
-./010-backup-home.sh 
-./050-wallpapers.sh 
+cd my-dots/
 ./get-ac-archcraft-repos.sh 
-nano base-shell-script.sh 
-rm base-shell-script.sh 
+yay paru
 cd ..
 cd dubois/
+git pull
+cd /usr/
+cd git/dubois/arcolinux-spices/
 cd usr/
 cd share/
 cd arcolinux-spices/
 cd scripts/
-ls
-./get-the-keys-and-repos.sh 
-sudo pacman -S polybar
-sudo pacman -Syy
-sudo nano /etc/pacman.conf 
-upall
-yay arcolinux-keyrink
-yay arcolinux-keyring
-exit
-yay polybar
-exit
-sudo nano /etc/pacman.conf 
-yay arcolinux-keyrink
-yay arcolinux-keyring
-yay polybar
-cd git/dubois/
-cd arcolinux-spices/
-git pull
-cd /usr/share/arcolinux-spices/scripts/
-cd ~/git/dubois/arcolinux-spices/usr/share/arcolinux-spices/scripts/
 ./get-the-keys-and-repos.sh 
 upall
-sudo pacman -Syy
-cd ..
-cd
-cd /tmp/
-ls
-sudo pacman -U arcolinux-mirrorlist-git-23.06-01-any.pkg.tar.zst 
-exit
-yay dropbox
-ls
-exit
-ls
-npacman
-sudo nano /etc/pacman.conf 
-sudo pacman -Syy
-yay pamac
 yay google-chrome
-yay dropbox
-exit
-yay dropbox
-sudo pacman -S most
-man polybar
-cd downloads/tarballs/
-ls
-sudo pacman -U arcolinux-spices-git-23.06-01-x86_64.pkg_.tar.zst 
-sudo pacman -Syyu
 yay microsoft-edge
+yay gnome-keyring
 cd
-nano ~/.bashrc-latest
-fc-list
-fc-list | grep -i iosevka
-fc-list | grep -i jetbrain
+rm cachyos-repo.tar.xz 
+rm environment.bak 
+ls
+rm snap
+rm -d snap
+yay tweak
+sudo pacman -Sy
+sudo pacman -Syy
 exit
-nano ~/.bashrc-personal 
+sudo pacman -Sy
+sudo pacman -Rns gnome-terminal
+sudo pacman -Syy
+yay scribus
+yay firefox-developer
+yay visual studio code
+yay audacity
 exit
-rm .bashrc-personal 
+sudo pacman -Rns firefox
 exit
-rm .bashrc-personal 
+upall
+sudo pacman -S cachyos-gaming-meta
+sudo systemctl enable --now fstrim.timer
+cleanup
+exit
+yay disks
+yay gnome-disks
+yay gnome disks
+disks
+cd downloads/iso/
+ls
+sudo dd if=cachyos-kde-linux-240316.iso of=/dev/sdc bs=4M && sync
+upall
+nb
+ls
 ls -la
-yay google-chrome
-yay visual studio cod
-yay upd7
-yay wd7
-yay aic
-yay tweak tool
-yay paru
+cp .bashrc-eos .bashrc
+exit
+upall
+nb
+alias
+exit
+sudo systemctl start bluetooth
+sudo systemctl enable bluetooth
+sudo pacman -S --needed bluez bluez-utils
+sudo pacman -S blueman
+sudo pacman -Rns blueberry
+sudo pacman -Syu kvantum qt5ct qt6ct
+cd .config/
+ls
+cd environment.d/
+ls
+nano qt-theme.conf 
+yay alacritty
+exit
+s
+su 
+exit
+sudo pacman -S arandr
+sudo cp ~/.screenlayout/monitor-arch.sh /etc/lightdm/monitor.sh
+sudo chmod +x /etc/lightdm/monitor.sh 
+sudo nano /etc/lightdm/lightdm.conf
+sudo systemctl restart lightdm
+exit
+sudo pacman -S neofetch
+exit
+cd /etc/lightdm/
+ls
+sudo nano monitor.sh 
+exit
+ls
+sudo nano monitor.sh 
+sudo pacman -S cinnamon system-config-printer gnome-keyring blueberry cinnamon-translations
+eos-packagelist --install "LTS kernel in addition"
+sudo pacman -S paru
+upall
+eos-packagelist --list
+eos-packagelist --install "i3-Window-Manager"
+sudo pacman -S gnome
+exit
+sudo pacman -S rofi
+exit
+sudo pacman -S sxhkd
+exit
+sudo reboot -n
+sudo reboot -n
+alacritty migrate
+cd .config/i3/alacritty/
+rm alacritty.yml
+rm colors.yml 
+rm fonts.yml 
+ls
+exit
+rm fonts.yml 
+cd .config/i3
+cd bin/
+ls
+nano i3term.sh 
+exit
+sudo pacman -S polybar
+exit
+sudo pacman -S feh
+exit
+sudo pacman -S feh
+cd git/fitzland/
+cd my-dots/
+ls
+./050-wallpapers.sh 
+exit
 upall
 cleanup
+exit
+cd my-dots/
+./050-wallpapers.sh 
+upall
+cd git/
+cd dubois/
+cd arcolinux-spices/
+cd usr/share/arcolinux-spices/scripts/
+ls
+./get-the-keys-and-repos.sh 
+sudo pacman -Syy
+yay dropbox
+yay nemo
+nemo
+yay keepassxc
+yay visual studio code
+sudo pacman -Rns visual-studio-code-bin 
+cleanup
+yay code
+yay google-chrome
+yay microsoft-edge
+yay tweak 
+exit
+sudo pacman -Rns xfce4-terminal
+sudo pacman -Rns xfce4-terminal endeavouros-xfce4-terminal-colors 
+exit
+upall
+exit
+sudo pacman -Rns gnome-terminal
+exit
+upall
+clenaup
+exit
+sudo reboot -n
+sudo reboot -n
+xprop
 yay pamac
+exit
+yay pamac
+sudo pacman -Syy
+upall
+cleanup
+exit
+sudo pacman -Syu gnome
+exit
+yay spotify
+exit
+upall
+cleanup
+exit
+sudo lxappearance
+xkill
+yay adwaita
+yay kvantum
+exit
+upall
+cleanup
+exit
+yay lxsession
+exit
+sudo lxappearance
+eos-packagelist --list
+exit
+sudo pacman -Rns gnome
+exit
+eos-packagelist --list
+eos-packagelist --install "KDE=Desktop"
+eos-packagelist --install "KDE-Desktop"
 exit

@@ -72,14 +72,11 @@ bindsym $mod+$i3-wm.binding.restart restart
 # lock by blurring the screen:
 bindsym $mod+k exec ~/.config/i3/scripts/blur-lock
 
-## Session // archcraft Powermenu // <> x ##
+## Session // Powermenu // <> x ##
 set_from_resource $i3-wm.binding.logout i3-wm.binding.logout x
 bindsym $mod+$i3-wm.binding.logout exec sh ~/.config/i3/rofi/bin/powermenu
 
-## Session // endeavouros exit-menu
-bindsym Ctrl+$alt+Delete exec ~/.config/i3/scripts/powermenu
-
-## Session // default i3 exit (logs you out of your X session)
+# exit i3 (logs you out of your X session)
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
 
 # Backup exit
@@ -177,9 +174,10 @@ set_from_resource $ws0 i3-wm.workspace.10.name "10:media"
 ##  Output Labels  ----------------------------------------------------------##
 ###############################################################################
 
-set $firstMonitor DP-4
-#set $firstMonitor DP-1
-set $secondMonitor DP-2
+set $firstMonitor DP-2
+#set $firstMonitor DP-5
+set $secondMonitor DP-1
+#set $secondMonitor DP-7
 
 
 # use workspaces on different displays:
@@ -288,7 +286,7 @@ bindcode $mod+Shift+90 	 move container to workspace  $ws0
 set_from_resource $i3-wm.binding.ws_next i3-wm.binding.ws_next o
 bindsym $mod+$i3-wm.binding.ws_next workspace next
 
-## Navigate // move focsed container workspace next // <> <Shift> o ##
+## Navigate // move focused container workspace next // <> <Shift> o ##
 set_from_resource $i3-wm.binding.ws_next_move i3-wm.binding.ws_next_move Shift+o
 bindsym $mod+$i3-wm.binding.ws_next_move move container to workspace next; workspace next
 
@@ -338,7 +336,7 @@ bindsym $mod+$i3-wm.binding.urgent_workspace [urgent=latest] focus
 
 # bind program to workspace and focus to them on startup:
 assign [class="X-terminal-emulator|Gnome-terminal|Guake|Alacritty|xterm"] $ws1
-assign [class="Atom|Code|Xed"] $ws2
+assign [class="Atom|Code|Xed|code-oss"] $ws2
 assign [class="Soffice|Gnucash"] $ws3
 assign [class="Gimp*|Inkscape"] $ws4
 assign [class="(?i)firefox|KeePassXC|TelegramDesktop"] $ws5
@@ -360,7 +358,7 @@ for_window [class="VirtualBox Manager|qemu|Qemu-system-x86_64"] floating enable
 
 # automatic set focus new window if it opens on another workspace then the current:
 for_window [class=Alacritty|Gnome-terminal|Guake|UXTERM] focus
-for_window [class=Atom|Code|Xed] focus
+for_window [class=Atom|Code|Xed|code-oss] focus
 for_window [class="^(?i)libreoffice-*"] focus
 for_window [class=(?i)firefox] focus
 for_window [class=Gimp] focus
@@ -520,22 +518,21 @@ client.background         $background
 ##  autostart applications/services on login  -------------------------------##
 ###############################################################################
 
+# num lock activated
+exec_always --no-startup-id numlockx on
+
+exec --no-startup-id setxkbmap -option compose:rctrl
+
 #get auth work with polkit agent
-#exec --no-startup-id /usr/bin/lxpolkit
+exec --no-startup-id /usr/bin/lxpolkit &
 #exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 
-# Start XDG autostart .desktop files using dex. See also
-# https://wiki.archlinux.org/index.php/XDG_Autostart
-exec --no-startup-id dex --autostart --environment i3
-
-# num lock activated
-#exec --no-startup-id numlockx on
-
-#exec --no-startup-id setxkbmap -option compose:rctrl &
+# Set display from arandr saved script
+exec --no-startup-id sh ~/.screenlayout/monitor-debian.sh
 
 ## Set wallpaper
 #exec --no-startup-id feh --no-xinerama --no-fehbg --bg-scale $i3-wm.wallpaper
-exec --no-startup-id ~/.fehbg &
+exec --no-startup-id ~/.fehbg
 #hsetroot -cover ~/.config/i3/wallpapers/default.png
 
 # set powersavings for display:
@@ -544,20 +541,17 @@ exec --no-startup-id xset s 480 dpms 600 600 600
 # disable power saving (for example if using xscreensaver)
 #exec --no-startup-id xset -dpms
 
-# polkit agent
-#exec --no-startup-id /usr/bin/lxpolkit
-
 # Set color scheme
-#exec_always --no-startup-id ~/.config/i3/bin/i3colors.sh
+exec_always --no-startup-id ~/.config/i3/bin/i3colors.sh
 
 # Launch notification daemon
-#exec --no-startup-id ~/.config/i3/bin/i3dunst.sh
+exec --no-startup-id ~/.config/i3/bin/i3dunst.sh
 
 # Launch polybar
-#exec_always --no-startup-id ~/.config/i3/bin/i3bar.sh
+exec_always --no-startup-id ~/.config/i3/bin/i3bar.sh
 
 # Launch compositor
-#exec --no-startup-id ~/.config/i3/bin/i3comp.sh
+exec --no-startup-id ~/.config/i3/bin/i3comp.sh
 
 exec_always --no-startup-id ~/.config/i3/bin/autostart.sh
 
@@ -565,14 +559,26 @@ exec_always --no-startup-id ~/.config/i3/bin/autostart.sh
 ##  system tray  ------------------------------------------------------------##
 ###############################################################################
 
-# Autostart apps as you like
-exec --no-startup-id sleep 2 && dropbox start
+# if you do not use dex: you need to have tray apps started manually one by one:
+# Start XDG autostart .desktop files using dex. 
+# See also https://wiki.archlinux.org/index.php/XDG_Autostart
+#exec --no-startup-id dex --autostart --environment i3
 
-# if you do not use dex: exec --no-startup-id dex --autostart --environment i3
-# you need to have tray apps started manually one by one:
+# Autostart apps as you like
+exec --no-startup-id sleep 10 && dropbox start
+
+# Updater
+exec --no-startup-id pamac-tray
+
+# NetworkManager is the most popular way to manage wireless networks on Linux,
+# and nm-applet is a desktop environment-independent system tray GUI for it.
+exec --no-startup-id nm-applet
 
 # start blueberry app for managing bluetooth devices from tray:
-#exec --no-startup-id blueberry-tray
+exec --no-startup-id blueman-applet
+
+# start firewall app:
+exec --no-startup-id firewall-applet
 
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
@@ -580,10 +586,6 @@ exec --no-startup-id sleep 2 && dropbox start
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend. Use loginctl lock-session to lock your screen.
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
-
-# NetworkManager is the most popular way to manage wireless networks on Linux,
-# and nm-applet is a desktop environment-independent system tray GUI for it.
-exec --no-startup-id nm-applet
 
 ###############################################################################
 ##  Base launchers  ---------------------------------------------------------##

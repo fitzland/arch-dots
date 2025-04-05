@@ -6,7 +6,7 @@
 # -----------------------------------------------------------------------------
 
 # Wallpaper
-wallpaper='/usr/share/backgrounds/otis-alt.png'
+wallpaper='/usr/share/backgrounds/manhattan.jpg'
 
 # Special
 background='#282f37'

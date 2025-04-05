@@ -1,8 +1,9 @@
 ### EXPORT ###
-export EDITOR='nano'
-export VISUAL='nano'
+export EDITOR='micro'
+export VISUAL='micro'
 export HISTCONTROL=ignoreboth:erasedups
 export PAGER='most'
+export NETWORK_RANGE=$(ip route | grep 'kernel scope link src' | grep -v '169.254' | awk '{print $1}' | head -n1)
 
 #Ibus settings if you need them
 #type ibus-setup in terminal to change settings and start the daemon
@@ -31,30 +32,15 @@ bind "set completion-ignore-case on"
 ### ALIASES ###
 
 #list
-alias ls='ls --color=auto'
+alias l='exa -ll --color=always --group-directories-first'
+alias lg='exa -ag --header --icons --group-directories-first'
 alias la='ls -a'
 alias ll='ls -alFh'
-alias l='ls'
 alias l.="ls -A | egrep '^\.'"
-alias listdir="ls -d */ > list"
-
-#pacman
-alias sps='sudo pacman -S'
-alias spr='sudo pacman -R'
-alias sprs='sudo pacman -Rs'
-alias sprdd='sudo pacman -Rdd'
-alias spqo='sudo pacman -Qo'
-alias spsii='sudo pacman -Sii'
-
-# show the list of packages that need this package - depends mpv as example
-function_depends()  {
-    search=$(echo "$1")
-    sudo pacman -Sii $search | grep "Required" | sed -e "s/Required By     : //g" | sed -e "s/  /\n/g"
-    }
-
-alias depends='function_depends'
 
 #fix obvious typo's
+alias ..='cd ..' 
+alias ...='cd ../..' 
 alias cd..='cd ..'
 alias pdw='pwd'
 
@@ -65,27 +51,39 @@ alias fgrep='fgrep --color=auto'
 
 #readable output
 alias df='df -h'
+alias free='free -h'
 
 #keyboard
-alias give-me-azerty-be="sudo localectl set-x11-keymap be"
 alias give-me-qwerty-us="sudo localectl set-x11-keymap us"
+alias kbled="sudo g413-led -a"
 
 #setlocale
 alias setlocale="sudo localectl set-locale LANG=en_US.UTF-8"
-alias setlocales="sudo localectl set-x11-keymap be && sudo localectl set-locale LANG=en_US.UTF-8"
+alias setlocales="sudo localectl set-x11-keymap us && sudo localectl set-locale LANG=en_US.UTF-8"
 
-#pacman unlock
-alias unlock="sudo rm /var/lib/pacman/db.lck"
-alias rmpacmanlock="sudo rm /var/lib/pacman/db.lck"
+#network aliases
+alias myip="ip -f inet address | grep inet | grep -v 'lo$' | cut -d ' ' -f 6,13 && curl ifconfig.me && echo ' external ip'"
+alias lanip="ip route | grep 'kernel scope link src' | grep -v '169.254' | awk '{print $1}' | head -n1"
+alias x="exit"
 
-#arcolinux logout unlock
-alias rmlogoutlock="sudo rm /tmp/arcologout.lock"
+# Dotfiles & Files
+alias reload='source ~/.bashrc'
+alias v="nvim"
+alias vv="nvim ."
+alias e="micro"
+alias g.="cd ~/.config"
+alias gd="cd ~/downloads"
+alias gdw="cd ~/.config/suckless/dwm"
+alias gds="cd ~/.config/suckless/slstatus"
+alias gw="cd ~/git/fitzland/octo-potato/docs"
 
-#which graphical card is working
-alias whichvga="/usr/local/bin/arcolinux-which-vga"
-
-#free
-alias free="free -mt"
+# Git aliases
+alias gp="git push -u origin master"
+alias gsave="git commit -m 'save'"
+alias gs="git status"
+alias gc="git clone"
+alias tr="tree"
+alias ff="fastfetch"
 
 #continue download
 alias wget="wget -c"
@@ -97,15 +95,14 @@ alias userlist="cut -d: -f1 /etc/passwd | sort"
 alias merge="xrdb -merge ~/.Xresources"
 
 # Aliases for software managment
-# pacman or pm
-alias pacman='sudo pacman --color auto'
-alias update='sudo dnf'
-alias upd='sudo dnf update'
-
-# paru as aur helper - updates everything
-alias pksyua="paru -Syu --noconfirm"
-alias upall="paru -Syu --noconfirm"
-alias upa="paru -Syu --noconfirm"
+alias install='sudo apt install'
+alias update='sudo apt update'
+alias upgrade='sudo apt upgrade'
+#alias upd='sudo pacman -Syyu'
+alias uplist='apt list --upgradable'
+alias remove='sudo apt autoremove'
+alias l='exa -ll --color=always --group-directories-first'
+alias ls='exa -al --header --icons --group-directories-first'
 
 #ps
 alias psa="ps auxf"
@@ -113,24 +110,14 @@ alias psgrep="ps aux | grep -v grep | grep -i -e VSZ -e"
 
 #grub update
 alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
-alias grub-update="sudo grub-mkconfig -o /boot/grub/grub.cfg"
+
 #grub issue 08/2022
 alias install-grub-efi="sudo grub-install --target=x86_64-efi --efi-directory=/boot/efi"
 
 #add new fonts
 alias update-fc='sudo fc-cache -fv'
 
-#copy/paste all content of /etc/skel over to home folder - backup of config created - beware
-#skel alias has been replaced with a script at /usr/local/bin/skel
-
-#backup contents of /etc/skel to hidden backup folder in home/user
-alias bupskel='cp -Rf /etc/skel ~/.skel-backup-$(date +%Y.%m.%d-%H.%M.%S)'
-
 #copy shell configs
-alias cb='cp /etc/skel/.bashrc ~/.bashrc && exec bash'
-alias cz='cp /etc/skel/.zshrc ~/.zshrc && echo "Copied."'
-alias cf='cp /etc/skel/.config/fish/config.fish ~/.config/fish/config.fish && echo "Copied."'
-
 #switch between bash and zsh
 alias tobash="sudo chsh $USER -s /bin/bash && echo 'Now log out.'"
 alias tozsh="sudo chsh $USER -s /bin/zsh && echo 'Now log out.'"
@@ -156,11 +143,6 @@ alias hw="hwinfo --short"
 
 #audio check pulseaudio or pipewire
 alias audio="pactl info | grep 'Server Name'"
-
-#skip integrity check
-alias paruskip='paru -S --mflags --skipinteg'
-alias yayskip='yay -S --mflags --skipinteg'
-alias trizenskip='trizen -S --skipinteg'
 
 #check vulnerabilities microcode
 alias microcode='grep . /sys/devices/system/cpu/vulnerabilities/*'
@@ -208,10 +190,10 @@ alias riplong="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -3000 | n
 
 #iso and version used to install ArcoLinux
 alias iso="cat /etc/dev-rel | awk -F '=' '/ISO/ {print $2}'"
-alias isoo="cat /etc/dev-rel"
 
 #Cleanup orphaned packages
-alias cleanup='sudo pacman -Rns $(pacman -Qtdq)'
+#alias cleanup='sudo pacman -Rns $(pacman -Qtdq)'
+alias cleanup='sudo apt autoclean && sudo apt autoremove'
 
 # This will generate a list of explicitly installed packages
 alias list="sudo pacman -Qqe"
@@ -272,7 +254,10 @@ alias fix-gpg-check="gpg2 --keyserver-options auto-key-retrieve --verify"
 alias gpg-retrieve="gpg2 --keyserver-options auto-key-retrieve --receive-keys"
 alias fix-gpg-retrieve="gpg2 --keyserver-options auto-key-retrieve --receive-keys"
 alias fix-keyserver="[ -d ~/.gnupg ] || mkdir ~/.gnupg ; cp /etc/pacman.d/gnupg/gpg.conf ~/.gnupg/ ; echo 'done'"
-
+#connect to server
+alias opsrv="ssh jeff@optiplex"
+alias sksrv="ssh jeff@skytech"
+alias ionos="ssh a614471@access-5016340004.webspace-host.com"
 #fixes
 alias fix-permissions="sudo chown -R $USER:$USER ~/.config ~/.local"
 alias keyfix="/usr/local/bin/arcolinux-fix-pacman-databases-and-keys"
@@ -303,7 +288,7 @@ alias sysfailed="systemctl list-units --failed"
 
 #shutdown or reboot
 alias ssn="sudo shutdown now"
-alias sr="reboot"
+alias sr="sudo reboot"
 
 #update betterlockscreen images
 alias bls="betterlockscreen -u /usr/share/backgrounds/arcolinux/"
@@ -353,26 +338,6 @@ alias snapchome="sudo snapper -c home create-config /home"
 alias snapli="sudo snapper list"
 alias snapcr="sudo snapper -c root create"
 alias snapch="sudo snapper -c home create"
-
-#Leftwm aliases
-alias lti="leftwm-theme install"
-alias ltu="leftwm-theme uninstall"
-alias lta="leftwm-theme apply"
-alias ltupd="leftwm-theme update"
-alias ltupg="leftwm-theme upgrade"
-
-#arcolinux applications
-#att is a symbolic link now
-#alias att="archlinux-tweak-tool"
-alias adt="arcolinux-desktop-trasher"
-alias abl="arcolinux-betterlockscreen"
-alias agm="arcolinux-get-mirrors"
-alias amr="arcolinux-mirrorlist-rank-info"
-alias aom="arcolinux-osbeck-as-mirror"
-alias ars="arcolinux-reflector-simple"
-alias atm="arcolinux-tellme"
-alias avs="arcolinux-vbox-share"
-alias awa="arcolinux-welcome-app"
 
 #git
 alias rmgitcache="rm -r ~/.cache/git"

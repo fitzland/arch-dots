@@ -4,26 +4,27 @@
 font:
   # Normal (roman) font face
   normal:
-    family: "Iosevka Nerd Font"
+  #  family: "Iosevka Nerd Font"
+    family: "Fira Mono"
     #style: Regular
 
   # Bold font face
   bold:
-    family: "Iosevka Nerd Font"
+    family: "Fira Mono"
     #style: Bold
 
   # Italic font face
   italic:
-    family: "Iosevka Nerd Font"
+    family: "Fira Mono"
     #style: Italic
 
   # Bold italic font face
   bold_italic:
-    family: "Iosevka Nerd Font"
+    family: "Fira Mono"
     #style: Bold Italic
 
   # Point size
-  size: 12
+  size: 13
 
   # Offset
   #offset:

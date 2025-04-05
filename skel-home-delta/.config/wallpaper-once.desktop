@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=wallpaper-once
+Comment=EndeavourOS initial wallpaper installer
+Exec=sh /usr/share/endeavouros/scripts/wallpaper-once
+Icon=endeavouros-icon
+Hidden=false
+X-GNOME-Autostart-enabled=false
+X-KDE-autostart-after=panel

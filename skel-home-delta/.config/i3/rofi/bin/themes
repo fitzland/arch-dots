@@ -137,7 +137,7 @@ case $chosen in
         set_style  'dracula' 'Dracula' 'Dracula' 'Qogir-ubuntu-dark'
         ;;
     $theme_forest)
-        set_style  'forest' 'Matcha-dark-sea' 'Nordic-green' 'Qogir-manjaro-dark'
+        set_style  'forest' 'Matcha-dark-sea' 'Nordic-darker' 'Qogir-manjaro-dark'
         ;;
     $theme_otis)
         set_style  'otis' 'Otis' 'Qogir-manjaro-dark' 'Qogir-manjaro-dark'

@@ -4,7 +4,7 @@
 ##
 ## launch alacritty with i3wm config
 
-CONFIG="$HOME/.config/i3/alacritty/alacritty.yml"
+CONFIG="$HOME/.config/i3/alacritty/alacritty.toml"
 
 if [ "$1" == "--float" ]; then
 	alacritty --class 'alacritty-float,alacritty-float' --config-file "$CONFIG"

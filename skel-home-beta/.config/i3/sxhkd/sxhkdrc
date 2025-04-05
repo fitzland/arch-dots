@@ -9,23 +9,23 @@ super + F1
 
 # Editor
 super + {_,shift} + F2
-	{atom,code}
+	{code,xed}
 
 # Writer/Calc
 super + {_,shift} + F3
-    {lowriter,localc}
+    {i3-msg 'workspace 3; exec --no-startup-id lowriter', i3-msg 'workspace 3; exec --no-startup-id localc'}
 
 # Inkscape/Gimp
 super + {_,shift} + F4
-    {inkscape,gimp}
+    {i3-msg 'workspace 4; exec --no-startup-id inkscape', i3-msg 'workspace 4; exec --no-startup-id gimp'}
 
 # Meld
-super + F5
-    meld
+super + {_,shift} + F5
+    {spotify,quodlibet}
 
 # GnuCash
-super + F6
-    gnucash
+super + {_,shift} + F6
+    {gnucash,ghostwriter}
 
 # KeePassXC
 super + {_,shift} + F7
@@ -41,7 +41,7 @@ super + {_,shift} + F9
 
 # Firefox
 super + {_,shift} + F10
-    {firefox-developer-edition,firefox-developer-edition --private-window}
+    {firefox-devedition,firefox-devedition --private-window}
 
 #Microsoft Edge
 super + {_,shift} + F11
@@ -77,12 +77,12 @@ super + {m,x,r,s,n}
 ##---------- Applications ----------##
 
 # Terminal and File Manager
-super + {_,shift} + Return
-	{sh ~/.config/i3/bin/i3term.sh,thunar}
+#super + {_,shift} + Return
+#	{sh ~/.config/i3/bin/i3term.sh,thunar}
 
 # Launch Apps
 super + shift + {f,w,e}
-	{thunar,firefox-developer-editon,xed}
+	{thunar,firefox-devedition,xed}
 
 # Terminal Apps
 ctrl + alt + {r,h}
@@ -90,6 +90,6 @@ ctrl + alt + {r,h}
 
 # Lockscreen
 ctrl + alt + k
-	sh ~/.config/i3/bin/i3lock.sh
+	sh ~/.config/i3/bin/blur-lock-emf
 
 ##---------- EOF ----------##
