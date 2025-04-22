@@ -2,6 +2,13 @@
 #set -e
 ###############################################################################
 # Author	:	Erik Dubois
+# Website	:	https://www.erikdubois.be
+# Website	:	https://www.arcolinux.info
+# Website	:	https://www.arcolinux.com
+# Website	:	https://www.arcolinuxd.com
+# Website	:	https://www.arcolinuxb.com
+# Website	:	https://www.arcolinuxiso.com
+# Website	:	https://www.arcolinuxforum.com
 ###############################################################################
 #
 #   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
@@ -36,15 +43,11 @@ func_install() {
 }
 
 ###############################################################################
-echo "Installation of the development packages"
+echo "Installation of laptop software"
 ###############################################################################
 
 list=(
-firefox-developer-edition
-flameshot
-meld
-simplescreenrecorder
-scrot
+tlp
 )
 
 count=0
@@ -56,6 +59,13 @@ for name in "${list[@]}" ; do
 done
 
 ###############################################################################
+
+tput setaf 5;echo "################################################################"
+echo "Enabling services"
+echo "################################################################"
+echo;tput sgr0
+
+sudo systemctl enable tlp.service
 
 tput setaf 11;
 echo "################################################################"

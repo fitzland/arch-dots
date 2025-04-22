@@ -2,7 +2,6 @@
 #set -e
 ###############################################################################
 # Author	:	Erik Dubois
-# Website	:	https://www.arcolinux.info
 ###############################################################################
 #
 #   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
@@ -45,14 +44,17 @@ sddm
 thunar
 thunar-archive-plugin
 thunar-volman
+alacritty
+dmenu
+feh
+i3-wm
+i3status
+i3blocks
+autotiling
 bspwm
 sxhkd
-dmenu
 xdo
-feh
-awesome-terminal-fonts
 polybar
-xorg-xrandr
 )
 
 count=0
@@ -75,9 +77,6 @@ tput setaf 7;echo "#############################################################
 echo "You now have a very minimal functional desktop"
 echo "################################################################"
 echo;tput sgr0
-
-sudo mkdir -p /usr/share/backgrounds
-sudo cp $HOME/images/wallpapers/system/* /usr/share/backgrounds/
 
 tput setaf 11;
 echo "################################################################"
