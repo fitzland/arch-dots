@@ -57,9 +57,7 @@
 
   }
   @if $t==focus { 
-    @include _shadows($depth);
-    box-shadow: inset 0px 0px 1px 1px $selected_bg_color; 
-
+    box-shadow: inset 0px 0px 1px 1px $selected_bg_color !important; 
   }
   @if $t==hover {  box-shadow: inset 0px 0px 1px 1px $selected_bg_color;  }
   @if $t==insensitive {
@@ -147,11 +145,11 @@
   //
 
     color: $fg_color;
-    background-color: lighten($base_color, 4%);
+    background-color: lighten($base_color, 8%);
     box-shadow: none;
     border: 1px solid $borders_color;
-    text-shadow: 0 1px black;
-    icon-shadow: 0 1px black;
+    text-shadow: none;
+    icon-shadow: none;
     border: 1px solid $borders_color;
   }
   @if $t==focus {
@@ -161,10 +159,10 @@
     $_bg: if($c!=$osd_bg_color, transparentize($c, 0.5),
                           $osd_bg_color);
 
-    background-color: lighten($base_color, 8%);
+    background-color: lighten($base_color, 12%);
     color: lighten($fg_color, 25%);;
-    text-shadow: 0 1px black;
-    icon-shadow: 0 1px black;
+    text-shadow: none;
+    icon-shadow: none;
     box-shadow: none !important;
     border: 1px solid $borders_color;
   }
@@ -176,20 +174,20 @@
     $_bg: if($c!=$osd_bg_color, transparentize($c, 0.3),
                             lighten($main_dark, 2%));
 
-    background-color: lighten($base_color, 7%);
+    background-color: lighten($base_color, 12%);
     color: lighten($fg_color, 25%);;
     border: 1px solid $borders_color;
-    text-shadow: 0 1px black;
-    icon-shadow: 0 1px black;
+    text-shadow: none;
+    icon-shadow: none;
 
   }
   @else if $t==active {
   //
   // active osd button
   //
-    $_bg: if($c!=$bg_color, $c, $selected_bg_color);
+    $_bg: if($c!=$osd_bg_color, $c, $selected_bg_color);
 
-    color: $selected_bg_color;
+    color: $selected_fg_color;
     background-color: $_bg;
     // This should be none, but it's creating some issues with borders, so to
     // workaround it for now, use inset wich goes through a different code path.

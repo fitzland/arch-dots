@@ -47,13 +47,7 @@
       }
     }
   }
-  &.background {
-    background-color: transparentize(darken($base_color,3%),0.05);
-    &:backdrop {
-      background-color: transparentize(darken($base_color,3%),0.05);
-    }
-  }
-
+  
   notebook {
     > stack:only-child { // the :not(:only-child) is for "hidden" notebooks
         background-color: $base_color;
@@ -164,9 +158,13 @@
 /*******************
  * Calendar events *
 ********************/
-.color-light{
-  & label, &.timed label {
+.color-light {
+  &.timed label, .event-popover label {
+    color: $fg_color;
+    opacity: 1;
+  }
+  & label {
     color: $nord0;
-    opacity:1;
+    opacity: 1;
   }
 }

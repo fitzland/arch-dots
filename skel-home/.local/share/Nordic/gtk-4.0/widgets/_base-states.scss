@@ -46,6 +46,7 @@
 }
 
 .view,
+.history-view,
 %view {
   color: $text_color;
   background-color: $base_color;
@@ -64,13 +65,12 @@
   }
 }
 
-.view,
 textview {
-  text {
-    @extend %view;
-
-    selection { &:focus, & { @extend %selected_items; }}
-  }
+  > text {
+   @extend %view;
+   background-color: transparent;
+   selection { &:focus, & { @extend %selected_items; }}
+ }
 }
 
 textview border { background-color: mix($bg_color, $base_color, 50%); }
@@ -94,6 +94,15 @@ flowbox {
       @extend %selected_items;
 
       outline-offset: -2px;
+    }
+  }
+}
+
+gridview {
+  > child {
+    padding: 7px;
+    box { //cells
+      border-spacing: 5px; //label separation
     }
   }
 }

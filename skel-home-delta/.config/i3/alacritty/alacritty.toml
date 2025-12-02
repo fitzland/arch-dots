@@ -1,5 +1,5 @@
-import = ["/home/jeff/.config/alacritty/colors.toml", "/home/jeff/.config/alacritty/fonts.toml"]
-live_config_reload = true
+general.import = ["/home/jeff/.config/alacritty/colors.toml", "/home/jeff/.config/alacritty/fonts.toml"]
+general.live_config_reload = true
 
 [cursor]
 unfocused_hollow = false
@@ -15,7 +15,7 @@ WINIT_X11_SCALE_FACTOR = "1.0"
 [window]
 decorations = "full"
 dynamic_title = true
-opacity = 0.85
+opacity = 0.9
 startup_mode = "Windowed"
 
 [window.dimensions]

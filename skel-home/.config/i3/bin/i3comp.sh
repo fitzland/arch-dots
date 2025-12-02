@@ -10,4 +10,5 @@ killall -q picom
 while pgrep -u $UID -x picom >/dev/null; do sleep 1; done
 
 # Launch picom
-picom --config ~/.config/i3/picom.conf &
+#picom --config ~/.config/i3/picom.conf &
+picom --animations -b &

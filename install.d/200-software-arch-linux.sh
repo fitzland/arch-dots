@@ -131,7 +131,7 @@ func_category Office
 list=(
 gnucash
 xreader
-libreoffice-fresh
+libreoffice-still
 libcdr
 )
 

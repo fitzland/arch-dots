@@ -514,3 +514,6 @@ neofetch
 #sysinfo-retro
 #cpufetch
 #colorscript random
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/home/jeff/.lmstudio/bin"

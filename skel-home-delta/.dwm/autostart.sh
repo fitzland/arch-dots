@@ -1,14 +1,12 @@
 #!/usr/bin/env bash
 
-## Copyright (C) 2020-2021 Aditya Shakya <adi1090x@gmail.com>
-## Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
 ## Autostart Programs
 
 ## Environtment
 export PATH="${PATH}:$HOME/.dwm/bin"
 
 # Set display from arandr saved script
-sh ~/.screenlayout/monitor-arch.sh &
+sh ~/.screenlayout/monitor-debian.sh &
 
 # Kill already running process
 _ps=(picom dunst mpd lxpolkit xsettingsd)
@@ -39,13 +37,16 @@ xfce4-power-manager &
 # start blueberry app for managing bluetooth devices from tray:
 blueman-applet &
 
-# Pamac-stalonetray
-pamac-tray &
+# Update tray
+#pamac-tray &
 
 # Restore wallpaper
-bash $HOME/.fehbg
+#bash $HOME/.fehbg
 #nitrogen --restore
 #hsetroot -cover /usr/share/archcraft/dwm/wallpapers/default.png
+feh --bg-scale --no-xinerama /usr/share/backgrounds/dwm.png &
+
+wmname LG3D
 
 # Lauch dwmbar
 #$HOME/.dwm/bin/dwmbar.sh &

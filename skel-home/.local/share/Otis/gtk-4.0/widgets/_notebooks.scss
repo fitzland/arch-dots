@@ -295,3 +295,33 @@
     &:backdrop { background-color: $backdrop_base_color; }
   }
 }
+
+tabbar {
+  &:backdrop .box {
+    > scrolledwindow,
+    > .start-action,
+    > .end-action {
+      filter: opacity(1);
+    }
+  }
+  tabbox {
+    background-color: darken($base_color, 5%);
+    padding: 0px;
+    color: $fg_color;
+
+    > tab,
+    > tabboxchild > tab {
+      button.flat {
+        padding: 0;
+        margin: 4px;
+        min-width: 20px;
+        min-height: 20px;
+        border-radius: 10px;
+        &:hover {
+          background-color: $red;
+        }
+      }
+      &:checked, &:selected { background-color: $base_color; }
+    }
+  }
+}

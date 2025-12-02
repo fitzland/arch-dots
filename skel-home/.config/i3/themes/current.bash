@@ -1,34 +1,33 @@
-# ------------------------------------------------------------------------------
-# Copyright (C) 2020-2021 Aditya Shakya <adi1090x@gmail.com>
+# -----------------------------------------------------------------------------
+# Copyright (C) 2020-2022 Aditya Shakya <adi1090x@gmail.com>
 # Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
 #
-# Cubic color scheme
-# ------------------------------------------------------------------------------
+# Beach color scheme
+# -----------------------------------------------------------------------------
 
 # Wallpaper
-wallpaper='/usr/share/backgrounds/cubic.jpg'
+wallpaper='/usr/share/backgrounds/beach.jpg'
 
 # Special
-foreground='#c5c8c6'
-background='#1d1f21'
-cursor='#c5c8c6'
+background='#141c21'
+foreground='#93a1a1'
+cursor='#93a1a1'
 
 # Colors
-color0='#1d1f21'
-color1='#cc6666'
-color2='#b5bd68'
-color3='#f0c674'
-color4='#81a2be'
-color5='#b294bb'
-color6='#8abeb7'
-color7='#c5c8c6'
-color8='#969896'
-color9='#cc6666'
-color10='#b5bd68'
-color11='#f0c674'
-color12='#81a2be'
-color13='#b294bb'
-color14='#8abeb7'
-color15='#ffffff'
-
-# Don't Delete This File
+color0='#263640'
+color1='#d12f2c'
+color2='#819400'
+color3='#b08500'
+color4='#2587cc'
+color5='#696ebf'
+color6='#289c93'
+color7='#bfbaac'
+color8='#4a697d'
+color9='#fa3935'
+color10='#a4bd00'
+color11='#d9a400'
+color12='#2ca2f5'
+color13='#8086e8'
+color14='#33c5ba'
+color15='#fdf6e3'
+\n# Don't Delete This File

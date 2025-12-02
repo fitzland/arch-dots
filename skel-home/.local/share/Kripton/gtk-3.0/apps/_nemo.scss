@@ -5,7 +5,7 @@
         -GtkTreeView-vertical-separator: 10; 
         .view.cell,
         iconview.cell {
-            &:hover { background: transparentize(darken($bg_color, 3%), 0.3); }
+            &:hover { background: transparentize(lighten($base_color, 7%), 0.1); }
             &:selected {
                 background: $selected_bg_color;
                 color: $selected_fg_color;
@@ -16,29 +16,26 @@
     .sidebar {
         background-color: $base_color; 
         .view, .iconview, row {
-            color: #98abb2;
+            color: $fg_color;
             background-color: transparent;
         }
     }
 
     .nemo-window-pane {
         widget.entry {
-            background-clip: padding-box;
+            background: lighten($base_color, 7%);
             min-height: 28px;
             padding: 5px;
             color: $fg_color;
-            border: 1px solid $borders_color;
+            border: 1px solid $selected_bg_color;
             border-radius: 3px;
-            box-shadow: inset 0 1px transparentize(black, 0.1),
-                        inset 1px 0 transparentize(black, 0.04),
-                        inset -1px 0 transparentize(black, 0.04),
-                        inset 0 -1px transparentize(black, 0.02),
-                        0 1px transparentize(white, 0.4);
+            
             &:selected {
                 background-color: $selected_bg_color;
                 color: $selected_fg_color;
             }
         }
+        .view { background-color: lighten($base_color, 2%); }
     }
 
     toolbar.primary-toolbar {
@@ -61,8 +58,13 @@
         }
     }
 
-    .nemo-inactive-pane .view,
+    .nemo-inactive-pane .view:not(:selected),
     .nemo-inactive-pane iconview {
-        background-color: darken($base_color, 2%); 
+        background-color: darken($base_color, 15%); 
+    }
+
+    .nemo-inactive-pane,
+    .nemo-window-pane {
+        .view:selected { background-color: $selected_bg_color; } 
     }
 }

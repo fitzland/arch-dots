@@ -33,9 +33,6 @@
   row{
     padding: 8px 12px;
     transition: all .12s ease-in;
-    label{
-      color: #98abb2;
-    }
     &:selected{
       color: $selected_fg_color;
       // border-left: 4px solid $selected_bg_color;
@@ -117,18 +114,20 @@ stacksidebar {
 /*                  PLACESSIDEBAR                                  */
 /*******************************************************************/
 
-placessidebar.sidebar, .nautilus-window .navigation-sidebar {
+placessidebar {
   background-color: $_sidebar_color;
 		row {
+      padding: 1px 11px;
 			&.sidebar-row {
         border-radius: 5px;
+        label { padding-left: 8px; }
+        
 				&.sidebar-row {
 					.sidebar-icon {
 						margin-left:-14px;
 						margin-right: 7px;
 						padding-left: 14px;
 						padding-right: 7px;
-						color: #98abb2;
 					}
 				}
 
@@ -179,4 +178,14 @@ placessidebar.sidebar, .nautilus-window .navigation-sidebar {
   
 	list { &, &:backdrop { background-color: $_sidebar_color; } }
   
+}
+
+// Gnome 46: File operations status bar at the bottom of sidebar
+.bottom-bar  {
+  background-color: $_sidebar_color;
+  button.toggle:not(.image-button) {
+    background-color: transparent;
+    border: none;
+    .view { background-color: transparent; }
+  }
 }

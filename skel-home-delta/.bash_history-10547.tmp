@@ -1,0 +1,500 @@
+yay firefox-developer-edition
+yay libreoffice-still
+yay feh
+cd git/fitzland/
+cd install-scripts/
+cd arch/
+ls
+./500-software-distro-specific.sh 
+exit
+eos-welcome 
+eos-welcome --enable
+sudo pacman -S polybar
+sudo pacman -S thunar
+sudo pacman -S google-chrome
+yay google-chrome
+yay firefox-developer-edition
+yay libreoffice-still
+yay feh
+cd install-scripts/
+cd arch/
+./500-software-distro-specific.sh 
+cd git/fitzland/
+cd my-dots/
+./050-wallpapers.sh 
+./get-ac-archcraft-repos.sh 
+update
+sudo pacman -Syy
+cd ..
+cd dubois/
+cd arcolinux-spices/
+git pull
+cd usr/share/arcolinux-spices/scripts/
+./get-the-keys-and-repos.sh 
+sudo pacman -Syyu
+yay dropbox
+cd
+ls
+exit
+cd
+nb
+sudo pacman -S paru
+upall
+sudo pacman -S terminal
+sudo pacman -S xfce
+ls
+exit
+yay google-chrome
+sudo pacman -Rns xfce4-terminal 
+sudo pacman -Rns xfce4-terminal xfce4-terminal-colors
+sudo pacman -Rns xfce4-terminal endeavouros-xfce4-terminal-colors
+exit
+nb
+exit
+nb
+exit
+yay att
+yay tweak tool
+exit
+update-fc
+yay cascadia
+exit
+yay inkscape scribus gimp
+yay inkscape
+yay gimp
+yay audacity
+yay yt-dlp
+yay scribus
+exit
+yay gimp
+yay audacity
+yay yt-dlp
+yay scribus
+cd git/fitzland/
+cd install-scripts/
+cd arch/
+./110-development-software.sh 
+./200-software-linux.sh 
+ls
+nano 600-additional-arcolinux-software.sh 
+exit
+./200-software-linux.sh 
+nano 600-additional-arcolinux-software.sh 
+gh repo clone erikdubois/sunset
+cd git/dubois/
+git clone https://github.com/erikdubois/sunset.git
+cd sunset/
+ls
+nano build-custom-dwm.sh 
+exit
+cd install-scripts/
+cd arch/
+./110-development-software.sh 
+./200-software-linux.sh 
+nano 600-additional-arcolinux-software.sh 
+cd git/
+cd dubois/
+git clone https://github.com/erikdubois/arcolinux-nemesis.git
+cd arcolinux-nemesis/
+./0-current-choices.sh 
+./400-remove-software.sh 
+ls
+upall
+exit
+update
+upall
+cleanup
+exit
+xrandr --output DP-2 --primary
+exit
+upall
+cleanup
+exit
+yay cascadia
+exit
+ls
+killall i3
+killall i3
+upall
+cleanup
+exit
+upall
+cleanup
+exit
+upall
+exit
+cleanup
+upall
+cd git/
+cd fitzland/
+cd dwm/
+ls
+exit
+alias
+unlock
+upall
+sudo update-alternatives --config x-terminal-emulator
+ls
+ls -la
+nano .Xresources
+exit
+nano .Xresources
+exit
+ls
+update
+upall
+cleanup
+exit
+update
+sudo pacman -Rns telegram-desktop 
+sudo pacman -Rns discord
+sudo pacman -Rns firefox
+sudo pacman -Rns insync
+sudo pacman -Rns vivaldi
+cleanup
+sudo pacman -S qbittorrent
+upall
+exit
+yay microsoft-edge
+exit
+kbled 60
+yay g413-led
+paru g413
+upall
+cleanup
+exit
+fc-update
+alias
+update-fc
+exit
+update
+upall
+yay keyleds
+exit
+upall
+yay keyleds
+cd git/
+cd dubois/
+cd sunset/
+ls
+./build-custom-dwm.sh 
+exit
+ls
+screenfetch
+exit
+upall
+exit
+screenfetch
+upall
+cd git/dubois/ls
+cd git/dubois/
+cd sunset/
+./rebuild.sh 
+./build-custom-dwm.sh 
+ls
+meld config.def.custom.h config.def.h 
+exit
+meld config.def.custom.h config.def.h 
+yay paru
+upall
+exit
+kbled 60
+yay g413-led
+paru g413
+cleanup
+fc-update
+alias
+update-fc
+update
+yay keyleds
+yay keyleds
+cd dubois/
+cd sunset/
+./build-custom-dwm.sh 
+screenfetch
+screenfetch
+cd git/dubois/ls
+cd sunset/
+./rebuild.sh 
+./build-custom-dwm.sh 
+meld config.def.custom.h config.def.h 
+meld config.def.custom.h config.def.h 
+yay paru
+cd git/dubois/
+cd arcolinux-nemesis/
+nano 400-remove-software.sh 
+./400-remove-software.sh 
+nano 120-install-core-software.sh 
+cd arcolinux-spices/
+cd usr/share/arcolinux-spices/scripts/
+./get-the-keys-and-repos.sh 
+sudo pacman -Rns google-chrome 
+sudo pacman -S yay
+sudo pacman -S paru
+yay google-chrome
+yay scribus
+yay inkscape gimp
+yay inkscape
+yay gimp
+yay libreoffice
+cd
+cd git/
+cd fitzland/
+cd dwm/
+cd install-scripts/
+cd arch/
+./200-software-linux.sh 
+cd ..
+cd my-dots/
+ls
+./050-wallpapers.sh 
+./get-ac-archcraft-repos.sh 
+upall
+yay sofre
+yay pamac
+yay quodlibet
+exit
+yay pamac
+yay quodlibet
+unlock
+yay xed
+yay x-apps
+alias
+rip
+sudo pacman -Rns firefox
+yay visual studio code
+exit
+curl -O https://download.sublimetext.com/sublimehq-pub.gpg && sudo pacman-key --add sublimehq-pub.gpg && sudo pacman-key --lsign-key 8A8F901A && rm sublimehq-pub.gpg
+echo -e "\n[sublime-text]\nServer = https://download.sublimetext.com/arch/stable/x86_64" | sudo tee -a /etc/pacman.conf
+upall
+yay sublime
+exit
+upall
+exit
+unlock
+yay alacritty
+exit
+unlock
+yay alacritty
+cd git/
+cd fitzland/
+cd install-scripts/
+cd arch/
+ls
+./130-bluetooth.sh 
+exit
+upall
+nb
+exit
+update
+cleanup
+exit
+kbled
+sudo apt install g413-led
+sudo apt install dropbox
+sudo apt install keepassxc
+sudo apt install inkscape gimp scribus
+sudo apt install g810-led
+kbled 60
+exit
+sudo apt install meld
+exit
+sudo apt install g810-led
+kbled 60
+sudo apt install meld
+cd git/fitzland/dwm/
+cd dwm-6.5
+sudo apt install make gcc libx11-dev libxft-dev libxinerama-dev xorg
+ls
+./rebuild.sh 
+exit
+cd /usr/share/xsessions/
+ls
+exit
+kbled 60
+sudo apt install meld
+sudo apt install make gcc libx11-dev libxft-dev libxinerama-dev xorg
+cd git/fitzland/dwm/
+cd dwm-6.5
+./rebuild.sh 
+cd 
+cd .dwm/
+ls
+sudo cp dwm.desktop /usr/share/xsessions/
+exit
+ls
+./rebuild.sh 
+exit
+sudo apt install dmenu
+exit
+sudo apt install photofilmstrip
+update
+sudo apt install meld
+sudo apt install make gcc libx11-dev libxft-dev libxinerama-dev xorg
+cd git/fitzland/dwm/
+cd dwm-6.5
+./rebuild.sh 
+cd 
+cd .dwm/
+sudo cp dwm.desktop /usr/share/xsessions/
+exit
+./rebuild.sh 
+exit
+sudo apt install dmenu
+exit
+sudo apt install photofilmstrip
+sudo apt intall spotify
+sudo apt install spotify
+cd git/fitzland/install-scripts/deb/
+./303
+./303-software-spotify.sh 
+./304-software-dropbox.sh 
+./201-software-arch-linux.sh 
+update
+cd dubois/
+cd sunset/
+cd patched-patches/
+cd patches-backup/
+nano get-patches.sh 
+cd ..
+ls
+nano config.def.custom.h 
+nano config.def.custom.h 
+./rebuild.sh 
+ls
+./build-custom-dwm.sh 
+exit
+ls
+./rebuild.sh 
+exit
+gnome-terminal
+cd git/fitzland/dwm/
+ls
+cd dwm-6.5-vanity
+cd ..
+exit
+./rebuild.sh 
+exit
+ls
+./rebuild.sh 
+exit
+./rebuild.sh 
+exit
+sudo apt install -y alacritty
+sudo apt install -y arandr
+sudo apt install -y btop
+sudo apt install -y dex
+sudo apt install -y feh
+sudo apt install -y flameshot
+sudo apt install -y go
+sudo apt install -y imlib2
+sudo apt install -y lxappearance
+sudo apt install -y numlockx
+sudo apt install -y picom
+sudo apt install -y rofi
+sudo apt install -y scrot
+sudo apt install -y sxhkd
+sudo apt install -y xorg-xrandr
+sudo apt install -y xrander
+sudo apt install -y xrandr
+exit
+./build-custom-dwm.sh 
+exit
+ls
+./build-custom-dwm.sh 
+exit
+./build-custom-dwm.sh 
+ls
+./build-custom-dwm.sh 
+exit
+update
+exit
+sudo apt install thunar
+exit
+./build-custom-dwm.sh 
+exit
+cd git/fitzland/dwm/
+ls
+./build-custom-dwm.sh 
+exit
+cd git/fitzland/dwm/
+./buid
+./build-custom-dwm.sh 
+exit
+./050-wallpapers.sh 
+exit
+./buid
+./050-wallpapers.sh 
+ls
+./build-custom-dwm.sh 
+exit
+./buid
+./050-wallpapers.sh 
+./buid
+./050-wallpapers.sh 
+ls
+./build-custom-dwm.sh 
+exit
+./build-custom-dwm.sh 
+exit
+./050-wallpapers.sh 
+./buid
+./050-wallpapers.sh 
+./buid
+./050-wallpapers.sh 
+./buid
+./050-wallpapers.sh 
+cd git/fitzland/dwm/
+cd dwm
+./rebuild.sh 
+diff -u config.def.h.orig config.def.h
+diff -u config.def.h.orig config.def.h > test.diff
+cd ..
+ls
+./build-custom-dwm.sh 
+exit
+cd git/fitzland/dwm/
+ls
+./build-custom-dwm.sh 
+sudo apt install git
+exit
+cd git/fitzland/dwm/
+sudo apt install git
+ls
+./build-custom-dwm.sh 
+exit
+update
+kbled 60
+curl -sS https://download.spotify.com/debian/pubkey_6224F9941A8AA6D1.gpg 
+| sudo gpg --dearmor --yes -o /etc/apt/trusted.gpg.d/spotify.gpg
+echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
+sudo apt update
+exit
+cd git/fitzland/dwm/
+diff -u config.def.h.orig config.def.h
+exit
+cd git/fitzland/dwm/
+sudo apt install git
+exit
+cd git/fitzland/dwm/
+sudo apt install git
+exit
+update
+kbled 60
+curl -sS https://download.spotify.com/debian/pubkey_6224F9941A8AA6D1.gpg 
+| sudo gpg --dearmor --yes -o /etc/apt/trusted.gpg.d/spotify.gpg
+echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
+sudo apt update
+exit
+cd git/fitzland/
+git clone git@github.com:fitzland/my-dwm.git
+cd my-dwm/
+cd dwm/
+./rebuild.sh 
+cd dwm
+diff -u /dev/null shift-tools.c 
+diff -u config.def.h.orig config.def.h > test.diff
+diff -u /dev/null shift-tools.c >> test.diff
+cd ..
+ls
+./build-custom-dwm.sh 

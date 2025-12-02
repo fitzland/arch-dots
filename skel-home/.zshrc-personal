@@ -5,14 +5,15 @@
 # collection of personal aliases
 
 # Change to Directory
-alias dots='cd $HOME/git/fitzland/my-dots'
+alias dots='cd $HOME/git/fitzland/arch-dots'
+alias chdwm='cd $HOME/.config/arco-chadwm'
 
 # Aliases for software managment
 # pacman or pm
 alias pacman='sudo pacman --color auto'
-#alias update='sudo pacman -Syyu'
+alias update='sudo pacman -Syyu'
 #alias update='sudo apt update && sudo apt upgrade'
-alias update='sudo dnf update --refresh && sudo dnf upgrade'
+#alias update='sudo dnf update --refresh && sudo dnf upgrade'
 
 # pacman unlock
 alias unlock="sudo rm /var/lib/pacman/db.lck"
@@ -104,3 +105,5 @@ alias skeli3='meld $HOME/.config/i3 /etc/skel/.config/i3'
 
 alias chface='cp $HOME/.face-bak .face'
 alias mcserver='ssh jeff@192.168.1.127'
+
+fastfetch

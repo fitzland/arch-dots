@@ -1,500 +1,500 @@
-update
-cleanup
-exit
-update
-exit
-update
-cleanup
-exit
-update
-exit
-update
-exit
-update
-yay tweakt
-yay tweak
-exit
-update
-cleanup
-exit
-yay rdesktop
-yay reminna
-yay remmina
-exit
-yay remmina
-exit
-rdesktop -u f1tzl4nd@hotmail.com -k us 192.168.1.104
-sudo pacman -Rns remmina
-sudo pacman -Rns remmina remmina-plugin-rdesktop
-exit
-sudo pacman -Rns remmina remmina-plugin-rdesktop
-rdesktop -u f1tzl4nd@hotmail.com -p nbZT5gSr9Qwf 192.168.1.104
-update
-upall
-cleanup
-exit
-update
-sudo pacman -Rns pamac-aur 
-cleanup
-yay pamac
-exit
-update
-cleanup
-sudo pacman -S kio
-sudo pacman -S plasma-desktop
-exit
-sudo pacman -S plasma-desktop
-yay htop
-htop
-exit
-rdesktop -u f1tzl4nd@hotmail.com -p ducks4uc3 -k us 192.168.1.105
-rdesktop -u f1tzl4nd@hotmail.com -p nbZT5gSr9Qwf -k us 192.168.1.105
-rdesktop --help
-rdesktop -u f1tzl4nd@hotmail.com -p nbZT5gSr9Qwf -k en-us -f 192.168.1.105
-update
-exit
-sudo pacman -Rns plasma-desktop 
-ls
-cleanup
-exit
-update
-exit
-rdesktop -u f1tzl4nd@hotmail.com -p nbZT5gSr9Qwf -k en-us -f 192.168.1.105
-update
-exit
-sudo pacman -Rns plasma-desktop 
-cleanup
-exit
-update
-exit
-sudo dnf install neofetch
-cd git/fitzland/
-cd install-scripts/
-cd fedora/
-./050-wallpapers.sh 
-./200-software-common.sh 
-./301-software-visual-studio-code.sh 
-./302-software-google-chrome.sh 
-./304-software-dropbox.sh 
-./500-software-i3.sh 
-ls
-./303-software-spotify.sh 
-./303-software-spotify.sh 
-sudo dnf upgrade --refresh
-sudo dnf install audacity
-sudo dnf group install "Cinnamon Desktop"
-sudo dnf group install "Cinnamon Desktop" --allowerasing
-cd git/fitzland/install-scripts/
-cd fedora/
-ls
-./306-software-ms-fonts.sh 
-sudo dnf install   https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm -y
-sudo dnf install   https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm -y
-sudo dnf install lpf-spotify-client
-sudo usermod -a -G pkg-build jeff
-alacritty --help
-sudo dnf purge spotify-client
-dnf --help
-update
-exit
-sudo nano /etc/dnf/dnf.conf 
-sudo dnf update && sudo dnf upgrade
-sudo dnf search dropbox
-sudo dnf install dropbox nemo-dropbox
-sudo fwupdmgr get-devices
-sudo fwupdmgr refresh --force
-sudo fwupdmgr get-updates
-sudo fwupdmgr update
-bash <(curl -s https://ultramarine-linux.org/migrate.sh)
-exit
-sudo dnf install stellar
-sudo dnf install akmod-nvidia
-sudo reboot
-update
-cleanup
-exit
-sudo dnf search nvidia
-sudo dnf search stellar
-exit
-sudo dnf group list
-sudo dnf groupinstall "i3 desktop"
-exit
-sudo dnf group list
-sudo dnf groupinstall "i3 desktop"
-yta-mp3 https://www.youtube.com/watch?v=RzI1_K4goac
-mv Words\ That\ Shook\ the\ World：\ Words\ of\ Grace\ \[-2iVFagaCeo\].mp3 fbccana-worship-grace.mp3
-mv Words\ That\ Shook\ the\ World：\ Words\ of\ Promise\ \[RzI1_K4goac\].mp3 fbccana-worship-promise.mp3
-rm Words\ That\ Shook\ the\ World：\ Words\ of\ Grace\ \[-2iVFagaCeo\].opus 
-ls
-exit
-sudo dnf groupinstall "i3 desktop"
-sudo dnf install youtube-dl
-sudo dnf install yt-dlp
-yta-best https://www.youtube.com/watch?v=-2iVFagaCeo
-sudo yt-dlp -U
-ls
 alias
-yta-mp3 https://www.youtube.com/watch?v=-2iVFagaCeo
-exit
-sudo dnf install nvidia-settings
-exit
-flatpak remote-add --if-not-exists flathub
-flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-sudo flatpak update
-sudo dnf purge google-chrome
-sudo dnf purge google
-exit
-flatpak install flathub org.inkscape.Inkscape
-sudo flatpak install flathub org.inkscape.Inkscape
-flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-exit
-flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-exit
-cd downloads/iso/
-sudo dd if=Fedora-Workstation-Live-x86_64-39-1.5.iso of=/dev/sdc bs=$M && sync
-mv Fedora-Workstation-Live-x86_64-39-1.5.iso fedora-workstation-39.iso
+git commit -m "edit to some poor wording"
+micro about.md 
+git commit -m "edit details about kids"
+cd website/
+git commit -m "edit details about website workflow"
+mv website documentation
+git config --global user.name
+git config --global user.name "fitzland"
+git config --global user.email "f1tzl4nd@gmail.com"
+git config user.name
+git commit -m "edit change directory name"
+git status
+git commit -m "edit mkdocs.yml"
+git commit -m "edit markdown for code fence"
+cd documentation/
+git commit -m "edit again markdown for code block"
+mkdir journal
+git commit -m "new matt05-som-salt.md"
+micro matt05-som-salt.md
+git commit -m "edit matt05-som-salt.md"
+git commit -m "edit extra.css"
+micro mkdocs.yml 
+cd docs/
+cd .config/micro
+micro bindings.json 
+cd .config/micro
+micro bindings.json 
+nano ~/.config/micro/bindings.json 
+micro index.md 
+nano matt05-som-salt.md 
+cd stylesheets/
+micro extra.css 
+git add .
+git commit -m "edit css matt05"
+git push
+gws
+cd journal/
+micro matt05-som-salt.md 
+cd dubois/
+cd arco-i3/
+cp up.sh ../../fitzland/octo-potato/
+cd
+cd git/fitzland/octo-potato/
+micro up.sh 
+gs
+cd deb-dots/
+git pull
+cd octo-potato/
+cp up.sh ../bookworm-scripts/
+cd bookworm-scripts/
+./up.sh 
+cd ..
+cd bspwm-scripts/
+nano git-v1.sh 
+./git-v1.sh 
 ls
-sudo dd if=fedora-workstation-39.iso of=/dev/sdc bs=4M && sync
 exit
-google-chrome-stable --profile-directory='Default'
-exit
-google-chrome
-exit
-sudo dnf install neofetch
-sudo dnf install rofi
-sudo dnf install alacritty
-exit
-google-chrome
-sudo dnf install neofetch
-sudo dnf install rofi
-sudo dnf install alacritty
-alacritty --help
-cd $XDG_CONFIG_HOME/alacritty/
-rm fbccana-worship-*
-rm ultramarine-migrate.log 
-cd .con
-cd .config/
-cd alacritty/
-ls
-ls -la
-exit
-sudo dnf update
-sudo dnf upgrade
-exit
-sudo dnf upgrade
-google-chrome-stable
-flatpak run org.libreoffice.LibreOffice
-cd /var/lib/flatpak/app/
-flatpak run com.google.Chrome
-flatpak run com.microsoft.Edge
-ls
-exit
-cd downloads/tarballs/
-ls
-sudo ./PDFStudio_linux64.sh
-sudo dnf install ffmpeg-free
-update
-cleanup
-flatpak install flathub com.anydesk.Anydesk
-sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
-sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
-sudo dnf install akmod-nvidia
-exit
-flatpak install flathub com.anydesk.Anydesk
-flatpak install flathub com.anydesk.Anydesk
-sudo dnf remove nvidia* --allowerasing
-sudo dnf upgrade --refresh
-sudo dnf search nvidia
-cd /etc/yum.repos.d/
-sudo rm /etc/yum.repos.d/rpmfusion-nonfree-nvidia-driver.repo 
-ls
-lsmod | grep nvidia
-/sbin/lspci
-sudo dnf upgrade --refresh
-echo -e "blacklist nouveau\noptions nouveau modeset=0" | sudo tee /etc/modprobe.d/blacklist-nouveau.conf
-sudo dracut --force
-sudo systemctl set-default multi-user.target
-sudo reboot
-sudo reboot
-cd downloads/tarballs/
-ls
-sudo dnf install gcc
-sudo bash NVIDIA-Linux-x86_64-550.67.run 
-sudo systemctl set-default graphical.target
-reboot
-cd downloads/iso/
-ls
-sudo dd if=ubuntu-22.04.4-desktop-amd64.iso of=/dev/sdd bs=4M && sync
-sudo apt install neofetch
-sudo apt install neofethc
-sudo apt install neofetch
-sudo apt install inkscape
-sudo apt install alacritty
-sudo apt install ncurses-term
-sudo apt install gimp
-sudo apt install keepassxc
-package-select
-packsel
-alacritty
-sudo apt install libreoffice
-sudo apt install tweak
-sudo apt autoremove
-sudo apt search tweak
-sudo apt install yt-dlp gnome-tweaks
-sudo apt purge tweak
-exit
-sudo apt full-upgrade
-sudo apt dist-upgrade
-sudo apt autoclean
-sudo apt autoremove
-exit
-inkscape
-cd downloads/iso/
-ls
-sudo dd if=EndeavourOS_Galileo-Neo-2024.01.25.iso of=/dev/sdc bs=4M && sync
-yay neofetch
-yay feh
-yay eos
-yay alacritty
-exit
-wget https://mirror.cachyos.org/cachyos-repo.tar.xz
-tar xvf cachyos-repo.tar.xz && cd cachyos-repo
-sudo ./cachyos-repo.sh 
-sudo pacman -Syu
+git config --global commit.signingkey
+git config --global user.signingkey
+git config --global gpg.program
+gpg --list-secret-keys --keyid-format LONG 3A2DC2BD
+gpg --edit-key 3A2DC2BD
+gpgconf --kill gpg-agent
+eval $(gpg-agent --daemon)
+export GPG_TTY=$(tty)
+echo "Test message" | gpg --sign --default-key 3A2DC2BD
+git commit -m "edit to the index page - first edit"
+mkdir website
+cp index.md ./website/
+micro contact.md
+micro about.md
+git commit .
+git commit -m "add pages about, contact, edit index"
+git commit -m "fix debian 12 link"
+git commit -m "details related to crunchbang"
+micro /etc/hosts
 nb
-upall
-exit
-yay octopi
-exit
-yay cinnamon
-sudo apt install ncurses-term
-sudo apt install gimp
-sudo apt install keepassxc
-package-select
-packsel
-alacritty
-sudo apt install libreoffice
-sudo apt install tweak
-sudo apt autoremove
-sudo apt search tweak
-sudo apt install yt-dlp gnome-tweaks
-sudo apt purge tweak
-sudo apt full-upgrade
-sudo apt dist-upgrade
-sudo apt autoclean
-sudo apt autoremove
-inkscape
-cd downloads/iso/
-sudo dd if=EndeavourOS_Galileo-Neo-2024.01.25.iso of=/dev/sdc bs=4M && sync
-yay neofetch
-yay feh
-yay eos
-yay alacritty
-wget https://mirror.cachyos.org/cachyos-repo.tar.xz
-tar xvf cachyos-repo.tar.xz && cd cachyos-repo
-sudo ./cachyos-repo.sh 
-sudo pacman -Syu
 nb
-yay octopi
-yay cinnamon
+nb
+alias
+git commit -m "edit to some poor wording"
+micro about.md 
+git commit -m "edit details about kids"
+cd website/
+git commit -m "edit details about website workflow"
+mv website documentation
+git config --global user.name
+git config --global user.name "fitzland"
+git config --global user.email "f1tzl4nd@gmail.com"
+git config user.name
+git commit -m "edit change directory name"
+git status
+git commit -m "edit mkdocs.yml"
+git commit -m "edit markdown for code fence"
+cd documentation/
+micro index.md 
+git commit -m "edit again markdown for code block"
+mkdir journal
+git commit -m "new matt05-som-salt.md"
+micro matt05-som-salt.md
+git commit -m "edit matt05-som-salt.md"
+git commit -m "edit extra.css"
+cd docs/
+micro matt05-som-salt.md 
+cd .config/micro
+micro bindings.json 
+micro matt05-som-salt.md 
+micro index.md 
+cd .config/micro
+micro bindings.json 
+micro index.md 
+nano ~/.config/micro/bindings.json 
+micro index.md 
+nano ~/.config/micro/bindings.json 
+micro contact.md
+micro about.md
+git commit .
+git commit -m "add pages about, contact, edit index"
+git commit -m "fix debian 12 link"
+git commit -m "details related to crunchbang"
+micro /etc/hosts
+nb
+nb
+nb
+alias
+git commit -m "edit to some poor wording"
+micro about.md 
+git commit -m "edit details about kids"
+cd website/
+git commit -m "edit details about website workflow"
+mv website documentation
+git config --global user.name
+git config --global user.name "fitzland"
+git config --global user.email "f1tzl4nd@gmail.com"
+git config user.name
+git commit -m "edit change directory name"
+git status
+git commit -m "edit mkdocs.yml"
+git commit -m "edit markdown for code fence"
+cd documentation/
+git commit -m "edit again markdown for code block"
+mkdir journal
+git commit -m "new matt05-som-salt.md"
+micro matt05-som-salt.md
+git commit -m "edit matt05-som-salt.md"
+git commit -m "edit extra.css"
+cd docs/
+cd .config/micro
+micro bindings.json 
+cd .config/micro
+micro bindings.json 
+nano ~/.config/micro/bindings.json 
+micro index.md 
+nano matt05-som-salt.md 
+git commit -m "edit css matt05"
+micro matt05-som-salt.md 
+cd dubois/
+cd arco-i3/
+cp up.sh ../../fitzland/octo-potato/
+cd git/fitzland/octo-potato/
+micro up.sh 
+cd deb-dots/
+cd octo-potato/
+cp up.sh ../bookworm-scripts/
+cd bookworm-scripts/
+cd bspwm-scripts/
+nano git-v1.sh 
+sudo apt search g810
+sudo apt install g810-led
+kbled 60
+cd newt/
+cd matthew/
+cd som/
+mv matt05-som-salt.md matt05-som-light.md
+git commit -m "rename matt05-som"
+git push
+clear
+sudo apt install python3-pip
+pip install mkdocs
+which python
+sudo apt install python3
+which python3
+where python3
+pip --version
+pip install mkdocs-material
+cd stylesheets/
+micro extra.css 
+micro requirements.txt 
+git add .
+micro stylesheets/extra.css 
+code docs/documentation/index.md 
+code mkdocs.yml 
+micro renovate.json 
+micro cloudflare.yml
+gs
+rm cloudflare.yml 
+gpg --edit-key BCD4C7AE6EA1EC16FB45B10D95E86D233A2DC2BD
+git config --get gpg.program
+git config --get commit.gpgsign
+gpg --list-secret-keys --keyid-format long
 cd git/
 cd fitzland/
 cd install-scripts/
-cd arch/
-cd my-dots/
-./get-ac-archcraft-repos.sh 
-yay paru
-cd ..
-cd dubois/
 git pull
-cd /usr/
-cd git/dubois/arcolinux-spices/
-cd usr/
-cd share/
-cd arcolinux-spices/
-cd scripts/
-./get-the-keys-and-repos.sh 
-upall
-yay google-chrome
-yay microsoft-edge
-yay gnome-keyring
+cd deb/
+nano 100-display-manager-and-desktop.sh 
+nano 101-display-manager-and-desktop.sh 
+mv 100-display-manager-and-desktop.sh 100-display-manager-lightdm.sh
+mv 101-display-manager-and-desktop.sh 101-display-manager-sddm.sh
+nano 110-development-software.sh 
+./110-development-software.sh 
+nano 120-install-sound.sh 
+nano 130-bluetooth.sh 
+nano 300-firewall.sh 
+nano 301-software-visual-studio-code.sh 
+nano 307-software-firefox-developer.sh 
+rm google-chrome-stable_current_x86_64.rpm*
+./git-v1.sh 
+cd fedora/
 cd
-rm cachyos-repo.tar.xz 
-rm environment.bak 
+cd .
+..
+mv -r assets/ ./docs/
+mv -R assets/ ./docs/
+micro mkdocs.yml 
+gws
+cd journal/
 ls
-rm snap
-rm -d snap
-yay tweak
-sudo pacman -Sy
-sudo pacman -Syy
+cd ..
+code .
+./up.sh 
 exit
-sudo pacman -Sy
-sudo pacman -Rns gnome-terminal
-sudo pacman -Syy
-yay scribus
-yay firefox-developer
-yay visual studio code
-yay audacity
+wsrv
+opsrv
+sksrv
+stsrv
+sudo apt update
+upgrade
 exit
-sudo pacman -Rns firefox
+upgrade
+sudo apt install geany geany-plugin-git-changebar geany=plugin-overview geany-plugin-spellcheck geany-plugin-treebrowser geany-plugin-markdown
+sudo apt install geany-common geany-plugin-git-changebar geany=plugin-overview geany-plugin-spellcheck geany-plugin-treebrowser geany-plugin-markdown
+sudo apt install geany-common geany-plugin-git-changebar geany-plugin-overview geany-plugin-spellcheck geany-plugin-treebrowser geany-plugin-markdown
+sudo apt update
+sudo apt install pamixer
+pactl info
+sudo apt install pavucontrol
+sudo apt autoclean
+sudo apt autoremove
 exit
-upall
-sudo pacman -S cachyos-gaming-meta
-sudo systemctl enable --now fstrim.timer
-cleanup
-exit
-yay disks
-yay gnome-disks
-yay gnome disks
-disks
-cd downloads/iso/
-ls
-sudo dd if=cachyos-kde-linux-240316.iso of=/dev/sdc bs=4M && sync
-upall
-nb
-ls
-ls -la
-cp .bashrc-eos .bashrc
-exit
-upall
-nb
+nano 301-software-visual-studio-code.sh 
+nano 307-software-firefox-developer.sh 
+rm google-chrome-stable_current_x86_64.rpm*
+./git-v1.sh 
+cd fedora/
+cd
+cd .
+..
+mv -r assets/ ./docs/
+mv -R assets/ ./docs/
+micro mkdocs.yml 
+gws
+wsrv
+opsrv
+sksrv
+stsrv
+sudo apt update
+sudo apt install geany geany-plugin-git-changebar geany=plugin-overview geany-plugin-spellcheck geany-plugin-treebrowser geany-plugin-markdown
+sudo apt install geany-common geany-plugin-git-changebar geany=plugin-overview geany-plugin-spellcheck geany-plugin-treebrowser geany-plugin-markdown
+sudo apt install geany-common geany-plugin-git-changebar geany-plugin-overview geany-plugin-spellcheck geany-plugin-treebrowser geany-plugin-markdown
+sudo apt update
+sudo apt install pamixer
+pactl info
+sudo apt install pavucontrol
+sudo apt autoclean
+sudo apt autoremove
+update
+upgrade
+ip addr show
+sudo apt install nmap
+nmap -sn 192.168.1.0/24
+sudo apt install arp-scan
+sudo apr-scan --localhost
+sudo arp-scan --localhost
+nmap -sn $net_range
+ip route | grep 'kernel scope link src' | grep -v '169.254' | awk '{print $1}' | head -n1
+nmap -sn frange
+frange
+sudo arp-scan --localnet
+ssh jeff@192.168.1.131
+ssh jeff@192.168.1.136
+ssh jeff@192.168.1.106
+ssh jeff@192.168.1.134
+ssh jeff@192.168.1.168
+ssh jeff@192.168.1.172
+myip
+source ~/.bashrc
+clear
+export $NETWORK_RANGE 
+echo $NETWORK_RANGE 
+lanip
 alias
-exit
-sudo systemctl start bluetooth
-sudo systemctl enable bluetooth
-sudo pacman -S --needed bluez bluez-utils
-sudo pacman -S blueman
-sudo pacman -Rns blueberry
-sudo pacman -Syu kvantum qt5ct qt6ct
-cd .config/
+nb
+reload
+update-fc
+lg
+cd journal/
+cd newt/matthew/som/
+code matt05-sotm-250406-righteousness.md
 ls
-cd environment.d/
-ls
-nano qt-theme.conf 
-yay alacritty
+gw
+cd ..
+code .
+./up.sh 
 exit
-s
-su 
+opsrv
+sksrv
+ssh jeff@skytech 
+nhosts
 exit
-sudo pacman -S arandr
-sudo cp ~/.screenlayout/monitor-arch.sh /etc/lightdm/monitor.sh
-sudo chmod +x /etc/lightdm/monitor.sh 
-sudo nano /etc/lightdm/lightdm.conf
-sudo systemctl restart lightdm
+lg
+cd journal/
+cd newt/matthew/som/
+code matt05-sotm-250406-righteousness.md
+arp
+gw
+cd ..
+code .
+./up.sh 
+update
+ar
+arp scan --localnet
+ssh jeff@192.168.1.1118
+ssh jeff@192.168.1.118
+ssh jeff@optiplex
+ssh jeff@192.168.1.106
+ssh jeff@192.168.1.131
+ssh jeff@192.168.1.1014
+ssh jeff@192.168.1.104
+ssh jeff@192.168.1.187
+ssh jeff@192.168.1.189
+ssh jeff@192.168.1.198
+ssh jeff@192.168.1.137
+ssh jeff@192.168.1.223
+sudo arp-scan --localnet
+ssh jeff@192.168.1.221
+myip
+ssh jeff@192.168.1.168
+ssh jeff@192.168.1.229
+ssh jeff@192.168.1.172
+upgrade
+sudo apt autoclean
+sudo apt autoremove
 exit
-sudo pacman -S neofetch
-exit
-cd /etc/lightdm/
-ls
-sudo nano monitor.sh 
-exit
-ls
-sudo nano monitor.sh 
-sudo pacman -S cinnamon system-config-printer gnome-keyring blueberry cinnamon-translations
-eos-packagelist --install "LTS kernel in addition"
-sudo pacman -S paru
-upall
-eos-packagelist --list
-eos-packagelist --install "i3-Window-Manager"
-sudo pacman -S gnome
-exit
-sudo pacman -S rofi
-exit
-sudo pacman -S sxhkd
-exit
-sudo reboot -n
-sudo reboot -n
-alacritty migrate
-cd .config/i3/alacritty/
-rm alacritty.yml
-rm colors.yml 
-rm fonts.yml 
-ls
-exit
-rm fonts.yml 
-cd .config/i3
-cd bin/
-ls
-nano i3term.sh 
-exit
-sudo pacman -S polybar
-exit
-sudo pacman -S feh
-exit
-sudo pacman -S feh
-cd git/fitzland/
-cd my-dots/
-ls
-./050-wallpapers.sh 
-exit
-upall
-cleanup
-exit
-cd my-dots/
-./050-wallpapers.sh 
-upall
+myip
+ssh jeff@192.168.1.168
+ssh jeff@192.168.1.229
+ssh jeff@192.168.1.172
+sudo apt autoclean
+sudo apt autoremove
+update
+upgrade
+gws
 cd git/
-cd dubois/
-cd arcolinux-spices/
-cd usr/share/arcolinux-spices/scripts/
+cd fitzland/
+cd octo-potato/
 ls
-./get-the-keys-and-repos.sh 
-sudo pacman -Syy
-yay dropbox
-yay nemo
-nemo
-yay keepassxc
-yay visual studio code
-sudo pacman -Rns visual-studio-code-bin 
+gs
+code .
+.up
+./up.sh 
+exit
+myip
+ssh jeff@192.168.1.168
+ssh jeff@192.168.1.229
+ssh jeff@192.168.1.172
+sudo apt autoclean
+sudo apt autoremove
+update
+upgrade
+cd git/
+cd fitzland/
+cd octo-potato/
+gs
+.up
+gws
+cd journal/
+cd newt/
+cd matthew/sotm/
+cd extra/
+gw
+ls
+code .
+cd ..
+./up.sh 
+exit
+gw
+code .
+..
+ls
+./up.sh 
+exit
+update
+upgrade
+ssh jeff@skytech
+ssh jeff@optiplex
+exit
+sudo apt autoremove
+cd git/
+cd fitzland/
+cd octo-potato/
+gs
+.up
+gws
+cd journal/
+cd newt/
+cd matthew/sotm/
+cd extra/
+cd ..
+update
+upgrade
+sudo apt autoclean
 cleanup
-yay code
-yay google-chrome
-yay microsoft-edge
-yay tweak 
+ssh jeff@optiplex
+scp ~/.bashrc jeff@skytech:/home/jeff/
+cd howto/
+cd 
+cd downloads/tarballs/
+sudo dpkg -i Minecraft.deb 
+sudo apt --fix-broken install
+sudo nano /etc/hosts
+ls
+scp server.jar jeff@skytech
+ssh jeff@skytech 
+gw
+code .
+..
+./up.sh 
+cd
+ssh jeff@skytech
 exit
-sudo pacman -Rns xfce4-terminal
-sudo pacman -Rns xfce4-terminal endeavouros-xfce4-terminal-colors 
-exit
-upall
-exit
-sudo pacman -Rns gnome-terminal
-exit
-upall
-clenaup
-exit
-sudo reboot -n
-sudo reboot -n
-xprop
-yay pamac
-exit
-yay pamac
-sudo pacman -Syy
-upall
+cd fitzland/
+cd octo-potato/
+gs
+.up
+gws
+cd journal/
+cd newt/
+cd matthew/sotm/
+cd extra/
+cd ..
+update
+upgrade
+sudo apt autoclean
 cleanup
+ssh jeff@optiplex
+scp ~/.bashrc jeff@skytech:/home/jeff/
+cd howto/
+cd 
+cd downloads/tarballs/
+sudo dpkg -i Minecraft.deb 
+sudo apt --fix-broken install
+sudo nano /etc/hosts
+scp server.jar jeff@skytech
+ssh jeff@skytech 
+cd
+ssh jeff@skytech
+sudo apt install pandoc
+pandoc ~/git/fitzland/octo-potato/docs/journal/newt/matthew/sotm/matt05-righteousness-250406.html matt05-righeousness-250406-test.md
+gw
+..
+ls
+code .
+./up.sh 
 exit
-sudo pacman -Syu gnome
+update
+upgrade
+sudo apt autoclean
+sudo apt autoremove
+gw
+..
+code .
+./up.sh 
+cd
+ssh jeff@skytech
+nmap -sn $NETWORK_RANGE 
+ssh jeff@192.168.1.136
 exit
-yay spotify
+cd
+ssh jeff@192.168.1.136
+nhosts
+update
+upgrade
+nmap -sn $NETWORK_RANGE 
+ssh jeff@skytech
+sudo apt install catfish
 exit
-upall
-cleanup
-exit
-sudo lxappearance
-xkill
-yay adwaita
-yay kvantum
-exit
-upall
-cleanup
-exit
-yay lxsession
-exit
-sudo lxappearance
-eos-packagelist --list
-exit
-sudo pacman -Rns gnome
-exit
-eos-packagelist --list
-eos-packagelist --install "KDE=Desktop"
-eos-packagelist --install "KDE-Desktop"
+sudo apt install sxhkd
 exit

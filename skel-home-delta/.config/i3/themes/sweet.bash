@@ -6,7 +6,7 @@
 # -----------------------------------------------------------------------------
 
 # Wallpaper
-wallpaper='/usr/share/backgrounds/sweet.png'
+wallpaper='/usr/share/backgrounds/hack.png'
 
 # Special
 background='#161925'

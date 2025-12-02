@@ -1,10 +1,16 @@
-.xfce4-panel.panel {
+.xfce4-panel {
+
+  border-radius: 0;
+
+  &.panel {
     background-color: $panel_bg_color;
     text-shadow: none;
     -gtk-icon-shadow: none;
 
-    button.flat { @extend %panelbutton; }
+    // the .open_group class is used to avoid theming of docklike-plugin buttons and keep them as default
+    button.flat:not(.open_group) { @extend %panelbutton; }
   }
+}
 
   #tasklist-button {
     color: transparentize($panel_fg_color, 0.2);
@@ -29,6 +35,7 @@
     border-radius: 0;
     border: none;
     background-color: transparentize($panel_bg_color, 1);
+    transition: none;
 
     &:hover {
       border: none;
@@ -37,8 +44,13 @@
     &:active, &:checked {
       color: $selected_fg_color;
       border: none;
-      background-color: $selected_bg_color;
-
+      background:
+      linear-gradient(to right, #f8ab95, #f17dad, #ee73c8)
+      left 
+      bottom
+      lighten($panel_bg_color, 8%)
+      no-repeat; 
+      background-size: 100% 2px; 
       label, image { color: inherit; }
     }
   }
@@ -54,4 +66,32 @@
     &:hover, &:checked {
         background-color: $selected_bg_color;
     }
+}
+
+/* Vala-appmenu-plugin*/
+
+.-vala-panel-appmenu-core scrolledwindow,
+.-vala-panel-appmenu-private > menuitem,
+.-vala-panel-appmenu-private > menuitem:first-child > label {
+    color: $panel_fg_color;
+}
+
+// Notifications
+
+#XfceNotifyWindow {
+  background-color: darken($bg_color, 2%);
+  border-radius: 12px;
+  border-width: 1px;
+  border: 1px solid $borders_color;
+  color: $fg_color;
+  padding: 40px;
+  &:hover, &:focus { background-color: $bg_color; }
+  label, image { color: $fg_color; }
+  button { 
+    @include button(normal); 
+    &:hover {
+      @include button(hover, $selected_bg_color);
+      label { color: $selected_fg_color; }
+    }
+  }
 }

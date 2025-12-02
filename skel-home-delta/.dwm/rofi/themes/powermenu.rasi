@@ -2,9 +2,9 @@
 /* Everyone is permitted to copy and distribute copies of this file under GNU-GPL3 */
 
 configuration {
-    font:                           "Iosevka 10";
+    font:                           "Iosevka Term Nerd Font 10";
     show-icons:                     false;
-    display-drun: 					"";
+    display-drun:					"";
     drun-display-format:            "{icon} {name}";
     disable-history:                false;
 	click-to-exit: 					true;
@@ -32,17 +32,19 @@ prompt {
     padding:    					6px 0px 6px 0px;
 	background-color: 				@background;
 	text-color: 					@foreground;
-    border:                  		0px 0px 0px 0px;
-    border-color:                  	@selected;
+    border:                  		0px;
+    border-color:                  	@on;
     border-radius:                  0px;
 }
 
 textbox-prompt-colon {
 	expand: 						false;
-	str: 							"";
+	str: 							"POWER";
+    border:                         1px;
+    border-color:                   @on;
     border-radius:                  0px;
-    background-color:               @selected;
-    text-color:                     @background;
+    background-color:               @background;
+    text-color:                     @on;
     padding:    					6px 10px 6px 10px;
 	font:							"Iosevka Nerd Font 10";
 }
@@ -63,7 +65,7 @@ inputbar {
     spacing:                        0;
     background-color:               @background;
     text-color:                     @foreground;
-    border:                  		0px 0px 1px 0px;
+    border:                  		0px;
     border-radius:                  0px;
     border-color:                  	@selected;
     expand:                         false;

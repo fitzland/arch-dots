@@ -49,12 +49,6 @@
       }
     }
   }
-  &.background {
-    background-color: transparentize(darken($base_color,3%),0.05);
-    &:backdrop {
-      background-color: transparentize(darken($base_color,3%),0.05);
-    }
-  }
 
   notebook {
     > stack:only-child { // the :not(:only-child) is for "hidden" notebooks
@@ -101,37 +95,6 @@
           }
         }
       }
-    }
-  }
-
-  .path-buttons-box, #NautilusPathBar {
-    background: transparent;
-    
-    .dim-label { 
-      color: transparent; 
-      margin-right: -7px;
-    }
-  
-    //Buttons before current path
-    button {
-      margin-top: 0;
-      margin-bottom: 0;
-      .horizontal  .dim-label { color: $headerbar_fg_color; }
-      &:hover, &:focus {
-        .dim-label { color: $selected_bg_color; }
-        background-color: transparent;
-        box-shadow: none;
-      }
-      &:active { background-color: transparent; }
-    }
-    button > .horizontal > image.dim-label { 
-      margin-right: 10px;
-    }
-    .current-dir label {
-      padding: 3px 12px;
-      @include button(hover-header);
-      border-radius: 5px;
-      &:backdrop { color: $backdrop_selected_bg_color; }
     }
   }
 }
@@ -225,4 +188,27 @@
     transition: none;
     &:hover { color: $selected_bg_color; }
   } 
+}
+
+/*******************
+ * Calendar events *
+********************/
+.color-light {
+  &.timed label, .event-popover label {
+    color: $fg_color;
+    opacity: 1;
+  }
+  & label {
+    color: $bg_color;
+    opacity: 1;
+  }
+}
+
+/******************************
+ * Gnome system monitor graph *
+******************************/
+
+#gnome-system-monitor .loadgraph  {
+  background: $bg_color;
+  color: $text_color;
 }

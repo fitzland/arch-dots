@@ -2,13 +2,13 @@
 size = 12
 
 [font.bold]
-family = "Iosevka Nerd Font"
+family = "IosevkaTerm Nerd Font"
 
 [font.bold_italic]
-family = "Iosevka Nerd Font"
+family = "IosevkaTerm Nerd Font"
 
 [font.italic]
-family = "Iosevka Nerd Font"
+family = "IosevkaTerm Nerd Font"
 
 [font.normal]
-family = "Iosevka Nerd Font"
+family = "IosevkaTerm Nerd Font"

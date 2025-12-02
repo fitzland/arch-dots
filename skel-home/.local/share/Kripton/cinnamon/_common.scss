@@ -647,9 +647,175 @@ StScrollBar {
 // Calendar 
 //
 .calendar {
-  padding: .4em 1.75em;
-  spacing-rows: 0px;
-  spacing-columns: 0px;
+  spacing-rows: 0;
+  spacing-columns: 0;
+}
+
+.calendar-main-box {
+  margin: 0 .8em .5em .8em;
+}
+
+.calendar-events-main-box {
+  height: 300px;
+  margin-right: .5em;
+  padding: .5em;
+  min-width: 350px;
+  border: 1px solid $borders_color;
+  background-color: $base_color;
+}
+
+.calendar-events-no-events-box {
+}
+
+.calendar-events-no-events-button {
+  margin: 6px 0 6px 0;
+  padding: 6px;
+
+  &:hover {
+    background-color: $selected_bg_color;
+
+    .calendar-events-no-events-icon,
+    .calendar-events-no-events-label {
+      color: $selected_fg_color;
+    }
+  }
+}
+
+.calendar-events-no-events-icon,
+.calendar-events-no-events-label {
+  font-weight: bold;
+  color: $fg_color;
+  text-align: center;
+}
+
+.calendar-events-date-label {
+  padding: .1em .1em .5em .1em;
+  color: $fg_color;
+  font-weight: bold;
+  text-align: center;
+}
+
+.calendar-events-event-container {
+  padding: 0;
+}
+
+.calendar-event-button {
+  border: 1px solid rgba(0,0,0,0);
+
+  .calendar-event-time-past {
+    color: transparentize($fg_color, 0.6);
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: .2em;
+  }
+  .calendar-event-time-present {
+    color: $fg_color;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: .2em;
+
+    &:all-day {
+      color: $selected_bg_color;
+    }
+  }
+  .calendar-event-time-future {
+    color: $fg_color;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: .2em;
+  }
+
+  .calendar-event-summary {
+    color: $fg_color;
+    text-align: left;
+    width: 200px;
+  }
+
+  .calendar-event-countdown {
+    text-align: right;
+    margin-bottom: .6em;
+    color: $fg_color;
+
+    &:soon {
+      font-weight: bold;
+    }
+    &:imminent {
+      font-weight: bold;
+      color: $warning_color;
+    }
+    &:current {
+      font-weight: bold;
+      color: $selected_bg_color;
+    }
+  }
+
+  &:hover {
+    background-color: $selected_bg_color;
+    border: 1px solid $borders_color;
+    .calendar-event-time-past,
+    .calendar-event-time-present,
+    .calendar-event-time-future,
+    .calendar-event-summary {
+      color: $selected_fg_color
+    }
+
+    .calendar-event-countdown {
+      text-align: right;
+      margin-bottom: .6em;
+      color: $selected_fg_color;
+
+      &:soon {
+        font-weight: bold;
+      }
+      &:imminent {
+        font-weight: bold;
+      }
+      &:current {
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+.calendar-event-row-content {
+}
+
+.calendar-event-color-strip {
+  width: 2px;
+}
+
+.calendar-today-home-button {
+  padding: 6px;
+}
+
+.calendar-today-day-label {
+  font-size: 1.75em;
+  color: $fg_color;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: .1em;
+}
+
+.calendar-today-date-label {
+  font-size: 1.1em;
+  color: $fg_color;
+  font-weight: bold;
+  text-align: center;
+}
+
+.calendar-today-home-button-enabled {
+  padding: 6px;
+
+  &:hover {
+    background-color: $selected_bg_color;
+
+    .calendar-today-day-label {
+      color: $selected_fg_color
+    }
+    .calendar-today-date-label {
+      color: $selected-fg-color
+    }
+  }
 }
 
 .calendar-month-label {
@@ -698,33 +864,41 @@ StScrollBar {
   }
 }
 
-.datemenu-date-label {
-  padding: .4em 1.75em;
-  font-weight: bold;
-  text-align: center;
-  color: $fg_color;
+.calendar-day-event-dot-box {
+  margin-top: 1.7em;
+  max-rows: 1;
+}
+
+.calendar-day-event-dot {
+  margin: 1px;
   border-radius: 2px;
+  width: 4px;
+  height: 4px;
 }
 
 .calendar-day-base {
-  font-size: 80%;
+  font-size: 1em;
   text-align: center;
-  width: 25px;
-  height: 25px;
+  width: 2.2em;
+  height: 2.2em;
   padding: 0.1em;
-  margin: 2px;
-  border-radius: 12.5px;
+
+  &:hover {
+    font-weight: bold;
+    color: $selected_fg_color;
+    background-color: $selected_bg_color;
+  }
 }
 
 .calendar-day-heading {
   color: transparentize($fg_color, 0.15);
   margin-top: 1em;
-  font-size: 70%;
+  font-size: 1.05em;
 }
 
 .calendar-day {
   border-width: 0;
-  color: transparentize($fg_color, 0.2);
+  color: transparentize($fg_color, 0.1);
 }
 
 .calendar-day-top {
@@ -741,14 +915,28 @@ StScrollBar {
   font-weight: bold;
 }
 
-.calendar-today,
-.calendar-today:active,
-.calendar-today:focus,
-.calendar-today:hover {
-  font-weight: bold;
-  color: $selected_fg_color;
-  background-color: $selected_bg_color;
+.calendar-today {
+  color: $fg_color;
+  background-color: if($variant == 'light', transparentize($selected_bg_color, 0.6), transparentize($selected_bg_color, 0.6));
   border-width: 0;
+
+  &:selected {
+    font-weight: bold;
+  }
+}
+
+.calendar-not-today {
+  color: $fg_color;
+
+  &:selected {
+    font-weight: bold;
+    background-color: if($variant == 'light', transparentize($fg_color, 0.7), transparentize($fg_color, 0.6));
+
+    &:hover {
+      font-weight: bold;
+      color: $fg_color;
+    }
+  }
 }
 
 .calendar-other-month-day {
@@ -756,9 +944,15 @@ StScrollBar {
   opacity: 1;
 }
 
+.calendar-other-month-day:hover {
+  color: $selected_fg_color;
+  opacity: 1;
+}
+
 .calendar-week-number {
-  color: transparentize($fg_color, 0.3);
-  font-size: 80%;
+  color: transparentize($fg_color, 0.15);
+  font-size: 0.8em;
+  margin-top: 0.8em;
 }
 
 //
@@ -1301,7 +1495,7 @@ StScrollBar {
     padding-left: 8px;
     padding-right: 8px;
     transition-duration: 100;
-    color: transparentize($selected_fg_color, 0.4);
+    color: transparentize($panel_fg, 0.3);
 
     &.top,
     &.bottom {
@@ -1329,7 +1523,7 @@ StScrollBar {
     &:hover,
     &:groupFocus {
       color: $selected_bg_color;
-      background-color: transparentize($selected_fg_color, 0.9);
+      background-color: transparentize($panel_fg, 0.9);
     }
 
     &:active,
@@ -1338,6 +1532,7 @@ StScrollBar {
     &:running {
       color: $fg_color;
       border-color: $selected_bg_color;
+      background-color: transparentize($panel_fg, 0.9);
     }
 
     & .progress {
@@ -1551,18 +1746,21 @@ StScrollBar {
 
 // 2.8
 .sound-player {
-  padding: 0 4px;
+  // padding: 0 4px;
 
   > StBoxLayout:first-child {
     padding: 5px 10px 12px 10px;
     spacing: 0.5em;
 
     StButton:small {
-      width: 16px;
-      height: 8px;
-      padding: 1px;
+      width: 20px;
+      height: 20px;
+      border: 1px solid transparent;
 
       StIcon { icon-size: 12px; }
+
+      &:hover { @include button(hover); }
+      &:active { @include button(active); }
     }
   }
 
@@ -1572,21 +1770,22 @@ StScrollBar {
 
   &-overlay {
     width: 290px;
-    height: 70px;
     padding: 15px;
     spacing: 0.5em;
-    background: transparentize(darken($osd_bg_color, 5%), 0.1);
-    border: 0px solid darken($osd_bg_color, 10%);
-    border-bottom: 1px ;
-    color: $osd_fg_color;
+    background: transparentize($osd_bg_color, 0.1);
+    border-top: 1px solid $borders_color;
+    // background: transparentize(darken($osd_bg_color, 5%), 0.1);
+    // border: 0px solid darken($osd_bg_color, 10%);
+    // border-bottom: 1px ;
+    color: $fg_color;
 
     StButton {
       width: 22px;
       height: 13px;
       padding: 5px;
-      color: $osd_fg_color;
+      color: $fg_color;
       border-radius: 2px;
-      border: 1px solid transparentize($osd_bg_color,1);
+      border: 1px solid transparent;
 
       StIcon { icon-size: 16px; }
 
@@ -1596,6 +1795,10 @@ StScrollBar {
 
     StBoxLayout {
       padding-top: 2px;
+    }
+
+    > StBoxLayout {
+      spacing: 5px;
     }
   }
 
@@ -1673,28 +1876,30 @@ StScrollBar {
 //
 // Panel Launchers Applet (panelLaunchers.js)
 //
-#panel-launchers-box {
+.panel-launchers {
   padding-left: 7px;
+  spacing: 2px;
+
+  & .launcher {
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+    // border-bottom-width: 1px;
+    transition-duration: 200;
+    &:hover { background-color: transparentize($panel_fg, 0.9); }
+  }
 
   &.vertical {
-    padding: 2px 0;
-  }
-}
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left:0px;
+    padding-right: 0px;
+    spacing: 1px;
 
-.panel-launcher,
-.launcher {
-  margin: 1px;
-  padding: 1px;
-  transition-duration: 200;
-
-  &:hover {
-    background-gradient-direction: none;
-    border: 0px solid $selected_bg_color;
-
-    .panel-bottom & { border-bottom-width: 1px; }
-    .panel-top & { border-top-width: 1px; }
-    .panel-left & { border-left-width: 1px; padding-left: 0; }
-    .panel-right & { border-right-width: 1px; padding-right: 0; }
+    & .launcher {
+      padding-top: 2px;
+      padding-bottom: 2px;
+    }
   }
 }
 

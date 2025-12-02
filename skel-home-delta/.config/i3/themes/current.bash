@@ -1,33 +1,34 @@
-# -----------------------------------------------------------------------------
-# Copyright (C) 2020-2022 Aditya Shakya <adi1090x@gmail.com>
+# ------------------------------------------------------------------------------
+# Copyright (C) 2020-2021 Aditya Shakya <adi1090x@gmail.com>
 # Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
 #
-# Forest color scheme
-# -----------------------------------------------------------------------------
+# Cubic color scheme
+# ------------------------------------------------------------------------------
 
 # Wallpaper
-wallpaper='/usr/share/backgrounds/forest.jpg'
+wallpaper='/usr/share/backgrounds/cubic.jpg'
 
 # Special
-foreground='#C4C7C5'
-background='#222D32'
-cursor='#C4C7C5'
+foreground='#c5c8c6'
+background='#1d1f21'
+cursor='#c5c8c6'
 
 # Colors
-color0='#263640'
-color1='#EC7875'
-color2='#61C766'
-color3='#FDD835'
-color4='#42A5F5'
-color5='#BA68C8'
-color6='#4DD0E1'
-color7='#bfbaac'
-color8='#4a697d'
-color9='#FB8784'
-color10='#70D675'
-color11='#FFE744'
-color12='#51B4FF'
-color13='#C979D7'
-color14='#5CDFF0'
-color15='#fdf6e3'
-\n# Don't Delete This File
+color0='#1d1f21'
+color1='#cc6666'
+color2='#b5bd68'
+color3='#f0c674'
+color4='#81a2be'
+color5='#b294bb'
+color6='#8abeb7'
+color7='#c5c8c6'
+color8='#969896'
+color9='#cc6666'
+color10='#b5bd68'
+color11='#f0c674'
+color12='#81a2be'
+color13='#b294bb'
+color14='#8abeb7'
+color15='#ffffff'
+
+# Don't Delete This File
