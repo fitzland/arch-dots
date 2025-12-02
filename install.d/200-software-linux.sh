@@ -135,7 +135,7 @@ list=(
 ghostwriter
 #gramps
 gnucash
-libreoffice-fresh
+libreoffice-still
 xreader
 zim
 )
